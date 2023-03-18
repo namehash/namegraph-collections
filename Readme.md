@@ -62,6 +62,23 @@ WHERE {
 
 ## 2. Download category members
 
+`python scripts/download_category_members.py data/categories.json data/category_members.jsonl`
+
 # 3. For all articles (in lists and categories) get Wikidata ID
 
+Parse `enwiki-latest-page_props.sql` and save `title`, `page_image_free`, `wikibase-shortdesc`, `wikibase_item`.
+
+
 # 4. For each list/category filter out members with list's/category's type
+```
+SELECT DISTINCT ?item WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q515
+  FILTER (?item IN (wd:Q60,wd:Q61,wd:Q62,wd:5))
+}
+```
+
+
+
+# 5. Get page views of every list and category
+
+Download from https://qrank.wmcloud.org/
