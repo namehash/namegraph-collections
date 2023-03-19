@@ -34,6 +34,8 @@ order by desc(?count)
 
 ## 2. Download outgoing links to Wikipedia articles
 
+`python scripts/download_category_members_and_links.py --mode list data/lists.json data/list_links.jsonl`
+
 # Wikipedia Categories
 
 ## 1. Download Categories with Wikipedia type
@@ -62,18 +64,28 @@ WHERE {
 
 ## 2. Download category members
 
-`python scripts/download_category_members.py data/categories.json data/category_members.jsonl`
+`python scripts/download_category_members_and_links.py data/categories.json data/category_members.jsonl`
 
 # 3. For all articles (in lists and categories) get Wikidata ID
 
 Parse `enwiki-latest-page_props.sql` and save `title`, `page_image_free`, `wikibase-shortdesc`, `wikibase_item`.
 
+https://github.com/jcklie/wikimapper/tree/master
 
-# 4. For each list/category filter out members with list's/category's type
+Missing some data (thousands), e.g. Dhahbah, Avgustini - new pages
+
+# 4. For each list/category filter members with list's/category's type
 ```
 SELECT DISTINCT ?item WHERE {
-  ?item wdt:P31/wdt:P279* wd:Q515
+  ?item wdt:P31*/wdt:P279* wd:Q515
   FILTER (?item IN (wd:Q60,wd:Q61,wd:Q62,wd:5))
+}
+```
+or (better?)
+```
+SELECT DISTINCT ?item WHERE {
+  VALUES (?item) {(wd:Q60)(wd:Q61)(wd:Q62)(wd:Q5)}
+  ?item wdt:P31*/wdt:P279* wd:Q515
 }
 ```
 
@@ -82,3 +94,11 @@ SELECT DISTINCT ?item WHERE {
 # 5. Get page views of every list and category
 
 Download from https://qrank.wmcloud.org/
+
+# 6. How to get description and image for a category or list?
+
+"The main article for this category is Apples." - TODO redirects?
+
+https://en.wikipedia.org/wiki/Template:Cat_main
+
+https://www.wikidata.org/wiki/Q11750 - page banner property
