@@ -5,7 +5,7 @@ import jsonlines as jsonlines
 from tqdm import tqdm
 
 if __name__ == '__main__':
-    parser = ArgumentParser(description='Calculate stats of category memebrs.')
+    parser = ArgumentParser(description='Calculate stats of category members.')
     parser.add_argument('input', help='JSONL file with category members')
     args = parser.parse_args()
 
@@ -15,7 +15,7 @@ if __name__ == '__main__':
     with jsonlines.open(args.input) as reader:
         for obj in tqdm(reader):
             type = obj['type']
-            members = [x[1] for x in obj['members']]
+            members = obj['members']
             all_members.extend(members)
             type_members[type].update(members)
 
@@ -39,5 +39,5 @@ if __name__ == '__main__':
             # else:
             #     print(article)
         print('Unique articles with wikidata', articles_wikidata)
-        
+
         # Unique articles with wikidata 7030117

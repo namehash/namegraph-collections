@@ -4,3 +4,4 @@ jsonlines
 sparqlwrapper
 tqdm
 git+https://github.com/djstrong/wikimapper@patch-1
+more_itertools

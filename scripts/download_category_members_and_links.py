@@ -15,24 +15,22 @@ wiki_wiki = wikipediaapi.Wikipedia(
 )
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 
-wiki_wiki = wikipediaapi.Wikipedia(
-    language='en',
-    extract_format=wikipediaapi.ExtractFormat.WIKI
-)
 
-
-def category_members(category_name: str) -> list:
+def category_members(category_name: str) -> list[str]:
     members = set()
+
+    if not category_name.startswith('Category:'):  # those are deleted categories anyway
+        category_name = 'Category:' + category_name
 
     category = wiki_wiki.page(category_name, unquote=True)
     for member in wiki_wiki.categorymembers(category, cmnamespace=0).values():
         if member.ns == wikipediaapi.Namespace.MAIN:
-            members.add((member.pageid, member.title))
+            members.add(member.title)
 
     return list(members)
 
 
-def links(article_name: str) -> list:
+def links(article_name: str) -> list[str]:
     links = set()
 
     article = wiki_wiki.page(article_name, unquote=True)
@@ -44,6 +42,7 @@ def links(article_name: str) -> list:
 
 
 def category_members2(category_name: str) -> list:
+    """Uses Wikidata sparql, might have worse API limits but returns Wikidata id."""
     a = """SELECT ?item ?pageid ?title WHERE {{
       SERVICE wikibase:mwapi {{
          bd:serviceParam wikibase:api "Generator" .
