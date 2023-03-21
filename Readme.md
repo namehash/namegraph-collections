@@ -197,6 +197,13 @@ Members 7057739 valid, 25985431 invalid
 
 Download from https://qrank.wmcloud.org/
 
+```
+python scripts/prepare_collections.py data/validated_list_links.jsonl qrank.csv data/list_links_collections.jsonl
+```
+```
+python scripts/prepare_collections.py data/validated_category_members.jsonl qrank.csv data/category_members_collections.jsonl
+```
+
 # 6. How to get description and image for a category or list?
 
 "The main article for this category is Apples." - TODO redirects?
