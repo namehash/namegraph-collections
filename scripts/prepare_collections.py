@@ -24,7 +24,6 @@ if __name__ == '__main__':
 
     wiki_api = WikiAPI()
 
-    # TODO add sorting first because jq can't do this
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
         for obj in tqdm(reader, total=args.n):
             collection_item = obj['item']

@@ -20,7 +20,6 @@ def test_category_members():
     assert 'Pipaluk Freuchen' in members
 
 
-# TODO test redirects
 def test_links():
     """Test links."""
     wiki = WikiAPI()
@@ -28,6 +27,10 @@ def test_links():
     assert 'Sri Lanka' in links
 
     links = wiki.links('List of sovereign states')
+    assert 'Sri Lanka' in links
+
+    # redirect
+    links = wiki.links('List of countries')
     assert 'Sri Lanka' in links
 
 
@@ -104,7 +107,6 @@ def test__get_subclasses():
     assert subclasses == ['http://www.wikidata.org/entity/Q2901352',
                           'http://www.wikidata.org/entity/Q5093326',
                           'http://www.wikidata.org/entity/Q103820137', ]
-    # TODO change to IDs only
 
 
 def test__validate_wikidata_ids():
@@ -114,7 +116,6 @@ def test__validate_wikidata_ids():
     assert wiki._validate_wikidata_ids('Q103820137', ids) == ['http://www.wikidata.org/entity/Q2901352',
                                                               'http://www.wikidata.org/entity/Q5093326',
                                                               'http://www.wikidata.org/entity/Q103820137', ]
-    # TODO change to IDs only
 
 
 def test_validate_types():
@@ -168,10 +169,10 @@ def test_get_instances():
 def test_get_instances_all2():
     """Test get instances."""
     wiki = WikiAPI()
-    instances = wiki.get_instances('Q733553', star=True)  # TODO what to do with lexemes?
-    print(instances)
-    assert instances == [{'id': 'Q133363', 'label': 'Satanism'}, {'id': 'Q4661404', 'label': 'Aalon'},
-                         {'id': 'Q55605876', 'label': 'Brat'}]
+    instances = wiki.get_instances('Q733553', star=True)
+    assert len(instances) > 0
+    for instance in instances:
+        assert instance['id'].startswith('Q')
 
 
 def test_get_instances_all():

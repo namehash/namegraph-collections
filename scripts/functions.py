@@ -86,7 +86,7 @@ class WikiAPI:
         """
         if (not article.startswith('http://')) and (not article.startswith('https://')):
             return article
-        
+
         m = re.match(r'https?://en\.wikipedia\.org/wiki/(.+)', article)
         return m.group(1)
 
@@ -247,7 +247,7 @@ class WikiAPI:
 
     def get_instances(self, wikidata_id: str, star: bool = False) -> list[dict]:
         """
-        Returns instances of the type using Wikidata API.
+        Returns instances of the type using Wikidata API. Filter out no entities (e.g. lexemes L...)
         :param wikidata_id: Wikidata ID of the type
         :param star: if True, returns also instances of subclasses
         :return: list of instances with their Wikidata IDs and labels
@@ -267,9 +267,13 @@ class WikiAPI:
 
         results = self.sparql.query().convert()
 
-        res = [{
-            'id': WikiAPI.extract_id(item['instance']['value']),
-            'label': WikiAPI.extract_article_name(item['instanceLabel']['value']), #TODO?
-        } for item in results['results']['bindings']]
-
+        res = []
+        for item in results['results']['bindings']:
+            try:
+                res.append({
+                    'id': WikiAPI.extract_id(item['instance']['value']),
+                    'label': item['instanceLabel']['value'],
+                })
+            except AssertionError:
+                continue
         return res
