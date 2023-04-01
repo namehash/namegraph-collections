@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
             valid_members = []
             for member in members:
-                article_name = WikiAPI.extract_id(member)
+                article_name = WikiAPI.extract_article_name(member)
 
                 article_is_valid = False
                 article_types = articles_types.get(article_name, [])

@@ -1,3 +1,5 @@
+import re
+
 import regex
 import wikipediaapi
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -14,7 +16,7 @@ class WikiAPI:
         self.mapper = None
         self.ens_cache = {}
 
-    def init_wikimapper(self, wiki_mapper_path: str):
+    def init_wikimapper(self, wiki_mapper_path: str = 'data/index_enwiki-latest.db'):
         self.mapper = WikiMapper(wiki_mapper_path)
 
     def category_members(self, category_name: str) -> list[str]:
@@ -76,8 +78,22 @@ class WikiAPI:
         return res
 
     @staticmethod
+    def extract_article_name(article: str) -> str:
+        """
+        Extracts article name from the link.
+        :param article: link to the article
+        :return: article name
+        """
+        if (not article.startswith('http://')) and (not article.startswith('https://')):
+            return article
+        
+        m = re.match(r'https?://en\.wikipedia\.org/wiki/(.+)', article)
+        return m.group(1)
+
+    @staticmethod
     def extract_id(link: str) -> str:
-        return link.split('/')[-1]  # TODO fix?
+        assert link.startswith('http://www.wikidata.org/entity/Q')
+        return link.split('/')[-1]
 
     @staticmethod
     def _extract_ids(links: list[str]) -> list[str]:
@@ -188,7 +204,7 @@ class WikiAPI:
 
     @staticmethod
     def curate_name(collection_article: str):
-        name = WikiAPI.extract_id(collection_article)
+        name = WikiAPI.extract_article_name(collection_article)
         name = name.replace('_', ' ')
         name = regex.sub('^List of ', '', name)
         name = regex.sub('^Category:', '', name)
@@ -253,7 +269,7 @@ class WikiAPI:
 
         res = [{
             'id': WikiAPI.extract_id(item['instance']['value']),
-            'label': WikiAPI.extract_id(item['instanceLabel']['value']),
+            'label': WikiAPI.extract_article_name(item['instanceLabel']['value']), #TODO?
         } for item in results['results']['bindings']]
 
         return res
