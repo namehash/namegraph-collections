@@ -3,7 +3,7 @@ from argparse import ArgumentParser
 import jsonlines as jsonlines
 from tqdm import tqdm
 
-from download_articles_types import extract_id
+from scripts.functions import WikiAPI
 from types_to_validate import load_articles_types
 
 CORRECT = 'correct'
@@ -41,7 +41,7 @@ if __name__ == '__main__':
         for obj in tqdm(reader):
             collection_item = obj['item']
             collection_type = obj['type']
-            collection_type_id = extract_id(collection_type)
+            collection_type_id = WikiAPI.extract_id(collection_type)
             collection_article = obj['article']
             members = obj['members']
 
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
             valid_members = []
             for member in members:
-                article_name = extract_id(member)
+                article_name = WikiAPI.extract_id(member)
 
                 article_is_valid = False
                 article_types = articles_types.get(article_name, [])
@@ -72,7 +72,7 @@ if __name__ == '__main__':
                     count_invalid_members += 1
 
             writer.write({
-                'item': extract_id(collection_item),
+                'item': WikiAPI.extract_id(collection_item),
                 'type': collection_type_id,
                 'article': collection_article,
                 'members': valid_members,

@@ -198,11 +198,16 @@ Members 7057739 valid, 25985431 invalid
 Download from https://qrank.wmcloud.org/
 
 ```
-python scripts/prepare_collections.py data/validated_list_links.jsonl qrank.csv data/list_links_collections.jsonl
+python scripts/prepare_collections.py data/validated_list_links.jsonl qrank.csv data/list_links_collections.jsonl -n 110925
 ```
 ```
-python scripts/prepare_collections.py data/validated_category_members.jsonl qrank.csv data/category_members_collections.jsonl
+python scripts/prepare_collections.py data/validated_category_members.jsonl qrank.csv data/category_members_collections.jsonl -n 460127
 ```
+```
+time jq -s -c 'sort_by(.template.collection_rank)|reverse[]' data/list_links_collections.jsonl > data/list_links_collections_sorted.jsonl
+time jq -s -c 'sort_by(.template.collection_rank)|reverse[]' data/category_members_collections.jsonl > data/category_members_collections_sorted.jsonl
+```
+
 
 # 6. How to get description and image for a category or list?
 
@@ -211,3 +216,90 @@ python scripts/prepare_collections.py data/validated_category_members.jsonl qran
 https://en.wikipedia.org/wiki/Template:Cat_main
 
 https://www.wikidata.org/wiki/Q11750 - page banner property
+
+
+Properties:
+
+## https://www.wikidata.org/wiki/Property:P1754 category related to list
+list of songs composed by Franz Schubert (Q3154234) -> Category:Songs with music by Franz Schubert
+
+SELECT DISTINCT ?item ?type
+WHERE {
+ ?item wdt:P1754 ?type  .
+}
+53532 results
+
+## https://www.wikidata.org/wiki/Property:P18 image
+SELECT DISTINCT ?item ?type ?image
+WHERE {
+?item wdt:P4224|wdt:P360 ?type .
+?item wdt:P18 ?image
+}
+2024 results
+SELECT DISTINCT ?item ?type ?image WHERE { ?item wdt:P18 ?image. }
+many
+
+## rdfs:label
+list of songs composed by Franz Schubert
+
+## schema:description
+
+## https://www.wikidata.org/wiki/Property:P1753 list related to category (P1753)
+SELECT DISTINCT ?item ?type
+WHERE {
+ ?item wdt:P1753 ?type  .
+}
+53681 results
+SELECT DISTINCT ?item ?type
+WHERE {
+ ?item wdt:P1753 ?type  .
+  ?type wdt:P1754 ?item .
+}
+53083 results
+
+
+## Commons category (P373)
+SELECT DISTINCT ?item ?type ?image
+WHERE {
+?item wdt:P4224|wdt:P360 ?type .
+?item wdt:P373 ?image
+}
+232780 results
+
+## For keywords: https://www.wikidata.org/wiki/Property:P971 category combines topics (P971)
+SELECT DISTINCT ?item ?type ?image
+WHERE {
+?item wdt:P4224 ?type .
+?item wdt:P971 ?image
+}
+929323 results
+
+## page banner (P948)
+SELECT DISTINCT ?item ?type ?image
+WHERE {
+?item wdt:P4224|wdt:P360 ?type .
+?item wdt:P948 ?image
+}
+468 results
+SELECT DISTINCT ?item ?type ?image WHERE { ?item wdt:P948 ?image. }
+26793 results
+
+## hashtag (P2572)
+SELECT DISTINCT ?item ?type ?image
+WHERE {
+?item wdt:P4224|wdt:P360 ?type .
+?item wdt:P2572 ?image
+}
+0 results
+SELECT DISTINCT ?item ?type ?image
+WHERE {
+?item wdt:P2572 ?image
+}
+10385 results
+
+## skos:altLabel
+
+
+# Why 2 the same?
+{"collection_name": "Highways in Poland", "collection_members": ["a4autostradapoland", "a8autostradapoland", "autostradaa2poland", "autostradaa1poland", "a1autostradapoland", "autostradaa4poland", "autostradaa6poland", "a18autostradapoland", "a6autostradapoland", "nationalroad18poland", "a2autostradapoland", "autostradaa18poland"], "collection_description": "", "collection_keywords": [], "collection_image": "", "metadata": {"collection_wikipedia_link": "https://en.wikipedia.org/wiki/Highways_in_Poland", "collection_wikidata_id": "Q926271", "collection_type_wikidata_id": "Q789026", "collection_articles": ["A4 autostrada (Poland)", "A8 autostrada (Poland)", "Autostrada A2 (Poland)", "Autostrada A1 (Poland)", "A1 autostrada (Poland)", "Autostrada A4 (Poland)", "Autostrada A6 (Poland)", "A18 autostrada (Poland)", "A6 autostrada (Poland)", "National road 18 (Poland)", "A2 autostrada (Poland)", "Autostrada A18 (Poland)"], "collection_rank": 625170}, "type": "template", "curated": false, "version": 0, "owner": "", "public": true, "category": "", "datetime": ""}
+{"collection_name": "Highways in Poland", "collection_members": ["expressways61poland", "expressways12poland", "expressways51poland", "expressways2poland", "expressways74poland", "expressways10poland", "expressways1poland", "expressways79poland", "expressways19poland", "expressways22poland", "expressways11poland", "a3autostradapoland", "expressways14poland", "expressways17poland", "expressways86poland", "expressways5poland", "expressways7poland", "expressways16poland", "expressways8poland", "expressways69poland", "expressways3poland", "expressways6poland"], "collection_description": "", "collection_keywords": [], "collection_image": "", "metadata": {"collection_wikipedia_link": "https://en.wikipedia.org/wiki/Highways_in_Poland", "collection_wikidata_id": "Q926271", "collection_type_wikidata_id": "Q1127434", "collection_articles": ["Expressway S61 (Poland)", "Expressway S12 (Poland)", "Expressway S51 (Poland)", "Expressway S2 (Poland)", "Expressway S74 (Poland)", "Expressway S10 (Poland)", "Expressway S1 (Poland)", "Expressway S79 (Poland)", "Expressway S19 (Poland)", "Expressway S22 (Poland)", "Expressway S11 (Poland)", "A3 autostrada (Poland)", "Expressway S14 (Poland)", "Expressway S17 (Poland)", "Expressway S86 (Poland)", "Expressway S5 (Poland)", "Expressway S7 (Poland)", "Expressway S16 (Poland)", "Expressway S8 (Poland)", "Expressway S69 (Poland)", "Expressway S3 (Poland)", "Expressway S6 (Poland)"], "collection_rank": 625170}, "type": "template", "curated": false, "version": 0, "owner": "", "public": true, "category": "", "datetime": ""}

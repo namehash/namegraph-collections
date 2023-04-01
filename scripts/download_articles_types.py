@@ -5,86 +5,13 @@ import urllib
 from argparse import ArgumentParser
 
 import more_itertools
-from SPARQLWrapper import SPARQLWrapper, JSON
-from wikimapper import WikiMapper
 import jsonlines as jsonlines
 from tqdm import tqdm
 
+from scripts.functions import WikiAPI
+
 CORRECT = 'correct'
 INCORRECT = 'incorrect'
-
-sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-sparql.setMethod('POST')
-
-
-def get_types(articles):
-    # convert article names to wikidata id
-    members_ids = {}
-    for member in articles:
-        wikidata_id = mapper.title_to_id(member.replace(' ', '_'))
-        # print(member)
-        if wikidata_id is not None:
-            members_ids[wikidata_id] = member
-        # else:
-        #     print('NONE', member)
-
-    types = get_types_wikidata_ids(members_ids.keys())
-
-    # print(members_ids)
-    # assert len(types)==len(articles)
-    validated_articles = set()
-    for type in types:
-        # print(type)
-
-        type['article'] = members_ids[type['article']]
-        validated_articles.add(type['article'])
-
-    for article in set(articles) - validated_articles:
-        # print('Adding', article)
-        types.append({
-            'article': article,
-            'instanceof': [],
-            'subclassof': []
-        })
-
-    return types
-
-
-def extract_id(link):
-    return link.split('/')[-1]
-
-
-def extract_ids(links):
-    return [extract_id(link) for link in links if link]
-
-
-def get_types_wikidata_ids(ids):
-    members_str = ''.join([f'(wd:{id})' for id in ids])
-    query = """SELECT DISTINCT ?item ( GROUP_CONCAT ( DISTINCT ?instanceofs) AS ?instanceof ) ( GROUP_CONCAT ( DISTINCT ?subclassofs) AS ?subclassof ) {{
-  VALUES (?item) {{{members_str}}}
-  OPTIONAL {{?item wdt:P31 ?instanceofs}} .
-  OPTIONAL {{?item wdt:P279 ?subclassofs}}
-}} GROUP BY ?item""".format(members_str=members_str)
-
-    # print(query)
-    # return
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-
-    # print(results)
-
-    res = [{
-        'article': extract_id(item['item']['value']),
-        'instanceof': extract_ids(item['instanceof']['value'].split(' ')),
-        'subclassof': extract_ids(item['subclassof']['value'].split(' '))
-    } for item in results['results']['bindings']]
-
-    # print(res)
-    # return
-
-    return res
-
 
 if __name__ == '__main__':
     parser = ArgumentParser(description='For each Wikipedia article get instance of and subclass of.')
@@ -128,13 +55,15 @@ if __name__ == '__main__':
 
     all_members = list(set(all_members) - processed_articles)
 
-    mapper = WikiMapper(args.wiki_mapper)
+    # mapper = WikiMapper(args.wiki_mapper)
+    wiki_api = WikiAPI()
+    wiki_api.init_wikimapper(args.wiki_mapper)
 
     with jsonlines.open(args.output, mode='a') as writer:
         for members_batch in tqdm(list(more_itertools.chunked(all_members, args.batch_size)), leave=False):
             try:
                 time.sleep(1)
-                types = get_types(members_batch)
+                types = wiki_api.get_types(members_batch)
                 writer.write_all(types)
             except urllib.error.HTTPError as e:
                 print(e)
