@@ -92,8 +92,10 @@ class WikiAPI:
 
     @staticmethod
     def extract_id(link: str) -> str:
-        assert link.startswith('http://www.wikidata.org/entity/Q')
-        return link.split('/')[-1]
+        # assert link.startswith('http://www.wikidata.org/entity/Q')
+        if link.startswith('http://www.wikidata.org/entity/Q'):
+            return link[len('http://www.wikidata.org/entity/'):]
+        return link
 
     @staticmethod
     def _extract_ids(links: list[str]) -> list[str]:
