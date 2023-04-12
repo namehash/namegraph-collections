@@ -7,7 +7,7 @@ import jsonlines
 
 import tqdm
 
-from scripts.functions import WikiAPI
+from functions import WikiAPI
 
 
 # def category_members2(category_name: str) -> list:
