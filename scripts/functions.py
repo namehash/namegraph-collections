@@ -3,7 +3,7 @@ import re
 import regex
 import wikipediaapi
 from SPARQLWrapper import SPARQLWrapper, JSON
-from ens_normalize import ens_force_normalize, DisallowedLabelError
+from ens_normalize import DisallowedNameError, ens_cure
 from wikimapper import WikiMapper
 
 
@@ -219,7 +219,7 @@ class WikiAPI:
         try:
             return self.ens_cache[member]
         except KeyError:
-            self.ens_cache[member] = ens_force_normalize(member)
+            self.ens_cache[member] = ens_cure(member)
             return self.ens_cache[member]
 
     def curate_members(self, members: list[str]) -> list[str, list[str]]:
@@ -235,12 +235,12 @@ class WikiAPI:
                     try:
                         curated_token = self.force_normalize(token)
                         tokenized.append(curated_token)
-                    except DisallowedLabelError as e:
+                    except DisallowedNameError as e:
                         pass
 
                 if len(curated) >= 3:
                     curated_members.append((curated, tokenized))
-            except DisallowedLabelError as e:
+            except DisallowedNameError as e:
                 print(member, e)
 
         return curated_members
