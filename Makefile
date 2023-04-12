@@ -21,16 +21,31 @@ dictrocks_rev:
 
 prepare_lists_and_categories: data/categories2.json data/lists2.json
 
-data/categories2.json:
+data/categories2.json: dictrocks dictrocks_rev
 	python scripts/create_lists.py $@ --mode category
 	
-data/lists2.json:
+data/lists2.json: dictrocks dictrocks_rev
 	python scripts/create_lists.py $@ --mode list
 
 download_members: download_list_members download_category_members
 
+# the script is appending
 download_list_members: data/lists2.json	
 	time python scripts/download_category_members_and_links.py --mode list $< data/list_links2.jsonl
 
+# the script is appending
 download_category_members: data/categories2.json
 	time python scripts/download_category_members_and_links.py --mode category $< data/category_members2.jsonl
+	
+
+wikimapper: data/index_enwiki-latest.db
+
+wikimapper_download:
+	wikimapper download enwiki-latest --dir data
+
+data/index_enwiki-latest.db: wikimapper_download
+	wikimapper create enwiki-latest --dumpdir data --target $@
+	
+
+data/qrank.csv.gz:
+	wget -O $@ https://qrank.wmcloud.org/download/qrank.csv.gz
