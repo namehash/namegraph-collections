@@ -47,5 +47,6 @@ data/index_enwiki-latest.db: wikimapper_download
 	wikimapper create enwiki-latest --dumpdir data --target $@
 	
 
-data/qrank.csv.gz:
-	wget -O $@ https://qrank.wmcloud.org/download/qrank.csv.gz
+data/qrank.csv:
+	wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > $@
+	
