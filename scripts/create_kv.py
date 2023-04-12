@@ -28,6 +28,7 @@ dbs = {
     'db3': {'is_a_list_of', 'category_contains'}, #TODO add name
     'db4': {'list_related_to_category', 'category_related_to_list'},
     'db5': {'name', 'label', 'description', 'image', 'page_banner'},
+    'db6': {'same_as'},
 }
 
 mapping = {
@@ -43,8 +44,9 @@ mapping = {
     '<http://schema.org/name>': 'name',
     '<http://www.w3.org/2000/01/rdf-schema#label>': 'label',
     '<http://schema.org/description>': 'description',
+    '<http://www.w3.org/2002/07/owl#sameAs>': 'same_as',
 }
-predicates_one = {'about', 'name', 'label', 'description'}
+predicates_one = {'about', 'name', 'label', 'description', 'same_as'}
 
 filter_instances = {
     '<http://www.wikidata.org/entity/Q13442814>',  # scholarly article
