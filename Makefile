@@ -27,10 +27,10 @@ data/categories2.json:
 data/lists2.json:
 	python scripts/create_lists.py $@ --mode list
 
-download_members: data/list_links2.jsonl data/category_members2.jsonl
+download_members: download_list_members download_category_members
 
-data/list_links2.jsonl: data/lists2.json	
-	time python scripts/download_category_members_and_links.py --mode list $< $@
+download_list_members: data/lists2.json	
+	time python scripts/download_category_members_and_links.py --mode list $< data/list_links2.jsonl
 
-data/category_members2.jsonl: data/categories2.json
-	time python scripts/download_category_members_and_links.py --mode category $< $@
+download_category_members: data/categories2.json
+	time python scripts/download_category_members_and_links.py --mode category $< data/category_members2.jsonl
