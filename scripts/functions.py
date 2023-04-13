@@ -6,6 +6,7 @@ import rocksdict
 import wikipediaapi
 from SPARQLWrapper import SPARQLWrapper, JSON
 from ens_normalize import DisallowedNameError, ens_cure
+from rocksdict import AccessType
 from wikimapper import WikiMapper
 from functools import wraps
 
@@ -14,7 +15,12 @@ def memoize_ram(original_function=None, path=None):
     if path is None:
         path = f'cache-{original_function.__name__}.rocks'
 
-    cache = rocksdict.Rdict(path)
+    try:
+        cache = rocksdict.Rdict(path)
+    except Exception as e:
+        print(e)
+        cache = rocksdict.Rdict(path, access_type=AccessType.read_only())
+
     cache2 = {}
 
     def _decorate(function):
