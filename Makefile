@@ -55,6 +55,8 @@ data/qrank.csv:
 # filter members of lists and categories
 # Wikidata redirects
 
+#TODO cache force normalize
+
 cache_interesting_score: cache_interesting_score_lists cache_interesting_score_lists
 
 cache_interesting_score_lists: data/validated_list_links.jsonl
