@@ -283,17 +283,20 @@ class WikiAPI:
     @staticmethod
     @memoize_ram
     def get_interesting_score(label):
-        r = requests.post("https://ivc3ly7kt2yu3wekmsm5fqv4ku0hlstz.lambda-url.us-east-1.on.aws/inspector/",
-                          json={'label': label, 'truncate_confusables': 0, 'truncate_graphemes': 0,
-                                'pos_lemma': False})
-        rjson = r.json()
-        interesting_score = rjson['interesting_score']
-        tokenizations = rjson['tokenizations']
         try:
-            best_tokenization = [token['token'] for token in tokenizations[0]['tokens']]
+            r = requests.post("https://ivc3ly7kt2yu3wekmsm5fqv4ku0hlstz.lambda-url.us-east-1.on.aws/inspector/",
+                              json={'label': label, 'truncate_confusables': 0, 'truncate_graphemes': 0,
+                                    'pos_lemma': False})
+            rjson = r.json()
+            interesting_score = rjson['interesting_score']
+            tokenizations = rjson['tokenizations']
+            try:
+                best_tokenization = [token['token'] for token in tokenizations[0]['tokens']]
+            except:
+                best_tokenization = []
+            return interesting_score, best_tokenization
         except:
-            best_tokenization = []
-        return interesting_score, best_tokenization
+            return None, []
 
     @staticmethod
     @memoize_ram

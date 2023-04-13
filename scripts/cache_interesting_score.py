@@ -5,6 +5,7 @@ import jsonlines as jsonlines
 from tqdm import tqdm
 
 from functions import WikiAPI
+import multiprocessing
 
 if __name__ == '__main__':
     parser = ArgumentParser(description='Cache force_normalize')
@@ -15,26 +16,18 @@ if __name__ == '__main__':
 
     wiki_api = WikiAPI()
 
-
+    pool = multiprocessing.Pool(100)
 
     with jsonlines.open(args.input) as reader:
         for obj in tqdm(reader, total=args.n):
             members = obj['members']
 
             collection_members = wiki_api.curate_members(members)
-            
 
-            import requests
-
-            import multiprocessing
-
-            pool = multiprocessing.Pool(100)
             pool.map(wiki_api.get_interesting_score, [member.curated for member in collection_members])
 
             # for member in tqdm(collection_members):
             #     interesting_score, best_tokenization = wiki_api.get_interesting_score(member.curated)
-                # print(interesting_score, best_tokenization)
-                # break
+            # print(interesting_score, best_tokenization)
             # break
-
-
+            # break
