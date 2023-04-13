@@ -26,10 +26,15 @@ if __name__ == '__main__':
 
             import requests
 
-            for member in collection_members:
-                interesting_score, best_tokenization = wiki_api.get_interesting_score(member.curated)
-                print(interesting_score, best_tokenization)
-                break
+            import multiprocessing
+
+            pool = multiprocessing.Pool(100)
+            pool.map(wiki_api.get_interesting_score, [member.curated for member in collection_members])
+
+            # for member in tqdm(collection_members):
+            #     interesting_score, best_tokenization = wiki_api.get_interesting_score(member.curated)
+                # print(interesting_score, best_tokenization)
+                # break
             # break
 
 
