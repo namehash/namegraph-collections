@@ -1,5 +1,6 @@
 import sys
 from argparse import ArgumentParser
+from functools import lru_cache
 
 import jsonlines as jsonlines
 import rocksdict
@@ -13,26 +14,16 @@ CORRECT = 'correct'
 INCORRECT = 'incorrect'
 
 
-def load_validated_types(path: str) -> dict[str, dict[str, list[str]]]:
-    validated_types = {}
-
-    with jsonlines.open(path) as reader:
-        for obj in tqdm(reader):
-            type = obj['type']
-            correct = set(obj[CORRECT])
-            incorrect = set(obj[INCORRECT])
-
-            validated_types[type] = {CORRECT: correct, INCORRECT: incorrect}
-    return validated_types
-
-
-def has_path_rocksdb_subclass(rdict: Rdict, source: str, target: str) -> bool:
+@lru_cache(maxsize=None)
+def has_path_rocksdb_subclass(source: str, target: str) -> bool:
     visited = set()
     stack: list[str] = [source]
     visited.add(source)
 
     while stack:
         curr = stack.pop()
+        if curr == target:
+            return True
         try:
             for neigh in rdict[curr].get('subclass_of', []):
                 if neigh in visited:
@@ -44,17 +35,21 @@ def has_path_rocksdb_subclass(rdict: Rdict, source: str, target: str) -> bool:
                 visited.add(neigh)
                 stack.append(neigh)
         except KeyError:
-            print(f'subclass_of KeyError: {curr}', file=sys.stderr)
+            pass
+            # print(f'subclass_of KeyError: {curr}', file=sys.stderr)
     return False
 
 
 def has_path_rocksdb(rdict: Rdict, source: str, target: str) -> bool:
-    entries = [source]
+    entries = []
     try:
         entries += rdict[source].get('instance_of', [])
+        entries += rdict[source].get('subclass_of', [])
     except KeyError:
-        print(f'instance_of KeyError: {source}', file=sys.stderr)
-    return any([has_path_rocksdb_subclass(rdict, entry, target) for entry in entries])
+        pass
+        # print(f'instance_of KeyError: {source}', file=sys.stderr)
+    # return has_path_rocksdb_subclass(tuple(entries), target)
+    return any([has_path_rocksdb_subclass(entry, target) for entry in entries])
 
 
 if __name__ == '__main__':
@@ -68,7 +63,7 @@ if __name__ == '__main__':
     # articles_types = load_articles_types(args.article_types)
     # validated_types = load_validated_types(args.validated_types)
 
-    db2 = rocksdict.Rdict('data/db2.rocks', access_type=AccessType.read_only())
+    rdict = rocksdict.Rdict('data/db2.rocks', access_type=AccessType.read_only())
     # db1 = rocksdict.Rdict('data/db1_rev.rocks', access_type=AccessType.read_only())
 
     wikiapi = WikiAPI()
@@ -78,7 +73,7 @@ if __name__ == '__main__':
     count_invalid_members = 0
 
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
-        for obj in tqdm(reader):
+        for obj in tqdm(reader, total=500000):
             collection_item = obj['item']
             collection_types = [obj['type']]  # TODO change
             collection_type_ids = WikiAPI._extract_ids(collection_types)
@@ -94,16 +89,17 @@ if __name__ == '__main__':
             for member in members:
                 article_name = WikiAPI.extract_article_name(member)
 
-                article_is_valid = False
+                
                 # article_types = articles_types.get(article_name, [])
                 article_wikidata_id = wikiapi.mapper.title_to_id(member.replace(' ', '_'))
                 if article_wikidata_id is None:
                     continue
 
+                article_is_valid = False
                 # print('-', article_wikidata_id, collection_type_ids)
                 for collection_type_id in collection_type_ids:
-                    print('-', article_wikidata_id, collection_type_id)
-                    if has_path_rocksdb(db2, article_wikidata_id, collection_type_id):
+                    # print('-', article_wikidata_id, collection_type_id)
+                    if has_path_rocksdb(rdict, article_wikidata_id, collection_type_id):
                         article_is_valid = True
                         break
 

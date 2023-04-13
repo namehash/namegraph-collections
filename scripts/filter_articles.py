@@ -3,7 +3,7 @@ from argparse import ArgumentParser
 import jsonlines as jsonlines
 from tqdm import tqdm
 
-from scripts.functions import WikiAPI
+from functions import WikiAPI
 from types_to_validate import load_articles_types
 
 CORRECT = 'correct'
@@ -76,6 +76,8 @@ if __name__ == '__main__':
                 'type': collection_type_id,
                 'article': collection_article,
                 'members': valid_members,
+                'valid_members_count': count_valid_members,
+                'invalid_members_count': count_invalid_members,
             })
 
         print('Members', count_valid_members, 'valid,', count_invalid_members, 'invalid')

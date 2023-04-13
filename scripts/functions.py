@@ -1,10 +1,77 @@
 import re
 
 import regex
+import requests
+import rocksdict
 import wikipediaapi
 from SPARQLWrapper import SPARQLWrapper, JSON
 from ens_normalize import DisallowedNameError, ens_cure
 from wikimapper import WikiMapper
+from functools import wraps
+
+
+def memoize_ram(original_function=None, path=None):
+    if path is None:
+        path = f'cache-{original_function.__name__}.rocks'
+
+    cache = rocksdict.Rdict(path)
+    cache2 = {}
+
+    def _decorate(function):
+
+        @wraps(function)
+        def wrapper(*args, **kwargs):
+
+            try:
+                return cache2[args[0]]
+            except KeyError:
+                try:
+                    result = cache[args[0]]
+                    cache2[args[0]] = result
+                    return result
+                except KeyError:
+                    result = function(*args, **kwargs)
+                    cache2[args[0]] = result
+                    cache[args[0]] = result
+                    return result
+
+        return wrapper
+
+    if original_function:
+        return _decorate(original_function)
+
+    return _decorate
+
+
+def memoize(original_function=None, path=None):
+    if path is None:
+        path = f'cache-{original_function.__name__}.rocks'
+
+    cache = rocksdict.Rdict(path)
+
+    def _decorate(function):
+
+        @wraps(function)
+        def wrapper(*args, **kwargs):
+            try:
+                return cache[args[0]]
+            except KeyError:
+                result = function(*args, **kwargs)
+                cache[args[0]] = result
+                return result
+
+        return wrapper
+
+    if original_function:
+        return _decorate(original_function)
+
+    return _decorate
+
+
+class Member:
+    def __init__(self, curated, tokenized):
+        self.curated = curated
+        self.tokenized = tokenized
 
 
 class WikiAPI:
@@ -213,18 +280,35 @@ class WikiAPI:
         name = name[0].upper() + name[1:]
         return name
 
-    def force_normalize(self, member):
+    @staticmethod
+    @memoize_ram
+    def get_interesting_score(label):
+        r = requests.post("https://ivc3ly7kt2yu3wekmsm5fqv4ku0hlstz.lambda-url.us-east-1.on.aws/inspector/",
+                          json={'label': label, 'truncate_confusables': 0, 'truncate_graphemes': 0,
+                                'pos_lemma': False})
+        rjson = r.json()
+        interesting_score = rjson['interesting_score']
+        tokenizations = rjson['tokenizations']
+        try:
+            best_tokenization = [token['token'] for token in tokenizations[0]['tokens']]
+        except:
+            best_tokenization = []
+        return interesting_score, best_tokenization
+
+    @staticmethod
+    @memoize_ram
+    def force_normalize(member):
         # member = member.replace('.', '')
         # TODO: remove () or use labels, e.g. Mary Poppins (film)
         # member = regex.sub(' *\(.*\)$', '', member)
+        return ens_cure(member)
+        # try:
+        #     return self.ens_cache[member]
+        # except KeyError:
+        #     self.ens_cache[member] = ens_cure(member)
+        #     return self.ens_cache[member]
 
-        try:
-            return self.ens_cache[member]
-        except KeyError:
-            self.ens_cache[member] = ens_cure(member)
-            return self.ens_cache[member]
-
-    def curate_members(self, members: list[str]) -> list[str, list[str]]:
+    def curate_members(self, members: list[str]) -> list[Member]:
         curated_members = []
 
         for member in members:
@@ -241,7 +325,7 @@ class WikiAPI:
                         pass
 
                 if len(curated) >= 3:
-                    curated_members.append((curated, tokenized))
+                    curated_members.append(Member(curated, tokenized))
             except DisallowedNameError as e:
                 print(member, e)
 
