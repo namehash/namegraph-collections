@@ -55,5 +55,10 @@ data/qrank.csv:
 # filter members of lists and categories
 # Wikidata redirects
 
+cache_interesting_score: cache_interesting_score_lists cache_interesting_score_lists
 
-#python scripts/cache_interesting_score.py data/validated_list_links.jsonl
+cache_interesting_score_lists: data/validated_list_links.jsonl
+	python scripts/cache_interesting_score.py $<
+
+cache_interesting_score_categories: validated_category_members.jsonl
+	python scripts/cache_interesting_score.py $<
