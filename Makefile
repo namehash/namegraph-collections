@@ -54,3 +54,6 @@ data/qrank.csv:
 
 # filter members of lists and categories
 # Wikidata redirects
+
+
+#python scripts/cache_interesting_score.py data/validated_list_links.jsonl
