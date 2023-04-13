@@ -30,6 +30,8 @@ if __name__ == '__main__':
             collection_type = obj['type']
             collection_article = obj['article']
             members = obj['members']
+            valid_members_count = obj['valid_members_count']
+            invalid_members_count = obj['invalid_members_count']
 
             collection_rank = ranks.get(collection_item, 1)  # rank_feature must be positive
 
@@ -41,10 +43,14 @@ if __name__ == '__main__':
                     'data': {  # owner controlled
                         'collection_name': collection_name,
                         'names': [{
-                            'normalized_name': curated,
+                            'normalized_name': member.curated,
                             'avatar_override': '',
-                            'tokenized_name': tokenized,
-                        } for curated, tokenized in collection_members],
+                            'tokenized_name': member.tokenized,
+                            'system_interesting_score': None,  # TODO NOT owner controlled
+                            'rank': None,  # TODO NOT owner controlled
+                            'cached_status': None,  # TODO NOT owner controlled
+                            'translations_count': None,  # TODO NOT owner controlled
+                        } for member in collection_members],  # TODO sort
                         'collection_description': '',
                         'collection_keywords': [],
                         'collection_image': '',
@@ -71,8 +77,8 @@ if __name__ == '__main__':
                         'modified': '',
                         'votes': [],  # This could be some array of all the accounts that "upvoted" the collection.
                         'duplicated-from': '',
-                        'members_count-from': len(collection_members),
                         # a pointer to another collection. This field could be set whenever we create a collection from a template (reference back to origin template) or it could be set whenever a user 'duplicates' another user generated collection.
+                        'members_count': len(collection_members),
                     },
                     'template': {  # template generator controlled
                         'collection_wikipedia_link': collection_article,
@@ -84,6 +90,20 @@ if __name__ == '__main__':
                         'collection_articles': members,
                         'collection_rank': collection_rank,
                         # score based on popularity of category or "list of" article
+                        'redirects_count': None,  # TODO
+                        'translations_count': None,  # TODO
+                        'has_related': None,  # has related category/list # TODO
+
+                        # below metrics calculated on members
+                        'members_rank_mean': None,  # TODO
+                        'members_rank_median': None,  # TODO
+                        'members_system_interesting_score_mean': None,  # TODO
+                        'members_system_interesting_score_median': None,  # TODO
+                        'valid_members_count': valid_members_count,
+                        'invalid_members_count': invalid_members_count,
+                        'valid_members_ratio': valid_members_count / (
+                                    valid_members_count + invalid_members_count) if valid_members_count + invalid_members_count > 0 else 0.0,
+                        'nonavailable_members': None,  # TODO
                     },
                     'name_generator': {  # Lambda NameGenerator preprocessor controlled
 
