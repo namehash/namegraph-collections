@@ -20,7 +20,7 @@ if __name__ == '__main__':
     with jsonlines.open(args.input) as reader:
         for obj in tqdm(reader, total=args.n):
             members = obj['members']
-            unique_members.update([member.curated for member in collection_members])
             collection_members = wiki_api.curate_members(members)
+            unique_members.update([member.curated for member in collection_members])
 
     print(len(unique_members))  # 2142399
