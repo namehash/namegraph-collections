@@ -16,8 +16,7 @@ INCORRECT = 'incorrect'
 NO_PARENT = 0
 
 
-# @lru_cache(maxsize=None)
-@memoize_ram
+@lru_cache(maxsize=None)
 def has_path_rocksdb_subclass(source: str, target: str) -> bool:
     global NO_PARENT
     visited = set()
