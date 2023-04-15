@@ -96,7 +96,7 @@ if __name__ == '__main__':
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
         for obj in tqdm(reader, total=args.n):
             collection_item = obj['item']
-            collection_types = [obj['type']]  # TODO change
+            collection_types = obj['type']
             collection_type_ids = WikiAPI._extract_ids(collection_types)
             collection_article = WikiAPI.extract_article_name(obj['article'])
             members = obj['members']
