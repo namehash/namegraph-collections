@@ -13,9 +13,12 @@ from types_to_validate import load_articles_types
 CORRECT = 'correct'
 INCORRECT = 'incorrect'
 
+NO_PARENT = 0
+
 
 @lru_cache(maxsize=None)
 def has_path_rocksdb_subclass(source: str, target: str) -> bool:
+    global NO_PARENT
     visited = set()
     stack: list[str] = [source]
     visited.add(source)
@@ -25,27 +28,42 @@ def has_path_rocksdb_subclass(source: str, target: str) -> bool:
         if curr == target:
             return True
         try:
-            for neigh in rdict[curr].get('subclass_of', []):
-                if neigh in visited:
-                    continue
-
-                if neigh == target:
-                    return True
-
-                visited.add(neigh)
-                stack.append(neigh)
+            neighbours = rdict[curr].get('instance_of', [])
         except KeyError:
-            pass
-            # print(f'subclass_of KeyError: {curr}', file=sys.stderr)
+            try:
+                neighbours = rdict[db6[curr]['same_as'][0]].get('instance_of', [])  # try redirect
+            except KeyError:
+                NO_PARENT += 1
+                if curr in db6 and db6[curr]["same_as"][0] in db6:
+                    print(f'redirect KeyError: {curr} {db6[curr]["same_as"][0]}', file=sys.stderr)
+                continue
+        for neigh in neighbours:
+            if neigh in visited:
+                continue
+
+            if neigh == target:
+                return True
+
+            visited.add(neigh)
+            stack.append(neigh)
+
     return False
 
 
 def has_path_rocksdb(rdict: Rdict, source: str, target: str) -> bool:
+    global NO_PARENT
     entries = []
     try:
         entries += rdict[source].get('instance_of', [])
         entries += rdict[source].get('subclass_of', [])
     except KeyError:
+        # print(f'rdict KeyError: {source}', file=sys.stderr)
+        try:
+            # print(db6[source])
+            entries += rdict[db6[source]['same_as'][0]].get('instance_of', [])
+            entries += rdict[db6[source]['same_as'][0]].get('subclass_of', [])
+        except KeyError:
+            NO_PARENT += 1
         pass
         # print(f'instance_of KeyError: {source}', file=sys.stderr)
     # return has_path_rocksdb_subclass(tuple(entries), target)
@@ -58,6 +76,7 @@ if __name__ == '__main__':
     # parser.add_argument('article_types', help='JSONL file with types of articles')
     # parser.add_argument('validated_types', help='JSONL file types validated with subclass of')
     parser.add_argument('output', help='JSONL file with validated category/list members')
+    parser.add_argument('-n', default=None, type=int, help='number of collections to read for progress bar')
     args = parser.parse_args()
 
     # articles_types = load_articles_types(args.article_types)
@@ -65,6 +84,7 @@ if __name__ == '__main__':
 
     rdict = rocksdict.Rdict('data/db2.rocks', access_type=AccessType.read_only())
     # db1 = rocksdict.Rdict('data/db1_rev.rocks', access_type=AccessType.read_only())
+    db6 = rocksdict.Rdict('data/db6.rocks', access_type=AccessType.read_only())
 
     wikiapi = WikiAPI()
     wikiapi.init_wikimapper()
@@ -73,7 +93,7 @@ if __name__ == '__main__':
     count_invalid_members = 0
 
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
-        for obj in tqdm(reader, total=500000):
+        for obj in tqdm(reader, total=args.n):
             collection_item = obj['item']
             collection_types = [obj['type']]  # TODO change
             collection_type_ids = WikiAPI._extract_ids(collection_types)
@@ -89,10 +109,10 @@ if __name__ == '__main__':
             for member in members:
                 article_name = WikiAPI.extract_article_name(member)
 
-                
                 # article_types = articles_types.get(article_name, [])
                 article_wikidata_id = wikiapi.mapper.title_to_id(member.replace(' ', '_'))
                 if article_wikidata_id is None:
+                    # print('No wikidata id', article_name)
                     continue
 
                 article_is_valid = False
@@ -121,3 +141,5 @@ if __name__ == '__main__':
             })
 
         print('Members', count_valid_members, 'valid,', count_invalid_members, 'invalid')
+
+    print('No parent', NO_PARENT)

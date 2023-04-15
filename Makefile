@@ -13,7 +13,7 @@ data/stats_instance_of.txt: data/latest-all.nt.bz2.filtered.bz2
 	pv $< | pbzip2 -d -c | grep "<http://www\.wikidata\.org/prop/direct/P31>" | cut -d ' ' -f 3 | sort | uniq -c | sort -nr > $@
 	head -n 20 $@
 
-dictrocks: data/latest-all.nt.bz2.filtered.bz2
+dictrocks: data/latest-all.nt.bz2.filtered.bz2 # 1.5h
 	python scripts/create_kv.py $<
 
 dictrocks_rev:
@@ -57,10 +57,16 @@ data/qrank.csv:
 
 #TODO cache force normalize
 
-cache_interesting_score: cache_interesting_score_lists cache_interesting_score_lists
+cache_interesting_score: cache_interesting_score_lists cache_interesting_score_categories
 
 cache_interesting_score_lists: data/validated_list_links.jsonl
 	time python scripts/cache_interesting_score.py $< -n 111000
 
 cache_interesting_score_categories: data/validated_category_members.jsonl
 	time python scripts/cache_interesting_score.py $< -n 460000
+
+data/validated_list_links2.jsonl: data/list_links2.jsonl
+	python3 scripts/filter_articles2.py $< $@ -n 111000
+	
+data/validated_category_members2.jsonl: data/category_members2.jsonl
+	python3 scripts/filter_articles2.py $< $@ -n 460000
