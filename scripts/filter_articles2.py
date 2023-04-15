@@ -7,7 +7,7 @@ import rocksdict
 from rocksdict import AccessType, Rdict
 from tqdm import tqdm
 
-from functions import WikiAPI
+from functions import WikiAPI, memoize_ram
 from types_to_validate import load_articles_types
 
 CORRECT = 'correct'
@@ -16,7 +16,8 @@ INCORRECT = 'incorrect'
 NO_PARENT = 0
 
 
-@lru_cache(maxsize=None)
+# @lru_cache(maxsize=None)
+@memoize_ram
 def has_path_rocksdb_subclass(source: str, target: str) -> bool:
     global NO_PARENT
     visited = set()
