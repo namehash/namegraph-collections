@@ -125,7 +125,7 @@ if __name__ == '__main__':
                         break
 
                 if article_is_valid:
-                    valid_members.append(article_name)
+                    valid_members.append((article_wikidata_id, article_name))
                     count_valid_members += 1
                     # print('Valid', article_name, article_types, 'IN', collection_article,
                     #       list(collection_valid_subtypes[CORRECT])[:10])
