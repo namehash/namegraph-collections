@@ -67,9 +67,15 @@ cache_interesting_score_categories: data/validated_category_members.jsonl
 
 data/validated_list_links2.jsonl: data/list_links2.jsonl
 	python3 scripts/filter_articles2.py $< $@ -n 111000
-#Members 354701 valid, 29187428 invalid
+# 20m
+#Members 5862194 valid, 23679935 invalid
+ #No parent 649178
 #No parent 642624
 #but should be Members 7.057.739 valid, 25.985.431 invalid
 	
 data/validated_category_members2.jsonl: data/category_members2.jsonl
 	python3 scripts/filter_articles2.py $< $@ -n 460000
+	# 461543it [21:47, 353.00it/s]
+      	#Members 19913807 valid, 9184948 invalid
+      	#No parent 1301825
+     #should be Members 21.294.548 valid, 7.888.585 invalid
