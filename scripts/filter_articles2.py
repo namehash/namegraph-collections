@@ -138,6 +138,8 @@ if __name__ == '__main__':
                 'type': collection_type_ids,
                 'article': collection_article,
                 'members': valid_members,
+                'valid_members_count': count_valid_members,
+                'invalid_members_count': count_invalid_members,
             })
 
         print('Members', count_valid_members, 'valid,', count_invalid_members, 'invalid')
