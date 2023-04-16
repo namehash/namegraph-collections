@@ -28,10 +28,10 @@ def has_path_rocksdb_subclass(source: str, target: str) -> bool:
         if curr == target:
             return True
         try:
-            neighbours = rdict[curr].get('instance_of', [])
+            neighbours = rdict[curr].get('subclass_of', [])
         except KeyError:
             try:
-                neighbours = rdict[db6[curr]['same_as'][0]].get('instance_of', [])  # try redirect
+                neighbours = rdict[db6[curr]['same_as'][0]].get('subclass_of', [])  # try redirect
             except KeyError:
                 NO_PARENT += 1
                 if curr in db6 and db6[curr]["same_as"][0] in db6:
@@ -67,6 +67,7 @@ def has_path_rocksdb(rdict: Rdict, source: str, target: str) -> bool:
         pass
         # print(f'instance_of KeyError: {source}', file=sys.stderr)
     # return has_path_rocksdb_subclass(tuple(entries), target)
+    # print(source, entries, target)
     return any([has_path_rocksdb_subclass(entry, target) for entry in entries])
 
 
@@ -126,11 +127,9 @@ if __name__ == '__main__':
                 if article_is_valid:
                     valid_members.append((article_wikidata_id, article_name))
                     count_valid_members += 1
-                    # print('Valid', article_name, article_types, 'IN', collection_article,
-                    #       list(collection_valid_subtypes[CORRECT])[:10])
+                    # print('Valid', article_name, article_wikidata_id, 'IN', collection_article, collection_type_id)
                 else:
-                    # print('Not valid', article_name, article_types, 'IN', collection_article,
-                    #       list(collection_valid_subtypes[CORRECT])[:10])
+                    # print('Not valid', article_name, article_wikidata_id, 'IN', collection_article, collection_type_id)
                     count_invalid_members += 1
 
             writer.write({
