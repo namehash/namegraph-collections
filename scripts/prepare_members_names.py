@@ -78,7 +78,7 @@ class Collection:
             'types': self.types,
             'article': self.article,
             'name': self.name,
-            'members': self.members,
+            'members': [member.json() for member in self.members],
             'valid_members_count': self.valid_members_count,
             'invalid_members_count': self.invalid_members_count,
             'keywords': self.keywords,
@@ -236,7 +236,6 @@ if __name__ == '__main__':
             # obj['page_banner'] = page_banner
             # obj['collection_name'] = collection_name
             collection_members = uniq(sorted(collection_members, key=lambda m: m.rank, reverse=True))
-            collection.members = [member.json() for member in collection_members]
 
             writer.write(collection.json())
 

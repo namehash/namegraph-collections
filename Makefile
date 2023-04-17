@@ -90,3 +90,5 @@ data/list_links_all_info.jsonl: data/validated_list_links2.jsonl
 	time python3 scripts/prepare_collections2.py data/list_links_all_info.jsonl data/list_links_final.jsonl -n 111000
 
 	time python3 scripts/prepare_collections2.py data/category_members_all_info.jsonl data/category_members_final.jsonl -n 460000
+
+	time python scripts/merge_lists_and_categories.py data/list_links_all_info.jsonl data/category_members_all_info.jsonl data/merged.jsonl
