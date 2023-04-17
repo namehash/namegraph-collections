@@ -99,6 +99,8 @@ if __name__ == '__main__':
                                 collection.valid_members_count + collection.invalid_members_count) if collection.valid_members_count + collection.invalid_members_count > 0 else 0.0,
                         'nonavailable_members_count': nonavailable_members,
                         'nonavailable_members_ratio': max(nonavailable_members / len(collection.members), MIN_VALUE),
+
+                        'is_merged': collection.is_merged,
                     },
                     'name_generator': {  # Lambda NameGenerator preprocessor controlled
 

@@ -31,6 +31,8 @@ def merge_collections(collection1: Collection, collection2: Collection) -> Colle
 
     collection1.rank = max(collection1.rank, collection2.rank)
 
+    collection1.is_merged = True
+
     return collection1
 
 
@@ -42,6 +44,7 @@ filter_types = {
     'Q20769160',  # Wikimedia userbox template 759
     'Q30432511',  # Wikimedia meta category 5
     'Q4167836',  # Wikimedia category 203
+    'Q33532284',  # Wikimedia list of lists
 }
 
 filter_name_prefixes = (
@@ -100,7 +103,7 @@ if __name__ == '__main__':
                 if set(collection.types) & filter_types:
                     count_filtered_by_type += 1
                     continue
-                    
+
                 if collection.name.startswith(filter_name_prefixes):
                     count_filtered_by_prefix += 1
                     continue
@@ -151,10 +154,11 @@ if __name__ == '__main__':
     print(f'Filtered by prefix: {count_filtered_by_prefix}')
 
     # All collections: 570487
-    # Lists: 108944, Categories: 461543, Written 519068
-    # Merged by type 7064 categories into lists
-    # Merged by name 6609 categories into lists
-    # Filtered by type: 37746
+    # Lists: 108944, Categories: 461543, Written 511932
+    # Merged by type 6996 categories into lists
+    # Merged by name 6720 categories into lists
+    # Filtered by type: 44096
+    # Filtered by prefix: 743
 
     # about 7k have the same name
     #       3 "Castles in Portugal" Q11888
