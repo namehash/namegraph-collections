@@ -71,6 +71,7 @@ class Collection:
         self.image = None
         self.page_banner = None
         self.rank = None
+        self.is_merged = False
 
     def json(self):
         return {
@@ -86,6 +87,7 @@ class Collection:
             'image': self.image,
             'page_banner': self.page_banner,
             'rank': self.rank,
+            'is_merged': self.is_merged,
         }
 
     @classmethod
@@ -104,6 +106,10 @@ class Collection:
         collection.image = data['image']
         collection.page_banner = data['page_banner']
         collection.rank = data['rank']
+        try:
+            collection.is_merged = data['is_merged']
+        except KeyError:
+            pass
         return collection
 
 
