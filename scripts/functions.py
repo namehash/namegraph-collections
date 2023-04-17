@@ -1,4 +1,5 @@
 import re
+from urllib.parse import unquote
 
 import regex
 import requests
@@ -76,8 +77,28 @@ def memoize(original_function=None, path=None):
 
 class Member:
     def __init__(self, curated, tokenized):
-        self.curated = curated
+        self.curated: str = curated
         self.tokenized = tokenized
+        self.interesting_score: float | None = None
+        self.rank: int | None = None
+        self.status: str | None = None
+
+    def json(self):
+        return {
+            'curated': self.curated,
+            'tokenized': self.tokenized,
+            'interesting_score': self.interesting_score,
+            'rank': self.rank,
+            'status': self.status,
+        }
+
+    @classmethod
+    def from_dict(cls, member_data):
+        member = cls(member_data['curated'], member_data['tokenized'])
+        member.interesting_score = member_data['interesting_score']
+        member.rank = member_data['rank']
+        member.status = member_data['status']
+        return member
 
 
 class WikiAPI:
@@ -86,7 +107,7 @@ class WikiAPI:
         self.sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
         self.sparql.setMethod('POST')
         self.sparql.setReturnFormat(JSON)
-        self.mapper = None
+        self.mapper: WikiMapper = None
         self.ens_cache = {}
 
     def init_wikimapper(self, wiki_mapper_path: str = 'data/index_enwiki-latest.db'):
@@ -281,6 +302,7 @@ class WikiAPI:
     def curate_name(collection_article: str):
         name = WikiAPI.extract_article_name(collection_article)
         name = name.replace('_', ' ')
+        name = unquote(name)
         name = regex.sub('^List of ', '', name)
         name = regex.sub('^Category:', '', name)
         name = name[0].upper() + name[1:]
@@ -317,26 +339,33 @@ class WikiAPI:
         #     self.ens_cache[member] = ens_cure(member)
         #     return self.ens_cache[member]
 
+    def curate_member(self, member) -> Member:
+        member = unquote(member)
+        member = member.replace('.', '')
+        member = regex.sub(' *\(.*\)$', '', member)
+        try:
+            curated = self.force_normalize(member)
+            tokenized = []
+            for token in member.split(' '):
+                try:
+                    curated_token = self.force_normalize(token)
+                    tokenized.append(curated_token)
+                except DisallowedNameError as e:
+                    pass
+
+            if len(curated) >= 3:
+                return Member(curated, tokenized)
+        except DisallowedNameError as e:
+            print(member, e)
+            return None
+
     def curate_members(self, members: list[str]) -> list[Member]:
         curated_members = []
 
         for member in members:
-            member = member.replace('.', '')
-            member = regex.sub(' *\(.*\)$', '', member)
-            try:
-                curated = self.force_normalize(member)
-                tokenized = []
-                for token in member.split(' '):
-                    try:
-                        curated_token = self.force_normalize(token)
-                        tokenized.append(curated_token)
-                    except DisallowedNameError as e:
-                        pass
-
-                if len(curated) >= 3:
-                    curated_members.append(Member(curated, tokenized))
-            except DisallowedNameError as e:
-                print(member, e)
+            member = self.curate_member(member)
+            if member:
+                curated_members.append(member)
 
         return curated_members
 
