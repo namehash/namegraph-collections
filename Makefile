@@ -79,3 +79,14 @@ data/validated_category_members2.jsonl: data/category_members2.jsonl
 #Members 20456859 valid, 8641896 invalid
 #No parent 1358593
 #should be Members 21.294.548 valid, 7.888.585 invalid
+
+data/category_members_all_info.jsonl: data/validated_category_members2.jsonl
+	time python3 scripts/prepare_members_names.py $< data/qrank.csv $@ -n 460000
+	
+data/list_links_all_info.jsonl: data/validated_list_links2.jsonl
+	time python3 scripts/prepare_members_names.py $< data/qrank.csv $@ -n 111000
+	
+
+	time python3 scripts/prepare_collections2.py data/list_links_all_info.jsonl data/list_links_final.jsonl -n 111000
+
+	time python3 scripts/prepare_collections2.py data/category_members_all_info.jsonl data/category_members_final.jsonl -n 460000
