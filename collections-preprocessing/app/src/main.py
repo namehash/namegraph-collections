@@ -7,7 +7,7 @@ from model import CollectionListPOSTRequest, AugmentedCollectionListPOSTResponse
 from preprocessing_service import preprocess_collections
 
 
-STAGE = os.environ.get("API_STAGE", "dev")  # API_STAGE is for example one of ('dev', 'test', 'prod')
+STAGE = os.environ.get("API_STAGE", "")  # API_STAGE is for example one of ('dev', 'test', 'prod')
 
 app = FastAPI(
     root_path=f'/{STAGE}',

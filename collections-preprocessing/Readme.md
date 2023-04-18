@@ -41,7 +41,7 @@ Deploying lambda function with an API gateway endpoint using aws-cli:
     - `aws lambda create-function --function-name fastapi-lambda --role <execution-role-arn> --package-type Image --code ImageUri=<repositoryUri>:latest`
 - CREATE AND CONFIGURE API GATEWAY
     - `aws apigateway create-rest-api --name fastapi-lambda-api-gateway`
-    - `aws apigateway get-resources --rest-api-id <rest-api-id> --query 'items[?path==`/`].id' --output text` # returns root-resource-id
+    - ``aws apigateway get-resources --rest-api-id <rest-api-id> --query 'items[?path==`/`].id' --output text`` # returns root-resource-id
     - `aws apigateway create-resource --rest-api-id <api-id> --parent-id <root-resource-id> --path-part {proxy+}`
     - `aws apigateway put-method --rest-api-id <api-id> --resource-id <resource-id> --http-method ANY --authorization-type NONE`
     - `aws apigateway put-integration --rest-api-id <api-id> --resource-id <resource-id> --http-method ANY --type AWS_PROXY --integration-http-method POST --uri arn:aws:apigateway:<region>:lambda:path/2015-03-31/functions/arn:aws:lambda:<region>:<accountId>:function:fastapi-lambda/invocations --passthrough-behavior WHEN_NO_MATCH --content-handling CONVERT_TO_BINARY`
