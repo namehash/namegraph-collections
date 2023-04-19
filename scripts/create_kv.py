@@ -82,7 +82,7 @@ def entity_generator(path):
     entity = {}
     last_subject = None
     with bz2.open(path, "rb") as f:
-        for triple in tqdm(parser.parse(f, format='nt'), total=392602664):
+        for triple in tqdm(parser.parse(f, format='nt'), total=396603875):
             subject, predicate, object = triple
     
             try:
@@ -91,6 +91,9 @@ def entity_generator(path):
                 continue
     
             if predicate == 'instance_of' and object in filter_instances:
+                continue
+                
+            if predicate == 'name' and subject.startswith('<https://en.wikipedia.org/wiki/'):
                 continue
     
             try:
@@ -142,10 +145,12 @@ for db_name, predicates in dbs.items():
 
 for subject, entity in entity_generator(sys.argv[1]):
     # d[subject] = entity
-
+    # if subject == 'Q5': print(entity)
+    
     splitted_entity = split_dict(entity, dbs)
 
     for db_name, entity in splitted_entity.items():
+        # if subject=='Q5': print(db_name, entity)
         if entity:
             rockdbs[db_name][subject] = entity
 
