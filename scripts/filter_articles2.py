@@ -1,6 +1,7 @@
 import sys
 from argparse import ArgumentParser
 from functools import lru_cache
+from urllib.parse import quote
 
 import jsonlines as jsonlines
 import rocksdict
@@ -86,6 +87,7 @@ if __name__ == '__main__':
     rdict = rocksdict.Rdict('data/db2.rocks', access_type=AccessType.read_only())
     # db1 = rocksdict.Rdict('data/db1_rev.rocks', access_type=AccessType.read_only())
     db6 = rocksdict.Rdict('data/db6.rocks', access_type=AccessType.read_only())
+    db1 = rocksdict.Rdict('data/db1.rocks', access_type=AccessType.read_only())
 
     wikiapi = WikiAPI()
     wikiapi.init_wikimapper()
@@ -111,10 +113,14 @@ if __name__ == '__main__':
                 article_name = WikiAPI.extract_article_name(member)
 
                 # article_types = articles_types.get(article_name, [])
-                article_wikidata_id = wikiapi.mapper.title_to_id(member.replace(' ', '_'))
-                if article_wikidata_id is None:
-                    # print('No wikidata id', article_name)
-                    continue
+                
+                try:
+                    article_wikidata_id = db1[quote(member.replace(' ', '_'))]['about']
+                except KeyError:
+                    article_wikidata_id = wikiapi.mapper.title_to_id(member.replace(' ', '_'))
+                    if article_wikidata_id is None:
+                        # print('No wikidata id', article_name)
+                        continue
 
                 article_is_valid = False
                 # print('-', article_wikidata_id, collection_type_ids)
