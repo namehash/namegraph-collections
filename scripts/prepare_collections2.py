@@ -4,7 +4,6 @@ import jsonlines as jsonlines
 import numpy as np
 from tqdm import tqdm
 
-from functions import WikiAPI
 from prepare_members_names import Collection
 
 MIN_VALUE = 1e-8
@@ -16,9 +15,7 @@ if __name__ == '__main__':
     parser.add_argument('-n', default=None, type=int, help='number of collections to read for progress bar')
 
     args = parser.parse_args()
-
-    wiki_api = WikiAPI()
-
+    
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
         for obj in tqdm(reader, total=args.n):
             collection = Collection.from_dict(obj)
@@ -75,7 +72,7 @@ if __name__ == '__main__':
                         # link to category or "list of" article: https://en.wikipedia.org/wiki/List_of_sovereign_states or https://en.wikipedia.org/wiki/Category:Dutch_people
                         'collection_wikidata_id': collection.item,
                         # part of Wikidata url (http://www.wikidata.org/entity/Q11750): Q11750
-                        'collection_type_wikidata_ids': collection.types,
+                        'collection_types': collection.types,
                         # part of Wikidata url (http://www.wikidata.org/entity/Q3624078): Q3624078
                         # 'collection_articles': members,
                         'collection_rank': collection.rank,

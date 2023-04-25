@@ -6,13 +6,13 @@ from rocksdict import AccessType
 
 from tqdm import tqdm
 
-from prepare_members_names import Collection, uniq
+from prepare_members_names import Collection, uniq_members
 
 
 def merge_collections(collection1: Collection, collection2: Collection) -> Collection:
     collection1.members.extend(collection2.members)
     collection1.members = sorted(collection1.members, key=lambda x: x.rank, reverse=True)
-    collection1.members = list(uniq(collection1.members))
+    collection1.members = list(uniq_members(collection1.members))
 
     collection1.valid_members_count += collection2.valid_members_count
     collection1.invalid_members_count += collection2.invalid_members_count
@@ -76,7 +76,7 @@ if __name__ == '__main__':
             for obj in tqdm(reader, desc='Reading lists'):
                 count_lists += 1
                 collection = Collection.from_dict(obj)
-                if set(collection.types) & filter_types:
+                if set([type[0] for type in collection.types]) & filter_types:
                     count_filtered_by_type += 1
                     continue
 
@@ -100,7 +100,7 @@ if __name__ == '__main__':
                 count_categories += 1
                 collection = Collection.from_dict(obj)
 
-                if set(collection.types) & filter_types:
+                if set([type[0] for type in collection.types]) & filter_types:
                     count_filtered_by_type += 1
                     continue
 
