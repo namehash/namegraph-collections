@@ -49,7 +49,7 @@ def get_interesting_score2(label):
         return None, []
 
 
-def uniq(collection_members):
+def uniq_members(collection_members):
     seen = set()
     for member in collection_members:
         if member.curated not in seen:
@@ -95,7 +95,7 @@ class Collection:
         collection = cls()
 
         collection.item = data['item']
-        collection.types = data['types']
+        collection.types = [tuple(t) for t in data['types']]
         collection.article = data['article']
         collection.name = data['name']
         collection.members = [Member.from_dict(member_data) for member_data in data['members']]
@@ -146,7 +146,15 @@ if __name__ == '__main__':
         for obj in tqdm(reader, total=args.n):
             collection = Collection()
             collection.item = obj['item']
-            collection.types = obj['type']
+            collection.types = []
+            for type in obj['type']:
+                try:
+                    collection.types.append((type, db5[type]['label']))
+                    # print(type, db5[type]['label'])
+                except KeyError:
+                    # print(type, None)
+                    collection.types.append((type, None))
+
             collection.article = obj['article']
             members = obj['members']
             collection.valid_members_count = obj['valid_members_count']
@@ -241,7 +249,7 @@ if __name__ == '__main__':
             # obj['image'] = image
             # obj['page_banner'] = page_banner
             # obj['collection_name'] = collection_name
-            collection_members = uniq(sorted(collection_members, key=lambda m: m.rank, reverse=True))
+            collection.members = uniq_members(sorted(collection_members, key=lambda m: m.rank, reverse=True))
 
             writer.write(collection.json())
 
