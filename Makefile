@@ -14,7 +14,7 @@ data/stats_instance_of.txt: data/latest-all.nt.bz2.filtered.bz2
 	head -n 20 $@
 
 dictrocks: data/latest-all.nt.bz2.filtered.bz2 # 1.5h
-	python scripts/create_kv.py $<
+	time python scripts/create_kv.py $<
 
 dictrocks_rev:
 	time python scripts/reverse_rocksdict.py data/db1.rocks/ data/db1_rev.rocks/
@@ -22,10 +22,10 @@ dictrocks_rev:
 prepare_lists_and_categories: data/categories2.json data/lists2.json
 
 data/categories2.json: dictrocks dictrocks_rev
-	python scripts/create_lists.py $@ --mode category
+	time python scripts/create_lists.py $@ --mode category
 	
 data/lists2.json: dictrocks dictrocks_rev
-	python scripts/create_lists.py $@ --mode list
+	time python scripts/create_lists.py $@ --mode list
 
 download_members: download_list_members download_category_members
 
@@ -41,16 +41,16 @@ download_category_members: data/categories2.json
 wikimapper: data/index_enwiki-latest.db
 
 wikimapper_download:
-	wikimapper download enwiki-latest --dir data
+	time wikimapper download enwiki-latest --dir data
 
 data/index_enwiki-latest.db: wikimapper_download
-	wikimapper create enwiki-latest --dumpdir data --target $@
+	time wikimapper create enwiki-latest --dumpdir data --target $@
 	
 
 qrank: data/qrank.csv
 
 data/qrank.csv:
-	wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > $@
+	time wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > $@
 
 # filter members of lists and categories
 # Wikidata redirects
@@ -66,7 +66,7 @@ cache_interesting_score_categories: data/validated_category_members.jsonl
 	time python scripts/cache_interesting_score.py $< -n 460000
 
 data/validated_list_links2.jsonl: data/list_links2.jsonl
-	python3 scripts/filter_articles2.py $< $@ -n 111000
+	time python3 scripts/filter_articles2.py $< $@ -n 111000
 # 29:08<00:33, 62.30it/s
 #Members 7052484 valid, 22489645 invalid
 #No parent 1308946
@@ -74,7 +74,7 @@ data/validated_list_links2.jsonl: data/list_links2.jsonl
 #but should be Members 7.057.739 valid, 25.985.431 invalid
 	
 data/validated_category_members2.jsonl: data/category_members2.jsonl
-	python3 scripts/filter_articles2.py $< $@ -n 460000
+	time python3 scripts/filter_articles2.py $< $@ -n 460000
 # 461543it [22:38, 339.84it/s]
 #Members 20456859 valid, 8641896 invalid
 #No parent 1358593
@@ -93,6 +93,13 @@ data/list_links_all_info.jsonl: data/validated_list_links2.jsonl
 
 data/merged.jsonl: data/list_links_all_info.jsonl data/category_members_all_info.jsonl
 	time python scripts/merge_lists_and_categories.py data/list_links_all_info.jsonl data/category_members_all_info.jsonl data/merged.jsonl
+
+	# All collections: 570487
+	#Lists: 108944, Categories: 461543, Written 511932
+	#Merged by type 6996 categories into lists
+	#Merged by name 6720 categories into lists
+	#Filtered by type: 44096
+	#Filtered by prefix: 743
 
 data/merged_final.jsonl: data/merged.jsonl
 	time python3 scripts/prepare_collections2.py data/merged.jsonl data/merged_final.jsonl -n 511000
