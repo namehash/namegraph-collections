@@ -15,14 +15,20 @@ if __name__ == '__main__':
     parser.add_argument('-n', default=None, type=int, help='number of collections to read for progress bar')
 
     args = parser.parse_args()
-    
+
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
         for obj in tqdm(reader, total=args.n):
             collection = Collection.from_dict(obj)
 
             collection.rank = max(collection.rank, 1)  # rank_feature must be positive
 
+            status_counts = {'available': 0, 'taken': 0, 'on_sale': 0, 'recently_released': 0, 'never_registered': 0}
             if collection.members:
+                for member in collection.members:
+                    status = member.status
+                    if status is None:
+                        status = 'never_registered'
+                    status_counts[status] += 1
                 nonavailable_members = len(
                     [True for m in collection.members if m.status in ('taken', 'on_sale', 'recently_released')])
 
@@ -98,6 +104,11 @@ if __name__ == '__main__':
                         'nonavailable_members_ratio': max(nonavailable_members / len(collection.members), MIN_VALUE),
 
                         'is_merged': collection.is_merged,
+                        'available_count': status_counts['available'],
+                        'taken_count': status_counts['taken'],
+                        'on_sale_count': status_counts['on_sale'],
+                        'recently_released_count': status_counts['recently_released'],
+                        'never_registered_count': status_counts['never_registered'],
                     },
                     'name_generator': {  # Lambda NameGenerator preprocessor controlled
 
