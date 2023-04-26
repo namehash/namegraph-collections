@@ -1,3 +1,4 @@
+import re
 from argparse import ArgumentParser
 
 import jsonlines as jsonlines
@@ -47,9 +48,26 @@ filter_types = {
     'Q33532284',  # Wikimedia list of lists
 }
 
+
+def should_filter_by_type(collection):
+    return set([type[0] for type in collection.types]) & filter_types
+
+
 filter_name_prefixes = (
     'Wikipedia:',
 )
+
+
+def should_filter_by_prefix(collection):
+    return collection.name.startswith(filter_name_prefixes)
+
+
+def should_filter_by_by(collection):
+    m = re.search(' by ([^ ]*)', collection.name)
+    if not m: return False
+    by_what = m.group(1)
+    return by_what[0].islower()
+
 
 if __name__ == '__main__':
     parser = ArgumentParser(description='')
@@ -65,7 +83,7 @@ if __name__ == '__main__':
     #     print(f'{k} -> {v}')
 
     count_lists = count_categories = count_written = 0
-    count_merges = count_filtered_by_type = count_merges_by_name = count_filtered_by_prefix = 0
+    count_merges = count_filtered_by_type = count_merges_by_name = count_filtered_by_prefix = count_filtered_by_by = 0
 
     categories_related_to_list = {}
     lists = {}
@@ -76,12 +94,17 @@ if __name__ == '__main__':
             for obj in tqdm(reader, desc='Reading lists'):
                 count_lists += 1
                 collection = Collection.from_dict(obj)
-                if set([type[0] for type in collection.types]) & filter_types:
+
+                if should_filter_by_type(collection):
                     count_filtered_by_type += 1
                     continue
 
-                if collection.name.startswith(filter_name_prefixes):
+                if should_filter_by_prefix(collection):
                     count_filtered_by_prefix += 1
+                    continue
+
+                if should_filter_by_by(collection):
+                    count_filtered_by_by += 1
                     continue
 
                 lists[collection.item] = collection
@@ -100,12 +123,16 @@ if __name__ == '__main__':
                 count_categories += 1
                 collection = Collection.from_dict(obj)
 
-                if set([type[0] for type in collection.types]) & filter_types:
+                if should_filter_by_type(collection):
                     count_filtered_by_type += 1
                     continue
 
-                if collection.name.startswith(filter_name_prefixes):
+                if should_filter_by_prefix(collection):
                     count_filtered_by_prefix += 1
+                    continue
+
+                if should_filter_by_by(collection):
+                    count_filtered_by_by += 1
                     continue
 
                 # TRY MERGE BY TYPE
@@ -152,6 +179,7 @@ if __name__ == '__main__':
     print(f'Merged by name {count_merges_by_name} categories into lists')
     print(f'Filtered by type: {count_filtered_by_type}')
     print(f'Filtered by prefix: {count_filtered_by_prefix}')
+    print(f'Filtered by by: {count_filtered_by_by}')
 
     # All collections: 570487
     # Lists: 108944, Categories: 461543, Written 511932
