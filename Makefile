@@ -101,5 +101,14 @@ data/merged.jsonl: data/list_links_all_info.jsonl data/category_members_all_info
 	#Filtered by type: 44096
 	#Filtered by prefix: 743
 
+
+	#All collections: 570487
+	#Lists: 108944, Categories: 461543, Written 503427
+	#Merged by type 6920 categories into lists
+	#Merged by name 6712 categories into lists
+	#Filtered by type: 44096
+	#Filtered by prefix: 743
+	#Filtered by by: 8589
+
 data/merged_final.jsonl: data/merged.jsonl
 	time python3 scripts/prepare_collections2.py data/merged.jsonl data/merged_final.jsonl -n 511000
