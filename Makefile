@@ -110,5 +110,12 @@ data/merged.jsonl: data/list_links_all_info.jsonl data/category_members_all_info
 	#Filtered by prefix: 743
 	#Filtered by by: 8589
 
-data/merged_final.jsonl: data/merged.jsonl
-	time python3 scripts/prepare_collections2.py data/merged.jsonl data/merged_final.jsonl -n 511000
+data/merged_filtered.jsonl: data/merged.jsonl
+	python scripts/merge_collections_ending_with_letters.py data/merged.jsonl data/merged_filtered.jsonl -n 503427
+	#Matches: 3554
+	#Merged: 3462
+
+data/merged_final.jsonl: data/merged_filtered.jsonl
+	time python3 scripts/prepare_collections2.py data/merged_filtered.jsonl data/merged_final.jsonl -n 511000
+	
+# finally 419030
