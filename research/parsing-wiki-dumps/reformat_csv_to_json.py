@@ -1,6 +1,4 @@
 from argparse import ArgumentParser
-from typing import Iterable
-from collections import defaultdict
 import jsonlines
 import json
 import csv
