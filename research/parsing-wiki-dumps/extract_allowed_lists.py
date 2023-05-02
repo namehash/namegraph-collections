@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     page_ids = []
     for list_obj in lists:
-        page_ids.extend(wikimapper.id_to_wikipedia_id(list_obj['item']))
+        page_ids.extend(wikimapper.id_to_wikipedia_ids(list_obj['item']))
 
     with open(args.output, 'w', encoding='utf-8') as f:
         f.write('\n'.join(map(str, page_ids)) + '\n')
