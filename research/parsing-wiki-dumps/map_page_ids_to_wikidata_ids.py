@@ -9,22 +9,18 @@ def category_title2wikidata_id(title: str) -> str:
     return categories_mapping['Category:' + title]['item']
 
 
-def title2wikidata_id(title: str) -> str:
-    if title not in title_cached_mapping:
-        wikidata_id = mapper.title_to_id(title)
-        title_cached_mapping[title] = wikidata_id
-    else:
-        wikidata_id = title_cached_mapping[title]
+def wikipedia_id2title(wikipedia_id: int) -> str:
+    if (title := cached_wikipedia_id2title.get(wikipedia_id)) is None:
+        title = mapper.wikipedia_id_to_title(wikipedia_id)
+        cached_wikipedia_id2title[wikipedia_id] = title
 
-    return wikidata_id
+    return title
 
 
 def wikipedia_id2wikidata_id(wikipedia_id: int) -> str:
-    if wikipedia_id not in wikipedia_id_cached_mapping:
+    if (wikidata_id := cached_wikipedia_id2wikidata_id.get(wikipedia_id)) is None:
         wikidata_id = mapper.wikipedia_id_to_id(wikipedia_id)
-        wikipedia_id_cached_mapping[wikipedia_id] = wikidata_id
-    else:
-        wikidata_id = wikipedia_id_cached_mapping[wikipedia_id]
+        cached_wikipedia_id2wikidata_id[wikipedia_id] = wikidata_id
 
     return wikidata_id
 
@@ -43,8 +39,8 @@ if __name__ == '__main__':
         raise ValueError('if mode is `category`, then you must pass `categories` argument too')
 
     mapper = wikimapper.WikiMapper(args.wikimapper)
-    title_cached_mapping: dict[str, str] = dict()
-    wikipedia_id_cached_mapping: dict[int, str] = dict()
+    cached_wikipedia_id2title: dict[int, str] = dict()
+    cached_wikipedia_id2wikidata_id: dict[int, str] = dict()
 
     if args.mode == 'category':
         with open(args.categories, 'r', encoding='utf-8') as f:
@@ -60,7 +56,7 @@ if __name__ == '__main__':
         writer = csv.writer(out_csv, delimiter=',')
 
         header = next(reader)
-        writer.writerow(['collection_wikidata_id', 'member_wikidata_id'])
+        writer.writerow(['collection_wikidata_id', 'member_title'])
 
         for line in reader:
             if args.mode == 'category':
@@ -68,20 +64,20 @@ if __name__ == '__main__':
                 member_wikipedia_id = int(line[0])
 
                 collection_wikidata_id = category_title2wikidata_id(category_title)
-                member_wikidata_id = wikipedia_id2wikidata_id(member_wikipedia_id)
+                member_title = wikipedia_id2title(member_wikipedia_id)
 
             elif args.mode == 'list':
                 list_wikipedia_id = int(line[0])
                 member_title = line[1]
 
                 collection_wikidata_id = wikipedia_id2wikidata_id(list_wikipedia_id)
-                member_wikidata_id = title2wikidata_id(member_title)
+                member_title = member_title
 
             else:
                 raise ValueError(f'invalid mode - {args.mode}')
 
-            if collection_wikidata_id and member_wikidata_id:
-                writer.writerow([collection_wikidata_id, member_wikidata_id])
+            if collection_wikidata_id and member_title:
+                writer.writerow([collection_wikidata_id, member_title])
             else:
                 skipped += 1
                 # FIXME no title is mapped!!!

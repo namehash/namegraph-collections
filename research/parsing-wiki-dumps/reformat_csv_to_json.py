@@ -9,26 +9,6 @@ from rocksdict import Rdict
 from more_itertools import ichunked
 
 
-def group_by(csvreader: Iterable[list], output: str, batch_size: int = 1_000_000):
-    grouped = Rdict(output)
-
-    try:
-        for chunk in ichunked(csvreader, batch_size):
-            # in-memory reversing
-            mapping = defaultdict(list)
-            for key, value in chunk:
-                mapping[key].append(value)
-
-            # writing to the memory
-            for key, values in mapping.items():
-                if key in grouped:
-                    grouped[key] = grouped[key] + values
-                else:
-                    grouped[key] = values
-    finally:
-        grouped.close()
-
-
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('input', help='csv input filepath')
@@ -84,17 +64,3 @@ if __name__ == '__main__':
             'article': item['article'],
             'members': members
         })
-
-
-        # group_by(reader, 'grouped.rocksdb', batch_size=args.grouping_batch_size)
-        #
-        # rdict = Rdict('grouped.rocksdb')
-        # for key, values in rdict.items():
-        #     # TODO implement the rest
-        #
-        #     writer.write({
-        #         'item': key,
-        #         # 'type': [...],
-        #         # 'article': ...,
-        #         'members': values
-        #     })
