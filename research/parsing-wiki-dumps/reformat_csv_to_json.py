@@ -1,12 +1,7 @@
 from argparse import ArgumentParser
-from typing import Iterable
-from collections import defaultdict
 import jsonlines
 import json
 import csv
-
-from rocksdict import Rdict
-from more_itertools import ichunked
 
 
 if __name__ == '__main__':
@@ -24,11 +19,6 @@ if __name__ == '__main__':
             coll['item']: coll
             for coll in list_of_collections
         }
-
-    # FIXME key errors!!
-    print(list(collections.keys())[:100])
-    print('Q1009619' in collections)
-    # exit()
 
     with open(args.input, 'r', encoding='utf-8') as csvfile, jsonlines.open(args.output, 'w') as writer:
         reader = csv.reader(csvfile, delimiter=',')
