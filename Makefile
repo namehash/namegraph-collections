@@ -33,16 +33,13 @@ data/lists2.json: dictrocks dictrocks_rev
 download_members: download_list_members download_category_members
 
 ############## LIST MEMBERS ##############
-data/enwiki-20230401-pagelinks.sql.gz:
-	# fixme
-
-data/enwiki-20230401-pagelinks.sql: data/enwiki-20230401-pagelinks.sql.gz
-	# fixme
+data/enwiki-latest-pagelinks.sql.gz:
+	time wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pagelinks.sql.gz
 
 data/allowed-lists.txt: data/lists2.json data/index_enwiki-latest.db
 	time python scripts/extract_allowed_lists.py $< data/index_enwiki-latest.db data/allowed-lists.txt
 
-data/enwiki-pagelinks.csv: data/enwiki-20230401-pagelinks.sql data/allowed-lists.txt
+data/enwiki-pagelinks.csv: data/enwiki-latest-pagelinks.sql.gz data/allowed-lists.txt
 	time python scripts/parse_wiki_dump.py $< data/enwiki-pagelinks.csv --mode list --allowed_values data/allowed-lists.txt
 
 data/mapped-lists.csv: data/enwiki-pagelinks.csv data/index_enwiki-latest.db
@@ -57,16 +54,13 @@ data/list_links2.jsonl: data/sorted-lists.csv data/lists2.json
 download_list_members: data/list_links2.jsonl
 
 ############## CATEGORY MEMBERS ##############
-data/enwiki-20230401-categorylinks.sql.gz:
-	# fixme
-
-data/enwiki-20230401-categorylinks.sql: data/enwiki-20230401-categorylinks.sql.gz
-	# fixme
+data/enwiki-latest-categorylinks.sql.gz:
+	time wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-categorylinks.sql.gz
 
 data/allowed-categories.txt: data/categories2.json
 	time python extract_allowed_categories.py $< data/allowed-categories.txt
 
-data/enwiki-categories.csv: data/enwiki-20230401-categorylinks.sql data/allowed-categories.txt
+data/enwiki-categories.csv: data/enwiki-latest-categorylinks.sql.gz data/allowed-categories.txt
 	time python scripts/parse_wiki_dump.py $< data/enwiki-categories.csv --mode category --allowed_values data/allowed-categories.txt
 
 data/mapped-categories.csv: data/enwiki-categories.csv data/index_enwiki-latest.db data/categories2.json
