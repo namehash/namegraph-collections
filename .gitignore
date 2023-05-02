@@ -2,3 +2,6 @@
 **.gz
 research/parsing-wiki-dumps/*.sql
 research/parsing-wiki-dumps/*.csv
+research/parsing-wiki-dumps/*.json
+research/parsing-wiki-dumps/*.rocksdb
+research/parsing-wiki-dumps/data
