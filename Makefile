@@ -19,6 +19,7 @@ dictrocks: data/latest-all.nt.bz2.filtered.bz2 # 1.5h
 dictrocks_rev:
 	time python scripts/reverse_rocksdict.py data/db1.rocks/ data/db1_rev.rocks/
 
+########################  PREPARING VALID LISTS AND CATEGORIES  ########################
 prepare_lists_and_categories: data/categories2.json data/lists2.json
 
 data/categories2.json: dictrocks dictrocks_rev
@@ -27,17 +28,59 @@ data/categories2.json: dictrocks dictrocks_rev
 data/lists2.json: dictrocks dictrocks_rev
 	time python scripts/create_lists.py $@ --mode list
 
+
+########################  DOWNLOADING MEMBERS  ########################
 download_members: download_list_members download_category_members
 
-# the script is appending
-download_list_members: data/lists2.json	
-	time python scripts/download_category_members_and_links.py --mode list $< data/list_links2.jsonl
+############## LIST MEMBERS ##############
+data/enwiki-20230401-pagelinks.sql.gz:
+	# fixme
 
-# the script is appending
-download_category_members: data/categories2.json
-	time python scripts/download_category_members_and_links.py --mode category $< data/category_members2.jsonl
+data/enwiki-20230401-pagelinks.sql: data/enwiki-20230401-pagelinks.sql.gz
+	# fixme
+
+data/allowed-lists.txt: data/lists2.json data/index_enwiki-latest.db
+	time python scripts/extract_allowed_lists.py $< data/index_enwiki-latest.db data/allowed-lists.txt
+
+data/enwiki-pagelinks.csv: data/enwiki-20230401-pagelinks.sql data/allowed-lists.txt
+	time python scripts/parse_wiki_dump.py $< data/enwiki-pagelinks.csv --mode list --allowed_values data/allowed-lists.txt
+
+data/mapped-lists.csv: data/enwiki-pagelinks.csv data/index_enwiki-latest.db
+	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db data/mapped-lists.csv --mode list
+
+data/sorted-lists.csv: data/mapped-lists.csv
+	(head -n 1 $< && tail -n +2 $< | sort) > sorted-lists.csv
+
+data/list_links2.jsonl: data/sorted-lists.csv data/lists2.json
+	time python scripts/reformat_csv_to_json.py $< data/list_links2.jsonl --list_of_collections data/lists2.json --mode list
+
+download_list_members: data/list_links2.jsonl
+
+############## CATEGORY MEMBERS ##############
+data/enwiki-20230401-categorylinks.sql.gz:
+	# fixme
+
+data/enwiki-20230401-categorylinks.sql: data/enwiki-20230401-categorylinks.sql.gz
+	# fixme
+
+data/allowed-categories.txt: data/categories2.json
+	time python extract_allowed_categories.py $< data/allowed-categories.txt
+
+data/enwiki-categories.csv: data/enwiki-20230401-categorylinks.sql data/allowed-categories.txt
+	time python scripts/parse_wiki_dump.py $< data/enwiki-categories.csv --mode category --allowed_values data/allowed-categories.txt
+
+data/mapped-categories.csv: data/enwiki-categories.csv data/index_enwiki-latest.db data/categories2.json
+	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db data/mapped-categories.csv --mode category --categories data/categories2.json
+
+data/sorted-categories.csv: data/mapped-categories.csv
+	(head -n 1 $< && tail -n +2 $< | sort) > sorted-categories.csv
+
+data/category_members2.jsonl: data/sorted-categories.csv data/categories2.json
+	time python scripts/reformat_csv_to_json.py $< data/category_members2.jsonl --list_of_collections data/categories2.json --mode category
+
+download_category_members: data/category_members2.jsonl
 	
-
+########################  WIKIMAPPER SETUP  ########################
 wikimapper: data/index_enwiki-latest.db
 
 wikimapper_download:
@@ -46,11 +89,13 @@ wikimapper_download:
 data/index_enwiki-latest.db: wikimapper_download
 	time wikimapper create enwiki-latest --dumpdir data --target $@
 	
-
+########################  QRANK  ########################
 qrank: data/qrank.csv
 
 data/qrank.csv:
 	time wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > $@
+
+########################  ???  ########################
 
 # filter members of lists and categories
 # Wikidata redirects
