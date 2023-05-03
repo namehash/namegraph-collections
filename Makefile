@@ -33,44 +33,46 @@ data/lists2.json: dictrocks dictrocks_rev
 download_members: download_list_members download_category_members
 
 ############## LIST MEMBERS ##############
-data/enwiki-latest-pagelinks.sql.gz:
-	time wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pagelinks.sql.gz
+# FIXME currently parser expects the gz to have date in it (think about PR to fix that)
+data/enwiki-20230401-pagelinks.sql.gz:
+	time wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pagelinks.sql.gz -O $@
 
 data/allowed-lists.txt: data/lists2.json data/index_enwiki-latest.db
-	time python scripts/extract_allowed_lists.py $< data/index_enwiki-latest.db data/allowed-lists.txt
+	time python scripts/extract_allowed_lists.py $< data/index_enwiki-latest.db $@
 
-data/enwiki-pagelinks.csv: data/enwiki-latest-pagelinks.sql.gz data/allowed-lists.txt
-	time python scripts/parse_wiki_dump.py $< data/enwiki-pagelinks.csv --mode list --allowed_values data/allowed-lists.txt
+data/enwiki-pagelinks.csv: data/enwiki-20230401-pagelinks.sql.gz data/allowed-lists.txt
+	time python scripts/parse_wiki_dump.py $< $@ --mode list --allowed_values data/allowed-lists.txt
 
 data/mapped-lists.csv: data/enwiki-pagelinks.csv data/index_enwiki-latest.db
-	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db data/mapped-lists.csv --mode list
+	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db $@ --mode list
 
 data/sorted-lists.csv: data/mapped-lists.csv
-	(head -n 1 $< && tail -n +2 $< | sort) > sorted-lists.csv
+	(head -n 1 $< && tail -n +2 $< | sort) > $@
 
 data/list_links2.jsonl: data/sorted-lists.csv data/lists2.json
-	time python scripts/reformat_csv_to_json.py $< data/list_links2.jsonl --list_of_collections data/lists2.json --mode list
+	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/lists2.json --mode list
 
 download_list_members: data/list_links2.jsonl
 
 ############## CATEGORY MEMBERS ##############
-data/enwiki-latest-categorylinks.sql.gz:
-	time wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-categorylinks.sql.gz
+# FIXME currently parser expects the gz to have date in it (think about PR to fix that)
+data/enwiki-20230401-categorylinks.sql.gz:
+	time wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-categorylinks.sql.gz -O $@
 
 data/allowed-categories.txt: data/categories2.json
-	time python extract_allowed_categories.py $< data/allowed-categories.txt
+	time python scripts/extract_allowed_categories.py $< $@
 
-data/enwiki-categories.csv: data/enwiki-latest-categorylinks.sql.gz data/allowed-categories.txt
-	time python scripts/parse_wiki_dump.py $< data/enwiki-categories.csv --mode category --allowed_values data/allowed-categories.txt
+data/enwiki-categories.csv: data/enwiki-20230401-categorylinks.sql.gz data/allowed-categories.txt
+	time python scripts/parse_wiki_dump.py $< $@ --mode category --allowed_values data/allowed-categories.txt
 
 data/mapped-categories.csv: data/enwiki-categories.csv data/index_enwiki-latest.db data/categories2.json
-	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db data/mapped-categories.csv --mode category --categories data/categories2.json
+	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db $@ --mode category --categories data/categories2.json
 
 data/sorted-categories.csv: data/mapped-categories.csv
-	(head -n 1 $< && tail -n +2 $< | sort) > sorted-categories.csv
+	(head -n 1 $< && tail -n +2 $< | sort) > $@
 
 data/category_members2.jsonl: data/sorted-categories.csv data/categories2.json
-	time python scripts/reformat_csv_to_json.py $< data/category_members2.jsonl --list_of_collections data/categories2.json --mode category
+	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/categories2.json --mode category
 
 download_category_members: data/category_members2.jsonl
 	
