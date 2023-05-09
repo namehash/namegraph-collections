@@ -115,7 +115,11 @@ data/merged_filtered.jsonl: data/merged.jsonl
 	#Matches: 3554
 	#Merged: 3462
 
-data/merged_final.jsonl: data/merged_filtered.jsonl
-	time python3 scripts/prepare_collections2.py data/merged_filtered.jsonl data/merged_final.jsonl -n 511000
+data/merged_filtered_dup.jsonl: data/merged_filtered.jsonl
+	time python scripts/filter_duplicates.py data/merged_filtered.jsonl data/merged_filtered_dup.jsonl -n 500139
+	# Merged: 261
+
+data/merged_final.jsonl: data/merged_filtered_dup.jsonl
+	time python3 scripts/prepare_collections2.py data/merged_filtered_dup.jsonl data/merged_final.jsonl -n 500008
 	
 # finally 419030
