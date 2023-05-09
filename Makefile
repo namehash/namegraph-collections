@@ -58,7 +58,7 @@ data/enwiki-20230401-pagelinks.sql.gz:
 	time wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pagelinks.sql.gz -O $@
 
 data/allowed-lists.txt: data/lists2.json data/index_enwiki-latest.db
-	time python scripts/extract_allowed_lists.py $< data/index_enwiki-latest.db $@
+	time python scripts/extract_allowed_lists.py $^ $@
 	# output is a list of page ids:
 	# 23455140
 
@@ -84,8 +84,8 @@ data/sorted-lists.csv: data/mapped-lists.csv
 data/list_links2.jsonl: data/sorted-lists.csv data/lists2.json
 	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/lists2.json --mode list
 	# output
-	#     {"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["Bayern-class battleship", "Diacritical mark", "Diacritical mark", "Kaiserliche Marine", "PIPE", "PIPE", "Redirects from titles without diacritics", "Redirects from titles without diacritics", "Sachsen-class ironclad", "SMS Württemberg", "SMS Württemberg", "SMS Württemberg", "SMS Württemberg (1878)", "SMS Württemberg (1917)", "WikiProject Ships/Guidelines"]}
-    # old:{"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Sachsen-class ironclad", "Kaiserliche Marine", "SMS Württemberg (1917)"]}
+	#     {"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "SMS Württemberg",  "SMS Württemberg (1917)", "Sachsen-class ironclad", "WikiProject Ships/Guidelines"]}
+    # old:{"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "Sachsen-class ironclad", "SMS Württemberg (1917)"]}
 download_list_members: data/list_links2.jsonl
 
 ############## CATEGORY MEMBERS ##############
