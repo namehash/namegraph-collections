@@ -6,7 +6,7 @@ from rocksdict import AccessType
 from tqdm import tqdm
 
 if __name__ == '__main__':
-    parser = ArgumentParser()
+    parser = ArgumentParser(description='Create files with lists of articles or categories')
     parser.add_argument('output', help='JSON file for the output collections')
     parser.add_argument('--mode', default='category', choices=['category', 'list'], help='mode')
     args = parser.parse_args()
@@ -27,8 +27,6 @@ if __name__ == '__main__':
     articles = []
     for wikidata_id, predicates in tqdm(db3.items()):
         try:
-            # print(wikidata_id, predicates)
-            # print(db1[wikidata_id])
             if predicate in predicates:
                 article_name = db1[wikidata_id]
                 

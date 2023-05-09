@@ -3,29 +3,13 @@ import sys
 
 import lightrdf
 from tqdm import tqdm
-import shelve
 
 parser = lightrdf.Parser()
-
-predicates_one = {
-    '<http://schema.org/about>',
-    # '<http://www.wikidata.org/prop/direct/P31>',  # instance of - wiele
-    # '<http://www.wikidata.org/prop/direct/P279>',  # subclass of - wiele
-    # '<http://www.wikidata.org/prop/direct/P360>',  # is a list of -  wiele https://www.wikidata.org/wiki/Q177410
-    # '<http://www.wikidata.org/prop/direct/P4224>', # category contains - wiele https://www.wikidata.org/wiki/Q7235423
-    # '<http://www.wikidata.org/prop/direct/P1753>',  # list related to category - wiele
-    # '<http://www.wikidata.org/prop/direct/P1754>',  # category related to list - wiele
-    # '<http://www.wikidata.org/prop/direct/P18>',  # image - wiele
-    # '<http://www.wikidata.org/prop/direct/P948>',  # page banner - wiele
-    '<http://schema.org/name>',
-    '<http://www.w3.org/2000/01/rdf-schema#label>',
-    '<http://schema.org/description>'
-}
 
 dbs = {
     'db1': {'about'},
     'db2': {'instance_of', 'subclass_of'},
-    'db3': {'is_a_list_of', 'category_contains'}, #TODO add name
+    'db3': {'is_a_list_of', 'category_contains'},  # TODO add name
     'db4': {'list_related_to_category', 'category_related_to_list'},
     'db5': {'name', 'label', 'description', 'image', 'page_banner'},
     'db6': {'same_as'},
@@ -84,40 +68,40 @@ def entity_generator(path):
     with bz2.open(path, "rb") as f:
         for triple in tqdm(parser.parse(f, format='nt'), total=396603875):
             subject, predicate, object = triple
-    
+
             try:
                 predicate = mapping[predicate]
             except KeyError:
                 continue
-    
+
             if predicate == 'instance_of' and object in filter_instances:
                 continue
-                
+
             if predicate == 'name' and subject.startswith('<https://en.wikipedia.org/wiki/'):
                 continue
-    
+
             try:
                 subject = clean(subject)
                 object = clean(object)
             except ValueError:
                 continue
-    
+
             if last_subject is None:
                 last_subject = subject
-    
+
             if subject != last_subject:
                 yield last_subject, entity
                 entity = {}
-    
+
             if predicate in predicates_one:
                 entity[predicate] = object
             else:
                 if predicate not in entity:
                     entity[predicate] = []
                 entity[predicate].append(object)
-    
+
             last_subject = subject
-    
+
         if entity:
             yield last_subject, entity
 
@@ -132,35 +116,20 @@ def split_dict(entity, mappings):
     return result
 
 
-# d = shelve.open('filtered.shelve')
-# import vedis
-# d = vedis.Vedis('filtered.vedis')
 import rocksdict
-
-# d = rocksdict.Rdict('filtered.rocksdict')
 
 rockdbs = {}
 for db_name, predicates in dbs.items():
     rockdbs[db_name] = rocksdict.Rdict('data/' + db_name + '.rocks')
 
 for subject, entity in entity_generator(sys.argv[1]):
-    # d[subject] = entity
-    # if subject == 'Q5': print(entity)
-    
+
     splitted_entity = split_dict(entity, dbs)
 
     for db_name, entity in splitted_entity.items():
-        # if subject=='Q5': print(db_name, entity)
+
         if entity:
             rockdbs[db_name][subject] = entity
 
-    # print(subject,entity)
-    # for predicate, objects in entity.items():
-    #     if predicate in predicates_one:
-    #         if len(objects) > 1:
-    #             print(subject, predicate, objects)
-# d.close()
-
 for db in rockdbs.values():
     db.close()
-# kilka baz osobnych?

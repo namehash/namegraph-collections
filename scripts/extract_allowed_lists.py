@@ -5,7 +5,7 @@ from wikimapper import WikiMapper
 
 
 if __name__ == '__main__':
-    parser = ArgumentParser()
+    parser = ArgumentParser(description='Extract allowed lists')
     parser.add_argument('lists', help='filepath to the JSON file')
     parser.add_argument('wikimapper', help='path to the wikimapper db')
     parser.add_argument('output', help='path for the output text file containing page ids')

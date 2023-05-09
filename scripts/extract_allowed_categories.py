@@ -3,7 +3,7 @@ import json
 
 
 if __name__ == '__main__':
-    parser = ArgumentParser()
+    parser = ArgumentParser(description='Extract allowed categories')
     parser.add_argument('lists', help='filepath to the JSON file')
     parser.add_argument('output', help='path for the output text file containing category titles')
     args = parser.parse_args()
