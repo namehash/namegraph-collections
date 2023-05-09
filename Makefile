@@ -78,7 +78,7 @@ data/mapped-lists.csv: data/enwiki-pagelinks.csv data/index_enwiki-latest.db
   	# Swedish_women's_football_clubs_in_international_competitions,1.FFC_Frankfurt
 
 data/sorted-lists.csv: data/mapped-lists.csv
-	(head -n 1 $< && tail -n +2 $< | sort) > $@
+	(head -n 1 $< && tail -n +2 $< | LC_ALL=C sort) > $@
 	# 1954_FIFA_World_Cup_squads,1._FC_Nürnberg
 
 data/list_links2.jsonl: data/sorted-lists.csv data/lists2.json
@@ -112,7 +112,7 @@ data/mapped-categories.csv: data/enwiki-categories.csv data/index_enwiki-latest.
 	# Antoni_Gaudí_buildings,Park_Güell
 
 data/sorted-categories.csv: data/mapped-categories.csv
-	(head -n 1 $< && tail -n +2 $< | sort) > $@
+	(head -n 1 $< && tail -n +2 $< | LC_ALL=C sort) > $@
 
 data/category_members2.jsonl: data/sorted-categories.csv data/categories2.json
 	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/categories2.json --mode category
