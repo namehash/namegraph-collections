@@ -64,7 +64,7 @@ data/allowed-lists.txt: data/lists2.json data/index_enwiki-latest.db
 
 data/enwiki-pagelinks.csv: data/enwiki-20230401-pagelinks.sql.gz data/allowed-lists.txt
 	time python scripts/parse_wiki_dump.py $< $@ --mode list --allowed_values data/allowed-lists.txt
-	# output:
+	# 126m, output:
 	# 23455140,1.FC_Nürnberg
     # 33030326,1.FC_Nürnberg
 
@@ -73,13 +73,19 @@ data/mapped-lists.csv: data/enwiki-pagelinks.csv data/index_enwiki-latest.db
 	# output:
 	# Q6620950,1.FC_Nürnberg
 	# Q6589143,1.FC_Nürnberg
+	# List_of_footballers_killed_during_World_War_II,1.FC_Nürnberg
+  	# List_of_Malaysian_football_transfers_2012,1.FC_Nürnberg
+  	# Swedish_women's_football_clubs_in_international_competitions,1.FFC_Frankfurt
 
 data/sorted-lists.csv: data/mapped-lists.csv
 	(head -n 1 $< && tail -n +2 $< | sort) > $@
+	# 1954_FIFA_World_Cup_squads,1._FC_Nürnberg
 
 data/list_links2.jsonl: data/sorted-lists.csv data/lists2.json
 	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/lists2.json --mode list
-
+	# output
+	#     {"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["Bayern-class battleship", "Diacritical mark", "Diacritical mark", "Kaiserliche Marine", "PIPE", "PIPE", "Redirects from titles without diacritics", "Redirects from titles without diacritics", "Sachsen-class ironclad", "SMS Württemberg", "SMS Württemberg", "SMS Württemberg", "SMS Württemberg (1878)", "SMS Württemberg (1917)", "WikiProject Ships/Guidelines"]}
+    # old:{"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Sachsen-class ironclad", "Kaiserliche Marine", "SMS Württemberg (1917)"]}
 download_list_members: data/list_links2.jsonl
 
 ############## CATEGORY MEMBERS ##############
@@ -102,6 +108,8 @@ data/mapped-categories.csv: data/enwiki-categories.csv data/index_enwiki-latest.
 	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db $@ --mode category --categories data/categories2.json
 	# 3m, output:
 	# Q8879623,Park_Güell
+	# Writers_from_Zürich,Johann_Georg_Baiter
+	# Antoni_Gaudí_buildings,Park_Güell
 
 data/sorted-categories.csv: data/mapped-categories.csv
 	(head -n 1 $< && tail -n +2 $< | sort) > $@
@@ -123,7 +131,7 @@ data/index_enwiki-latest.db: wikimapper_download
 	time wikimapper create enwiki-latest --dumpdir data --target $@
 	
 # wikimapper stores: wikipedia_id, wikipedia_title, wikidata_id
-# also redirects, for which wikidata_id is taken from target aricle
+# also redirects, for which wikidata_id overriden by target aricle
 
 ########################  QRANK  ########################
 qrank: data/qrank.csv
