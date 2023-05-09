@@ -1,5 +1,6 @@
 from argparse import ArgumentParser
 import logging
+from urllib.parse import unquote
 
 from kwnlp_sql_parser import WikipediaSqlDump, WikipediaSqlCsvDialect
 
@@ -9,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 if __name__ == '__main__':
-    parser = ArgumentParser()
+    parser = ArgumentParser(description='Parse wiki dump')
     parser.add_argument('input', help='sql dump filepath')
     parser.add_argument('output', help='output CSV file')
     parser.add_argument('--mode', default='category', choices=['category', 'list'], help='mode')
@@ -19,7 +20,7 @@ if __name__ == '__main__':
     if args.mode == 'category':
         with open(args.allowed_values, 'r', encoding='utf-8') as f:
             category_titles = tuple([
-                category_title.strip().removeprefix('Category:')
+                unquote(category_title.strip().removeprefix('Category:'))
                 for category_title in f.read().strip('\n').split('\n')
             ])
 

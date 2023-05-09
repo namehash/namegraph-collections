@@ -1,8 +1,10 @@
 from argparse import ArgumentParser
 import json
 import csv
+from urllib.parse import unquote
 
 import wikimapper
+from tqdm import tqdm
 
 
 def category_title2wikidata_id(title: str) -> str:
@@ -46,7 +48,7 @@ if __name__ == '__main__':
         with open(args.categories, 'r', encoding='utf-8') as f:
             categories = json.load(f)
         categories_mapping = {
-            category['article']: category
+            unquote(category['article']): category
             for category in categories
         }
 
@@ -58,7 +60,7 @@ if __name__ == '__main__':
         header = next(reader)
         writer.writerow(['collection_wikidata_id', 'member_title'])
 
-        for line in reader:
+        for line in tqdm(reader):
             if args.mode == 'category':
                 category_title = line[1]
                 member_wikipedia_id = int(line[0])
