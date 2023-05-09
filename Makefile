@@ -1,6 +1,11 @@
 .PHONY: all
 
+#TODO everything should be unquoted because some characters are not escaped properly, e.g. comma
+
 filter: data/latest-all.nt.bz2.filtered.bz2 data/stats_predicates.txt data/stats_instance_of.txt
+
+data/latest-all.nt.bz2:
+	time wget https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.nt.bz2
 
 data/latest-all.nt.bz2.filtered.bz2: data/latest-all.nt.bz2
 	time pv $< | bzcat | grep -E '^(<https://en\.wikipedia\.org/wiki/|<http://www\.wikidata\.org/entity/).*((<http://www\.wikidata\.org/prop/direct/P18>|<http://www\.wikidata\.org/prop/direct/P1753>|<http://www\.wikidata\.org/prop/direct/P31>|<http://schema\.org/about>|<http://www\.wikidata\.org/prop/direct/P1754>|<http://www\.wikidata\.org/prop/direct/P4224>|<http://www\.wikidata\.org/prop/direct/P948>|<http://www\.wikidata\.org/prop/direct/P279>|<http://www\.wikidata\.org/prop/direct/P360>|<http://www\.w3\.org/2002/07/owl\#sameAs>)|((<http://schema\.org/description>|<http://schema\.org/name>|<http://www\.w3\.org/2000/01/rdf\-schema\#label>).*@en .$$))' | pbzip2 -c > $@
@@ -24,10 +29,25 @@ prepare_lists_and_categories: data/categories2.json data/lists2.json
 
 data/categories2.json: dictrocks dictrocks_rev
 	time python scripts/create_lists.py $@ --mode category
-	
+	# output:
+	#  {
+	#    "item": "Q100088400",
+	#    "type": [
+	#      "Q5"
+	#    ],
+	#    "article": "Category:Writers_from_Z%C3%BCrich"
+	#  },	
+
 data/lists2.json: dictrocks dictrocks_rev
 	time python scripts/create_lists.py $@ --mode list
-
+	# output:
+	#   {
+	#    "item": "Q100673110",
+	#    "type": [
+	#      "Q11424"
+	#    ],
+	#    "article": "List_of_Walt_Disney_Studios_films_(2000%E2%80%932009)"
+	#  },
 
 ########################  DOWNLOADING MEMBERS  ########################
 download_members: download_list_members download_category_members
@@ -39,12 +59,20 @@ data/enwiki-20230401-pagelinks.sql.gz:
 
 data/allowed-lists.txt: data/lists2.json data/index_enwiki-latest.db
 	time python scripts/extract_allowed_lists.py $< data/index_enwiki-latest.db $@
+	# output is a list of page ids:
+	# 23455140
 
 data/enwiki-pagelinks.csv: data/enwiki-20230401-pagelinks.sql.gz data/allowed-lists.txt
 	time python scripts/parse_wiki_dump.py $< $@ --mode list --allowed_values data/allowed-lists.txt
+	# output:
+	# 23455140,1.FC_Nürnberg
+    # 33030326,1.FC_Nürnberg
 
 data/mapped-lists.csv: data/enwiki-pagelinks.csv data/index_enwiki-latest.db
-	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db $@ --mode list
+	time python scripts/map_to_wikidata_ids_and_titles.py $^ $@ --mode list
+	# output:
+	# Q6620950,1.FC_Nürnberg
+	# Q6589143,1.FC_Nürnberg
 
 data/sorted-lists.csv: data/mapped-lists.csv
 	(head -n 1 $< && tail -n +2 $< | sort) > $@
@@ -58,21 +86,30 @@ download_list_members: data/list_links2.jsonl
 # FIXME currently parser expects the gz to have date in it (think about PR to fix that)
 data/enwiki-20230401-categorylinks.sql.gz:
 	time wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-categorylinks.sql.gz -O $@
+	# 143237,'Writers_from_Zürich',...
 
 data/allowed-categories.txt: data/categories2.json
 	time python scripts/extract_allowed_categories.py $< $@
+	# output is a list of category titles:
+	# Category:Writers_from_Z%C3%BCrich
 
 data/enwiki-categories.csv: data/enwiki-20230401-categorylinks.sql.gz data/allowed-categories.txt
 	time python scripts/parse_wiki_dump.py $< $@ --mode category --allowed_values data/allowed-categories.txt
+	# 33m: output
+	# 143237,Writers_from_Zürich
 
 data/mapped-categories.csv: data/enwiki-categories.csv data/index_enwiki-latest.db data/categories2.json
 	time python scripts/map_to_wikidata_ids_and_titles.py $< data/index_enwiki-latest.db $@ --mode category --categories data/categories2.json
+	# 3m, output:
+	# Q8879623,Park_Güell
 
 data/sorted-categories.csv: data/mapped-categories.csv
 	(head -n 1 $< && tail -n +2 $< | sort) > $@
 
 data/category_members2.jsonl: data/sorted-categories.csv data/categories2.json
 	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/categories2.json --mode category
+	# output:
+	# {"item": "Q100088400", "type": ["Q5"], "article": "Category:Writers_from_Z%C3%BCrich", "members": ["Alain de Botton", "Annemarie Schwarzenbach", "Arnold Kübler", "Bernhard Diebold", "Bruno Barbatti", "Carl Seelig", "Charles Lewinsky", "Conrad Ferdinand Meyer", "Egon von Vietinghoff", "Elisabeth Joris", "Esther Dyson", "Fleur Jaeggy", "Gerold Meyer von Knonau (1804–1858)", "Gottfried Keller", "Gotthard Jedlicka", "Hans-Ulrich Indermaur", "Hugo Loetscher", "Ilma Rakusa", "Johann Caspar Scheuchzer", "Johann Georg Baiter", "Johann Jakob Breitinger", "Johann Jakob Hottinger (historian)", "Johann Kaspar Lavater", "Jürg Schubiger", "Ludwig Hirzel (historian)", "Mariella Mehr", "Markus Hediger", "Max Frisch", "Max Rychner", "Moustafa Bayoumi", "Olga Plümacher", "Peter Zeindler", "Robert Faesi", "Roger Sablonier", "Stefan Maechler", "Taya Zinkin", "Verena Conzett", "Werner Vordtriede", "Wilhelm Wartmann"]}
 
 download_category_members: data/category_members2.jsonl
 	
@@ -85,6 +122,9 @@ wikimapper_download:
 data/index_enwiki-latest.db: wikimapper_download
 	time wikimapper create enwiki-latest --dumpdir data --target $@
 	
+# wikimapper stores: wikipedia_id, wikipedia_title, wikidata_id
+# also redirects, for which wikidata_id is taken from target aricle
+
 ########################  QRANK  ########################
 qrank: data/qrank.csv
 

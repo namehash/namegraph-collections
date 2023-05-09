@@ -3,6 +3,7 @@ import jsonlines
 import json
 import csv
 
+from tqdm import tqdm
 
 if __name__ == '__main__':
     parser = ArgumentParser()
@@ -28,7 +29,7 @@ if __name__ == '__main__':
 
         prev_key = first_row[0]
         members = [first_row[1]]
-        for key, member in reader:
+        for key, member in tqdm(reader):
             if key != prev_key:
                 try:
                     item = collections[prev_key]
@@ -36,7 +37,7 @@ if __name__ == '__main__':
                         'item': item['item'],
                         'type': item['type'],
                         'article': item['article'],
-                        'members': members
+                        'members': [m.replace('_', ' ') for m in members]
                     })
                 except KeyError as ex:
                     print(prev_key)
@@ -52,5 +53,5 @@ if __name__ == '__main__':
             'item': item['item'],
             'type': item['type'],
             'article': item['article'],
-            'members': members
+            'members': [m.replace('_', ' ') for m in members]
         })

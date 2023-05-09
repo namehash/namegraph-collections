@@ -3,10 +3,11 @@ Wikipedia-API==0.5.8
 jsonlines
 sparqlwrapper
 tqdm
-git+https://github.com/djstrong/wikimapper@patch-1
+git+https://github.com/Goader/wikimapper@wikipedia-id-to-title
 more_itertools
 ens-normalize
 pytest
 rocksdict
 regex
 lightrdf
+kwnlp_sql_parser
