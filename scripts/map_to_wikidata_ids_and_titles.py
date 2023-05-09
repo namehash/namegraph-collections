@@ -7,8 +7,8 @@ import wikimapper
 from tqdm import tqdm
 
 
-def category_title2wikidata_id(title: str) -> str:
-    return categories_mapping['Category:' + title]['item']
+# def category_title2wikidata_id(title: str) -> str:
+#     return categories_mapping['Category:' + title]['item']
 
 
 def wikipedia_id2title(wikipedia_id: int) -> str:
@@ -19,12 +19,12 @@ def wikipedia_id2title(wikipedia_id: int) -> str:
     return title
 
 
-def wikipedia_id2wikidata_id(wikipedia_id: int) -> str:
-    if (wikidata_id := cached_wikipedia_id2wikidata_id.get(wikipedia_id)) is None:
-        wikidata_id = mapper.wikipedia_id_to_id(wikipedia_id)
-        cached_wikipedia_id2wikidata_id[wikipedia_id] = wikidata_id
-
-    return wikidata_id
+# def wikipedia_id2wikidata_id(wikipedia_id: int) -> str:
+#     if (wikidata_id := cached_wikipedia_id2wikidata_id.get(wikipedia_id)) is None:
+#         wikidata_id = mapper.wikipedia_id_to_id(wikipedia_id)
+#         cached_wikipedia_id2wikidata_id[wikipedia_id] = wikidata_id
+# 
+#     return wikidata_id
 
 
 if __name__ == '__main__':
@@ -65,21 +65,23 @@ if __name__ == '__main__':
                 category_title = line[1]
                 member_wikipedia_id = int(line[0])
 
-                collection_wikidata_id = category_title2wikidata_id(category_title)
+                # collection_wikidata_id = category_title2wikidata_id(category_title)
+                collection_title = category_title
                 member_title = wikipedia_id2title(member_wikipedia_id)
 
             elif args.mode == 'list':
                 list_wikipedia_id = int(line[0])
                 member_title = line[1]
 
-                collection_wikidata_id = wikipedia_id2wikidata_id(list_wikipedia_id)
+                # collection_wikidata_id = wikipedia_id2wikidata_id(list_wikipedia_id)
+                collection_title = wikipedia_id2title(list_wikipedia_id)
                 member_title = member_title
 
             else:
                 raise ValueError(f'invalid mode - {args.mode}')
 
-            if collection_wikidata_id and member_title:
-                writer.writerow([collection_wikidata_id, member_title])
+            if collection_title and member_title:
+                writer.writerow([collection_title, member_title])
             else:
                 skipped += 1
                 # FIXME no title is mapped!!!
