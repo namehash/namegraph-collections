@@ -11,6 +11,9 @@ from prepare_members_names import Collection, uniq_members
 
 
 def merge_collections(collection1: Collection, collection2: Collection) -> Collection:
+    if int(collection2.item[1:]) < int(collection1.item[1:]):  # smaller id as collection stable id
+        collection1.item = collection2.item
+
     collection1.members.extend(collection2.members)
     collection1.members = sorted(collection1.members, key=lambda x: x.rank, reverse=True)
     collection1.members = list(uniq_members(collection1.members))

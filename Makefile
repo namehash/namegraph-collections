@@ -161,13 +161,23 @@ data/validated_list_links2.jsonl: data/list_links2.jsonl
 #No parent 1308946
 #No parent 642624
 #but should be Members 7.057.739 valid, 25.985.431 invalid
-	
+
+# Members 5275966 valid, 19635289 invalid   
+# No parent 1210190 
+
 data/validated_category_members2.jsonl: data/category_members2.jsonl
 	time python3 scripts/filter_articles2.py $< $@ -n 460000
 # 461543it [22:38, 339.84it/s]
 #Members 20456859 valid, 8641896 invalid
 #No parent 1358593
 #should be Members 21.294.548 valid, 7.888.585 invalid
+
+# Members 20514855 valid, 8576122 invalid
+#No parent 1364458
+#
+#real    18m43,154s
+#user    16m22,530s
+#sys     2m10,075s
 
 data/category_members_all_info.jsonl: data/validated_category_members2.jsonl
 	time python3 scripts/prepare_members_names.py $< data/qrank.csv $@ -n 460000
@@ -199,16 +209,28 @@ data/merged.jsonl: data/list_links_all_info.jsonl data/category_members_all_info
 	#Filtered by prefix: 743
 	#Filtered by by: 8589
 
+#All collections: 522965
+#Lists: 103315, Categories: 419650, Written 480519
+#Merged by type 7314 categories into lists
+#Merged by name 7437 categories into lists
+#Filtered by type: 24386
+#Filtered by prefix: 0
+#Filtered by by: 3309
+
 data/merged_filtered.jsonl: data/merged.jsonl
 	python scripts/merge_collections_ending_with_letters.py data/merged.jsonl data/merged_filtered.jsonl -n 503427
 	#Matches: 3554
 	#Merged: 3462
+#Matches: 5728
+#Merged: 4990
 
 data/merged_filtered_dup.jsonl: data/merged_filtered.jsonl
 	time python scripts/filter_duplicates.py data/merged_filtered.jsonl data/merged_filtered_dup.jsonl -n 500139
 	# Merged: 261
+	# Merged: 16848
 
 data/merged_final.jsonl: data/merged_filtered_dup.jsonl
 	time python3 scripts/prepare_collections2.py data/merged_filtered_dup.jsonl data/merged_final.jsonl -n 500008
 	
 # finally 419030
+# finally 411776
