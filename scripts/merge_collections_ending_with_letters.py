@@ -9,34 +9,7 @@ from rocksdict import AccessType
 from tqdm import tqdm
 
 from prepare_members_names import Collection, uniq_members
-
-
-def merge_collections(collection1: Collection, collection2: Collection) -> Collection:
-    collection1.members.extend(collection2.members)
-    collection1.members = sorted(collection1.members, key=lambda x: x.rank, reverse=True)
-    collection1.members = list(uniq_members(collection1.members))
-
-    collection1.valid_members_count += collection2.valid_members_count
-    collection1.invalid_members_count += collection2.invalid_members_count
-
-    collection1.keywords.extend(collection2.keywords)
-    collection1.types = list(set(collection1.types + collection2.types))
-
-    if not collection1.description:
-        collection1.description = collection2.description
-
-    if not collection1.image:
-        collection1.image = collection2.image
-
-    if not collection1.page_banner:
-        collection1.page_banner = collection2.page_banner
-
-    collection1.rank = max(collection1.rank, collection2.rank)
-
-    collection1.is_merged = True
-
-    return collection1
-
+from merge_lists_and_categories import merge_collections
 
 if __name__ == '__main__':
     parser = ArgumentParser(description='')
@@ -53,7 +26,7 @@ if __name__ == '__main__':
             for obj in tqdm(reader, desc='Reading collections', total=args.n):
                 name = obj['name']
                 # grep -E "([,:–] [A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+\"$)|((:|,|–|starting with) [A-Z]\"$)" names.txt | sort | less | wc -l
-                m = re.search('(.*)(([,:–] [A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+$)|((:|,|–|starting with) [A-Z]$))', name)
+                m = re.search('(.*)(([,:–(] ?[A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+$)|((:|,|–|starting with|\() ?[A-Z]\)?$))', name)
                 if m:
                     count_matches += 1
                     prefix = m.group(1)

@@ -8,6 +8,7 @@ import wikipediaapi
 from SPARQLWrapper import SPARQLWrapper, JSON
 from ens_normalize import DisallowedNameError, ens_cure
 from rocksdict import AccessType
+from unidecode import unidecode
 from wikimapper import WikiMapper
 from functools import wraps
 
@@ -342,6 +343,9 @@ class WikiAPI:
     def curate_member(self, member) -> Member:
         member = unquote(member)
         member = member.replace('.', '')
+        member = member.replace('-', '')
+        member = member.replace("'", '')
+        member = member.replace('"', '')
         member = regex.sub(' *\(.*\)$', '', member)
         try:
             curated = self.force_normalize(member)
@@ -349,7 +353,20 @@ class WikiAPI:
             for token in member.split(' '):
                 try:
                     curated_token = self.force_normalize(token)
-                    tokenized.append(curated_token)
+
+                    curated_token2 = curated_token.replace('-', '')  # because other hyphens may be mapped
+                    curated_token2 = curated_token2.replace("'", '')
+
+                    # convert to ascii 
+                    curated_token3 = unidecode(curated_token2, errors='ignore')
+                    if curated_token3 != curated_token2:
+                        print(curated_token2, curated_token3)
+                        curated_token2 = curated_token3
+
+                    if curated_token2 != curated_token:
+                        curated_token2 = self.force_normalize(curated_token2)
+
+                    tokenized.append(curated_token2)
                 except DisallowedNameError as e:
                     pass
 
