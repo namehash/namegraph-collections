@@ -115,7 +115,7 @@ if __name__ == '__main__':
                 # article_types = articles_types.get(article_name, [])
                 
                 try:
-                    article_wikidata_id = db1[quote(member.replace(' ', '_'))]['about']
+                    article_wikidata_id = db1[quote(member.replace(' ', '_'))]['about'] #TODO: what about comma?
                 except KeyError:
                     article_wikidata_id = wikiapi.mapper.title_to_id(member.replace(' ', '_'))
                     if article_wikidata_id is None:

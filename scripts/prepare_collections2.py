@@ -39,10 +39,6 @@ if __name__ == '__main__':
                             'normalized_name': member.curated,
                             'avatar_override': '',
                             'tokenized_name': member.tokenized,
-                            'system_interesting_score': member.interesting_score,  # TODO NOT owner controlled
-                            'rank': member.rank,  # TODO NOT owner controlled
-                            'cached_status': member.status,  # TODO NOT owner controlled
-                            'translations_count': None,  # TODO NOT owner controlled
                         } for member in collection.members],  # TODO sort
                         'collection_description': collection.description,
                         'collection_keywords': collection.keywords,
@@ -88,6 +84,15 @@ if __name__ == '__main__':
 
                         'collection_images': collection.image,
                         'collection_page_banners': collection.page_banner,
+
+                        'names': [{
+                            'normalized_name': member.curated,
+                            # 'tokenized_name': member.tokenized,
+                            'system_interesting_score': member.interesting_score,
+                            'rank': member.rank,
+                            'cached_status': member.status, 
+                            # 'translations_count': None,
+                        } for member in collection.members],  # TODO sort
 
                         # below metrics calculated on members
                         'members_rank_mean': max(np.mean([m.rank for m in collection.members]), MIN_VALUE),
