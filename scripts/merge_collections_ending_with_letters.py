@@ -1,5 +1,6 @@
 import collections
 import re
+import sys
 from argparse import ArgumentParser
 
 import jsonlines as jsonlines
@@ -26,13 +27,13 @@ if __name__ == '__main__':
             for obj in tqdm(reader, desc='Reading collections', total=args.n):
                 name = obj['name']
                 # grep -E "([,:–] [A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+\"$)|((:|,|–|starting with) [A-Z]\"$)" names.txt | sort | less | wc -l
-                m = re.search('(.*)(([,:–(] ?[A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+$)|((:|,|–|starting with|\() ?[A-Z]\)?$))', name)
+                m = re.search('(.*)(([,:–(] ?[A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+$)|((: |, |– |starting with |\()[A-Z]\)?$))', name)
                 if m:
                     count_matches += 1
                     prefix = m.group(1)
                     range = m.group(2)
                     to_merge[prefix].append(Collection.from_dict(obj))
-                    # print(f'{name} -> {[m.group(1), m.group(2)]}')
+                    print(f'{name} -> {[prefix, range]}')
                     # collection = Collection.from_dict(obj)
                 else:
                     writer.write(obj)

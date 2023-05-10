@@ -144,7 +144,7 @@ data/qrank.csv:
 # filter members of lists and categories
 # Wikidata redirects
 
-#TODO cache force normalize
+#TODO pre compute force_normalize function and interestin_score in parallel
 
 cache_interesting_score: cache_interesting_score_lists cache_interesting_score_categories
 
@@ -153,6 +153,8 @@ cache_interesting_score_lists: data/validated_list_links.jsonl
 
 cache_interesting_score_categories: data/validated_category_members.jsonl
 	time python scripts/cache_interesting_score.py $< -n 460000
+
+########################  VALIDATE TYPES  ########################
 
 data/validated_list_links2.jsonl: data/list_links2.jsonl
 	time python3 scripts/filter_articles2.py $< $@ -n 111000
@@ -223,7 +225,8 @@ data/merged_filtered.jsonl: data/merged.jsonl
 	#Merged: 3462
 #Matches: 5728
 #Merged: 4990
-
+#Matches: 5712
+#Merged: 5330
 data/merged_filtered_dup.jsonl: data/merged_filtered.jsonl
 	time python scripts/filter_duplicates.py data/merged_filtered.jsonl data/merged_filtered_dup.jsonl -n 500139
 	# Merged: 261
