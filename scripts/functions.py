@@ -333,7 +333,21 @@ class WikiAPI:
         # member = member.replace('.', '')
         # TODO: remove () or use labels, e.g. Mary Poppins (film)
         # member = regex.sub(' *\(.*\)$', '', member)
-        return ens_cure(member)
+
+        curated_token=ens_cure(member)
+        curated_token2 = curated_token.replace('-', '')  # because other hyphens may be mapped
+        curated_token2 = curated_token2.replace("'", '')
+
+        # convert to ascii 
+        curated_token3 = unidecode(curated_token2, errors='ignore')
+        if curated_token3 != curated_token2:
+            # print(curated_token2, curated_token3)
+            curated_token2 = curated_token3
+
+        if curated_token2 != curated_token:
+            curated_token2 = ens_cure(curated_token2)
+        
+        return curated_token2
         # try:
         #     return self.ens_cache[member]
         # except KeyError:
@@ -354,19 +368,7 @@ class WikiAPI:
                 try:
                     curated_token = self.force_normalize(token)
 
-                    curated_token2 = curated_token.replace('-', '')  # because other hyphens may be mapped
-                    curated_token2 = curated_token2.replace("'", '')
-
-                    # convert to ascii 
-                    curated_token3 = unidecode(curated_token2, errors='ignore')
-                    if curated_token3 != curated_token2:
-                        print(curated_token2, curated_token3)
-                        curated_token2 = curated_token3
-
-                    if curated_token2 != curated_token:
-                        curated_token2 = self.force_normalize(curated_token2)
-
-                    tokenized.append(curated_token2)
+                    tokenized.append(curated_token)
                 except DisallowedNameError as e:
                     pass
 
