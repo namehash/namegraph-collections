@@ -149,10 +149,10 @@ data/qrank.csv:
 cache_interesting_score: cache_interesting_score_lists cache_interesting_score_categories
 
 cache_interesting_score_lists: data/validated_list_links.jsonl
-	time python scripts/cache_interesting_score.py $< -n 111000
+	time python scripts/cache_interesting_score_local.py $< -n 111000
 
 cache_interesting_score_categories: data/validated_category_members.jsonl
-	time python scripts/cache_interesting_score.py $< -n 460000
+	time python scripts/cache_interesting_score_local.py $< -n 460000
 
 ########################  VALIDATE TYPES  ########################
 
@@ -231,6 +231,7 @@ data/merged_filtered_dup.jsonl: data/merged_filtered.jsonl
 	time python scripts/filter_duplicates.py data/merged_filtered.jsonl data/merged_filtered_dup.jsonl -n 500139
 	# Merged: 261
 	# Merged: 16848
+	# Merged: 16870
 
 data/merged_final.jsonl: data/merged_filtered_dup.jsonl
 	time python3 scripts/prepare_collections2.py data/merged_filtered_dup.jsonl data/merged_final.jsonl -n 500008
