@@ -1,3 +1,4 @@
+import math
 from argparse import ArgumentParser
 
 import jsonlines as jsonlines
@@ -31,6 +32,11 @@ if __name__ == '__main__':
                     status_counts[status] += 1
                 nonavailable_members = len(
                     [True for m in collection.members if m.status in ('taken', 'on_sale', 'recently_released')])
+
+                # sort collection members
+                collection.members = sorted(collection.members,
+                                            key=lambda x: math.log(x.rank + 1, 2) / len(x.curated),
+                                            reverse=True)
 
                 writer.write({
                     'data': {  # owner controlled
@@ -90,7 +96,7 @@ if __name__ == '__main__':
                             # 'tokenized_name': member.tokenized,
                             'system_interesting_score': member.interesting_score,
                             'rank': member.rank,
-                            'cached_status': member.status, 
+                            'cached_status': member.status,
                             # 'translations_count': None,
                         } for member in collection.members],  # TODO sort
 
