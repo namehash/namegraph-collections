@@ -1,4 +1,5 @@
 import csv
+import math
 from argparse import ArgumentParser
 from urllib.parse import unquote
 
@@ -249,7 +250,8 @@ if __name__ == '__main__':
             # obj['image'] = image
             # obj['page_banner'] = page_banner
             # obj['collection_name'] = collection_name
-            collection.members = uniq_members(sorted(collection_members, key=lambda m: m.rank, reverse=True))
+
+            collection.members = uniq_members(sorted(collection_members, key=lambda m: math.log(m.rank + 1, 2) / len(m.curated), reverse=True))
 
             writer.write(collection.json())
 
