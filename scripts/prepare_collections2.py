@@ -1,4 +1,5 @@
 import math
+import time
 from argparse import ArgumentParser
 
 import jsonlines as jsonlines
@@ -47,7 +48,8 @@ if __name__ == '__main__':
                             'avatar_override': '',
                             'tokenized_name': member.tokenized,
                         } for member in collection.members],  # TODO sort
-                        'collection_description': collection.description,
+                        # 'collection_description': collection.description,
+                        'collection_description': 'A collection of names auto-generated from Wikipedia and Wikidata using AI',
                         'collection_keywords': collection.keywords,
                         'collection_image': collection.image[0] if collection.image else None,  # TODO
                         'public': True,  # public or private collection
@@ -65,12 +67,12 @@ if __name__ == '__main__':
 
                     },
                     'metadata': {  # system controlled
-                        'id': '',  # UUID
+                        'id': collection.item,  # UUID
                         'type': 'template',
                         'version': 0,
-                        'owner': '',
-                        'created': '',
-                        'modified': '',
+                        'owner': '0xcb8f5f88e997527d76401ce3df8c8542b676e149',
+                        'created': time.time() * 1000,
+                        'modified': time.time() * 1000,
                         'votes': [],  # This could be some array of all the accounts that "upvoted" the collection.
                         'duplicated-from': '',
                         # a pointer to another collection. This field could be set whenever we create a collection from a template (reference back to origin template) or it could be set whenever a user 'duplicates' another user generated collection.
