@@ -4,8 +4,8 @@ from argparse import ArgumentParser
 
 import jsonlines as jsonlines
 import numpy as np
+from ens.utils import normal_name_to_hash
 from tqdm import tqdm
-from ens.auto import ns
 
 from prepare_members_names import Collection
 
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     parser.add_argument('-n', default=None, type=int, help='number of collections to read for progress bar')
 
     args = parser.parse_args()
-
+    
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
         for obj in tqdm(reader, total=args.n):
             collection = Collection.from_dict(obj)
@@ -100,7 +100,7 @@ if __name__ == '__main__':
                             'system_interesting_score': member.interesting_score,
                             'rank': member.rank,
                             'cached_status': member.status,
-                            'namehash': ns.address(member.curated+'.eth'),
+                            'namehash': normal_name_to_hash(member.curated+'.eth').hex(),
                             # 'translations_count': None,
                         } for member in collection.members],  # TODO sort
 
