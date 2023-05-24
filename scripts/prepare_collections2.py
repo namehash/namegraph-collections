@@ -10,6 +10,7 @@ from hexbytes import HexBytes
 from tqdm import tqdm
 
 from prepare_members_names import Collection
+from functions import memoize_ram
 
 MIN_VALUE = 1e-8
 
@@ -18,8 +19,8 @@ def label_to_hash(label: str) -> HexBytes:
         raise ValueError(f"Cannot generate hash for label {label!r} with a '.'")
     return Web3().keccak(text=label)
 
-
-def normal_name_to_hash(name: str) -> HexBytes:
+@memoize_ram
+def normal_name_to_hash(name: str) -> str:
     node = EMPTY_SHA3_BYTES
     if name:
         labels = name.split(".")
@@ -28,7 +29,7 @@ def normal_name_to_hash(name: str) -> HexBytes:
             assert isinstance(labelhash, bytes)
             assert isinstance(node, bytes)
             node = Web3().keccak(node + labelhash)
-    return node
+    return node.hex()
 
 if __name__ == '__main__':
     parser = ArgumentParser(description='Prepare collections for ElasticSearch.')
@@ -119,7 +120,7 @@ if __name__ == '__main__':
                             'system_interesting_score': member.interesting_score,
                             'rank': member.rank,
                             'cached_status': member.status,
-                            'namehash': normal_name_to_hash(member.curated+'.eth').hex(),
+                            'namehash': normal_name_to_hash(member.curated+'.eth'),
                             # 'translations_count': None,
                         } for member in collection.members],  # TODO sort
 
