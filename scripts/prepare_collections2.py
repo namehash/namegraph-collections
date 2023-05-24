@@ -14,10 +14,12 @@ from functions import memoize_ram
 
 MIN_VALUE = 1e-8
 
+
 def label_to_hash(label: str) -> HexBytes:
     if "." in label:
         raise ValueError(f"Cannot generate hash for label {label!r} with a '.'")
     return Web3().keccak(text=label)
+
 
 @memoize_ram
 def normal_name_to_hash(name: str) -> str:
@@ -31,6 +33,7 @@ def normal_name_to_hash(name: str) -> str:
             node = Web3().keccak(node + labelhash)
     return node.hex()
 
+
 if __name__ == '__main__':
     parser = ArgumentParser(description='Prepare collections for ElasticSearch.')
     parser.add_argument('input', help='JSONL file with validated category/list members')
@@ -38,7 +41,9 @@ if __name__ == '__main__':
     parser.add_argument('-n', default=None, type=int, help='number of collections to read for progress bar')
 
     args = parser.parse_args()
-    
+
+    current_time = time.time() * 1000
+
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
         for obj in tqdm(reader, total=args.n):
             collection = Collection.from_dict(obj)
@@ -91,8 +96,8 @@ if __name__ == '__main__':
                         'type': 'template',
                         'version': 0,
                         'owner': '0xcb8f5f88e997527d76401ce3df8c8542b676e149',
-                        'created': time.time() * 1000,
-                        'modified': time.time() * 1000,
+                        'created': current_time,
+                        'modified': current_time,
                         'votes': [],  # This could be some array of all the accounts that "upvoted" the collection.
                         'duplicated-from': '',
                         # a pointer to another collection. This field could be set whenever we create a collection from a template (reference back to origin template) or it could be set whenever a user 'duplicates' another user generated collection.
@@ -120,7 +125,7 @@ if __name__ == '__main__':
                             'system_interesting_score': member.interesting_score,
                             'rank': member.rank,
                             'cached_status': member.status,
-                            'namehash': normal_name_to_hash(member.curated+'.eth'),
+                            'namehash': normal_name_to_hash(member.curated + '.eth'),
                             # 'translations_count': None,
                         } for member in collection.members],  # TODO sort
 
