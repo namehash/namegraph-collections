@@ -4,6 +4,7 @@ from argparse import ArgumentParser
 import jsonlines as jsonlines
 import numpy as np
 from tqdm import tqdm
+from ens.auto import ns
 
 from prepare_members_names import Collection
 
@@ -97,6 +98,7 @@ if __name__ == '__main__':
                             'system_interesting_score': member.interesting_score,
                             'rank': member.rank,
                             'cached_status': member.status,
+                            'namehash': ns.address(member.curated+'.eth'),
                             # 'translations_count': None,
                         } for member in collection.members],  # TODO sort
 
