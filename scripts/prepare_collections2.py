@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
                 # sort collection members
                 collection.members = sorted(collection.members,
-                                            key=lambda x: math.log(x.rank + 1, 2) / len(x.curated),
+                                            key=lambda x: math.log(x.rank + 1, 2) / max(len(x.curated), 10),
                                             reverse=True)
 
                 writer.write({
@@ -127,7 +127,7 @@ if __name__ == '__main__':
                             'cached_status': member.status,
                             'namehash': normal_name_to_hash(member.curated + '.eth'),
                             # 'translations_count': None,
-                        } for member in collection.members],  # TODO sort
+                        } for member in collection.members],
 
                         # below metrics calculated on members
                         'members_rank_mean': max(np.mean([m.rank for m in collection.members]), MIN_VALUE),
