@@ -93,6 +93,12 @@ with jsonlines.open('data/collnew3') as reader:
         # print(f'log(rank,{base})/len**{power}\t', sorted5[:10], spear(sorted5,sorted1), spear(sorted5,sorted_len_rank))
         sortings.append(Sorting(f'log(rank,{base})/len**{power}', sorted_new))
 
+        for mm in [8,10]:
+            base = 2
+            sorted_new = sorted(names, key=lambda x: math.log(x['rank'] + 1, base) / max(len(x['normalized_name']), mm),
+                                reverse=True)
+            sortings.append(Sorting(f'log(rank,{base})/max(len,{mm})', sorted_new))
+
         # for base in [2, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000]:
         #     for power in range(2, 5):
         #         sorted_new = sorted(names,

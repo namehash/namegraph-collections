@@ -251,7 +251,7 @@ if __name__ == '__main__':
             # obj['page_banner'] = page_banner
             # obj['collection_name'] = collection_name
 
-            collection.members = uniq_members(sorted(collection_members, key=lambda m: math.log(m.rank + 1, 2) / len(m.curated), reverse=True))
+            collection.members = uniq_members(sorted(collection_members, key=lambda m: math.log(m.rank + 1, 2) / max(len(m.curated), 10), reverse=True))
 
             writer.write(collection.json())
 
