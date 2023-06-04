@@ -9,6 +9,9 @@ from ens.utils import Web3
 from hexbytes import HexBytes
 from tqdm import tqdm
 
+from hydra import initialize_config_module, compose
+from inspector.label_inspector import Inspector
+
 from prepare_members_names import Collection
 from functions import memoize_ram
 
@@ -42,6 +45,10 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+    initialize_config_module(version_base=None, config_module='inspector_conf')
+    config = compose(config_name="prod_config")
+    inspector = Inspector(config)
+
     current_time = time.time() * 1000
 
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
@@ -64,6 +71,16 @@ if __name__ == '__main__':
                 collection.members = sorted(collection.members,
                                             key=lambda x: math.log(x.rank + 1, 2) / max(len(x.curated), 10),
                                             reverse=True)
+
+                template_names = [{
+                    'normalized_name': member.curated,
+                    # 'tokenized_name': member.tokenized,
+                    'system_interesting_score': member.interesting_score,
+                    'rank': member.rank,
+                    'cached_status': member.status,
+                    'namehash': normal_name_to_hash(member.curated + '.eth'),
+                    # 'translations_count': None,
+                } for member in collection.members]
 
                 writer.write({
                     'data': {  # owner controlled
@@ -102,6 +119,8 @@ if __name__ == '__main__':
                         'duplicated-from': '',
                         # a pointer to another collection. This field could be set whenever we create a collection from a template (reference back to origin template) or it could be set whenever a user 'duplicates' another user generated collection.
                         'members_count': len(collection.members),
+                        'collection_name_log_probability': inspector.ngrams.sequence_log_probability(
+                            collection.name.lower().split(' ')),
                     },
                     'template': {  # template generator controlled
                         'collection_wikipedia_link': collection.article,
@@ -119,15 +138,8 @@ if __name__ == '__main__':
                         'collection_images': collection.image,
                         'collection_page_banners': collection.page_banner,
 
-                        'names': [{
-                            'normalized_name': member.curated,
-                            # 'tokenized_name': member.tokenized,
-                            'system_interesting_score': member.interesting_score,
-                            'rank': member.rank,
-                            'cached_status': member.status,
-                            'namehash': normal_name_to_hash(member.curated + '.eth'),
-                            # 'translations_count': None,
-                        } for member in collection.members],
+                        'names': template_names,
+                        'top10_names': template_names[:10],
 
                         # below metrics calculated on members
                         'members_rank_mean': max(np.mean([m.rank for m in collection.members]), MIN_VALUE),
