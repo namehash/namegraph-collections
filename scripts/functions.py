@@ -340,13 +340,10 @@ class WikiAPI:
         curated_token2 = curated_token2.replace("'", '')
 
         # convert to ascii 
+        curated_token3 = ''.join(
+            [unidecode(c, errors='ignore') if myunicode.script_of(c) == 'Latin' else c for c in curated_token2])
 
-        if myunicode.script_of(curated_token2) in ('Common', 'Inherited', 'Latin'):
-            curated_token3 = unidecode(curated_token2, errors='ignore')
-
-            if curated_token3 != curated_token2:
-                # print(curated_token2, curated_token3)
-                curated_token2 = curated_token3
+        curated_token2 = curated_token3
 
         if curated_token2 != curated_token:
             curated_token2 = ens_cure(curated_token2)
