@@ -1,0 +1,1001 @@
+KW	JA	TC	id	name	names	is bad	type	valid members count	valid members ratio	nonavailable members count	nonavailable members ratio	collection name probability	@
+		1	Q3246972	Mints	usmint, royalmint, japanmint, perthmint, polishmint, denvermint, moscowmint, mexicanmint, perumperuri, swissmint	0,006	mint	73	0,33	14	0,2	-13,68	
+		1	Q6605016	Actuaries	johandewitt, johngraunt, edmondhalley, edsavitz, roelofbotha, chinesepeople, singaporeans, ernstengel, williampetty, davidxli	0,01	human	88	0,66	7	0,08	-14,07	
+		1	Q7214189	Princesses	princess, clotilde, urduja, kokochin, emilyruete, queennoguk, hafsahatun, terkenkhatun, amalafrida, sittisahhatun	0,01	human	30	0,94	3	0,1	-14,13	
+		1	Q7173363	Disinfectants	ethanol, bleach, hypomide, phenols, thymol, calciumoxide, creolin, fuchsine, alcohols, lugolsiodine	0,012	chemical compound	54	0,7	7	0,13	-14,4	
+		0	Q25046	Iwi	ahuriri, ngaitahu, ngatiporou, tearawa, ngaituhoe, tuhoe, ngatitoa, ngatitiipa, waitaha, ngatiawa	0,002	iwi	118	0,44	9	0,08	-14,71	
+		1	Q3245023	Scientific journals	nature, thelancet, science, plosone, cell, elife, acsnano, biometrika, neuron, zootaxa	0,008	scientific journal	294	0,69	38	0,13	-14,97	
+		3	Q7139272	Aquatic plants	typha, azolla, hydrilla, pistia, lemnoideae, lemna, victoria, marsilea, salvinia, nymphaeaceae	0,008	taxon	186	0,94	3	0,02	-15,21	
+		1	Q6604697	Zimbabweans	coach, andyflower, derekchisora, wilbursmith, captain, nickprice, davidpocock, carablack, henryolonga, peterndlovu	0,008	human	112	0,72	7	0,06	-15,3	
+		1	Q5968850	Icebreakers	lenin, shirase, arktika, yamal, krasin, uscgchealy, ural, 50letpobedy, sibir, yermak	0,008	icebreaker	161	0,37	28	0,19	-15,67	
+		1	Q8811060	Liliaceae	liliaceae, liliopsida, lilioideae, lilieae, medeola, amanaedulis, streptopus, amana, tulipeae, nomocharis	0,008	taxon	28	0,88	2	0,07	-15,93	
+		1	Q6561869	Aragonese	luisbunuel, carlossaura, franciscogoya, evaamaral, miguelfleta, davidcivera, fidelpages, victormunoz, florianrey, jamesiofaragon	0,012	human	42	0,81	5	0,12	-16,5	
+		1	Q8920426	Pterosaurs	pterosaur, dimorphodon, dearc, cascocauda, caviramus, yelaphomte, eudimorphodon, peteinosaurus, caviramidae, preondactylus	0,01	taxon	29	0,76	2	0,07	-16,54	
+		1	Q7898418	Rhetoricians	umbertoeco, petrarch, johnmilton, gorevidal, menachembegin, luji, jurgenhabermas, helenecixous, liuxie, mikhailbakhtin	0,012	human	52	0,95	3	0,06	-17,27	
+		1	Q6642095	Syndicalists	helenkeller, albertcamus, noamchomsky, jimlarkin, billhaywood, georgessorel, jameslarkin, tommann, jamesconnolly, erikakokay	0,012	human	60	0,69	4	0,07	-17,56	
+		3	Q6502473	Browser games	wordle, pacman, mmorpg, geoguessr, agario, akinator, actiongame, slitherio, shootemup, simcity	0,01	video game	476	0,6	123	0,3	-17,59	
+		3	Q20715911	Girl groups	blackpink, twice, spicegirls, ive, gidle, kara, aespa, nogizaka46, izone, babymetal	0,012	girl group	192	0,32	101	0,54	-18,16	
+		2	Q8430408	Executive cars	lexusgs, citroends, gaz24, audirs6, audi80, audi100, lexuses, toyotacrown, teslamodels, volvos80	0,01	automobile model	179	0,91	16	0,09	-18,5	
+		3	Q6449317	Nokia mobile phones	nokia3310, ngage, nokia3210, nokia1100, nokia5110, nokia8110, nokia1110, nokia6300, nokia2110, nokia8800	0,006	mobile phone	204	0,89	3	0,02	-19,02	
+		4	Q48976775	Survival games	minecraft, nomanssky, terraria, theforest, subnautica, rust, valheim, actiongame, dontstarve, raft	0,008	video game	64	0,28	31	0,48	-19,1	
+		4	Q6571799	German artists	paulklee, maxernst, franzmarc, fwmurnau, ulay, jeanarp, adeltawil, josephbeuys, janosch, hannahhoch	0,008	human	468	0,84	34	0,08	-19,49	
+		3	Q7037666	Compact cars	ladariva, mazda3, seatleon, nissanleaf, scionim, saab93, peugeot308, hyundaii30, vaz2101, saab900	0,008	automobile model	359	0,88	36	0,11	-19,56	
+		2	Q7303120	Merchant ships	gascarrier, capsandiego, merchantship, eastindiaman, ghurab, ghali, enricalexie, colandia, ltcortesia, tirranna	0,008	ship	37	0,73	10	0,27	-19,83	
+		1	Q6633298	Performance analysis tools	php, firefox, delphi, xcode, netbeans, gnuproject, openmp, visualstudio, valgrind, dtrace	0,006	software	55	0,53	17	0,31	-20,04	
+		1	Q749445	ISO standards	iso8601, iso4217, iso31661, isbn, iso3166, iso31662, iso8583, iso6391, iso14000, iso639	0,006	ISO standard	171	0,37	12	0,07	-20,05	
+		5	Q3769423	Hacker groups	anonymous, killnet, lulzsec, fancybear, lapsus$, cozybear, redhack, darkside, l0pht, goatsec	0,008	hacker group	29	0,25	18	0,62	-20,34	
+		2	Q3245678	Architecture firms	sanaa, populous, archigram, hksinc, mvrdv, snohetta, aedas, nbbj, bbpr, rmjm	0,004	architectural firm	162	0,69	32	0,2	-20,52	
+		1	Q7152276	Unidentified people	tankman, bambiwoods, juba, johnzegrus, ironmouse, kitboga, sharaku, tsugumiohba, btraven, fulcanelli	0,006	human	95	0,69	20	0,21	-20,55	
+		4	Q6937204	Luxury vehicles	audia8, lexusls, citroends, aurussenat, teslamodels, bmw7series, kiastinger, audiv8, nissancima, nissanfuga	0,006	automobile model	176	0,73	22	0,13	-20,57	
+		3	Q7722014	Spiritual teachers	sadhguru, alanwatts, adishankara, gorakhnath, bababuddha, balumama, rudolfsteiner, mariamnour, adida, pdouspensky	0,012	human	92	0,94	9	0,1	-20,59	
+		0	Q17002912	Light novels	overlord, monogatari, konosuba, datealive, bofuri, toradora, higehiro, fatezero, durarara, accelworld	0,002	light novel	301	0,67	46	0,15	-20,63	
+		5	Q17098461	Largest universities	lunduniversity, nihonuniversity, openuniversity, texasamuniversity, monashuniversity, sofiauniversity, aarhusuniversity, telavivuniversity, universityofvienna, universityoftoronto	0,012	university	65	0,42	20	0,31	-20,73	
+		3	Q7046886	Spanish scientists	kitinmunoz, josedeacosta, felixdeazara, fernandosimon, mateovalero, antoniobru, blascodegaray, santiagoramonycajal, samerhassan, emiliahazelip	0,012	human	53	1	0	0	-20,82	
+		1	Q6850311	MacOS games	roblox, minecraft, fortnite, thesims4, pacman, cuphead, undertale, bioshock, dota2, warthunder	0,006	video game	2617	0,96	655	0,25	-20,93	
+		3	Q6598541	Sudanese people	manutebol, luoldeng, alekwek, johngarang, moibrahim, tayebsalih, bas, omaralbashir, natasjasaad, oddisee	0,006	human	76	0,73	6	0,08	-20,94	
+		3	Q8297418	Bengali people	alayaf, diamirza, sushmitasen, ranimukerji, manojkumar, tigershroff, adityaseal, annukapoor, prannoyroy, subrataroy	0,008	human	150	0,91	9	0,06	-21,03	
+		2	Q15070387	Climax games	returnal, diablo, rtype, overlord, legoracers, ghostrider, deadnation, sudeki, resogun, bubsy2	0,01	video game	73	0,55	13	0,18	-21,09	
+		1	Q6642865	Terrorism films	skyfall, zootopia, beast, argo, therock, truelies, speed, munich, drno, 12strong	0,008	film	184	0,71	97	0,53	-21,13	
+		3	Q7148686	Indian royalty	tipusultan, gajsingh, kempegowdai, bhojraj, devyanirana, susima, birjisqadr, karnisingh, himanishah, bhawanisingh	0,008	human	153	0,94	4	0,03	-21,27	
+		3	Q262158	Greek writers	iondragoumis, nikosdimou, yiannisritsos, odysseaselytis, kostispalamas, penelopedelta, marodouka, nikoskavadias, giorgosseferis, nikoskazantzakis	0,006	human	143	0,59	0	0	-21,28	
+		2	Q3243746	Quebec films	incendies, mrnobody, mommy, aline, screamers, maelstrom, starbuck, crazy, heartbeats, falconlake	0,007	film	1282	0,63	292	0,28	-21,37	
+		5	Q6628565	Military tactics	blitzkrieg, siege, ambush, pocket, charge, shockandawe, patrolling, smokescreen, breakout, firesupport	0,0072	military tactics	28	0,07	13	0,48	-21,38	
+		1	Q6591726	Nepalese people	nirmalpurja, apasherpa, parijat, rohitchand, mahabirpun, tenzingnorgay, himanishah, rekhathapa, manishakoirala, angrita	0,002	human	159	0,87	4	0,03	-21,43	
+		1	Q18055180	Chechen people	ramzankadyrov, kylesnyder, alualkhanov, akhmadkadyrov, shamilbasayev, khamzatchimaev, zelimkhan, aminaokueva, arbibarayev, umarsalamov	0,008	human	143	0,67	3	0,02	-21,44	
+		1	Q6377381	Indian journalists	prannoyroy, swetasingh, barkhadutt, ravishkumar, dhruvrathee, aroonpurie, sumanbery, javedanand, vinoddua, anujdhar	0,01	human	234	0,43	18	0,08	-21,45	
+		3	Q6622424	Highest airports	jomsomairport, uyuniairport, sanluisairport, manangairport, qamdobamdaairport, tenzinghillaryairport, simikotairport, golmudairport, alcantariairport, lhasagonggarairport	0,008	airport	49	0,41	0	0	-21,5	
+		4	Q7450455	Religious paintings	theangelus, shakuntala, stgeorge, sayinggrace, ghentaltarpiece, aburialatornans, burialofstlucy, saintcatherine, titusasamonk, ajewishwedding	0,008	painting	65	0,9	5	0,08	-21,51	
+		1	Q8863750	Transgender men	brandonteena, harryallen, yanceford, camlyman, roberteads, viktoriafdi, alexhai, rhysernst, michaeldillon, mariusmason	0,006	human	50	0,94	1	0,02	-21,76	
+		5	Q6324055	Space telescopes	gaia, chips, planck, echo, euclid, hipparcos, xmmnewton, spektrrg, astrosat, plato	0,006	space observatory	106	0,58	31	0,29	-21,81	
+		1	Q6641578	Structural engineers	freiotto, gustaveeiffel, temelkotil, marcseguin, peterrice, henrytyang, maoyisheng, wernersobek, tungyenlin, sarahguppy	0,012	human	217	0,95	4	0,02	-21,84	
+		1	Q7215192	Iron minerals	bornite, augite, pyrrhotite, sugilite, wurtzite, eudialyte, chalcopyrite, fayalite, cobaltite, taenite	0,006	mineral species	75	0,84	6	0,08	-21,88	
+		1	Q7766370	Bandai games	devilman, akumakun, meteos, ribbitking, sailormoon, ninjakid, crisisbeat, tailconcerto, tetrisaxis, luminesii	0,01	video game	114	0,86	15	0,13	-21,94	
+		4	Q6636859	Rock musicals	rent, kinkyboots, chess, hairspray, godspell, aida, thewiz, once, xanadu, onyourfeet	0,008	dramatico-musical work, musical	73	0,21	29	0,4	-21,96	
+		3	Q7066567	Indian poets	sukumarray, ghananand, vanidasan, mamtakalia, joygoswami, arunkamal, kalidasroy, kazinazrulislam, jibananandadas, sarojdutta	0,012	human	110	0,99	0	0	-22,04	
+		1	Q2248804	MSX games	discovery, pacman, jumpandrun, eroge, donkeykong, snake, metalgear, actiongame, contra, shootemup	0,012	video game	734	0,34	191	0,37	-22,1	
+		1	Q7026033	French bankers	jacquescur, albertkahn, pascallamy, edouardstern, renebousquet, fredericoudea, jeanchalopin, lionelzinsou, paulmentre, jeanlemierre	0,01	human	152	0,97	3	0,02	-22,18	
+		3	Q7028095	Turkish scientists	aliqushji, erdalnonu, umraninan, kerimerim, filizali, mustafatuna, pnarkur, smailakbay, mehmetaydn, smailbesikci	0,012	human	46	0,96	0	0	-22,2	
+		1	Q8419833	Environmental economists	janejacobs, gregmankiw, hermandaly, ronaldcoase, johnalist, nikopaech, bjornlomborg, elinorostrom, alankrueger, walterblock	0,008	human	80	1	3	0,04	-22,24	
+		1	Q48733635	Naga people	temsulaao, azphizo, sskhaplang, alobonaga, talimerenao, andreakevichusa, gaidinliupamei, dollykikon, armstrongpame, hksema	0	human	63	0,77	0	0	-22,25	
+		1	Q7481456	Arab Christians	eliesaab, ibnbutlan, jehanbarbur, johnofdamascus, georgesabra, danielahmed, hunaynibnishaq, waraqahibnnawfal, ibnuthal, sumyafaashwa	0,008	human	34	0,92	4	0,12	-22,25	
+		2	Q3152124	Polling organizations	bbc, thetimes, skynews, yougov, galluppoll, opinionpoll, dailymirror, ipsos, theage, acnielsen	0,012	organization	77	0,74	29	0,38	-22,28	
+		1	Q5675143	Weapon designers	samuelcolt, geraldbull, uzielgal, georgluger, eugenestoner, aimolahti, chrisreeve, alanbond, yakovtaubin, mikhailkoshkin	0,01	human	55	0,98	2	0,04	-22,38	
+		2	Q24885025	Apple operating systems	ios, iphoneos, macos, macosx, osx, unix, ios16, ios15, ipados, ipados16	0,008	operating system	132	0,65	23	0,18	-22,41	
+		2	Q6616972	Soviet scientists	levvygotsky, yuryluzhkov, levgudkov, akselberg, guyseverin, yurisenkevich, victorskumin, sergeikhrushchev, shafikchokin, vladimirdemikhov	0,008	human	79	0,99	0	0	-22,45	
+		2	Q6598864	Swiss architects	lecorbusier, maxfrisch, mariobotta, maxbill, hannesmeyer, peterzumthor, albertfrey, maxdudler, carlomaderno, brunoweber	0,012	human	141	0,59	5	0,04	-22,49	
+		3	Q5114196	Baseball video games	actiongame, wiisports, browsergame, blaseball, mlbtheshow22, baseball, thebigs, basesloaded, basewars, mlbtheshow21	0,008	video game	106	0,26	13	0,12	-22,57	
+		2	Q3244026	SNK games	neogeo, koudelka, neogeocd, metalslug, metalslug7, metalslug2, metalslugx, metalslug3, metalslug6, fatalfury2	0,004	game, video game	392	0,74	33	0,13	-22,59	
+		3	Q7024386	Polish musicians	smolasty, zabson, tede, mikolajrej, jaceklagwa, djtomekk, schafter, leorosner, jozefskrzek, tomaszzietek	0,01	human	54	0,96	3	0,06	-22,6	
+		2	Q6607323	Basketball video games	actiongame, nba2k22, nba2k20, nba2k21, nba2k14, nbajam, nba2k16, nba2k18, nba2k13, nbalive19	0	video game	165	0,41	15	0,09	-22,61	
+		1	Q2562052	Dutch architects	remkoolhaas, hpberlage, winymaas, martstam, pietblom, aldovaneyck, pieterpost, jaapbakema, janwils, henripieck	0,012	human	183	0,71	0	0	-22,61	
+		4	Q8447540	Fiat vehicles	fiat500, fiat126, fiatducato, fiatpunto, fiatmille, fiatuno, fiat124, fiat131, fiat600, fiat850	0,008	automobile model	138	0,86	10	0,07	-22,67	
+		2	Q6501450	Vietnamese writers	nguyntuan, xuandiu, tohoai, vtrngphng, leminhkhue, nhtlinh, ngtrncon, phmquynh, huyduc, levanhu	0,006	human	62	1	4	0,06	-22,69	
+		1	Q8302851	Blind politicians	ahmedyassin, garethward, cyrushabib, olegsmolin, thomasgore, enricodandolo, davidpaterson, davidblunkett, joaquinbalaguer, roberttoombs	0,01	human	87	1	3	0,03	-22,74	
+		4	Q6569065	Disney video games	mobilegame, epicmickey, cars, toystory3, earlyaccess, cars2, ducktales, toystory, tron, walle	0,01	video game	216	0,4	48	0,23	-22,81	
+		1	Q754861	Faroese people	deadmau5, auradione, n0tail, naddoddur, reiley, timseverin, paljoensen, herijoensen, ruthsmith, jacobhaugaard	0,004	Faroese, human	122	0,77	3	0,02	-22,83	
+		4	Q7036167	Russian painters	andreirublev, dionisius, janchrucki, chaimsoutine, nikassafronov, karlishuns, nadiabenois, abelpann, vladimirtatlin, pyotrbasin	0,012	human	107	0,93	1	0,01	-22,84	
+		1	Q7026009	Italian bankers	mariodraghi, charlesponzi, robertocalvi, guidocarli, mauriziosarri, chiccotesta, andreaorcel, cosimodemedici, lucapitti, enricocuccia	0,008	human	91	0,93	3	0,03	-22,91	
+		2	Q2909649	Dutch poets	hugoclaus, bartchabot, hadewijch, jbernlef, jacobcats, nescio, lucebert, toonhermans, jancampert, remcocampert	0,004	human	128	0,53	4	0,03	-23,09	
+		4	Q6304782	Spanish explorers	inessuarez, estevanico, frankcuesta, juandefuca, kitinmunoz, diegocolumbus, lopedeaguirre, pedrotafur, jordanus, andresnino	0,01	human	96	0,98	1	0,01	-23,12	
+		2	Q8757614	Perennial plants	catnip, dahlia, lovage, nepeta, alcea, bellisperennis, salviayangii, phloxsubulata, phygelius, phormiumtenax	0,01	taxon	64	0,96	4	0,06	-23,13	
+		1	Q6285327	French nobility	lahire, madamedubarry, chrodbert, louisdebreze, alicedejanze, pauldefoix, micheldemontaigne, annadenoailles, louisedebreze, bernadettechirac	0,008	human	147	0,84	1	0,01	-23,22	
+		1	Q1839311	Millennium episodes	millennium, irresistible, seasonfinale, pilot, gehenna, anamnesis, maranatha, themikado, monster, 522666	0,01	television series episode	48	0,37	27	0,56	-23,23	
+		3	Q5872328	Czech composers	gustavmahler, antonindvoak, leosjanacek, josefsuk, juliusfucik, bedichsmetana, xindlx, pavelhaas, georgbenda, franzbenda	0,012	human	255	0,81	2	0,01	-23,24	
+		3	Q6299307	Electronic musical instruments	drumkit, theremin, mellotron, sampler, vocoder, stylophone, trautonium, utau, drummachine, omnichord	0,01	musical instrument	59	0,44	17	0,29	-23,25	
+		1	Q8544967	Indian diplomats	faizi, shashitharoor, natwarsingh, abhaykumar, shaktikantadas, amritlugun, adgorwala, uksinha, atulkhare, rafiqzakaria	0,008	human	71	0,99	3	0,04	-23,33	
+		1	Q6564574	Brazilian architects	ederjofre, luciocosta, aleijadinho, linabobardi, oscarniemeyer, ruyohtake, claraant, marciokogan, tebas, franzheep	0,008	human	73	0,86	3	0,05	-23,33	
+		1	Q9204480	Ornamental plants	nandina, rosabanksiae, rosachinensis, lagunaria, antirrhinummajus, caladiumbicolor, sennapendula, acalyphahispida, coprosmarepens, carexmorrowii	0,008	taxon	50	0,93	0	0	-23,4	
+		4	Q6607984	Bluegrass bands	thedillards, thedeadsouth, nickelcreek, thepetersens, oldintheway, ironhorse, dellamae, hotrize, newsouth, unionstation	0,012	musical group	88	0,57	12	0,14	-23,4	
+		3	Q8500226	Greek painters	elgreco, apelles, zeuxis, polygnotus, parrhasius, protogenes, timarete, euphranor, ino, apollodorus	0,006	human	162	0,69	5	0,04	-23,43	
+		1	Q8528115	Hungarian journalists	belakun, endready, laszlobiro, theodorherzl, sandormarai, zsoltbayer, lajoskossuth, gyulakrudy, tefanfori, timeaszabo	0,01	human	144	1	1	0,01	-23,43	
+		2	Q19875275	Sydney radio stations	triplej, 2gb, 2ch, smooth, smoothfm, doublej, sbspopdesi, sbsradio, sbsradio2, sbsradio3	0,004	radio station	86	0,4	16	0,19	-23,47	
+		1	Q1239136	Armenian writers	sayatnova, hamosahyan, raffi, vahanterian, nardos, paruyrsevak, muratsan, frik, siamanto, gevorgemin	0,008	human	200	0,63	5	0,03	-23,47	
+		1	Q3244064	Puzzle video games	stray, tetris, undertale, portal2, deltarune, myst, 2048, catherine, angrybirds, pikmin	0,009	puzzle video game, video game	1155	0,73	267	0,23	-23,48	
+		1	Q658463	Hungarian architects	ernrubik, miklosybl, karolykos, marcelbreuer, alfredhajos, imresteindl, paullaszlo, odonlechner, ignacalpar, jozsefhild	0,002	human	126	0,61	3	0,03	-23,54	
+		1	Q1862259	Georgian writers	besiki, vazhapshavela, levangotua, shotarustaveli, ladoasatiani, nodardumbadze, akakitsereteli, otarchiladze, anakalandadze, leokiacheli	0,01	human	102	0,51	0	0	-23,57	
+		3	Q6631766	Optical illusions	thedress, ambigram, afterimage, neckercube, amesroom, rubinvase, blivet, moonillusion, penrosestairs, figureground	0,008	optical illusion	68	0,44	6	0,09	-23,58	
+		1	Q6420812	Iranian Jews	daniel, mordecai, shauntoub, shaulmofaz, homasarshar, moshekatsav, danahdoot, sammizrahi, bobyari, isaaclarian	0,006	human	92	0,91	6	0,07	-23,6	
+		1	Q6570891	Finnish politicians	sannamarin, tonyhalme, ristoryti, birgerjarl, eskoaho, timosoini, urhokekkonen, sauliniinisto, liandersson, tarjahalonen	0,008	human	136	0,91	2	0,02	-23,61	
+		4	Q10183730	Mountaineering films	everest, 127hours, alive, cliffhanger, northface, theclimb, meru, edie, alaska, shoottokill	0,008	film	102	1	27	0,29	-23,61	
+		1	Q6593442	Pakistani scientists	abdussalam, nazirahmed, riazuddin, umarsaif, adilnajam, naweedsyed, asadaabidi, abdulqadeerkhan, attaurrahman, tajhaider	0,002	human	104	0,95	2	0,02	-23,63	
+		3	Q6435814	Cuban musicians	xaviercugat, davelombardo, reyruiz, cimafunk, emilioestefan, pupicampo, olgaguillot, raulpaz, xalfonso, renetouzet	0,008	human	64	0,97	2	0,03	-23,63	
+		1	Q8448354	Fictional lesbians	ellie, shera, katekane, trinikwan, ericahahn, alexvause, snoop, americachavez, lexa, tracer	0,012	fictional character	118	0,71	43	0,37	-23,63	
+		1	Q1506558	Common microcontrollers	esp32, riscv, esp8266, atmelavr, armcortexm, pic24, picmicro, stm32, 8051, intel8051	0,012	microcontroller	91	0,37	5	0,06	-23,64	
+		1	Q6596096	Russian physicists	levlandau, yurimilner, andregeim, igortamm, abramioffe, oleglosev, ilyafrank, pyotrkapitsa, igorirodov, igorkurchatov	0,012	human	323	0,58	4	0,01	-23,68	
+		0	Q7214898	Deaths from fire	empedocles, annakaren, alilandi, suesanknorr, fannycano, kajsathoor, tedherold, metinaltok, blotsweyn, stevemarriott	0,004	human	139	0,89	4	0,03	-23,71	
+		1	Q7158333	Lithium compounds	lithiumoxide, flibe, hemolithin, lselectride, lithiumhydride, flinak, lithiumiodide, lithiumnitride, lithiumhydroxide, lithiumfluoride	0,008	chemical compound	51	0,82	1	0,02	-23,78	
+		1	Q1989278	Regions of Quebec	laval, sherbrooke, gatineau, nunavik, monteregie, lavalquebec, shawinigan, estrie, outaouais, cotenord	0,006	administrative region of Quebec	53	0,31	8	0,22	-23,81	
+		1	Q1860732	Companies of Mexico	walmart, pepsico, hsbc, att, citigroup, suntory, grupobimbo, albertsons, volaris, aeromexico	0,008	business, company	147	0,55	97	0,66	-23,81	
+		1	Q7078067	Indonesian politicians	sukarni, ibnusutowo, omardhani, bmdiah, erosdjarot, joopave, adjiemassaid, hasanbasry, amrudaulay, ramsesohee	0,012	human	118	0,99	2	0,02	-23,88	
+		1	Q6632285	People from Belarus	kirkdouglas, isaacasimov, olgakorbut, pavelbure, marcchagall, ralphlauren, shimonperes, levvygotsky, bianka, vasilbykau	0,008	human	188	0,79	17	0,09	-23,89	
+		1	Q8872486	Tribal chiefs	birsamunda, powhatan, massasoit, uncas, edeko, esbernsnare, gundadhur, asserrig, nemacolin, cockacoeske	0,01	human	63	0,72	3	0,05	-23,89	
+		3	Q6576220	Korean painters	davidchoe, kimhongdo, shinyunbok, nahyesok, jeongseon, kimhwangi, shinsaimdang, parkseobo, leejungseob, ahngyeon	0,01	human	61	0,79	5	0,08	-23,93	
+		1	Q7216002	Kurdish writers	musaanter, mehmeduzun, zehradogan, mehdizana, nuridersimi, faikbulut, bachtyarali, gultanksanak, ahmetarvasi, kemalburkay	0,012	human	49	0,98	0	0	-23,93	
+		2	Q7521076	American independent films	thewhale, coda, midsommar, hereditary, getout, seven, whiplash, thefallout, standbyme, blackswan	0,01	film	4996	1	1775	0,36	-23,94	
+		1	Q7031318	French sculptors	andrederain, julesdalou, claussluter, aslan, gislebertus, tevavictor, jamespradier, marceljean, carolinetresca, aristidemaillol	0,006	human	68	0,92	4	0,06	-23,96	
+		3	Q7164443	Indian television series	biggboss, mai, aranyak, udaan, khichdi, mannsundar, kaliveedu, humsafars, phulwa, kayamath	0,002	television series	156	0,69	23	0,15	-23,97	
+		5	Q1709498	Massively multiplayer online games	roblox, warthunder, secondlife, mmog, agario, runescape, actiongame, eveonline, slitherio, vrchat	0,006	game, video game	198	0,68	68	0,38	-23,98	
+		1	Q8576106	Korean generals	yisunsin, gimyusin, choihonghi, jangbogo, choeyeong, goofbalhae, gyebaek, wongyun, kimwonbong, gwonyul	0,01	human	88	1	3	0,03	-23,98	
+		1	Q7068820	Iranian politicians	ensiehkhazali, emadafroogh, hadimanafi, nasraldin, meysamlatifi, mohammadmokhber, yadollahjavani, nasserkanaani, mohammadkhamenei, qasemsaedi	0,01	human	61	1	0	0	-23,99	
+		2	Q17002661	Japanese television series	pokemon, bleach, codegeass, sasuke, yurionice, bakugan, doraemon, massan, garo, yugioh5ds	0,008	Japanese television series	183	0,43	28	0,16	-24,01	
+		1	Q2347815	Sim video games	thesims4, thesims, thesims3, spore, thesims2, simcity, simcity4, mysims, simtower, darkspore	0,01	video game	72	0,63	11	0,16	-24,06	
+		0	Q8567827	Joint suicides	osamudazai, stefanzweig, lauramarx, huisheng, maxlinder, andregorz, nogimaresuke, dongxian, fulei, imresoos	0,012	human	60	0,92	3	0,05	-24,08	
+		1	Q7028358	Brazilian composers	ritalee, cazuza, micheltelo, belchior, cartola, nandoreis, zeramalho, toquinho, noelrosa, ivanlins	0,006	human	363	0,85	24	0,09	-24,1	
+		1	Q7234585	People from Hamburg	elton, fasiajansen, leoniehanne, holgermeins, lokischmidt, petraschelm, marypunjer, britthagedorn, arneschonbohm, olivergeissen	0,008	human	97	0,97	3	0,03	-24,12	
+		1	Q6598589	Sundanese people	raffiahmad, marufamin, ridwankamil, rossa, sule, nikeardila, rhomairama, alisadikin, dewisartika, happysalma	0,012	human	79	0,78	7	0,09	-24,18	
+		1	Q7163434	Historical television series	jeyran, medici, ekaterina, granhotel, frontier, thespy, johnadams, mrsamerica, borgia, tut	0,006	television series	119	0,82	31	0,26	-24,22	
+		1	Q3250372	Irem games	rtype, loderunner, kungfu, rawdanger, spelunker, inthehunt, moonpatrol, hook, rtypefinal, rtypeii	0,012	video game	76	0,77	13	0,17	-24,22	
+		1	Q684553	Taiwanese writers	sanmao, liao, chiungyao, chriswang, huangan, kenchu, laihe, linhwaimin, jimmyliao, sophiechang	0,008	human	79	0,43	11	0,14	-24,25	
+		1	Q8622019	Rail shooters	starfox64, starfox, killer7, asuraswrath, railshooter, rez, galgun, virtuacop, timecrisis, starwars	0,01	video game	171	0,96	46	0,27	-24,31	
+		1	Q19839602	Villages in China	taktser, nanjie, hongcun, zhelaizhai, cuiheng, xidi, huaxivillage, boshe, fangchuan, sanjiazi	0,002	village	51	0,39	7	0,14	-24,37	
+		3	Q7090026	Lebanese musicians	aramalikian, anees, the4cats, assirahbani, jadshwery, eliasrahbani, ibrahimmaalouf, aleph, khodralama, issamhajali	0,012	human	30	0,94	4	0,13	-24,38	
+		1	Q3430163	Finnish composers	jeansibelius, toivokuula, kaleviaho, uunoklami, jormapanula, akisirkesalo, heinokaski, pekkokappi, kaijasaariaho, eiccatoppinen	0,002	human	117	0,62	0	0	-24,39	
+		1	Q7215173	Sulfate minerals	gypsum, baryte, anhydrite, celestine, mirabilite, alunite, epsomite, ettringite, polyhalite, anglesite	0,012	mineral species	151	0,93	7	0,05	-24,41	
+		1	Q3834367	Burgher people	jamiedurie, keithpotger, guysebastian, nigelbarker, duncanwhite, geoffjansz, georgekeyt, alstonkoch, carlmuller, michaelondaatje	0,006	human	58	0,65	3	0,05	-24,42	
+		2	Q6643751	Towns in Ontario	toronto, ottawa, guelph, barrie, brantford, cobourg, moosonee, orillia, brockville, kapuskasing	0,008	lower-tier municipality, single-tier municipality	108	0,53	18	0,17	-24,42	
+		2	Q7251162	Techno music groups	yello, front242, ivesound, panpot, kalwiremi, 3ballmty, laserdance, ohgr, ssv, btribe	0,01	musical group	24	0,86	8	0,33	-24,58	
+		1	Q6632467	People from Hastings	alanturing, jimihendrix, annelister, paulayates, donovan, amberrudd, andybell, tomchaplin, jobrand, suffragette	0,012	human	300	0,83	36	0,14	-24,58	
+		2	Q461969	Newspapers in Australia	epochtimes, theage, heraldsun, theepochtimes, themercury, theaustralian, thecourier, koorimail, theadvertiser, indaily	0,01	newspaper	90	0,24	19	0,22	-24,59	
+		1	Q6580361	Mountains of Iran	sabalan, dena, sahand, tochal, taftan, cheekhadar, mountdamavand, mountparaw, hazaran, eynali	0,004	mountain	58	0,83	7	0,12	-24,6	
+		1	Q1093437	Banks in Singapore	hsbc, wellsfargo, icicibank, bnpparibas, barclays, ubs, ubsag, citibank, inggroup, dbsbank	0,011	bank	98	0,3	72	0,73	-24,6	
+		1	Q1860766	Companies of Turkey	beko, baykar, kocholding, arcelik, bim, turkcell, isuzumotors, tofas, vestel, migrosturk	0,006	company, business	121	0,39	73	0,61	-24,61	
+		2	Q1959342	Museums in India	inskursura, indianmuseum, teakmuseum, patnamuseum, gandhismriti, manibhavan, biharmuseum, marblepalace, bharatbhavan, napiermuseum	0,012	museum, architectural structure	195	0,42	4	0,02	-24,71	
+		1	Q1199931	Universities in Indonesia	ipbuniversity, publicuniversity, monashuniversity, privateuniversity, binusuniversity, telkomuniversity, universitasterbuka, tidaruniversity, andalasuniversity, udayanauniversity	0,012	university	232	0,41	3	0,02	-24,74	
+		4	Q7216812	Gothic painters	giotto, cimabue, duccio, pisanello, paolouccello, berntnotke, altichiero, orcagna, taddeogaddi, simonemartini	0,008	human	167	0,97	5	0,03	-24,75	
+		2	Q1051686	Spiral galaxies	milkyway, messier81, messier74, messier83, ngc6946, messier77, messier106, messier100, ngc1300, messier88	0,008	spiral galaxy	131	0,44	10	0,08	-24,79	
+		1	Q469968	Romanian composers	eugendoga, antonpann, georgeenescu, gyorgyligeti, tristantzara, dinulipatti, vladimircosma, mihailjora, romanvlad, dangrigore	0,012	human	128	0,52	2	0,02	-24,81	
+		1	Q6607182	Banks in Pakistan	citibank, mufgbank, centralbank, deutschebank, meezanbank, hblpakistan, askaribank, bankalhabib, faysalbank, bankalfalah	0,012	bank	33	0,11	17	0,55	-24,92	
+		1	Q7068922	Colombian politicians	rodrigolara, ivancepeda, elsanoguera, danielquintero, yahiracuna, angelarobledo, ivanmarulanda, carlosmaurohoyos, joseeusebiocaro, gilmajimenez	0,006	human	57	0,98	0	0	-24,98	
+		1	Q8769147	Polish nobility	rulalenska, janczerski, janczeczot, janlaski, janfirlej, henryksienkiewicz, janislawi, samuellaszcz, jozefmackiewicz, michalgiedroyc	0,008	human	130	0,84	0	0	-24,98	
+		1	Q6642028	Symphonic poems	mavlast, totenfeier, finlandia, lamer, sadko, donjuan, donquixote, dansemacabre, pacific231, pinesofrome	0,012	musical work/composition	190	0,66	40	0,25	-25	
+		1	Q8479649	Italian admirals	luigirizzo, umbertoiiofitaly, costanzociano, rogeroflauria, ginopavesi, inigocampioni, paolotreu, rinaldoveri, augustoaubry, angeloiachino	0,01	human	128	1	0	0	-25,02	
+		1	Q7919928	People from Mallorca	chenoa, jordicruz, djsammy, arlyjover, juanmarch, stephengately, juniperoserra, alumayd, davidtavare, luciagraves	0	human	60	0,95	3	0,05	-25,03	
+		1	Q6590613	Moluccan people	pattimura, kevindiks, glennfredly, josluhukay, rexymainaky, bobbypetta, sonnysilooy, mellygoeslaw, ellyaspical, rizkypora	0,01	human	67	0,78	1	0,01	-25,05	
+		1	Q6591713	Nepalese actors	paulshah, anmolkc, bhuwankc, rekhathapa, rajeshhamal, sunilthapa, manishakoirala, saugatmalla, dayahangrai, annasharma	0,006	Nepal, person related to this place, human, actor	89	0,59	3	0,03	-25,11	
+		3	Q6574472	Iranian painters	kamalolmolk, rezaabbasi, shirinneshat, sohrabsepehri, zhalehkazemi, behjatsadr, irandarroudi, mihrali, delaradarabi, hosseinnuri	0,008	human, painter	77	0,52	4	0,05	-25,11	
+		1	Q6576914	Lithuanian singers	monikaliu, giedre, lenavalaitis, alinaorlova, mia, radzi, gjan, stano, sashason, monikalinkyt	0,006	human	62	0,62	7	0,11	-25,13	
+		1	Q3245066	Cornish saints	saintblaise, saintursula, saintpiran, aldhelm, justus, winwaloe, saintnon, morwenna, samsonofdol, padarn	0,01	human	68	0,56	4	0,06	-25,15	
+		1	Q6574050	Indian women artists	lalitalajmi, bhuribai, amritashergil, bhartikher, pratimadevi, bprabha, bauadevi, arpitasingh, durgabaivyom, latikakatt	0,008	human	68	0,47	3	0,04	-25,18	
+		2	Q6644338	Universities in Colombia	publicuniversity, privateuniversity, eafituniversity, icesiuniversity, universidadeafit, universidadicesi, universityofvalle, universityofcauca, pontificaluniversity, universityoftheandes	0,012	university	83	0,43	3	0,04	-25,23	
+		2	Q1862893	Newspapers in Sweden	tabloid, expressen, aftonbladet, kvallsposten, metro, sydsvenskan, dagen, dagensnyheter, proletaren, arbetet	0,01	newspaper	73	0,27	12	0,16	-25,28	
+		1	Q16777743	Bengali Muslims	nurulamin, titumir, begumrokeya, mjakbar, akfazlulhuq, isakhan, muhammadyunus, ahsanhabib, kalapahar, abdussattar	0,012	human	106	0,95	4	0,04	-25,28	
+		1	Q1248671	Armenian composers	komitas, onnotunc, jivani, ohandurian, edgarmanas, mihailjora, igorsarukhanov, aramkhachaturian, arnobabajanian, alanhovhaness	0,002	human	183	0,74	1	0,01	-25,29	
+		2	Q13326740	Films about games	thegame, gamenight, tag, serf, quizshow, naked, theshow, truthordare, tripledog, doubleplay	0,01	film	22	0,96	12	0,55	-25,29	
+		3	Q6611889	Comic book conventions	favela, comiket, wondercon, dragoncon, pyrkon, megacon, romics, lacomiccon, fanx, comicfiesta	0,004	event	104	0,37	19	0,18	-25,31	
+		1	Q7905765	People from Alicante	anamilan, jeannemas, macarenaolona, soniafurio, vanesaromero, jaimemorey, felemartinez, gabrielmiro, carlosmazon, oscarespla	0,008	human	82	0,99	2	0,02	-25,34	
+		4	Q17017809	Hotels in Los Angeles	cecilhotel, picohouse, sunsettower, hotelbelair, chateaumarmont, dunbarhotel, thebeverlyhilton, hollywoodhotel, parkplazahotel, alanhotel	0,01	hotel	32	0,59	7	0,22	-25,37	
+		2	Q8490129	German horror films	nosferatu, antichrist, thesilence, blackdeath, bloodrayne, virus, thebreed, theorder, nekromantik, faust	0,012	film	92	1	28	0,31	-25,38	
+		2	Q5241631	Towns in Quebec	montreal, quebeccity, sherbrooke, gatineau, longueuil, rimouski, lavalquebec, shawinigan, valdor, baiecomeau	0,006	city or town	226	0,64	17	0,08	-25,43	
+		1	Q6577478	Macedonian Turks	cediosman, emremor, ertansaban, elifelmas, cahitarf, ozgunamal, filizahmet, pelinakil, fethiokyar, afetnan	0,01	human	112	0,69	7	0,08	-25,43	
+		0	Q6605320	Airlines of Texas	jetblue, usairways, atlasair, janet, amazonair, kalittaair, netjets, jsx, envoyair, capeair	0,01	airline	187	0,66	42	0,23	-25,43	
+		4	Q2967253	Years in video games (Historic Video Games)	roguelike, onlinegame, pong, eroge, snake, actiongame, soulslike, indiegame, pcgame, bullethell	0,012	video game	122	0,37	52	0,43	-25,43	
+		3	Q6837659	Auto racing films	cars, cars2, cars3, rush, loganlucky, deathrace, speedracer, talkie, turbo, tvpilot	0,01	film	134	0,49	44	0,34	-25,45	
+		1	Q6339113	Science fiction video games	stray, amongus, scorn, starfield, bioshock, steinsgate, overwatch2, fallout4, highonlife, overwatch	0	video game	1435	0,96	413	0,29	-25,48	
+		0	Q1864186	People from Utrecht	orphan, dickbruna, janwouters, robertlong, popeadrianvi, sylviakristel, marcovanbasten, elize, wesleysneijder, arthurjapin	0,002	human	97	0,84	7	0,08	-25,48	
+		1	Q4437592	Skinhead films	alphadog, greenroom, imperium, skin, felon, suburbia, thebeliever, neoned, farming, russia88	0,012	film	59	0,34	20	0,56	-25,48	
+		1	Q7924997	People from Pune	rajneesh, barackobama, alumna, alumnus, reemalagoo, jijabai, meherbaba, shahaji, radhikaapte, bajiraoii	0,008	human	229	0,64	17	0,08	-25,49	
+		1	Q6572684	Gundam video games	tamagotchi, shootemup, beatemup, platformgame, fightinggame, puzzlevideogame, racingvideogame, gundamevolution, stadiumevents, turnbasedstrategy	0,004	video game	105	0,31	7	0,11	-25,5	
+		4	Q6619920	Films about computers	thematrix, ironman, her, exmachina, ironman3, walle, ironman2, irobot, apollo13, bladerunner	0,012	film	183	0,81	104	0,58	-25,52	
+		2	Q1841465	Churches in Venice	gesuiti, ilredentore, sanlorenzo, scalzi, sanmoise, sangeremia, gesuati, sanpantalon, sanstae, sangiobbe	0,002	church building	93	0,66	4	0,04	-25,53	
+		2	Q7289079	Mountains of Iceland	hekla, laki, katla, kirkjufell, askja, krafla, bararbunga, herubrei, esjan, eldgja	0,008	mountain	48	0,89	5	0,11	-25,53	
+		4	Q1754507	Paris railway stations	garedunord, garedelyon, garedelest, garedorsay, nation, auber, garedauber, lilleeurope, museedorsay, magenta	0,01	railway station, architectural structure	68	0,55	9	0,19	-25,6	
+		2	Q7037640	Subcompact cars	hondafit, minihatch, peugeot206, citroen2cv, bmwi3, dacialogan, hondacity, peugeot207, renault4, fiatpunto	0,006	automobile model	258	0,85	28	0,11	-25,61	
+		1	Q7451010	Armenian painters	arshilegorky, ivanaivazovsky, torosroslin, jeancarzou, jeanjansem, janrustem, martirossaryan, armannur, maidearel, yervandkochar	0,004	human	165	0,69	2	0,02	-25,62	
+		0	Q1862775	Political parties in Canada	lemonparty, ontarioparty, parti51, yukonparty, blocquebecois, cleargrits, partirouge, partibleu, abcvancouver, blocpot	0,004	political party	286	0,45	13	0,05	-25,65	
+		1	Q1265653	Companies of Luxembourg	rtlgroup, cargolux, luxair, sessa, regus, majorel, ciprianisa, arcelormittal, cactus, ceratizit	0,004	business, company	49	0,31	20	0,41	-25,66	
+		1	Q7020471	Greek businesspeople	nikosgalis, sakisrouvas, albertbourla, iliaspsinakis, basilzaharoff, zoecruz, babisvovos, leonpatitsas, minoskyriakou, anwarsoussa	0,008	human	56	0,92	4	0,07	-25,68	
+		1	Q139666	People from Bratislava	gustavhusak, eduardheger, robertmak, rudolflaban, petersastny, erndohnanyi, milanrufus, vojtechtuka, majkspirit, andrejhryc	0	human	139	0,87	3	0,02	-25,69	
+		1	Q18784834	People from Watford	ksi, vinniejones, adamgodley, kellysmith, suecleaver, nickleeson, raycooper, grantshapps, momowlam, mattking	0,002	human	190	0,73	21	0,13	-25,69	
+		1	Q378414	Lists of cemeteries	chellah, slavin, benihasan, ummelqaab, wadiussalaam, chinpaosan, martyrslane, khushbagh, cityofthedead, alleyofhonor	0,008	cemetery	149	0,38	4	0,03	-25,71	
+		1	Q6636712	Rivers of Thailand	mekong, mekongriver, chaophraya, chiriver, pingriver, munriver, maeklong, kokriver, nanriver, pasakriver	0,004	river	130	0,64	4	0,04	-25,72	
+		1	Q6563737	Bengali poets	muhammad, valmiki, jami, sukumarray, ranipadmini, lalonshah, jasimuddin, fayezahmed, nachiketa, amitavghosh	0,008	human	149	0,76	10	0,08	-25,76	
+		1	Q6574048	Indian violinists	uttamsingh, nrajam, lshankar, vkmurthy, lsubramaniam, tnkrishnan, balabhaskar, johnmayer, vgjog, arrolcorelli	0,004	human	113	0,87	1	0,01	-25,8	
+		1	Q6015391	Russian cosmonauts	yurigagarin, annakikina, alexeileonov, ivanvagner, yuliaperesild, olegartemyev, pyotrdubrov, denismatveev, olegkotov, sergeikrikalev	0,01	human	78	0,97	3	0,04	-25,87	
+		1	Q6600677	Troma films	mothersday, fathersday, tromaswar, waitress, combatshock, blades, terrorfirmer, stuckonyou, faghag, squeezeplay	0,01	film	49	0,51	8	0,17	-25,88	
+		1	Q6632817	People from Tijuana	samizayn, anagabriel, thunderrosa, reymisterio, reymysteriojr, psicosis, carlossantana, frankiej, brandonmoreno, erikmorales	0,008	human	127	0,58	18	0,17	-25,91	
+		2	Q6571151	Ghanaian musicians	ritamarley, shattawale, sarkodie, amaarae, stonebwoy, kidi, gyakie, daddylumba, fuseodg, castro	0,004	human	176	0,59	27	0,18	-25,95	
+		1	Q8838407	Telugu poets	nannayya, vemana, pothana, srisri, tikkana, daasarathi, srinatha, gaddar, veturi, dhurjati	0,008	human	125	0,97	3	0,02	-26,03	
+		1	Q6628002	Halide minerals	halite, sodalite, sylvite, calomel, bischofite, carnallite, salammoniac, atacamite, kainite, wavellite	0,008	mineral species	63	0,91	5	0,08	-26,04	
+		1	Q3244501	People from Nantes	julesverne, moliere, lindahardy, madeon, jacquesdemy, erictabarly, claudecahun, manufeildel, natachadanais, annamouglalis	0,004	human	75	0,77	4	0,06	-26,1	
+		1	Q7711493	Romanian nobility	chrisghika, iancujianu, mironcostin, manucbei, petrepcarp, ionvinea, ndcocea, iliacolceag, ioanbob, dimitriecantemir	0,006	human	72	0,92	0	0	-26,1	
+		1	Q8491850	Giallo films	phenomena, deepred, tenebrae, tightrope, ossessione, trauma, giallo, opera, darkglasses, sleepless	0,01	film	169	0,99	24	0,14	-26,11	
+		1	Q7919668	People from Lucerne	marcrich, annamurphy, ottohappel, loredanazefi, rolfdobelli, hanserni, fredystuder, kerencraig, gretachi, felixgmur	0	human	129	0,88	3	0,03	-26,17	
+		1	Q1739440	People from Kiel	maxplanck, kimdotcom, ericbraeden, ernstbusch, hansgeiger, dieterlaser, axelmilberg, ernaflegel, karlhass, carlloewe	0,006	human	105	0,69	4	0,04	-26,17	
+		1	Q7116400	People from Sabah	pennywong, garychaw, fungbobo, hajijinoor, chenelle, wawazainal, amberchia, shafieapdal, stacy, musaaman	0,01	human	286	0,64	10	0,05	-26,18	
+		1	Q1864010	People from Brno	kurtgodel, adamondra, ernstmach, adolfloos, gregormendel, jiiprochazka, milankundera, leosjanacek, yanagupta, jananovotna	0,01	human	139	0,75	5	0,04	-26,19	
+		1	Q6634315	Politicians in Poland	lewrywin, sieciech, mieclaw, adamszlapka, janlitynski, jozefrymer, piotruszok, jakubswinka, jozefretinger, karollibelt	0,008	human	152	0,93	0	0	-26,21	
+		1	Q5246595	Dean of Canterbury	aelfwyn, justinwelby, georgebell, ceolnoth, janehedges, robertwillis, aethelnoth, johnmoore, henryalford, johnsharp	0,006	human	50	0,35	6	0,12	-26,29	
+		1	Q6377802	Greek philanthropists	sakisrouvas, simonsinas, iliaspsinakis, spiroslatsis, georgeaveroff, herodesatticus, georgiossinas, ioannisvarvakis, andreassyggros, evangeloszappas	0,012	human	44	0,96	2	0,05	-26,34	
+		1	Q1819475	Senegalese writers	fatoudiome, ramayade, mariendiaye, mariamaba, daviddiop, biragodiop, kenbugul, cheikhantadiop, ousmanesembene, philliswheatley	0,008	human	66	0,66	0	0	-26,36	
+		2	Q8383745	Districts of Milan	calvairate, brera, baggio, lambrate, qt8, barona, bovisa, rogoredo, greco, cittastudi	0,008	quarter of Milan	64	0,82	8	0,12	-26,37	
+		1	Q8473198	French caricaturists	nadar, gustavedore, cabu, charb, gotlib, emilecohl, carandache, jul, andregill, jeaneffel	0,012	human	67	1	9	0,13	-26,38	
+		1	Q9691582	People from Amritsar	akshaykumar, jeetendra, kiranbedi, yashjohar, darasingh, avneetkaur, geetabali, vinodmehra, madanlal, kapilsharma	0,01	human	108	0,9	16	0,15	-26,42	
+		1	Q6285983	Egyptian novelists	tahahussein, yusufsibai, yusufidris, bahaataher, naguibmahfouz, radwaashour, ahmedmourad, salwabakr, tawfiqalhakim, ahdafsoueif	0,012	human	124	0,98	0	0	-26,42	
+		1	Q7426189	Heidegger scholars	shuzokuki, henrycorbin, jeanwahl, richardrorty, terrencemalick, ahmadfardid, renescherer, raybrassier, jeanlucnancy, charlestaylor	0,012	human	171	1	4	0,02	-26,43	
+		1	Q6591613	Native American musicians	cherokee, sioux, dine, navajo, choctaw, shoshone, utetribe, kiowa, skyferreira, chuckbilly	0,01	human	124	0,56	20	0,18	-26,46	
+		1	Q4433441	Psychobilly bands	volbeat, thecramps, thevoidz, the5678s, lossaicos, tigerarmy, leswampas, themeteors, redelvises, horrorpops	0,004	musical group	61	0,79	12	0,2	-26,47	
+		1	Q8459424	Finnish television shows	roba, stromso, jyrki, levyraati, madventures, faktahomma, ansajaoiva, killarman, elamanmeno, tenavatahti	0,006	television program	40	0,95	5	0,12	-26,49	
+		1	Q8468272	Formula One people	paulricard, neilhoran, chasecarey, michaelmasi, sidwatkins, nicolastodt, pieroferrari, williweber, norberthaug, joramirez	0,01	human	68	1	7	0,1	-26,54	
+		1	Q9061568	Dutch fashion designers	olcaygulsen, lailaaziz, sharondenadel, baskosters, sanaeorchi, fongleng, irisvanherpen, martvisser, sergiovandijk, jantaminiau	0,01	human	34	0,87	3	0,09	-26,59	
+		1	Q7117217	People from Allahabad	nargis, dhyanchand, indiragandhi, nidhisingh, ramananda, ferozegandhi, kamalanehru, jaddanbai, asafali, yashdayal	0,012	human	174	0,65	9	0,05	-26,61	
+		1	Q26809209	Shankar filmography	drama, bhramam, twenty20, guru, abhimanyu, mohanlal, casanovva, chinatown, cycle, gandharvam	0,012	film	125	0,87	17	0,14	-26,63	
+		1	Q6607215	Banks in the Philippines	inggroup, mufgbank, icbc, cimb, bancodeoro, ctbcbank, deutschebank, jpmorganchase, metrobank, unionbank	0,004	bank	46	0,25	30	0,65	-26,68	
+		1	Q1813819	Airports in Iceland	jerseyairport, svalbardairport, reykjavikairport, akureyriairport, isleofmanairport, bakkiairport, rifairport, gjogurairport, grimseyairport, husavikairport	0,012	airport, architectural structure	70	0,37	0	0	-26,74	
+		1	Q3514	People from Varanasi	premchand, kabirdas, tulsidas, ravidas, ravishankar, anniebesant, raniofjhansi, rnkao, vidisha, ramananda	0,004	human	116	0,78	9	0,08	-26,81	
+		1	Q6574424	Iranian Armenians	andy, viguen, raffi, rayaghayan, maryapick, arman, zoyapirzad, gegardmousasi, armik, marcokhan	0,006	human	112	0,73	4	0,04	-26,81	
+		1	Q11270808	Jetstar destinations	airlinehub, focuscity, changiairport, perthairport, sydneyairport, cairnsairport, aucklandairport, avalonairport, hobartairport, brisbaneairport	0,006	airport	53	0,31	17	0,32	-26,86	
+		1	Q7026641	Filipino weaponry	m16rifle, sword, slingshot, kampilan, parang, golok, kalis, lantaka, baston, panabas	0,002	weapon	26	0,3	9	0,43	-26,87	
+		1	Q8735494	People from Guntur	kviswanath, savitri, ksravindra, sjanaki, jamuna, mano, brahmanandam, jeeva, gummadi, koratalasiva	0,006	human	74	0,59	7	0,1	-26,94	
+		1	Q97585880	Ganesh filmography	gaalipata2, gaalipata, chamak, mungarumale, sakath, raambo2, mugulunage, geetha, orange, zoom	0,006	film	45	0,74	13	0,3	-26,96	
+		1	Q5114116	Azerbaijani composers	niyazi, garagarayev, fikretamirov, arifmalikov, muradarif, alisalimi, tofigguliyev, raufhajiyev, asafzeynally, saidrustamov	0,008	human	100	0,61	1	0,02	-26,99	
+		3	Q6374387	Theatres in Paris	bataclan, letrianon, bobino, foliesbergere, cafedelagare, paradislatin, alhambra, theatremogador, theatremarigny, theatredeparis	0,008	theatre	53	0,84	9	0,17	-27,01	
+		1	Q8558015	Italian centenarians	borispahor, liaorigoni, celinaseghi, francavaleri, arditodesio, francapilla, annacampori, pietroingrao, leoluca, micolfontana	0,004	human	99	0,99	2	0,02	-27,02	
+		1	Q16967094	Bungie video games	destiny2, pong, destiny, halo2, haloreach, halo3, shootemup, halo3odst, beatemup, oni	0,004	video game	30	0,29	16	0,55	-27,03	
+		1	Q20311069	Codemasters video games	mmorpg, actiongame, shootemup, racinggame, f122, musicgame, rhythmgame, f12021, stealthgame, sportgame	0,012	video game	174	0,57	35	0,2	-27,13	
+		1	Q1101766	Apple II games	tetris, pacman, donkeykong, actiongame, shootemup, breakout, mspacman, frogger, sokoban, wasteland	0,007	video game	1150	0,73	237	0,29	-27,15	
+		1	Q8755684	People in the automobile industry	lakshmivenu, carlhahn, edselfordii, anandmahindra, raymondloewy, henryjkaiser, dickteague, maxhoffman, virgilexner, fuzztownshend	0,012	human	107	0,99	4	0,04	-27,22	
+		1	Q7681408	Tamil businesspeople	indranooyi, shivnadar, sundarpichai, tamilpeople, arvindswamy, jeppiaar, msaravanan, acmuthiah, spadithanar, mgmuthu	0,006	human	125	0,8	6	0,06	-27,24	
+		2	Q3503010	Lakes of Peru	laketiticaca, lakepaca, lakeparon, lakejunin, lakesauce, palcacocha, lakesalinas, lakepacucha, lakeumayo, lakearapa	0,008	lake	57	0,47	1	0,02	-27,29	
+		4	Q6845226	PlayStation Network games (PlayStation Games)	minecraft, callofduty, terraria, silenthill, outlast, persona4, persona3, celeste, maxpayne, deltarune	0,01	video game	1414	0,98	313	0,22	-27,32	
+		4	Q18965551	Mario sports games	mariobros, mariokart8, wiisports, mariokart7, sportsgame, excitebike, mariokart64, mariopaint, mariokartds, mariogolf	0,01	video game	58	0,28	18	0,31	-27,34	
+		1	Q3244496	People born at sea	jacksoo, asmahan, riomavuba, itamarfranco, renemaran, edporray, maryjemison, wyndhamlewis, stamfordraffles, karlnesselrode	0,002	human, birth at sea	98	0,65	4	0,04	-27,39	
+		1	Q1748576	Kerala Olympians	ptusha, prsreejesh, prshreejesh, tintuluka, amojjacob, kmbeenamol, shinywilson, mdvalsamma, sureshbabu, uvimalkumar	0,008	human	56	0,61	0	0	-27,42	
+		1	Q6607206	Banks in the Americas	hsbc, citibank, bbva, nubank, lloydsbank, lloydstsb, usbancorp, abnamro, banesco, goldmansachs	0,01	bank	109	0,31	69	0,64	-27,46	
+		1	Q6596698	Senators of Pakistan	nawazsharif, ishaqdar, walidiqbal, aitzazahsan, wasimsajjad, pervezmusharraf, sajidmir, sherryrehman, shiblifaraz, shaukattarin	0,004	human	117	0,74	4	0,03	-27,48	
+		1	Q6201005	Television stations in Japan	tvtokyo, tokyomx, fujitv, nippontv, tvasahi, atx, bstbs, tvshizuoka, tvsetouchi, tvmiyazaki	0,01	television station	109	0,84	9	0,08	-27,5	
+		1	Q6576566	Lebanese Armenians	serjtankian, tulipjoshi, nicolesaba, mariamnour, johndolmayan, arami, simonabkarian, nourhanne, haigpapazian, guymanoukian	0,006	human	34	0,68	4	0,12	-27,51	
+		1	Q18924374	Prabhu filmography	varisu, thelegend, theri, laththi, raavanan, puli, ayan, billa, anjali, saamy2	0,01	film	207	0,9	21	0,1	-27,62	
+		1	Q85777771	Indian state songs	kimigayo, hatikvah, aegukga, aegukka, janaganamana, eyiran, negaraku, stiklalmars, anthem, mawtini	0,004	song	129	0,46	11	0,09	-27,67	
+		1	Q6603900	Wells Fargo presidents	dealbook, johnstumpf, williamfargo, charlesscharf, lloydtevis, callenparker, timothyjsloan, noelloomis, isaiaswhellman, jamescairflood	0,008	human	26	0,72	2	0,08	-27,79	
+		1	Q8746020	People from Pokhara	mahabirpun, sheshghale, kamalthapa, yasinbhatkal, karankc, laure, narayangopal, anupbaral, anilgurung, arunthapa	0,004	human	118	0,76	4	0,05	-27,86	
+		1	Q582304	Political parties in Quebec	particitron, parti51, partirouge, partibleu, blocpot, partiquebecois, partinul, quebecsolidaire, climatquebec, blocmontreal	0,01	political party	78	0,36	3	0,04	-27,91	
+		1	Q6632533	People from Kozhikode	ptusha, kishorkumar, ranjitha, anoopmenon, ranjith, anaghalk, ivsasi, nithyadas, meenakshi, sijarose	0,008	human	118	0,93	10	0,09	-27,92	
+		1	Q108061205	Planets in science fiction	tatooine, coruscant, krypton, arrakis, alderaan, naboo, apokolips, gallifrey, yavin, mustafar	0,012	fictional planet	33	0,09	21	0,66	-27,94	
+		1	Q6632618	People from Multan	imamulhaq, kubrakhan, bahlullodi, khizrkhan, saimanoor, sanafakhar, inzamamulhaq, alisafina, hajrayamin, ruknealam	0,008	human	125	0,91	3	0,03	-28	
+		1	Q9649327	Polish centenarians	marianfuks, ninaandrycz, janekier, abecoleman, maxwebb, wolfleslau, wandapoltawska, witoldsadowy, stanislawmaczek, benzionnetanyahu	0,012	human	63	1	0	0	-28,05	
+		1	Q7072375	Television stations in Switzerland	rtl, prosieben, ntv, sat1, 3sat, superrtl, super, vox, rtlzwei, dmax	0,006	television station	50	0,77	23	0,48	-28,15	
+		1	Q6632235	People from Alappuzha	mammootty, fahadfazil, fazil, navyanair, vinayan, akantony, kmadhu, padmarajan, ashokan, priyadarshan	0,008	human	71	0,76	5	0,07	-28,15	
+		1	Q15298750	Films about mining	zoolander, kgfchapter1, akhanda, pride, gold, palerider, the33, ayan, outland, prospect	0,012	film	111	1	40	0,37	-28,18	
+		1	Q18111498	Venkatesh filmography	aladdin, krack, drushyam2, premam, venkymama, anari, nagavalli, narappa, eenadu, drushyam	0,008	film	87	0,47	16	0,19	-28,21	
+		1	Q6624030	Inflatable manufactured goods	zeppelin, tire, tires, balloon, basketball, waterbed, toyballoon, airdancer, swimring, airmattress	0,012	inflatable	28	0,27	8	0,31	-28,24	
+		1	Q6592144	New Zealand television series	taskmaster, thetribe, 800words, thegulf, darktourist, theblocknz, westside, brotown, whatnow, thexfactor	0,006	television program	107	0,63	40	0,38	-28,28	
+		1	Q8701993	Operatic sopranos	daryadadvar, ledung, hibakawas, dinaraalieva, adrianacaselotti, jeaninedebique, mayagulyyewa, fidangasimova, yukiip, veronikadzhioeva	0,01	human	29	0,85	1	0,03	-28,38	
+		1	Q9088621	Prussian nobility	lilybraun, daviddepury, ottovongierke, wilhelmvonhumboldt, ernstvonpfuel, remusvonwoyrsch, johnomeusebach, ernstvonsiemens, eduardvonsimson, moritzvonbissing	0,012	human	75	0,68	0	0	-28,38	
+		1	Q6570235	Epicurean philosophers	epicurus, lucretius, philodemus, leontion, hermarchus, zenoofsidon, colotes, amafinius, catius, carneiscus	0,008	human	54	0,82	3	0,09	-28,43	
+		1	Q3408480	Brazilian telenovelas	oclone, oreidogado, telenovela, afavorita, almagemea, poramor, carrossel, america, telenovelas, esmeralda	0,008	television series	120	0,6	16	0,14	-28,43	
+		0	Q3087586	Companies of Hong Kong	banking, hsbc, amd, dbsbank, tvb, qnet, pomato, hkexpress, pccw, hnagroup	0,002	business	104	0,26	53	0,52	-28,49	
+		1	Q98959087	Simran filmography	mahaan, petta, captain, andhagan, pithamagan, vaalee, new, youth, jodi, seemaraja	0,01	film	89	0,66	20	0,22	-28,53	
+		1	Q93047	Municipalities in Alicante	alicante, benidorm, elcheelx, torrevieja, denia, calp, altea, villena, xabia, orihuela	0	municipality of Spain	140	0,66	16	0,11	-28,57	
+		1	Q6378035	People from Gaziantep	hazalkaya, ebrugundes, ahmetumit, fatmasahin, sahinbey, kenandogulu, sinantuzcu, alikaya, doguperincek, savasay	0,004	human	72	0,86	5	0,09	-28,81	
+		1	Q8645583	Mughal nobility	birbal, tansen, todarmal, zebunnissa, wazirkhan, mahamanga, nawabbai, safdarjang, faizi, shaistakhan	0,01	human	118	0,92	4	0,04	-28,85	
+		1	Q25192997	People from Dumaguete	ricoblanco, angelaquino, dennistrillo, edithtiempo, eddieromero, carmimartin, leonkilat, papaisio, angelcalcala, leonorbriones	0,008	human	73	0,79	2	0,03	-28,92	
+		1	Q8468791	Forts in France	fortboyard, fortdejoux, bastille, fortcarre, fortmahon, petitbe, fortenet, fortdesalses, fortrapp, fortlecluse	0,008	architectural structure	42	0,95	3	0,07	-28,97	
+		1	Q7455040	West German films	possession, paristexas, 1900, thetindrum, cruising, storyofo, thedamned, bagdadcafe, ludwig, christianef	0,004	film	1934	0,99	285	0,15	-28,99	
+		1	Q9237001	People of Manchukuo	puyi, nobusukekishi, yuyan, runqi, kanjiishiwara, zhaoyiman, yuzhan, lishouxin, tommeschery, levokhotin	0,012	human	50	0,98	5	0,1	-29	
+		1	Q6623780	Hotels in the United States	cecilhotel, plazahotel, bellagio, themirage, thestrat, aladdin, sandshotel, marinahotel, desertinn, parkmgm	0,006	hotel, architectural structure	1183	0,81	131	0,11	-29,03	
+		1	Q24073505	People from Barisal	salkhan, utpaldutt, akfazlulhuq, sufiakamal, mehidyhasan, omarsani, taniaahmed, kaminiroy, abalabose, sohelrana	0,006	human	186	0,82	4	0,03	-29,05	
+		2	Q1851442	Sega CD games	soniccd, snatcher, nighttrap, dune, finalfight, flashback, themepark, nbajam, syndicate, spaceace	0,006	video game	297	0,45	50	0,31	-29,06	
+		1	Q6597391	Soukous musicians	fallyipupa, papawemba, ferregola, mbiliabel, werrason, tshalamuana, pepekalle, meiway, koffiolomide, mpongolove	0,004	human	90	0,88	3	0,04	-29,11	
+		1	Q7115501	People from Palembang	joetaslim, nauraayu, felixsiauw, hattarajasa, shandyaulia, titokarnavian, harnojoyo, alexnoerdin, mohammadahsan, tantowiyahya	0,012	human	60	1	2	0,03	-29,11	
+		1	Q7039278	American women in politics	karinejeanpierre, joraeperkins, dejafoxx, pamelaharriman, joanneherring, ellenlord, phyllisschlafly, briahnajoygray, taramcgowan, juliefancelli	0,008	human	46	0,84	0	0	-29,2	
+		1	Q24905267	Gulzar filmography	darlings, drishyam, dilse, guru, raazi, kuttey, haider, satya, saathiya, raajneeti	0,008	film	140	0,71	57	0,41	-29,26	
+		3	Q8451990	Films about automobiles	fastx, cars, drivemycar, furious7, drive, bumblebee, babydriver, madmax, deathproof, fastfive	0,01	film	251	0,73	99	0,49	-29,38	
+		1	Q6601155	UK garage artists	ksi, craigdavid, jamiexx, burial, ajtracey, wiley, naughtyboy, danebowers, msdynamite, mikeskinner	0,004	human	128	0,58	31	0,39	-29,39	
+		1	Q6639373	Shopping malls in California	shoppingmalls, santanarow, metreon, breamall, ardenfair, eastridge, theoaks, bellaterra, carouselmall, ontariomills	0,01	shopping center	198	0,39	23	0,12	-29,41	
+		1	Q1864014	People from Chernivtsi	milakunis, paulcelan, sofiarotaru, hermannhesse, wilhelmreich, mihaieminescu, ninonhesse, danpagis, hermannbahr, aronpumnul	0,006	human	83	0,69	4	0,05	-29,5	
+		1	Q7131570	Battles of the Middle Ages	battleofvarna, battleofvisby, battleofbaia, battleofane, battleofvaslui, battleoflena, battleoflargs, battleoftheneva, battleofshelon, battleofgarni	0,008	battle	140	0,9	0	0	-29,53	
+		4	Q6312512	American comedy films	knivesout, homealone, shrek, encanto, minions, sing2, frozen, hocuspocus, freeguy, coco	0,01	film	5078	0,95	1516	0,32	-29,56	
+		4	Q8452327	Films based on songs	mammamia, convoy, getonup, rhinestone, lilimarleen, lastchristmas, lovemetender, jailhouserock, copacabana, avlarco	0,012	film	82	0,94	23	0,29	-29,61	
+		2	Q6599381	Texas state prisons	ramseyunit, ellisunit, crainunit, wynneunit, goreeunit, easthamunit, byrdunit, huntsvilleunit, estelleunit, coffieldunit	0,01	prison	96	0,55	0	0	-29,62	
+		1	Q5101848	Chiranjeevi filmography	godfather, acharya, magadheera, indra, sonofindia, ghazi, stalin, anji, tagore, varudu	0,006666666667	film	162	0,71	29	0,18	-29,67	
+		1	Q7586357	Sridevi filmography	zero, mom, mrindia, judaai, puli, laadla, chandni, karma, khudagawah, lamhe	0,008	film	196	0,79	22	0,11	-29,71	
+		1	Q6562899	Music festivals in Australia	rave, squatparty, grime, bigdayout, powwow, moomba, soundwave, concerttour, teknival, musicfestival	0,008	event	113	0,45	32	0,29	-29,75	
+		1	Q18153674	Restaurants in New York City	delmonicos, 21club, steakhouse, perse, joespizza, raos, lentrecote, papayaking, balthazar, sardis	0,01	restaurant	138	0,35	55	0,4	-29,76	
+		1	Q6606171	Artificial pet games	tamagotchi, adoptme, neopets, pou, seaman, nintendogs, mindcandy, zootycoon2, jadecocoon, dogslife	0,006	video game	48	0,56	20	0,42	-29,79	
+		1	Q8371325	Defunct television channels	channelv, boomerang, locomotion, magickids, fox, foxmovies, redbyhbo, retro, spacepowertv, diva	0,006	television channel	33	0,62	12	0,38	-29,85	
+		1	Q9136547	Mishnah rabbis	gamaliel, shammai, rabbimeir, gamalielii, judahhanasi, onkelos, honihameagel, shmaya, abtalion, rabbitarfon	0,008	human	113	0,93	4	0,04	-29,95	
+		1	Q2475241	Municipalities of Hidalgo	tulancingo, tepeji, tizayuca, huichapan, apan, pachuca, ixmiquilpan, tecozautla, metztitlan, zimapan	0,012	municipality of Mexico	179	0,76	3	0,03	-30,02	
+		1	Q7165495	Columbia Records albums	thewall, motomami, xxv, animals, renaissance, lemonade, fineline, illmatic, kindofblue, blackstar	0,008	album	2806	0,99	919	0,33	-30,04	
+		1	Q7008671	Dutch musical groups	tensharp, rowwenheze, teeset, vandikhout, makoma, foxthefox, triolescano, themotions, theshoes, trafassi	0,006	musical group	59	0,86	8	0,14	-30,08	
+		1	Q10174131	People from Sanandaj	azad, voriaghafouri, hootanshakiba, shahramirani, nasserrazazi, majidhabibi, zobeirniknafs, nasserfahimi, abbaskamandi, minoosharifi	0,012	human	46	1	2	0,04	-30,08	
+		1	Q6567532	Colombian telenovelas	metastasis, telenovela, elcartel, vecinos, nurses, elclon, bolivar, latormenta, elcapo, thegirl	0,012	telenovela, television series	192	0,73	21	0,12	-30,1	
+		1	Q7027527	Estonian sportspeople	otttanak, kaiakanepi, martpoom, erkinool, gerdkanter, juritarmak, andresoper, tiitsokk, ragnarklavan, heikinabi	0,006	human	143	0,95	2	0,01	-30,17	
+		1	Q17051438	Shopping malls in Singapore	vivocity, sunteccity, ionorchard, luckyplaza, imm, jcube, jem, liangcourt, compassone, liattowers	0,002	shopping center	82	0,55	12	0,15	-30,22	
+		1	Q8623743	Mexican musical groups	bronco, losbukis, bandams, calibre50, eltri, losacosta, kumbiakings, losyonics, allison, yndio	0,006	musical group	81	0,85	15	0,19	-30,29	
+		1	Q105700	Municipalities in Valladolid	valladolid, tordesillas, uruena, simancas, cigales, alaejos, iscar, traspinedo, olmedospain, mojados	0,012	municipality of Spain	225	0,76	8	0,04	-30,29	
+		1	Q6563053	Avalon Hill games	risk, stratego, diplomacy, newworld, runequest, roborally, acquire, dune, squadleader, tactics	0,012	video game, board wargame, tabletop role-playing game, board game	178	0,48	68	0,39	-30,31	
+		1	Q6629537	Multiplayer Game Boy games	pacman, asteroids, drmario, puyopuyo, tetris, tecmobowl, yoshi, qix, trackfield, spyvsspy	0,004	video game	117	0,66	37	0,32	-30,33	
+		3	Q6841210	American documentary films	flee, grizzlyman, fireoflove, navalny, insidejob, theredpill, val, baraka, supersizeme, 13th	0,004	film	3347	0,98	663	0,2	-30,35	
+		1	Q16251350	Manivannan filmography	sivaji, padayappa, mudhalvan, velayudham, nerukkuner, kuruvi, youth, vaseegara, rhythm, aathi	0,01	film	221	0,94	28	0,13	-30,45	
+		1	Q2129950	Municipalities of Puebla	zacatlan, tepeaca, xicotepec, puebla, honey, pahuatlan, libres, acatzingo, calpan, oriental	0,012	municipality of Mexico	212	0,73	6	0,03	-30,53	
+		1	Q6573994	Indian film critics	shajichen, taranadarsh, komalnahta, anupamachopra, khariharan, dilipchitre, randorguy, rajeevmasand, shubhragupta, bkkaranjia	0,004	human	118	0,67	1	0,01	-30,62	
+		1	Q6572450	Greek musical artists	vangelis, annavissi, demisroussos, ketigarbi, marinella, tamta, peggyzina, glykeria, sirusho, kalomira	0,012	human	81	0,41	15	0,19	-30,62	
+		1	Q6598579	Summit Entertainment films	johnwick, moonfall, prisoners, twilight, divergent, run, lalaland, memento, vanillasky, midway	0,012	film	281	0,66	88	0,54	-30,66	
+		3	Q7139601	Theorems in geometry	soddyshexlet, 2πtheorem, triangleinequality, devissage, jungstheorem, deguastheorem, nivenstheorem, theoremaegregium, collagetheorem, principalaxistheorem	0,012	theorem	42	0,89	0	0	-30,67	
+		1	Q41498010	Ships at Dunkirk	tugboat, gunboat, minesweeper, torpedoboat, troopship, hospitalship, hmsjavelin, cargoliner, paddlesteamer, hmsexpress	0,01	ship	113	0,64	4	0,04	-30,71	
+		4	Q65246948	Meta Quest games	vrchat, beatsaber, superhotvr, superhot, recroom, accounting, rez, bonelab, boneworks, fruitninja	0,006	video game	91	0,57	31	0,5	-30,76	
+		4	Q7164558	Television series by Disney	dinosaurs, violetta, soyluna, zorro, spiderman, stitch, once, handymanny, carstoons, yinyangyo	0,01	television series	153	0,87	43	0,28	-30,79	
+		1	Q8310456	Brazilian musical groups	utopia, olodum, eotchan, planethemp, bandaeva, nxzero, racanegra, carrapicho, falamansa, timbalada	0,002	musical group	54	0,86	9	0,17	-30,8	
+		1	Q7214815	Deaths from oral cancer	drseuss, burlives, jackwild, leatherman, johnchard, brunocremer, brucepaltrow, rrpatil, lincarter, susanbuffett	0,004	human	60	0,98	4	0,07	-30,87	
+		3	Q3244060	American football video games	actiongame, mobilegame, retrobowl, tecmobowl, espnnfl2k5, maddennfl25, maddennfl08, maddennfl12, cyberball, maddennfl07	0,002	video game	129	0,33	14	0,11	-30,88	
+		3	Q849749	British literary awards	bookerprize, golddagger, orwellprize, bsfaawards, kitschies, tseliotprize, costabookawards, jhalakprize, ondaatjeprize, newdigateprize	0,006	award	73	0,82	1	0,01	-30,95	
+		4	Q6619979	Films based on manga	oldboy, akira, porcorosso, deathnote, blackjack, speedracer, crowszero, initiald, astroboy, gantz	0,01	film	443	0,56	62	0,14	-30,96	
+		4	Q6619982	Films based on poems	troy, braveheart, mulan, fantasia, padmaavat, beowulf, excalibur, paterson, elcid, shortcuts	0,006	film	203	0,76	41	0,26	-30,97	
+		1	Q1779849	Mayors of Lima	jorgemunoz, luiscastaneda, manuelcandamo, ricardobelmont, susanavillaran, rafaellopezaliaga, marcoparra, lizardomontero, albertoandrade, luisbedoyareyes	0,008	human	98	0,57	0	0	-31,03	
+		1	Q7146013	Israeli film directors	tomersisley, urizohar, nadavlapid, orenpeli, assidayan, arifolman, resheflevi, urigavriel, amosgitai, zeevrevach	0,008	human	156	0,99	2	0,01	-31,16	
+		1	Q8679533	Nigerian human rights activists	felakuti, lamboginny, delegiwa, aminukano, femifalana, aishayesufu, kikimordi, sonnyokosun, afebabalola, leoigwe	0,002	human	75	0,74	3	0,04	-31,25	
+		1	Q7178497	Berber Moroccans	abdelkrim, sofyanamrabat, lallalatifa, andreazoulay, ahmedrami, malikaoufkir, ibnadjurrum, azizakhannouch, mohamedoufkir, lallabahia	0,008	human	48	1	3	0,06	-31,26	
+		4	Q6621359	Free massively multiplayer online games	roguelike, mmorpg, secondlife, mmog, agario, runescape, actiongame, maplestory, soulslike, slitherio	0,012	video game	175	0,57	66	0,38	-31,26	
+		1	Q3715904	Duke of Spoleto	desiderius, aistulf, ratchis, welfvi, suppoi, welfvii, matildaoftuscany, guyiiiofspoleto, beatriceofbar, guyiofspoleto	0,006	human	76	0,7	1	0,02	-31,34	
+		1	Q6642573	Television channels in Mauritius	zdf, euronews, france24, foxnews, arydigital, msnbc, skynews, starplus, cbeebies, aajtak	0,004	television channel	92	0,42	52	0,58	-31,36	
+		1	Q8400921	Companies based in Ohio	cedarfair, airstream, swagelok, abxair, joannstores, raxroastbeef, revco, bonnebell, eaglebrand, exel	0,006	business	132	0,9	23	0,17	-31,41	
+		1	Q15274634	Mexican women journalists	adelamicha, paolarojas, inessainz, patichapoy, lillytellez, evanorvind, lydiacacho, laurag, lolitaayala, verorodriguez	0,006	human	78	0,99	6	0,08	-31,43	
+		0	Q4383784	Mega Man video games	mobilegame, megamanx, megaman11, megaman, megaman2, megamanx4, megaman8, megaman9, megamanzx, platformgame	0,002	video game	105	0,51	11	0,11	-31,45	
+		4	Q6839791	Films set in London	thegrayman, sitaramam, eternals, tenet, radheshyam, spectre, skyfall, furious7, braveheart, legend	0,004	film	2626	1	720	0,29	-31,54	
+		0	Q105712	Municipalities in Biscay	bilbao, guernica, barakaldo, getxo, bermeo, basauri, ondarroa, lekeitio, ermua, santurtzi	0,002	municipality of Spain	109	0,6	23	0,21	-31,56	
+		1	Q268974	Hungarian film directors	belatarr, nimrodantal, adolphzukor, petermedak, miklosrozsa, istvanszabo, sashagabor, gyulamaar, karolymakk, peterbacso	0,01	human	206	0,73	0	0	-31,57	
+		1	Q3244059	Association football video games	fifa23, fifa22, efootball, actiongame, fifa19, fifa21, fifa20, fifa14, fifa18, fifa17	0,012	video game	607	0,6	55	0,14	-31,61	
+		1	Q3884090	Paintings by Tintoretto	lastsupper, ilparadiso, adamandeve, crucifixion, danae, themuses, visitation, cainandabel, selfportrait, ledaandtheswan	0,004	painting	70	0,37	8	0,22	-31,84	
+		1	Q1189051	Neo Geo games	neogeo, neogeocd, iqueplayer, metalslug, metalslug2, metalslug3, fatalfury2, neogeox, athena, wakuwaku7	0,01	game	160	0,39	24	0,15	-31,9	
+		1	Q847944	Mayors of Bucharest	nicuordan, carosetti, traianbasescu, iondinca, sorinoprescu, georgemanu, gabrielafirea, robertnegoia, victorciorbea, liviunegoia	0,008	human	63	0,4	1	0,02	-31,95	
+		1	Q6376423	Golden Bear winners	rainman, 12angrymen, magnolia, cinderella, intimacy, elitesquad, spiritedaway, alphaville, headon, alcarras	0,01	film	85	0,97	28	0,33	-31,97	
+		1	Q7589291	RCA Records albums	sos, blackstar, breezy, planether, hunkydory, low, davidbowie, isthisit, ctrl, onebyone	0,01	album	1581	0,99	515	0,33	-31,99	
+		3	Q6567207	Christian punk bands	switchfoot, relientk, mxpx, anberlin, emery, hawknelson, eisley, iconforhire, fmstatic, superchick	0,008	musical ensemble, musical group	103	0,46	34	0,33	-32,02	
+		1	Q6995815	Israeli football managers	avramgrant, eliohana, alonhazan, barakbakhar, reuvenatar, guyluzon, avicohen, arikbenado, ofirhaim, nirklinger	0,01	human	169	1	5	0,03	-32,02	
+		4	Q6849735	Video games based on films	madmax, worldwarz, spiderman3, sweethome, spiderman2, thething, blairwitch, cars, spiderman, 007legends	0,005333333333	video game	905	0,46	217	0,39	-32,15	
+		1	Q25220832	Singers from Karnataka	ananyabhat, jayanthi, bhimsenjoshi, nanditha, vijayprakash, mdpallavi, cashwath, mvrajamma, sballesh, kslswamy	0,006	human	59	0,98	3	0,05	-32,21	
+		1	Q6835280	Films set in France	amsterdam, dunkirk, 1917, godfather, atonement, hugo, robinhood, allied, cinderella, athena	0,008	film	814	0,99	216	0,28	-32,28	
+		2	Q6644658	Video games based on comics	spiderman, avengers, injustice2, spiderman3, spiderman2, deadpool, turok, xiii, shadowman, superman	0,012	video game	396	0,76	67	0,21	-32,32	
+		3	Q8259767	Archaeological sites in Sicily	selinunte, segesta, motya, himera, naxos, morgantina, templee, soluntum, cavedicusa, netum	0,012	archaeological site	55	0,66	6	0,11	-32,36	
+		1	Q8550014	Intelligence Corps officers	johnlecarre, enochpowell, jlaustin, johnbuchan, tomtugendhat, anthonyblunt, chaimherzog, mikejackson, gilbertryle, julianhuxley	0,008	human	159	0,99	7	0,04	-32,37	
+		4	Q6836405	Science fiction action films	avatar, thematrix, starwars, spiderman, rogueone, prometheus, predator, antman, ironman, deadpool	0,004	film	656	0,68	268	0,42	-32,39	
+		1	Q115215358	Rulers of Wallachia	johnhunyadi, basarabi, omarpasha, vladtheimpaler, radunegru, mirceaii, vladiidracul, radui, radumihnea, raducelfrumos	0,01	human	131	0,66	2	0,02	-32,39	
+		0	Q2985673	Atari Jaguar games	doom, rayman, flashback, themepark, worms, nbajam, syndicate, raiden, zoop, wolfenstein3d	0,008	video game	119	0,3	28	0,4	-32,54	
+		1	Q9226532	People from Port Elizabeth	siyakolisi, amifaku, wayneparnell, atholfugard, johanbotha, atandwakani, roelfmeyer, shaunpollock, reevasteenkamp, adriennecamp	0,004	human	132	0,94	6	0,05	-32,65	
+		1	Q8451995	Films about blind people	thelobster, ray, dontbreathe, citylights, tommy, theeye, theclassic, juliaseyes, peepingtom, thekiller	0,006	film	177	1	49	0,3	-32,66	
+		0	Q1142481	Kingship of Tara	flannsinna, cathairmor, ugainemor, tforahilly, ailillmolt, nuadunecht, artmaccuinn, maccon, cormacmacairt, niallglundub	0	human	62	0,55	0	0	-32,68	
+		1	Q3523224	Political parties in Sri Lanka	thirdparty, majorparty, sivasenai, federalparty, unitednationalparty, srilankafreedomparty, peoplesalliance, nationalcongress, lankasamasamajaparty, nationalpeoplespower	0,01	political party	148	0,39	5	0,06	-32,68	
+		1	Q6598197	St Ives artists	anderszorn, emilycarr, naumgabo, bennicholson, bernardleach, terryfrost, alfredwallis, svenberlin, sandrablow, peterlanyon	0,004	human	66	0,87	5	0,08	-32,69	
+		4	Q6429929	Films set in Thailand	themeg, thebeach, rambo, ramboiii, emmanuelle, themedium, darbar, kickboxer, stealth, soulsurfer	0,012	film	129	0,98	40	0,32	-32,79	
+		2	Q2157843	Sierra Entertainment video games	halflife, halflife2, prototype, frogger, browsergame, homeworld, swat4, pitfall, pharaoh, caesariii	0,004	video game	278	0,54	43	0,15	-32,86	
+		1	Q1862695	Print media in New Zealand	tabloid, thepress, freenewspapers, sundaynews, thestar, waikatotimes, hamiltonnews, thedailypost, aucklandstar, hawkesbaytoday	0,008	newspaper	66	0,37	7	0,11	-32,94	
+		3	Q7141249	Films set in England	men, atonement, theking, lucy, thebubble, emma, cloudatlas, stardust, paddington, loverosie	0,01	film	1400	0,99	324	0,24	-32,95	
+		3	Q6644657	Video games based on cartoons	epicmickey, southpark, ducktales, popeye, futurama, abugslife, barnyard, quackshot, gooftroop, thesimpsons	0,004	video game	339	0,55	46	0,14	-33,01	
+		1	Q6596854	Shaw Brothers films	themadmonk, lifeline, deathduel, 14amazons, bloodmoney, hero, 7manarmy, vengeance, dirtyho, paintedfaces	0,01	film	207	0,25	30	0,15	-33,05	
+		1	Q6620050	Films set in Ireland	braveheart, thewonder, shesaid, thelobster, loverosie, kingarthur, ekthatiger, brooklyn, psiloveyou, shortfilm	0,008533333333	film	746	0,67	174	0,33	-33,06	
+		1	Q6645786	William Gibson bibliography	imdb, thexfiles, cyberpunk, disneyland, isbn, steampunk, barcode, alien3, time, tattoo	0,01	work	103	0,7	54	0,56	-33,09	
+		2	Q14820434	Athens Metro stations	piraeusstation, koropistation, pallinistation, nikaiametrostation, syngroufixstation, omoniametrostation, attikimetrostation, dafnimetrostation, petralonastation, egaleometrostation	0,01	Athens Metro station	66	0,46	0	0	-33,12	
+		2	Q6561865	Arabic pop musicians	dalida, ummkulthum, fairouz, haifawehbe, nancyajram, amrdiab, sherine, chebkhaled, khaled, elissa	0,012	human	128	0,91	41	0,32	-33,15	
+		1	Q21068137	Sony Pictures Television programs	theboys, thecrown, doctorwho, outlander, cobrakai, thelastofus, seinfeld, slowhorses, breakingbad, community	0,009516666667	television program	1044	0,58	403	0,4	-33,16	
+		2	Q6644593	Venues in the United Kingdom	anfield, alberthall, theo2arena, oldtrafford, villapark, celticpark, ellandroad, publichouse, hampdenpark, ovohydro	0,006	architectural structure	155	0,56	44	0,29	-33,17	
+		1	Q9466155	Russian classical composers	leraauerbach, vladimirhorowitz, elenagnesina, vaclavsuk, ninamakarova, nikolaikapustin, sandorkallos, allapavlova, pavelchesnokov, elenafirsova	0,01	human	69	0,97	0	0	-33,18	
+		1	Q56291771	Peter Jason filmography	theylive, hailcaesar, milk, adaptation, dantespeak, 48hrs, redheat, seabiscuit, undisputed, congo	0,006	film	93	0,48	36	0,39	-33,26	
+		2	Q8457736	Films set in Malaysia	venom, blackhat, entrapment, don, don2, kabali, fairgame, billa, irumugan, supercop	0,01	film	79	0,99	23	0,29	-33,34	
+		2	Q6620083	Films set in Tampa	goodfellas, magicmike, cocoon, parker, aquamarine, fearofrain, thepunisher, livebynight, dolphintale, chinamoon	0,008	film	25	0,68	10	0,4	-33,39	
+		5	Q18924370	Will Ferrell filmography	themenu, barbie, zoolander, spirited, hustlers, vice, elf, megamind, booksmart, zoolander2	0,008	film	86	0,48	41	0,48	-33,43	
+		1	Q8399688	Companies based in Bangalore	flipkart, wipro, myntra, swiggy, phonepe, canarabank, olacabs, cred, tanishq, starair	0,006	business	91	0,71	37	0,41	-33,48	
+		1	Q6642817	Temples in Bhubaneswar	lingaraj, hindutemple, hindutemples, kalijai, konarksuntemple, lingarajtemple, dhabaleswar, vimalatemple, birajatemple, chhatiabata	0,008	temple	151	0,61	1	0,01	-33,58	
+		1	Q17056077	Indian folk dances	butakola, kathakali, kathak, kuchipudi, theyyam, odissi, yakshagana, yakshgana, garba, bhangra	0,012	Indian folk dance, type of dance	109	0,37	11	0,1	-33,76	
+		1	Q17087610	Brian Cox performances	troy, braveheart, her, zodiac, thering, red, manhunter, matchpoint, pixels, adaptation	0,008	film	102	0,41	53	0,54	-33,8	
+		1	Q20667606	Malaysian comedy films	doremi, letseat, nasilemak10, nasilemak20, buli, estet, cuci, homecoming, kingofmahjong, bikerskental2	0,012	film	25	0,93	5	0,2	-33,9	
+		3	Q1761803	Earth observation satellites	sentinel2, landsat8, spot, sentinel1, himawari, himawari8, landsat7, elektrol, meteosat, envisat	0,004	Earth observation satellite	166	0,31	28	0,18	-33,91	
+		2	Q914937	Copenhagen Metro stations	metrostation, forumstation, norreportstation, orestadstation, drbyenstation, osterportstation, vanlosestation, norrebrostation, oresundstation, kastrupstation	0,006	railway station	79	0,75	1	0,02	-33,94	
+		1	Q6603086	University of Exeter people	jkrowling, sajidjavid, thomyorke, nickclegg, robertowen, bencollins, alumni, zaraphillips, willyoung, vanessakirby	0,006	human	259	0,7	29	0,11	-33,94	
+		1	Q8432129	Expressways in Tehran	limitedaccessroad, sadrexpressway, fathexpressway, hemmatexpressway, hakimexpressway, babayiexpressway, imamaliexpressway, bakeriexpressway, saidiexpressway, basijexpressway	0,01	road, limited-access road	68	0,52	0	0	-33,94	
+		0	Q11337516	Peruvian Navy ships	warship, huascar, bapunion, bappisco, bapmontero, bappacocha, ussoneota, hmsceylon, hmsdiana, bapaguirre	0,002	ship	98	0,63	2	0,02	-34,04	
+		2	Q15129175	Vietnamese film actresses	thuytrang, lynhaky, hariwon, ngothanhvan, thmthuyhng, hngcha, hoaminzy, bebepham, miule, chipu	0,012	human	30	1	7	0,23	-34,11	
+		2	Q7162670	Football clubs in Japan	visselkobe, tokyoverdy, yokohamafc, sagantosu, fctokyo, nankatsusc, iwakifc, jubiloiwata, fcryukyu, fcgifu	0,01	association football club	135	0,95	12	0,09	-34,14	
+		1	Q8293661	Battles of the Reconquista	battleofteba, battleofucles, battleofgraus, battleofalarcos, battleofourique, battleofsagrajas, battleofecija, battleofclavijo, battleoffraga, battleofcovadonga	0,01	battle	72	0,68	0	0	-34,16	
+		3	Q7490217	Sharon Stone filmography	casino, catwoman, alphadog, antz, shortfilm, sliver, lovelace, totalrecall, sphere, bobby	0,006	film	71	0,51	27	0,38	-34,19	
+		1	Q4436327	Mary Shelley bibliography	isbn, lyricpoem, wikisource, sic, goldenass, 1samuel, frankenstein, googlebooks, gothic, thelastman	0,01	work	62	0,38	24	0,39	-34,28	
+		3	Q6835622	Films set in Monaco	thegrayman, ironman2, fastfive, goldeneye, rebecca, montecarlo, grandprix, greed, theredshoes, mobius	0,006	film, film	81	0,99	25	0,32	-34,29	
+		1	Q9466123	Polish classical composers	wojciechkilar, henrykgorecki, wladyslawszpilman, paulkletzki, josephbeer, mariansawa, tadeuszbaird, wojciechzywny, zbigniewpreisner, grazynabacewicz	0,008	human	75	1	1	0,01	-34,36	
+		1	Q6571491	Full Moon Features productions	trancers, evilbong, parasite, dollman, arcade, robotwars, castlefreak, susansplan, oblivion, puppetmaster	0,01	film	105	0,4	24	0,25	-34,4	
+		1	Q8336270	Soccer clubs in California	fresnofc, project51o, fcgoldpride, montereybayfc, chicorooks, orangecountysc, sandiego1904fc, losangelesaztecs, fcdavis, losangelessol	0,01	association football club	70	0,89	8	0,12	-34,42	
+		2	Q6835711	Films set in the Netherlands	hostel, munich, rush, blackbook, tulipfever, alatriste, beerfest, grandprix, speaknoevil, oceanstwelve	0,01	film	142	0,99	42	0,3	-34,48	
+		1	Q7861635	Tyrone Power filmography	jessejames, crashdive, rawhide, untamed, theblackswan, theblackrose, bloodandsand, suez, nightmarealley, therazorsedge	0,008	film	49	0,53	12	0,24	-34,5	
+		3	Q699535	Football clubs in Austria	lask, skrapidwien, sksturmgraz, svried, grazerak, wsgtirol, fcliefering, svhorn, dsvleoben, sknstpolten	0,012	sports team, association football club	89	0,26	7	0,08	-34,55	
+		0	Q6620128	Films shot in Toronto	orphan, shazam, meangirls, room, pacificrim, readyornot, xmen, truelies, kickass, silenthill	0,002	film	883	0,71	289	0,42	-34,65	
+		2	Q8845824	Thai pop music groups	bnk48, cgm48, kotic, chinadolls, d2b, scrubb, getsunova, nekojump, saosaosao, fourmod	0,01	musical group	23	0,96	12	0,52	-34,69	
+		2	Q6620705	Football clubs in Jordan	alfaisaly, alwehdatsc, alfaisalysc, alramthasc, alhussein, alahli, alahlisc, aljazeera, alsaltsc, alhusseinsc	0,006	sports club, association football club	50	0,33	7	0,17	-34,7	
+		2	Q6620618	Football clubs in Belgium	krcgenk, kaagent, kaseupen, kvmechelen, lommelsk, kvoostende, kvkortrijk, rwdm47, clubbruggekv, revirton	0,002	sports club, association football club	132	0,51	8	0,08	-34,73	
+		2	Q3250975	Railway lines in France	funicular, rera, rerb, lgvest, lgvsudest, lgvnord, peoplemover, cevarail, poma2000, lgvrhinrhone	0,006	railway line	114	0,55	3	0,03	-34,73	
+		4	Q8489317	German Renaissance painters	albrechtdurer, hansbaldung, hansdurer, jergratgeb, georgpencz, sebaldbeham, jacobbinck, hanscranach, barthelbeham, hansbesser	0,012	human	35	0,97	3	0,09	-34,75	
+		2	Q6255278	Swedish punk rock groups	viagraboys, thehives, noice, ebbagron, perkele, millencolin, nofunatall, randy, ksmb, invsn	0,01	musical group	74	1	21	0,28	-34,77	
+		4	Q65076004	Louis Armstrong filmography	hellodolly, parisblues, highsociety, neworleans, asongisborn, goingplaces, gloryalley, cabininthesky, lapaloma, thefivepennies	0,012	film	30	0,97	7	0,23	-34,78	
+		2	Q7129630	Qing dynasty people	zhengyisao, lizicheng, leungjan, wufeng, zhuyigui, fongsaiyuk, sumalagu, amursana, yangluchan, duwenxiu	0,01	human	54	0,84	4	0,07	-34,83	
+		1	Q8970013	Basketball teams in Greece	aekbc, arisbc, paokbc, olympiacosbc, gslavriobc, peristeribc, larisabc, neareastbc, gsiraklisbc, sportingbc	0,008	basketball team	64	0,84	2	0,03	-34,93	
+		2	Q8463624	Football clubs in Denmark	brondbyif, esbjergfb, viborgff, aabfodbold, randersfc, hbkoge, fccopenhagen, achorsens, silkeborgif, hvidovreif	0,01	association football club	116	0,86	5	0,04	-34,93	
+		4	Q7508867	American musical comedy films	turningred, encanto, sing2, grease, lalaland, aladdin, sing, mammamia, enchanted, hercules	0,008	film	890	0,99	207	0,24	-34,94	
+		2	Q13279520	Operation Overlord films	overlord, churchill, 36hours, rommel, thelongestday, thebigredone, savingprivateryan, eyeoftheneedle, thedevilsrock, breakthrough	0,01	film	27	1	8	0,31	-34,94	
+		1	Q8686369	Norwegian television presenters	tonedamli, haddynjie, annerimmen, tooji, runelarsen, annelindmo, haraldmaele, lindaeide, elirygg, johangolden	0,012	human	95	0,99	0	0	-34,94	
+		4	Q6528447	Films shot in Arizona	themummy, psycho, anastasia, hulk, forrestgump, fastfive, gravity, contact, tombstone, superman	0,006	film	507	0,66	171	0,43	-34,95	
+		3	Q6610642	Colleges and universities in Philadelphia	brynmawrcollege, templeuniversity, drexeluniversity, devryuniversity, rutgersuniversity, rowanuniversity, rutgerscamden, haverfordcollege, swarthmorecollege, villanovauniversity	0,004	university	48	0,26	16	0,33	-35,04	
+		1	Q6850010	Video games developed in France	stray, heavyrain, dishonored, deathloop, akinator, sifu, watchdogs2, bioshock2, deadcells, fahrenheit	0,004	video game	830	0,86	211	0,26	-35,04	
+		1	Q32911392	Tamil television actresses	vanibhojan, kaniha, jayachitra, rekha, sukumari, shruthiraj, pavanireddy, kovaisarala, renuka, vjchitra	0,012	human	50	1	5	0,1	-35,09	
+		1	Q8429617	Croatian pop singers	severina, misokovac, lidijabacic, miadimsic, petargraso, ninabadric, ivorobic, zeljkobebek, gorankaran, majasuput	0,008	human	105	0,91	6	0,06	-35,13	
+		2	Q1853275	Colleges and universities in Alabama	seminary, troyuniversity, airuniversity, auburnuniversity, samforduniversity, southuniversity, universityofalabama, tuskegeeuniversity, strayeruniversity, oakwooduniversity	0,008	university	30	0,07	10	0,33	-35,14	
+		4	Q6817810	Fish of the Red Sea	milkfish, zebrashark, milkshark, seagoldie, pteroismiles, bluemackerel, shrimpscad, clowncoris, gulftorpedo, malabargrouper	0,004	taxon	106	0,96	0	0	-35,24	
+		0	Q28844720	Nazi propaganda films	actionfilm, comedyfilm, dramafilm, silentfilm, shortfilm, warfilm, lostfilm, judsuss, olympia, titanic	0,01	film	89	0,38	16	0,18	-35,27	
+		1	Q4934072	Bob Steele filmography	riobravo, hangemhigh, riolobo, mclintock, thebigsleep, shenandoah, 4fortexas, thelongestday, bandofangels, pardners	0,006	film	186	0,76	21	0,11	-35,33	
+		1	Q105944882	Films featuring colonialism	dramafilm, gandhi, amistad, hostiles, themission, therevenant, zulu, epicfilm, warfilm, cryfreedom	0,008	film	112	0,26	35	0,32	-35,34	
+		3	Q6906360	Films shot in Montreal	moonfall, orphan, 300, arrival, mother, lifeofpi, theaviator, midway, 12monkeys, screamvi	0,005	film	529	0,6	179	0,41	-35,41	
+		0	Q6570968	Flash animated television series	pawpatrol, peppapig, winxclub, invincible, insidejob, thesimpsons, amphibia, sharktank, ben10, theowlhouse	0,002	television program	488	0,66	159	0,33	-35,43	
+		2	Q3318037	Football clubs in Croatia	hnkrijeka, nkosijek, nkzagreb, hnkgorica, hnksibenik, nkzadar, rnksplit, nkvarazdin, nkistra1961, hnkcibalia	0,012	sports club, association football club	219	0,48	3	0,02	-35,52	
+		1	Q18350757	Alan Cumming performances	spykids, goldeneye, burlesque, thesmurfs, marlowe, eyeswideshut, thesmurfs2, emma, spiceworld, getcarter	0,008	film	62	0,45	26	0,43	-35,56	
+		2	Q6619383	Federal universities of Brazil	unisinos, ibmec, univates, uniitalo, universityofsaopaulo, fumecuniversity, universityofbrasilia, fundacaogetuliovargas, universidadedebrasilia, bahiastateuniversity	0,01	university	211	0,82	5	0,02	-35,56	
+		3	Q6302962	Primates of South America	tamarin, callithrix, mico, howlermonkey, sakimonkey, liontamarin, woollymonkey, monksaki, callitrichidae, tuftedcapuchin	0,002	taxon	59	0,94	3	0,05	-35,58	
+		1	Q6620016	World Trade Center in film	thematrix, spiderman, taxidriver, armageddon, zoolander, vanillasky, watchmen, oldboy, meninblack, snatch	0,004	film	690	0,72	315	0,46	-35,62	
+		1	Q6111246	Jack Benny filmography	gypsy, theman, tobeornottobe, beaujames, itsinthebag, charleysaunt, whowasthatlady, manabouttown, itsamadmadmadmadworld, itsintheair	0,006	film	33	0,66	7	0,21	-35,66	
+		1	Q7924447	People from Port Harcourt	burnaboy, taribowest, yvonneorji, omahlay, mreazi, emmanuella, josephyobo, tontodikeh, markangel, mercychinwo	0,002	human	123	0,81	10	0,09	-35,71	
+		2	Q2226621	Donkey Kong video games	donkeykong, racinggame, rhythmgame, shootergame, platformgame, supermario64, popeye, yookalaylee, banjokazooie, radarscope	0,004	video game	49	0,3	16	0,33	-35,71	
+		2	Q4437623	Football clubs in Kuwait	kuwaitsc, qadsiasc, alarabisc, kazmasc, alnasrsc, aljahra, aljahrasc, alsalmiyasc, alyarmouk, khaitansc	0,008	sports club, association football club	33	0,26	7	0,26	-35,76	
+		1	Q96219376	Janet Leigh performances	psycho, thefog, thevikings, safari, harper, touchofevil, littlewomen, jetpilot, pepe, scaramouche	0,004	film	59	0,39	18	0,31	-35,84	
+		4	Q7354438	Russian Air Force bases	engels2, saky, dyagilevo, shaykovka, ukrainka, nagurskoye, millerovo, olenya, lipetsk, levashovo	0,004	architectural structure	152	0,84	16	0,11	-35,84	
+		1	Q16918489	Equipment in the Royal Navy	tomahawk, harpoon, exocet, camm, trident, phalanxciws, hedgehog, aim7sparrow, aim120amraam, seavenom	0,008	military equipment	56	0,34	17	0,3	-35,84	
+		1	Q7001703	Football venues in Egypt	suezstadium, 30junestadium, alsalamstadium, aswanstadium, borgelarabstadium, sohagstadium, ismailiastadium, alexandriastadium, faiyumstadium, mitokbastadium	0,01	architectural structure	32	0,94	2	0,06	-35,88	
+		1	Q3527720	Baku Metro stations	8noyabr, 28may, metrostation, 20yanvar, koroglu, hziaslanov, sahil, memarajami, memarcmi2, memarcmi	0,008	railway station, architectural structure	71	0,7	5	0,11	-35,91	
+		1	Q6620104	Films shot in Darwin	australia, rogue, walkabout, evilangels, blackwater, balibo, napoleon, kangaroojack, tencanoes, jedda	0,004	film	28	0,65	8	0,29	-35,94	
+		4	Q9168449	Fruits originating in Africa	fig, watermelon, tamarind, adansonia, calabash, coffea, ficuscarica, pear, kigelia, lodoicea	0,01	taxon	104	0,99	7	0,07	-36,1	
+		2	Q3317394	Football clubs in Serbia	fkpartizan, fkobilic, fkvojvodina, fkrad, fkvozdovac, fkcukaricki, fkkolubara, fkzemun, fknovipazar, fkbask	0,01	sports club, association football club	276	0,41	4	0,02	-36,15	
+		1	Q3254765	Tashkent Metro stations	yunusobod, novza, olmazor, beruniy, dostlik, toshkent, oybek, qoylik, qoyliq, paxtakor	0,012	railway station	45	0,76	6	0,14	-36,25	
+		4	Q6620058	Films set in Los Angeles	xxx, blonde, inception, moonfall, thebadguys, grease, coco, ironman, cars, moana	0,004	film	2348	0,97	862	0,46	-36,28	
+		2	Q85792920	Peter Fonda filmography	ghostrider, easyrider, 310toyuma, wildhogs, oceanstwelve, thelimey, futureworld, thetrip, uleesgold, deadfall	0,01	film	73	0,49	23	0,32	-36,29	
+		2	Q25042491	John Malkovich filmography	birdbox, juno, changeling, red, alive, conair, zoolander2, mile22, beowulf, ava	0,008	film	111	0,54	46	0,43	-36,31	
+		1	Q575624	AirAsia Group destinations	orlyairport, nahaairport, puneairport, hanedaairport, gayaairport, perthairport, sydneyairport, gatwickairport, nanairport, jaipurairport	0,006	airport	200	0,46	19	0,1	-36,41	
+		4	Q8475079	Fruits originating in Asia	fig, jackfruit, coconut, eggplant, jujube, mangosteen, rambutan, citron, pomegranate, ficuscarica	0,01	taxon	105	0,92	16	0,15	-36,46	
+		1	Q16967814	Ships of CP Ships	apollon, ssparthia, ssabyssinia, ssstatendam, rmsempressofireland, empressofbritain, ssduchessofyork, rmsempressofasia, rmsempressofjapan, rmsempressofbritain	0,012	ship	32	0,76	1	0,04	-36,48	
+		1	Q17105529	Frances Fisher filmography	titanic, unforgiven, shortfilm, rust, holidate, epicfilm, striptease, thehost, awake, thekingdom	0,006	film	62	0,45	24	0,39	-36,5	
+		1	Q6593510	Papua New Guineans	justinolam, adrianlam, juliuschan, peteroneill, francisona, carolkidu, marcusbai, johnmomis, oshen, archiethompson	0,01	human	64	0,98	3	0,05	-36,5	
+		1	Q6593425	Pakistani folk singers	alizafar, ghulamali, reshma, hadiqakiani, ariflohar, alamlohar, sanammarvi, abidaparveen, shaukatali, rahimshah	0,01	human	67	0,86	3	0,06	-36,54	
+		1	Q17054302	Alan Tam filmography	armourofgod, thebanquet, jianghu, fullcontact, littlecop, ittakestwo, 72heroes, norisknogain, casinoraiders, espritdamour	0,01	film	28	0,27	6	0,21	-36,55	
+		0	Q23779413	HTC Vive games	dota2, fallout4vr, fallout4, warthunder, nomanssky, subnautica, lanoire, vrchat, beatsaber, superhot	0,002	video game	94	0,69	33	0,42	-36,71	
+		4	Q743127	Artificial objects on the Moon	saturnv, orion, selene, themis, luna2, huygens, lunokhod1, change4, change5, orel	0,004	artificial physical object	154	0,36	47	0,31	-36,73	
+		1	Q4434715	AMD Sempron processors	ryzen, epyc, athlon, athlonmp, athlonxp, athlon64x2, phenomii, threadripper, athlon64, amdfx	0,008	microprocessor	27	0,22	8	0,3	-36,73	
+		1	Q6598105	Sri Lankan actors	albertmoses, nmperera, rukmanidevi, hrjothipala, luckydias, sabbyjey, ashandias, kusumrenu, alstonkoch, surajmapa	0,01	human	280	0,78	1	0	-36,73	
+		1	Q107242407	AMD Athlon II processors	ryzen, epyc, athlon, athlonmp, athlonxp, athlon64x2, phenomii, threadripper, athlon64, amdfx	0,012	microprocessor	28	0,21	8	0,29	-36,73	
+		2	Q385741	Colleges and universities in New Jersey	publiccollege, publicuniversity, drewuniversity, devryuniversity, rutgersuniversity, keanuniversity, rowanuniversity, rutgersnewark, princetonuniversity, rutgerscamden	0,006	university	36	0,09	15	0,42	-36,75	
+		1	Q9239661	Five Star Movement politicians	luigidimaio, saracunial, beppegrillo, pinocabras, marcozanni, robertofico, vitocrimi, giuseppeconte, pieraaiello, barbaralezzi	0,012	human	107	0,99	4	0,04	-36,81	
+		1	Q6572129	Governors of Imo State	hopeuzodinma, sammbakwe, evanenwerem, ikediohakim, rochasokorocha, emekaihedioha, ndubuisikanu, ikenwachukwu, achikeudenwa, allisonmadueke	0,008	human	30	0,77	0	0	-36,82	
+		4	Q10859479	Films released in IMAX	thebatman, avatar, topgun, rrr, pathaan, blackadam, morbius, brahmastra, nope, titanic	0,01013333333	film	692	0,85	372	0,54	-36,9	
+		1	Q1463431	Railway lines in the Netherlands	narrowgauge, hslzuid, weertroermondrailway, nijmegenkleverailway, weespleidenrailway, halternvenlorailway, lelystadzwollerailway, viersenvenlorailway, rotterdamzevenaarrailway, weesplelystadrailway	0,004	railway line	52	0,43	0	0	-36,94	
+		1	Q8808553	Sri Lankan musicians	keithpotger, wdamaradeva, nihalnelson, nandamalini, rukmanidevi, hrjothipala, sunilperera, dhanithsri, ctfernando, jpchandrababu	0,01	human	104	0,46	0	0	-36,98	
+		0	Q8452053	Films about food and drink	themenu, hentai, actionfilm, horrorfilm, comedyfilm, drama, thefounder, wonka, abugslife, pig	0,002	film	706	0,74	176	0,29	-37,07	
+		1	Q60518561	Largest banks in the Philippines	inggroup, mufgbank, cimb, bancodeoro, ctbcbank, deutschebank, jpmorganchase, metrobank, unionbank, shinhanbank	0,004	bank	45	0,31	28	0,62	-37,07	
+		3	Q17086354	David Carradine filmography	bill, deathrace, epicmovie, bigstan, meanstreets, truelegend, cannonball, hellride, birdonawire, eviltoons	0,012	film	110	0,53	37	0,34	-37,08	
+		2	Q104834461	Sarah Silverman filmography	dontlookup, marryme, badsanta, evolution, themuppets, maestro, rent, bulworth, funnypeople, wreckitralph	0,006	film	47	0,31	18	0,38	-37,13	
+		2	Q6620073	Films set in Puerto Rico	fastfive, contact, musicvideo, amistad, goldeneye, badboysii, species, thelosers, replicas, therumdiary	0,006	film	136	0,45	43	0,37	-37,14	
+		3	Q8457562	Films set in Appalachia	lawless, octobersky, deliverance, nextofkin, matewan, childofgod, thunderroad, sergeantyork, maneater, moonrunners	0,012	film	24	0,96	8	0,33	-37,19	
+		2	Q15832288	Turkish philosophers and scientists	plato, mehmetoz, alfarabi, azizsancar, yunusemre, pirireis, aliqushji, ugursahin, cahitarf, celalsengor	0,012	human	96	0,72	8	0,08	-37,21	
+		2	Q18387276	Kathy Bates filmography	titanic, fargo, misery, beemovie, psiloveyou, ratrace, dicktracy, rumorhasit, tammy, theboss	0,012	film	94	0,5	40	0,43	-37,23	
+		2	Q6225479	John Cassavetes filmography	shortfilm, thefury, gloria, thekillers, husbands, capone, faces, shadows, rosemarysbaby, tempest	0,012	film	44	0,45	15	0,34	-37,23	
+		2	Q8254263	Animated series based on video games	arcane, castlevania, wakfu, pacman, vivapinata, thecupheadshow, earthwormjim, ninjin, omnomstories, dragonslair	0,012	television series	39	0,83	16	0,41	-37,24	
+		2	Q6607091	Bands originating in Leeds	altj, softcell, gangoffour, themission, chumbawamba, yardact, thecribs, themusic, utahsaints, themekons	0,008	musical group	78	0,84	24	0,31	-37,27	
+		1	Q8293571	Battles of the Korean War	battleofosan, battleofinchon, battleofwawon, battleofunsan, outpostharry, battleoftaejon, battleoftaegu, battleofyultong, battleofkapyong, battleofonjong	0,006	battle	84	0,82	0	0	-37,28	
+		2	Q6299175	Paintings of the Virgin Mary	holytrinity, crucifix, thelastjudgment, lagloria, thethebaid, thedeposition, crucifixion, theweddingatcana, virginmary, holyallegory	0,008	painting	164	0,85	10	0,08	-37,37	
+		1	Q8871054	Transylvanian Saxon people	petermaffay, steveholmes, klausiohannis, conradhaas, hagenrether, hermannoberth, guntherbosch, ralphgunesch, iancusasul, astridfodor	0,01	human	87	0,85	4	0,05	-37,45	
+		1	Q17986136	Works by John Buchan	isbn, thetimes, doi, wikisource, theguardian, the39steps, openlibrary, thespectator, internetarchive, hannay	0,008	work	67	0,53	17	0,29	-37,54	
+		3	Q55606205	Burt Reynolds filmography	bean, striptease, deliverance, theplayer, driven, boogienights, 100rifles, cityheat, hooper, gator	0,008	film	107	0,61	48	0,45	-37,7	
+		1	Q85851198	Ethnic groups in South Sudan	nuerpeople, dinkapeople, zandepeople, baripeople, madipeople, acholipeople, anuakpeople, kakwapeople, bandapeople, murlepeople	0,01	ethnic group	54	0,37	0	0	-37,72	
+		1	Q58416720	Marsha Hunt filmography	rawdeal, easyliving, bluedenim, bombersb52, cryhavoc, jigsaw, irene, johnnygothisgun, lostangel, fearnoevil	0,004	film	64	0,81	14	0,22	-37,75	
+		1	Q385513	Television stations in Southeast Asia	aljazeera, france24, channelone, wion, skynews, cbeebies, spacetoon, gmanetwork, babytv, animax	0,01	television station	98	0,29	48	0,5	-37,81	
+		2	Q63807185	Danny Glover filmography	saw, 2012, predator2, shooter, witness, dreamgirls, antz, maverick, sawiii, barnyard	0,004	film	121	0,67	51	0,42	-37,9	
+		4	Q6275060	Marsupials of South America	opossum, metatheria, commonopossum, wateropossum, ameridelphia, shrewopossum, monitodelmonte, caenolestes, bigearedopossum, whiteearedopossum	0,008	taxon	77	1	2	0,03	-37,93	
+		2	Q8388409	Doping cases in swimming	ryanlochte, sunyang, cesarcielo, davidmeca, ningzetao, claudiapoll, rickdemont, korneliaender, michellesmith, yuliyayefimova	0,004	human	61	1	5	0,08	-38	
+		3	Q8895877	Buildings and structures in Istanbul	kerkoporta, marmaray, topkappalace, maidenstower, eskisaray, cicekpasaj, perilikosk, yoroscastle, salt, turkuazoo	0,012	architectural structure	81	0,76	4	0,05	-38,04	
+		1	Q5384573	Equipment of the Swedish Army	leopard2, howitzer, tank, glock19, bmp1, irist, m2browning, barrettm82, shotgun, mortar	0,008	military equipment	127	0,54	17	0,13	-38,05	
+		1	Q8497263	Governors of Rio de Janeiro	romeuzema, raquellyra, nilopecanha, eduardoleite, ibaneisrocha, paulodantas, leonelbrizola, mauromendes, wilsonwitzel, claudiocastro	0,012	human	50	0,36	6	0,16	-38,12	
+		1	Q179339	Tallest buildings in Australia	skyscraper, storey, towerblock, q1tower, spire, sydneytower, eurekatower, crownsydney, nauruhouse, australia108	0,012	building	106	0,26	15	0,15	-38,17	
+		1	Q8745189	People from Palakkad district	raghuvaran, aparnadas, tnseshan, anumol, vpmenon, swarnalatha, ovvijayan, majorravi, unnimenon, esreedharan	0,012	human	172	0,96	4	0,03	-38,35	
+		2	Q20685669	Steve Buscemi filmography	armageddon, fargo, grownups, bigfish, theisland, conair, desperado, grownups2, bigdaddy, pulpfiction	0,006	film	116	0,65	50	0,43	-38,37	
+		1	Q8020617	William Wyler filmography	benhur, silentera, funnygirl, soundera, mrsminiver, jezebel, romanholiday, theheiress, theletter, carrie	0,006	film	50	0,45	16	0,33	-38,46	
+		1	Q7625665	Documentary films about nature	fireoflove, oceans, earth, chimpanzee, perri, deepblue, microcosmos, arctictale, africancats, animamundi	0,004	film	134	0,54	24	0,18	-38,48	
+		4	Q5155702	Comparison of California ski resorts (California Ski Resorts)	bearvalley, snowsummit, chinapeak, bearmountain, palisadestahoe, mountainhigh, alpinemeadows, kratkaridge, junemountain, sierrasummit	0,012	ski resort	35	0,48	9	0,26	-38,54	
+		1	Q8791555	Presidents of the Methodist Conference	johnwesley, adamclarke, williamlaw, richardallen, charleswesley, isaacfoot, thomascoke, francisasbury, donaldsoper, georgewhitefield	0,01	human, President of the Methodist Conference	107	0,45	9	0,14	-38,6	
+		1	Q5384578	Equipment of the Egyptian Army	m1abrams, himars, t90, ak47, bm21, t80, howitzer, t62, bmp1, coltm1911	0,008	military equipment	222	0,61	37	0,17	-38,66	
+		0	Q7648350	Susan Sarandon filmography	enchanted, cloudatlas, thatsmyboy, bluebeetle, prettybaby, zoolander2, stepmom, speedracer, theclient, jolt	0,002	film	121	0,59	46	0,38	-38,88	
+		1	Q4662170	Aaron Kwok filmography	coldwar2, coldwar, portofcall, imlivinit, futurecops, murderer, thebanquet, divergence, leerockii, cyberheist	0,008	film	55	0,67	17	0,31	-38,92	
+		1	Q3072119	Charles Aznavour filmography	thetindrum, candy, ararat, skyriders, thegames, thetwist, thecolonel, vivalavie, taxifortobruk, rattrap	0,008	film	33	0,35	7	0,22	-38,95	
+		1	Q7355628	Online music and lyrics databases	discogs, lastfm, pandora, genius, musixmatch, cddb, musicbrainz, jamendo, gracenote, whosampled	0,008	online music database	32	0,35	12	0,38	-39,07	
+		1	Q3244274	People related to Cajun music	hunterhayes, johnfred, dougkershaw, amandashaw, kevinwimmer, sammykershaw, waynetoups, annsavoy, marcsavoy, deweybalfa	0,004	human	68	0,67	3	0,04	-39,2	
+		0	Q8217181	ABC Family original films	meangirls2, ifonly, cyberbully, laborpains, thehollow, aupair, thebestman, santababy, fullofit, teenspirit	0,006	film	89	0,95	23	0,26	-39,21	
+		1	Q33125956	Czech films considered the best	anthropoid, ecstasy, daisies, alice, kolya, cosydens, littleotik, thecremator, ikariexb1, rebelove	0,004	film	156	0,61	26	0,17	-39,25	
+		1	Q6635121	Programs broadcast by Freeform	theoffice, familyguy, mrbean, smallville, charmed, superstore, fullhouse, thesimpsons, thenanny, happydays	0,011	television program	439	0,44	191	0,44	-39,31	
+		2	Q6571706	Geographical indications in India	assamtea, feni, chikan, patolasari, paithani, mugasilk, pattachitra, bidriware, mysoresilk, assamsilk	0,002	Geographical indications in India	117	0,57	5	0,04	-39,35	
+		1	Q6432852	Lebanese Shia Muslims	haifawehbe, musaalsadr, nabihberri, raghebalama, melhemzein, melissa, amalhijazi, azizalabub, lokmanslim, mayhariri	0,01	human	96	0,96	5	0,05	-39,36	
+		2	Q6620037	Films set around Thanksgiving	spiderman, prisoners, rocky, castaway, escaperoom, unfaithful, rockyii, unknown, grindhouse, beethoven	0,01	film	125	0,33	50	0,41	-39,49	
+		1	Q6632476	People from Himachal Pradesh	anupamkher, yamigautam, preityzinta, premchopra, vikrambatra, indianpeople, sukhram, ravibhatia, msbanga, neerajsood	0,008	human	172	0,72	21	0,13	-39,56	
+		1	Q8070566	Zhao Wei filmography	shrek2, redcliff, mulan, soyoung, 14blades, soclose, dearest, paintedskin, three, shaolinsoccer	0,01	film	32	0,21	12	0,38	-39,57	
+		1	Q1840478	Colonial governors of New York	lenape, peterminuit, davidpaterson, williamtryon, willemkieft, edmundandros, peterstuyvesant, jacobleisler, ripvandam, williamcosby	0,008	human, Colonial Governor of New York	46	0,39	5	0,11	-39,61	
+		0	Q6635938	Radio stations in the San Francisco Bay Area	klove, kgo, knbr, kcbs, kgmzfm, ksfo, campusradio, kmel, kyld, ksan	0,01	radio station	204	0,74	22	0,17	-39,75	
+		1	Q8307803	Bosnia and Herzegovina writers	ivoandric, petarkocic, brankocopic, makdizdar, jovandivjak, osmanikic, sasastanisic, avdohumo, hasankikic, hamzahumo	0,01	human	78	0,97	1	0,01	-39,85	
+		1	Q7297841	Ray Milland filmography	lovestory, 3dfilm, frogs, kingofkings, beaugeste, aceshigh, gold, piccadilly, theuncanny, easyliving	0,01	film	135	0,2	29	0,21	-40,05	
+		1	Q7509469	Castle Rock Entertainment films	misery, fracture, flipped, afewgoodmen, faster, striptease, bestinshow, thegreenmile, hamlet, bernie	0,012	film	183	0,68	51	0,53	-40,14	
+		1	Q7051718	Norma Shearer filmography	drama, thewomen, afreesoul, gonewiththewind, thedivorcee, waydowneast, theflapper, riptide, escape, letusbegay	0,004	film	67	0,63	16	0,24	-40,24	
+		1	Q8499893	Greek businesspeople in shipping	athinaonassis, spiroslatsis, aristotleonassis, christinaonassis, stavrosniarchos, philipniarchos, yiannislatsis, nikospateras, minoskyriakou, nikolastsakos	0,01	human	60	0,98	4	0,07	-40,3	
+		1	Q8293686	Battles of the Spanish Civil War	siegeofmadrid, battleoftheebro, battleofteruel, battleofirun, battleofjarama, battleofmalaga, battleofbrunete, battleofbilbao, battleofmajorca, battleofbelchite	0,008	battle	48	0,62	0	0	-40,36	
+		1	Q6572137	Governors of Kaduna State	abbakyari, ubasani, namadisambo, hammedali, hameedali, ahmedmakarfi, lawalkaita, dangiwaumar, usmanmuazu, usmanjibrin	0,008	human	40	0,77	0	0	-40,37	
+		1	Q52460177	Video games featuring Miis	platformer, mariokart8, actiongame, wiisports, shootemup, racinggame, rhythmgame, mariokart7, sportsgame, miitopia	0,008	video game	174	0,56	35	0,2	-40,46	
+		1	Q6625043	Largest shopping malls in Thailand	shoppingmall, mbkcenter, terminal21, siamsquare, siamparagon, asiatique, emporium, centralworld, siamcenter, unionmall	0,004	shopping center	62	0,36	11	0,18	-40,48	
+		1	Q5977837	Compositions by John Cage	433, socrate, variations, hpschd, williamsmix, europeras, roaratorio, asslowaspossible, songbooks, credoinus	0,006	musical work/composition	72	0,43	5	0,14	-40,5	
+		1	Q6599746	The King of Fighters video games	tekken7, king, mrbig, fightinggame, kasumitodoh, deadoralive6, capcomvssnk, eijikisaragi, capcomvssnk2, burikione	0,006	video game	54	0,34	7	0,13	-40,56	
+		1	Q16155509	Films featuring time loops	sourcecode, dejavu, bosslevel, coherence, donniedarko, triangle, runlolarun, maanaadu, meetcute, paycheck	0,012	film	139	0,59	47	0,53	-40,79	
+		1	Q6963137	Battles of the Peninsular War	battleofbailen, battleofvitoria, battleofocana, battleofbucaco, battleofalbuera, battleofcorunna, battleoftudela, battleofevora, battleofmaya, battleofvimeiro	0,008	battle	108	0,9	0	0	-40,97	
+		1	Q7418508	Sanjeev Kumar filmography	comedyfilm, sholay, silsila, angoor, hero, trishul, aandhi, vidhaata, khuddaar, zabardast	0,012	film	131	0,6	32	0,25	-41,02	
+		1	Q6563807	Bethesda Softworks video games	starfield, fallout4, doom, fallout76, fallout3, dishonored, deathloop, prey, hifirush, redfall	0,004	video game	106	0,44	34	0,32	-41,07	
+		1	Q8376247	Cities in Khuzestan Province	ahvaz, abadaniran, izeh, dezful, shushtar, shushiran, behbahan, andimeshk, ramhormoz, shadegan	0,004	city of Iran	66	0,93	3	0,05	-41,13	
+		1	Q65088988	Defunct airlines of India	emirates, airindia, jetairways, spicejet, trujet, allianceair, airsahara, jetkonnect, jetlite, vayudoot	0,01	airline	53	0,67	8	0,15	-41,3	
+		3	Q6487642	Native American tribes in Oklahoma	cherokee, iroquois, apache, lenape, choctaw, kiowa, potawatomi, chickasaw, chiricahua, caddo	0,006	human	33	0,35	15	0,45	-41,39	
+		1	Q6619966	Films based on Greek drama	chiraq, medea, oedipusrex, iphigenia, electra, phaedra, icannibali, antigone, thegirls, thebacchae	0,012	film	22	0,55	7	0,33	-41,45	
+		1	Q60519080	Works about Billy the Kid	pbs, isbn, cbs, thesimpsons, gunsmoke, crunchyroll, youngguns, issn, thekid, oldhenry	0,008	creative work	103	0,4	19	0,2	-41,61	
+		1	Q6612231	Companies based in the Philadelphia area	wwe, newyorkcity, boeing, unilever, dallastx, pfizer, comcast, wellsfargo, sap, sapag	0,01	business, company	339	0,48	131	0,41	-41,66	
+		2	Q104641417	Films set in East Germany	suspiria, octopussy, spygame, topsecret, thedebt, balloon, virus, barbara, gotrabigo, casinoroyale	0,012	film	85	1	29	0,35	-41,71	
+		2	Q27487426	Faye Dunaway filmography	chinatown, network, gia, supergirl, theyards, thechamp, barfly, thechamber, thetwojakes, cougarclub	0,01	film	81	0,46	25	0,32	-41,77	
+		0	Q5530650	Gemini Ganesan filmography	mayabazar, gemini, rudraveena, lavakusa, mettukudi, pasamalar, thodarum, kondattam, missiamma, missmary	0,002	film	168	0,77	16	0,1	-41,78	
+		1	Q18924367	Mohan Babu filmography	mahanati, yamadonga, sonofindia, bujjigadu, annamayya, pedarayudu, shaakuntalam, coolieno1, gayatri, rowdy	0,008	film	120	0,55	13	0,11	-41,86	
+		1	Q56285478	The Dresden Files short fiction	novella, peacetalks, skingame, deathmasks, codexalera, graveperil, battleground, whitenight, foolmoon, smallfavor	0,012	literary work	26	0,3	11	0,44	-41,88	
+		1	Q6630021	Compositions by Arthur Sullivan	themikado, hmspinafore, iolanthe, ruddigore, patience, trialbyjury, thespis, thesorcerer, princessida, ivanhoe	0,012	musical work/composition	58	0,48	11	0,25	-42,05	
+		1	Q5321346	Compositions by Richard Strauss	salome, elektra, arabella, capriccio, donjuan, donquixote, daphne, morgen, ausitalien, burleske	0,004	musical work/composition	92	0,56	15	0,19	-42,07	
+		1	Q6638872	Active Bangladesh Navy ships	frigate, corvette, patrolboat, cutter, tugboat, gunboat, minesweeper, missileboat, stealthship, landingcraft	0,01	ship	83	0,4	7	0,08	-42,09	
+		2	Q24905295	Terrence Malick filmography	dirtyharry, badlands, songtosong, thenewworld, ahiddenlife, magnumforce, tothewonder, undertow, knightofcups, daysofheaven	0,008	film	31	0,58	16	0,52	-42,29	
+		1	Q8140671	Alumni of the University of Glasgow	adamsmith, jameswatt, emelisande, johnknox, gerardbutler, neiloliver, nikkicross, johnsmith, ajcronin, petermullan	0,01	human	1757	1	127	0,07	-42,29	
+		1	Q6960690	Rector of the University of Glasgow	adamsmith, robertpeel, rosskemp, bonarlaw, edmundburke, edwardsnowden, rabbutler, johnnyball, aameranwar, jimmyreid	0,01	human	109	0,44	8	0,07	-42,4	
+		1	Q25219619	Writers from Andhra Pradesh	nagarjuna, nannayya, bapu, sagar, madhubabu, butchibabu, ugkrishnamurti, jiddukrishnamurti, awazsayeed, gsatyamurthy	0,01	human	82	1	6	0,07	-42,41	
+		1	Q1999518	Bela Lugosi filmography	fantasia, dracula, thewolfman, houseofwax, ninotchka, filmserial, theraven, whitezombie, theblackcat, kingofjazz	0,006	film	104	0,5	24	0,23	-42,49	
+		1	Q6636559	Retired Spanish Navy ships	barque, museumship, mas, schnellboot, usscabot, glenlee, trainingship, salvageship, navaltrawler, ussnoble	0,006	ship	152	0,72	5	0,03	-42,53	
+		1	Q8780016	South Korean music television shows	queendom, boysplanet, inkigayo, iland, peaktime, loud, koreasings, doremimarket, superband, goodgirl	0,012	television program	61	1	15	0,26	-42,61	
+		1	Q27628291	Equipment of the Malaysian Armed Forces	m16rifle, sukhoisu30, m4carbine, tank, glock, m2browning, rpg7, artillery, barrettm82, shotgun	0,012	military equipment	207	0,57	42	0,2	-42,66	
+		1	Q3111534	Active Indonesian Navy ships	frigate, corvette, patrolboat, minesweeper, missileboat, troopship, fleettanker, hmsargyll, type31frigate, commandship	0,011	naval vessel	97	0,27	4	0,04	-42,68	
+		1	Q2599461	Compositions by Samuel Barber	agnusdei, vanessa, excursions, pianosonata, hermitsongs, adagioforstrings, medea, cellosonata, violinconcerto, summermusic	0,01	musical work/composition	55	0,44	7	0,23	-42,76	
+		2	Q17096213	Japanese romantic drama films	oceanwaves, helloworld, loveletter, lastletter, 3iron, asakoiii, polax, myteacher, ldk, dolls	0,012	film	94	0,88	23	0,25	-42,76	
+		3	Q8491517	Ghanaian highlife musicians	daddylumba, castro, ebotaylor, kuamieugene, abcrentsil, amakyedede, nanaampadu, samini, etmensah, kofikinaata	0,012	human	48	0,96	3	0,06	-42,77	
+		1	Q25043780	Linnea Quigley filmography	theguyver, phantoms, deadheat, nicedreams, deathsport, getcrazy, kolobos, jacko, dralien, stillsmokin	0,008	film	47	0,85	10	0,22	-42,8	
+		1	Q6608379	Burn centers in the United States	upmcmercy, uabhospital, johnshopkinshospital, vcumedicalcenter, regionshospital, uncmedicalcenter, doctorshospital, mainemedicalcenter, barnesjewishhospital, stjosephhospital	0,008	hospital	96	0,55	11	0,11	-42,82	
+		1	Q2372629	Compositions by Robert Schumann	carnaval, faesonata, kinderszenen, papillons, waldszenen, symphonyno3, genoveva, symphonyno4, symphonyno1, fantasieinc	0,004	musical work/composition	76	0,59	6	0,1	-42,84	
+		1	Q2949878	Programs broadcast by Family Channel	alf, supergirl, zoey101, thexfactor, dinosaurs, caillou, ducktales, blossom, parenthood, allthat	0,012	television program	355	0,39	130	0,37	-43,49	
+		1	Q6849899	Video games developed in the United Kingdom	thequarry, untildawn, fallguys, nomanssky, tombraider, garrysmod, rust, manhunt, runescape, watchdogs2	0,006	video game	3619	0,98	973	0,27	-43,5	
+		1	Q20649877	Naseeruddin Shah filmography	mainhoonna, gehraiyaan, krrish3, heyram, kuttey, krrish, raajneeti, mohra, okjaanu, aiyaary	0,012	film	151	0,83	47	0,31	-43,5	
+		1	Q7289376	Ramesh Aravind filmography	queen, apthamitra, rhythm, jodi, butterfly, parisparis, duet, rudraveena, 100, kutty	0,008	film	97	0,78	13	0,14	-43,67	
+		1	Q11758038	Dance Dance Revolution video games	mobilegame, dvdgame, stepmania, dancedancerevolution, dancingstagemariomix, dancingstagemax, dancingstagesupernova, dancingstagefusion, dancingstagesupernova2, dancedancerevolutionx	0,008	video game	89	0,47	2	0,03	-43,7	
+		1	Q24632513	England Test cricket captains	benstokes, joeroot, ianbotham, davidgower, wggrace, tonygreig, bobwillis, cbfry, alastaircook, allanlamb	0,012	human	81	1	7	0,09	-43,71	
+		1	Q3255134	Universities and colleges in New Brunswick	hecmontreal, yorkuniversity, mcgilluniversity, universitelaval, ocaduniversity, trentuniversity, brockuniversity, universityoftoronto, mcmasteruniversity, algomauniversity	0,008	university	97	0,66	28	0,29	-43,93	
+		1	Q60768360	South Korean gangster films	theroundup, theoutlaws, newworld, friend, thedudeinme, failan, greenfish, no3, adirtycarnival, diebad	0,008	film	21	0,95	7	0,33	-43,98	
+		1	Q2397972	Compositions by Antonio Vivaldi	gloria, giustino, bajazet, thefourseasons, griselda, magnificat, farnace, motezuma, stabatmater, lolimpiade	0,012	musical work/composition	78	0,41	8	0,13	-44,06	
+		1	Q24904702	Karisma Kapoor filmography	omshantiom, zero, actiondrama, bodyguard, jigar, zubeidaa, jaanwar, coolieno1, fiza, biwino1	0,008	film	67	0,54	22	0,33	-44,11	
+		1	Q6627906	Members of City Council of Tehran	hadisaei, abbasjadidi, alirezadabir, rasoulkhadem, mehdichamran, abbassheibani, abbassheybani, amirabedini, abdollahnouri, saeedhajjarian	0,008	human	80	0,56	0	0	-44,24	
+		1	Q5959216	Compositions by Edward Elgar	opus64no1, salutdamour, cockaigne, symphonyno1, sospiri, seapictures, celloconcerto, symphonyno2, inthesouth, pianosonatano2	0,012	musical work/composition	158	0,38	22	0,19	-44,27	
+		1	Q3256312	Compositions by Jean Sibelius	finlandia, jagermarch, tapiola, symphonyno2, kullervo, symphonyno5, symphonyno7, ensaga, symphonyno1, valsetriste	0,008	musical work/composition	75	0,31	9	0,16	-44,41	
+		1	Q16155588	Culture jamming organizations and people	anonymous, gorillaz, pussyriot, cicada3301, theklf, crass, chumbawamba, yippies, wuming, theyesmen	0,01	organization	45	0,27	18	0,41	-44,47	
+		1	Q12858926	Programmes broadcast by Sky One	manifest, friends, house, familyguy, lost, southpark, theflash, pokemon, seinfeld, thexfiles	0,01	television program	627	0,5	317	0,52	-44,67	
+		1	Q8457805	Films set in Saint Petersburg	blackwidow, anastasia, brother, goldeneye, hitman, reds, assa, sisters, war, intergirl	0,008	film	91	0,99	26	0,3	-44,81	
+		1	Q7007417	Mauthausen concentration camp survivors	editheger, tiborrubin, davidolere, leopoldfigl, adolfburger, arturlondon, otasik, janliwacz, denisevernay, jeancayrol	0,012	human	110	0,99	0	0	-44,81	
+		0	Q56292542	Acquisitions by THQ Nordic	superpower, titanquest, biomutant, painkiller, wreckfest, elex, sacred, deltaforce, outcast, carmageddon	0	video game	132	0,52	34	0,26	-44,83	
+		1	Q8417817	English people of Turkish descent	jodhimay, jaxjones, kemcetinay, abzlove, josefaltin, muzzyizzet, selinhizli, skandarkeynes, emretezgel, niluferyanya	0,01	human	56	0,95	3	0,05	-44,83	
+		1	Q18924382	Manisha Koirala filmography	shehzada, sanju, dilse, indian, bombay, saathiya, baba, mudhalvan, company, saudagar	0,008	film	87	0,53	31	0,36	-45	
+		1	Q3255468	Programs broadcast by Fox Kids	winxclub, thenanny, sailormoon, 7thheaven, dinosaurs, patmat, spiderman, animaniacs, sonicx, medabots	0,006	television program	167	0,23	64	0,39	-45,06	
+		1	Q8068461	Zeenat Aman filmography	panipat, don, boom, golmaal, dharamveer, qurbani, dostana, laawaris, shalimar, mahaan	0,008	film	85	0,84	21	0,27	-45,25	
+		1	Q3256294	Compositions by Benjamin Britten	warrequiem, petergrimes, godsavetheking, gloriana, billybudd, lessylphides, paulbunyan, noyesfludde, levydew, curlewriver	0,006	musical work/composition	134	0,55	11	0,12	-45,34	
+		1	Q2377288	New York City Subway rolling stock	r211, moneytrain, r160, r46, r179, r32, r44, r62a, r142, r68	0,01	rolling stock	70	0,21	7	0,11	-45,38	
+		1	Q1751881	Whisky distilleries in Scotland	jggrant, portdundas, obandistillery, juradistillery, ardbegdistillery, cardhudistillery, arrandistillery, taliskerdistillery, laphroaigdistillery, caoliladistillery	0,006	whisky distillery	142	0,38	8	0,06	-45,47	
+		1	Q7522136	Foreign films shot in Nepal	everest, infinite, thefall, baby, kanchana3, baraka, batlahouse, khudagawah, dev, doctorstrange	0,004	film	106	0,95	19	0,29	-45,56	
+		1	Q15185180	Bangladeshi male television actors	afrannisho, salmanshah, siamahmed, yashrohan, alamgir, omarsani, dinoshafeek, masumaziz, zahidhasan, abulhayat	0,008	human	91	1	4	0,04	-45,6	
+			Q7564587	Soumitra Chatterjee filmography	charulata, apursansar, belashuru, sonarkella, belaseshe, praktan, gharebaire, devi, teenkanya, ahalya	0,006	film	84	0,54	11	0,13	-45,62	
+			Q25029798	Captains who went down with the ship	edwardsmith, seiichiito, isaacckidd, hirosetakeo, johnleach, arugakosaku, tomphillips, stepanmakarov, kareldoorman, ernesteevans	0,012	human	66	0,99	3	0,05	-45,67	
+		1	Q8838382	Telugu film score composers	arrahman, ravibasrur, thamans, gopisundar, samcs, vidyasagar, manisharma, mmkeeravani, ghibran, ilaiyaraaja	0,012	human	116	0,94	15	0,13	-45,72	
+		1	Q494836	Universities and colleges in South Korea	kaist, postech, koreauniversity, yonseiuniversity, inhauniversity, ghentuniversity, universityofutah, konkukuniversity, ajouuniversity, dongucollege	0,002	university, higher education institution	260	0,42	13	0,05	-45,98	
+		2	Q5544889	George Strait singles discography	babyblue, giveitaway, unwound, troubadour, thechair, run, heartland, thefireman, lovebug, ibelieve	0,002	single	97	0,51	28	0,29	-45,99	
+		1	Q8035089	Works based on Alice in Wonderland	anime, thematrix, steam, itunes, lost, manga, fantasy, comedy, cyberpunk, codegeass	0,008	work	288	0,53	91	0,38	-46,01	
+		1	Q8571952	Kellogg School of Management alumni	alibabacan, keiogura, peterthum, wenyunsong, eddiegeorge, johnhoeven, cindyaxne, jeffluhnow, roshninadar, johnmiller	0,008	human	283	0,76	27	0,12	-46,11	
+		1	Q5544887	George Strait albums discography	troubadour, purecountry, livinitup, leadon, twang, 22morehits, 50numberones, rightorwrong, icon, blueclearsky	0,01	album	84	0,76	14	0,29	-46,19	
+		1	Q16248488	Sivaji Ganesan filmography	padayappa, thevarmagan, oncemore, karnan, parasakthi, pasumpon, pasamalar, andhanaal, viduthalai, jallikattu	0,01	film	297	0,81	18	0,06	-46,24	
+		1	Q1363961	Compositions by Johannes Brahms	wiegenlied, symphonyno1, symphonyno4, symphonyno3, faesonata, symphonyno2, nanie, papillons, horntrio, massno6	0,01	musical work/composition	100	0,62	4	0,05	-46,24	
+		1	Q6854162	American people of Moroccan descent	kevingates, frankmir, dannynucci, aja, malikasouiri, teohalm, sanaahamri, ismailelfath, khalil, noahsadaoui	0,01	human	30	0,94	4	0,13	-46,43	
+		3	Q7587401	Lil Wayne albums discography	mixtape, studioalbum, thacarterv, thacarter, funeral, rebirth, noceilings, dadrought3, 500degreez, lightsout	0,005	album	66	0,45	14	0,4	-46,46	
+		1	Q55993560	Albums produced by Steve Lacy	damn, swimming, apolloxxi, twenty88, isolation, egodeath, imperial, hivemind, geminirights, fin	0,01	album	18	0,95	11	0,61	-46,47	
+		1	Q1840508	Governors of former Nigerian states	davidejoor, obafemiawolowo, bamangatukur, tundeogbeha, samuelakintola, jeremiahuseni, adekunlefajuyi, adesojiaderemi, albertokonkwo, jonahdavidjang	0,01	human	32	0,65	0	0	-46,67	
+		1	Q320687	Communes of the Essonne department	nanterre, melun, creteil, lesulis, pontoise, bobigny, longjumeau, orsay, palaiseau, etampes	0,01	commune of France	200	0,55	8	0,04	-46,67	
+		1	Q3256304	Compositions by Jacques Offenbach	laperichole, barbebleue, bataclan, lepapillon, barkouf, labellehelene, fantasio, pommedapi, lesbrigands, vertvert	0,012	musical work/composition	61	0,54	6	0,1	-46,7	
+		1	Q25055080	Billy Dee Williams filmography	batman, brianssong, nighthawks, fanboys, mahogany, thelegomovie, fearcity, woo, dirtydancing, returnofthejedi	0,004	film	55	0,41	22	0,41	-46,73	
+		1	Q13321457	Video games published by Rockstar Games	bully, lanoire, maxpayne, manhunt, maxpayne3, manhunt2, prey, evolve, oni, farmville	0,006	video game	111	0,44	29	0,42	-46,8	
+		1	Q8008943	Compositions by Erik Satie	gymnopedies, parade, vexations, jeteveux, socrate, relache, ogives, sarabandes, mercure, nocturnes	0,008	musical work/composition	98	0,65	6	0,12	-46,95	
+		1	Q271907	Communes of the Aveyron department	toulouse, perpignan, nimes, albi, montpellier, carcassonne, cahors, montauban, rodez, tarbes	0,01	commune of France	297	0,6	15	0,05	-46,97	
+		1	Q18632231	Female cabinet ministers of Finland	orphan, juhasipila, eskoaho, urhokekkonen, tarjahalonen, anneberner, kristakiuru, kalevisorsa, vainotanner, satuhassi	0,008	human	105	0,77	1	0,01	-47,15	
+		1	Q9138105	Medieval Knights Templar members	gualdimpais, huguesdepayens, gilbertdelacy, andredemontbard, robertofstalbans, juliangrenier, geoffroidecharney, armandbouchart, huguesdepairaud, godfreydesaintomer	0,01	human	20	0,95	1	0,05	-47,23	
+		1	Q5299510	Dottie West albums discography	studioalbum, classics, compilationalbum, wildwest, suffertime, fullcircle, hightimes, dottie, justdottie, countrygirl	0,012	album	72	0,47	11	0,3	-47,32	
+		1	Q16251486	Dance forms of Tamil Nadu	kathakali, kathak, kuchipudi, theyyam, odissi, yakshagana, garba, bhangra, chhaudance, lavani	0,008	type of dance	95	0,46	10	0,11	-47,4	
+		1	Q8704544	Sarah Vaughan albums discography	studioalbum, livealbum, afterhours, sassy, consequences, compilationalbum, swingineasy, backontheblock, snowbound, copacabana	0,01	album	116	0,54	11	0,17	-47,53	
+		1	Q8908008	Wanda Jackson albums discography	studioalbum, livealbum, encore, compilationalbum, wandajackson, rightorwrong, goodtimes, tellmewhy, hearttrouble, lovemeforever	0,012	album	103	0,49	11	0,2	-47,54	
+		1	Q8808421	Sri Lankan film actresses	sujatha, rukmanidevi, kusumrenu, poojaumashankar, nethmiroshel, malinifonseka, jacquelinefernandez, shalanitharaka, gayathridias, yureninoshika	0,012	human	128	1	2	0,02	-47,67	
+		1	Q8456962	Films directed by Tex Avery	awildhare, kittyfoyle, girlcrazy, lesgirls, dragonseed, kismet, blitzwolf, hitthedeck, fiesta, torchsong	0,01	animated film, film	212	0,73	14	0,11	-47,79	
+		1	Q28456188	Vilmos Zsigmond filmography	xanadu, maverick, jerseygirl, sliver, blowout, deliverance, assassins, realgenius, heavensgate, therose	0,01	film	60	0,48	24	0,4	-48,1	
+		1	Q21286474	Video games set in psychiatric hospitals	untildawn, outlast, alanwake, injustice2, manhunt, deadspace2, manhunt2, fahrenheit, silenthill2, medievil	0,008	video game	73	0,97	27	0,38	-48,16	
+		1	Q8474112	French people of Algerian descent	inesrau, djsnake, indila, maiwenn, taharrahim, amelbent, slimane, ramzybedia, sofiane, redakateb	0,008	human	200	0,93	34	0,17	-48,27	
+		1	Q55780256	Longest gaps between studio albums	voyage, 2001, stillsucks, loveless, debut, thinktank, gaucho, 10000days, rawpower, thelongrun	0,009533333333	album	753	0,61	271	0,37	-48,28	
+		1	Q7687186	Television series revived after cancellation	winxclub, pingu, tvtotal, 31minutos, totallyspies, nolimite, malgudidays, zehuze, karamchand, crimewatch	0,006	television series	30	0,62	12	0,4	-48,29	
+		1	Q602098	Compositions by Sergei Rachmaninoff	vocalise, borisgodunov, larlesienne, aleko, symphonyno2, thebells, symphonyno1, liebesleid, symphonyno3, therock	0,006	musical work/composition	77	0,5	9	0,13	-48,32	
+		1	Q1561385	Bishops and archbishops of Prague	dominikduka, josefberan, jangraubner, rastislav, miloslavvlk, strachkvas, tomasbutta, pavelhuyn, detmar, janschwarz	0,008	human	48	0,62	1	0,02	-48,4	
+		1	Q8448816	Defunct football clubs in France	troyesaf, acarlesien, calaisrufc, limogesfc, toulousefc, cabastia, rcroubaix, scfives, fcnancy, casgparis	0,01	association football club	57	0,98	1	0,02	-48,43	
+		1	Q8356802	Charley Pride albums discography	studioalbum, livealbum, fun, compilationalbums, thatslife, imjustme, charley, frommetoyou, amazinglove, moodywoman	0,002	album	88	0,39	7	0,15	-48,59	
+		1	Q1725205	Ministers of the Federal Republic of Germany	helmutkohl, angelamerkel, willybrandt, egonbahr, volkerruhe, ludwigerhard, helmutschmidt, georgleber, hansapel, norbertblum	0,006	human	81	0,84	6	0,07	-48,73	
+		1	Q9593421	Video games based on Norse mythology	godofwar, maxpayne, valheim, smite, brawlhalla, odinsphere, toohuman, magicka, rune, ring	0,01	video game	89	0,97	27	0,3	-48,89	
+		1	Q8602507	Loretta Lynn albums discography	studioalbum, livealbum, vanlearrose, fullcircle, loretta, fistcity, hymns, leadmeon, compilationalbum, home	0,006	album	140	0,58	11	0,13	-48,98	
+		1	Q7684058	Tanya Tucker singles discography	ringoffire, imonfire, dreamlover, alreadygone, babyimyours, texas, dontgoout, walkingshoes, youaresobeautiful, soon	0	single	52	0,31	9	0,17	-49,17	
+		1	Q8686090	Norwegian people of Pakistani descent	hadiatajik, adilkhan, abidraja, omerbhatti, deeyahkhan, arfanbhatti, iramhaq, zahidali, ghayaszahid, mahrukhali	0,01	human	26	0,93	2	0,08	-49,18	
+		1	Q6992896	Nigerian players of American football	davidojabo, efeobada, amobiokoye, josephossai, osiumenyiora, benbanogu, obinnaeze, samkongado, romeookwara, olaadeniyi	0,012	human	61	1	3	0,05	-49,18	
+		1	Q1852745	Cities and towns in East Prussia	kaliningrad, klaipda, allenstein, olsztyn, elbing, elblag, malbork, elk, lyck, ketrzyn	0,008	city	89	0,47	10	0,11	-49,2	
+		1	Q6620022	Films of the Dutch East Indies	silentfilm, shortfilm, talkie, lostfilm, musicalfilm, serialfilm, fictionalfilm, gadisdesa, njaidasima, ouwpehtjoa	0,01	film	83	0,43	8	0,1	-49,21	
+		2	Q107041106	John Goodman on screen and stage	cars, argo, flight, coyoteugly, theartist, beemovie, monstersinc, speedracer, fallen, bartonfink	0,004	film	105	0,5	51	0,49	-49,27	
+		1	Q6603025	University of Alabama at Birmingham people	samhunt, steviewonder, roddywhite, joewebb, eligold, waltmaddox, andykennedy, sarahparcak, chriscollins, deidredowns	0,01	human	79	0,56	8	0,1	-49,68	
+		1	Q1861729	Ships attacked by Somali pirates	destroyer, cruiser, cruiseship, oiltanker, cargoship, mvastoria, dhow, bulkcarrier, fishingboat, ussporter	0,004	ship	73	0,41	10	0,14	-49,89	
+		1	Q7473933	Populated places in Zadar County	zadar, nincroatia, benkovac, pag, gracac, srb, pakostane, skabrnja, sukosan, bibinje	0,006	human settlement	122	0,96	9	0,07	-50,53	
+		1	Q2586486	Global 200	pantanal, everglades, tepuis, llanos, cerrado, caatinga, namibdesert, atacamadesert, rannofkutch, sonorandesert	0,01	WWF ecoregion	271	0,47	7	0,03	-50,58	
+		2	Q8386847	Dolly Parton albums discography	runroserun, trio, jolene, trioii, bluesmoke, dumplin, haloshorns, joshua, dolly, puresimple	0,004	album	161	0,47	22	0,23	-50,6	
+		1	Q8446174	Christian female saints of the Middle Ages	joanofarc, olgaofkiev, clotilde, ritaofcascia, kassia, radegund, scholastica, begga, lidwina, gudula	0,012	human	126	0,95	10	0,08	-50,81	
+		1	Q5377804	Historical structures in Isfahan Province	alqapu, menarjonban, chehelsotoun, hashtbehesht, vankcathedral, sarouyeh, aliminaret, alamshouse, sadrschool, abbasihouse	0,006	building	60	0,43	0	0	-50,95	
+		1	Q4746857	Songs recorded by Amit Kumar	dhamaal, himmatwala, golmaal, rajuchacha, aandhi, narsimha, 100days, page3, shikari, parvarish	0,01	film	74	0,47	14	0,19	-51	
+		1	Q3243103	Quebec television series imports and exports	theoffice, jeopardy, familyfeud, fortboyard, fearfactor, matchgame, staracademy, lingo, thebachelor, cameracafe	0,012	television program	68	0,51	31	0,48	-51,07	
+		1	Q12628389	Ships of the Royal Yugoslav Navy	frigate, destroyer, corvette, patrolboat, tanker, ptboat, gunboat, museumship, minesweeper, minelayer	0,012	ship	68	0,41	8	0,12	-51,17	
+		3	Q6610188	Closed New York City Subway stations	cityhall, southferry, 96thstreet, canalstreet, bowery, 91ststreet, woodlawn, parkplace, wtccortlandt, 23rdstreet	0,01	metro station	69	0,23	17	0,29	-51,18	
+		1	Q6278233	Jorge Luis Borges bibliography	ficciones, thealeph, emmazunz, thedeadman, thesouth, thezahir, theimmortal, theother, labyrinths, dreamtigers	0,002	literary work	132	0,57	11	0,09	-51,53	
+		2	Q8152816	Waylon Jennings albums discography	olwaylon, thistime, musicman, waylonlive, waylon, heroes, wwii, leavintown, nedkelly, cleanshirt	0,002	album	141	0,54	16	0,22	-51,58	
+		1	Q8170741	War correspondents of World War II	klausmann, erikamann, jonaslie, enzobarboni, saintloup, gadelqutuy, vasilygrossman, yevgenypetrov, ionvinea, uyskrige	0,012	human	70	0,97	3	0,04	-51,62	
+		2	Q6620024	Films related to the hippie subculture	forrestgump, lovestory, easyrider, thedoors, wild, blowup, zardoz, intothewild, jobs, imnotthere	0,006	film	167	0,46	77	0,46	-52,02	
+		1	Q27965045	Saif Ali Khan filmography	adipurush, vikramvedha, omshantiom, tanhaji, kalhonaaho, dilbechara, cocktail, phantom, omkara, race2	0,01	film	72	0,54	17	0,24	-52,11	
+		3	Q6619859	Film remakes	dune, turningred, pinocchio, scarface, themummy, heat, brothers, wrathofman, aladdin, hellraiser	0,01	film	1170	0,95	338	0,4	-52,12	
+		1	Q105640	Municipalities in Santa Cruz de Tenerife	tegueste, garachico, laorotava, adeje, guimar, vilaflor, tazacorte, tacoronte, agulo, arico	0,004	municipality of Spain	54	0,41	15	0,28	-52,24	
+		1	Q6643371	Titles and honours of George VI	caesar, commander, georgecross, airmarshal, rearadmiral, general, lordofmann, admiral, georgemedal, fieldmarshal	0,01	award, noble title, military rank	51	0,25	15	0,31	-52,29	
+		1	Q6621178	Former Universal Studios Florida attractions	europapark, themepark, epcot, puydufou, efteling, dollywood, cedarpoint, 4dfilm, waterpark, shrek4d	0,012	tourist attraction	113	0,2	44	0,4	-52,31	
+		1	Q64876967	Betty Boop films and appearances	snowwhite, dizzydishes, buzzyboop, chessnuts, anyrags, redhotmamma, bettyboopmd, boopoopadoop, babybegood, whoframedrogerrabbit	0,008	film	126	0,77	9	0,08	-52,67	
+		1	Q7301591	Reba McEntire singles discography	fancy, ifiwereaboy, imasurvivor, bealight, littlerock, backtogod, forevercountry, takeitback, rumorhasit, howblue	0,008	single	80	0,34	15	0,19	-52,84	
+		1	Q8829569	Tammy Wynette albums discography	studioalbum, duets, one, divorce, goldenring, womanhood, compilationalbum, myman, nexttoyou, wegotogether	0	album	100	0,56	14	0,26	-53,02	
+		1	Q6593249	PFC CSKA Sofia managers	coach, alanpardew, sasailic, luigisimoni, ioanandone, hristostoichkov, paveldochev, miodragjesic, dimitarpenev, hristoyanev	0,006	human	80	0,67	4	0,09	-53,28	
+		1	Q1561740	Saints of the Serbian Orthodox Church	saintsava, stefanurosv, newmartyr, johnuros, lazarofserbia, stefannemanja, helenofanjou, spiridon, orekratovac, jovanvladimir	0,01	human	81	0,75	1	0,01	-53,3	
+		1	Q60753298	Jim Broadbent on screen and stage	cloudatlas, paddington, dolittle, hotfuzz, brazil, robots, brooklyn, theduke, moulinrouge, inkheart	0,01	film	101	0,5	38	0,38	-53,31	
+		1	Q3072100	Compositions by Johann Strauss II	wienerblut, diefledermaus, thebluedanube, dinorah, kaiserwalzer, thegypsybaron, aufderjagd, waldmeister, casanova, freikugeln	0,01	musical work/composition	144	0,48	5	0,04	-54,43	
+		1	Q101519515	Programmes broadcast by Super Hungama	pokemon, spiderman, perman, upinipin, ryukendo, thedaltons, aaronstone, mechx4, supastrikas, rescueforce	0,006	television program	25	0,68	10	0,4	-54,5	
+		1	Q105394061	Programmes broadcast by Zee Telugu	jodhaakbar, gangaa, tenalirama, kasamhse, kumkumbhagya, chottibahu, amrutham, trinayani, geminitv, ekhasinathi	0,01	television program	51	0,74	6	0,12	-54,78	
+		1	Q6887199	Mobile phone games of the Breath of Fire series	megaman2, minigame, teppen, breathoffire, mobilephonegame, breathoffire6, breathoffireiv, breathoffireii, breathoffireiii, turnbasedstrategy	0,012	video game	12	0,44	4	0,33	-55,07	
+		1	Q6613395	Constituencies of the Gujarat Legislative Assembly	dwarka, patan, una, jetpurchhotaudaipur, vavassemblyconstituency, morbiassemblyconstituency, vadgamassemblyconstituency, bhujassemblyconstituency, gondalassemblyconstituency, tharadassemblyconstituency	0,012	constituency of the Gujarat Legislative Assembly	185	0,68	3	0,02	-55,25	
+		1	Q8452147	Films about the caste system in India	jaibhim, super30, article15, puzhu, lovestory, asuran, karnan, dhadak, sairat, masaan	0,01	film	86	0,99	15	0,17	-55,47	
+		1	Q6589995	Metropolitans of the Indian Orthodox Church	marthomai, thomastheapostle, marthomaix, marthomaii, dionysiousv, marthomavi, marthomav, marthomaiv, marthomavii, marthomaiii	0,01	human	67	0,38	0	0	-55,66	
+		1	Q24974119	Films directed by Kodi Ramakrishna	arundhati, anji, ammoru, devi, nagarahavu, pelli, ankusam, avatharam, devullu, captain	0,01	film	44	0,92	6	0,14	-55,81	
+		1	Q6630065	Musical works released in a stem format	donda2, donda, thechronic, inrainbows, yearzero, withteeth, jesusisking, spaceoddity, ghostsiiv, theslip	0,012	album, audio track	46	0,32	20	0,47	-55,98	
+		3	Q6436332	1977 films	starwars, carrie, eraserhead, suspiria, anniehall, mimino, sorcerer, slapshot, house, thehobbit	0,002	film	1136	0,99	225	0,2	-56,16	
+		3	Q7237407	1972 films	deepthroat, solaris, cabaret, thegodfather, fistoffury, deliverance, thegetaway, frenzy, whatsupdoc, joekidd	0,002	film	1214	0,99	217	0,18	-56,16	
+		3	Q7141393	1974 films	chinatown, emmanuelle, zardoz, deathwish, darkstar, sweptaway, earthquake, foxybrown, thedeluge, lenny	0,002	film	1120	0,99	226	0,2	-56,16	
+		3	Q7141519	1971 films	dirtyharry, duel, thx1138, strawdogs, klute, shaft, thebigboss, getcarter, thedevils, summerof42	0,002	film	1139	0,99	208	0,18	-56,16	
+		3	Q6621658	1969 films	easyrider, bluemovie, truegrit, lapiscine, thedamned, hellodolly, kes, theredtent, topaz, qeysar	0,004	film	1025	0,98	182	0,18	-56,16	
+		3	Q7237400	1978 films	grease, halloween, superman, prettybaby, jaws2, thewiz, convoy, piranha, cominghome, don	0,004	film	1188	0,98	245	0,21	-56,16	
+		3	Q9756161	2018 films	hereditary, aquaman, greenbook, venom, deadpool2, oceans8, halloween, bumblebee, thenun, birdbox	0,004	film	2994	0,99	927	0,31	-56,16	
+		3	Q7141445	1973 films	thesting, papillon, westworld, robinhood, theexorcist, serpico, papermoon, badlands, amarcord, malicious	0,004	film	1151	0,99	230	0,2	-56,16	
+		3	Q7141335	1966 films	django, blowup, eldorado, batman, persona, alfie, grandprix, bornfree, seconds, thechase	0,006	film	947	0,98	152	0,16	-56,16	
+		3	Q6773367	1970 films	lovestory, mash, sunflower, patton, airport, waterloo, riolobo, eltopo, catch22, borsalino	0,006	film	1120	0,99	216	0,19	-56,16	
+		3	Q6293942	2015 films	minions, spectre, antman, sicario, thewitch, furious7, legend, themartian, insideout, creed	0,006	film	3291	0,98	925	0,28	-56,16	
+		3	Q7237395	1958 films	vertigo, theblob, gigi, dracula, thefly, thevikings, kingcreole, houseboat, mononcle, auntiemame	0,006	film	1016	0,99	152	0,15	-56,16	
+		3	Q7141524	1968 films	barbarella, funnygirl, bullitt, oliver, hangemhigh, thelovebug, teorema, theparty, charly, theswimmer	0,006	film	1070	0,98	195	0,18	-56,16	
+		3	Q7141697	2011 films	thor, moneyball, drive, margincall, intime, thehelp, fastfive, contagion, hugo, scream4	0,006	film	2941	0,99	835	0,29	-56,16	
+		3	Q7237424	2000 films	gladiator, castaway, memento, scarymovie, snatch, xmen, magnolia, malena, thepatriot, thebeach	0,006	film	1716	0,97	526	0,31	-56,16	
+		3	Q7141689	2014 films	johnwick, gonegirl, whiplash, divergent, fury, maleficent, exmachina, tusk, annabelle, bighero6	0,006	film	3271	0,99	925	0,28	-56,16	
+		3	Q9756616	2020 films	365days, tenet, run, soul, thefather, greenland, thehunt, emma, mulan, nomadland	0,006	film	2000	0,98	621	0,31	-56,16	
+		3	Q7141701	2009 films	avatar, orphan, brothers, coraline, watchmen, 2012, 3idiots, startrek, zombieland, knowing	0,006	film	2965	0,99	859	0,29	-56,16	
+		3	Q9756224	2019 films	knivesout, joker, parasite, midsommar, after, shazam, 1917, jojorabbit, glass, aladdin	0,006	film	3011	0,99	905	0,3	-56,16	
+		3	Q9756138	2017 films	getout, coco, dunkirk, mother, themummy, logan, wonder, babydriver, windriver, baywatch	0,006	film	3049	0,99	884	0,29	-56,16	
+		3	Q6457108	1952 films	highnoon, ikiru, limelight, vivazapata, ivanhoe, thequietman, umbertod, carrie, baijubawra, casquedor	0,006	film	1051	0,99	176	0,17	-56,16	
+		3	Q6577064	1955 films	sissi, eastofeden, animalfarm, marty, oklahoma, rififi, picnic, shree420, summertime, mrmrs55	0,008	film	1026	0,98	177	0,17	-56,16	
+		3	Q6966913	1967 films	thegraduate, lesamourai, playtime, viy, pointblank, samiswoi, camelot, bedazzled, warandpeace, iamcurious	0,008	film	1079	0,99	171	0,16	-56,16	
+		3	Q7237415	2006 films	cars, 300, apocalypto, idiocracy, silenthill, theholiday, borat, insideman, babel, thequeen	0,008	film	2719	0,99	778	0,29	-56,16	
+		3	Q7141686	2007 films	2girls1cup, spiderman3, iamlegend, themist, zodiac, atonement, enchanted, juno, deathproof, shooter	0,008	film	2745	0,98	793	0,29	-56,16	
+		3	Q9756082	2016 films	yourname, rogueone, split, terrifier, deadpool, moana, arrival, lalaland, zootopia, sing	0,008	film	3248	0,99	939	0,29	-56,16	
+		3	Q7237396	1975 films	jaws, sholay, rollerball, mirror, dersuuzala, storyofo, barrylyndon, mandingo, deepred, tommy	0,008	film	1079	0,99	211	0,2	-56,16	
+		3	Q7141609	2002 films	xxx, spiderman, thepianist, iceage, 8mile, reddragon, lilostitch, thering, scoobydoo, unfaithful	0,008	film	1867	0,98	555	0,3	-56,16	
+		3	Q6739062	2001 films	shrek, hannibal, zoolander, vanillasky, amelie, theothers, blow, iamsam, spykids, thepledge	0,008	film	1787	0,97	557	0,31	-56,16	
+		3	Q8782129	1950 films	rashomon, cinderella, riogrande, harvey, allabouteve, stromboli, orpheus, doa, guncrazy, nowayout	0,008	film	1056	0,99	182	0,17	-56,16	
+		3	Q8143219	1948 films	rope, redriver, fortapache, keylargo, melodytime, hamlet, theredshoes, joanofarc, thepirate, thesearch	0,008	film	900	0,99	139	0,15	-56,16	
+		3	Q7141625	2004 films	troy, meangirls, saw, downfall, spiderman2, collateral, shrek2, theaviator, manonfire, irobot	0,01	film	2236	0,98	664	0,3	-56,16	
+		3	Q7141589	1994 films	themask, thecrow, forrestgump, truelies, speed, stargate, thelionking, edwood, clerks, pulpfiction	0,01	film	1399	0,96	347	0,25	-56,16	
+		3	Q6697026	1939 films	stagecoach, thewomen, ninotchka, gungadin, jamaicainn, thewizardofoz, loveaffair, beaugeste, jessejames, dodgecity	0,01	film	1009	0,99	160	0,16	-56,16	
+		3	Q6582787	1940 films	pinocchio, fantasia, rebecca, judsuss, gaslight, theletter, theseahawk, awildhare, kittyfoyle, ourtown	0,01	film	1047	0,99	147	0,14	-56,16	
+		3	Q7141607	1997 films	titanic, lolita, gijane, anastasia, meninblack, hercules, gattaca, contact, thegame, faceoff	0,01	film	1556	0,97	474	0,31	-56,16	
+		3	Q6606653	1981 films	dasboot, madmax2, possession, heavymetal, excalibur, bodyheat, scanners, theevildead, porkys, thief	0,01	film	1135	0,97	249	0,22	-56,16	
+		3	Q8143715	1949 films	thethirdman, whiteheat, onthetown, latespring, theheiress, bitterrice, straydog, adamsrib, doa, littlewomen	0,01	film	966	0,99	177	0,18	-56,16	
+		3	Q7141630	1995 films	seven, toystory, heat, braveheart, jumanji, casino, clueless, 12monkeys, kids, waterworld	0,01	film	1422	0,97	397	0,28	-56,16	
+		3	Q7141446	1976 films	taxidriver, rocky, carrie, theomen, themessage, logansrun, network, 1900, kingkong, midway	0,01	film	1124	0,98	223	0,2	-56,16	
+		3	Q6632176	1986 films	topgun, standbyme, aliens, platoon, highlander, vikram, labyrinth, thefly, bluevelvet, manhunter	0,01	film	1333	0,97	318	0,24	-56,16	
+		3	Q8783069	1979 films	alien, madmax, stalker, caligula, rockyii, moonraker, 1941, thetindrum, beingthere, hair	0,01	film	1182	0,98	255	0,22	-56,16	
+		3	Q6582902	2012 films	prometheus, skyfall, argo, flight, lifeofpi, magicmike, sinister, ted, brave, cloudatlas	0,01	film	3035	0,99	854	0,28	-56,16	
+		3	Q7141684	2005 films	lordofwar, madagascar, kingkong, sincity, hostel, munich, mrmrssmith, theisland, thedescent, jarhead	0,01	film	2361	0,99	692	0,3	-56,16	
+		3	Q6645943	1987 films	predator, hellraiser, robocop, evildeadii, wallstreet, spaceballs, angelheart, moonstruck, mannequin, labamba	0,01	film	1413	0,97	345	0,24	-56,16	
+		3	Q7141343	1962 films	lolita, drno, lajetee, capefear, harakiri, mondocane, hatari, thetrial, leclisse, sanjuro	0,012	film	935	0,98	137	0,15	-56,16	
+		3	Q7141687	2008 films	twilight, ironman, mammamia, taken, walle, inbruges, valkyrie, thereader, ponyo, changeling	0,012	film	2863	0,99	807	0,28	-56,16	
+		3	Q6644851	1983 films	scarface, flashdance, christine, octopussy, wargames, videodrome, cujo, jaws3d, rumblefish, thehunger	0,012	film	1202	0,98	273	0,23	-56,16	
+		3	Q7141346	1957 films	12angrymen, oldyeller, funnyface, 310toyuma, sayonara, mayabazar, pyaasa, kanal, zerohour, motherindia	0,012	film	1020	1	126	0,12	-56,16	
+		1	Q8312797	British Army personnel of World War I	edwardviii, jrrtolkien, johneden, cslewis, telawrence, aamilne, anthonyeden, noelcoward, oswaldmosley, henrymoore	0,004	human	5844	1	280	0,05	-56,17	
+		3	Q6831546	2009 singles	badromance, whatislove, wavinflag, halo, ifuseekamy, pussy, 21guns, wemadeyou, rightround, theclimb	0,01	single	1618	0,83	664	0,42	-56,33	
+		1	Q56722843	Filmography and awards of Sunny Leone	musicvideo, raees, jism2, ginna, baadshaho, raginimms2, bhoomi, hatestory2, leela, mastizaade	0,01	film	42	0,35	15	0,37	-56,48	
+		3	Q7166225	2001 albums	invincible, toxicity, iowa, mutter, discovery, lateralus, amnesiac, britney, vespertine, aaliyah	0,004	album	2117	0,97	670	0,32	-56,54	
+		3	Q7031902	1998 albums	rayoflight, mezzanine, americana, virtualxi, aquemini, yield, hellonasty, believe, adore, oceanborn	0,004	album	1842	0,97	540	0,3	-56,54	
+		3	Q7166155	1995 albums	thebends, jesuswept, post, thexfactor, daydream, insomniac, ozzmosis, outside, forbidden, balance	0,004	album	1648	0,99	521	0,32	-56,54	
+		3	Q9732871	2004 albums	encore, reisereise, vol3, mmfood, breakaway, chuck, once, medulla, thecure, thacarter	0,004	album	2588	0,98	748	0,29	-56,54	
+		3	Q7165868	1970 albums	letitbe, paranoid, dejavu, eltonjohn, abraxas, trespass, loaded, lizard, kilnhouse, pendulum	0,004	album	689	0,99	187	0,28	-56,54	
+		3	Q6695148	1999 albums	2001, millennium, issues, play, risk, thefragile, rainbow, humanclay, iam, hours	0,005	album	1978	0,97	578	0,3	-56,54	
+		3	Q9728126	1996 albums	load, pinkerton, aenima, evilempire, alleyezonme, thescore, roots, nocode, filosofem, atliens	0,005	album	1773	0,98	558	0,32	-56,54	
+		3	Q7166194	1997 albums	okcomputer, reload, beherenow, comeonover, sehnsucht, nimrod, homogenic, duderanch, butterfly, ultra	0,005	album	1815	0,97	547	0,31	-56,54	
+		3	Q20735643	2016 albums	lemonade, anti, blackstar, blonde, starboy, views, thegetaway, mixtape, joanne, endless	0,005066666667	album	2459	0,62	693	0,38	-56,54	
+		3	Q7166211	2002 albums	bytheway, onebyone, vril, stripped, heathen, therising, maladroit, nellyville, riotact, godsson	0,006	album	2198	0,98	659	0,3	-56,54	
+		3	Q7166218	2003 albums	meteora, stanger, revolution, blink182, inthezone, thinktank, elephunk, absolution, elephant, deftones	0,006	album	2432	0,98	739	0,31	-56,54	
+		3	Q6415485	1972 albums	vol4, harvest, foxtrot, baretrees, ben, eatapeach, pinkmoon, mardigras, schoolsout, machinehead	0,0072	album	756	0,99	233	0,31	-56,54	
+		3	Q7213560	1991 albums	nevermind, metallica, dangerous, innuendo, loveless, outoftime, kerplunk, emotions, human, spiderland	0,008	album	1261	0,98	386	0,31	-56,54	
+		3	Q7166188	1993 albums	motorcycle, debut, getagrip, zooropa, musicbox, janet, inutero, chaosad, duranduran, souvlaki	0,008	album	1404	0,98	415	0,3	-56,54	
+		3	Q4431809	2011 albums	takecare, mixtape, imwithyou, section80, myloxyloto, lulu, upallnight, bornthisway, goblin, thefall	0,009066666667	album	3098	0,72	831	0,31	-56,54	
+		3	Q6544302	2013 albums	yeezus, beyonce, artpop, mixtape, paramore, bangerz, kissland, prism, yourstruly, thenextday	0,009066666667	album	2897	0,68	874	0,37	-56,54	
+		3	Q30649383	2018 albums	kamikaze, astroworld, mixtape, scorpion, sweetener, prequelle, queen, camila, swimming, daytona	0,009066666667	album	1886	0,63	586	0,39	-56,54	
+		3	Q7166154	1994 albums	dookie, vitalogy, smash, parklife, motleycrue, purple, monster, mellowgold, awake, mylife	0,01	album	1611	0,98	519	0,33	-56,54	
+		3	Q7166130	1990 albums	violator, painkiller, goo, tyr, crazyworld, blackalbum, rustinpeace, bossanova, empire, behaviour	0,01	album	1161	0,98	384	0,33	-56,54	
+		3	Q24897136	2017 albums	reputation, damn, dualipa, mixtape, ctrl, revival, 444, flowerboy, melodrama, witness	0,01106666667	album	2531	0,56	681	0,38	-56,54	
+		3	Q7166259	1969 albums	abbeyroad, ummagumma, letitbleed, tommy, davidbowie, more, greenriver, deeppurple, thenplayon, beckola	0,012	album	723	0,99	187	0,26	-56,54	
+		3	Q9729708	2000 albums	kida, whitepony, music, stankonia, renegades, warning, voodoo, ratedr, blackblue, holywood	0,012	album	2005	0,97	646	0,33	-56,54	
+		3	Q6593109	Odia writers	jayadeva, manojdas, saraha, bhimabhoi, saraladas, saraladasa, balaramdas, pratibharay, luipa, radhanathray	0,004	human	200	0,75	3	0,02	-56,74	
+		3	Q7138540	2004 manga	dgrayman, souleater, reborn, kinnikuman, blame, muvluv, luckystar, cutiehoney, air, sekirei	0,01	manga	217	0,82	50	0,23	-57,17	
+		3	Q7138519	2003 manga	deathnote, xxxholic, shamanking, gintama, souleater, kurosagi, muvluv, yotsuba, basilisk, pluto	0,01	manga	166	0,88	43	0,26	-57,17	
+		3	Q7037866	1981 deaths	bobmarley, anwarsadat, joelouis, adamwalsh, moshedayan, nataliewood, veraellen, savitri, terryfox, bobbysands	0,004	human	5080	0,99	131	0,03	-57,3	
+		3	Q6937995	1975 deaths	susancurtis, pkrosy, ummkulthum, kkamaraj, eisakusato, moehoward, rodserling, larryfine, grahamhill, timbuckley	0,006	human	4818	0,99	154	0,03	-57,3	
+		3	Q6615329	1969 deaths	sharontate, hochiminh, brianjones, judygarland, madhubala, liushaoqi, jaysebring, ottodix, jackkerouac, janpalach	0,006	human	4786	0,99	138	0,03	-57,3	
+		3	Q6581609	1993 deaths	brandonlee, frankzappa, jameshunt, arthurashe, euronymous, ggallin, billbixby, cantinflas, fredgwynne, pabloescobar	0,006	human	6096	0,99	200	0,03	-57,3	
+		3	Q6553818	1992 deaths	bennyhill, samkinison, samwalton, isaacasimov, dickyork, jamesewebb, johncage, joseferrer, robertreed, lixiannian	0,006	human	5860	0,99	172	0,03	-57,3	
+		3	Q6553799	1991 deaths	milesdavis, drseuss, jiangqing, oonaoneill, dead, reddfoxx, leeremick, kencurtis, frankcapra, rajivgandhi	0,008	human	5528	0,99	178	0,03	-57,3	
+		3	Q6937006	1944 deaths	rezashah, edvardmunch, ludwigbeck, lupevelez, marcbloch, berthabenz, glennmiller, asmahan, maxjacob, haroldlowe	0,008	human	5095	0,99	102	0,02	-57,3	
+		3	Q6938449	1985 deaths	yulbrynner, rockhudson, enverhoxha, helenblair, rogermaris, cusdamato, dianfossey, annebaxter, orsonwelles, vasylstus	0,008	human	5353	0,99	166	0,03	-57,3	
+		3	Q6938369	1983 deaths	garrincha, davidniven, joanmiro, luisbunuel, gailmathews, herge, meyerlansky, bearbryant, roydemeo, klausnomi	0,008	human	5143	0,99	165	0,03	-57,3	
+		3	Q6937936	1974 deaths	debrakent, donnamanson, nancywilcox, juanperon, casselliot, nickdrake, edsullivan, pengdehuai, earlwarren, jackbenny	0,008	human	4719	1	149	0,03	-57,3	
+		3	Q6561488	1986 deaths	carygrant, barryseal, desiarnaz, giacarangi, donnareed, phillynott, olofpalme, roycohn, lenbias, coluche	0,008	human	5387	0,99	163	0,03	-57,3	
+		3	Q7021195	1963 deaths	edithpiaf, cslewis, patsycline, webdubois, johnfkennedy, rikidozan, nazmhikmet, erniedavis, jdtippit, robertfrost	0,01	human	4257	1	121	0,03	-57,3	
+		3	Q6561517	1966 deaths	waltdisney, kenmiles, lennybruce, sayyidqutb, homijbhabha, edwynn, jeanarp, baichongxi, laoshe, dtsuzuki	0,01	human	4555	1	115	0,03	-57,3	
+		3	Q6938403	1984 deaths	anseladams, edgein, marvingaye, raykroc, jamesmason, jeffdoucet, dianadors, pauldirac, kdjadhav, ylmazguney	0,01	human	5141	0,99	166	0,03	-57,3	
+		3	Q6937556	1967 deaths	cheguevara, puyi, jackruby, vivienleigh, toto, gusgrissom, luigitenco, haroldholt, otisredding, bertlahr	0,01	human	4644	1	146	0,03	-57,3	
+		3	Q6937238	1957 deaths	eliotness, diegorivera, agakhaniii, oliverhardy, levrebet, bugsmoran, judytyler, karlplagge, louisbmayer, maxophuls	0,012	human	3841	1	111	0,03	-57,3	
+		3	Q6936940	1940 deaths	leontrotsky, jjthomson, paulklee, udhamsingh, italobalbo, kbhedgewar, isaacbabel, robertwadlow, tommix, carlbosch	0,012	human	3797	1	115	0,03	-57,3	
+		3	Q6938082	1977 deaths	robertwinch, bingcrosby, elvispresley, marcbolan, anthonyeden, anaisnin, stevebiko, mariacallas, peterfinch, aliatoukan	0,012	human	4924	1	130	0,03	-57,3	
+		3	Q6937059	1948 deaths	baberuth, hidekitojo, dwgriffith, mariamandl, mahatmagandhi, hugoboss, milevamaric, karlbrandt, franzlehar, kankikuchi	0,012	human	3548	1	90	0,03	-57,3	
+		1	Q4043722	Ethnic groups in the Democratic Republic of the Congo	lubapeople, twa, akapeople, kongopeople, mbutipeople, zandepeople, hemapeople, yakapeople, alurpeople, mongopeople	0,006	ethnic group	72	0,78	2	0,03	-57,56	
+		1	Q6642247	Tallest buildings in Johor Bahru	skyscraper, merdeka118, komtar, petronastowers, theastaka, ilhamtower, maxistower, telekomtower, theexchange106, plazarakyat	0,01	building	67	0,52	7	0,1	-58,35	
+		0	Q6647142	1913 births	geraldford, rosaparks, jimmyhoffa, jesseowens, xizhongxun, albertcamus, josefbican, alanladd, vivienleigh, jeanmarais	0,008	human	7267	1	248	0,03	-58,37	
+		0	Q6587153	1495 births	johnofgod, letngdc, johnbale, emperorgonara, matteobassi, janvanscorel, giampietrino, marcosdeniza, hanslufft, pargalibrahimpasha	0,008	human	86	1	3	0,03	-58,37	
+		0	Q6647191	1918 births	kenmiles, bettyford, anwarsadat, annamani, spiroagnew, samwalton, idalupino, benjohnson, petershaw, annegwynne	0,008	human	7212	1	233	0,03	-58,37	
+		0	Q6647132	1912 births	alanturing, evabraun, juliachild, kimilsung, genekelly, kimphilby, karlmalden, johncage, carloponti, joseferrer	0,01	human	7347	1	244	0,03	-58,37	
+		0	Q6490926	1906 births	edgein, puyi, johnhuston, ilsekoch, jamesewebb, kurtgodel, wanrong, rknarayan, sayyidqutb, bugsysiegel	0,01	human	6627	1	196	0,03	-58,37	
+		0	Q6647022	1904 births	carygrant, drseuss, bfskinner, peterlorre, jeangabin, jrdtata, kuvempu, navaltata, evecurie, pabloneruda	0,01	human	6349	1	168	0,03	-58,37	
+		0	Q6647036	1905 births	simohayha, henryfonda, aynrand, aldogucci, gretagarbo, fredtrump, clarabow, myrnaloy, dhyanchand, albertspeer	0,01	human	6589	1	185	0,03	-58,37	
+		0	Q6646994	1902 births	anseladams, raykroc, karlpopper, carlrogers, pauldirac, nazmhikmet, larryfine, willgeer, ireneryan, meyerlansky	0,01	human	6266	1	177	0,03	-58,37	
+		0	Q6647051	1907 births	fridakahlo, johnwayne, linbiao, pavelfitin, bhagatsingh, whauden, herge, geneautry, hamedgohar, raymilland	0,01	human	6754	1	214	0,03	-58,37	
+		0	Q6647168	1917 births	deanmartin, desiarnaz, jackkirby, janewyman, joanclarke, melferrer, johnfkennedy, lenahorne, bourvil, dinahshore	0,01	human	6933	1	213	0,03	-58,37	
+		0	Q9704085	1911 births	babavanga, jackruby, jeanharlow, dannykaye, cantinflas, ashokkumar, karimlala, emilcioran, lucilleball, ronaldreagan	0,01	human	6919	1	189	0,03	-58,37	
+		0	Q6646807	1890 births	hochiminh, stanlaurel, hplovecraft, alfredjodl, fritzlang, karelcapek, manray, grouchomarx, kurtlewin, robertley	0,012	human	5371	1	152	0,03	-58,37	
+		0	Q5834038	1879 births	leontrotsky, paulklee, periyar, anjunggeun, emforster, kartini, willrogers, almamahler, maxschreck, chenduxiu	0,012	human	4417	1	129	0,03	-58,37	
+		0	Q6646955	1900 births	erichfromm, luisbunuel, hansfrank, jeanarthur, helenhayes, edithfrank, karlwolff, mariatelkes, kurtweill, nicholaseden	0,012	human	6104	1	178	0,03	-58,37	
+		0	Q6646925	1896 births	jeanpiaget, ruthgordon, imrenagy, italobalbo, drbendre, oswaldmosley, paulahitler, erichkoch, levvygotsky, georgyzhukov	0,012	human	5547	1	140	0,03	-58,37	
+		0	Q6424770	1548 births	maryseymour, giordanobruno, yoshihime, odanagamasu, odanobukane, hondatadakatsu, saitotatsuoki, johnnorden, johnfinch, biancacappello	0,012	human	116	1	4	0,03	-58,37	
+		0	Q6646969	1901 births	waltdisney, hirohito, clarkgable, sukarno, garycooper, rudolfhoss, eisakusato, edsullivan, vehbikoc, zeppomarx	0,012	human	5857	1	194	0,03	-58,37	
+		1	Q6621293	Former teachers at the Conservatoire de Paris	adolphesax, cesarfranck, gabrielfaure, adolpheadam, pierrerode, marceldupre, charlesgounod, julesmassenet, marcelmule, yvesnat	0,012	human	89	0,85	3	0,03	-58,68	
+		1	Q6639795	Solo piano compositions by Robert Schumann	carnaval, faesonata, kinderszenen, papillons, waldszenen, symphonyno3, genoveva, symphonyno4, symphonyno1, fantasieinc	0,008	musical work/composition	85	0,82	6	0,1	-59,04	
+		1	Q18127308	Constituencies of the Telangana Legislative Assembly	munugode, goshamahal, palair, nalgonda, huzurabad, gajwel, dubbak, nampally, siddipet, khammam	0,01	constituency of the Telangana Legislative Assembly	232	0,73	14	0,06	-59,25	
+		1	Q9826430	British Army personnel of World War II	kenmiles, paddymayne, davidniven, bennyhill, anthonyeden, bruceshand, petershaw, johnmills, mattbusby, johngrigg	0,006	human	3823	0,99	184	0,05	-59,32	
+		4	Q7036503	Ancient Greek buildings and structures in Athens	parthenon, lyceum, erechtheion, propylaea, propylaia, kerameikos, stoapoikile, cynosarges, peripatos, stoaofzeus	0,004	architectural structure	48	0,83	3	0,06	-59,33	
+		1	Q6589164	Malians	mansamusa, ayanakamura, jeantigana, salifkeita, seydoukeita, morykante, abubakariii, modibokeita, djimitraore, habibkoite	0,008	human	153	0,61	9	0,06	-59,34	
+		2	Q6620881	Football clubs in the United Arab Emirates	alainfc, sharjahfc, sharjahsc, alnasrsc, alwahdafc, alwaslfc, kalbaclub, baniyassc, fujairahfc, ajmanclub	0,008	sports club, association football club	87	0,32	16	0,33	-59,43	
+		4	Q610902	Symphonies by Wolfgang Amadeus Mozart	symphonyno40, luciosilla, symphonyno41, symphonyno1, symphonyno25, ilrepastore, symphonyno39, symphonyno38, symphonyno35, symphonyno36	0,01	musical work/composition	130	0,62	0	0	-59,45	
+		4	Q6278609	1930s cars	1932ford, austin7, bmw328, mgttype, fiat508, gaza, 1937ford, peugeot201, cord810812, tatrav570	0,004	automobile model	197	0,74	12	0,06	-59,63	
+		1	Q7603231	State Governors in the Nigerian Third Republic	saniabacha, jollynyame, mosesadasu, felixibru, ogbonnayaonu, evanenwerem, abubakaraudu, saidubarda, ibrahimbabangida, michaelotedola	0,012	human	32	0,82	1	0,03	-60,01	
+		0	Q1033205	Deaths in 1998	polpot, sonnybono, falco, hide, carlwilson, johnderek, jeanmarais, robpilatus, fritzhonka, tedhughes	0,008	human	6230	0,99	230	0,04	-60,03	
+		0	Q614395	Deaths in 1997	dodifayed, johndenver, antonlavey, briankeith, felakuti, chrisfarley, boi, jeffbuckley, juzoitami, motherteresa	0,01	human	6093	0,99	220	0,04	-60,03	
+		0	Q1033202	Deaths in 1996	ntramarao, babavanga, tupacshakur, carlsagan, genekelly, greenboots, jamesburke, tinytim, spiroagnew, ottistoole	0,01	human	6135	0,99	186	0,03	-60,03	
+		0	Q259232	Deaths in 2001	aaliyah, jacklemmon, ananddighe, thuytrang, annamani, joeyramone, josefbican, ashokkumar, noahyates, rknarayan	0,012	human	6558	0,99	199	0,03	-60,03	
+		1	Q3042442	Compositions by Franz Schubert by genre	avemaria, erlkonig, d759, dieforelle, winterreise, d849, d944, d810, symphonyno8, rosamunde	0,008	musical work/composition	143	0,47	7	0,05	-60,06	
+		3	Q289601	1951 in film	rashomon, biopic, quovadis, catpeople, scrooge, awaara, 42ndstreet, theidiot, showboat, bellissima	0,01	film	259	0,25	69	0,27	-60,18	
+		0	Q1702361	Municipalities in Rio Grande do Norte	mossoro, parnamirim, caico, cearamirim, macaiba, tibaudosul, touros, extremoz, parelhas, angicos	0,002	municipality of Brazil	170	0,66	9	0,05	-60,23	
+		1	Q42417151	Films featuring the deaf and hard of hearing	eternals, coda, orphan, creediii, creed, babydriver, creedii, wardrama, the355, knowing	0,008	film	176	0,43	66	0,39	-60,23	
+		1	Q8497262	Governors of Rio Grande do Sul	romeuzema, raquellyra, tarsogenro, getuliovargas, pedrosimon, eduardoleite, oliviodutra, ibaneisrocha, paulodantas, leonelbrizola	0,008	human	52	0,44	6	0,14	-60,47	
+		1	Q19893151	People subject to banning orders under apartheid	stevebiko, elagandhi, olivertambo, ruthfirst, fatimameer, deborahlevy, yusufdadoo, donaldwoods, waltersisulu, helenjoseph	0,008	human	59	0,65	3	0,05	-60,68	
+		4	Q6604471	X-Men comics	manga, houseofm, xmenvol1, destinyofx, whatif, dawnofx, wolverine, oldmanlogan, decimation, uncannyxmen	0,01	comics	141	0,53	36	0,27	-60,93	
+		4	Q17072188	European cheeses with protected geographical status	burrata, cheddar, gorgonzola, roquefort, feta, provolone, manchego, edam, edamcheese, bryndza	0,012	cheese	160	0,57	24	0,15	-61,48	
+		4	Q8184655	2001 horror films	hannibal, theothers, pulse, jasonx, joyride, frailty, valentine, dagon, session9, down	0,01	film	78	0,99	29	0,37	-61,6	
+		4	Q18177024	2016 horror films	terrifier, theboy, raw, hush, lightsout, blairwitch, cell, morgan, theshallows, theforest	0,01	film	179	0,99	51	0,29	-61,6	
+		1	Q8356993	Charter 77 signatories	vaclavhavel, janpatocka, jantiska, jiikola, olgahavlova, pavelkohout, milanuhde, dasavokata, janruml, jansokol	0,004	human	95	0,91	2	0,02	-62,31	
+		1	Q97430943	Films about Orthodox and Hasidic Jews	yentl, thevigil, thechosen, disobedience, oneofus, thedybbuk, thesecrets, menashe, kadosh, ushpizin	0,008	93Queen, And Thou Shalt Love, Arranged, Autonomies, Wolkenbruch, Blacks and Jews, Campfire, A Cantor's Tale, The Chosen, City of Joel, Code of Silence, Disobedience, The Dybbuk, The Dybbuk, Eyes Wide Open, Felix and Meira, Fiddler on the Roof, Fill the Void, Fires in the Mirror, The Frisco Kid, A Gesheft, Gett: The Trial of Viviane Amsalem, God's Neighbors, Le Golem, Gut Shabbes Vietnam, Ha-Chatzer, Hiding and Seeking, In Satmar Custody, Kadosh, Kathmandu, Keep Not Silent, King of Crown Heights, Kipat Barzel, Kosher Love, Leaving the Fold, Left Luggage, Let There Be Light, A Life Apart, Little Jerusalem, Matir Agunot, Menashe, Mendy: A Question of Faith, My Father My Lord, Nayes, One of Us, Outback Rabbis, Paper Dolls, A Price Above Rubies, Project 2x1, Punk Jews, The Rabbi Goes West, Red Cow, The Return of Sarah's Daughters, Sacred Sperm, Say Amen, The Secrets, Shekinah Rising, Shtisel, A Stranger Among Us, Strictly Jewish: The Secret World of Adass Israel, Tevye and His Seven Daughters, Tevye, The Return: A Hasidic Experience, Tikkun, Time of Favor, A Touch Away, Trembling Before G-d, Twist of Faith, Unorthodox (miniseries), The Unorthodox, Ushpizin, The Vigil, The Wedding Plan, Welcome to the Waks Family, The Women's Balcony, The Yankles, Yentl, Yoel, Israel & Pashkavils, film	69	0,83	17	0,25	-62,34	
+		1	Q17097489	Awards and nominations received by Viola Davis	baftas, tonyaward, tonyawards, grammyawards, betawards, academyawards, obieawards, saturnawards, aactaawards, tcaawards	0,01	award	139	0,31	10	0,07	-62,57	
+		0	Q18109800	Roles and awards of Arshad Warsi	pagalpanti, chocolate, dhamaal, hulchul, golmaal3, jollyllb, sunday, durgamati, ishqiya, faltu	0,002	film	58	0,39	7	0,12	-63,34	
+		1	Q6597985	Speakers of the Tamil Nadu Legislative Assembly	kpitchandi, kkalimuthu, mappavu, djayakumar, krajaram, spadithanar, pdhanapal, mpsivagnanam, phpandian, vpduraisamy	0,008	human	59	0,48	0	0	-64,14	
+		1	Q1828895	AMD Athlon 64 processors	ryzen, epyc, athlon, athlonmp, athlonxp, athlon64x2, phenomii, threadripper, athlon64, amdfx	0,01	microprocessor	27	0,21	8	0,3	-64,64	
+		1	Q6641509	Stratigraphic units with dinosaur body fossils	cretaceous, mesozoic, cenomanian, campanian, tithonian, albian, turonian, aptian, barremian, oxfordian	0,008	stratigraphic unit	184	0,76	5	0,03	-65,23	
+		1	Q105973503	ZEE5 original films	unhinged, radhe, blurr, lovehostel, tadka, thepower, kaagaz, lost, bobbiswas, mathil	0,006	film	80	0,75	24	0,3	-65,63	
+		1	Q4436303	Programs broadcast by 2x2	familyguy, southpark, winxclub, futurama, thesimpsons, rwby, archer, dragonball, tomandjerry, thejetsons	0,01	television program	420	0,85	188	0,45	-66,23	
+		1	Q15184628	Bangladeshi Sunni Muslim scholars of Islam	abdurrahim, rezaulkarim, azizulhaque, fazlulkarim, mamunulhaque, ubaidulhaq, ruhulamin, ziauddin, mahmudulhasan, ayubali	0,008	human	81	1	3	0,04	-66,68	
+		1	Q96949985	Vic (name)	vicmorrow, vicdamone, vicchou, vicreeves, vikbarn, victayback, vicfuentes, vicsotto, vicmignogna, viksahay	0,002	human, human, human, human	47	0,76	3	0,06	-66,69	
+		1	Q16249393	J. Jayalalithaa filmography	adimaipenn, izzat, namnaadu, yaarnee, deivamagan, olivilakku, enannan, naan, manmauji, jesus	0,008	film	122	0,77	9	0,07	-66,78	
+		1	Q16981271	NCAA Division I FBS football stadiums	rosebowl, alamodome, kylefield, ohiostadium, ryanfield, shistadium, sunbowl, faustadium, folsomfield, ricestadium	0,007333333333	stadium	134	0,2	55	0,42	-66,89	
+		1	Q25429260	Municipalities in Mato Grosso by HDI	cuiaba, caceres, novamutum, confresa, sorriso, querencia, aripuana, campoverde, juina, pocone	0,008	municipality of Brazil	151	0,78	18	0,12	-67,03	
+		1	Q963981	Municipalities in Mato Grosso do Sul	treslagoas, dourados, corumba, campogrande, pontapora, aquidauana, paranaiba, navirai, amambai, bataguassu	0,008	municipality of Brazil, city	83	0,38	10	0,13	-67,17	
+		1	Q7908423	People from Brașov	ioniriac, petermaffay, orban, brassai, coresi, ludovicorban, annpirvu, lajosaprily, dananalbaru, tefancalia	0,01	human	143	0,92	2	0,02	-67,32	
+		1	Q7857515	1992 animated films	aladdin, coolworld, bebeskids, sinbad, food, frogbaseball, adam, pjsparkles, freddieasfro7, themagicvoyage	0,012	animated film, film	29	0,94	9	0,32	-67,85	
+		1	Q6596240	Sahitya Akademi Award winners for Marathi	kusumagraj, gakulkarni, anandyadav, indirasant, gndandekar, laxmanmane, puladeshpande, ranjitdesai, nandakhare, irawatikarve	0,01	human	102	0,44	1	0,02	-67,92	
+		3	Q9930114	Cars introduced in 2000	minihatch, volvov70, volvos60, fordescape, hondacivic, arielatom, suzukiswift, lotusexige, bmwz8, acuramdx	0,01	automobile model	57	0,86	12	0,21	-68,22	
+		3	Q9930218	Cars introduced in 2002	mazdarx8, nissan350z, mazda6, kiasorento, volvoxc90, audirs6, mazda2, isuzudmax, hummerh2, toyotavios	0,01	automobile model	73	0,88	19	0,26	-68,22	
+		3	Q9930303	Cars introduced in 2005	toyotareiz, hondacivic, fordfusion, toyotaaygo, hummerh3, citroenc1, citroenc6, peugeot107, mazdamx5, porsche987	0,012	automobile model	84	0,88	16	0,2	-68,22	
+		1	Q8646068	Regicides	ramai, jehu, narcissus, ricimer, ehud, alboin, dingane, zimri, milosobilic, gundobad	0,012	human	63	0,88	6	0,1	-68,55	
+		2	Q5449173	Films depicting Latin American military dictatorships	colonia, missing, thetwopopes, salvador, bananas, theclan, machuca, underfire, romero, marighella	0,008	film	134	0,73	30	0,28	-68,6	
+		1	Q8639130	Recipients of the title of Merited Artist of Ukraine	tinakarol, anilorak, ruslana, potap, irynabilyk, ivobobul, kamaliya, olehskrypka, allakudlai, oksanashvets	0,012	human	76	0,96	5	0,07	-69,36	
+		1	Q7585570	TVXQ albums discography	livealbum, remixalbum, mirotic, triangle, risingsun, tone, soundtrackalbum, analogtrip, catchme, humanoids	0,008	album	60	0,42	13	0,42	-69,49	
+		4	Q8139413	1940s war films	paisan, airforce, romeopencity, crashdive, bataan, sergeantyork, wakeisland, bonvoyage, twosoldiers, army	0,01	film	108	0,98	12	0,11	-70,13	
+		1	Q17109703	Programs previously broadcast by Intercontinental Broadcasting Corporation	seinfeld, tomandjerry, familyties, gunsmoke, candycandy, kungfu, thesmurfs, voltesv, getterrobo, partyoffive	0,01	television program	166	0,59	48	0,29	-70,22	
+		1	Q6635345	Programs broadcast by Syfy	manifest, doctorwho, lost, twinpeaks, thexfiles, theexpanse, charmed, futurama, chucky, spartacus	0,01	television program	432	0,38	209	0,5	-70,84	
+		1	Q8293515	Military engagements of the Great Northern War in chronological order	battleofnarva, battleofpoltava, sackofbaturyn, siegeofnarva, battleofnapue, battleoflesnaya, battleofkliszow, battleofkalisz, siegeofveprik, battleofstaket	0,008	battle	57	0,65	0	0	-70,98	
+		1	Q4433361	Gillingham F.C. managers	manager, tonypulis, steveevans, neilharris, glennroeder, petertaylor, martinallen, iffyonuora, johngorman, iwanroberts	0,012	human	108	0,39	13	0,23	-71,4	
+		1	Q8552750	Iranian Bahá'ís	hushangebtehaj, shoghieffendi, hosseinamanat, nabiliazam, varqa, shabnamtolouei, badi, fariborzsahba, ibniasdaq, farhangholakouee	0,004	human	53	0,95	2	0,04	-71,99	
+		1	Q67186986	Caio (name)	caiocastro, caioblat, caiojunior, caiocollet, caioribeiro, caioterra, caiocesar, caiobonfim, caiosouza, caioalves	0,01	human	32	0,82	2	0,06	-72,2	
+		1	Q16255089	Vanisri filmography	premnagar, pooja, bobbiliraja, bhishma, gangamanga, aradhana, vanirani, anugraham, kondura, babu	0,008	film	130	0,89	8	0,06	-72,23	
+		1	Q16254493	Sudeepa filmography	vikrantrona, eega, naanee, dabangg3, puli, kotigobba3, thevillain, ricky, pailwaan, kotigobba2	0,01	film	89	0,74	20	0,23	-72,23	
+		1	Q383248	Bishops of Poznań	augusthlond, jordan, juliuszpaetz, bogumilus, unger, janwezyk, sigismunditheold, jerzystroba, jankropidlo, edmunddalbor	0,008	human	140	0,78	12	0,15	-72,62	
+		1	Q6563085	Ayyubid rulers	saladin, baibars, alkamil, aybak, aladil, aladili, shirkuh, abulfida, abulfeda, shajaraldurr	0,004	human	56	0,51	3	0,05	-72,9	
+		1	Q6610747	Colloquial names for universities and colleges in the United States	dukeuniversity, bostoncollege, unioncollege, brownuniversity, ithacacollege, tuftsuniversity, ohiouniversity, lawrencetech, dartmouthcollege, brynmawrcollege	0,004	university	480	0,84	219	0,46	-73,05	
+		1	Q3243150	Origamists	sadakosasaki, erikdemaine, tomokofuse, robertjlang, migueldeunamuno, ericjoisel, davidahuffman, junmaekawa, akirayoshizawa, alicegray	0,002	human	79	0,83	3	0,06	-73,15	
+		1	Q7018824	Naukograds	innopolis, sarov, seversk, khimki, dubna, obninsk, biysk, miass, michurinsk, snezhinsk	0,012	city or town, science park, human settlement	44	0,92	6	0,14	-73,15	
+		1	Q11722867	Göktürk family tree	kultigin, bilgaqaan, khatun, tonyukuk, istami, buminkhagan, buminqaghan, bilgekhagan, tardu, mukankhagan	0,006	human	88	0,56	3	0,03	-73,41	
+		1	Q7037723	Mid-size cars	mazda6, lexusgs, citroends, audirs6, peugeot405, audi80, peugeot406, audi100, fordsierra, fiat124	0,01	automobile model	294	0,93	35	0,13	-73,44	
+		1	Q1839419	Archbishops of Gniezno and primates of Poland	jozefglemp, augusthlond, janlaski, jakubswinka, bogumilus, ignacykrasicki, wojciechpolak, stefanwyszynski, mikolajtraba, janwezyk	0,008	human	96	0,87	2	0,02	-73,46	
+		3	Q7163628	1990s American television series	nflonfox, toprank, nflonabc, firingline, vh1divas, nhlonabc, thisoldhouse, meetthepress, superstars, hourofpower	0,002	television series	112	0,64	23	0,21	-73,58	
+		3	Q8198944	2010s American television series	wweraw, nflonfox, nbaonabc, nfloncbs, impact, toprank, crosstalk, wwesmackdown, braingames, nflonabc	0,002	television series	134	0,6	30	0,22	-73,58	
+		3	Q6799243	2000s American television series	wweraw, nflonfox, nbaonabc, nfloncbs, somostuyyo, toprank, crosstalk, wwesmackdown, nflonabc, vh1divas	0,008	television series	117	0,61	29	0,25	-73,58	
+		3	Q7163599	1980s American television series	dragnet, nfloncbs, toprank, nflonabc, firingline, thenfltoday, nflonnbc, thisoldhouse, meetthepress, superstars	0,01	television series	103	0,77	16	0,16	-73,58	
+		4	Q6605951	Animated television series of 1987	ducktales, firemansam, norakuro, bravestarr, bikkuriman, oxtales, lady, mapletown, zillion, spot	0,006	television program	62	0,43	13	0,21	-73,89	
+		3	Q18741124	Animated television series of 2016	carrossel, ejenali, kralsakir, oddbods, theloudhouse, zakstorm, bunnicula, simon, thelionguard, animals	0,008	television program	81	0,47	13	0,16	-73,89	
+		3	Q18142049	Animated television series of 2015	pjmasks, kidecats, superwings, webarebears, vixen, molang, thedeep, dinotrux, naturecat, puffinrock	0,008	television program	81	0,42	24	0,3	-73,89	
+		4	Q6605960	Animated television series of 1993	animaniacs, kidswb, madeline, bonkers, veggietales, mightymax, pokonyan, exosquad, familydog, bow	0,01	television program	63	0,32	21	0,33	-73,89	
+		1	Q28399468	Poets from Odisha	jayadeva, haldharnag, bhimabhoi, saraladasa, salabega, radhanathray, anantadasa, madhusudandas, balaramadasa, upendrabhanja	0,01	human	71	1	1	0,01	-73,96	
+		1	Q56292518	Companies of the United Kingdom A-J	bbc, volkswagen, walmart, unilever, ernstyoung, hsbc, shellplc, ferrerospa, bet365, guinness	0,004	business	546	0,67	187	0,34	-74,17	
+		1	Q6592895	Olympiacos F.C. managers	zico, paulobento, marcosilva, michel, olegblokhin, jacekgmoch, vitorpereira, oscargarcia, ewaldlienen, besnikhasi	0,004	human	135	0,57	3	0,04	-74,35	
+		3	Q8183133	2000s British television series	loosewomen, timeteam, robotwars, mastermind, thismorning, diysos, tfifriday, hardtalk, 100greatest, 5news	0,006	television series	92	0,89	18	0,2	-74,75	
+		0	Q52459178	Black films of the 2010s	getout, greenbook, creed, thehelp, flight, moonlight, fastfive, fences, afterearth, justmercy	0,002	film	214	0,6	104	0,5	-75,08	
+		0	Q8198981	2010s Russian television series	kitchen, ekaterina, themethod, sashatanya, interns, trace, comedyclub, univer, luntik, godunov	0,002	television series	62	0,67	23	0,37	-75,2	
+		1	Q17089017	Programs aired by Studio 23	doctorwho, ncis, lost, mrbean, thexfiles, smallville, charmed, futurama, castle, scrubs	0,008	television program	364	0,71	189	0,53	-75,34	
+		1	Q8732993	People from Ebonyi State	samueletoo, tekno, sinach, daveumahi, simonekpa, patoranking, chachaeke, chrisabani, nnamdiazikiwe, akanuibiam	0,008	human	77	0,87	4	0,09	-75,41	
+		1	Q17098761	Open-pit mines	mirnymine, bighole, cerrejon, sukari, berkeleypit, yanacocha, reddogmine, pascualama, grasbergmine, escondida	0,01	mine	82	0,36	5	0,06	-76,43	
+		1	Q7050057	Nora Aunor filmography	himala, tbirdatako, televisionfilm, thywomb, elpresidente, bona, naglalayag, ikawayakin, taklub, sidhi	0,01	film	34	0,24	8	0,24	-76,45	
+		3	Q6315252	2000s animated television series	kikoriki, upinipin, luntik, chhotabheem, disneyclub, cubix, pepee, supastrikas, bakkar, block13	0,01	television series	60	0,66	11	0,18	-76,49	
+		1	Q15100942	People from Tyler, Texas	sandyduncan, nikomoon, taymoney, louiegohmert, paulcauthen, bobluman, jackwrather, dooleywilson, dansmoot, ryanbrown	0,002	human	90	0,98	8	0,09	-76,66	
+		3	Q12733945	Comedy films of the 1980s	thegoonies, gremlins, comedyfilm, airplane, heathers, brazil, evildeadii, beetlejuice, big, spaceballs	0,002	film	603	0,64	271	0,45	-77,45	
+		3	Q6611869	Comedy films of the 1970s	comedyfilm, thesting, kaiju, anniehall, mash, network, 1941, beingthere, papermoon, heistfilm	0,008	film	215	0,67	72	0,34	-77,45	
+		3	Q6611871	Comedy films of the 1950s	comedyfilm, kaiju, sabrina, heistfilm, funnyface, harvey, spyfilm, busstop, houseboat, mononcle	0,01	film	144	0,58	32	0,22	-77,45	
+		4	Q7007966	Musical groups established in 1961	thezombies, thebeachboys, thetoys, goldenearring, thecasuals, theessex, bintangs, theexciters, theearls, thespotnicks	0,006	musical group	68	0,82	8	0,12	-77,62	
+		1	Q6569405	Dundee United F.C. managers	manager, jimgoodwin, jackross, liamfox, tamcourts, billydodds, ianmccall, jimmclean, craiglevein, ivangolac	0,004	human	89	0,44	7	0,15	-78,03	
+		1	Q8921932	Conservative Party (UK) politicians	solcampbell, guygibson, tomharwood, davidbull, leoblair, timcollins, davidstarkey, dianejames, paulnuttall, dereklaud	0,008	human	104	0,98	8	0,08	-78,5	
+		1	Q724926	SNCB/NMBS classes	traxx, 462, 440, 460, 060, 060t, 280, 260, 442, 2100	0,012	railway traction vehicle	59	0,48	10	0,18	-78,86	
+		1	Q8751230	People from Thanh Hóa province	lekhphieu, thha, phmminhchinh, nguynhoang, buitindng, levitlam, tohuyra, trnhkim, phngthanh, hoangthuy	0,012	human	49	1	1	0,02	-78,86	
+		1	Q23681128	Italian YouTubers	davie504, frankmatano, bellofigo, favij, sio, michelebravi, pjliguori, mauriziomerluzzo, massimopolidoro, albertonaska	0,008	human	11	0,92	7	0,64	-79,08	
+		1	Q16346648	Shakib Khan filmography	nabab, password, shikari, naqaab, bossgiri, bir, bidrohi, golui, chalbaaz, nababllb	0,006	film	86	0,46	16	0,19	-80,24	
+		1	Q6826615	People from Timișoara	johnhunyadi, alfredmusil, laszlotkes, hertamuller, palkinizsi, ioanslavici, gyorgydozsa, dannegru, pippospano, janosbolyai	0,004	human	167	0,84	1	0,01	-81,14	
+		1	Q115610401	Devolver Digital games	fallguys, gris, weirdwest, trektoyomi, askiisoft, katanazero, broforce, inscryption, scum, deathsdoor	0,004	video game, Devolver Digital	132	0,61	33	0,25	-81,31	
+		1	Q20814430	Ambareesh filmography	drama, kurukshetra, premaloka, bulbul, priya, diggajaru, ambareesha, sangliyana, antha, vayuputra	0,012	film	120	0,76	13	0,11	-81,44	
+		2	Q8766975	Plug-in hybrid vehicles	toyotarav4, bmw3series, hondacrv, bmwi8, audia8, seatleon, lexusrx, audiq7, volvoxc90, volvos60	0,008	automobile model	119	0,63	47	0,42	-81,54	
+		1	Q4834206	B. Saroja Devi filmography	aadhavan, oncemore, paigham, padagotti, bhookailas, sasural, aalayamani, nireekshana, agniips, anbevaa	0,008	film	139	0,72	5	0,04	-82,06	
+		4	Q8167386	1985 American television series debuts	macgyver, thejetsons, 227, jem, perrymason, thundercats, robotech, itsaliving, carebears, streethawk	0,012	television series	98	0,84	42	0,43	-83,1	
+		1	Q1840020	Mountain groups in the Alpine Club classification of the Eastern Alps	zugspitze, triglav, ortler, pizbernina, dachstein, wildspitze, hochkonig, grossglockner, hochfeiler, hohewarte	0,008	mountain	72	0,4	7	0,1	-83,32	
+		1	Q107920639	Jisshu Sengupta filmography	sitaramam, acharya, bheeshma, barfi, sadak2, maestro, thepower, piku, mardaani2, mardaani	0,008	film	70	0,62	18	0,26	-83,74	
+		1	Q6624892	Land-grant universities	virginiatech, yaleuniversity, brownuniversity, purdueuniversity, cornelluniversity, auburnuniversity, texasamuniversity, rutgersuniversity, clemsonuniversity, universityofidaho	0,012	university	80	0,62	48	0,6	-84,41	
+		1	Q632158	Songs recorded by Die Ärzte	lullaby, kiss, westerland, danke, junge, elke, livezuspat, zuspat, lasseredn, bittebitte	0,01	song	79	0,3	8	0,2	-84,89	
+		1	Q8556908	Israeli conductors (music)	lahavshani, nurithirsh, itzhakperlman, danieloren, arievardi, gilshohat, dovseltzer, yoellevi, danielbarenboim, yoelgamzou	0,008	human	51	1	1	0,02	-85,01	
+		2	Q8188232	2004 anime television series debuts	bleach, initiald, blackjack, kinnikuman, yugiohgx, saiyuki, phoenix, major, area88, zipang	0,004	Japanese television series	80	0,71	23	0,29	-85,08	
+		2	Q8192960	2007 anime television series debuts	kaiji, ikkitousen, mononoke, shugochara, bigwindup, dennohcoil, genshiken, minamike, bluedragon, gurrenlagann	0,012	Japanese television series	79	0,64	19	0,24	-85,08	
+		1	Q7064651	South Korean manhwa artists	kimjunggi, boichi, kian84, hailkwon, kangfull, huhyoungman, wonsooyeon, guiyeoni, kimpoong, leehyunse	0,01	human	36	1	3	0,08	-85,12	
+		1	Q6605542	Albums which have spent the most weeks on the UK Albums Chart	thriller, rumours, nevermind, 1989, lover, bad, offthewall, fineline, madonna, thefame	0,012	album	168	0,42	79	0,54	-85,32	
+		1	Q1864516	People from Königsberg	immanuelkant, etahoffmann, carllinnaeus, hannaharendt, emmagoldman, yitzhakrabin, brunotaut, eugensandow, davidhilbert, ottobraun	0,012	human	139	0,71	4	0,03	-85,74	
+		1	Q7234403	People from Chihuahua (state)	omarchaparro, menny, ervillebaron, polourias, pascualorozco, jesushelguera, estherorozco, nachogalindo, miguelacevesmejia, alfredvrascon	0,01	human	57	0,95	3	0,05	-85,8	
+		1	Q65043858	Jaishankar filmography	valimai, thalapathi, wohkaunthi, arunachalam, mappillai, maaveeran, vishnu, arangetram, gokulam, yaar	0,01	film	206	0,52	17	0,08	-86,04	
+		1	Q8373231	Demonologists	jamesviandi, jeanbodin, dantealighieri, cottonmather, johannweyer, jeanfernel, ralphsarchie, fredbatt, heinrichkramer, richardbaxter	0,012	human	44	0,98	3	0,07	-86,97	
+		1	Q3251896	Minister of Transport (France)	pierrelaval, elisabethborne, emileloubet, nicolassarkozy, bernardpons, paulquiles, yvesguena, renemayer, julesmoch, louisbarthou	0,01	human	83	0,61	2	0,02	-87,42	
+		1	Q6629514	P600 mountains in the British Isles	bennevis, snowdon, munro, helvellyn, penyfan, scafellpike, benlomond, thestorr, benmacdui, lochnagar	0,006	mountain	135	0,69	12	0,09	-87,93	
+		1	Q8954124	Minister of Finance (Norway)	sivjensen, jensstoltenberg, oscartorp, ottoblehr, gunnarjahn, perkleppe, gunnarberge, trygvebratteli, arneskauge, gunnarknudsen	0,008	human	147	0,57	1	0,01	-87,94	
+		1	Q6443179	Association football clubs established in 1907	alahlysc, realbetis, atalantabc, veneziafc, como1907, fcaugsburg, cfrcluj, spal, portvalefc, fenerbahcesk	0,004	association football club	132	0,94	15	0,11	-88,21	
+		1	Q8272263	Association football clubs established in 1903	aberdeenfc, boavistafc, uscremonese, vvvvenlo, dundalkfc, cfbadalona, atleticomadrid, eastfifefc, clubguarani, hellasveronafc	0,006	association football club	113	0,9	10	0,09	-88,21	
+		1	Q6436262	Association football clubs established in 1904	slbenfica, ogcnice, scfreiburg, fcschalke04, hullcityafc, kvmechelen, kvoostende, ifelfsborg, gyrietofc, pogonlwow	0,008	association football club	119	0,9	11	0,09	-88,21	
+		3	Q1862824	Open-source video games	osu, 2048, postal, rogue, nethack, 0ad, arxfatalis, openttd, systemshock, freeciv	0,002	free and open-source video game, video game	317	0,45	69	0,32	-90,6	
+		1	Q7929263	Vijayakanth filmography	ramanaa, perarasu, chatriyan, maayavi, narasimha, vetri, periyanna, engalanna, vallarasu, thavasi	0,008	film	133	0,86	11	0,08	-90,65	
+		1	Q1130035	Compositions by György Ligeti	luxaeterna, requiem, atmospheres, continuum, artikulation, legrandmacabre, violasonata, musicaricercata, ramifications, pianoconcerto	0,004	musical work/composition	68	0,79	6	0,18	-90,81	
+		1	Q23938084	Sebastian Roché on screen and stage	beowulf, safehouse, shortfilm, merlin, 6underground, 15minutes, thenamesake, earthsea, wer, 24redemption	0,012	film	37	0,27	15	0,41	-91,14	
+		1	Q6592785	Old Abingdonians	johnlennon, tobyjones, thomyorke, kityoung, tomhollander, edobrien, nigelbruce, tobymarlow, thomasdolby, wayneyip	0,01	human	212	0,7	23	0,11	-91,27	
+		1	Q6852040	Military Governors in Nigeria during the Ibrahim Babangida regime	davidmark, bodegeorge, rajirasaki, muhammadubuhari, mikeakhigbe, godwinabbe, chrisalli, idrisgarba, tunjiolurin, ibrahimbabangida	0,008	human	70	0,6	3	0,04	-92,15	
+		1	Q14445105	Turkish women's volleyball players	zehragunes, nazaydemir, edaerdem, meryemboz, cansuozbay, handebaladn, kubraakman, tugbaozay, lkinaydn, beyzaarc	0,01	human	129	1	1	0,01	-93,09	
+		1	Q30675027	Debashree Roy filmography	dadarkirti, lathi, yuddho, abaidha, tiger, mahaguru, debi, kuheli, troyee, unisheapril	0,008	film	56	0,55	7	0,13	-93,15	
+		1	Q22906472	People from Brahmanbaria	nurulamin, alamgir, sufiakamal, ghulamazam, oliahad, isakhan, sarifulrazz, almahmud, barobhuiyan, anisulhuq	0,01	human	116	0,51	6	0,05	-94,95	
+		1	Q18344695	Priyadarshan filmography	herapheri, citylights, hungama2, deewaar, frenchkiss, chupchupke, bhagambhag, hungama, hulchul, kyonki	0,012	film	155	0,69	28	0,18	-95,25	
+		1	Q7068160	Writers from Georgia (country)	vazhapshavela, nodardumbadze, akakitsereteli, tigranpetrosian, otarchiladze, nikonikoladze, giorgileonidze, nikolomouri, lashabugadze, ivanemachabeli	0,01	human	53	0,98	0	0	-95,31	
+		4	Q1543386	Mountains of the Alps over 4000 metres	montblanc, elbrus, matterhorn, mountelbrus, jungfrau, pizbernina, dom, weisshorn, monch, breithorn	0,01	mountain	173	0,43	12	0,12	-95,46	
+		1	Q6620130	Films shot on digital video prior to 2015	avatar, gonegirl, apocalypto, drive, margincall, zodiac, intime, collateral, sincity, contagion	0,0115	film	188	0,58	95	0,51	-95,56	
+		1	Q115197323	The 100 Greatest Films of Argentine Cinema	lacienaga, laflor, camila, zama, martin, nuevereinas, evaperon, moebius, elaura, platadulce	0,01	film, cinema of Argentina	135	0,37	17	0,13	-95,74	
+		0	Q631452	Picasso artworks 1911–1920	guernica, genius, lereve, lavie, pulcinella, modigliani, parade, donquixote, dove, girlonaball	0,004	work of art	101	0,51	26	0,27	-95,81	
+		4	Q785015	Picasso artworks 1921–1930	guernica, genius, lereve, lavie, pulcinella, modigliani, parade, donquixote, dove, girlonaball	0,006	work of art	99	0,59	26	0,27	-95,81	
+		1	Q5114235	Turn-based strategy video games	gachagame, actiongame, mule, worms, freeciv, hogsofwar, worms3d, kingsbounty, civilization, worms2	0,008	video game	308	0,5	39	0,13	-96,15	
+		1	Q56289909	Programming broadcast by Colors Rishtey	naagin, soapopera, biggboss, askmemnu, motupatlu, ramayan, uttaran, gameshow, realityshow, balikavadhu	0,004	television program	119	0,68	20	0,17	-96,56	
+		1	Q7602870	19th-century archaeologists	howardcarter, thomasyoung, arthurevans, georgesmith, johnmarshall, theodormommsen, gastonmaspero, alexanderpol, hormuzdrassam, flinderspetrie	0,006	human	83	1	3	0,04	-97,05	
+		1	Q7176197	Peter O'Toole on screen and stage	troy, stardust, caligula, ratatouille, supergirl, zuludawn, cristiada, becket, kingralph, phantoms	0,006	film	72	0,5	28	0,39	-97,8	
+		1	Q8489581	German children's television series	lowenzahn, druck, silas, timmthaler, anna, mino, jackholborn, hotel13, nesthakchen, viergegenz	0,01	television series	91	0,92	11	0,12	-98,05	
+		1	Q6096776	Shashi Kapoor, roles and awards	deewaar, silsila, kranti, awaara, shaan, waqt, trishul, jinnah, ajooba, utsav	0,012	film	134	0,62	33	0,25	-98,63	
+		1	Q8966848	Painters from Georgia (country)	nikopirosmani, avtovarazi, zurabtsereteli, giabugadze, davidkakabadze, gigogabashvili, ladogudiashvili, shalvakikodze, eleneakhvlediani, uchajaparidze	0,01	human	57	0,44	0	0	-98,72	
+		1	Q7691564	Fictional counts and countesses	laracroft, countdooku, athos, alucard, countorlok, countdracula, tracybond, janeporter, dracula, countparis	0,004	fictional character	45	0,74	15	0,34	-99,17	
+		1	Q15102072	Single-player video games	godofwar, thequarry, stray, persona5, untildawn, thesims4, scorn, spiderman, undertale, starfield	0,008	video game	7407	0,99	1693	0,23	-99,81	
+		1	Q96391584	Major Sundarrajan filmography	jurassicpark, iruvar, billa, guru, priya, jaihind, kaali, thee, bhadrakali, velai	0,01	film	198	0,72	20	0,1	-100,04	
+		2	Q8122926	18th-century Spanish people	franciscogoya, juancrespi, pedrofages, felipedeneve, rafaelcasanova, juanrivera, franciscopalou, gaspardeportola, marialuisaofspain, brunodeheceta	0,008	human	105	1	2	0,02	-100,75	
+		1	Q60776334	Parambrata Chatterjee filmography	bulbbul, kahaani, pari, traffic, zulfiqar, password, sold, bony, proloy, kadambari	0,002	film	71	0,55	14	0,2	-101,23	
+		1	Q85851261	Programs broadcast by Jetix (block)	spiderman, gargoyles, witch, medabots, pucca, kidvskat, yinyangyo, kidswb, ironman, shinzo	0,006	television program	59	0,69	19	0,32	-101,52	
+		1	Q6712597	M. G. Ramachandran filmography	adimaipenn, romanticcomedy, kalaiarasi, padagotti, namnaadu, meera, olivilakku, marmayogi, nallaneram, enannan	0,006	film	137	0,66	10	0,07	-102,13	
+		1	Q7322538	Sturmabteilung personnel	paulblobel, kurthdebus, ottorasch, hermsniel, rudolflange, ulrichgraf, ludwighahn, ottowachter, karlfrenzel, gustavwagner	0,01	human	173	1	2	0,01	-102,27	
+		4	Q6634956	Private-equity firms	wellsfargo, bnpparibas, ubsag, ubscapital, citigroup, axa, investcorp, 3gcapital, abnamro, lazard	0,012	business	310	0,61	180	0,59	-102,53	
+		2	Q9256463	21st-century Italian writers	kledikadiu, orianafallaci, robertobenigni, mariocervi, marellaagnelli, marziakjellberg, ninofilasto, luigigiussani, ambrogiofogar, cesaresalvi	0,006	human	79	1	3	0,04	-104,12	
+		1	Q6629687	Municipalities of Denmark (1970–2006)	copenhagen, arhus, odense, aalborg, alborg, esbjerg, elsinore, helsingor, sonderborg, silkeborg	0,01	city, municipality of Denmark	212	0,58	17	0,08	-105,43	
+		1	Q6612828	Compositions by Henri Vieuxtemps	dongiovanni, faust, ernani, yankeedoodle, oberon, halka, leprophete, luisamiller, lafricaine, ilpirata	0,006	musical work/composition	25	0,27	8	0,32	-105,67	
+		4	Q83644707	UK Albums Chart number ones of the 2020s	midnights, folklore, donda, xxv, evermore, red, dawnfm, sour, herloss, renaissance	0,01	album	145	0,31	62	0,46	-105,68	
+		4	Q9239290	16th-century German painters	albrechtdurer, hansbaldung, berntnotke, hansdurer, janpolack, jergratgeb, georgpencz, wolfhuber, masterms, sebaldbeham	0,008	human	89	0,99	3	0,03	-105,95	
+		3	Q6335007	Korean-language films	parasite, oldboy, hwangjinyi, burning, thehost, themedium, mother, thechaser, theclassic, midnight	0,001	film	828	0,67	243	0,3	-106,82	
+		3	Q660720	German-language films	downfall, dasboot, thewave, freaks, shortfilm, runlolarun, thetindrum, headon, mephisto, stroszek	0,01	film	138	0,76	30	0,22	-106,82	
+		1	Q6620120	Films shot in Riverside, California	onthebeach, nixon, thelovebug, realgenius, eagleeye, grandprix, buddybuddy, vibes, jetpilot, winning	0,004	film	31	0,24	15	0,48	-107,2	
+		1	Q8439809	Czech anti-communists	karelcapek, janpalach, vaclavhavel, jaromirjagr, emilhacha, karelkryl, janzajic, josefkorbel, radolagajda, janacerna	0,012	human	49	0,94	3	0,06	-107,29	
+		1	Q970953	Greek-language television channels	euronews, mtv, boomerang, babytv, eurosport1, fashiontv, ertworld, opentv, megachannel, bbcworldnews	0,012	television channel	53	0,25	19	0,38	-107,82	
+		1	Q925342	Freeware first-person shooters	quake, doom3, mod, crossfire, quake3, quake2, pointblank, marathon, dukenukem3d, kkrieger	0,004	video game	67	0,4	22	0,33	-108,01	
+		1	Q3833689	Best-selling albums in Italy	thriller, bad, dangerous, rayoflight, trueblue, harvest, likeavirgin, likeaprayer, aquarium, thelionking	0,012	album	63	0,38	27	0,44	-108,23	
+		1	Q6593647	Pashto-language poets	ghanikhan, rahmanbaba, pirroshan, anashaqqani, hamzababa, mirwaishotak, nazotokhi, nazooanaa, tahirdawar, hussainhotak	0,01	human	91	0,39	2	0,03	-108,93	
+		1	Q6849526	Japan-exclusive video games	durarara, tsukihime, muvluv, amagami, mother3, rapelay, air, cue, kanon, akakage	0,01	video game	1567	0,86	135	0,09	-109,02	
+		3	Q6601085	UK Independent Singles Chart number ones of 2001	mambono5, imaslave4u, lastnite, pluginbaby, thecall, hotelyorba, dreamon, hypermusic, stutter, buckrogers	0,002	single	25	0,25	16	0,64	-109,35	
+		4	Q7448174	Self-portraits by Rembrandt	danae, thenightwatch, flora, artemisia, lucretia, themill, slaughteredox, thejewishbride, headofchrist, minerva	0,008	painting	125	0,47	10	0,09	-112,09	
+		1	Q25318764	Upcoming Tamil-language films	indian2, jailer, ayalaan, andhagan, leo, borrder, parisparis, theroad, sumo, vanangaan	0,01	film	22	0,96	6	0,27	-113,28	
+		1	Q6956308	N. T. Rama Rao filmography	epicfilm, mayabazar, fantasyfilm, karnan, lavakusa, missamma, yugandhar, yamagola, intiguttu, malliswari	0,01	film	280	0,75	18	0,06	-113,67	
+		1	Q7979209	Burials at Bogoslovskoe Cemetery	viktortsoi, ricochet, yurigerman, kirilllavrov, leonorbeli, vitalybianki, lidiaklement, evgenyschwartz, levuspensky, josephorbeli	0,012	human	75	0,99	3	0,04	-115,26	
+		1	Q6620001	Films cut over the director's opposition	dune, alien3, caligula, brazil, freaks, 1941, eroticfilm, babylonad, nightbreed, eventhorizon	0,01	film	30	0,31	16	0,53	-115,28	
+		1	Q14192016	Web browsers for Unix and Unix-like operating systems	firefox, brave, safari, opera, chromium, googlechrome, vivaldi, mosaic, vmsmosaic, alynx	0,006	web browser	126	0,39	61	0,51	-117,11	
+		1	Q9079653	Populated places in Šibenik-Knin County	sibenik, knin, primosten, skradin, drnis, cavoglave, rogoznica, kistanje, tisno, pirovac	0,008	human settlement	74	0,94	3	0,04	-117,77	
+		1	Q11560547	Ships of the Chinese Navy (1644–1945)	frigate, destroyer, cruiser, corvette, patrolboat, ironclad, sloopofwar, gunboat, eboat, dredger	0,012	ship	85	0,42	11	0,13	-118,12	
+		1	Q6562463	Assamese-language poets	sankardev, madhavdeva, bhattadev, hembarua, rudrasingha, mahimbora, hirengohain, hemsaraswati, madhavkandali, ganeshgogoi	0,01	human, Malayalam	45	0,79	0	0	-118,14	
+		1	Q8766555	Songs written by Jean-Jacques Goldman	aicha, labas, jetedonne, envolemoi, pastoi, destin, jeluidirai, nuit, cestdit, jattendais	0,008	song	24	0,65	4	0,17	-118,17	
+		5	Q6626703	Longest-running American television series	friends, doctorwho, ncis, shameless, familyguy, southpark, thexfiles, bones, columbo, laworder	0,01073333333	television program	513	0,56	246	0,48	-119,63	
+		1	Q17067937	Chief ministers of Khyber Pakhtunkhwa	shahfarman, fazlehaq, mahmoodkhan, muftimahmud, pirsabirshah, parvezkhattak, hajighulamali, arifbangash, abdulqayyumkhan, shamsulmulk	0,004	human	51	0,65	0	0	-119,99	
+		1	Q6589099	Malayalam-language authors	onvkurup, kumaranasan, nnpillai, kunjunni, mmukundan, ovvijayan, shareesh, narayanaguru, akkitham, kvthomas	0,006	human	180	0,95	9	0,05	-120,23	
+		1	Q791036	Compositions by Béla Bartók	mikrokosmos, dancesuite, outofdoors, contrasts, kossuth, suiteop14, forchildren, sonatina, pianosonata, rhapsodyno1	0,012	musical work/composition	95	0,75	7	0,11	-120,45	
+		1	Q8226047	Afrikaans-language films	invictus, cryfreedom, gaia, tsotsi, endgame, sealteam, khumba, moffie, stander, skoonheid	0,008	film	105	0,39	30	0,34	-120,63	
+		1	Q6593240	Self-booting IBM PC compatible games	pacman, donkeykong, mspacman, frogger, digdug, loderunner, galaxian, centipede, mule, burgertime	0,008	video game	155	0,29	62	0,4	-121,29	
+		1	Q5378150	English-language Indian films	gandhi, silentfilm, soundfilm, black, thefall, hotelmumbai, kites, delhibelly, water, fire	0,008	film	216	0,73	45	0,24	-121,62	
+		4	Q3254997	Paintings by Pierre-Auguste Renoir	twosisters, thebathers, laloge, theswing, insummer, lise, femalenude, nude, lepontneuf, pinkandblue	0,012	painting	107	0,26	11	0,18	-121,68	
+		1	Q651642	Communes of the Maine-et-Loire department	nantes, angers, lemans, antoigne, saumur, cholet, lavalmayenne, montsoreau, trelaze, vaudelnay	0,002	commune of France	181	0,55	9	0,05	-122,02	
+		1	Q651662	Communes of the Indre-et-Loire department	orleans, tours, bourges, chartres, blois, amboise, chinon, chateauroux, loches, montresor	0,01	commune of France	277	0,64	24	0,09	-122,02	
+		1	Q6632333	People from Charlottesville, Virginia	roblowe, samshepard, sarahdrew, howielong, jamesmonroe, chrislong, camilamendes, jamesmadison, leroimoore, johnsmosby	0,01	human	159	0,66	18	0,12	-123,38	
+		1	Q106203588	Ilija (given name)	ilijaivic, ilijastolica, ilijabatljan, ilijaivezic, ilijababalj, ilijastanic, ilijakatic, ilijatrojanow, ilijapetkovic, ilijanajdoski	0,01	human, human	45	0,79	1	0,02	-123,51	
+		1	Q1621142	Velikite Balgari	babavanga, azis, ivanvazov, kubrat, vasillevski, elinpelin, hristobotev, johnofrila, liliivanova, ahmeddogan	0,006	human	98	0,63	8	0,08	-124,19	
+		1	Q24988641	Films directed by S. V. Krishna Reddy	yamaleela, vajram, yamaleela2, numberone, aahvaanam, subhalagnam, tophero, mayalodu, gunshot, bahumati	0,006	film	35	1	5	0,14	-124,88	
+		1	Q7705550	Cities in Sistan and Baluchestan Province	zahedan, chabahar, zabol, khashiran, mirjaveh, saravaniran, nikshahr, bampur, rasksarbaz, pishiniran	0,008	city of Iran	36	0,8	3	0,08	-125,1	
+		1	Q6594490	Portuguese-language films	cityofgod, rio, anaconda, loveactually, turistas, trash, carandiru, theninthgate, ronaldo, tropadeelite	0,006	film	47	0,55	14	0,3	-125,24	
+		1	Q7132896	Compositions by Frédéric Chopin by opus number	dongiovanni, balladeno1, balladeno4, barcarole, barcarolle, minutewaltz, nocturnesop9, berceuse, scherzono2, balladeno2	0,01	musical work/composition	149	0,58	5	0,04	-125,28	
+		1	Q6604278	World Championships medalists in wrestling (freestyle)	kurtangle, yoelromero, kylesnyder, jdencox, kyledake, tahaakgul, dangable, davidtaylor, daveschultz, markschultz	0,012	human, athlete	678	0,73	17	0,03	-127,53	
+		1	Q6323160	K. Balachander filmography	kuselan, duet, azhagan, rudraveena, poi, kalki, arangetram, avargal, aaina, kadhalvirus	0,008	film	100	0,74	4	0,04	-127,87	
+		1	Q6376436	F.C. Aboomoslem players	rezaenayati, alimousavi, maysambaou, pejmanjamshidi, alilatifi, adnanahmed, khodadadazizi, shahabgordan, alihanteh, miladnouri	0,008	human	94	1	4	0,04	-129,43	
+		1	Q6616192	Diamond-certified albums in Canada	abbeyroad, thriller, thewall, rumours, nevermind, metallica, dookie, letgo, trueblue, hysteria	0,012	album	102	0,3	62	0,64	-130,43	
+		1	Q4810743	Khagans of the Göktürks	kultigin, bilgaqaan, khatun, tonyukuk, istami, buminqaghan, bilgeqaghan, tardu, muqanqaghan, shibikhan	0,008	human	80	0,51	3	0,04	-130,47	
+		1	Q236440	Communes of the Bouches-du-Rhône department	marseille, nice, avignon, arles, toulon, cassis, martigues, aubagne, laciotat, tarascon	0,008	commune of France	124	0,46	19	0,15	-131,23	
+		1	Q392450	Communes of the Loire-Atlantique department	nantes, angers, lemans, pornic, clisson, guerande, pornichet, reze, lecroisic, saintnazaire	0,01	commune of France	211	0,58	19	0,09	-131,23	
+		1	Q6576337	LMS locomotives as of 31 December 1947	462, 462t, 440, 460, 060, 060de, 060st, 060t, 280, 040st	0,01	locomotive	142	0,76	11	0,08	-131,43	
+		1	Q8415247	English-language television stations in the United States	hbo, take2, cnn, foxnews, mtv, amc, shobet, showtime, disneyxd, msnbc	0,006	television station	102	0,4	71	0,7	-136,65	
+		1	Q7780576	Paintings by J. M. W. Turner	theslaveship, therigi, fishermenatsea, whalers, selfportrait, thegoldenbough, thefightingtemeraire, chichestercanal, thebeaconlight, dolbadarncastle	0,006	painting	98	0,47	3	0,06	-138,03	
+		1	Q6625288	LGBT-related films of 1982	tootsie, querelle, deathtrap, makinglove, liquidsky, lacolmena, partners, anotherway, thetrout, angel	0,006	film	20	0,06	10	0,5	-143,5	
+		1	Q743727	Communes of the Pyrénées-Orientales department	toulouse, perpignan, nimes, albi, montpellier, carcassonne, cahors, montauban, rodez, collioure	0,012	commune of France	255	0,47	24	0,09	-145,05	
+		1	Q6639485	Silent films released on 8 mm or Super 8 mm film	nosferatu, silentfilms, safetylast, intolerance, thegoldrush, zapruderfilm, featurefilms, wayoutwest, speedy, waydowneast	0,012	film	42	0,57	15	0,37	-146,04	
+		1	Q10060986	Resovia (volleyball) players	davidsmith, bartoszkurek, michalfilip, karolbutryn, toreydefalco, kawikashoji, samderoo, pawelpapke, mateuszmika, maciejmuzaj	0,008	human	96	1	4	0,04	-152,46	
+		1	Q23196974	2000s Hindi-language films	3idiots, omshantiom, devdas, kalhonaaho, ghajini, lagaan, veerzaara, terenaam, mainhoonna, swades	0,012	film	971	0,99	266	0,28	-153,25	
+		1	Q23196973	2010s Hindi-language films	dangal, war, drishyam, lion, padmaavat, saaho, kabirsingh, ekvillain, zero, dilwale	0,012	film	1314	0,98	319	0,24	-153,25	
+		1	Q24898498	Film scores by Ilaiyaraaja 2000s	heyram, nayakan, virumaandi, pithamagan, friends, paa, lajja, cheenikum, ramanaa, kasi	0,002	film	80	0,52	14	0,18	-155,39	
+		1	Q24898474	Film scores by Ilaiyaraaja 1970s	priya, annakkili, yugandhar, bairavi, bhadrakali, kavikkuyil, kavarimaan, dheepam, thyagam, poonthalir	0,01	film	51	0,53	3	0,06	-155,39	
+		1	Q8237197	Alumni of St John's College, Cambridge	emmacorrin, jinyong, pauldirac, johndee, hughdennis, abdussalam, derekjacobi, kasiehunt, jamiebamber, douglasadams	0,01	human	2015	0,99	120	0,06	-156,45	
+		1	Q106830509	War films and TV specials set between 1914 and 1945	dunkirk, 1917, thepianist, casablanca, fury, atonement, comeandsee, midway, unbroken, thekingsman	0,006	film	959	0,76	210	0,23	-159,4	
+		1	Q106830353	War films and TV specials set between 1453 and 1775	themission, ran, kagemusha, warfilm, barrylyndon, hidalgo, riogrande, tarasbulba, fortapache, alatriste	0,01	film	175	0,72	39	0,25	-159,4	
+		1	Q6635109	Programs previously broadcast by QTV, Q, GMA News TV and GTV	house, initiald, empresski, jumong, batman, pawnstars, ironchef, bluesclues, dongyi, dragonballz	0,01	television program	357	0,82	92	0,26	-172,29	
+		4	Q6607954	Black-and-white films produced since 1966	blonde, parasite, belfast, memento, logannoir, themist, oppenheimer, sincity, stalker, ragingbull	0,006	film	468	0,88	158	0,34	-172,63	
+		1	Q17049345	Virtual Console games for Nintendo 3DS (PAL region)	pacman, mariobros, galaga, earthbound, metroid, rayman, megamanx, digdug, punchout, finalfight	0,01	video game	189	0,72	60	0,32	-190,42	
+		1	Q8382036	Disorders of ocular muscles, binocular movement, accommodation and refraction	strabismus, astigmatism, presbyopia, esotropia, exotropia, cycloplegia, exophoria, farsightedness, hypertropia, esophoria	0,01	disease	37	0,95	3	0,08	-205,86	
+		1	Q60518100	Programmes broadcast by 8TV (Malaysian TV network)	friends, ncis, lost, southpark, the100, gossipgirl, castle, scrubs, theoc, baywatch	0,01	television program	524	0,47	171	0,34	-216,37	
+		3	Q85777209	Billboard number-one R&B/hip-hop albums of 2020	afterhours, changes, goodnews, jackboys, myturn, funeral, legend, nopressure, alicia, top	0,004	album	41	0,28	24	0,59	-226,89	
+		3	Q4436707	Best-selling albums of the 2000s (decade) in the United Kingdom	bytheway, thefame, letgo, demondays, parachutes, fallen, music, hotfuss, elephunk, stripped	0,006	album	106	0,3	45	0,45	-238,95	
+		1	Q5563328	FIS Nordic World Ski Championships medalists in women's cross-country skiing	yelenavalbe, heidiweng, emmaribom, maritbjorgen, theresejohaug, anetteboe, benteskari, stinanilsson, yuliastupak, kaisavaris	0,004	human	203	0,7	3	0,01	-239,02	
