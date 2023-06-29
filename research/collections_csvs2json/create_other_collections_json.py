@@ -21,14 +21,15 @@ def create_collections_sets(
                 temp_df[score_column] = default_score
             df = pd.concat([df, temp_df], ignore_index=True)
 
-
     print(f'Number of total collections: {len(df)}')
+    print(f'Number of collections with score >= {min_wblock_score}: {len(df[df[score_column] >= min_wblock_score])}')
 
     if not df['id'].is_unique:
         print("Warning: duplicate IDs found. Duplicates will be dropped.")
-        df.drop_duplicates(subset='id', keep='first', inplace=True)
+        df = df.sort_values(score_column, ascending=False).drop_duplicates('id', keep='first')
     
-    print(f'Number of unique collections: {len(df)}')  
+    print(f'Number of unique collections: {len(df)}')
+    print(f'Number of unique collections with score >= {min_wblock_score}: {len(df[df[score_column] >= min_wblock_score])}')
 
     if not output_dir.exists():
         output_dir.mkdir(parents=True)
