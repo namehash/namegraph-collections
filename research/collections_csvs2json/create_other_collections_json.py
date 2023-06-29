@@ -34,14 +34,18 @@ def create_collections_sets(
         output_dir.mkdir(parents=True)
     
     # save other collections
+    others_filename = 'other_collections.json'
     others = df[['id', 'name']]
-    with open(output_dir / 'others.json', 'w') as f:
-        json.dump({'rows': others.to_dict(orient='records')}, f, indent=4)
+    print(f"Saving {len(others)} other collections to {others_filename} ...")
+    with open(output_dir / others_filename, 'w') as f:
+        json.dump(others.to_dict(orient='records'), f, indent=4)
     
     # save writer's block collections with score >= min_wblock_score
+    wblock_filename = 'wblock_collections.json'
     wblock = df[df[score_column] >= min_wblock_score][['id', 'name']]
-    with open(output_dir / 'wblock.json', 'w') as f:
-        json.dump({'rows': wblock.to_dict(orient='records')}, f, indent=4)
+    print(f"Saving {len(wblock)} writer's block collections to {wblock_filename} ...")
+    with open(output_dir / wblock_filename, 'w') as f:
+        json.dump(wblock.to_dict(orient='records'), f, indent=4)
 
 
 
@@ -54,7 +58,7 @@ if __name__ == '__main__':
     parser.add_argument('--default_score', 
                         help='default score for .tsv files with no score column', default=6, type=int)
     parser.add_argument('--min_othercollections_score', 
-                        help='minimum score for other collections', default=3, type=int)
+                        help='minimum score for other collections', default=4, type=int)
     parser.add_argument('--min_writersblock_score', 
                         help='minimum score for writers block collections', default=6, type=int)
     parser.add_argument('-i', '--input', 
