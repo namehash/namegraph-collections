@@ -1,11 +1,13 @@
 .PHONY: all
 
+all: data/merged_final.jsonl
+
 #TODO everything should be unquoted because some characters are not escaped properly, e.g. comma
 
 filter: data/latest-all.nt.bz2.filtered.bz2 data/stats_predicates.txt data/stats_instance_of.txt
 
 data/latest-all.nt.bz2:
-	time wget https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.nt.bz2
+	time wget https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.nt.bz2 -O $@
 
 data/latest-all.nt.bz2.filtered.bz2: data/latest-all.nt.bz2
 	time pv $< | bzcat | grep -E '^(<https://en\.wikipedia\.org/wiki/|<http://www\.wikidata\.org/entity/).*((<http://www\.wikidata\.org/prop/direct/P18>|<http://www\.wikidata\.org/prop/direct/P1753>|<http://www\.wikidata\.org/prop/direct/P31>|<http://schema\.org/about>|<http://www\.wikidata\.org/prop/direct/P1754>|<http://www\.wikidata\.org/prop/direct/P4224>|<http://www\.wikidata\.org/prop/direct/P948>|<http://www\.wikidata\.org/prop/direct/P279>|<http://www\.wikidata\.org/prop/direct/P360>|<http://www\.w3\.org/2002/07/owl\#sameAs>)|((<http://schema\.org/description>|<http://schema\.org/name>|<http://www\.w3\.org/2000/01/rdf\-schema\#label>).*@en .$$))' | pbzip2 -c > $@
@@ -18,16 +20,16 @@ data/stats_instance_of.txt: data/latest-all.nt.bz2.filtered.bz2
 	pv $< | pbzip2 -d -c | grep "<http://www\.wikidata\.org/prop/direct/P31>" | cut -d ' ' -f 3 | sort | uniq -c | sort -nr > $@
 	head -n 20 $@
 
-dictrocks: data/latest-all.nt.bz2.filtered.bz2 # 1.5h
+data/db1.rocks: data/latest-all.nt.bz2.filtered.bz2 # 1.5h
 	time python scripts/create_kv.py $<
 
-dictrocks_rev:
+data/db1_rev.rocks: data/db1.rocks
 	time python scripts/reverse_rocksdict.py data/db1.rocks/ data/db1_rev.rocks/
 
 ########################  PREPARING VALID LISTS AND CATEGORIES  ########################
 prepare_lists_and_categories: data/categories2.json data/lists2.json
 
-data/categories2.json: dictrocks dictrocks_rev
+data/categories2.json: data/db1_rev.rocks data/db3.rocks
 	time python scripts/create_lists.py $@ --mode category
 	# output:
 	#  {
@@ -38,7 +40,7 @@ data/categories2.json: dictrocks dictrocks_rev
 	#    "article": "Category:Writers_from_Z%C3%BCrich"
 	#  },	
 
-data/lists2.json: dictrocks dictrocks_rev
+data/lists2.json: data/db1_rev.rocks data/db3.rocks
 	time python scripts/create_lists.py $@ --mode list
 	# output:
 	#   {
@@ -82,7 +84,7 @@ data/sorted-lists.csv: data/mapped-lists.csv
 	# 1954_FIFA_World_Cup_squads,1._FC_Nürnberg
 
 data/list_links2.jsonl: data/sorted-lists.csv data/lists2.json
-	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/lists2.json --mode list
+	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/lists2.json #--mode list
 	# output
 	#     {"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "SMS Württemberg",  "SMS Württemberg (1917)", "Sachsen-class ironclad", "WikiProject Ships/Guidelines"]}
     # old:{"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "Sachsen-class ironclad", "SMS Württemberg (1917)"]}
@@ -115,26 +117,26 @@ data/sorted-categories.csv: data/mapped-categories.csv
 	(head -n 1 $< && tail -n +2 $< | LC_ALL=C sort) > $@
 
 data/category_members2.jsonl: data/sorted-categories.csv data/categories2.json
-	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/categories2.json --mode category
+	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/categories2.json #--mode category
 	# output:
 	# {"item": "Q100088400", "type": ["Q5"], "article": "Category:Writers_from_Z%C3%BCrich", "members": ["Alain de Botton", "Annemarie Schwarzenbach", "Arnold Kübler", "Bernhard Diebold", "Bruno Barbatti", "Carl Seelig", "Charles Lewinsky", "Conrad Ferdinand Meyer", "Egon von Vietinghoff", "Elisabeth Joris", "Esther Dyson", "Fleur Jaeggy", "Gerold Meyer von Knonau (1804–1858)", "Gottfried Keller", "Gotthard Jedlicka", "Hans-Ulrich Indermaur", "Hugo Loetscher", "Ilma Rakusa", "Johann Caspar Scheuchzer", "Johann Georg Baiter", "Johann Jakob Breitinger", "Johann Jakob Hottinger (historian)", "Johann Kaspar Lavater", "Jürg Schubiger", "Ludwig Hirzel (historian)", "Mariella Mehr", "Markus Hediger", "Max Frisch", "Max Rychner", "Moustafa Bayoumi", "Olga Plümacher", "Peter Zeindler", "Robert Faesi", "Roger Sablonier", "Stefan Maechler", "Taya Zinkin", "Verena Conzett", "Werner Vordtriede", "Wilhelm Wartmann"]}
 
 download_category_members: data/category_members2.jsonl
 	
 ########################  WIKIMAPPER SETUP  ########################
-wikimapper: data/index_enwiki-latest.db
+#wikimapper: data/index_enwiki-latest.db
 
-wikimapper_download:
+data/enwiki-latest-redirect.sql.gz:
 	time wikimapper download enwiki-latest --dir data
 
-data/index_enwiki-latest.db: wikimapper_download
+data/index_enwiki-latest.db: data/enwiki-latest-redirect.sql.gz
 	time wikimapper create enwiki-latest --dumpdir data --target $@
 	
 # wikimapper stores: wikipedia_id, wikipedia_title, wikidata_id
 # also redirects, for which wikidata_id overriden by target aricle
 
 ########################  QRANK  ########################
-qrank: data/qrank.csv
+#qrank: data/qrank.csv
 
 data/qrank.csv:
 	time wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > $@
@@ -148,11 +150,11 @@ data/qrank.csv:
 
 cache_interesting_score: cache_interesting_score_lists cache_interesting_score_categories
 
-cache_interesting_score_lists: data/validated_list_links.jsonl
-	time python scripts/cache_interesting_score_local.py $< -n 111000
+cache1: data/validated_list_links2.jsonl
+	time python scripts/cache_interesting_score_local.py $< -n 111000 && touch cache1
 
-cache_interesting_score_categories: data/validated_category_members.jsonl
-	time python scripts/cache_interesting_score_local.py $< -n 460000
+cache2: data/validated_category_members2.jsonl cache1
+	time python scripts/cache_interesting_score_local.py $< -n 460000 && touch cache2
 
 ########################  VALIDATE TYPES  ########################
 
@@ -181,10 +183,10 @@ data/validated_category_members2.jsonl: data/category_members2.jsonl
 #user    16m22,530s
 #sys     2m10,075s
 
-data/category_members_all_info.jsonl: data/validated_category_members2.jsonl
+data/category_members_all_info.jsonl: data/validated_category_members2.jsonl cache2 data/suggestable_domains.csv
 	time python3 scripts/prepare_members_names.py $< data/qrank.csv $@ -n 460000
 	
-data/list_links_all_info.jsonl: data/validated_list_links2.jsonl
+data/list_links_all_info.jsonl: data/validated_list_links2.jsonl cache2 data/suggestable_domains.csv
 	time python3 scripts/prepare_members_names.py $< data/qrank.csv $@ -n 111000
 	
 
@@ -220,7 +222,7 @@ data/merged.jsonl: data/list_links_all_info.jsonl data/category_members_all_info
 #Filtered by by: 3309
 
 data/merged_filtered.jsonl: data/merged.jsonl
-	python scripts/merge_collections_ending_with_letters.py data/merged.jsonl data/merged_filtered.jsonl -n 503427
+	time python scripts/merge_collections_ending_with_letters.py data/merged.jsonl data/merged_filtered.jsonl -n 503427
 	#Matches: 3554
 	#Merged: 3462
 #Matches: 5728
