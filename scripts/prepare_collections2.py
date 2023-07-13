@@ -1,4 +1,5 @@
 import math
+import random
 import time
 from argparse import ArgumentParser
 
@@ -82,6 +83,9 @@ if __name__ == '__main__':
                     # 'translations_count': None,
                 } for member in collection.members]
 
+                random.seed(collection.item)
+                banner_image_number = random.randint(0, 19)
+
                 writer.write({
                     'data': {  # owner controlled
                         'collection_name': collection.name,
@@ -95,6 +99,10 @@ if __name__ == '__main__':
                         'collection_keywords': collection.keywords,
                         'collection_image': collection.image[0] if collection.image else None,  # TODO
                         'public': True,  # public or private collection
+
+                        'banner_image': f'tc-{banner_image_number:02d}.png',
+                        'avatar_image': None,
+                        'avatar_emoji': None, #TODO
 
                         'archived': False,
                         # By default false. This would be used exclusively for the narrowly defined purpose of deciding if we include a collection on a user's "Collections" tab in their "Account Page".
