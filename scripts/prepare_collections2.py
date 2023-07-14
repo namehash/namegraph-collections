@@ -1,5 +1,7 @@
+import csv
 import math
 import random
+import sys
 import time
 from argparse import ArgumentParser
 
@@ -38,6 +40,37 @@ def normal_name_to_hash(name: str) -> str:
     return node.hex()
 
 
+class AvatarEmoji:
+    def __init__(self, path):
+        self.load_emojis(path)
+
+    def load_emojis(self, path):
+        self.emojis = {}
+        self.emoji_counts = {}
+        
+        with open(path, newline='') as csvfile:
+            reader = csv.reader(csvfile)
+            next(reader)
+            for row in reader:
+                type_id, type_name, category, count, *type_emojis = row
+                if type_name == 'OTHER':
+                    self.other_emojis = type_emojis
+                    continue
+                count = int(count)
+                self.emojis[type_name] = type_emojis
+                self.emoji_counts[type_name] = count
+
+    def get_emoji(self, collection_id, types):
+        #sort types by emoji count from the less popular
+        types = sorted(types, key=lambda x: self.emoji_counts.get(x, sys.maxsize))
+        print(types)
+        random.seed(collection_id)
+        if types and types[0] in self.emojis:
+            return random.choice(self.emojis[types[0]])
+        else:
+            return random.choice(self.other_emojis)
+
+
 if __name__ == '__main__':
     parser = ArgumentParser(description='Prepare collections for ElasticSearch.')
     parser.add_argument('input', help='JSONL file with validated category/list members')
@@ -51,6 +84,8 @@ if __name__ == '__main__':
     inspector = Inspector(config)
 
     current_time = time.time() * 1000
+
+    avatar_emoji = AvatarEmoji('data/avatars-emojis.csv')
 
     with jsonlines.open(args.input) as reader, jsonlines.open(args.output, mode='w') as writer:
         for obj in tqdm(reader, total=args.n):
@@ -102,7 +137,7 @@ if __name__ == '__main__':
 
                         'banner_image': f'tc-{banner_image_number:02d}.png',
                         'avatar_image': None,
-                        'avatar_emoji': None, #TODO
+                        'avatar_emoji': avatar_emoji.get_emoji(collection.item, [type for cid, type in collection.types]),
 
                         'archived': False,
                         # By default false. This would be used exclusively for the narrowly defined purpose of deciding if we include a collection on a user's "Collections" tab in their "Account Page".
