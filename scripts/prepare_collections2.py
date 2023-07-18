@@ -63,7 +63,6 @@ class AvatarEmoji:
     def get_emoji(self, collection_id, types):
         #sort types by emoji count from the less popular
         types = sorted(types, key=lambda x: self.emoji_counts.get(x, sys.maxsize))
-        print(types)
         random.seed(collection_id)
         if types and types[0] in self.emojis:
             return random.choice(self.emojis[types[0]])
