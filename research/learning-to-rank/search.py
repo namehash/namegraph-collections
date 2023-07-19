@@ -63,11 +63,11 @@ COMMON_QUERY = {
                                      "boost": 1, }
                 },
                 {
-                    "rank_feature": {"field": "template.nonavailable_memebers_count",  # 15
+                    "rank_feature": {"field": "template.nonavailable_members_count",  # 15
                                      "boost": 1, }
                 },
                 {
-                    "rank_feature": {"field": "template.nonavailable_memebers_ratio",  # 16
+                    "rank_feature": {"field": "template.nonavailable_members_ratio",  # 16
                                      "boost": 1, }
                 },
             ]
@@ -76,7 +76,7 @@ COMMON_QUERY = {
     },
 
     "rescore": {
-        "window_size": 1000,
+        "window_size": 50,
         "query": {
             "rescore_query": {
                 "sltr": {
