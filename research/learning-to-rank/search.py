@@ -18,8 +18,8 @@ COMMON_QUERY = {
                 {
                     "multi_match": {
                         "fields": [
-                            "data.collection_name^3",  # 1
-                            "data.collection_name.exact^3",  # 2
+                            "data.collection_name",  # 1
+                            "data.collection_name.exact",  # 2
                             "data.collection_description",  # 3
                             "data.collection_keywords",  # 4
                             "data.names.normalized_name",  # 5
