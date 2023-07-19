@@ -1,0 +1,938 @@
+<head><script src="https://cdn.tailwindcss.com"></script></head>
+<h1 class="px-5 py-2 font-sans text-xl font-bold">feature optimization (0.000 Δ +0.000)</h1>
+<h2 class="px-5 py-2 font-sans text-lg font-bold">spears (0.000 Δ +0.000 )</h2>
+<table class="m-5">
+<tr>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">score</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">name</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">u. score</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">is bad</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">rank</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">members</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. rank mean</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. rank median</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. int. score mean</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. int. score median</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">valid m. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">invalid m. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">valid m. ratio</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">nonav. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">nonav. ratio</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">is merged</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">wikidata</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">types</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">names</th>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Britney Spears albums</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.821</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">9 : 0.954</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.933</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.933</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.889</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q6843306">Q6843306</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q482994">album</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">blackout, inthezone, britney, glory, circus, femmefatale, britneyjean, babyonemoretime, oopsididitagain</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Songs recorded by Britney Spears</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.874</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">28 : 1.447</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.7</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.927</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.933</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">61</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">449</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.120</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">16</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.536</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">True</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q1278951">Q1278951</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q7366">song</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">tomsdiner, toxic, everytime, gimmemore, imaslave4u, sometimes, lucky, criminal, stronger, pieceofme, boys, iwannago, outrageous, circus, radar, dosomethin, someday, perfume, myprerogative, overprotected, youdrivemecrazy, holditagainstme, tilltheworldends, itshouldbeeasy, borntomakeyouhappy, imnotagirlnotyetawoman, dontletmebethelasttoknow, fromthebottomofmybrokenheart</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Forbes Celebrity 100</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.641</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">83 : 1.919</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.929</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">85</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">81</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.515</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">79</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.940</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5467229">Q5467229</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">johnnydepp, tomcruise, neymar, rihanna, bradpitt, kanyewest, benaffleck, eminem, lionelmessi, madonna, ladygaga, kobebryant, tomhanks, eltonjohn, jkrowling, beyonce, melgibson, celinedion, cher, edsheeran, theweeknd, katyperry, drake, adele, 50cent, tigerwoods, jayz, kevinhart, drdre, brucewillis, tylerperry, lebronjames, taylorswift, seancombs, kyliejenner, ediefalco, danbrown, mariahcarey, philmcgraw, simoncowell, georgelucas, rogerfederer, davidbeckham, juliaroberts, jamescameron, justinbieber, harrisonford, howardstern, garthbrooks, dwaynejohnson, athlete, pauladeen, jenniferlopez, michaeljordan, angelinajolie, kimkardashian, oprahwinfrey, robinwilliams, sandrabullock, britneyspears, paulmccartney, georgeclooney, caneloalvarez, drphilmcgraw, shaquilleoneal, jerryseinfeld, robertdowneyjr, mannypacquiao, rushlimbaugh, cristianoronaldo, ellendegeneres, stevenspielberg, jenniferaniston, floydmayweather, leonardodicaprio, lorrainebracco, jamesgandolfini, jamespatterson, brucespringsteen, jamielynnsigler, floydmayweatherjr, michaelimperioli, judgejudysheindlin</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Highest-grossing concert tours</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.785</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">83 : 1.919</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.891</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">85</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">299</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.222</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.036</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q468494">Q468494</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q1573906">concert tour</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">loveontour, tour, gotback, zootvtour, themdnatour, lickstour, badworldtour, victorytour, popmarttour, u2360degtour, outthere, thewalllive, vertigotour, magictour, nofiltertour, thestadiumtour, therivertour, wherewearetour, stickysweettour, the1989worldtour, vivalavidatour, confessionstour, worldwiredtour, hereandnowtour, elevationtour, historyworldtour, becausewecan, spiceworldtour, therisingtour, glassspidertour, abiggerbangtour, steelwheelstour, thecircletour, dangerousworldtour, nosecuritytour, voodooloungetour, thelastdominotour, 24kmagicworldtour, bornintheusatour, therivertour2016, losthighwaytour, afterhourstildawntour, blackiceworldtour, thejoshuatreetour, beautifultraumatour, soul2souliitour, thedivisionbelltour, futuresexloveshow, aheadfullofdreamstour, drivingworldtour, wildestdreamstour, haveanicedaytour, aliveworldwidetour, reinventionworldtour, themagicsummertour, gunsnroses2020tour, notinthislifetimetour, farewellyellowbrickroad, blondambitionworldtour, twentyfourseventour, bridgestobabylontour, thepolicereuniontour, thegirlieshowworldtour, musicofthespheresworldtour, workingonadreamtour, turnitonagainthetour, takingchancesworldtour, farewellyellowbrickroadtour, beautifultraumaworldtour, wreckingballworldtour, tina50thanniversarytour, breakeveryruleworldtour, thegarthbrooksworldtour, steelwheelsurbanjungletour, amomentarylapseofreasontour, taylorswiftsreputationstadiumtour, livingproofthefarewelltour, thejoshuatreetours2017and2019, thecircusstarringbritneyspears, foreignaffairthefarewelltour, therollingstonesamericantour1981, redhotchilipeppers2022globalstadiumtour, xtour</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Jane magazine cover models</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.823</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">84 : 1.924</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.7</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">84</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.977</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">82</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.964</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q6575027">Q6575027</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">shakira, madonna, beyonce, snoopdogg, umathurman, katehudson, naomiwatts, evamendes, megryan, livtyler, heidiklum, halleberry, hilaryduff, mandymoore, pdiddy, lisakudrow, lucyliu, aliciakeys, katewinslet, camerondiaz, mariahcarey, faithhill, katieholmes, parishilton, beck, jessicaalba, gwenstefani, hilaryswank, robinwright, clairedanes, juliastiles, evalongoria, annehathaway, rosemcgowan, kerirussell, lindsaylohan, davenavarro, avrillavigne, penelopecruz, kirstendunst, courteneycox, angelinajolie, jennaelfman, janetjackson, nevecampbell, courtneylove, ashtonkutcher, britneyspears, minniedriver, cateblanchett, drewbarrymore, nicolerichie, mischabarton, pamelaanderson, juliannemoore, whitneyhouston, natalieportman, christinaricci, kellyclarkson, charlizetheron, rebeccaromijn, heathergraham, cubagoodingjr, brittanymurphy, carmenelectra, katebeckinsale, zooeydeschanel, reneezellweger, monicalewinsky, lisamariepresley, ashleesimpson, annakournikova, jessicasimpson, shirleymanson, gilliananderson, laraflynnboyle, elizabethhurley, reesewitherspoon, christianslater, brycedallashoward, christinaaguilera, aliciasilverstone, christinaapplegate, jenniferlovehewitt</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Britney Spears live performances</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.558</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">12 : 1.079</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">21</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">323</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.061</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">True</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q4346707">Q4346707</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q1573906">concert tour</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">pieceofmetour, stickysweettour, femmefataletour, nsyncinconcert, theonyxhoteltour, oopsididitagaintour, babyonemoretimetour, youdrivemecrazytour, dreamwithinadreamtour, lorealhairzonemalltour, thecircusstarringbritneyspears, themmstour</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Films shot in the Republic of Ireland</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.351</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">94 : 1.973</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.914</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">94</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.979</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">41</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.426</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q7140685">Q7140685</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q11424">film</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">loverosie, vivarium, ekthatiger, brooklyn, excalibur, myleftfoot, greta, farandaway, leapyear, barrylyndon, haywire, calvary, ondine, thequietman, horizonline, thebluemax, whatif, shrooms, asylum, thedevilsown, gorgo, images, evelyn, ulysses, knuckle, 11minutes, nora, themedallion, remlive, garage, theracer, bloom, nails, thestag, roadkill, angel, themark, thecrush, thecommitments, zonad, hideaways, educatingrita, teraasurroor, savingprivateryan, theplayboys, theinside, thelioninwinter, spears, spacetruckers, runjump, dearsarah, bridgetjonessbaby, alarm, alfredthegreat, eatthepeach, wildmountainthyme, ithankafool, tincanman, tenlittleindians, whatricharddid, thetailorofpanama, anothershore, brandnewu, warofthebuttons, madaboutmambo, thismustbetheplace, inthenameofthefather, nightpeople, theseconddeath, therulesofattraction, michaelinside, thefaceoffumanchu, ferociousplanet, aterriblebeauty, thesecretofroaninish, theprofessorandthemadman, frankiestarlight, agirlfrommogadishu, truthaboutkerry, the4thact, thefirstgreattrainrobbery, thespywhocameinfromthecold, swordofsherwoodforest, shakehandswiththedevil, wehavealwayslivedinthecastle, whenalicametoireland, reeferandthemodel, andnoonecouldsaveher, themostfertilemaninireland, theplayboyofthewesternworld, thelonelypassionofjudithhearne, fireandsword, aportraitoftheartistasayoungman, steamindreaminthegrandmastercashstory</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Television producers from California</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.032</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">524 : 2.719</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.928</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">524</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.996</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">101</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.191</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8835994">Q8835994</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">benaffleck, tomhanks, snoopdogg, salmahayek, kaleycuoco, nickcannon, heidiklum, drdre, ronhoward, davidlynch, adamlevine, lebronjames, lisakudrow, mikewhite, paulaabdul, adamscott, garysinise, desiarnaz, shannonlee, merylstreep, jasonlee, tyrabanks, icecube, jodiefoster, mikejudge, steveharvey, dickvandyke, carlreiner, billbixby, stevemartin, willferrell, georgelucas, alanladd, sinbad, reddfoxx, lucilleball, masterp, alexhirsch, evalongoria, quincyjones, bradhall, jamesgarner, lanawood, conanobrien, dannyglover, mcg, darrenstar, jonlovett, judylewis, davidgest, jackwebb, jamesstacy, jessicagao, dwaynejohnson, jamesarness, paulmooney, dickpowell, jenniferlopez, dlhughley, haimsaban, kimkardashian, jennaelfman, jennirivera, clinteastwood, larryhagman, donaldglover, davidfincher, samsimon, mickydolenz, aliadler, michelelee, rachelbloom, rashidajones, coreyfeldman, deanbutler, kenyabarris, halroach, marciklein, tonythomas, mickeyrooney, jameswong, drewbarrymore, kendalljenner, marccherry, bryancranston, mervgriffin, billyeichner, willieaames, joeruby, avaduvernay, jenjikohan, nickgroff, briangrazer, aljean, kenspears, mattbraly, michaellandon, raydanton, davidbenioff, lauriedavid...</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Dance-pop musicians</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.036</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">123 : 2.090</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.929</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">123</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.992</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">94</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.756</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q60822642">Q60822642</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">madonna, ladygaga, beyonce, kimpetras, aaliyah, lisa, chrisbrown, jennie, hilaryduff, fergie, jisoo, rose, aaroncarter, selenagomez, rupaul, melb, jojosiwa, paulaabdul, rickastley, charlixcx, avamax, psy, melaniec, akon, tini, ciara, mariahcarey, kesha, emmabunton, olivertree, tovelo, troyesivan, anastacia, dovecameron, markfoster, arianagrande, justinbieber, raye, cyndilauper, aaronkwok, davidguetta, kygo, ansonlo, jcchasez, kerihilson, chuu, lykkeli, kellychen, jenniferlopez, jasonderulo, joycecheng, bettywho, janetjackson, kylieminogue, sinitta, taiocruz, bennyblanco, jonbellion, paulvandyk, piamia, britneyspears, zaralarsson, jeremylee, georgemichael, michaeljackson, taylordayne, jacechan, shanice, agnes, deborahcox, calvinharris, kellyrowland, whitneyhouston, karynwhite, jenalee, debbiegibson, gerihalliwell, mohombi, brandynorwood, cherrelle, roisinmurphy, latoyajackson, gabesaporta, markmorrison, austinmahone, haileesteinfeld, victoriabeckham, carlyraejepsen, alisha, adelen, cupid, enriqueiglesias, solangeknowles, adriennebailon, mndr, teddysinclair, justintimberlake, nataliehorler, arminvanbuuren, lisastansfield...</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Irish thriller films</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.925</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">24 : 1.380</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.926</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">25</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">16</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.625</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q13349797">Q13349797</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q11424">film</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">thelobster, greta, marlowe, nocebo, byzantium, cracks, callgirl, 11minutes, hunted, itisinusall, strangerland, shadowdancer, thedig, killerforce, spears, tigerraid, thegift, alarm, thehangedman, nighttrain, thetigerstail, essentialkilling, iamnotaserialkiller, inthelandofsaintsandsinners</td>
+</tr>
+</table>
+<h2 class="px-5 py-2 font-sans text-lg font-bold">parrot (0.000 Δ +0.000 )</h2>
+<table class="m-5">
+<tr>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">score</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">name</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">u. score</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">is bad</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">rank</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">members</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. rank mean</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. rank median</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. int. score mean</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. int. score median</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">valid m. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">invalid m. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">valid m. ratio</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">nonav. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">nonav. ratio</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">is merged</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">wikidata</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">types</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">names</th>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Parrots</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.809</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">22 : 1.342</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.927</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">22</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">952</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.023</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.182</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">True</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q3764614">Q3764614</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q31431">Psittaciformes</a>, <a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">parrot, cockatoo, lovebird, trueparrot, psittacidae, loriinae, figparrot, amazonparrot, vasaparrot, psittaculidae, cyanoramphus, rackettail, songparrot, xenopsitta, neotropicalparrot, bavaripsitta, psittrichasiidae, messelasturidae, halcyornithidae, riparianparrotlet, archaeopsittacus, mogontiacopsitta</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Parrots of Oceania</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.598</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">21 : 1.322</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.927</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">21</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.913</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.238</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q20930903">Q20930903</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">cockatiel, kakapo, kea, nestor, vini, greenrosella, shiningparrot, redcrownedparakeet, australiankingparrot, chathamparakeet, malherbesparakeet, broadtailedparrot, antipodesparakeet, hypocharmosyna, blackloredparrot, reischeksparakeet, maroonshiningparrot, maskedshiningparrot, geelvinkpygmyparrot, crimsonshiningparrot, redbrowedfigparrot</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Parrot Records artists</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.663</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">7 : 0.845</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">7</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.500</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.429</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8717435">Q8717435</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">tomjones, alanprice, ahmadjamal, ginettereno, jonathanking, williemabon, engelberthumperdinck</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Parrots of Africa</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.856</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">9 : 0.954</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.929</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.111</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q18699869">Q18699869</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">lovebird, psittacus, poicephalus, echoparakeet, roseringedparakeet, rodriguesparrot, broadbilledparrot, seychellesparakeet, mascarenegreyparakeet</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Amazon parrots</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.106</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">41 : 1.613</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.0</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">41</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">98</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.297</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.049</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">True</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q6561090">Q6561090</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q7432">species</a>, <a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">amazona, amazonparrot, cubanamazon, redloredamazon, imperialamazon, yucatanamazon, panamaamazon, festiveamazon, tucumanamazon, redcrownedamazon, yellowheadedamazon, puertoricanamazon, redbrowedamazon, kawallsamazon, redtailedamazon, lilacineamazon, yellownapedamazon, orangewingedamazon, redneckedamazon, yellowcrownedamazon, guadeloupeamazon, hispaniolanamazon, whitefrontedamazon, saintluciaamazon, martiniqueamazon, diademedamazon, southernmealyamazon, turquoisefrontedamazon, blackbilledamazon, saintvincentamazon, lilaccrownedamazon, tresmariasamazon, scalynapedamazon, yellowbilledamazon, bluecheekedamazon, redspectacledamazon, bluewingedamazon, yellowshoulderedamazon, northernmealyamazon, vinaceousbreastedamazon, hypotheticalextinctspecies</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">SpongeBob SquarePants characters</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.979</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">23 : 1.362</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.0</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">31</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">356</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.080</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">20</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.826</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">True</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q1210902">Q1210902</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q95074">fictional character</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">batman, satan, santaclaus, joker, pikachu, hellokitty, aquaman, mrkrabs, blackmanta, patrickstar, foil, mrspuff, pearlkrabs, sandycheeks, phineasflynn, cameoappearance, garythesnail, planktonandkaren, squidwardtentacles, spongebobsquarepants, sheldonjplankton, squidinastar, karenplankton</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Parrots of South America</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.136</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">17 : 1.230</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">17</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.118</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q18699867">Q18699867</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">caique, amazonparrot, barredparakeet, festiveamazon, neotropicalparrot, caatingaparakeet, blackheadedparrot, orangewingedamazon, yellowcrownedamazon, andeanparakeet, yellowfacedparrot, turquoisefrontedamazon, bluecrownedparakeet, bluebelliedparrot, bluecheekedamazon, riparianparrotlet, greybreastedparakeet</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Broad-tailed parrots</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.217</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">15 : 1.176</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.928</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">15</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.938</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.067</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q6932930">Q6932930</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">swiftparrot, pezoporus, mulgaparrot, easternrosella, greenrosella, crimsonrosella, bluebonnet, paradiseparrot, redrumpedparrot, psephotellus, australianringneck, paleheadedrosella, easternbluebonnet, narethabluebonnet, goldenshoulderedparrot</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Burials at Smolensky Lutheran Cemetery</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.775</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">18 : 1.255</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.928</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">18</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.947</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.056</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q25213643">Q25213643</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">leonhardeuler, josederibas, ludvignobel, davidgrimm, karlnesselrode, vasilydokuchaev, moritzvonjacobi, xavierdemaistre, davidjensen, germainhenrihess, vladimirlamsdorf, agustindebetancourt, vasilyavenarius, georgfriedrichparrot, stepanalexandrovsky, adolphtheodorkupffer, jeanfrancoisthomasdethomon, timofeyyefremovichfanderflit</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Taxa named by René Lesson</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.525</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">344 : 2.537</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.926</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">344</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">25</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.070</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q10203778">Q10203778</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">setonix, pilotwhale, menuridae, nuthatch, megapode, turaco, pitohui, trogon, anseranas, currawong, mico, ensifera, cacajao, uakari, guaruba, seleucidis, olivebaboon, globicephala, weddellseal, incatern, psittrichas, maraboustork, aonyx, leptoptilos, moho, notomys, sittidae, incadove, nestor, corcorax, brownskua, maskedbooby, amazonparrot, leasttern, ketupa, greenjay, trigonoceps, greycrow, gubernatrix, funambulus, ctenomyidae, trichosurus, lophostrix, chiropotes, mascarinus, busarellus, gymnogyps, jacamerops, fregilupus, histrionicus, monocledcobra, vini, mappuffer, blackfintuna, garrulax, steppepolecat, amazilia, mitu, hymenops, talegalla, whitehead, indianwildass, temnurus, beardedsaki, taraba, hoppingmouse, euryceros, chelictinia, muggercrocodile, pygmyparrot, buteogallus, callocephalon, eurylaimidae, pesquetsparrot, piaya, mops, eupodotis, taccocua, echymipera, lophornis, coeligena, emuwren, batara, syma, mohoua, mertensia, creatophora, sturnia, verreauxseagle, setornis, todiramphus, corydon, leontopithecus, phonygammus, gracupica, greenhermit, helmetvanga, melanochlora, attila, scarletrobin...</td>
+</tr>
+</table>
+<h2 class="px-5 py-2 font-sans text-lg font-bold">forest (0.000 Δ +0.000 )</h2>
+<table class="m-5">
+<tr>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">score</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">name</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">u. score</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">is bad</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">rank</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">members</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. rank mean</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. rank median</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. int. score mean</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. int. score median</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">valid m. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">invalid m. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">valid m. ratio</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">nonav. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">nonav. ratio</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">is merged</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">wikidata</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">types</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">names</th>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Forests</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.387</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">36 : 1.556</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.0</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.819</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">36</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">13</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.750</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">10</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.250</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">True</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8465878">Q8465878</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q4421">forest</a>, <a href="https://wikidata.org/wiki/Q35120">entity</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">forest, taiga, jungle, beechforest, woodland, understory, glade, foreststeppe, laurelforest, forestpark, thornforest, tropicalforest, tugay, riparianforest, galleryforest, temperateforest, evergreenforest, bluebellwood, secondaryforest, temperaterainforest, sugarbush, mixedconiferousforest, temperatedeciduousforest, mariauriarte, temperateconiferousforest, seasonaltropicalforest, forestsavannamosaic, temperatebroadleafandmixedforests, historyoftheforestincentraleurope, worldrainforestmovement, compensatoryafforestation, tropicalandsubtropicaldrybroadleafforests, tropicalandsubtropicalmoistbroadleafforests, tropicalandsubtropicalconiferousforests, listofindigenoustreesandshrubsoflithuania, mountstcatherineforestreserve</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Owners of English football clubs</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.700</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">93 : 1.968</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.919</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.918</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">93</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">216</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.302</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">83</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.882</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q4432818">Q4432818</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q476028">association football club</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">chelseafc, arsenalfc, evertonfc, liverpoolfc, fulhamfc, burnleyfc, watfordfc, dcunited, millwallfc, readingfc, brentfordfc, barnsleyfc, portvalefc, astonvillafc, hullcityafc, stokecityfc, walsallfc, lutontownfc, barrowafc, blackpoolfc, portsmouthfc, stevenagefc, southamptonfc, sunderlandafc, afcwimbledon, morecambefc, rochdaleafc, derbycountyfc, norwichcityfc, gillinghamfc, leedsunitedafc, swanseacityfc, exetercityfc, cardiffcityfc, ipswichtownfc, salfordcityfc, manchestercityfc, afcbournemouth, bristolcityfc, westhamunitedfc, leicestercityfc, grimsbytownfc, swindontownfc, crystalpalacefc, crawleytownfc, lincolncityfc, coventrycityfc, bradfordcityfc, oxfordunitedfc, manchesterunitedfc, middlesbroughfc, leytonorientfc, newcastleunitedfc, wiganathleticfc, burtonalbionfc, tottenhamhotspurfc, suttonunitedfc, birminghamcityfc, nottinghamforestfc, fleetwoodtownfc, bristolroversfc, blackburnroversfc, mansfieldtownfc, sheffieldunitedfc, newportcountyfc, plymouthargylefc, boltonwanderersfc, prestonnorthendfc, tranmereroversfc, crewealexandrafc, carlisleunitedfc, westbromwichalbion, shrewsburytownfc, rotherhamunitedfc, huddersfieldtownfc, cheltenhamtownfc, brightonhovealbionfc, stockportcountyfc, charltonathleticfc, queensparkrangersfc, miltonkeynesdonsfc, northamptontownfc, cambridgeunitedfc, harrogatetownafc, doncasterroversfc, wycombewanderersfc, forestgreenroversfc, sheffieldwednesdayfc, hartlepoolunitedfc, colchesterunitedfc, accringtonstanleyfc, peterboroughunitedfc, wolverhamptonwanderersfc</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Films set on farms</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.692</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">212 : 2.326</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.922</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">218</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.995</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">102</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.476</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q105358030">Q105358030</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q11424">film</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">nope, pearl, thewitch, thevisit, thenorthman, signs, looper, brightburn, lamb, chickenrun, splice, umma, thebutler, babe, warhorse, aquietplace, giant, interstellar, antebellum, sinister2, 1922, strawdogs, boy, barnyard, leprechaun, mandingo, critters, strangeworld, animalfarm, manderlay, oldhenry, tideland, abandoned, buster, bloodcreek, shenandoah, thewizardofoz, flicka, sounder, hightension, blacksheep, thecurse, 12yearsaslave, theriver, motelhell, lavender, rockadoodle, lassie, borderland, rams, gordy, darkriver, undertow, fieldofdreams, demonwind, daysofheaven, thequietgirl, theday, sunsetsong, ofmiceandmen, gunda, isolation, babyblues, thefox, unearth, country, thecottage, rambolastblood, vanessa, theeggandi, theunseen, djangounchained, bereavement, songofthesouth, watershipdown, aftermath, gwen, ringingbell, farmhouse, cattleking, duelinthesun, fantasticmrfox, scarecrows, axe, charlottesweb, zforzachariah, branded, thefields, themudgeboy, tomatthefarm, tobaccoroad, pervert, homeontherange, themessengers, thewasteland, aswang, malevolence, racingstripes, thejackbull, demoni3...</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Best Actor BAFTA Award winners</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.985</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">46 : 1.663</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">46</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.979</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">41</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.870</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8298317">Q8298317</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">alpacino, garyoldman, ramimalek, jamiefoxx, hughgrant, billmurray, colinfirth, jamiebell, johncleese, johnhurt, jacklemmon, williamhurt, seanconnery, kevinspacey, bobhoskins, austinbutler, genehackman, benkingsley, peterfinch, russellcrowe, michaelcaine, mickeyrourke, caseyaffleck, haingsngor, jacknicholson, geoffreyrush, jeandujardin, eddieredmayne, spencertracy, robertredford, dustinhoffman, robertdowneyjr, joaquinphoenix, anthonyhopkins, burtlancaster, danieldaylewis, waltermatthau, robertcarlyle, forestwhitaker, leonardodicaprio, robertobenigni, chiwetelejiofor, richarddreyfuss, philippenoiret, nigelhawthorne, philipseymourhoffman</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Film producers from California</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.224</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">703 : 2.847</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.928</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">703</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.997</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">137</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.193</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8451758">Q8451758</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">benaffleck, brucelee, tomhanks, snoopdogg, timburton, seanpenn, katehudson, jonahhill, johnwayne, drdre, ronhoward, seanastin, lebronjames, brendasong, colinhanks, adambrody, michaelbay, fredward, ritawilson, robreiner, jonpeters, kevinspacey, jamesfranco, icecube, jameshaven, mikejudge, steveharvey, chucknorris, jeffbridges, carlreiner, stevemartin, noraephron, maxbaerjr, toddfield, willferrell, georgelucas, jasongould, dianekeaton, jasonblum, jongries, alanladd, emmathomas, sinbad, reddfoxx, lenwiseman, masterp, jamescameron, danielwu, frankcapra, shaneblack, lanawood, kevincostner, jeremyrenner, dannyglover, stevebing, mcg, tinashe, ahmetzappa, joshevans, amypascal, ricksalomon, jackwebb, walterhill, tobeymaguire, ryancoogler, stevebannon, dwaynejohnson, maxwinkler, alexdlinz, e40, paulmooney, alanladdjr, dickpowell, dlhughley, russmeyer, dianebaker, haimsaban, angelinajolie, rominapower, howardhughes, robertduvall, robminkoff, clinteastwood, louadler, davidfincher, davidladd, rashidajones, greggaraki, guymadison, coreyfeldman, johnlogan, mikefarrell, halroach, chriscolfer, amidolenz, nileniami, colleencamp, djpooh, jameswong, drewbarrymore...</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Hardwood forest plants</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.701</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">22 : 1.342</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.0</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.924</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">22</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.957</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.045</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8505471">Q8505471</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">acerrubrum, quercusalba, pinusstrobus, cornusflorida, acersaccharum, caryaglabra, tsugacanadensis, americanchestnut, oxalisacetosella, quercusmontana, quercusvelutina, betulapapyrifera, fagusgrandifolia, quercuscoccinea, fraxinusamericana, hymenaeacourbaril, ostryavirginiana, caryacordiformis, aralianudicaulis, gaultheriaprocumbens, acerpensylvanicum, betulaalleghaniensis</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Nottingham Forest F.C. managers</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.306</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">45 : 1.653</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.0</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">45</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.156</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q9008291">Q9008291</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">stevecooper, brianclough, davidplatt, ronatkinson, davemackay, stevenreid, joekinnear, frankclark, garymegson, martinoneill, chrishughton, stuartpearce, alexmcleish, mickyadams, stevemcclaren, aitorkaranka, paulhart, mickharford, garybrazil, davebassett, robkelly, billydavies, sabrilamouchi, johnnycarey, markwarburton, billywalker, allanbrown, andybeattie, stevecotterill, dougiefreedman, paulwilliams, seanodriscoll, mattgillies, simonireland, frankbarlow, ianmcparland, johnpemberton, colincalderwood, philippemontanier, stanhardy, harryhallam, fredearp, noelwatson, harryradford, haroldwightman</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">People from Forest Gate</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.505</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">50 : 1.699</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.928</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">50</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.980</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.140</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q13283040">Q13283040</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">annaneagle, ravibopara, billymurray, dawnbutler, timcampbell, maryrenault, ddoublee, davidfarrar, irissadler, chiwetelejiofor, johnashton, tempat, razaaqadoti, samalper, rickynorwood, steelbanglez, malcolmmcfee, timnielsen, leonmestel, trevormorgan, markstephens, johnpiercy, shirleyannefield, hannahdadds, sarahjezebeldeva, terrencehardiman, stevebarrow, davidgipp, paulhead, mikbasi, chrisoliver, barrywindsorsmith, paulbach, paulbacon, johnnygreaves, jeanpickering, dannywoodards, georgedrewry, lindastrachan, edwardpennell, cleonebenest, ewbedford, georgelouden, brunoderoeper, charlesbosanquet, georgewatson, frankistevans, richardraymondbarker, frederickbalcombe, hughgeorgedewillmottnewman</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Woodberry Forest School alumni</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.447</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">42 : 1.623</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.927</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.930</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">42</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.071</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q26308631">Q26308631</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">marvinbush, randolphscott, johnnymercer, anguswall, rogerwilson, gordongray, paulilyinsky, halseyminor, davidho, jamesmcmurtry, heinzpagels, edreynolds, noelperrin, rogersmorton, jackcobb, bosleycrowther, donaldantrim, robertdaniel, charlesbdew, martinclark, alexmcmillan, burrharrison, charleswcoker, jamesdrobinsoniii, arthurbhancockjr, thomasbevansjr, boomercastleman, kendallgaskins, willstrickler, jcraigwright, jsargeantreynolds, williamfittsryan, lrichardsonpreyer, lawrencelewisjr, johnwesleyhanesii, roberthedmundsjr, thrustonballardmorton, juliuscurtislewisjr, williamstatesleeiii, williamjohnstonarmfield, richardthurmondchatham, earlnorfleetphillips</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">African-American screenwriters</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.226</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">213 : 2.328</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.928</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">213</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">45</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.207</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8225399">Q8225399</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">willsmith, chrisrock, nickcannon, kevinhart, tylerperry, lebronjames, rza, spikelee, eddiemurphy, aishatyler, icecube, jordanpeele, wandasykes, issarae, jamesavery, masterp, jennylumet, michaelche, marlagibbs, lenawaithe, ryancoogler, niadacosta, donaldglover, jakknight, rashidajones, timruss, richardpryor, kenyabarris, djpooh, shondarhimes, janetmock, avaduvernay, johnridley, maxjulien, toyajohnson, kasilemmons, joielee, shakaking, akelacooper, mishagreen, amberruffin, quintabrunson, ericmonte, kemppowers, malcolmdlee, atticalocke, deerees, deontaylor, cinquelee, barryjenkins, damonwayansjr, janiczabravo, johnsingleton, troybyer, charliemurphy, deborahpratt, byronsaxton, benramsey, saulwilliams, larrywilmore, radhablank, reynaldorey, jamesmcnair, davidmills, jaswaters, hannibalburess, marcwilmore, lisajones, justinsimien, derekminor, mattyrich, carltart, johnsemper, zorahoward, tanyawright, joerobertcole, mkasante, elynnharris, tinamabry, oscarmicheaux, vernonchatman, kevingrevioux, courtneyakemp, roberttownsend, antwonefisher, chrispowell, samgreenlee, michaelgmoye, robedwards, marabrockakil, keligoff, omarregan, dahelihall, sholalynch, lancecrouther, maggiebetts, keenenivorywayans, scottsanders, michaelgenet, marclamonthill...</td>
+</tr>
+</table>
+<h2 class="px-5 py-2 font-sans text-lg font-bold">palm (0.000 Δ +0.000 )</h2>
+<table class="m-5">
+<tr>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">score</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">name</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">u. score</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">is bad</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">rank</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">members</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. rank mean</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. rank median</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. int. score mean</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">m. int. score median</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">valid m. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">invalid m. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">valid m. ratio</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">nonav. count</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">nonav. ratio</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">is merged</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">wikidata</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">types</th>
+<th class="sticky bg-blue-300 top-0 border border-slate-300 px-2 py-2">names</th>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">American sex comedy films</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.941</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">407 : 2.610</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.901</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">409</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.998</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">149</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.364</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q7524124">Q7524124</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q11424">film</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">deepthroat, ted, superbad, movie43, thatsmyboy, ted2, knockedup, donjon, eurotrip, piranha3d, secretary, prettywoman, trainwreck, oldschool, roadtrip, badteacher, americanpie, sextape, vanwilder, porkys, badsanta, striptease, chasingamy, thegraduate, yesgodyes, blockers, sexdrive, goodboys, threesome, accepted, piranha3dd, shortbus, spread, boomerang, alfie, thelayover, nightshift, shampoo, aftersex, orgazmo, shehateme, thehotchick, switch, hick, candy, pillowtalk, losinit, class, hallpass, theescort, avanti, oncebitten, casualsex, missmarch, sausageparty, choke, thisistheend, 50firstdates, exittoeden, zapped, magicmikexxl, clubdread, firedup, irmaladouce, bootycall, loverboy, tomcats, permission, sexandthecity, joyofsex, slackers, sob, bottoms, mischief, thetodolist, weirdscience, dirtygrandpa, comingsoon, hardbodies, americanpie2, theguru, aguything, theapartment, skindeep, somelikeithot, thesessions, eviltoons, viva, milf, mytutor, hunk, dirtydeeds, adirtyshame, dirtylove, tadpole, cougarclub, skischool, riskybusiness, eatingout, fleshgordon...</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">People from Palm Coast, Florida</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.863</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">13 : 1.114</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.0</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.928</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">13</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.077</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q13284206">Q13284206</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">blackbear, rodneyorr, dalelong, tomgullikson, dalehall, guyferri, jonathanmay, tycapps, mauricedavis, eddiepreston, howardmitchell, johnwanderson, carloseugeniovidescasanova</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Palme d'Or winners</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.988</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">97 : 1.987</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.7</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.921</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.932</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">98</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.970</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">40</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.402</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q7141709">Q7141709</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q11424">film</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">parasite, taxidriver, thepianist, titane, thepiano, thesquare, theleopard, themission, dumbo, mash, pulpfiction, paristexas, blowup, elephant, thetindrum, bartonfink, amour, kagemusha, ladolcevita, shoplifters, thethirdman, marty, missing, wildatheart, scarecrow, viridiana, theclass, allthatjazz, dheepan, apocalypsenow, rosetta, yol, underground, theeel, crossfire, lenfant, secretslies, manofiron, gateofhell, othello, wintersleep, thetreeoflife, romeopencity, idanielblake, thesonsroom, blackorpheus, amanandawoman, fahrenheit911, missjulie, tasteofcherry, neechanagar, thegobetween, thedamned, thewhiteribbon, thewagesoffear, dancerinthedark, padrepadrone, triangleofsadness, theconversation, briefencounter, unionpacific, thelostweekend, thehireling, miracleinmilan, thesilentworld, eternityandaday, thematteiaffair, ziegfeldfollies, thelongabsence, thelastchance, mariacandelaria, farewellmyconcubine, sexliesandvideotape, thecranesareflying, pelletheconqueror, thebestintentions, theredmeadows, blueisthewarmestcolour, theballadofnarayama, friendlypersuasion, theturningpoint, underthesunofsatan, pastoralsymphony, 4months3weeksand2days, thetreeofwoodenclogs, opagadordepromessas, theumbrellasofcherbourg, menwithoutwings, theknackandhowtogetit, twocentsworthofhope, thewindthatshakesthebarley, antoineandantoinette, whenfatherwasawayonbusiness, theworkingclassgoestoheaven, chronicleoftheyearsoffire, thebirdsthebeesandtheitalians, uncleboonmeewhocanrecallhispastlives</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Writers from Palm Springs, California</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.719</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">35 : 1.544</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.929</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">35</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">7</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.171</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q15095763">Q15095763</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">liberace, raybradbury, betsydrake, trumancapote, howardhawks, cameroncrowe, mosshart, sidneysheldon, gypsyboots, joswerling, haroldrobbins, tombianchi, billysteinberg, normankrasna, todgoldberg, maureendaly, andrewneiderman, rossrussell, monicajohnson, oscarbrodney, garymgreen, irvingbrecher, claudebinyon, elroyschwartz, edmundjaeger, sergiogalindo, markthompson, haroldbellwright, riffmarkowitz, michaelhickey, jsmeatonchase, thelmapressman, christopherpaulbaker, colinwebsterwatson, gordonwhiteymitchell</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">West Palm Beach Braves players</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.199</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">16 : 1.204</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.928</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">16</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.125</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8912606">Q8912606</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">dustybaker, citogaston, ronreed, halbreeden, carlmorton, waynegarrett, bobdidier, earlwilliams, cecilupshaw, oscarbrown, wentyford, alsantorini, skipguinn, roeskidmore, rafaelbatista, jimridley</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Films set in Palm Springs, California</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.354</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">22 : 1.342</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.870</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">23</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.958</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.227</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q25025582">Q25025582</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q11424">film</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">palmsprings, mackrita, highsierra, doa, slowburn, thesaltonsea, littlebirds, aboutfifty, poodlesprings, behindthecandelabra, afterdarkmysweet, justgettingstarted, palmspringsweekend, fraternityvacation, driveacrookedroad, flighttonowhere, eatingouttheopenweekend, thesaintinpalmsprings, thirdworldcalifornia, plaguespleasuresonthesaltonsea, visualacousticsthemodernismofjuliusshulman, stillkickingthefabulouspalmspringsfollies</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">Edible palms</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.660</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">8 : 0.903</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.7</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.927</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">9</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.500</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.375</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q16806870">Q16806870</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q16521">taxon</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">coconut, datepalm, acaipalm, borassus, butia, bactrisgasipaes, eleiodoxa, oenocarpusbataua</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">People from Palm Harbor, Florida</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.107</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">20 : 1.301</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.8</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.927</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">20</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.150</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8745207">Q8745207</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">mikerinder, johnhuston, tedlarsen, bensweat, gusbilirakis, jacobharris, chriswoodward, edsneed, chriscoghlan, tuckeralbrizzi, dakodadowd, justinstrnad, leemccoy, donchevrier, justinmiller, curtiskiser, larrycrow, gerryteifer, jackdavis, jennyromatowski</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">People from Palm Desert, California</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.294</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">68 : 1.833</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">5.1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.0</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.927</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">68</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.971</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">6</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.074</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q8745206">Q8745206</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">kurtrussell, joshhomme, nancykulp, howardkeel, jackgarner, maryhart, jerryvale, alvymoore, jedallan, ellendrew, barrycoe, williamboyd, williamasher, buddygreco, petermarshall, alicemarble, marianmarsh, isaiahzeldin, eddyhoward, mamieeisenhower, barbarakent, brookskriske, barryjaeckel, iantaylor, shirleyspork, virginiafield, eddieelguera, norrisgoff, brianserven, rowlandvlee, djalexander, desiraekrawczyk, johnharrison, maxbell, jameswest, johnbromfield, agidonath, rochellehudson, edwardfaulkner, adolphdeutsch, maureendaly, jamesdockery, davidwachs, richardclayton, brunoboin, patsyruthmiller, michaelmastro, alcarmichael, margaretwenzell, buddalbright, caseymerrill, byronsmith, kathyhite, briannestande, davemcelhatton, johnaylesworth, cliffhenderson, larrytcohen, brentgeiberger, thomasdemarco, tonybujan, nicolecastrale, georgealingo, velmawaynedawson, paulzastupnevich, mariamitzeva, herbertrtemplejr, gordonwhiteymitchell</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.2</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">People from Palm City, Florida</td>
+<td class="border border-slate-300 px-2 py-2 text-right "></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">2.223</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">15 : 1.176</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">4.5</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3.0</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.929</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.931</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">15</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">1.000</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">3</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">0.133</td>
+<td class="border border-slate-300 px-2 py-2 text-right ">False</td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q30692325">Q30692325</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right "><a href="https://wikidata.org/wiki/Q5">human</a></td>
+<td class="border border-slate-300 px-2 py-2 text-right ">danbongino, percywood, kenduke, jimherman, nicksnyder, kathyrinaldi, barryryan, aldoforte, brettbenzio, billsommers, georgeolesen, edgarcortright, roytrantham, walterphilipleber, johnakjellstrom</td>
+</tr>
+</table>

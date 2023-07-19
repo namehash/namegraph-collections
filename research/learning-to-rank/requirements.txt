@@ -1,0 +1,2 @@
+elasticsearch==7.17.9
+elasticsearch_ltr @ git+https://github.com/apohllo/elasticsearch-ltr-py
