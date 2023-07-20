@@ -8,6 +8,7 @@ import os
 import numpy as np
 from elasticsearch import Elasticsearch
 
+
 LTR_QUERY = {
     "query": {
         "bool": {
@@ -16,10 +17,10 @@ LTR_QUERY = {
                 {
                     "multi_match": {
                         "fields": [
-                            "data.collection_name",  # 1
-                            "data.collection_name.exact",  # 2
+                            "data.collection_name^3",  # 1
+                            "data.collection_name.exact^3",  # 2
                             "data.collection_description",  # 3
-                            "data.collection_keywords",  # 4
+                            "data.collection_keywords^2",  # 4
                             "data.names.normalized_name",  # 5
                             "data.names.tokenized_name",  # 6
                         ],
@@ -30,7 +31,7 @@ LTR_QUERY = {
             "should": [
                 {
                     "rank_feature": {"field": "template.collection_rank",  # 7
-                                     "boost": 1, }
+                                     "boost": 100, }
                 },
                 {
                     "rank_feature": {"field": "metadata.members_rank_mean",  # 8
@@ -84,7 +85,7 @@ LTR_QUERY = {
                'metadata.modified'],
     "size": 10,
     "rescore": {
-        "window_size": 1000,
+        "window_size": 50,
         "query": {
             "rescore_query": {
                 "sltr": {
@@ -97,7 +98,8 @@ LTR_QUERY = {
                     },
                 }
             },
-            "query_weight": 0
+            "query_weight": 0,
+
         }
     }
 }
