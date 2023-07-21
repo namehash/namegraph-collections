@@ -32,6 +32,7 @@ data/stats_instance_of.txt: data/latest-all.nt.bz2.filtered.bz2
 
 data/db1.rocks: data/latest-all.nt.bz2.filtered.bz2 # 1.5h
 	${TIME_CMD} python scripts/create_kv.py $<
+#MULTI OUTPUT: data/db2.rocks data/db3.rocks data/db4.rocks data/db5.rocks data/db6.rocks
 
 data/db1_rev.rocks: data/db1.rocks
 	${TIME_CMD} python scripts/reverse_rocksdict.py data/db1.rocks/ data/db1_rev.rocks/
@@ -39,6 +40,7 @@ data/db1_rev.rocks: data/db1.rocks
 ########################  PREPARING VALID LISTS AND CATEGORIES  ########################
 prepare_lists_and_categories: data/categories.json data/lists.json
 
+#INPUT: data/db3.rocks
 data/categories.json: data/db1_rev.rocks
 	${TIME_CMD} python scripts/create_lists.py $@ --mode category
 # output:
@@ -168,6 +170,7 @@ cache2: data/validated_category_members.jsonl cache1
 
 ########################  VALIDATE TYPES  ########################
 
+#INPUT: data/db1.rocks data/db2.rocks data/db6.rocks data/index_enwiki-latest.db
 data/validated_list_links.jsonl: data/list_links.jsonl
 	${TIME_CMD} python3 scripts/filter_articles2.py $< $@ -n 111000
 # 29:08<00:33, 62.30it/s
@@ -179,6 +182,7 @@ data/validated_list_links.jsonl: data/list_links.jsonl
 # Members 5275966 valid, 19635289 invalid   
 # No parent 1210190 
 
+#INPUT: data/db1.rocks data/db2.rocks data/db6.rocks data/index_enwiki-latest.db
 data/validated_category_members.jsonl: data/category_members.jsonl
 	${TIME_CMD} python3 scripts/filter_articles2.py $< $@ -n 460000
 # 461543it [22:38, 339.84it/s]
@@ -193,9 +197,11 @@ data/validated_category_members.jsonl: data/category_members.jsonl
 #user    16m22,530s
 #sys     2m10,075s
 
+#INPUT: data/db5.rocks data/index_enwiki-latest.db
 data/category_members_all_info.jsonl: data/validated_category_members.jsonl cache2 data/suggestable_domains.csv data/qrank.csv
 	${TIME_CMD} python3 scripts/prepare_members_names.py $< data/qrank.csv $@ -n 460000
-	
+
+#INPUT: data/db5.rocks data/index_enwiki-latest.db
 data/list_links_all_info.jsonl: data/validated_list_links.jsonl cache2 data/suggestable_domains.csv data/qrank.csv
 	${TIME_CMD} python3 scripts/prepare_members_names.py $< data/qrank.csv $@ -n 111000
 	
@@ -204,6 +210,7 @@ data/list_links_all_info.jsonl: data/validated_list_links.jsonl cache2 data/sugg
 
 #${TIME_CMD} python3 scripts/prepare_collections2.py data/category_members_all_info.jsonl data/category_members_final.jsonl -n 460000
 
+#INPUT: data/db4.rocks
 data/merged.jsonl: data/list_links_all_info.jsonl data/category_members_all_info.jsonl
 	${TIME_CMD} python scripts/merge_lists_and_categories.py data/list_links_all_info.jsonl data/category_members_all_info.jsonl data/merged.jsonl
 
