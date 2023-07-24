@@ -1,4 +1,5 @@
 from argparse import ArgumentParser
+from typing import Any
 import jsonlines
 import hashlib
 import json
@@ -84,6 +85,23 @@ class JSONLIndex:
             return json.loads(f.readline())
 
 
+def get_nested_field(document: dict, field: str, default: Any = None) -> Any:
+    value = document
+    for part in field.split('.'):
+        value = value.get(part, None)
+        if value is None:
+            return default
+    return value
+
+
+def set_nested_field(document: dict, field: str, value: Any) -> None:
+    placeholder = document
+    splitted_field = field.split('.')
+    for part in splitted_field[:-1]:
+        placeholder = placeholder.setdefault(part, {})
+    placeholder[splitted_field[-1]] = value
+
+
 def insert(es: Elasticsearch, collection: dict) -> None:
     # FIXME
 
@@ -105,24 +123,12 @@ def update(es: Elasticsearch, old_collection: dict, collection: dict, fields: li
 
     # check if the fields have changed (the fields are separated by dots)
     for field in fields:
-        # get the value of the field in the old collection
-        old_value = old_collection
-        for part in field.split('.'):
-            old_value = old_value.get(part, None)
-            if old_value is None:
-                break
-
-        # get the value of the field in the new collection
-        new_value = collection
-        for part in field.split('.'):
-            new_value = new_value.get(part, None)
-            if new_value is None:
-                break
+        old_value = get_nested_field(old_collection, field)
+        new_value = get_nested_field(collection, field)
 
         # if the values are different, update the field
-        # FIXME: this will not work for nested fields
         if old_value != new_value:
-            body['doc'][field] = new_value
+            set_nested_field(body['doc'], field, new_value)
 
     # if no fields have changed, do nothing
     if not body['doc']:
@@ -140,7 +146,8 @@ if __name__ == '__main__':
     parser.add_argument('input', help='input JSONL file with current collections')
     parser.add_argument('previous', help='input JSONL file with previous collections')
     parser.add_argument('--fields', nargs='+',
-                        default=['metadata.title', 'metadata.description', 'metadata.keywords'],
+                        default=['data', 'template', 'metadata.modified',
+                                 'metadata.members_count', 'metadata.collection_name_log_probability'],
                         help='fields to compare')
     args = parser.parse_args()
 
@@ -167,10 +174,11 @@ if __name__ == '__main__':
     with jsonlines.open(args.input, 'r') as reader:
         for collection in tqdm.tqdm(reader):
             collection_id = collection['metadata']['id']
+
             if collection_id not in jsonl_index.id2hash:
                 print('New collection:', collection_id)
                 # TODO to optimize further, we can aggregate a part of the new collections, and bulk insert them
-                # insert(es, collection)
+                insert(es, collection)
                 continue
 
             previous_hash = jsonl_index.get_hash(collection_id)
@@ -182,6 +190,6 @@ if __name__ == '__main__':
             old_collection = jsonl_index.get_document(collection_id)
 
             print('Updated collection:', collection_id)
-            # update(es, old_collection, collection, args.fields)
+            update(es, old_collection, collection, args.fields)
 
     print(f'Elasticsearch updated in {time.perf_counter() - t0:.2f} seconds.')
