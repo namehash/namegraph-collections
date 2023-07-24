@@ -1,5 +1,6 @@
 .idea
 **.gz
+**.bz2
 __pycache__
 
 research/parsing-wiki-dumps/*.sql
