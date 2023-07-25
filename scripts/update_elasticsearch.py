@@ -8,6 +8,7 @@ import time
 import os
 
 from elasticsearch import Elasticsearch
+from elasticsearch.helpers import scan
 
 
 def connect_to_elasticsearch(
@@ -29,10 +30,30 @@ def connect_to_elasticsearch(
     )
 
 
+def collect_ids_mapping(es: Elasticsearch, index: str) -> dict[str, str]:
+    query = {
+        'query': {
+            'match_all': {}
+        },
+        '_source': ['metadata.id'],
+    }
+
+    mapping = dict()
+    for doc in tqdm.tqdm(
+            scan(es, index=index, query=query),
+            total=es.count(index=index)['count'],
+            desc='collecting IDs mapping'
+    ):
+        mapping[doc['_source']['metadata']['id']] = doc['_id']
+
+    return mapping
+
+
 class JSONLIndex:
-    def __init__(self, filepath: str, fields: list[str]):
+    def __init__(self, filepath: str, fields: list[str], ids_mapping: dict[str, str]):
         self.filepath = filepath
         self.fields = sorted(fields)
+        self.ids_mapping = ids_mapping
 
         self.id2hash = dict()
         self.id2offset = dict()
@@ -66,23 +87,18 @@ class JSONLIndex:
         hash = hashlib.sha256()
         for field in self.fields:
             # field may be a path to a nested field
-            value = document
-            for part in field.split('.'):
-                value = value.get(part, None)
-                if value is None:
-                    break
-
+            value = get_nested_field(document, field)
             hash.update(json.dumps(value, sort_keys=True).encode('utf-8'))
         return hash.hexdigest()
-        # return hashlib.sha256(json.dumps(document, sort_keys=True).encode('utf-8')).hexdigest()
 
     def get_hash(self, id: str) -> str:
         return self.id2hash[id]
 
-    def get_document(self, id: str) -> dict:
+    def get_document(self, id: str) -> tuple[str, dict]:
         with open(self.filepath, 'r', encoding='utf-8') as f:
             f.seek(self.id2offset[id])
-            return json.loads(f.readline())
+            document = json.loads(f.readline())
+            return self.ids_mapping[document['metadata']['id']], document
 
 
 def get_nested_field(document: dict, field: str, default: Any = None) -> Any:
@@ -103,18 +119,26 @@ def set_nested_field(document: dict, field: str, value: Any) -> None:
 
 
 def insert(es: Elasticsearch, collection: dict) -> None:
-    # FIXME
+    if collection['metadata']['members_count'] > 10000:
+        print('Skipping collection with more than 10000 members')
+        return
+
+    collection['template']['nonavailable_members_count'] += 1
+    collection['template']['invalid_members_count'] += 1
 
     es.index(
         index=index,
-        id=collection['metadata']['id'],
         body=collection,
     )
 
 
-def update(es: Elasticsearch, old_collection: dict, collection: dict, fields: list[str]) -> None:
+def update(es: Elasticsearch, old_id: str, old_collection: dict, collection: dict, fields: list[str]) -> None:
     # bulk update the fields specified in the fields list, if they have changed
     # otherwise, do nothing
+
+    if collection['metadata']['members_count'] > 10000:
+        print('Skipping collection with more than 10000 members')
+        return
 
     # build the body of the update request
     body = {
@@ -130,13 +154,19 @@ def update(es: Elasticsearch, old_collection: dict, collection: dict, fields: li
         if old_value != new_value:
             set_nested_field(body['doc'], field, new_value)
 
+    if 'template' in body['doc']:
+        if 'nonavailable_members_count' in body['doc']['template']:
+            body['doc']['template']['nonavailable_members_count'] += 1
+        if 'invalid_members_count' in body['doc']['template']:
+            body['doc']['template']['invalid_members_count'] += 1
+
     # if no fields have changed, do nothing
     if not body['doc']:
         return
 
     es.update(
         index=index,
-        id=collection['metadata']['id'],
+        id=old_id,
         body=body
     )
 
@@ -145,7 +175,11 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('input', help='input JSONL file with current collections')
     parser.add_argument('previous', help='input JSONL file with previous collections')
-    parser.add_argument('--fields', nargs='+',
+    parser.add_argument('--comparing_fields', nargs='+',
+                        default=['data', 'template', 'metadata.members_count',
+                                 'metadata.collection_name_log_probability'],
+                        help='fields to compare')
+    parser.add_argument('--updating_fields', nargs='+',
                         default=['data', 'template', 'metadata.modified',
                                  'metadata.members_count', 'metadata.collection_name_log_probability'],
                         help='fields to compare')
@@ -161,8 +195,9 @@ if __name__ == '__main__':
         scheme='http' if host in ['localhost', '127.0.0.1'] else 'https',
         host=host, port=port, username=username, password=password,
     )
+    ids_mapping = collect_ids_mapping(es, index)
 
-    jsonl_index = JSONLIndex(args.previous, args.fields)
+    jsonl_index = JSONLIndex(args.previous, args.comparing_fields, ids_mapping)
 
     print('Building index...')
     t0 = time.perf_counter()
@@ -171,11 +206,15 @@ if __name__ == '__main__':
 
     print('Updating Elasticsearch...')
     t0 = time.perf_counter()
+
     with jsonlines.open(args.input, 'r') as reader:
         for collection in tqdm.tqdm(reader):
             collection_id = collection['metadata']['id']
 
-            if collection_id not in jsonl_index.id2hash:
+            # we insert only if the collection is not in the Elasticsearch index
+            # disregarding the fact that it might be in the previous JSONL file (insertion might have failed)
+            # it also prevents from inserting duplicates (but mapping should be updated each time we run this script)
+            if collection_id not in jsonl_index.ids_mapping:
                 print('New collection:', collection_id)
                 # TODO to optimize further, we can aggregate a part of the new collections, and bulk insert them
                 insert(es, collection)
@@ -187,9 +226,10 @@ if __name__ == '__main__':
             if previous_hash == current_hash:
                 continue
 
-            old_collection = jsonl_index.get_document(collection_id)
+            old_id, old_collection = jsonl_index.get_document(collection_id)
 
+            # this update happens only in populate.py, so it is not presented in the previous JSONL file
             print('Updated collection:', collection_id)
-            update(es, old_collection, collection, args.fields)
+            update(es, old_id, old_collection, collection, args.updating_fields)
 
     print(f'Elasticsearch updated in {time.perf_counter() - t0:.2f} seconds.')
