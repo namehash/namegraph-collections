@@ -110,7 +110,7 @@ with DAG(
 WIKIPEDIA_PAGELINKS = Dataset(f"{CONFIG.remote_prefix}enwiki-{CONFIG.date_str}-pagelinks.sql.gz")
 WIKIPEDIA_REDIRECT = Dataset(f"{CONFIG.remote_prefix}enwiki-latest-redirect.sql.gz")
 WIKIPEDIA_CATEGORYLINKS = Dataset(f"{CONFIG.remote_prefix}enwiki-{CONFIG.date_str}-categorylinks.sql.gz")
-WIKIPEDIA_PAGEPROPS = Dataset(f"{CONFIG.remote_prefix}enwiki-{CONFIG.date_str}-page_pros.sql.gz")
+WIKIPEDIA_PAGEPROPS = Dataset(f"{CONFIG.remote_prefix}enwiki-latest-page_pros.sql.gz")
 WIKIPEDIA_PAGE = Dataset(f"{CONFIG.remote_prefix}enwiki-latest-page.sql.gz")
 
 def wget_for_wikipedia(type: str, latest: bool=False):
@@ -165,7 +165,7 @@ with DAG(
         outlets=[WIKIPEDIA_REDIRECT],
         task_id="download-redirect",
         bash_command=f"wget {wget_for_wikipedia('redirect', latest=True)}",
-        start_date=datetime(3021, 1, 1),
+        #start_date=datetime(3021, 1, 1),
     )
 
     redirect_task.doc_md = dedent(
@@ -208,7 +208,7 @@ with DAG(
         outlets=[WIKIPEDIA_PAGE],
         task_id="download-page",
         bash_command=f"wget {wget_for_wikipedia('page', latest=True)}",
-        #start_date=datetime(3021, 1, 1),
+        start_date=datetime(3021, 1, 1),
     )
 
     page_task.doc_md = dedent(
@@ -218,7 +218,7 @@ with DAG(
     """
     )
 
-WIKIMAPPER_REDIRECT = Dataset(f"{CONFIG.remote_prefix}index_enwiki-latest.db")
+WIKIMAPPER = Dataset(f"{CONFIG.remote_prefix}index_enwiki-latest.db")
 
 with DAG(
     "wikimapper",
@@ -235,7 +235,7 @@ with DAG(
     start_date=CONFIG.start_date,
     catchup=False,
     tags=["db", "collection-templates"],
-    schedule=[WIKIPEDIA_REDIRECT, WIKIPEDIA_PAGE],
+    schedule=[WIKIPEDIA_REDIRECT, WIKIPEDIA_PAGE, WIKIPEDIA_PAGEPROPS],
 ) as dag:
     dag.doc_md = """
     Loading of Wikipedia dump files to wikimapper database
@@ -243,9 +243,9 @@ with DAG(
 
 
     pagelinks_task = BashOperator(
-        outlets=[WIKIMAPPER_REDIRECT],
+        outlets=[WIKIMAPPER],
         task_id="load-redirect",
-        bash_command=f"wikimapper create enwiki-latest --dumpdir {CONFIG.local_prefix} --target enwiki-latest-redirect.sql.gz",
+        bash_command=f"wikimapper create enwiki-latest --dumpdir {CONFIG.local_prefix} --target index_enwiki-latest.db",
     )
 
     pagelinks_task.doc_md = dedent(

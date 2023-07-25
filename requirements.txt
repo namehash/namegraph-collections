@@ -3,7 +3,7 @@ Wikipedia-API==0.5.8
 jsonlines
 sparqlwrapper
 tqdm
-git+https://github.com/Goader/wikimapper@wikipedia-id-to-title
+git+https://github.com/apohllo/wikimapper@primary-mapping
 more_itertools
 ens-normalize
 pytest

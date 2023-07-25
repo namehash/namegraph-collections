@@ -1,4 +1,5 @@
 import bz2
+import sqlite3, re
 import sys
 from datetime import datetime, timedelta
 from textwrap import dedent
@@ -6,11 +7,10 @@ from textwrap import dedent
 import lightrdf
 from tqdm import tqdm
 import rocksdict
-import rocksdict
 from rocksdict import AccessType
 
-from airflow import DAG, Dataset, task
-from make_dag import CONFIG, WIKIDATA_FILTERED
+from airflow import DAG, Dataset
+from make_dag import CONFIG, WIKIDATA_FILTERED, WIKIMAPPER
 
 from airflow.operators.python import PythonOperator
 
@@ -125,9 +125,11 @@ def split_dict(entity, mappings):
                 result[db_name][predicate] = entity[predicate]
     return result
 
-ROCKS_DB_1 = Dataset(f"{CONFIG.remote_prefix}db1.rocks")
-ROCKS_DB_1_REVERSE = Dataset(f"{CONFIG.remote_prefix}db1_rev.rocks")
+ROCKS_DB_2 = Dataset(f"{CONFIG.remote_prefix}db2.rocks")
 ROCKS_DB_3 = Dataset(f"{CONFIG.remote_prefix}db3.rocks")
+ROCKS_DB_4 = Dataset(f"{CONFIG.remote_prefix}db4.rocks")
+ROCKS_DB_5 = Dataset(f"{CONFIG.remote_prefix}db5.rocks")
+ROCKS_DB_6 = Dataset(f"{CONFIG.remote_prefix}db6.rocks")
 
 
 def create_rocksdb(dbs, entity_path, db_path_prefix):
@@ -157,9 +159,25 @@ def create_reverse_rocksdb(input_path, output_path):
 
     db_output.close()
 
+def load_wikidata_wikipedia_mapping(input_path, db1_path, db1_rev_path):
+    connection = sqlite3.connect(input_path)
+    cursor = connection.cursor()
+
+    rocksdb_direct = rocksdict.Rdict(db1_path)
+    rocksdb_rev = rocksdict.Rdict(db1_rev_path)
+
+    count = list(cursor.execute("SELECT count(*) from mapping WHERE primary_mapping = 1 AND redirect = 0"))[0][0]
+    for item in tqdm(cursor.execute("SELECT wikipedia_title, wikipedia_id, wikidata_id FROM mapping WHERE primary_mapping = 1 AND redirect = 0"), total=count):
+        name = re.sub(r"_", " ", item[0])
+        wikidata_id = item[2]
+        rocksdb_rev[wikidata_id] = name
+        rocksdb_direct[name] = {"about": wikidata_id }
+
+    rocksdb_direct.close()
+    rocksdb_rev.close()
 
 with DAG(
-    "rocksdb",
+    "rocksdb-main",
     default_args={
         "depends_on_past": False,
         "email": [CONFIG.email],
@@ -183,7 +201,7 @@ with DAG(
             "entity_path": f"{CONFIG.local_prefix}/latest-truthy.filtered.nt.bz2",  
             "db_path_prefix": CONFIG.local_prefix
         },
-        outlets=[ROCKS_DB_1, ROCKS_DB_3]
+        outlets=[ROCKS_DB_2, ROCKS_DB_3, ROCKS_DB_4, ROCKS_DB_5, ROCKS_DB_6,]
         #start_date=datetime(3021, 1, 1),
     )
     create_rocksdb.doc_md = dedent(
@@ -191,24 +209,45 @@ with DAG(
     #### Task Documentation
     The task creates a number of rocksdb databases, to store mappings between
     wikidata entitites and their properties.
+
+    These databases do not include the mapping between Wikidata and English Wikipedia.
     """
     )
 
+ROCKS_DB_1 = Dataset(f"{CONFIG.remote_prefix}db1.rocks")
+ROCKS_DB_1_REVERSE = Dataset(f"{CONFIG.remote_prefix}db1_rev.rocks")
+
+with DAG(
+    "rocksdb-entities",
+    default_args={
+        "depends_on_past": False,
+        "email": [CONFIG.email],
+        "email_on_failure": False,
+        "email_on_retry": False,
+        "retries": 1,
+        "retry_delay": timedelta(minutes=5),
+        "cwd": CONFIG.local_prefix,
+    },
+    description="Tasks related to the creation of fast KV stores (Wikidata - Wikipedia)",
+    schedule=[WIKIMAPPER],
+    start_date=CONFIG.start_date,
+    catchup=False,
+    tags=["db", "collection-templates"],
+) as dag:
     create_reverse = PythonOperator(
-        task_id='create-reverse-rocksdb',
-        python_callable=create_reverse_rocksdb,
+        task_id='create-rocksdb-entities',
+        python_callable=load_wikidata_wikipedia_mapping,
         op_kwargs={
-            "input_path": f"{CONFIG.local_prefix}db1.rocks/", 
-            "output_path": f"{CONFIG.local_prefix}db1_rev.rocks/",  
+            "input_path": f"{CONFIG.local_prefix}index_enwiki-latest.db", 
+            "db1_path": f"{CONFIG.local_prefix}db1.rocks/",  
+            "db1_rev_path": f"{CONFIG.local_prefix}db1_rev.rocks/",  
         },
-        outlets=[ROCKS_DB_1_REVERSE]
+        outlets=[ROCKS_DB_1, ROCKS_DB_1_REVERSE]
         #start_date=datetime(3021, 1, 1),
     )
     create_reverse.doc_md = dedent(
         """\
     #### Task Documentation
-    The task creates a revers db, of the db1.rocks, i.e. a mapping from 'about' to the subject.
+    The task creates a mapping from Wikidata to Wikipedia and from Wikipedia to Wikidata.
     """
     )
-
-    create_rocksdb >> create_reverse

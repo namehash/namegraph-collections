@@ -73,7 +73,7 @@ data/enwiki-pagelinks.csv: data/enwiki-20230401-pagelinks.sql.gz data/allowed-li
 	time python scripts/parse_wiki_dump.py $< $@ --mode list --allowed_values data/allowed-lists.txt
 	# 126m, output:
 	# 23455140,1.FC_Nürnberg
-    # 33030326,1.FC_Nürnberg
+	# 33030326,1.FC_Nürnberg
 
 data/mapped-lists.csv: data/enwiki-pagelinks.csv data/index_enwiki-latest.db
 	time python scripts/map_to_wikidata_ids_and_titles.py $^ $@ --mode list
@@ -81,8 +81,8 @@ data/mapped-lists.csv: data/enwiki-pagelinks.csv data/index_enwiki-latest.db
 	# Q6620950,1.FC_Nürnberg
 	# Q6589143,1.FC_Nürnberg
 	# List_of_footballers_killed_during_World_War_II,1.FC_Nürnberg
-  	# List_of_Malaysian_football_transfers_2012,1.FC_Nürnberg
-  	# Swedish_women's_football_clubs_in_international_competitions,1.FFC_Frankfurt
+	# List_of_Malaysian_football_transfers_2012,1.FC_Nürnberg
+	# Swedish_women's_football_clubs_in_international_competitions,1.FFC_Frankfurt
 
 data/sorted-lists.csv: data/mapped-lists.csv
 	(head -n 1 $< && tail -n +2 $< | LC_ALL=C sort) > $@
@@ -92,7 +92,7 @@ data/list_links.jsonl: data/sorted-lists.csv data/lists.json
 	time python scripts/reformat_csv_to_json.py $< $@ --list_of_collections data/lists.json #--mode list
 	# output
 	#     {"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "SMS Württemberg",  "SMS Württemberg (1917)", "Sachsen-class ironclad", "WikiProject Ships/Guidelines"]}
-    # old:{"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "Sachsen-class ironclad", "SMS Württemberg (1917)"]}
+	# old:{"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "Sachsen-class ironclad", "SMS Württemberg (1917)"]}
 download_list_members: data/list_links.jsonl
 
 ############## CATEGORY MEMBERS ##############
