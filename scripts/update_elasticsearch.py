@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from typing import Any
+from typing import Any, Optional
 import jsonlines
 import hashlib
 import json
@@ -118,32 +118,35 @@ def set_nested_field(document: dict, field: str, value: Any) -> None:
     placeholder[splitted_field[-1]] = value
 
 
-def insert(es: Elasticsearch, collection: dict) -> None:
+def prepare_insert(collection: dict, index: str) -> Optional[dict[str, Any]]:
     if collection['metadata']['members_count'] > 10000:
-        print('Skipping collection with more than 10000 members')
-        return
+        # print('Skipping collection with more than 10000 members')
+        return None
 
     collection['template']['nonavailable_members_count'] += 1
     collection['template']['invalid_members_count'] += 1
 
-    es.index(
-        index=index,
-        body=collection,
-    )
+    return {
+        '_op_type': 'index',
+        '_index': index,
+        '_source': collection
+    }
 
 
-def update(es: Elasticsearch, old_id: str, old_collection: dict, collection: dict, fields: list[str]) -> None:
-    # bulk update the fields specified in the fields list, if they have changed
-    # otherwise, do nothing
+def prepare_update(
+        es_id: str,
+        old_collection: dict,
+        collection: dict,
+        fields: list[str],
+        index: str
+) -> Optional[dict[str, Any]]:
 
     if collection['metadata']['members_count'] > 10000:
-        print('Skipping collection with more than 10000 members')
-        return
+        # print('Skipping collection with more than 10000 members')
+        return None
 
     # build the body of the update request
-    body = {
-        'doc': {}
-    }
+    doc = dict()
 
     # check if the fields have changed (the fields are separated by dots)
     for field in fields:
@@ -152,29 +155,32 @@ def update(es: Elasticsearch, old_id: str, old_collection: dict, collection: dic
 
         # if the values are different, update the field
         if old_value != new_value:
-            set_nested_field(body['doc'], field, new_value)
+            set_nested_field(doc, field, new_value)
 
-    if 'template' in body['doc']:
-        if 'nonavailable_members_count' in body['doc']['template']:
-            body['doc']['template']['nonavailable_members_count'] += 1
-        if 'invalid_members_count' in body['doc']['template']:
-            body['doc']['template']['invalid_members_count'] += 1
+    # this update happens only in populate.py, so it is not presented in the previous JSONL file
+    if 'template' in doc:
+        if 'nonavailable_members_count' in doc['template']:
+            doc['template']['nonavailable_members_count'] += 1
+        if 'invalid_members_count' in doc['template']:
+            doc['template']['invalid_members_count'] += 1
 
     # if no fields have changed, do nothing
-    if not body['doc']:
-        return
+    if not doc:
+        return None
 
-    es.update(
-        index=index,
-        id=old_id,
-        body=body
-    )
+    return {
+        '_op_type': 'update',
+        '_index': index,
+        '_id': es_id,
+        'doc': doc
+    }
 
 
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('input', help='input JSONL file with current collections')
     parser.add_argument('previous', help='input JSONL file with previous collections')
+    parser.add_argument('--output', default=None, help='output JSONL file with updates or inserts')
     parser.add_argument('--comparing_fields', nargs='+',
                         default=['data', 'template', 'metadata.members_count',
                                  'metadata.collection_name_log_probability'],
@@ -196,8 +202,11 @@ if __name__ == '__main__':
         host=host, port=port, username=username, password=password,
     )
     ids_mapping = collect_ids_mapping(es, index)
+    covered_ids = set()
 
     jsonl_index = JSONLIndex(args.previous, args.comparing_fields, ids_mapping)
+
+    writer = jsonlines.open(args.output, 'w') if args.output else None
 
     print('Building index...')
     t0 = time.perf_counter()
@@ -210,14 +219,25 @@ if __name__ == '__main__':
     with jsonlines.open(args.input, 'r') as reader:
         for collection in tqdm.tqdm(reader):
             collection_id = collection['metadata']['id']
+            covered_ids.add(collection_id)
+
+            # FIXME remove this
+            del collection['data']['avatar_emoji']
+            del collection['data']['avatar_image']
+            del collection['data']['banner_image']
 
             # we insert only if the collection is not in the Elasticsearch index
             # disregarding the fact that it might be in the previous JSONL file (insertion might have failed)
             # it also prevents from inserting duplicates (but mapping should be updated each time we run this script)
             if collection_id not in jsonl_index.ids_mapping:
-                print('New collection:', collection_id)
+                # print('New collection:', collection_id)
                 # TODO to optimize further, we can aggregate a part of the new collections, and bulk insert them
-                insert(es, collection)
+                operation = prepare_insert(collection, index)
+                if operation is not None:
+                    if writer:
+                        writer.write(operation)
+                    else:
+                        es.index(index=index, body=operation['_source'])
                 continue
 
             previous_hash = jsonl_index.get_hash(collection_id)
@@ -226,10 +246,29 @@ if __name__ == '__main__':
             if previous_hash == current_hash:
                 continue
 
-            old_id, old_collection = jsonl_index.get_document(collection_id)
+            es_id, old_collection = jsonl_index.get_document(collection_id)
 
-            # this update happens only in populate.py, so it is not presented in the previous JSONL file
-            print('Updated collection:', collection_id)
-            update(es, old_id, old_collection, collection, args.updating_fields)
+            # print('Updated collection:', collection_id)
+            operation = prepare_update(es_id, old_collection, collection, args.updating_fields, index)
+            if operation is not None:
+                if writer:
+                    writer.write(operation)
+                else:
+                    es.update(index=index, id=es_id, body={'doc': operation['doc']})
 
     print(f'Elasticsearch updated in {time.perf_counter() - t0:.2f} seconds.')
+
+    print('Setting archived flag for collections that are not in the input file...')
+    t0 = time.perf_counter()
+    for collection_id, es_id in tqdm.tqdm(ids_mapping.items(), total=len(ids_mapping)):
+        if collection_id not in covered_ids:
+            doc = {'data': {'archived': True}}
+            if writer:
+                writer.write({'_op_type': 'update', '_index': index, '_id': es_id, 'doc': doc})
+            else:
+                es.update(index=index, id=es_id, body={'doc': doc})
+
+    print(f'Archived flag set in {time.perf_counter() - t0:.2f} seconds.')
+
+    if writer:
+        writer.close()
