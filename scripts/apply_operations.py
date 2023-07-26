@@ -43,6 +43,14 @@ if __name__ == '__main__':
     )
 
     with jsonlines.open(args.input, 'r') as reader:
+        # for action in tqdm.tqdm(reader):
+        #     if action['_op_type'] == 'update':
+        #         es.update(index=index, id=action['_id'], body={'doc': action['doc']})
+        #     elif action['_op_type'] == 'index':
+        #         es.index(index=index, body=action['_source'])
+        #     else:
+        #         raise ValueError(f'Unknown action type: {action["_op_type"]}')
+
         progress = tqdm.tqdm(unit="actions")
         successes = 0
 
@@ -57,4 +65,9 @@ if __name__ == '__main__':
             successes += ok
 
             if not ok:
-                print(action)
+                if action['_op_type'] == 'insert':
+                    print('Failed insert:', action['_source']['metadata']['id'])
+                elif action['_op_type'] == 'update':
+                    print('Failed update:', action['_id'])
+                else:
+                    print('Failed action:', action['_op_type'])
