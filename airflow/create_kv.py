@@ -10,19 +10,19 @@ import rocksdict
 from rocksdict import AccessType
 
 from airflow import DAG, Dataset
-from make_dag import CONFIG, WIKIDATA_FILTERED, WIKIMAPPER
+from create_inlets import CONFIG, WIKIDATA_FILTERED, WIKIMAPPER
 
 from airflow.operators.python import PythonOperator
 
 parser = lightrdf.Parser()
 
 dbs = {
-    'db1': {'about'},
-    'db2': {'instance_of', 'subclass_of'},
-    'db3': {'is_a_list_of', 'category_contains'},  # TODO add name
-    'db4': {'list_related_to_category', 'category_related_to_list'},
-    'db5': {'name', 'label', 'description', 'image', 'page_banner'},
-    'db6': {'same_as'},
+    'db1': {'about'},                                                # title_id_db, id_title_db (rev)
+    'db2': {'instance_of', 'subclass_of'},                           # id_type_db
+    'db3': {'is_a_list_of', 'category_contains'},                    # members_type_db, TODO add name
+    'db4': {'list_related_to_category', 'category_related_to_list'}, # related_data_db
+    'db5': {'name', 'label', 'description', 'image', 'page_banner'}, # auxiliary_data_db
+    'db6': {'same_as'},                                              # same_as_db
 }
 
 mapping = {
@@ -179,12 +179,10 @@ def load_wikidata_wikipedia_mapping(input_path, db1_path, db1_rev_path):
 with DAG(
     "rocksdb-main",
     default_args={
-        "depends_on_past": False,
         "email": [CONFIG.email],
         "email_on_failure": False,
         "email_on_retry": False,
         "retries": 1,
-        "retry_delay": timedelta(minutes=5),
         "cwd": CONFIG.local_prefix,
     },
     description="Tasks related to the creation of fast KV stores",
@@ -220,12 +218,10 @@ ROCKS_DB_1_REVERSE = Dataset(f"{CONFIG.remote_prefix}db1_rev.rocks")
 with DAG(
     "rocksdb-entities",
     default_args={
-        "depends_on_past": False,
         "email": [CONFIG.email],
         "email_on_failure": False,
         "email_on_retry": False,
         "retries": 1,
-        "retry_delay": timedelta(minutes=5),
         "cwd": CONFIG.local_prefix,
     },
     description="Tasks related to the creation of fast KV stores (Wikidata - Wikipedia)",
