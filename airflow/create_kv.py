@@ -4,25 +4,34 @@ import sys
 from datetime import datetime, timedelta
 from textwrap import dedent
 
+from airflow.operators.python import PythonOperator
+
 import lightrdf
 from tqdm import tqdm
 import rocksdict
 from rocksdict import AccessType
 
 from airflow import DAG, Dataset
-from create_inlets import CONFIG, WIKIDATA_FILTERED, WIKIMAPPER
+from create_inlets import CONFIG, WIKIDATA_FILTERED, WIKIMAPPER, CollectionDataset
 
-from airflow.operators.python import PythonOperator
+ROCKS_DB_1 = CollectionDataset(f"{CONFIG.remote_prefix}db1.rocks")
+ROCKS_DB_1_REVERSE = CollectionDataset(f"{CONFIG.remote_prefix}db1_rev.rocks")
+ROCKS_DB_2 = CollectionDataset(f"{CONFIG.remote_prefix}db2.rocks")
+ROCKS_DB_3 = CollectionDataset(f"{CONFIG.remote_prefix}db3.rocks")
+ROCKS_DB_4 = CollectionDataset(f"{CONFIG.remote_prefix}db4.rocks")
+ROCKS_DB_5 = CollectionDataset(f"{CONFIG.remote_prefix}db5.rocks")
+ROCKS_DB_6 = CollectionDataset(f"{CONFIG.remote_prefix}db6.rocks")
 
 parser = lightrdf.Parser()
 
 dbs = {
-    'db1': {'about'},                                                # title_id_db, id_title_db (rev)
-    'db2': {'instance_of', 'subclass_of'},                           # id_type_db
-    'db3': {'is_a_list_of', 'category_contains'},                    # members_type_db, TODO add name
-    'db4': {'list_related_to_category', 'category_related_to_list'}, # related_data_db
-    'db5': {'name', 'label', 'description', 'image', 'page_banner'}, # auxiliary_data_db
-    'db6': {'same_as'},                                              # same_as_db
+    # This one is created in a different task
+    #'db1': {'about'},                                                # title_id_db, id_title_db (rev)
+    ROCKS_DB_2.name(): {'instance_of', 'subclass_of'},                           # id_type_db
+    ROCKS_DB_3.name(): {'is_a_list_of', 'category_contains'},                    # members_type_db, TODO add name
+    ROCKS_DB_4.name(): {'list_related_to_category', 'category_related_to_list'}, # related_data_db
+    ROCKS_DB_5.name(): {'name', 'label', 'description', 'image', 'page_banner'}, # auxiliary_data_db
+    ROCKS_DB_6.name(): {'same_as'},                                              # same_as_db
 }
 
 mapping = {
@@ -125,17 +134,11 @@ def split_dict(entity, mappings):
                 result[db_name][predicate] = entity[predicate]
     return result
 
-ROCKS_DB_2 = Dataset(f"{CONFIG.remote_prefix}db2.rocks")
-ROCKS_DB_3 = Dataset(f"{CONFIG.remote_prefix}db3.rocks")
-ROCKS_DB_4 = Dataset(f"{CONFIG.remote_prefix}db4.rocks")
-ROCKS_DB_5 = Dataset(f"{CONFIG.remote_prefix}db5.rocks")
-ROCKS_DB_6 = Dataset(f"{CONFIG.remote_prefix}db6.rocks")
-
 
 def create_rocksdb(dbs, entity_path, db_path_prefix):
     rockdbs = {}
     for db_name, predicates in dbs.items():
-        rockdbs[db_name] = rocksdict.Rdict(db_path_prefix + db_name + '.rocks')
+        rockdbs[db_name] = rocksdict.Rdict(db_path_prefix + db_name)
 
     for subject, entity in entity_generator(entity_path):
 
@@ -191,18 +194,17 @@ with DAG(
     catchup=False,
     tags=["db", "collection-templates"],
 ) as dag:
-    create_rocksdb = PythonOperator(
+    create_rocksdb_task = PythonOperator(
         task_id='create-rocksdb',
         python_callable=create_rocksdb,
         op_kwargs={
             "dbs": dbs, 
-            "entity_path": f"{CONFIG.local_prefix}/latest-truthy.filtered.nt.bz2",  
+            "entity_path": f"{CONFIG.local_prefix}/{WIKIDATA_FILTERED.name()}",  
             "db_path_prefix": CONFIG.local_prefix
         },
         outlets=[ROCKS_DB_2, ROCKS_DB_3, ROCKS_DB_4, ROCKS_DB_5, ROCKS_DB_6,]
-        #start_date=datetime(3021, 1, 1),
     )
-    create_rocksdb.doc_md = dedent(
+    create_rocksdb_task.doc_md = dedent(
         """\
     #### Task Documentation
     The task creates a number of rocksdb databases, to store mappings between
@@ -212,8 +214,6 @@ with DAG(
     """
     )
 
-ROCKS_DB_1 = Dataset(f"{CONFIG.remote_prefix}db1.rocks")
-ROCKS_DB_1_REVERSE = Dataset(f"{CONFIG.remote_prefix}db1_rev.rocks")
 
 with DAG(
     "rocksdb-entities",
@@ -230,18 +230,17 @@ with DAG(
     catchup=False,
     tags=["db", "collection-templates"],
 ) as dag:
-    create_reverse = PythonOperator(
+    create_reverse_task = PythonOperator(
         task_id='create-rocksdb-entities',
         python_callable=load_wikidata_wikipedia_mapping,
         op_kwargs={
-            "input_path": f"{CONFIG.local_prefix}index_enwiki-latest.db", 
-            "db1_path": f"{CONFIG.local_prefix}db1.rocks/",  
-            "db1_rev_path": f"{CONFIG.local_prefix}db1_rev.rocks/",  
+            "input_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}", 
+            "db1_path": f"{CONFIG.local_prefix}{ROCKS_DB_1.name()}",  
+            "db1_rev_path": f"{CONFIG.local_prefix}{ROCKS_DB_1_REVERSE.name()}",  
         },
         outlets=[ROCKS_DB_1, ROCKS_DB_1_REVERSE]
-        #start_date=datetime(3021, 1, 1),
     )
-    create_reverse.doc_md = dedent(
+    create_reverse_task.doc_md = dedent(
         """\
     #### Task Documentation
     The task creates a mapping from Wikidata to Wikipedia and from Wikipedia to Wikidata.

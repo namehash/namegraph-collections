@@ -5,8 +5,6 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from collections import defaultdict
 
-from create_inlets import CONFIG, WIKIMAPPER
-from create_collections import VALIDATED_LIST_MEMBERS, VALIDATED_CATEGORY_MEMBERS
 from hydra import initialize_config_module, compose
 import multiprocessing
 from functools import wraps
@@ -24,19 +22,25 @@ from ens.utils import Web3
 from ens.constants import EMPTY_SHA3_BYTES
 from hexbytes import HexBytes
 
-from create_collections import extract_article_name
-from create_kv import ROCKS_DB_5
+from create_collections import extract_article_name, VALIDATED_LIST_MEMBERS, VALIDATED_CATEGORY_MEMBERS
+from create_kv import ROCKS_DB_5, ROCKS_DB_4
+from create_inlets import CONFIG, WIKIMAPPER, QRANK, CollectionDataset
 
-INTERESTING_SCORE_CACHE = Dataset(f"{CONFIG.remote_prefix}interesting-score.rocks")
-FORCE_NORMALIZE_CACHE = Dataset(f"{CONFIG.remote_prefix}force-normalize.rocks")
-LIST_MEMBERS_ALL_INFO = Dataset(f"{CONFIG.remote_prefix}list_members_all_info.jsonl")
-CATEGORY_MEMBERS_ALL_INFO = Dataset(f"{CONFIG.remote_prefix}category_members_all_info.jsonl")
-QRANK = Dataset(f"{CONFIG.remote_prefix}qrank.csv")
-SUGGESTABLE_DOMAINS = Dataset(f"{CONFIG.remote_prefix}suggestable_domains.csv") 
-MERGED_COLLECTIONS = Dataset(f"{CONFIG.remote_prefix}merged.jsonl") 
+INTERESTING_SCORE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}interesting-score.rocks")
+FORCE_NORMALIZE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}force-normalize.rocks")
+NAME_TO_HASH_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}name-to-hash.rocks")
+UNIQ_LIST_MEMBERS = CollectionDataset(f"{CONFIG.remote_prefix}uniq_list_members.txt")
+UNIQ_CATEGORY_MEMBERS = CollectionDataset(f"{CONFIG.remote_prefix}uniq_category_members.txt")
+LIST_MEMBERS_ALL_INFO = CollectionDataset(f"{CONFIG.remote_prefix}list_members_all_info.jsonl")
+CATEGORY_MEMBERS_ALL_INFO = CollectionDataset(f"{CONFIG.remote_prefix}category_members_all_info.jsonl")
+SUGGESTABLE_DOMAINS = CollectionDataset(f"{CONFIG.remote_prefix}suggestable_domains.csv") 
+MERGED_COLLECTIONS = CollectionDataset(f"{CONFIG.remote_prefix}merged.jsonl") 
+WITHOUT_LETTERS = CollectionDataset(f"{CONFIG.remote_prefix}merged-without-letters.jsonl") 
+WITHOUT_DUPLICATES = CollectionDataset(f"{CONFIG.remote_prefix}merged-without-duplicates.jsonl") 
+AVATAR_EMOJI = CollectionDataset(f"{CONFIG.remote_prefix}avatars-emojis.csv")
+MERGED_FINAL = CollectionDataset(f"{CONFIG.remote_prefix}merged_final.jsonl")
+
 MIN_VALUE = 1e-8
-AVATAR_EMOJI = Dataset(f"{CONFIG.remote_prefix}avatars-emojis.csv")
-MERGED_FINAL = Dataset(f"{CONFIG.remote_prefix}merged_final.jsonl")
 
 def memoize_ram(original_function=None, path=None):
     if path is None:
@@ -222,6 +226,7 @@ with DAG(
         "email_on_retry": False,
         "retries": 1,
         "cwd": CONFIG.local_prefix,
+        "start_date": CONFIG.start_date,
     },
     description="Tasks related to the creation of first stage of cache.",
     schedule=[VALIDATED_LIST_MEMBERS, VALIDATED_CATEGORY_MEMBERS],
@@ -229,60 +234,57 @@ with DAG(
     catchup=False,
     tags=["normalize", "collection-templates"],
 ) as dag:
-    create_list_members = PythonOperator(
+    create_list_members_task = PythonOperator(
         task_id='create-unique-list-members',
         python_callable=compute_unique_members,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}validated_list_members.jsonl", 
-            "force_normalize_path": f"{CONFIG.local_prefix}force-normalize.rocks", 
-            "output": f"{CONFIG.local_prefix}uniq_list_members.txt", 
+            "input": f"{CONFIG.local_prefix}{VALIDATED_LIST_MEMBERS.name()}", 
+            "force_normalize_path": f"{CONFIG.local_prefix}{FORCE_NORMALIZE_CACHE.name()}", 
+            "output": f"{CONFIG.local_prefix}{UNIQ_LIST_MEMBERS.name()}", 
         },
-        start_date=datetime(3021, 1, 1),
     )
-    create_list_members.doc_md = dedent(
+    create_list_members_task.doc_md = dedent(
         """\
     #### Task Documentation
     Create file with unique list members.
     """
     )
 
-    create_category_members = PythonOperator(
+    create_category_members_task = PythonOperator(
         task_id='create-unique-category-members',
         python_callable=compute_unique_members,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}validated_category_members.jsonl", 
-            "force_normalize_path": f"{CONFIG.local_prefix}force-normalize.rocks", 
-            "output": f"{CONFIG.local_prefix}uniq_category_members.txt", 
+            "input": f"{CONFIG.local_prefix}{VALIDATED_CATEGORY_MEMBERS.name()}", 
+            "force_normalize_path": f"{CONFIG.local_prefix}{FORCE_NORMALIZE_CACHE.name()}", 
+            "output": f"{CONFIG.local_prefix}{UNIQ_CATEGORY_MEMBERS.name()}", 
         },
-        start_date=datetime(3021, 1, 1),
     )
-    create_category_members.doc_md = dedent(
+    create_category_members_task.doc_md = dedent(
         """\
     #### Task Documentation
     Create file with unique category members.
     """
     )
 
-    create_cache = PythonOperator(
+    create_cache_task = PythonOperator(
         task_id='create-cache',
         python_callable=cache_interesting_score,
         op_kwargs={
-            "list_members": f"{CONFIG.local_prefix}uniq_list_members.txt", 
-            "category_members": f"{CONFIG.local_prefix}uniq_category_members.txt", 
-            "interesting_score_path": f"{CONFIG.local_prefix}interesting-score.rocks", 
+            "list_members": f"{CONFIG.local_prefix}{UNIQ_LIST_MEMBERS.name()}", 
+            "category_members": f"{CONFIG.local_prefix}{UNIQ_CATEGORY_MEMBERS.name()}", 
+            "interesting_score_path": f"{CONFIG.local_prefix}{INTERESTING_SCORE_CACHE.name()}", 
         },
         outlets=[INTERESTING_SCORE_CACHE]
-        #start_date=datetime(3021, 1, 1),
     )
-    create_cache.doc_md = dedent(
+    create_cache_task.doc_md = dedent(
         """\
     #### Task Documentation
     Create cache for normalized names.
     """
     )
 
-    #create_list_members >> create_cache
-    #create_category_members >> create_cache
+    create_list_members_task >> create_cache_task
+    create_category_members_task >> create_cache_task
 
 class Collection:
     def __init__(self):
@@ -475,26 +477,6 @@ def compute_all_info(input, output, interesting_score_path, qrank_path, domains_
             writer.write(collection.json())
 
 
-with DAG(
-    "qrank",
-    default_args={
-        "email": [CONFIG.email],
-        "email_on_failure": False,
-        "email_on_retry": False,
-        "retries": 1,
-        "cwd": CONFIG.local_prefix,
-    },
-    description="Tasks related downloading of rank files.",
-    start_date=CONFIG.start_date,
-    catchup=False,
-    tags=["rank"],
-) as dag:
-    qrank_task = BashOperator(
-        outlets=[QRANK],
-        task_id="download-qrank",
-        bash_command=f"wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > {CONFIG.local_prefix}qrank.csv",
-    )
-
 
 with DAG(
     "list-all-info",
@@ -504,6 +486,7 @@ with DAG(
         "email_on_retry": False,
         "retries": 1,
         "cwd": CONFIG.local_prefix,
+        "start_date": CONFIG.start_date,
     },
     description="Tasks related final processing of list members.",
     schedule=[INTERESTING_SCORE_CACHE, VALIDATED_LIST_MEMBERS, WIKIMAPPER, ROCKS_DB_5, QRANK, SUGGESTABLE_DOMAINS],
@@ -511,23 +494,22 @@ with DAG(
     catchup=False,
     tags=["rank", "domains", "normalize", "collection-templates", "lists"],
 ) as dag:
-    create_list_members_final = PythonOperator(
+    create_list_members_final_task = PythonOperator(
         task_id='create-list-members-final',
         python_callable=compute_all_info,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}validated_list_members.jsonl", 
-            "output": f"{CONFIG.local_prefix}list_members_all_info.jsonl", 
-            "interesting_score_path": f"{CONFIG.local_prefix}interesting-score.rocks", 
-            "force_normalize_path": f"{CONFIG.local_prefix}force-normalize.rocks", 
-            "qrank_path": f"{CONFIG.local_prefix}qrank.csv", 
-            "domains_path": f"{CONFIG.local_prefix}suggestable_domains.csv", 
-            "auxiliary_data_path": f"{CONFIG.local_prefix}db5.rocks", 
-            "wikimapper_path": f"{CONFIG.local_prefix}index_enwiki-latest.db", 
+            "input": f"{CONFIG.local_prefix}{VALIDATED_LIST_MEMBERS.name()}", 
+            "output": f"{CONFIG.local_prefix}{LIST_MEMBERS_ALL_INFO.name()}", 
+            "interesting_score_path": f"{CONFIG.local_prefix}{INTERESTING_SCORE_CACHE.name()}", 
+            "force_normalize_path": f"{CONFIG.local_prefix}{FORCE_NORMALIZE_CACHE.name()}", 
+            "qrank_path": f"{CONFIG.local_prefix}{QRANK.name()}", 
+            "domains_path": f"{CONFIG.local_prefix}{SUGGESTABLE_DOMAINS.name()}", 
+            "auxiliary_data_path": f"{CONFIG.local_prefix}{ROCKS_DB_5.name()}", 
+            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}", 
         },
-        #start_date=datetime(3021, 1, 1),
         outlets=[LIST_MEMBERS_ALL_INFO],
     )
-    create_list_members_final.doc_md = dedent(
+    create_list_members_final_task.doc_md = dedent(
         """\
     #### Task Documentation
     Create file with list members supplemented with the final information.
@@ -542,6 +524,7 @@ with DAG(
         "email_on_retry": False,
         "retries": 1,
         "cwd": CONFIG.local_prefix,
+        "start_date": CONFIG.start_date,
     },
     description="Tasks related final processing of category members.",
     schedule=[INTERESTING_SCORE_CACHE, VALIDATED_CATEGORY_MEMBERS, WIKIMAPPER, ROCKS_DB_5, QRANK, SUGGESTABLE_DOMAINS],
@@ -550,23 +533,23 @@ with DAG(
     tags=["rank", "domains", "normalize", "collection-templates", "categories"],
 ) as dag:
 
-    create_category_members_final = PythonOperator(
+    create_category_members_final_task = PythonOperator(
         task_id='create-category-members-final',
         python_callable=compute_all_info,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}validated_category_members.jsonl", 
-            "output": f"{CONFIG.local_prefix}category_members_all_info.jsonl", 
-            "interesting_score_path": f"{CONFIG.local_prefix}interesting-score.rocks", 
-            "force_normalize_path": f"{CONFIG.local_prefix}force-normalize.rocks", 
-            "qrank_path": f"{CONFIG.local_prefix}qrank.csv", 
-            "domains_path": f"{CONFIG.local_prefix}suggestable_domains.csv", 
-            "auxiliary_data_path": f"{CONFIG.local_prefix}db5.rocks", 
-            "wikimapper_path": f"{CONFIG.local_prefix}index_enwiki-latest.db", 
+            "input": f"{CONFIG.local_prefix}{VALIDATED_CATEGORY_MEMBERS.name()}", 
+            "output": f"{CONFIG.local_prefix}{CATEGORY_MEMBERS_ALL_INFO.name()}", 
+            "interesting_score_path": f"{CONFIG.local_prefix}{INTERESTING_SCORE_CACHE.name()}", 
+            "force_normalize_path": f"{CONFIG.local_prefix}{FORCE_NORMALIZE_CACHE.name()}", 
+            "qrank_path": f"{CONFIG.local_prefix}{QRANK.name()}", 
+            "domains_path": f"{CONFIG.local_prefix}{SUGGESTABLE_DOMAINS.name()}", 
+            "auxiliary_data_path": f"{CONFIG.local_prefix}{ROCKS_DB_5.name()}", 
+            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}", 
+
         },
-        #start_date=datetime(3021, 1, 1),
         outlets=[CATEGORY_MEMBERS_ALL_INFO],
     )
-    create_category_members_final.doc_md = dedent(
+    create_category_members_final_task.doc_md = dedent(
         """\
     #### Task Documentation
     Create file with list members supplemented with the final information.
@@ -992,9 +975,10 @@ with DAG(
         "email_on_retry": False,
         "retries": 1,
         "cwd": CONFIG.local_prefix,
+        "start_date": CONFIG.start_date,
     },
     description="Tasks related merging of category and list members.",
-    schedule=[LIST_MEMBERS_ALL_INFO, CATEGORY_MEMBERS_ALL_INFO],
+    schedule=[LIST_MEMBERS_ALL_INFO, CATEGORY_MEMBERS_ALL_INFO, ROCKS_DB_4],
     start_date=CONFIG.start_date,
     catchup=False,
     tags=["merge", "collection-templates"],
@@ -1003,12 +987,11 @@ with DAG(
         task_id='merge-lists-categories',
         python_callable=merge_lists_and_categories,
         op_kwargs={
-            "list_members": f"{CONFIG.local_prefix}list_members_all_info.jsonl", 
-            "category_members": f"{CONFIG.local_prefix}category_members_all_info.jsonl", 
-            "output": f"{CONFIG.local_prefix}merged.jsonl", 
-            "related_data_path": f"{CONFIG.local_prefix}db4.rocks", 
+            "list_members": f"{CONFIG.local_prefix}{LIST_MEMBERS_ALL_INFO.name()}", 
+            "category_members": f"{CONFIG.local_prefix}{CATEGORY_MEMBERS_ALL_INFO.name()}", 
+            "output": f"{CONFIG.local_prefix}{MERGED_COLLECTIONS.name()}", 
+            "related_data_path": f"{CONFIG.local_prefix}{ROCKS_DB_4.name()}", 
         },
-        start_date=datetime(3021, 1, 1),
     )
     merge_lists_and_categories_task.doc_md = dedent(
         """\
@@ -1021,10 +1004,9 @@ with DAG(
         task_id='remove-letters',
         python_callable=remove_collections_with_letters,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}merged.jsonl", 
-            "output": f"{CONFIG.local_prefix}merged-without-letters.jsonl", 
+            "input": f"{CONFIG.local_prefix}{MERGED_COLLECTIONS.name()}", 
+            "output": f"{CONFIG.local_prefix}{WITHOUT_LETTERS.name()}", 
         },
-        start_date=datetime(3021, 1, 1),
     )
     remove_letters_task.doc_md = dedent(
         """\
@@ -1037,10 +1019,9 @@ with DAG(
         task_id='remove-duplicates',
         python_callable=remove_duplicates,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}merged-without-letters.jsonl", 
-            "output": f"{CONFIG.local_prefix}merged-without-duplicates.jsonl", 
+            "input": f"{CONFIG.local_prefix}{WITHOUT_LETTERS.name()}", 
+            "output": f"{CONFIG.local_prefix}{WITHOUT_DUPLICATES.name()}", 
         },
-        start_date=datetime(3021, 1, 1),
     )
     remove_duplicates_task.doc_md = dedent(
         """\
@@ -1053,12 +1034,11 @@ with DAG(
         task_id='final-processing',
         python_callable=collection_factory,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}merged-without-duplicates.jsonl", 
-            "output": f"{CONFIG.local_prefix}merged_final.jsonl", 
-            "name_to_hash_path": f"{CONFIG.local_prefix}name_to_hash.rocks", 
-            "avatar_path": f"{CONFIG.local_prefix}avatars-emojis.csv", 
+            "input": f"{CONFIG.local_prefix}{WITHOUT_DUPLICATES.name()}", 
+            "output": f"{CONFIG.local_prefix}{MERGED_FINAL.name()}", 
+            "name_to_hash_path": f"{CONFIG.local_prefix}{NAME_TO_HASH_CACHE.name()}", 
+            "avatar_path": f"{CONFIG.local_prefix}{AVATAR_EMOJI.name()}", 
         },
-        #start_date=datetime(3021, 1, 1),
     )
     final_processing_task.doc_md = dedent(
         """\
@@ -1067,5 +1047,4 @@ with DAG(
     """
     )
 
-    #merge_lists_and_categories_task >> remove_letters_task >> remove_duplicates_task >> final_processing_task
-    #remove_letters_task >> remove_duplicates_task >> final_processing_task
+    merge_lists_and_categories_task >> remove_letters_task >> remove_duplicates_task >> final_processing_task

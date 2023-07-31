@@ -12,3 +12,4 @@ regex
 lightrdf
 kwnlp_sql_parser
 web3
+hydra-core
