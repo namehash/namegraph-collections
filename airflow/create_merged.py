@@ -238,9 +238,9 @@ with DAG(
         task_id='create-unique-list-members',
         python_callable=compute_unique_members,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{VALIDATED_LIST_MEMBERS.name()}", 
-            "force_normalize_path": f"{CONFIG.local_prefix}{FORCE_NORMALIZE_CACHE.name()}", 
-            "output": f"{CONFIG.local_prefix}{UNIQ_LIST_MEMBERS.name()}", 
+            "input": VALIDATED_LIST_MEMBERS.local_name(), 
+            "force_normalize_path": FORCE_NORMALIZE_CACHE.local_name(), 
+            "output": UNIQ_LIST_MEMBERS.local_name(), 
         },
     )
     create_list_members_task.doc_md = dedent(
@@ -254,9 +254,9 @@ with DAG(
         task_id='create-unique-category-members',
         python_callable=compute_unique_members,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{VALIDATED_CATEGORY_MEMBERS.name()}", 
-            "force_normalize_path": f"{CONFIG.local_prefix}{FORCE_NORMALIZE_CACHE.name()}", 
-            "output": f"{CONFIG.local_prefix}{UNIQ_CATEGORY_MEMBERS.name()}", 
+            "input": VALIDATED_CATEGORY_MEMBERS.local_name(), 
+            "force_normalize_path": FORCE_NORMALIZE_CACHE.local_name(), 
+            "output": UNIQ_CATEGORY_MEMBERS.local_name(), 
         },
     )
     create_category_members_task.doc_md = dedent(
@@ -270,9 +270,9 @@ with DAG(
         task_id='create-cache',
         python_callable=cache_interesting_score,
         op_kwargs={
-            "list_members": f"{CONFIG.local_prefix}{UNIQ_LIST_MEMBERS.name()}", 
-            "category_members": f"{CONFIG.local_prefix}{UNIQ_CATEGORY_MEMBERS.name()}", 
-            "interesting_score_path": f"{CONFIG.local_prefix}{INTERESTING_SCORE_CACHE.name()}", 
+            "list_members": UNIQ_LIST_MEMBERS.local_name(), 
+            "category_members": UNIQ_CATEGORY_MEMBERS.local_name(), 
+            "interesting_score_path": INTERESTING_SCORE_CACHE.local_name(), 
         },
         outlets=[INTERESTING_SCORE_CACHE]
     )
@@ -283,8 +283,7 @@ with DAG(
     """
     )
 
-    create_list_members_task >> create_cache_task
-    create_category_members_task >> create_cache_task
+    create_list_members_task >> create_category_members_task >> create_cache_task
 
 class Collection:
     def __init__(self):
@@ -498,14 +497,14 @@ with DAG(
         task_id='create-list-members-final',
         python_callable=compute_all_info,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{VALIDATED_LIST_MEMBERS.name()}", 
-            "output": f"{CONFIG.local_prefix}{LIST_MEMBERS_ALL_INFO.name()}", 
-            "interesting_score_path": f"{CONFIG.local_prefix}{INTERESTING_SCORE_CACHE.name()}", 
-            "force_normalize_path": f"{CONFIG.local_prefix}{FORCE_NORMALIZE_CACHE.name()}", 
-            "qrank_path": f"{CONFIG.local_prefix}{QRANK.name()}", 
-            "domains_path": f"{CONFIG.local_prefix}{SUGGESTABLE_DOMAINS.name()}", 
-            "auxiliary_data_path": f"{CONFIG.local_prefix}{ROCKS_DB_5.name()}", 
-            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}", 
+            "input": VALIDATED_LIST_MEMBERS.local_name(), 
+            "output": LIST_MEMBERS_ALL_INFO.local_name(), 
+            "interesting_score_path": INTERESTING_SCORE_CACHE.local_name(), 
+            "force_normalize_path": FORCE_NORMALIZE_CACHE.local_name(), 
+            "qrank_path": QRANK.local_name(), 
+            "domains_path": SUGGESTABLE_DOMAINS.local_name(), 
+            "auxiliary_data_path": ROCKS_DB_5.local_name(), 
+            "wikimapper_path": WIKIMAPPER.local_name(), 
         },
         outlets=[LIST_MEMBERS_ALL_INFO],
     )
@@ -537,14 +536,14 @@ with DAG(
         task_id='create-category-members-final',
         python_callable=compute_all_info,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{VALIDATED_CATEGORY_MEMBERS.name()}", 
-            "output": f"{CONFIG.local_prefix}{CATEGORY_MEMBERS_ALL_INFO.name()}", 
-            "interesting_score_path": f"{CONFIG.local_prefix}{INTERESTING_SCORE_CACHE.name()}", 
-            "force_normalize_path": f"{CONFIG.local_prefix}{FORCE_NORMALIZE_CACHE.name()}", 
-            "qrank_path": f"{CONFIG.local_prefix}{QRANK.name()}", 
-            "domains_path": f"{CONFIG.local_prefix}{SUGGESTABLE_DOMAINS.name()}", 
-            "auxiliary_data_path": f"{CONFIG.local_prefix}{ROCKS_DB_5.name()}", 
-            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}", 
+            "input": VALIDATED_CATEGORY_MEMBERS.local_name(), 
+            "output": CATEGORY_MEMBERS_ALL_INFO.local_name(), 
+            "interesting_score_path": INTERESTING_SCORE_CACHE.local_name(), 
+            "force_normalize_path": FORCE_NORMALIZE_CACHE.local_name(), 
+            "qrank_path": QRANK.local_name(), 
+            "domains_path": SUGGESTABLE_DOMAINS.local_name(), 
+            "auxiliary_data_path": ROCKS_DB_5.local_name(), 
+            "wikimapper_path": WIKIMAPPER.local_name(), 
 
         },
         outlets=[CATEGORY_MEMBERS_ALL_INFO],
@@ -987,10 +986,10 @@ with DAG(
         task_id='merge-lists-categories',
         python_callable=merge_lists_and_categories,
         op_kwargs={
-            "list_members": f"{CONFIG.local_prefix}{LIST_MEMBERS_ALL_INFO.name()}", 
-            "category_members": f"{CONFIG.local_prefix}{CATEGORY_MEMBERS_ALL_INFO.name()}", 
-            "output": f"{CONFIG.local_prefix}{MERGED_COLLECTIONS.name()}", 
-            "related_data_path": f"{CONFIG.local_prefix}{ROCKS_DB_4.name()}", 
+            "list_members": LIST_MEMBERS_ALL_INFO.local_name(), 
+            "category_members": CATEGORY_MEMBERS_ALL_INFO.local_name(), 
+            "output": MERGED_COLLECTIONS.local_name(), 
+            "related_data_path": ROCKS_DB_4.local_name(), 
         },
     )
     merge_lists_and_categories_task.doc_md = dedent(
@@ -1004,8 +1003,8 @@ with DAG(
         task_id='remove-letters',
         python_callable=remove_collections_with_letters,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{MERGED_COLLECTIONS.name()}", 
-            "output": f"{CONFIG.local_prefix}{WITHOUT_LETTERS.name()}", 
+            "input": MERGED_COLLECTIONS.local_name(), 
+            "output": WITHOUT_LETTERS.local_name(), 
         },
     )
     remove_letters_task.doc_md = dedent(
@@ -1019,8 +1018,8 @@ with DAG(
         task_id='remove-duplicates',
         python_callable=remove_duplicates,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{WITHOUT_LETTERS.name()}", 
-            "output": f"{CONFIG.local_prefix}{WITHOUT_DUPLICATES.name()}", 
+            "input": WITHOUT_LETTERS.local_name(), 
+            "output": WITHOUT_DUPLICATES.local_name(), 
         },
     )
     remove_duplicates_task.doc_md = dedent(
@@ -1034,10 +1033,10 @@ with DAG(
         task_id='final-processing',
         python_callable=collection_factory,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{WITHOUT_DUPLICATES.name()}", 
-            "output": f"{CONFIG.local_prefix}{MERGED_FINAL.name()}", 
-            "name_to_hash_path": f"{CONFIG.local_prefix}{NAME_TO_HASH_CACHE.name()}", 
-            "avatar_path": f"{CONFIG.local_prefix}{AVATAR_EMOJI.name()}", 
+            "input": WITHOUT_DUPLICATES.local_name(), 
+            "output": MERGED_FINAL.local_name(), 
+            "name_to_hash_path": NAME_TO_HASH_CACHE.local_name(), 
+            "avatar_path": AVATAR_EMOJI.local_name(), 
         },
     )
     final_processing_task.doc_md = dedent(

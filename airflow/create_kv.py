@@ -199,7 +199,7 @@ with DAG(
         python_callable=create_rocksdb,
         op_kwargs={
             "dbs": dbs, 
-            "entity_path": f"{CONFIG.local_prefix}/{WIKIDATA_FILTERED.name()}",  
+            "entity_path": WIKIDATA_FILTERED.local_name(),  
             "db_path_prefix": CONFIG.local_prefix
         },
         outlets=[ROCKS_DB_2, ROCKS_DB_3, ROCKS_DB_4, ROCKS_DB_5, ROCKS_DB_6,]
@@ -234,9 +234,9 @@ with DAG(
         task_id='create-rocksdb-entities',
         python_callable=load_wikidata_wikipedia_mapping,
         op_kwargs={
-            "input_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}", 
-            "db1_path": f"{CONFIG.local_prefix}{ROCKS_DB_1.name()}",  
-            "db1_rev_path": f"{CONFIG.local_prefix}{ROCKS_DB_1_REVERSE.name()}",  
+            "input_path": WIKIMAPPER.local_name(), 
+            "db1_path": ROCKS_DB_1.local_name(),  
+            "db1_rev_path": ROCKS_DB_1_REVERSE.local_name(),  
         },
         outlets=[ROCKS_DB_1, ROCKS_DB_1_REVERSE]
     )

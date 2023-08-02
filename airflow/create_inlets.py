@@ -11,16 +11,6 @@ from airflow.operators.bash import BashOperator
 
 from dataclasses import dataclass
 
-class CollectionDataset(Dataset):
-    def name(self):
-        return self.uri.split("/")[-1]
-
-    def latest_name(self):
-        return re.sub(f"-{datetime.now().strftime('%Y%m%d')}-", "-latest-", self.name())
-
-    def current_name(self):
-        return re.sub("-latest-", f"-{datetime.now().strftime('%Y%m%d')}-", self.name())
-
 @dataclass
 class Config:
     email: str
@@ -40,11 +30,33 @@ CONFIG=Config(
     timedelta(weeks=4)
 )
 
+class CollectionDataset(Dataset):
+    def name(self):
+        return self.uri.split("/")[-1]
+
+    def latest_name(self):
+        return re.sub(f"-{datetime.now().strftime('%Y%m%d')}-", "-latest-", self.name())
+
+    def current_name(self):
+        return re.sub("-latest-", f"-{datetime.now().strftime('%Y%m%d')}-", self.name())
+
+    def local_name(self):
+        return CONFIG.local_prefix + self.name()
+
+    def current_local_name(self):
+        return CONFIG.local_prefix + self.current_name()
+
+    def latest_local_name(self):
+        return CONFIG.local_prefix + self.latest_name()
+        
+
+
+
 WIKIDATA_TRUTHY = CollectionDataset(f"{CONFIG.remote_prefix}latest-truthy.nt.bz2")
 WIKIDATA_FILTERED = CollectionDataset(f"{CONFIG.remote_prefix}latest-truthy.filtered.nt.bz2")
-WIKIPEDIA_PAGELINKS = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-{CONFIG.date_str}-pagelinks.sql.gz")
+WIKIPEDIA_PAGELINKS = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-pagelinks.sql.gz")
 WIKIPEDIA_REDIRECT = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-redirect.sql.gz")
-WIKIPEDIA_CATEGORYLINKS = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-{CONFIG.date_str}-categorylinks.sql.gz")
+WIKIPEDIA_CATEGORYLINKS = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-categorylinks.sql.gz")
 WIKIPEDIA_PAGEPROPS = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-page_props.sql.gz")
 WIKIPEDIA_PAGE = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-page.sql.gz")
 WIKIMAPPER = CollectionDataset(f"{CONFIG.remote_prefix}index_enwiki-latest.db")
@@ -78,7 +90,7 @@ with DAG(
     pagelinks_task = BashOperator(
         outlets=[WIKIDATA_TRUTHY],
         task_id="download-truthy",
-        bash_command=f"wget {wget_for_wikidata('truthy')} -O {CONFIG.local_prefix}{WIKIDATA_TRUTHY.name()}",
+        bash_command=f"wget {wget_for_wikidata('truthy')} -O {WIKIDATA_TRUTHY.local_name()}",
         start_date=CONFIG.start_date,
     )
 
@@ -109,7 +121,7 @@ with DAG(
         outlets=[WIKIDATA_FILTERED],
         task_id="grep-wikidata",
         cwd=f"{CONFIG.local_prefix}",
-        bash_command=f"lbzip2 -d {CONFIG.local_prefix}{WIKIDATA_TRUTHY.name()} --stdout | grep -E {regex} | lbzip2 -c > {CONFIG.local_prefix}{WIKIDATA_FILTERED.name()}",
+        bash_command=f"lbzip2 -d {WIKIDATA_TRUTHY.local_name()} --stdout | grep -E {regex} | lbzip2 -c > {WIKIDATA_FILTERED.local_name()}",
         start_date=CONFIG.start_date,
     )
 
@@ -125,12 +137,8 @@ with DAG(
     Filtering Wikidata for entries including only specific subjects and predicates.
     """  
 
-def wget_for_wikipedia(type: str, latest: bool=False):
-    if latest:
-        infix = "latest"
-    else:
-        infix = CONFIG.date_str
-    return f"https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-{type}.sql.gz -O {CONFIG.local_prefix}enwiki-{infix}-{type}.sql.gz"
+def wget_for_wikipedia(dataset):
+    return f"https://dumps.wikimedia.org/enwiki/latest/{dataset.name()} -O {dataset.local_name()}"
 
 with DAG(
     "download-wikipedia",
@@ -156,7 +164,7 @@ with DAG(
     pagelinks_task = BashOperator(
         outlets=[WIKIPEDIA_PAGELINKS],
         task_id="download-pagelinks",
-        bash_command=f"wget {wget_for_wikipedia('pagelinks')}",
+        bash_command=f"wget {wget_for_wikipedia(WIKIPEDIA_PAGELINKS)}",
     )
 
     pagelinks_task.doc_md = dedent(
@@ -171,7 +179,7 @@ with DAG(
     redirect_task = BashOperator(
         outlets=[WIKIPEDIA_REDIRECT],
         task_id="download-redirect",
-        bash_command=f"wget {wget_for_wikipedia('redirect', latest=True)}",
+        bash_command=f"wget {wget_for_wikipedia(WIKIPEDIA_REDIRECT)}",
     )
 
     redirect_task.doc_md = dedent(
@@ -184,7 +192,7 @@ with DAG(
     categorylinks_task = BashOperator(
         outlets=[WIKIPEDIA_CATEGORYLINKS],
         task_id="download-categorylinks",
-        bash_command=f"wget {wget_for_wikipedia('categorylinks')}",
+        bash_command=f"wget {wget_for_wikipedia(WIKIPEDIA_CATEGORYLINKS)}",
     )
 
     categorylinks_task.doc_md = dedent(
@@ -197,7 +205,7 @@ with DAG(
     pageprops_task = BashOperator(
         outlets=[WIKIPEDIA_PAGEPROPS],
         task_id="download-pageprops",
-        bash_command=f"wget {wget_for_wikipedia('page_props')}",
+        bash_command=f"wget {wget_for_wikipedia(WIKIPEDIA_PAGEPROPS)}",
     )
 
     # TODO make copy of page props for mapper
@@ -211,7 +219,7 @@ with DAG(
     page_task = BashOperator(
         outlets=[WIKIPEDIA_PAGE],
         task_id="download-page",
-        bash_command=f"wget {wget_for_wikipedia('page', latest=True)}",
+        bash_command=f"wget {wget_for_wikipedia(WIKIPEDIA_PAGE)}",
     )
 
     page_task.doc_md = dedent(
@@ -240,18 +248,6 @@ with DAG(
     dag.doc_md = """
     Loading of Wikipedia dump files to wikimapper database
     """  
-
-    copy_page_props_task = BashOperator(
-        task_id="copy-page-props",
-        bash_command=f"cp {CONFIG.local_prefix}{WIKIPEDIA_PAGEPROPS.current_name()} {CONFIG.local_prefix}{WIKIPEDIA_PAGEPROPS.latest_name()}",
-    )
-    copy_page_props_task.doc_md = dedent(
-        """\
-    #### Task Documentation
-    Copy page props as latest dump.
-    """
-    )
-
     wikimapper_task = BashOperator(
         outlets=[WIKIMAPPER],
         task_id="load-redirect",
@@ -264,8 +260,6 @@ with DAG(
     Load the redirects to the wikimapper database.
     """
     )
-
-    copy_page_props_task >> wikimapper_task
 
 with DAG(
     "qrank",
@@ -286,5 +280,5 @@ with DAG(
     qrank_task = BashOperator(
         outlets=[QRANK],
         task_id="download-qrank",
-        bash_command=f"wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > {CONFIG.local_prefix}{QRANK.name()}",
+        bash_command=f"wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > {QRANK.local_name()}",
     )

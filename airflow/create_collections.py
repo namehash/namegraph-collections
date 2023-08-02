@@ -116,10 +116,10 @@ with DAG(
         task_id='create-categories',
         python_callable=extract_collections,
         op_kwargs={
-            "id_title_path": f"{CONFIG.local_prefix}{ROCKS_DB_1_REVERSE.name()}", 
-            "members_type_path": f"{CONFIG.local_prefix}{ROCKS_DB_3.name()}", 
+            "id_title_path": ROCKS_DB_1_REVERSE.local_name(), 
+            "members_type_path": ROCKS_DB_3.local_name(), 
             "mode": 'category', 
-            "output": f"{CONFIG.local_prefix}{CATEGORIES.name()}"
+            "output": CATEGORIES.local_name()
         },
         outlets=[CATEGORIES]
     )
@@ -136,8 +136,8 @@ with DAG(
         task_id='create-allowed-categories',
         python_callable=extract_titles,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{CATEGORIES.name()}",
-            "output": f"{CONFIG.local_prefix}{ALLOWED_CATEGORIES.name()}"
+            "input": CATEGORIES.local_name(),
+            "output": ALLOWED_CATEGORIES.local_name(),
         },
         outlets=[ALLOWED_CATEGORIES]
     )
@@ -191,14 +191,25 @@ with DAG(
     catchup=False,
     tags=["categories", "collection-templates"],
 ) as dag:
+    copy_enwiki_categories_task = BashOperator(
+        task_id="copy-enwiki-categories",
+        bash_command=f"cp {WIKIPEDIA_CATEGORYLINKS.latest_local_name()} {WIKIPEDIA_CATEGORYLINKS.current_local_name()}",
+    )
+    copy_enwiki_categories_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+    Copy enwiki categories with current date.
+    """
+    )
+
     create_categories_task = PythonOperator(
         task_id='create-category-links',
         python_callable=extract_associations_from_dump,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{WIKIPEDIA_CATEGORYLINKS.name()}", 
+            "input": WIKIPEDIA_CATEGORYLINKS.current_local_name(), 
             "mode": 'category', 
-            "output": f"{CONFIG.local_prefix}{CATEGORY_PAGES.name()}",
-            "allowed_values": f"{CONFIG.local_prefix}{ALLOWED_CATEGORIES.name()}",
+            "output": CATEGORY_PAGES.local_name(),
+            "allowed_values": ALLOWED_CATEGORIES.local_name(),
         },
         outlets=[CATEGORY_PAGES],
     )
@@ -210,6 +221,8 @@ with DAG(
     The file contains associations between English Wikipedia categories and the pages that belong to those categories.
     """
     )
+
+    copy_enwiki_categories_task >> create_categories_task
 
 with DAG(
     "lists",
@@ -230,10 +243,10 @@ with DAG(
         task_id='create-lists',
         python_callable=extract_collections,
         op_kwargs={
-            "id_title_path": f"{CONFIG.local_prefix}{ROCKS_DB_1_REVERSE.name()}", 
-            "members_path": f"{CONFIG.local_prefix}{ROCKS_DB_3.name()}", 
+            "id_title_path": ROCKS_DB_1_REVERSE.local_name(), 
+            "members_type_path": ROCKS_DB_3.local_name(), 
             "mode": 'list', 
-            "output": f"{CONFIG.local_prefix}{LISTS.name()}",
+            "output": LISTS.local_name(),
         },
         outlets=[LISTS],
     )
@@ -250,9 +263,9 @@ with DAG(
         task_id='create-allowed-lists',
         python_callable=extract_page_ids,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{LISTS.name()}",
-            "output": f"{CONFIG.local_prefix}{ALLOWED_LISTS.name()}",
-            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}"
+            "input": LISTS.local_name(),
+            "output": ALLOWED_LISTS.local_name(),
+            "wikimapper_path": WIKIMAPPER.local_name()
         },
         outlets=[ALLOWED_LISTS]
     )
@@ -282,14 +295,25 @@ with DAG(
     catchup=False,
     tags=["lists", "collection-templates"],
 ) as dag:
+    copy_enwiki_lists_task = BashOperator(
+        task_id="copy-enwiki-lists",
+        bash_command=f"cp {WIKIPEDIA_PAGELINKS.latest_local_name()} {WIKIPEDIA_PAGELINKS.current_local_name()}",
+    )
+    copy_enwiki_lists_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+    Copy enwiki lists with current date.
+    """
+    )
+
     create_enwiki_lists_task = PythonOperator(
         task_id='create-list-links',
         python_callable=extract_associations_from_dump,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{WIKIPEDIA_PAGELINKS.name()}", 
+            "input": WIKIPEDIA_PAGELINKS.current_local_name(), 
             "mode": 'list', 
-            "output": f"{CONFIG.local_prefix}{LIST_PAGES.name()}",
-            "allowed_values": f"{CONFIG.local_prefix}{ALLOWED_LISTS.name()}",
+            "output": LIST_PAGES.local_name(),
+            "allowed_values": ALLOWED_LISTS.local_name(),
         },
         outlets=[LIST_PAGES]
     )
@@ -301,6 +325,8 @@ with DAG(
     The file contains associations between English Wikipedia list pages and the pages that belong to those lists.
     """
     )
+
+    copy_enwiki_lists_task >> create_enwiki_lists_task
 
 
 def title_for(wikipedia_id: int, wikipedia_id2title, mapper) -> str:
@@ -366,10 +392,10 @@ with DAG(
         task_id='create-mapped-categories',
         python_callable=map_to_titles,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{CATEGORY_PAGES.name()}", 
+            "input": CATEGORY_PAGES.local_name(), 
             "mode": 'category', 
-            "output": f"{CONFIG.local_prefix}{MAPPED_CATEGORIES.name()}",
-            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}",
+            "output": MAPPED_CATEGORIES.local_name(),
+            "wikimapper_path": WIKIMAPPER.local_name(),
         },
     )
     create_mapped_categories_task.doc_md = dedent(
@@ -384,8 +410,8 @@ with DAG(
     create_sorted_categories_task = BashOperator(
         outlets=[SORTED_CATEGORIES],
         task_id="sort-categories",
-        bash_command=f"(head -n 1 {CONFIG.local_prefix}{MAPPED_CATEGORIES.name()} && tail -n +2 {CONFIG.local_prefix}{MAPPED_CATEGORIES.name()} | " + 
-            f"LC_ALL=C sort) > {CONFIG.local_prefix}{SORTED_CATEGORIES.name()}",
+        bash_command=f"(head -n 1 {MAPPED_CATEGORIES.local_name()} && tail -n +2 {MAPPED_CATEGORIES.local_name()} | " + 
+            f"LC_ALL=C sort) > {SORTED_CATEGORIES.local_name()}",
     )
 
     create_sorted_categories_task.doc_md = dedent(
@@ -418,10 +444,10 @@ with DAG(
         task_id='create-mapped-lists',
         python_callable=map_to_titles,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{LIST_PAGES.name()}", 
+            "input": LIST_PAGES.local_name(), 
             "mode": 'list', 
-            "output": f"{CONFIG.local_prefix}{MAPPED_LISTS.name()}",
-            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}",
+            "output": MAPPED_LISTS.local_name(),
+            "wikimapper_path": WIKIMAPPER.local_name(),
         },
     )
     create_mapped_lists_task.doc_md = dedent(
@@ -436,8 +462,8 @@ with DAG(
     create_sorted_lists_task = BashOperator(
         outlets=[SORTED_LISTS],
         task_id="sort-lists",
-        bash_command=f"(head -n 1 {CONFIG.local_prefix}{MAPPED_LISTS.name()} && tail -n +2 {CONFIG.local_prefix}{MAPPED_LISTS.name()} | " + 
-            f"LC_ALL=C sort) > {CONFIG.local_prefix}{SORTED_LISTS.name()}",
+        bash_command=f"(head -n 1 {MAPPED_LISTS.local_name()} && tail -n +2 {MAPPED_LISTS.local_name()} | " + 
+            f"LC_ALL=C sort) > {SORTED_LISTS.local_name()}",
     )
 
     create_sorted_lists_task.doc_md = dedent(
@@ -449,7 +475,7 @@ with DAG(
     """
     )
 
-    create_mapped_categories_task >> create_sorted_categories_task
+    create_mapped_lists_task >> create_sorted_lists_task
 
 def write_item(collections, members, writer, key):
     try:
@@ -653,9 +679,9 @@ with DAG(
         task_id='create-category-members',
         python_callable=reformat_csv_to_json,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{SORTED_CATEGORIES.name()}", 
-            "output": f"{CONFIG.local_prefix}{CATEGORY_MEMBERS.name()}",
-            "collections_json": f"{CONFIG.local_prefix}{CATEGORIES.name()}",
+            "input": SORTED_CATEGORIES.local_name(), 
+            "output": CATEGORY_MEMBERS.local_name(),
+            "collections_json": CATEGORIES.local_name(),
         },
     )
     create_category_members_task.doc_md = dedent(
@@ -673,12 +699,12 @@ with DAG(
         task_id='validate-category-members',
         python_callable=validate_members,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{CATEGORY_MEMBERS.name()}", 
-            "output": f"{CONFIG.local_prefix}{VALIDATED_CATEGORY_MEMBERS.name()}",
-            "title_id_path": f"{CONFIG.local_prefix}{ROCKS_DB_1.name()}",
-            "id_type_path": f"{CONFIG.local_prefix}{ROCKS_DB_2.name()}",
-            "same_as_path": f"{CONFIG.local_prefix}{ROCKS_DB_6.name()}",
-            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}",
+            "input": CATEGORY_MEMBERS.local_name(), 
+            "output": VALIDATED_CATEGORY_MEMBERS.local_name(),
+            "title_id_path": ROCKS_DB_1.local_name(),
+            "id_type_path": ROCKS_DB_2.local_name(),
+            "same_as_path": ROCKS_DB_6.local_name(),
+            "wikimapper_path": WIKIMAPPER.local_name(),
         },
         outlets=[VALIDATED_CATEGORY_MEMBERS],
     )
@@ -714,9 +740,9 @@ with DAG(
         task_id='create-list-members',
         python_callable=reformat_csv_to_json,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{SORTED_LISTS.name()}", 
-            "output": f"{CONFIG.local_prefix}{LIST_MEMBERS.name()}",
-            "collections_json": f"{CONFIG.local_prefix}{LISTS.name()}",
+            "input": SORTED_LISTS.local_name(), 
+            "output": LIST_MEMBERS.local_name(),
+            "collections_json": LISTS.local_name(),
         },
     )
     create_list_members_task.doc_md = dedent(
@@ -734,12 +760,12 @@ with DAG(
         task_id='validate-list-members',
         python_callable=validate_members,
         op_kwargs={
-            "input": f"{CONFIG.local_prefix}{LIST_MEMBERS.name()}", 
-            "output": f"{CONFIG.local_prefix}{VALIDATED_LIST_MEMBERS.name()}",
-            "title_id_path": f"{CONFIG.local_prefix}{ROCKS_DB_1.name()}",
-            "id_type_path": f"{CONFIG.local_prefix}{ROCKS_DB_2.name()}",
-            "same_as_path": f"{CONFIG.local_prefix}{ROCKS_DB_6.name()}",
-            "wikimapper_path": f"{CONFIG.local_prefix}{WIKIMAPPER.name()}",
+            "input": LIST_MEMBERS.local_name(), 
+            "output": VALIDATED_LIST_MEMBERS.local_name(),
+            "title_id_path": ROCKS_DB_1.local_name(),
+            "id_type_path": ROCKS_DB_2.local_name(),
+            "same_as_path": ROCKS_DB_6.local_name(),
+            "wikimapper_path": WIKIMAPPER.local_name(),
         },
         outlets=[VALIDATED_LIST_MEMBERS],
     )
