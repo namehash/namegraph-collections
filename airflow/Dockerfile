@@ -23,10 +23,10 @@ ADD ./label-inspector/ /label-inspector
 USER airflow
 RUN pip install /label-inspector/
 # Force cache creation, could be simplified by just in a python one-liner importing the same thing as in create_merged.py
-#RUN mkdir /home/airflow/data
+RUN mkdir /home/airflow/data
 #ADD ./dags/ /home/airflow/dags
 #RUN python /home/airflow/dags/create_merged.py
 USER root
 RUN chmod g+w /home/airflow/data
-RUN chmod g+w /home/airflow/.local/lib/python3.10/site-packages/myunicode/
+RUN chmod g+w /home/airflow/.local/lib/python3.10/site-packages/namehash_common/
 USER airflow
