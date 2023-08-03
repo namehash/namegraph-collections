@@ -1,0 +1,15 @@
+Wikidata==0.7.0
+Wikipedia-API==0.5.8
+jsonlines==3.1.0
+SPARQLWrapper==2.0.0
+tqdm==4.65.0
+wikimapper @ git+https://github.com/apohllo/wikimapper@04fec95b7ef98ed06530a05a84588a6b72627f31
+more-itertools==9.1.0
+ens-normalize==3.0.3
+pytest==7.4.0
+rocksdict==0.3.13
+regex==2022.10.31
+lightrdf==0.3.1
+kwnlp-sql-parser==0.0.2
+web3==6.6.1
+hydra-core==1.2.0

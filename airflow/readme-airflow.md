@@ -2,13 +2,11 @@
 Based on 
 https://vidyats.medium.com/how-to-switch-from-airflow-default-sequential-executor-to-local-executor-ad77f2e4b57a
 
-1. docker compose up
-2. airflow.cfg
-   * executor = LocalExecutor
-   * pip install psycopg2
-   * sql_alchemy_conn = postgresql+psycopg2://airflow:airflow_pass@localhost:5432/airflow
-   * airflow db init
-3. airflow standalone
+1. git clone label-inspector (in airflow directory)
+2. docker compose up
+3. https://localhost:8080
+   * login: airflow, 
+   * pass: airflow
  
 
  ```mermaid

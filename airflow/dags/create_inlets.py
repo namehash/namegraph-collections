@@ -23,8 +23,8 @@ class Config:
 
 CONFIG=Config(
     "apohllo@o2.pl",
-    "/home/apohllo/airflow/dags/data/",
-    "file:///home/apohllo/src/airflow/dags/",
+    "/home/airflow/data/",
+    "file:///home/airflow/data/",
     datetime.now().strftime("%Y%m%d"),
     datetime(2021, 1, 1),
     timedelta(weeks=4)
