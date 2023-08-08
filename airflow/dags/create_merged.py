@@ -24,7 +24,7 @@ from hexbytes import HexBytes
 
 from create_collections import extract_article_name, VALIDATED_LIST_MEMBERS, VALIDATED_CATEGORY_MEMBERS
 from create_kv import ROCKS_DB_5, ROCKS_DB_4
-from create_inlets import CONFIG, WIKIMAPPER, QRANK, CollectionDataset
+from create_inlets import CONFIG, WIKIMAPPER, QRANK, CollectionDataset, SUGGESTABLE_DOMAINS, AVATAR_EMOJI
 
 INTERESTING_SCORE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}interesting-score.rocks")
 FORCE_NORMALIZE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}force-normalize.rocks")
@@ -33,11 +33,9 @@ UNIQ_LIST_MEMBERS = CollectionDataset(f"{CONFIG.remote_prefix}uniq_list_members.
 UNIQ_CATEGORY_MEMBERS = CollectionDataset(f"{CONFIG.remote_prefix}uniq_category_members.txt")
 LIST_MEMBERS_ALL_INFO = CollectionDataset(f"{CONFIG.remote_prefix}list_members_all_info.jsonl")
 CATEGORY_MEMBERS_ALL_INFO = CollectionDataset(f"{CONFIG.remote_prefix}category_members_all_info.jsonl")
-SUGGESTABLE_DOMAINS = CollectionDataset(f"{CONFIG.remote_prefix}suggestable_domains.csv") 
 MERGED_COLLECTIONS = CollectionDataset(f"{CONFIG.remote_prefix}merged.jsonl") 
 WITHOUT_LETTERS = CollectionDataset(f"{CONFIG.remote_prefix}merged-without-letters.jsonl") 
 WITHOUT_DUPLICATES = CollectionDataset(f"{CONFIG.remote_prefix}merged-without-duplicates.jsonl") 
-AVATAR_EMOJI = CollectionDataset(f"{CONFIG.remote_prefix}avatars-emojis.csv")
 MERGED_FINAL = CollectionDataset(f"{CONFIG.remote_prefix}merged_final.jsonl")
 
 MIN_VALUE = 1e-8
@@ -478,7 +476,7 @@ def compute_all_info(input, output, interesting_score_path, qrank_path, domains_
 
 
 with DAG(
-    "list-all-info",
+    "collection-all-info",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -488,10 +486,10 @@ with DAG(
         "start_date": CONFIG.start_date,
     },
     description="Tasks related final processing of list members.",
-    schedule=[INTERESTING_SCORE_CACHE, VALIDATED_LIST_MEMBERS, WIKIMAPPER, ROCKS_DB_5, QRANK, SUGGESTABLE_DOMAINS],
+    schedule=[INTERESTING_SCORE_CACHE, VALIDATED_CATEGORY_MEMBERS, VALIDATED_LIST_MEMBERS, WIKIMAPPER, ROCKS_DB_5, QRANK, SUGGESTABLE_DOMAINS],
     start_date=CONFIG.start_date,
     catchup=False,
-    tags=["rank", "domains", "normalize", "collection-templates", "lists"],
+    tags=["rank", "domains", "normalize", "collection-templates", "lists", "categories"],
 ) as dag:
     create_list_members_final_task = PythonOperator(
         task_id='create-list-members-final',
@@ -515,23 +513,6 @@ with DAG(
     """
     )
 
-with DAG(
-    "category-all-info",
-    default_args={
-        "email": [CONFIG.email],
-        "email_on_failure": False,
-        "email_on_retry": False,
-        "retries": 1,
-        "cwd": CONFIG.local_prefix,
-        "start_date": CONFIG.start_date,
-    },
-    description="Tasks related final processing of category members.",
-    schedule=[INTERESTING_SCORE_CACHE, VALIDATED_CATEGORY_MEMBERS, WIKIMAPPER, ROCKS_DB_5, QRANK, SUGGESTABLE_DOMAINS],
-    start_date=CONFIG.start_date,
-    catchup=False,
-    tags=["rank", "domains", "normalize", "collection-templates", "categories"],
-) as dag:
-
     create_category_members_final_task = PythonOperator(
         task_id='create-category-members-final',
         python_callable=compute_all_info,
@@ -554,6 +535,8 @@ with DAG(
     Create file with list members supplemented with the final information.
     """
     )
+
+    create_list_members_final_task >> create_category_members_final_task
 
 def merge_collections(collection1: Collection, collection2: Collection) -> Collection:
     if int(collection2.item[1:]) < int(collection1.item[1:]):  # smaller id as collection stable id

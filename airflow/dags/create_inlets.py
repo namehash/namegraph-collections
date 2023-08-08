@@ -2,12 +2,14 @@
 from datetime import datetime, timedelta
 from textwrap import dedent
 import re
+import boto3
 
 # The DAG object; we'll need this to instantiate a DAG
 from airflow import DAG, Dataset
 
 # Operators; we need this to operate!
 from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
 
 from dataclasses import dataclass
 
@@ -61,7 +63,8 @@ WIKIPEDIA_PAGEPROPS = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-pa
 WIKIPEDIA_PAGE = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-page.sql.gz")
 WIKIMAPPER = CollectionDataset(f"{CONFIG.remote_prefix}index_enwiki-latest.db")
 QRANK = CollectionDataset(f"{CONFIG.remote_prefix}qrank.csv")
-
+SUGGESTABLE_DOMAINS = CollectionDataset(f"{CONFIG.remote_prefix}suggestable_domains.csv") 
+AVATAR_EMOJI = CollectionDataset(f"{CONFIG.remote_prefix}avatars-emojis.csv")
 
 
 def wget_for_wikidata(type: str):
@@ -281,4 +284,46 @@ with DAG(
         outlets=[QRANK],
         task_id="download-qrank",
         bash_command=f"wget -O - https://qrank.wmcloud.org/download/qrank.csv.gz | gunzip -c > {QRANK.local_name()}",
+    )
+
+def download_suggestable_domains(bucket, name, path):
+    s3 = boto3.client('s3')
+    s3.download_file(bucket, name, path)
+
+with DAG(
+    "namehash-files",
+    default_args={
+        "email": [CONFIG.email],
+        "email_on_failure": False,
+        "email_on_retry": False,
+        "retries": 1,
+        "cwd": CONFIG.local_prefix,
+        "start_date": CONFIG.start_date,
+    },
+    description="Tasks related downloading of domain files.",
+    start_date=CONFIG.start_date,
+    catchup=False,
+    tags=["domain"],
+    schedule=CONFIG.run_interval,
+) as dag:
+    domains_task = PythonOperator(
+        outlets=[SUGGESTABLE_DOMAINS],
+        task_id="download-suggestable-domains",
+        python_callable=download_suggestable_domains,
+        op_kwargs={
+            "bucket": "prod-name-generator-namegeneratori-inputss3bucket-c26jqo3twfxy",
+            "name": SUGGESTABLE_DOMAINS.name(),
+            "path": SUGGESTABLE_DOMAINS.local_name()
+        },
+    )
+    
+    domains_task = PythonOperator(
+        outlets=[AVATAR_EMOJI],
+        task_id="download-avatars-emojis",
+        python_callable=download_suggestable_domains,
+        op_kwargs={
+            "bucket": "prod-name-generator-namegeneratori-inputss3bucket-c26jqo3twfxy",
+            "name": AVATAR_EMOJI.name(),
+            "path": AVATAR_EMOJI.local_name()
+        },
     )
