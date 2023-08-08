@@ -57,7 +57,7 @@ if __name__ == '__main__':
         for ok, action in streaming_bulk(client=es,
                                          index=index,
                                          actions=reader,
-                                         max_chunk_bytes=1_000_000,  # 10mb
+                                         max_chunk_bytes=1_000_000,  # 1mb
                                          raise_on_error=False,
                                          raise_on_exception=False,
                                          max_retries=1):
@@ -65,9 +65,10 @@ if __name__ == '__main__':
             successes += ok
 
             if not ok:
-                if action['_op_type'] == 'insert':
-                    print('Failed insert:', action['_source']['metadata']['id'])
-                elif action['_op_type'] == 'update':
-                    print('Failed update:', action['_id'])
-                else:
-                    print('Failed action:', action['_op_type'])
+                print(action)
+                # if action['_op_type'] == 'insert':
+                #     print('Failed insert:', action['_source']['metadata']['id'])
+                # elif action['_op_type'] == 'update':
+                #     print('Failed update:', action['_id'])
+                # else:
+                #     print('Failed action:', action['_op_type'])
