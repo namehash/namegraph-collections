@@ -31,6 +31,12 @@ The connection details should be specified in the environment variables:
 $ ES_HOST=localhost ES_PORT=9200 ES_USERNAME=elastic ES_PASSWORD=changeme python configure-ltr.py ...
 ```
 
+### Glossary
+
+* feature store - a special index in which the feature sets are stored
+* feature set - a set of features that are used to rank the results
+* model - a trained model that is used to rank the results
+
 ## Dependencies
 
 There is a slight problem with dependencies. It must use Python's elasticsearch client of version 7.x.x, since the plugin's client has not been updated to the 8.x.x versions. Thus, the dependencies for this script are different from the **Name Generator** and you should be aware of that.
