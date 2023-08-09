@@ -54,7 +54,6 @@ class CollectionDataset(Dataset):
 
 
 
-WIKIDATA_TRUTHY = CollectionDataset(f"{CONFIG.remote_prefix}latest-truthy.nt.bz2")
 WIKIDATA_FILTERED = CollectionDataset(f"{CONFIG.remote_prefix}latest-truthy.filtered.nt.bz2")
 WIKIPEDIA_PAGELINKS = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-pagelinks.sql.gz")
 WIKIPEDIA_REDIRECT = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-latest-redirect.sql.gz")
@@ -72,40 +71,6 @@ def wget_for_wikidata(type: str):
 
 
 with DAG(
-    "download-wikidata",
-    default_args={
-        "cwd": CONFIG.local_prefix,
-        "email": [CONFIG.email],
-        "email_on_failure": False,
-        "email_on_retry": False,
-        "retries": 1,
-    },
-    description="Tasks related to downloading Wikidata source files",
-    schedule=CONFIG.run_interval,
-    catchup=False,
-    tags=["download", "collection-templates"],
-) as dag:
-
-    dag.doc_md = """
-    Downloading of Wikidata files.
-    """  
-
-    pagelinks_task = BashOperator(
-        outlets=[WIKIDATA_TRUTHY],
-        task_id="download-truthy",
-        bash_command=f"wget {wget_for_wikidata('truthy')} -O {WIKIDATA_TRUTHY.local_name()}",
-        start_date=CONFIG.start_date,
-    )
-
-    pagelinks_task.doc_md = dedent(
-        """\
-    #### Task Documentation
-    Download the latest **thruthy** statements from Wikidata.
-    """
-    )
-
-
-with DAG(
     "filter-wikidata",
     default_args={
         "email": [CONFIG.email],
@@ -114,9 +79,9 @@ with DAG(
         "retries": 1,
     },
     description="Tasks related to processing of source Wikidata files",
-    schedule=[WIKIDATA_TRUTHY],
+    schedule=CONFIG.run_interval,
     catchup=False,
-    tags=["filter", "collection-templates"],
+    tags=["download", "filter", "collection-templates"],
 ) as dag:
 
     regex = "'^(<https://en\.wikipedia\.org/wiki/|<http://www\.wikidata\.org/entity/).*((<http://www\.wikidata\.org/prop/direct/P18>|<http://www\.wikidata\.org/prop/direct/P1753>|<http://www\.wikidata\.org/prop/direct/P31>|<http://schema\.org/about>|<http://www\.wikidata\.org/prop/direct/P1754>|<http://www\.wikidata\.org/prop/direct/P4224>|<http://www\.wikidata\.org/prop/direct/P948>|<http://www\.wikidata\.org/prop/direct/P279>|<http://www\.wikidata\.org/prop/direct/P360>|<http://www\.w3\.org/2002/07/owl\#sameAs>)|((<http://schema\.org/description>|<http://schema\.org/name>|<http://www\.w3\.org/2000/01/rdf\-schema\#label>).*@en .$$))'"
@@ -124,20 +89,20 @@ with DAG(
         outlets=[WIKIDATA_FILTERED],
         task_id="grep-wikidata",
         cwd=f"{CONFIG.local_prefix}",
-        bash_command=f"lbzip2 -d {WIKIDATA_TRUTHY.local_name()} --stdout | grep -E {regex} | lbzip2 -c > {WIKIDATA_FILTERED.local_name()}",
+        bash_command=f"wget {wget_for_wikidata('truthy')} -q -O - | lbzip2 -d --stdout | grep -E {regex} | lbzip2 -c > {WIKIDATA_FILTERED.local_name()}",
         start_date=CONFIG.start_date,
     )
 
     filter_wikidata_task.doc_md = dedent(
         """\
     #### Task Documentation
-    This task filters the predicates in the Wikipedia dump to include 
+    This task downloads and filters the predicates in the Wikipedia dump to include 
     only a subset of predicates and and a subset of entities (only wikidata and English wikipedia).
     """
     )
 
     dag.doc_md = """
-    Filtering Wikidata for entries including only specific subjects and predicates.
+    Downloading and filtering Wikidata for entries including only specific subjects and predicates.
     """  
 
 def wget_for_wikipedia(dataset):
