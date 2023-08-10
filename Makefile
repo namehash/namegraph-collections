@@ -100,6 +100,7 @@ data/list_links.jsonl: data/sorted-lists.csv data/lists.json
 # output
 #     {"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "SMS Württemberg",  "SMS Württemberg (1917)", "Sachsen-class ironclad", "WikiProject Ships/Guidelines"]}
 # old:{"item": "Q1000775", "type": ["Q11446"], "article": "SMS_W%C3%BCrttemberg", "members": ["SMS Württemberg (1878)", "Bayern-class battleship", "Kaiserliche Marine", "Sachsen-class ironclad", "SMS Württemberg (1917)"]}
+
 download_list_members: data/list_links.jsonl
 
 ############## CATEGORY MEMBERS ##############
