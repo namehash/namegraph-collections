@@ -27,7 +27,7 @@ def connect_to_elasticsearch(
 
 
 if __name__ == '__main__':
-    parser = ArgumentParser()
+    parser = ArgumentParser(description="Execute ES update operations from JSONL")
     parser.add_argument('input', help='input JSONL file with operations to execute')
     args = parser.parse_args()
 
