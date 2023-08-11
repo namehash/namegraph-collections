@@ -692,6 +692,25 @@ if __name__ == '__main__':
         encoded = fig_to_base64(fig)
         f.write('<img src="data:image/png;base64, {}">'.format(encoded.decode('utf-8')))
 
+        
+        y = [np.mean([query2tooks[query][endpoint] for query in queries]) for endpoint in
+             endpoint_names]
+        fig, ax = plt.subplots(figsize=(15, 5))
+        ax.plot(endpoint_names, y, c='forestgreen')
+        ax.scatter(endpoint_names, y, c='forestgreen')
+        ax.set_title('Took')
+        # ax.set_xlabel('Window Size')
+        # ax11.set_xticks(major_ticks)
+        # ax11.set_xticks(minor_ticks, minor=True)
+        ax.grid(which='major', alpha=0.5)
+        ax.grid(which='minor', alpha=0.2)
+        plt.xticks(rotation=10)
+        plt.tight_layout()
+
+        encoded = fig_to_base64(fig)
+        f.write('<img src="data:image/png;base64, {}">'.format(encoded.decode('utf-8')))
+
+
         for metric_name, metric_values in query2metric.items():
             y = [np.mean([metric_values[query][endpoint] for query in queries]) for endpoint in
                  endpoint_names]
