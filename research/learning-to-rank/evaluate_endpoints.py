@@ -84,10 +84,10 @@ class Collection:
 
 from joblib import Memory
 
-memory = Memory("cachedir")
+# memory = Memory()
 
 
-@memory.cache
+
 def search_with_latency(
         query: str,
         limit: int = 10,
@@ -382,7 +382,7 @@ def connect_to_elasticsearch(
     )
 
 
-@memory.cache(ignore=['es'])
+# @memory.cache(ignore=['es'])
 def search(es: Elasticsearch, index: str, query: str, es_query, window_size: int = 1, size: int = 10,
            mode: str = 'ltr') -> tuple[dict, float, float]:
     query_body = deepcopy(es_query)
@@ -456,9 +456,13 @@ if __name__ == '__main__':
     parser.add_argument('-o', '--output', default='window_sizes.html', help="file with the output report")
     # parser.add_argument('--limit', default=10, type=int, help='limit the number of collections to retrieve')
     parser.add_argument('--repeats', default=1, type=int, help='number of times to repeat the query')
+    parser.add_argument('--cachedir', default=None, help='cache directory for calls to ESa nd API')
     # parser.add_argument('--window_sizes', nargs='+', type=int, help='window sizes to test',
     #                     default=[1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 350, 500, 750, 1000])
     args = parser.parse_args()
+
+    
+    memory = Memory(args.cachedir)
 
     host = os.getenv('ES_HOST', 'localhost')
     port = int(os.getenv('ES_PORT', '9200'))
@@ -487,27 +491,29 @@ if __name__ == '__main__':
     queries = list(human_scores.keys())
 
     # different endpoints with different params, maybe also allow direct ES?
+    cached_search = memory.cache(search, ignore=['es'], verbose=False)
+    cached_search_with_latency = memory.cache(search_with_latency, verbose=False)
 
     endpoints = {
-        "API_no-ltr_n0.5_t3": lambda query: search_with_latency(query, host=nghost, port=ngport),
-        "API_no-ltr_nNone_tNone": lambda query: search_with_latency(query, host=nghost, port=ngport,
+        "API_no-ltr_n0.5_t3": lambda query: cached_search_with_latency(query, host=nghost, port=ngport),
+        "API_no-ltr_nNone_tNone": lambda query: cached_search_with_latency(query, host=nghost, port=ngport,
                                                                     name_diversity_ratio=None,
                                                                     max_per_type=None),
-        "ES_no-ltr_query2": lambda query: search(es, index, query, es_query=NO_LTR_QUERY2, mode='noltr'),
-        "ES_no-ltr_query2most": lambda query: search(es, index, query, es_query=NO_LTR_QUERY2b, mode='noltr'),
-        "ES_no-ltr_query2best": lambda query: search(es, index, query, es_query=NO_LTR_QUERY2c, mode='noltr'),
-        "ES_no-ltr": lambda query: search(es, index, query, es_query=NO_LTR_QUERY, mode='noltr'),
+        "ES_no-ltr_query2": lambda query: cached_search(es, index, query, es_query=NO_LTR_QUERY2, mode='noltr'),
+        "ES_no-ltr_query2most": lambda query: cached_search(es, index, query, es_query=NO_LTR_QUERY2b, mode='noltr'),
+        "ES_no-ltr_query2best": lambda query: cached_search(es, index, query, es_query=NO_LTR_QUERY2c, mode='noltr'),
+        "ES_no-ltr": lambda query: cached_search(es, index, query, es_query=NO_LTR_QUERY, mode='noltr'),
 
         # TODO collections from grouped
-        "ES_ltr_ws1": lambda query: search(es, index, query, es_query=LTR_QUERY, window_size=1, mode='ltr'),
-        "ES_ltr_ws20": lambda query: search(es, index, query, es_query=LTR_QUERY, window_size=20, mode='ltr'),
-        "ES_ltr_ws100": lambda query: search(es, index, query, es_query=LTR_QUERY, window_size=100, mode='ltr'),
-        "ES_ltr_ws20_query2": lambda query: search(es, index, query, es_query=LTR_QUERY2, window_size=20, mode='ltr'),
-        "ES_ltr_ws20_query2b": lambda query: search(es, index, query, es_query=LTR_QUERY2b, window_size=20, mode='ltr'),
-        "API_ltr_nNone_tNone": lambda query: search_with_latency(query, host=nghost, port=ngport,
+        "ES_ltr_ws1": lambda query: cached_search(es, index, query, es_query=LTR_QUERY, window_size=1, mode='ltr'),
+        "ES_ltr_ws20": lambda query: cached_search(es, index, query, es_query=LTR_QUERY, window_size=20, mode='ltr'),
+        "ES_ltr_ws100": lambda query: cached_search(es, index, query, es_query=LTR_QUERY, window_size=100, mode='ltr'),
+        "ES_ltr_ws20_query2": lambda query: cached_search(es, index, query, es_query=LTR_QUERY2, window_size=20, mode='ltr'),
+        "ES_ltr_ws20_query2b": lambda query: cached_search(es, index, query, es_query=LTR_QUERY2b, window_size=20, mode='ltr'),
+        "API_ltr_nNone_tNone": lambda query: cached_search_with_latency(query, host=nghost, port=ngport,
                                                                  name_diversity_ratio=None,
                                                                  max_per_type=None, sort_order='AI'),
-        "API_ltr_n0.5_t3": lambda query: search_with_latency(query, host=nghost, port=ngport, sort_order='AI'),
+        "API_ltr_n0.5_t3": lambda query: cached_search_with_latency(query, host=nghost, port=ngport, sort_order='AI'),
     }
     endpoint_names = tuple(endpoints.keys())
 
