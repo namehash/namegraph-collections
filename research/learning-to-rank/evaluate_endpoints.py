@@ -21,6 +21,41 @@ import tqdm
 import numpy as np
 
 
+def request_generator_grouped_http(
+        query: str,
+        name_diversity_ratio: Optional[float] = 0.5,
+        max_per_type: Optional[int] = 2,
+        enable_learning_to_rank: Optional[bool] = True,
+        host: str = 'localhost',
+        port: int = 8000,
+):
+    data = {
+        "label": query,
+        "metadata": False,
+        "min_primary_fraction": 0.1,
+        "params": {
+            "country": "us",
+            "mode": "full",
+            "enable_learning_to_rank": enable_learning_to_rank,
+            "name_diversity_ratio": name_diversity_ratio,
+            "max_per_type": max_per_type
+        }
+    }
+    result = requests.post(
+        f'http://{host}:{port}/grouped_by_category',
+        json=data,
+    ).json()
+
+    collections = []
+    for category in result['categories']:
+        if category['type'] == 'related':
+            collections.append(Collection(title=category['collection_title'], types=[], avatar_emoji='',
+                                          number_of_names=category['collection_members_count'],
+                                          names=[n['name'] for n in category['suggestions']]))
+
+    return collections, 1, 1
+
+
 def request_generator_http(
         query: str,
         limit: int,
@@ -84,8 +119,8 @@ class Collection:
 
 from joblib import Memory
 
-# memory = Memory()
 
+# memory = Memory()
 
 
 def search_with_latency(
@@ -363,6 +398,7 @@ NO_LTR_QUERY2b['query']['bool']['must'][0]['multi_match']['type'] = 'most_fields
 NO_LTR_QUERY2c = deepcopy(NO_LTR_QUERY2)
 NO_LTR_QUERY2c['query']['bool']['must'][0]['multi_match']['type'] = 'best_fields'
 
+
 def connect_to_elasticsearch(
         scheme: str,
         host: str,
@@ -461,7 +497,6 @@ if __name__ == '__main__':
     #                     default=[1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 350, 500, 750, 1000])
     args = parser.parse_args()
 
-    
     memory = Memory(args.cachedir)
 
     host = os.getenv('ES_HOST', 'localhost')
@@ -472,6 +507,11 @@ if __name__ == '__main__':
 
     nghost = os.getenv('NG_HOST', 'localhost')
     ngport = int(os.getenv('NG_PORT', '8000'))
+
+    # print(request_generator_grouped_http('crypto', 0.5, 2, True, host=nghost, port=ngport))
+    # import sys
+    # 
+    # sys.exit()
 
     es = connect_to_elasticsearch(
         scheme='http' if host in ['localhost', '127.0.0.1'] else 'https',
@@ -493,12 +533,17 @@ if __name__ == '__main__':
     # different endpoints with different params, maybe also allow direct ES?
     cached_search = memory.cache(search, ignore=['es'], verbose=False)
     cached_search_with_latency = memory.cache(search_with_latency, verbose=False)
+    cached_request_generator_grouped_http = memory.cache(request_generator_grouped_http, verbose=False)
 
     endpoints = {
+        "API_grouped_ltr_n0.5_t2": lambda query: cached_request_generator_grouped_http(query, host=nghost, port=ngport),
+        "API_grouped_ltr_nNone_tNone": lambda query: cached_request_generator_grouped_http(query, host=nghost, port=ngport, name_diversity_ratio=None, max_per_type=None),
+        "API_grouped_no-ltr_nNone_tNone": lambda query: cached_request_generator_grouped_http(query, host=nghost, port=ngport, name_diversity_ratio=None, max_per_type=None, enable_learning_to_rank=False),
+        "API_grouped_no-ltr_n0.5_t2": lambda query: cached_request_generator_grouped_http(query, host=nghost, port=ngport, enable_learning_to_rank=False),
         "API_no-ltr_n0.5_t3": lambda query: cached_search_with_latency(query, host=nghost, port=ngport),
         "API_no-ltr_nNone_tNone": lambda query: cached_search_with_latency(query, host=nghost, port=ngport,
-                                                                    name_diversity_ratio=None,
-                                                                    max_per_type=None),
+                                                                           name_diversity_ratio=None,
+                                                                           max_per_type=None),
         "ES_no-ltr_query2": lambda query: cached_search(es, index, query, es_query=NO_LTR_QUERY2, mode='noltr'),
         "ES_no-ltr_query2most": lambda query: cached_search(es, index, query, es_query=NO_LTR_QUERY2b, mode='noltr'),
         "ES_no-ltr_query2best": lambda query: cached_search(es, index, query, es_query=NO_LTR_QUERY2c, mode='noltr'),
@@ -508,11 +553,13 @@ if __name__ == '__main__':
         "ES_ltr_ws1": lambda query: cached_search(es, index, query, es_query=LTR_QUERY, window_size=1, mode='ltr'),
         "ES_ltr_ws20": lambda query: cached_search(es, index, query, es_query=LTR_QUERY, window_size=20, mode='ltr'),
         "ES_ltr_ws100": lambda query: cached_search(es, index, query, es_query=LTR_QUERY, window_size=100, mode='ltr'),
-        "ES_ltr_ws20_query2": lambda query: cached_search(es, index, query, es_query=LTR_QUERY2, window_size=20, mode='ltr'),
-        "ES_ltr_ws20_query2b": lambda query: cached_search(es, index, query, es_query=LTR_QUERY2b, window_size=20, mode='ltr'),
+        "ES_ltr_ws20_query2": lambda query: cached_search(es, index, query, es_query=LTR_QUERY2, window_size=20,
+                                                          mode='ltr'),
+        "ES_ltr_ws20_query2b": lambda query: cached_search(es, index, query, es_query=LTR_QUERY2b, window_size=20,
+                                                           mode='ltr'),
         "API_ltr_nNone_tNone": lambda query: cached_search_with_latency(query, host=nghost, port=ngport,
-                                                                 name_diversity_ratio=None,
-                                                                 max_per_type=None, sort_order='AI'),
+                                                                        name_diversity_ratio=None,
+                                                                        max_per_type=None, sort_order='AI'),
         "API_ltr_n0.5_t3": lambda query: cached_search_with_latency(query, host=nghost, port=ngport, sort_order='AI'),
     }
     endpoint_names = tuple(endpoints.keys())
@@ -677,7 +724,7 @@ if __name__ == '__main__':
 
         markers = iter(Line2D.markers)
 
-        fig, ax = plt.subplots(figsize=(15, 8))
+        fig, ax = plt.subplots(figsize=(18, 8))
         for metric_name, metric_values in query2metric.items():
             y = [np.mean([metric_values[query][endpoint] for query in queries]) for endpoint in
                  endpoint_names]
@@ -686,16 +733,15 @@ if __name__ == '__main__':
         ax.grid(which='minor', alpha=0.2)
         ax.set_yticks(np.arange(0, 1.1, 0.1))
         plt.legend()
-        plt.xticks(rotation=10)
+        plt.xticks(rotation=15)
         plt.tight_layout()
 
         encoded = fig_to_base64(fig)
         f.write('<img src="data:image/png;base64, {}">'.format(encoded.decode('utf-8')))
 
-        
         y = [np.mean([query2tooks[query][endpoint] for query in queries]) for endpoint in
              endpoint_names]
-        fig, ax = plt.subplots(figsize=(15, 5))
+        fig, ax = plt.subplots(figsize=(18, 5))
         ax.plot(endpoint_names, y, c='forestgreen')
         ax.scatter(endpoint_names, y, c='forestgreen')
         ax.set_title('Took')
@@ -704,17 +750,16 @@ if __name__ == '__main__':
         # ax11.set_xticks(minor_ticks, minor=True)
         ax.grid(which='major', alpha=0.5)
         ax.grid(which='minor', alpha=0.2)
-        plt.xticks(rotation=10)
+        plt.xticks(rotation=15)
         plt.tight_layout()
 
         encoded = fig_to_base64(fig)
         f.write('<img src="data:image/png;base64, {}">'.format(encoded.decode('utf-8')))
 
-
         for metric_name, metric_values in query2metric.items():
             y = [np.mean([metric_values[query][endpoint] for query in queries]) for endpoint in
                  endpoint_names]
-            fig, ax = plt.subplots(figsize=(15, 5))
+            fig, ax = plt.subplots(figsize=(18, 5))
             ax.plot(endpoint_names, y, c='forestgreen')
             ax.scatter(endpoint_names, y, c='forestgreen')
             ax.set_title(metric_name)
@@ -723,7 +768,7 @@ if __name__ == '__main__':
             # ax11.set_xticks(minor_ticks, minor=True)
             ax.grid(which='major', alpha=0.5)
             ax.grid(which='minor', alpha=0.2)
-            plt.xticks(rotation=10)
+            plt.xticks(rotation=15)
             plt.tight_layout()
 
             encoded = fig_to_base64(fig)
