@@ -191,7 +191,7 @@ def prepare_update(
 
 
 if __name__ == '__main__':
-    parser = ArgumentParser()
+    parser = ArgumentParser(description="Analyze old and new JSONL with collections, calculate needed updates and execute or write to JSONL.")
     parser.add_argument('input', help='input JSONL file with current collections')
     parser.add_argument('previous', help='input JSONL file with previous collections')
     parser.add_argument('--output', default=None, help='output JSONL file with updates or inserts')
