@@ -153,8 +153,22 @@ def prepare_update(
         old_value = get_nested_field(old_collection, field)
         new_value = get_nested_field(collection, field)
 
-        # if the values are different, update the field
-        if old_value != new_value:
+        # if both values are dicts, we can update only the changed fields
+        if isinstance(old_value, dict) and isinstance(new_value, dict):
+            old_keys = set(old_value.keys())
+            new_keys = set(new_value.keys())
+
+            # if some keys are missing, update the whole dict
+            if old_keys - new_keys:
+                set_nested_field(doc, field, new_value)
+            else:
+                # check if the new values are different or not present at all
+                for key in new_keys:
+                    if key not in old_keys or old_value[key] != new_value[key]:
+                        set_nested_field(doc, field + '.' + key, new_value[key])
+
+        # if the values are totally different, update the whole field
+        elif old_value != new_value:
             set_nested_field(doc, field, new_value)
 
     # this update happens only in populate.py, so it is not presented in the previous JSONL file
@@ -184,7 +198,7 @@ if __name__ == '__main__':
     parser.add_argument('--comparing_fields', nargs='+',
                         default=['data', 'template', 'metadata.members_count',
                                  'metadata.collection_name_log_probability'],
-                        help='fields to compare')
+                        help='fields for hash calculating')
     parser.add_argument('--updating_fields', nargs='+',
                         default=['data', 'template', 'metadata.modified',
                                  'metadata.members_count', 'metadata.collection_name_log_probability'],
@@ -221,11 +235,6 @@ if __name__ == '__main__':
             collection_id = collection['metadata']['id']
             covered_ids.add(collection_id)
 
-            # FIXME remove this
-            del collection['data']['avatar_emoji']
-            del collection['data']['avatar_image']
-            del collection['data']['banner_image']
-
             # we insert only if the collection is not in the Elasticsearch index
             # disregarding the fact that it might be in the previous JSONL file (insertion might have failed)
             # it also prevents from inserting duplicates (but mapping should be updated each time we run this script)
@@ -238,6 +247,10 @@ if __name__ == '__main__':
                         writer.write(operation)
                     else:
                         es.index(index=index, body=operation['_source'])
+                continue
+
+            # it has probably been inserted already, since it is in the Elasticsearch, but not in the previous JSONL
+            if collection_id not in jsonl_index.id2hash:
                 continue
 
             previous_hash = jsonl_index.get_hash(collection_id)
