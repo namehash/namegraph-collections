@@ -45,3 +45,4 @@ There is a slight problem with dependencies. It must use Python's elasticsearch 
 
 * `search.py` - copied almost entirely from [ML Ranking PR](https://github.com/namehash/name-generator/pull/206)
 * `populate.py` - copied almost entirely from [name-generator/research/elasticsearch](https://github.com/namehash/name-generator/tree/master/research/elasticsearch)
+* `evaluate_endpoints.py` - evaluates the endpoints: `python evaluate_endpoints.py  data/scores/scores.jsonl -o report.html --cachedir cachedir`
