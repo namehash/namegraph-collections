@@ -235,11 +235,6 @@ if __name__ == '__main__':
             collection_id = collection['metadata']['id']
             covered_ids.add(collection_id)
 
-            # FIXME remove this
-            del collection['data']['avatar_emoji']
-            del collection['data']['avatar_image']
-            del collection['data']['banner_image']
-
             # we insert only if the collection is not in the Elasticsearch index
             # disregarding the fact that it might be in the previous JSONL file (insertion might have failed)
             # it also prevents from inserting duplicates (but mapping should be updated each time we run this script)
