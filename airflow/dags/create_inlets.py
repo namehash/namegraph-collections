@@ -1,8 +1,9 @@
 
 from datetime import datetime, timedelta
 from textwrap import dedent
-import re
 import boto3
+import re
+import os
 
 # The DAG object; we'll need this to instantiate a DAG
 from airflow import DAG, Dataset
@@ -13,6 +14,17 @@ from airflow.operators.python import PythonOperator
 
 from dataclasses import dataclass
 
+
+@dataclass
+class ElasticsearchConfig:
+    scheme: str
+    host: str
+    port: int
+    index: str
+    username: str
+    password: str
+
+
 @dataclass
 class Config:
     email: str
@@ -21,16 +33,26 @@ class Config:
     date_str: str
     start_date: datetime
     run_interval: timedelta
+    elasticsearch: ElasticsearchConfig
 
 
-CONFIG=Config(
-    "apohllo@o2.pl",
-    "/home/airflow/data/",
-    "file:///home/airflow/data/",
-    datetime.now().strftime("%Y%m%d"),
-    datetime(2021, 1, 1),
-    timedelta(weeks=4)
+CONFIG = Config(
+    email="apohllo@o2.pl",
+    local_prefix="/home/airflow/data/",
+    remote_prefix="file:///home/airflow/data/",
+    date_str=datetime.now().strftime("%Y%m%d"),
+    start_date=datetime(2021, 1, 1),
+    run_interval=timedelta(weeks=4),
+    elasticsearch=ElasticsearchConfig(
+        scheme=os.getenv("ES_SCHEME", "http"),
+        host=os.getenv("ES_HOST", "localhost"),
+        port=int(os.getenv("ES_PORT", "9200")),
+        index=os.getenv("ES_INDEX", "collection-templates-1"),
+        username=os.getenv("ES_USERNAME", "elastic"),
+        password=os.getenv("ES_PASSWORD", "changeme"),
+    )
 )
+
 
 class CollectionDataset(Dataset):
     def name(self):
