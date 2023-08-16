@@ -11,11 +11,13 @@ import hashlib
 import tqdm
 import time
 import json
+import os
 
 from create_inlets import CONFIG, CollectionDataset, ElasticsearchConfig
 from create_merged import MERGED_FINAL
 
 UPDATE_OPERATIONS = CollectionDataset(f"{CONFIG.remote_prefix}update-operations.jsonl")
+PREVIOUS_MERGED_FINAL = CollectionDataset(f"{CONFIG.remote_prefix}previous_merged_final.jsonl")
 
 
 COMPARING_FIELDS = ['data', 'template', 'metadata.members_count', 'metadata.collection_name_log_probability']
@@ -272,6 +274,11 @@ def apply_operations(operations: str):
                 print(action)
 
 
+def rename_to_previous_merged_final(original: str, renamed: str):
+    # TODO upload in S3 (this should be added with all the other S3 uploads)
+    os.rename(original, renamed)
+
+
 with DAG(
         "update-es",
         default_args={
@@ -282,17 +289,19 @@ with DAG(
             "cwd": CONFIG.local_prefix,
             "start_date": CONFIG.start_date,
         },
-        description="Tasks related fetching the current index status, computing differences and updating the index.",
-        schedule=[MERGED_FINAL],
+        description="Tasks related fetching the current index status, computing differences and updating the index. "
+                    "In the end, it prepares the required files for the next run.",
+        schedule=[PREVIOUS_MERGED_FINAL, MERGED_FINAL],
         start_date=CONFIG.start_date,
         catchup=False,
         tags=["update-es", "collection-templates"],
 ) as dag:
     produce_update_operations_task = PythonOperator(
+        outlets=[UPDATE_OPERATIONS],
         task_id='produce-update-operations',
         python_callable=produce_update_operations,
         op_kwargs={
-            "previous": MERGED_FINAL.local_name(),
+            "previous": PREVIOUS_MERGED_FINAL.local_name(),
             "current": MERGED_FINAL.local_name(),
             "output": UPDATE_OPERATIONS.local_name(),
         },
@@ -318,4 +327,20 @@ with DAG(
     """
     )
 
-    produce_update_operations_task >> apply_operations_task
+    previous_merged_final_task = PythonOperator(
+        task_id="rename-to-previous-merged-final",
+        python_callable=rename_to_previous_merged_final,
+        op_kwargs={
+            "original": MERGED_FINAL.local_name(),
+            "renamed": PREVIOUS_MERGED_FINAL.local_name(),
+        },
+    )
+    previous_merged_final_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+    Rename current merged final to previous merged final, so that it can be used
+    as a reference for computing differences in the next run.
+    """
+    )
+
+    produce_update_operations_task >> apply_operations_task >> previous_merged_final_task
