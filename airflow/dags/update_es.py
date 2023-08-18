@@ -6,6 +6,7 @@ from elasticsearch import Elasticsearch
 from elasticsearch.helpers import streaming_bulk, scan
 
 from typing import Optional, Any
+from datetime import datetime
 import jsonlines
 import hashlib
 import tqdm
@@ -17,7 +18,7 @@ from create_inlets import CONFIG, CollectionDataset, ElasticsearchConfig
 from create_merged import MERGED_FINAL
 
 UPDATE_OPERATIONS = CollectionDataset(f"{CONFIG.remote_prefix}update-operations.jsonl")
-PREVIOUS_MERGED_FINAL = CollectionDataset(f"{CONFIG.remote_prefix}previous_merged_final.jsonl")
+PREVIOUS_MERGED_FINAL = CollectionDataset(f"{CONFIG.remote_prefix}archived_latest_merged_final.jsonl")
 
 
 COMPARING_FIELDS = ['data', 'template', 'metadata.members_count', 'metadata.collection_name_log_probability']
@@ -197,6 +198,44 @@ def prepare_update(
     }
 
 
+def prepare_full_update(
+        es_id: str,
+        collection: dict,
+        fields: list[str],
+        index: str
+) -> Optional[dict[str, Any]]:
+
+    if collection['metadata']['members_count'] > 10000:
+        return None
+
+    # build the body of the update request
+    doc = dict()
+
+    # check if the fields have changed (the fields are separated by dots)
+    for field in fields:
+        value = get_nested_field(collection, field)
+        set_nested_field(doc, field, value)
+
+    # this update happens only in populate.py, so it is not presented in the previous JSONL file
+    if 'template' in doc:
+        if 'nonavailable_members_count' in doc['template']:
+            doc['template']['nonavailable_members_count'] += 1
+        if 'invalid_members_count' in doc['template']:
+            doc['template']['invalid_members_count'] += 1
+
+    # if no fields have changed, do nothing
+    if not doc:
+        return None
+
+    return {
+        '_op_type': 'update',
+        '_index': index,
+        '_id': es_id,
+        'doc': doc
+    }
+
+
+
 def produce_update_operations(previous: str, current: str, output: str):
     es = connect_to_elasticsearch(CONFIG.elasticsearch)
     ids_mapping = collect_ids_mapping(es, CONFIG.elasticsearch.index)
@@ -226,10 +265,20 @@ def produce_update_operations(previous: str, current: str, output: str):
                     writer.write(operation)
                 continue
 
-            # it has probably been inserted already, since it is in the Elasticsearch, but not in the previous JSONL
+            # since this collection is in the Elasticsearch index, but not in the previous JSONL file,
+            # then it has either been inserted in this run, and something has failed later, or it has been
+            # long before, and in the previous run, or even sooner, it has been marked as archived
             if collection_id not in jsonl_index.id2hash:
+                operation = prepare_full_update(jsonl_index.ids_mapping[collection_id],
+                                                collection,
+                                                UPDATING_FIELDS,
+                                                CONFIG.elasticsearch.index)
+                if operation is not None:
+                    writer.write(operation)
                 continue
 
+            # if the collection is in both the Elasticsearch index and the previous JSONL file,
+            # then we calculate the differences between the two versions and update only the changed fields
             previous_hash = jsonl_index.get_hash(collection_id)
             current_hash = jsonl_index.hash(collection)
 
@@ -274,9 +323,16 @@ def apply_operations(operations: str):
                 print(action)
 
 
-def rename_to_previous_merged_final(original: str, renamed: str):
+def symlink(src: str, dst: str, force: bool = True):
+    if force and os.path.exists(dst):
+        os.remove(dst)
+    os.symlink(src, dst)
+
+
+def archive_merged_final(original: str, latest: str, archived: str):
     # TODO upload in S3 (this should be added with all the other S3 uploads)
-    os.rename(original, renamed)
+    os.replace(original, archived)
+    symlink(os.path.relpath(archived, os.path.dirname(latest)), latest)
 
 
 with DAG(
@@ -327,20 +383,21 @@ with DAG(
     """
     )
 
-    previous_merged_final_task = PythonOperator(
-        task_id="rename-to-previous-merged-final",
-        python_callable=rename_to_previous_merged_final,
+    archive_merged_final_task = PythonOperator(
+        task_id="archive-merged-final",
+        python_callable=archive_merged_final,
         op_kwargs={
             "original": MERGED_FINAL.local_name(),
-            "renamed": PREVIOUS_MERGED_FINAL.local_name(),
+            "latest": PREVIOUS_MERGED_FINAL.local_name(),
+            "archived": MERGED_FINAL.local_name(prefix='archived_' + datetime.now().strftime('%Y-%m-%d_'))
         },
     )
-    previous_merged_final_task.doc_md = dedent(
+    archive_merged_final_task.doc_md = dedent(
         """\
     #### Task Documentation
-    Rename current merged final to previous merged final, so that it can be used
+    Archive current merged final, and update a symlink to it, so that it can be used
     as a reference for computing differences in the next run.
     """
     )
 
-    produce_update_operations_task >> apply_operations_task >> previous_merged_final_task
+    produce_update_operations_task >> apply_operations_task >> archive_merged_final_task

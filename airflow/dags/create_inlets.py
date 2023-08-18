@@ -7,6 +7,7 @@ import os
 
 # The DAG object; we'll need this to instantiate a DAG
 from airflow import DAG, Dataset
+from airflow.models import Variable
 
 # Operators; we need this to operate!
 from airflow.operators.bash import BashOperator
@@ -44,12 +45,12 @@ CONFIG = Config(
     start_date=datetime(2021, 1, 1),
     run_interval=timedelta(weeks=4),
     elasticsearch=ElasticsearchConfig(
-        scheme=os.getenv("ES_SCHEME", "http"),
-        host=os.getenv("ES_HOST", "localhost"),
-        port=int(os.getenv("ES_PORT", "9200")),
-        index=os.getenv("ES_INDEX", "collection-templates-1"),
-        username=os.getenv("ES_USERNAME", "elastic"),
-        password=os.getenv("ES_PASSWORD", "changeme"),
+        scheme=Variable.get("es_scheme", "http"),
+        host=Variable.get("es_host", "localhost"),
+        port=int(Variable.get("es_port", "9200")),
+        index=Variable.get("es_index", "collection-templates-1"),
+        username=Variable.get("es_username", "elastic"),
+        password=Variable.get("es_password", "changeme"),
     )
 )
 
@@ -64,8 +65,8 @@ class CollectionDataset(Dataset):
     def current_name(self):
         return re.sub("-latest-", f"-{datetime.now().strftime('%Y%m%d')}-", self.name())
 
-    def local_name(self):
-        return CONFIG.local_prefix + self.name()
+    def local_name(self, prefix: str = ''):
+        return CONFIG.local_prefix + prefix + self.name()
 
     def current_local_name(self):
         return CONFIG.local_prefix + self.current_name()

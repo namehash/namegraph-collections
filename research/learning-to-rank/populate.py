@@ -19,7 +19,7 @@ from elasticsearch.helpers import streaming_bulk
 from jsonlines import Reader
 from tqdm import tqdm
 
-INDEX_NAME = 'collection-templates-1'
+INDEX_NAME = os.getenv('ES_INDEX', 'collection-templates-1')
 
 
 def connect_to_elasticsearch(

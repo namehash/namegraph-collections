@@ -1015,6 +1015,7 @@ with DAG(
     final_processing_task = PythonOperator(
         task_id='final-processing',
         python_callable=collection_factory,
+        outlets=[MERGED_FINAL],
         op_kwargs={
             "input": WITHOUT_DUPLICATES.local_name(), 
             "output": MERGED_FINAL.local_name(), 
