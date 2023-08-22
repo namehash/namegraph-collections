@@ -17,6 +17,7 @@ from functools import lru_cache
 from create_inlets import CONFIG, WIKIPEDIA_CATEGORYLINKS, WIKIPEDIA_PAGELINKS, WIKIMAPPER, CollectionDataset
 from create_kv import ROCKS_DB_3, ROCKS_DB_1_REVERSE, ROCKS_DB_1, ROCKS_DB_6, ROCKS_DB_2
 
+
 CATEGORIES = CollectionDataset(f"{CONFIG.remote_prefix}categories.json")
 ALLOWED_CATEGORIES = CollectionDataset(f"{CONFIG.remote_prefix}allowed-categories.txt")
 CATEGORY_PAGES = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-categories.csv")
@@ -37,7 +38,6 @@ VALIDATED_LIST_MEMBERS = CollectionDataset(f"{CONFIG.remote_prefix}validated_lis
 def extract_collections(id_title_path: str, members_type_path: str, mode: str, output: str):
     id_title_db = Rdict(id_title_path, access_type=AccessType.read_only())
     members_type_db = Rdict(members_type_path, access_type=AccessType.read_only())
-
 
     if mode == 'category':
         predicate = 'category_contains'
@@ -68,6 +68,7 @@ def extract_collections(id_title_path: str, members_type_path: str, mode: str, o
         except KeyError:
             pass
     json.dump(articles, open(output, 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
+
 
 def extract_titles(input, output):
     with open(input, 'r', encoding='utf-8') as f:
@@ -152,6 +153,7 @@ with DAG(
 
     create_categories_task >> create_allowed_categories_task
 
+
 def extract_associations_from_dump(input, output, mode, allowed_values):
     if mode == 'category':
         def clean_id(id):
@@ -166,15 +168,15 @@ def extract_associations_from_dump(input, output, mode, allowed_values):
     else:
         raise ValueError('either `categorylinks` or `pagelinks` flag must be set')
 
-
     with open(allowed_values, 'r', encoding='utf-8') as f:
-        allowed_items = tuple([clean_id(id) for id in f.read().strip('\n').split('\n') ])
+        allowed_items = tuple([clean_id(id) for id in f.read().strip('\n').split('\n')])
 
     WikipediaSqlDump(
         input,
         keep_column_names=column_names,
         allowlists={filter_column: allowed_items}
     ).to_csv(output)
+
 
 with DAG(
     "categories-enwiki",
@@ -223,6 +225,7 @@ with DAG(
     )
 
     copy_enwiki_categories_task >> create_categories_task
+
 
 with DAG(
     "lists",
@@ -279,6 +282,7 @@ with DAG(
     )
 
     create_lists_task >> create_allowed_lists_task
+
 
 with DAG(
     "lists-enwiki",
@@ -337,7 +341,6 @@ def title_for(wikipedia_id: int, wikipedia_id2title, mapper) -> str:
     return title
 
 
-
 def map_to_titles(input, output, mode, wikimapper_path):
     mapper = WikiMapper(wikimapper_path)
     wikipedia_id2title: dict[int, str] = dict()
@@ -366,12 +369,13 @@ def map_to_titles(input, output, mode, wikimapper_path):
             else:
                 raise ValueError(f'invalid mode - {mode}')
 
-            if collection_title and member_title:
+            if collection_title and member_title and not member_title.startswith('Category:'):
                 writer.writerow([collection_title, member_title])
             else:
                 skipped += 1
 
     print('skipped', skipped)
+
 
 with DAG(
     "mapped-categories",
@@ -425,6 +429,7 @@ with DAG(
 
     create_mapped_categories_task >> create_sorted_categories_task
 
+
 with DAG(
     "mapped-lists",
     default_args={
@@ -477,6 +482,7 @@ with DAG(
 
     create_mapped_lists_task >> create_sorted_lists_task
 
+
 def write_item(collections, members, writer, key):
     try:
         item = collections[key]
@@ -519,7 +525,9 @@ def reformat_csv_to_json(input, output, collections_json):
 
         write_item(collections, members, writer, key)
 
+
 NO_PARENT = 0
+
 
 class ParentFinder():
     def __init__(self, id_type_db, same_as_db):
@@ -594,11 +602,13 @@ def extract_article_name(article: str) -> str:
     m = re.match(r'https?://en\.wikipedia\.org/wiki/(.+)', article)
     return m.group(1)
 
+
 def extract_id(link: str) -> str:
     # assert link.startswith('http://www.wikidata.org/entity/Q')
     if link.startswith('http://www.wikidata.org/entity/Q'):
         return link[len('http://www.wikidata.org/entity/'):]
     return link
+
 
 def extract_ids(links: list[str]) -> list[str]:
     return [extract_id(link) for link in links if link]
@@ -694,7 +704,6 @@ with DAG(
     """
     )
 
-
     validate_category_members_task = PythonOperator(
         task_id='validate-category-members',
         python_callable=validate_members,
@@ -754,7 +763,6 @@ with DAG(
     collection and its members.
     """
     )
-
 
     validate_list_members_task = PythonOperator(
         task_id='validate-list-members',
