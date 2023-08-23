@@ -9,6 +9,7 @@ from typing import Optional, Any
 from datetime import datetime
 import jsonlines
 import hashlib
+import shutil
 import tqdm
 import time
 import json
@@ -235,7 +236,6 @@ def prepare_full_update(
     }
 
 
-
 def produce_update_operations(previous: str, current: str, output: str):
     es = connect_to_elasticsearch(CONFIG.elasticsearch)
     ids_mapping = collect_ids_mapping(es, CONFIG.elasticsearch.index)
@@ -331,7 +331,7 @@ def symlink(src: str, dst: str, force: bool = True):
 
 def archive_merged_final(original: str, latest: str, archived: str):
     # TODO upload in S3 (this should be added with all the other S3 uploads)
-    os.replace(original, archived)
+    shutil.copy(original, archived)
     symlink(os.path.relpath(archived, os.path.dirname(latest)), latest)
 
 
@@ -347,7 +347,7 @@ with DAG(
         },
         description="Tasks related fetching the current index status, computing differences and updating the index. "
                     "In the end, it prepares the required files for the next run.",
-        schedule=[PREVIOUS_MERGED_FINAL, MERGED_FINAL],
+        schedule=[MERGED_FINAL],
         start_date=CONFIG.start_date,
         catchup=False,
         tags=["update-es", "collection-templates"],
@@ -386,6 +386,7 @@ with DAG(
     archive_merged_final_task = PythonOperator(
         task_id="archive-merged-final",
         python_callable=archive_merged_final,
+        outlets=[PREVIOUS_MERGED_FINAL],
         op_kwargs={
             "original": MERGED_FINAL.local_name(),
             "latest": PREVIOUS_MERGED_FINAL.local_name(),
