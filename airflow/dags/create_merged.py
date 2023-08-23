@@ -26,6 +26,7 @@ from create_collections import extract_article_name, VALIDATED_LIST_MEMBERS, VAL
 from create_kv import ROCKS_DB_5, ROCKS_DB_4
 from create_inlets import CONFIG, WIKIMAPPER, QRANK, CollectionDataset, SUGGESTABLE_DOMAINS, AVATAR_EMOJI
 
+
 INTERESTING_SCORE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}interesting-score.rocks")
 FORCE_NORMALIZE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}force-normalize.rocks")
 NAME_TO_HASH_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}name-to-hash.rocks")
@@ -39,6 +40,7 @@ WITHOUT_DUPLICATES = CollectionDataset(f"{CONFIG.remote_prefix}merged-without-du
 MERGED_FINAL = CollectionDataset(f"{CONFIG.remote_prefix}merged_final.jsonl")
 
 MIN_VALUE = 1e-8
+
 
 def memoize_ram(original_function=None, path=None):
     if path is None:
@@ -113,6 +115,7 @@ def compute_unique_members(input, output, force_normalize_path):
         for member in unique_members:
             f.write(member + "\n")
 
+
 def cache_interesting_score(list_members, category_members, interesting_score_path):
     initialize_config_module(version_base=None, config_module='inspector_conf')
     config = compose(config_name="prod_config")
@@ -133,6 +136,7 @@ def cache_interesting_score(list_members, category_members, interesting_score_pa
     #    r = list(tqdm(p.imap(interesting_score_function, unique_members), total=len(unique_members)))
     for member in tqdm(unique_members):
         interesting_score_function(member)
+
 
 class Member:
     def __init__(self, curated, tokenized):
@@ -159,6 +163,7 @@ class Member:
         member.status = member_data['status']
         return member
 
+
 def configure_force_normalize(cache_path):
     @memoize_ram(path=cache_path)
     def force_normalize(member):
@@ -181,6 +186,7 @@ def configure_force_normalize(cache_path):
         return curated_token2
 
     return force_normalize
+
 
 def curate_member(member: str, force_normalize_function) -> Member:
     member = unquote(member)
@@ -206,6 +212,7 @@ def curate_member(member: str, force_normalize_function) -> Member:
         print(member, e)
         return None
 
+
 def curate_members(members: list[str], force_normalize_function) -> list[Member]:
     curated_members = []
 
@@ -215,6 +222,7 @@ def curate_members(members: list[str], force_normalize_function) -> list[Member]
             curated_members.append(member)
 
     return curated_members
+
 
 with DAG(
     "interesting-score-cache",
@@ -283,6 +291,7 @@ with DAG(
 
     create_list_members_task >> create_category_members_task >> create_cache_task
 
+
 class Collection:
     def __init__(self):
         self.item = None
@@ -338,8 +347,10 @@ class Collection:
             pass
         return collection
 
+
 def strip_eth(name: str) -> str:
     return name[:-4] if name.endswith('.eth') else name
+
 
 def read_csv_domains(path: str) -> dict[str, str]:
     domains: dict[str, str] = {}
@@ -354,12 +365,14 @@ def read_csv_domains(path: str) -> dict[str, str]:
 
     return domains
 
+
 def uniq_members(collection_members):
     seen = set()
     for member in collection_members:
         if member.curated not in seen:
             seen.add(member.curated)
             yield member
+
 
 def curate_name(collection_article: str):
     name = extract_article_name(collection_article)
@@ -369,6 +382,7 @@ def curate_name(collection_article: str):
     name = regex.sub('^Category:', '', name)
     name = name[0].upper() + name[1:]
     return name
+
 
 def compute_all_info(input, output, interesting_score_path, qrank_path, domains_path, auxiliary_data_path, wikimapper_path, force_normalize_path):
     auxiliary_data_db = Rdict(auxiliary_data_path, access_type=AccessType.read_only())
@@ -474,7 +488,6 @@ def compute_all_info(input, output, interesting_score_path, qrank_path, domains_
             writer.write(collection.json())
 
 
-
 with DAG(
     "collection-all-info",
     default_args={
@@ -537,6 +550,7 @@ with DAG(
     )
 
     create_list_members_final_task >> create_category_members_final_task
+
 
 def merge_collections(collection1: Collection, collection2: Collection) -> Collection:
     if int(collection2.item[1:]) < int(collection1.item[1:]):  # smaller id as collection stable id
@@ -701,28 +715,49 @@ def merge_lists_and_categories(output, list_members, category_members, related_d
     print(f'Filtered by type: {count_filtered_by_type}')
     print(f'Filtered by prefix: {count_filtered_by_prefix}')
     print(f'Filtered by by: {count_filtered_by_by}')
-    
+
+
 def remove_collections_with_letters(input, output):
-    count_matches = count_merged = 0
+    count_matches = count_merged = count_normalized = 0
 
     with jsonlines.open(output, mode='w') as writer:
         to_merge = defaultdict(list)
+        matches = defaultdict(list)
         with jsonlines.open(input) as reader:
             for obj in tqdm(reader, desc='Reading collections'):
                 name = obj['name']
                 # grep -E "([,:–] [A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+\"$)|((:|,|–|starting with) [A-Z]\"$)" names.txt | sort | less | wc -l
-                m = regex.search('(.*)(([,:–(] ?[A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+$)|((: |, |– |starting with |\()[A-Z]\)?$))', name)
-                if m:
+                m1 = regex.search('(.*)(([,:–(] ?[A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+$)|((: |, |– |starting with |\()[A-Z]\)?$))', name)
+                explicit_parentheses_patterns = [
+                    r'[Ll]isted [Aa]lphabetically',
+                    r'[Ll]ist',
+                    r'[Cc]urrent',
+                    r'[Cc]hronological',
+                    r'[Cc]ategorised',
+                    r'by .*?',
+                    r'[Aa]lphabetical',
+                    r'[Aa]lphabetic',
+                    r'[Ss]eat .*?',
+                    r'[Pp]art .*?',
+                    r'MONA .*?',
+                    r'[Cc]onstituencies .*?',
+                    r'!\$@',
+                    r'[A-Z][a-z]',
+                ]
+                m2 = regex.search(r'(.*\S)(\s*\((' + '|'.join(explicit_parentheses_patterns) + r')\))$', name)
+                if m := m1 or m2:
                     count_matches += 1
                     prefix = m.group(1)
                     range = m.group(2)
                     to_merge[prefix].append(Collection.from_dict(obj))
+                    matches[prefix].append((m1 is not None, m2 is not None))
                     print(f'{name} -> {[prefix, range]}')
-                    # collection = Collection.from_dict(obj)
                 else:
                     writer.write(obj)
 
         for prefix, collections in to_merge.items():
+            m1, m2 = map(any, zip(*matches[prefix])) if prefix in matches else (False, False)
+            # normalizing if we can merge multiple collections
             if len(collections) > 1:
                 print(f'Merging {prefix}')
                 merged = collections[0]
@@ -731,16 +766,26 @@ def remove_collections_with_letters(input, output):
                 merged.name = prefix
                 writer.write(merged.json())
                 count_merged += len(collections)
+            # or if there was a match with explicit patterns
+            elif m2:  # m2
+                print(f'Normalizing {collections[0].name} -> {prefix}')
+                normalized = collections[0]
+                normalized.name = prefix
+                writer.write(normalized.json())
+                count_normalized += 1
             else:
                 writer.write(collections[0].json())
 
     print(f'Matches: {count_matches}')
     print(f'Merged: {count_merged}')
+    print(f'Normalized: {count_normalized}')
+
 
 def label_to_hash(label: str) -> HexBytes:
     if "." in label:
         raise ValueError(f"Cannot generate hash for label {label!r} with a '.'")
     return Web3().keccak(text=label)
+
 
 def configure_nomrmal_name_to_hash(path):
     @memoize_ram(path=path)
@@ -920,6 +965,7 @@ def collection_factory(input, output, name_to_hash_path, avatar_path):
 
                     },
                 })
+
 
 def remove_duplicates(input, output):
     count_merged = 0
