@@ -390,7 +390,7 @@ with DAG(
         op_kwargs={
             "original": MERGED_FINAL.local_name(),
             "latest": PREVIOUS_MERGED_FINAL.local_name(),
-            "archived": MERGED_FINAL.local_name(prefix='archived_' + datetime.now().strftime('%Y-%m-%d_'))
+            "archived": MERGED_FINAL.local_name(prefix='archived_' + datetime.now().strftime('%Y-%m-%d_%H-%M-%S_'))
         },
     )
     archive_merged_final_task.doc_md = dedent(
