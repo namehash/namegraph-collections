@@ -1,0 +1,188 @@
+  {
+    "prefix": "Listed",
+    "count": 1074,
+    "examples": [
+      "Listed buildings and structures in Denmark",
+      "Listed buildings in Sweden",
+      "Listed lighthouses in Denmark",
+      "Listed lighthouses in Norway",
+      "Listed buildings in Abbey St Bathans, Scottish Borders"
+    ]
+  },
+  {
+    "prefix": "Highways numbered",
+    "count": 418,
+    "examples": [
+      "Highways numbered 0",
+      "Highways numbered 1",
+      "Highways numbered 10",
+      "Highways numbered 100",
+      "Highways numbered 101"
+    ]
+  },
+  {
+    "prefix": "Lists",
+    "count": 331,
+    "examples": [
+      "Lists of American politicians",
+      "Lists of Australian judges",
+      "Lists of Australian men",
+      "Lists of Canadian musicians",
+      "Lists of Pokémon"
+    ]
+  },
+  {
+    "prefix": "Lists of",
+    "count": 330,
+    "examples": [
+      "Lists of American politicians",
+      "Lists of Australian judges",
+      "Lists of Australian men",
+      "Lists of Canadian musicians",
+      "Lists of Pokémon"
+    ]
+  },
+  {
+    "prefix": "Grade II*",
+    "count": 251,
+    "examples": [
+      "Grade II* listed buildings in Waverley, Surrey",
+      "Grade II* listed buildings in Allerdale",
+      "Grade II* listed buildings in Amber Valley",
+      "Grade II* listed buildings in Ashford (borough)",
+      "Grade II* listed buildings in Aylesbury Vale"
+    ]
+  },
+  {
+    "prefix": "Grade I",
+    "count": 177,
+    "examples": [
+      "Grade I listed agricultural buildings",
+      "Grade I listed buildings in Saint Helena",
+      "Grade I and Grade II* listed buildings in Middlesbrough (borough)",
+      "Grade I and II* listed buildings in Halton (borough)",
+      "Grade I and II* listed buildings in Warrington"
+    ]
+  },
+  {
+    "prefix": "Companies listed",
+    "count": 24,
+    "examples": [
+      "Companies listed on Bursa Malaysia",
+      "Companies listed on the Indonesia Stock Exchange",
+      "Companies listed on the Istanbul Stock Exchange",
+      "Companies listed on the Nasdaq",
+      "Companies listed on the New York Stock Exchange"
+    ]
+  },
+  {
+    "prefix": "Incomplete lists",
+    "count": 14,
+    "examples": [
+      "Incomplete lists from April 2018",
+      "Incomplete lists from August 2008",
+      "Incomplete lists from August 2016",
+      "Incomplete lists from December 2017",
+      "Incomplete lists from February 2015"
+    ]
+  },
+  {
+    "prefix": "Grade II",
+    "count": 8,
+    "examples": [
+      "Grade II listed buildings in Bristol",
+      "Grade II listed buildings in Chester (central)",
+      "Grade II listed buildings in Chester (east)",
+      "Grade II listed buildings in Chester (north and west)",
+      "Grade II listed buildings in Chester (south)"
+    ]
+  },
+  {
+    "prefix": "Ranked",
+    "count": 6,
+    "examples": [
+      "Ranked lists of country subdivisions",
+      "Ranked list of Estonian counties",
+      "Ranked list of French regions",
+      "Ranked lists of Chilean regions",
+      "Ranked lists of Spanish autonomous communities"
+    ]
+  },
+  {
+    "prefix": "Grade A",
+    "count": 6,
+    "examples": [
+      "Grade A listed buildings in County Antrim",
+      "Grade A listed buildings in County Armagh",
+      "Grade A listed buildings in County Down",
+      "Grade A listed buildings in County Fermanagh",
+      "Grade A listed buildings in County Londonderry"
+    ]
+  },
+  {
+    "prefix": "Grade B+",
+    "count": 6,
+    "examples": [
+      "Grade B+ listed buildings in County Antrim",
+      "Grade B+ listed buildings in County Armagh",
+      "Grade B+ listed buildings in County Down",
+      "Grade B+ listed buildings in County Fermanagh",
+      "Grade B+ listed buildings in County Londonderry"
+    ]
+  },
+  {
+    "prefix": "Publishers Weekly",
+    "count": 5,
+    "examples": [
+      "Publishers Weekly list of bestselling novels in the United States in the 1920s",
+      "Publishers Weekly list of bestselling novels in the United States in the 1970s",
+      "Publishers Weekly list of bestselling novels in the United States in the 1980s",
+      "Publishers Weekly list of bestselling novels in the United States in the 2000s",
+      "Publishers Weekly list of bestselling novels in the United States in the 2010s"
+    ]
+  },
+  {
+    "prefix": "Ranked lists",
+    "count": 4,
+    "examples": [
+      "Ranked lists of country subdivisions",
+      "Ranked lists of Chilean regions",
+      "Ranked lists of Spanish autonomous communities",
+      "Ranked lists of Spanish municipalities"
+    ]
+  },
+  {
+    "prefix": "Forbes list",
+    "count": 4,
+    "examples": [
+      "Forbes list of Australia's 50 richest people",
+      "Forbes list of The World's 100 Most Powerful Women",
+      "Forbes list of the World's Most Powerful People",
+      "Forbes list of the world's highest-paid athletes"
+    ]
+  },
+  {
+    "prefix": "Heritage listed",
+    "count": 2,
+    "examples": [
+      "Heritage listed buildings and structures in Estonia",
+      "Heritage listed buildings in Geelong"
+    ]
+  },
+  {
+    "prefix": "Historical list",
+    "count": 2,
+    "examples": [
+      "Historical list of the Catholic bishops of Puerto Rico",
+      "Historical list of the Catholic bishops of the United States"
+    ]
+  },
+  {
+    "prefix": "Ranked list",
+    "count": 2,
+    "examples": [
+      "Ranked list of Estonian counties",
+      "Ranked list of French regions"
+    ]
+  },
+
