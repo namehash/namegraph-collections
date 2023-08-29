@@ -8,7 +8,7 @@ from collections import defaultdict
 from hydra import initialize_config_module, compose
 import multiprocessing
 from functools import wraps
-import jsonlines, regex, math, csv, random, time, sys
+import jsonlines, regex, math, csv, random, time, sys, re
 import numpy as np
 from tqdm import tqdm
 from rocksdict import AccessType, Rdict
@@ -598,13 +598,16 @@ def should_filter_by_type(collection):
     return set([type[0] for type in collection.types]) & filter_types
 
 
-filter_name_prefixes = (
-    'Wikipedia:',
+filter_name_regexes = (
+    r'Wikipedia:.*',
+    r'Highways numbered .*',
+    r'Lists (of|that) .*',
+    r'Incomplete lists? from .*',
 )
 
 
-def should_filter_by_prefix(collection):
-    return collection.name.startswith(filter_name_prefixes)
+def should_filter_by_regex(collection):
+    return re.match('|'.join(filter_name_regexes), collection.name)
 
 
 def should_filter_by_by(collection):
@@ -618,7 +621,7 @@ def merge_lists_and_categories(output, list_members, category_members, related_d
     related_data_db = Rdict(related_data_path, access_type=AccessType.read_only())
 
     count_lists = count_categories = count_written = 0
-    count_merges = count_filtered_by_type = count_merges_by_name = count_filtered_by_prefix = count_filtered_by_by = 0
+    count_merges = count_filtered_by_type = count_merges_by_name = count_filtered_by_regex = count_filtered_by_by = 0
 
     categories_related_to_list = {}
     lists = {}
@@ -634,8 +637,8 @@ def merge_lists_and_categories(output, list_members, category_members, related_d
                     count_filtered_by_type += 1
                     continue
 
-                if should_filter_by_prefix(collection):
-                    count_filtered_by_prefix += 1
+                if should_filter_by_regex(collection):
+                    count_filtered_by_regex += 1
                     continue
 
                 if should_filter_by_by(collection):
@@ -662,8 +665,8 @@ def merge_lists_and_categories(output, list_members, category_members, related_d
                     count_filtered_by_type += 1
                     continue
 
-                if should_filter_by_prefix(collection):
-                    count_filtered_by_prefix += 1
+                if should_filter_by_regex(collection):
+                    count_filtered_by_regex += 1
                     continue
 
                 if should_filter_by_by(collection):
@@ -713,64 +716,90 @@ def merge_lists_and_categories(output, list_members, category_members, related_d
     print(f'Merged by type {count_merges} categories into lists')
     print(f'Merged by name {count_merges_by_name} categories into lists')
     print(f'Filtered by type: {count_filtered_by_type}')
-    print(f'Filtered by prefix: {count_filtered_by_prefix}')
+    print(f'Filtered by regex: {count_filtered_by_regex}')
     print(f'Filtered by by: {count_filtered_by_by}')
 
 
+explicit_parentheses_patterns = [
+    r'[Ll]isted [Aa]lphabetically',
+    r'[Ll]ist',
+    r'[Cc]urrent',
+    r'[Cc]hronological',
+    r'[Cc]ategorised',
+    r'by .*?',
+    r'[Aa]lphabetical',
+    r'[Aa]lphabetic',
+    r'[Ss]eat .*?',
+    r'[Pp]art .*?',
+    r'MONA .*?',
+    r'[Cc]onstituencies .*?',
+    r'!\$@',
+    r'[A-Z][a-z]',
+]
+
+
+explicit_normalization_patterns = [
+    r'(?P<stripped>.* lists? of )(?P<normalized>\w.*)',
+    r'(?P<stripped>.*(?<!and )(?<!are )\b[Ll]isted )(?P<normalized>.*?(buildings|churches|lighthouses|memorials).*)',
+]
+
+
+alphabet_range_pattern = r'^[^A-Za-z]*?\b[A-Za-z]( ?[-–] ?[A-Za-z])?\b[^A-Za-z]*$'
+
+
+# TODO move this to a separate class with the whole pipeline defined
 def remove_collections_with_letters(input, output):
     count_matches = count_merged = count_normalized = 0
 
     with jsonlines.open(output, mode='w') as writer:
         to_merge = defaultdict(list)
         matches = defaultdict(list)
+        stripped = defaultdict(list)
         with jsonlines.open(input) as reader:
             for obj in tqdm(reader, desc='Reading collections'):
                 name = obj['name']
                 # grep -E "([,:–] [A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+\"$)|((:|,|–|starting with) [A-Z]\"$)" names.txt | sort | less | wc -l
-                m1 = regex.search('(.*)(([,:–(] ?[A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+$)|((: |, |– |starting with |\()[A-Z]\)?$))', name)
-                explicit_parentheses_patterns = [
-                    r'[Ll]isted [Aa]lphabetically',
-                    r'[Ll]ist',
-                    r'[Cc]urrent',
-                    r'[Cc]hronological',
-                    r'[Cc]ategorised',
-                    r'by .*?',
-                    r'[Aa]lphabetical',
-                    r'[Aa]lphabetic',
-                    r'[Ss]eat .*?',
-                    r'[Pp]art .*?',
-                    r'MONA .*?',
-                    r'[Cc]onstituencies .*?',
-                    r'!\$@',
-                    r'[A-Z][a-z]',
-                ]
-                m2 = regex.search(r'(.*\S)(\s*\((' + '|'.join(explicit_parentheses_patterns) + r')\))$', name)
-                if m := m1 or m2:
+                m1 = regex.search(r'(?P<normalized>.*)(?P<stripped>([,:–(] ?[A-Z0-9]+[a-z]* ?([–-]| to ) ?[^ ]+$)|((: |, |– |starting with |\()[A-Z]\)?$))', name)
+                m2 = regex.search(r'(?P<normalized>.*\S)(?P<stripped>\s*\((' + '|'.join(explicit_parentheses_patterns) + r')\))$', name)
+                m3 = regex.search('|'.join(explicit_normalization_patterns), name)
+
+                if m := m1 or m2 or m3:
                     count_matches += 1
-                    prefix = m.group(1)
-                    range = m.group(2)
-                    to_merge[prefix].append(Collection.from_dict(obj))
-                    matches[prefix].append((m1 is not None, m2 is not None))
-                    print(f'{name} -> {[prefix, range]}')
+
+                    normalized_name = m.group('normalized').strip()
+                    if normalized_name[0].islower():
+                        normalized_name = normalized_name[0].upper() + normalized_name[1:]
+                    stripped_part = m.group('stripped')
+
+                    to_merge[normalized_name].append(Collection.from_dict(obj))
+                    matches[normalized_name].append((m1 is not None, m2 is not None, m3 is not None))
+                    stripped[normalized_name].append(stripped_part)
+                    print(f'{name} -> {[normalized_name, stripped_part]}')
                 else:
                     writer.write(obj)
 
-        for prefix, collections in to_merge.items():
-            m1, m2 = map(any, zip(*matches[prefix])) if prefix in matches else (False, False)
+        for normalized_name, collections in to_merge.items():
+            m1, m2, m3 = map(any, zip(*matches[normalized_name])) \
+                if normalized_name in matches else (False, False, False)
             # normalizing if we can merge multiple collections
             if len(collections) > 1:
-                print(f'Merging {prefix}')
+                print(f'Merging {normalized_name}')
                 merged = collections[0]
                 for collection in collections[1:]:
                     merged = merge_collections(merged, collection)
-                merged.name = prefix
+                merged.name = normalized_name
                 writer.write(merged.json())
                 count_merged += len(collections)
             # or if there was a match with explicit patterns
-            elif m2:  # m2
-                print(f'Normalizing {collections[0].name} -> {prefix}')
+            elif m2 or m3 or (alphabet_range := re.match(alphabet_range_pattern, stripped[normalized_name][0])):
+                print(f'Normalizing {collections[0].name} -> {normalized_name}')
+                if alphabet_range:
+                    print(f'Normalized alphabet range: {alphabet_range.group(0)}')
+                    # zeroes out the match for cases where m2 or m3 is True and alphabet range is not updated
+                    alphabet_range = None
+
                 normalized = collections[0]
-                normalized.name = prefix
+                normalized.name = normalized_name
                 writer.write(normalized.json())
                 count_normalized += 1
             else:
