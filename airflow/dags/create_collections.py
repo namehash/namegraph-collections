@@ -614,6 +614,11 @@ def extract_ids(links: list[str]) -> list[str]:
     return [extract_id(link) for link in links if link]
 
 
+filter_members_types = [
+    'Q13406463',  # Wikimedia list article
+]
+
+
 def validate_members(input: str, output: str, title_id_path: str, id_type_path: str, same_as_path: str, wikimapper_path: str):
     id_type_db = rocksdict.Rdict(id_type_path, access_type=AccessType.read_only())
     same_as_db = rocksdict.Rdict(same_as_path, access_type=AccessType.read_only())
@@ -624,14 +629,24 @@ def validate_members(input: str, output: str, title_id_path: str, id_type_path: 
 
     count_valid_members = 0
     count_invalid_members = 0
+    count_filtered_collections = 0
 
     with jsonlines.open(input) as reader, jsonlines.open(output, mode='w') as writer:
         for obj in tqdm(reader):
             collection_item = obj['item']
             collection_types = obj['type']
-            collection_type_ids = extract_ids(collection_types)
+            collection_type_ids = [
+                type_id
+                for type_id in extract_ids(collection_types)
+                if type_id not in filter_members_types
+            ]
             collection_article = extract_article_name(obj['article'])
             members = obj['members']
+
+            if not collection_type_ids:
+                print('Filtered collection without type: ' + obj['article'])
+                count_filtered_collections += 1
+                continue
 
             valid_members = []
             for member in members:
@@ -666,6 +681,7 @@ def validate_members(input: str, output: str, title_id_path: str, id_type_path: 
             })
 
         print('Members', count_valid_members, 'valid,', count_invalid_members, 'invalid')
+        print('Collections', count_filtered_collections, 'filtered, because no type left after filtering')
 
     print('No parent', NO_PARENT)
 
@@ -788,4 +804,3 @@ with DAG(
     )
 
     create_list_members_task >> validate_list_members_task
-
