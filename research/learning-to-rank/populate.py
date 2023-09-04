@@ -1,10 +1,9 @@
 from argparse import ArgumentParser
 from itertools import islice
 import jsonlines
+import string
+import random
 import os
-
-from elasticsearch import Elasticsearch
-
 
 import bz2
 from argparse import ArgumentParser
@@ -14,7 +13,7 @@ from pprint import pprint
 from typing import Iterable
 
 import jsonlines
-from elasticsearch import Elasticsearch
+from elasticsearch import Elasticsearch, ConflictError
 from elasticsearch.helpers import streaming_bulk
 from jsonlines import Reader
 from tqdm import tqdm
@@ -160,15 +159,23 @@ def initialize_index(es: Elasticsearch):
         print('Warning: index already exists, no changes applied')
 
 
+def generate_id(length: int = 12) -> str:
+    alphabet = string.ascii_letters + string.digits + '_'
+    return ''.join(random.choice(alphabet) for _ in range(length))
+
+
 def insert_collection(es: Elasticsearch, collection: dict):
     # TODO handle errors? something else? batching?
     es.index(INDEX_NAME, body=collection)
 
 
-def insert_collections(es: Elasticsearch, collections: Iterable[dict]):
+def insert_collections(es: Elasticsearch, input_filepath: str, limit: int):
     number_of_docs = 561000
     progress = tqdm(unit="docs", total=number_of_docs)
     successes = 0
+
+    collections: Iterable[dict] = gen(input_filepath, limit)
+    conflict_ids = set()
 
     # create the ES index
     for ok, action in streaming_bulk(client=es,
@@ -179,7 +186,27 @@ def insert_collections(es: Elasticsearch, collections: Iterable[dict]):
                                      max_retries=1):
         progress.update(1)
         successes += ok
+
+        if not ok and action['index']['status'] == 409:
+            conflict_ids.add(action['index']['_id'])
+
+    collections = gen(input_filepath, limit) if conflict_ids else []
+
+    for collection in collections:
+        if collection['metadata']['id'] in conflict_ids:
+            ok = False
+            while not ok:
+                substitute_id = generate_id()
+                collection['metadata']['id'] = substitute_id
+                try:
+                    es.create(index=INDEX_NAME, id=substitute_id, document=collection)
+                    ok = True
+                except ConflictError:
+                    ok = False
+                    print(f'Conflict again for {collection["template"]["collection_wikidata_id"]} with {substitute_id}')
+
     print("Indexed %d documents" % (successes,))
+    print(f'Conflicts: {len(conflict_ids)}')
 
 
 def gen(path, limit):
@@ -190,6 +217,8 @@ def gen(path, limit):
 
     too_long = 0
     for doc in islice(reader.iter(skip_empty=True, skip_invalid=True), limit):
+        doc['metadata']['id'] = generate_id()
+
         doc['template']['nonavailable_members_count'] += 1  # TODO?
         doc['template']['invalid_members_count'] += 1  # TODO?
 
@@ -199,6 +228,8 @@ def gen(path, limit):
 
         yield {
             "_index": INDEX_NAME,
+            "_op_type": "create",
+            "_id": doc['metadata']['id'],
             # "_type": '_doc',
             "_source": doc
         }
