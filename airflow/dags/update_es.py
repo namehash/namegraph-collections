@@ -140,7 +140,7 @@ def prepare_insert(collection: dict, index: str) -> Optional[dict[str, Any]]:
         # print('Skipping collection with more than 10000 members')
         return None
 
-    collection['metadata']['id'] = generate_id()
+    es_id = generate_id()
 
     collection['template']['nonavailable_members_count'] += 1
     collection['template']['invalid_members_count'] += 1
@@ -148,7 +148,7 @@ def prepare_insert(collection: dict, index: str) -> Optional[dict[str, Any]]:
     return {
         '_op_type': 'index',
         '_index': index,
-        '_id': collection['metadata']['id'],  # '_id' is used as 'id' in the document
+        '_id': es_id,
         '_source': collection
     }
 
@@ -346,7 +346,6 @@ def apply_operations(operations: str):
                 source = op['_source']
                 while not ok:
                     substitute_id = generate_id()
-                    source['metadata']['id'] = substitute_id
                     try:
                         es.create(index=CONFIG.elasticsearch.index, id=substitute_id, document=source)
                         ok = True

@@ -174,30 +174,37 @@ def insert_collections(es: Elasticsearch, input_filepath: str, limit: int):
     progress = tqdm(unit="docs", total=number_of_docs)
     successes = 0
 
-    collections: Iterable[dict] = gen(input_filepath, limit)
+    ops: Iterable[dict] = gen(input_filepath, limit)
     conflict_ids = set()
+    wikidata_id2es_id = dict()
+
+    def operation_generator_wrapper():
+        for op in ops:
+            wikidata_id2es_id[op['_source']['metadata']['id']] = op['_id']
+            yield op
 
     # create the ES index
     for ok, action in streaming_bulk(client=es,
                                      index=INDEX_NAME,
-                                     actions=collections,
+                                     actions=operation_generator_wrapper(),
                                      max_chunk_bytes=1000000,  # 1MB
                                      # chunk_size=10,
                                      max_retries=1):
         progress.update(1)
         successes += ok
 
-        if not ok and action['index']['status'] == 409:
-            conflict_ids.add(action['index']['_id'])
+        if not ok and action['create']['status'] == 409:
+            conflict_ids.add(action['create']['_id'])
 
-    collections = gen(input_filepath, limit) if conflict_ids else []
+    ops = gen(input_filepath, limit) if conflict_ids else []
 
-    for collection in collections:
-        if collection['metadata']['id'] in conflict_ids:
+    for op in ops:
+        collection = op['_source']
+        es_id = wikidata_id2es_id[collection['metadata']['id']]
+        if es_id in conflict_ids:
             ok = False
             while not ok:
                 substitute_id = generate_id()
-                collection['metadata']['id'] = substitute_id
                 try:
                     es.create(index=INDEX_NAME, id=substitute_id, document=collection)
                     ok = True
@@ -216,8 +223,12 @@ def gen(path, limit):
         reader = Reader(bz2.open(args.input, "rb"))
 
     too_long = 0
+    generated_ids = set()
     for doc in islice(reader.iter(skip_empty=True, skip_invalid=True), limit):
-        doc['metadata']['id'] = generate_id()
+        es_id = generate_id()
+        while es_id in generated_ids:
+            es_id = generate_id()
+        generated_ids.add(es_id)
 
         doc['template']['nonavailable_members_count'] += 1  # TODO?
         doc['template']['invalid_members_count'] += 1  # TODO?
@@ -229,7 +240,7 @@ def gen(path, limit):
         yield {
             "_index": INDEX_NAME,
             "_op_type": "create",
-            "_id": doc['metadata']['id'],
+            "_id": es_id,
             # "_type": '_doc',
             "_source": doc
         }
@@ -257,7 +268,7 @@ if __name__ == '__main__':
 
     initialize_index(es)
 
-    insert_collections(es, gen(args.input, args.limit))
+    insert_collections(es, args.input, args.limit)
 
     search = es.search(index=INDEX_NAME, body={'query': {'bool': {}}})
     print(f'Documents overall in {INDEX_NAME} - {len(search["hits"]["hits"])}')
