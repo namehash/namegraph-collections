@@ -895,7 +895,7 @@ def collection_factory(input, output, name_to_hash_path, avatar_path):
 
                 template_names = [{
                     'normalized_name': member.curated,
-                    # 'tokenized_name': member.tokenized,
+                    'tokenized_name': member.tokenized,
                     'system_interesting_score': member.interesting_score,
                     'rank': member.rank,
                     'cached_status': member.status,
@@ -968,7 +968,8 @@ def collection_factory(input, output, name_to_hash_path, avatar_path):
 
                         'names': template_names,
                         'top10_names': template_names[:10],
-
+                        'top25_names': template_names[:25],
+                        
                         # below metrics calculated on members
                         'members_rank_mean': max(np.mean([m.rank for m in collection.members]), MIN_VALUE),
                         'members_rank_median': max(np.median([m.rank for m in collection.members]), MIN_VALUE),
