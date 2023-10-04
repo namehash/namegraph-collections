@@ -14,3 +14,10 @@ services:
       - ES_INDEX=${ES_INDEX}
     ports:
       - 8456:8000
+    networks:
+      - airflow
+
+networks:
+  airflow:
+    name: airflow_default
+    external: true

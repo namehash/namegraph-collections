@@ -39,16 +39,18 @@ class Config:
     remote_prefix: str
     date_str: str
     start_date: datetime
+    github_token: str
     aws: AWSConfig
     elasticsearch: ElasticsearchConfig
 
 
 CONFIG = Config(
     email="apohllo@o2.pl",
-    local_prefix="/home/airflow/data/precomputing-related-collections/",
-    remote_prefix="file:///home/airflow/data/precomputing-related-collections/",
+    local_prefix="/home/airflow/precomputing-related-collections/",
+    remote_prefix="file:///home/airflow/precomputing-related-collections/",
     date_str=datetime.now().strftime("%Y%m%d"),
     start_date=datetime(2021, 1, 1),
+    github_token=Variable.get("github_token"),
     aws=AWSConfig(
         access_key_id=Variable.get("s3_access_key_id", "minio"),
         secret_access_key=Variable.get("s3_secret_access_key", "minio123"),
@@ -136,7 +138,7 @@ def generate_related_collections(url: str, collection_id: str, related_num: int)
 def precompute_related_collections(output: str):
     es = connect_to_elasticsearch(CONFIG.elasticsearch)
     collections = collect_existing_collections(es, CONFIG.elasticsearch.index)
-    url = 'http://localhost:8000/find_collections_by_collection'
+    url = 'http://generator:8000/find_collections_by_collection'
 
     with jsonlines.open(output, 'w') as writer:
         for collection in tqdm.tqdm(collections, desc='precomputing related collections'):
@@ -156,15 +158,15 @@ def precompute_related_collections(output: str):
 
 def apply_updates(input: str):
     es = connect_to_elasticsearch(CONFIG.elasticsearch)
-    # with jsonlines.open(input) as reader:
-    #     for ok, result in tqdm.tqdm(
-    #             streaming_bulk(es, reader, index=CONFIG.elasticsearch.index, raise_on_error=False,
-    #                            max_chunk_bytes=1_000_000, max_retries=1),
-    #             total=es.count(index=CONFIG.elasticsearch.index)['count'],
-    #             desc='applying updates'
-    #     ):
-    #         if not ok:
-    #             print(f'WARNING: {result}')
+    with jsonlines.open(input) as reader:
+        for ok, result in tqdm.tqdm(
+                streaming_bulk(es, reader, index=CONFIG.elasticsearch.index, raise_on_error=False,
+                               max_chunk_bytes=1_000_000, max_retries=1),
+                total=es.count(index=CONFIG.elasticsearch.index)['count'],
+                desc='applying updates'
+        ):
+            if not ok:
+                print(f'WARNING: {result}')
 
 
 with DAG(
@@ -190,8 +192,9 @@ with DAG(
         cwd=f"{CONFIG.local_prefix}",
         bash_command=(
             f"rm -rf name-generator && "
-            f"git clone -b prod git@github.com:namehash/name-generator.git name-generator && "
-            f"cp -f {CONFIG.local_prefix}/docker-compose.yml {CONFIG.local_prefix}/name-generator/docker-compose.yml"
+            f"git clone -b prod https://{CONFIG.github_token}@github.com/namehash/name-generator.git name-generator && "
+            f"cp -f {CONFIG.local_prefix}/docker-compose.yml {CONFIG.local_prefix}/name-generator/docker-compose.yml && "
+            f"cp -f {CONFIG.local_prefix}/prod_new.yaml {CONFIG.local_prefix}/name-generator/conf/pipelines/prod_new.yaml"
         ),
         start_date=CONFIG.start_date,
     )
@@ -215,7 +218,7 @@ with DAG(
             'ES_INDEX': CONFIG.elasticsearch.index,
         },
         bash_command=(
-            f"docker-compose up -d"
+            f"docker compose up -d --build"
         ),
         start_date=CONFIG.start_date,
     )
@@ -230,7 +233,7 @@ with DAG(
         task_id="wait-for-name-generator",
         cwd=f"{CONFIG.local_prefix}",
         bash_command=(
-            f"bash wait-for-it.sh localhost:8456 -t 300"
+            f"./wait-for-it.sh generator:8000 -t 300"
         ),
         start_date=CONFIG.start_date,
     )
@@ -260,7 +263,7 @@ with DAG(
         task_id="stop-name-generator",
         cwd=f"{CONFIG.local_prefix}/name-generator",
         bash_command=(
-            f"docker-compose down"
+            f"docker compose down"
         ),
         start_date=CONFIG.start_date,
     )
