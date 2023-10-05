@@ -167,6 +167,17 @@ def prepare_custom_collection(
         # 'translations_count': None,
     } for member in collection.members]
 
+    ranks = [name['rank'] for name in template_names]
+    interesting_scores = [name['system_interesting_score'] for name in template_names]
+    status_counts = dict.fromkeys(['available', 'taken', 'on_sale', 'recently_released', 'never_registered'], 0)
+    for name in template_names:
+        status = name['cached_status']
+        if status is None:
+            status = 'never_registered'
+        status_counts[status] += 1
+
+    nonavailable_members = status_counts['taken'] + status_counts['on_sale'] + status_counts['recently_released']
+
     collection_json = {
         'data': {
             'collection_name': collection.name,
@@ -222,12 +233,10 @@ def prepare_custom_collection(
             'top25_names': template_names[:25],
 
             # below metrics calculated on members
-            'members_rank_mean': max(np.mean([m.rank for m in collection.members]), MIN_VALUE),
-            'members_rank_median': max(np.median([m.rank for m in collection.members]), MIN_VALUE),
-            'members_system_interesting_score_mean': max(
-                np.mean([m.interesting_score for m in collection.members]), MIN_VALUE),
-            'members_system_interesting_score_median': max(
-                np.median([m.interesting_score for m in collection.members]), MIN_VALUE),
+            'members_rank_mean': max(np.mean(ranks), MIN_VALUE),
+            'members_rank_median': max(np.median(ranks), MIN_VALUE),
+            'members_system_interesting_score_mean': max(np.mean(interesting_scores), MIN_VALUE),
+            'members_system_interesting_score_median': max(np.median(interesting_scores), MIN_VALUE),
             'valid_members_count': len(collection.members),
             'invalid_members_count': 0,  # TODO ??
             'valid_members_ratio': 1.0,  # TODO ??
