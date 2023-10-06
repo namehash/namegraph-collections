@@ -26,6 +26,7 @@ https://vidyats.medium.com/how-to-switch-from-airflow-default-sequential-executo
     n21["enwiki-latest-redirect.sql.gz\n34s\n153MB"]
     n12["enwiki-pagelinks.csv\n4h28m\n936MB"]
     n20["index_enwiki-latest.db\n19m\n2.2GB"]
+    style n20 fill:#9f9
     n9["list_members.jsonl\n1m31s\n765MB"]
     n7["list_members_all_info.jsonl\n7m\n750MB"]
     n15["lists.json\n7s\n12MB"]
