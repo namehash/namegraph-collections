@@ -1,0 +1,91 @@
+{
+  "commands": {
+    "sort_names": "none"
+  },
+  "data": {
+    "collection_id": "mrrobot-characters",
+    "collection_name": "Mr. Robot Characters",
+    "collection_description": "list of characters from the TV show Mr. Robot",
+    "collection_keywords": [
+      "mrrobot",
+      "tv",
+      "show",
+      "characters"
+    ],
+    "avatar_emoji": "\uD83E\uDD16",
+    "names": [
+      {
+        "normalized_name": "elliotalderson"
+      },
+      {
+        "normalized_name": "mrrobot"
+      },
+      {
+        "normalized_name": "angelamoss"
+      },
+      {
+        "normalized_name": "tyrellwellick"
+      },
+      {
+          "normalized_name": "darlenesnell"
+      },
+      {
+          "normalized_name": "dominiquedipierro"
+      },
+      {
+          "normalized_name": "phillipprice"
+      },
+      {
+          "normalized_name": "whiterose"
+      },
+      {
+          "normalized_name": "joannawellick"
+      },
+      {
+          "normalized_name": "leon"
+      },
+      {
+          "normalized_name": "irving"
+      },
+      {
+          "normalized_name": "terrycolby"
+      },
+      {
+          "normalized_name": "gideon"
+      },
+      {
+          "normalized_name": "shaylalyle"
+      },
+      {
+          "normalized_name": "rayheynes"
+      },
+      {
+          "normalized_name": "trenton"
+      },
+      {
+          "normalized_name": "mobley"
+      },
+      {
+          "normalized_name": "romero"
+      },
+      {
+          "normalized_name": "billharper"
+      },
+      {
+          "normalized_name": "frankbowman"
+      },
+      {
+          "normalized_name": "lloydchung"
+      },
+      {
+          "normalized_name": "santiago"
+      },
+      {
+          "normalized_name": "susanjacobs"
+      },
+      {
+          "normalized_name": "scottknowles"
+      }
+    ]
+  }
+}

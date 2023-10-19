@@ -1,6 +1,7 @@
 from typing import Optional, Any
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
+from operator import itemgetter
 from textwrap import dedent
 import jsonlines
 import random
@@ -15,9 +16,11 @@ from airflow.operators.python import PythonOperator
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import streaming_bulk, scan
 from hydra import initialize_config_module, compose
+from hydra.core.global_hydra import GlobalHydra
 from inspector.label_inspector import Inspector
 import boto3
 import numpy as np
+import wordninja
 
 from create_inlets import (
     download_suggestable_domains,
@@ -93,7 +96,13 @@ INTERESTING_SCORE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}interesting-
 FORCE_NORMALIZE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}force-normalize.rocks")
 NAME_TO_HASH_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}name-to-hash.rocks")
 
+CUSTOM_COLLECTIONS = CollectionDataset(f"{CONFIG.remote_prefix}custom-collections.jsonl")
+CUSTOM_COLLECTIONS_PROCESSED = CollectionDataset(f"{CONFIG.remote_prefix}custom-collections-processed.jsonl")
+
 MIN_VALUE = 1e-8
+# TODO test these
+DEFAULT_COLLECTION_RANK = 1_000_000
+DEFAULT_MEMBER_RANK = 10_000_000
 
 
 def download_s3_file(bucket: str, remote_file: str, local_file: str):
@@ -104,6 +113,11 @@ def download_s3_file(bucket: str, remote_file: str, local_file: str):
         region_name=CONFIG.s3.region_name
     )
     s3.download_file(bucket, remote_file, local_file)
+
+
+def tokenize_name(name: str) -> list[str]:
+    # TODO substitute with our dictionary from NameGenerator
+    return wordninja.split(name)
 
 
 @dataclass
@@ -120,22 +134,19 @@ class Collection:
     id: str
     name: str
     members: list[Member]
-    description: str = field(default='Manually created custom collection')
-    keywords: list[str] = field(default_factory=list)
-    banner_image: str = field(default=None)
-    avatar_emoji: str = field(default=None)
+    description: str
+    keywords: list[str]
+    banner_image: str
+    avatar_emoji: str
 
-    def __post_init__(self):
-        if self.banner_image is None:
-            banner_image_number = random.randint(0, 19)
-            self.banner_image = f'tc-{banner_image_number:02d}.png'
 
-        if self.avatar_emoji is None:
-            pass
+def generate_random_banner_image():
+    banner_image_number = random.randint(0, 19)
+    return f'tc-{banner_image_number:02d}.png'
 
 
 def prepare_custom_collection(
-        collection: dict,
+        collection_json: dict,
         domains_path: str,
         interesting_score_path: str,
         force_normalize_path: str,
@@ -143,6 +154,7 @@ def prepare_custom_collection(
         avatar_emoji_path: str,
 ) -> dict:
 
+    GlobalHydra.instance().clear()
     initialize_config_module(version_base=None, config_module='inspector_conf')
     config = compose(config_name="prod_config")
     inspector = Inspector(config)
@@ -155,17 +167,46 @@ def prepare_custom_collection(
     avatar_emoji = AvatarEmoji(avatar_emoji_path)  # FIXME how do we get type?
     current_time = time.time() * 1000
 
-    collection = Collection(**collection)
+    collection_data = collection_json['data']
+    commands = collection_json['commands']
+
+    members = []
+    for member_json in collection_data['names']:
+        if "tokenized_name" not in member_json:
+            member_json["tokenized_name"] = tokenize_name(member_json["normalized_name"])
+        member = Member(tokenized=member_json['tokenized_name'])
+        members.append(member)
+
+    collection = Collection(
+        id=collection_data['collection_id'],
+        name=collection_data['collection_name'],
+        members=members,
+        description=collection_data.get('collection_description', 'Manually created custom collection'),
+        keywords=collection_data.get('collection_keywords', []),
+        banner_image=collection_data.get('banner_image', generate_random_banner_image()),
+        avatar_emoji=collection_data.get('avatar_emoji', None),
+    )
 
     template_names = [{
         'normalized_name': member.curated,
         'tokenized_name': member.tokenized,
         'system_interesting_score': interesting_score_function(member.curated)[0],
-        'rank': ...,  # TODO what do we do with this?
+        'rank': DEFAULT_MEMBER_RANK,
         'cached_status': domains.get(member.curated, None),
         'namehash': normal_name_to_hash_function(member.curated + '.eth'),
         # 'translations_count': None,
     } for member in collection.members]
+
+    if commands.get('sort_names', 'none') == 'interesting_score':
+        template_names.sort(key=itemgetter('system_interesting_score'), reverse=True)
+    elif commands.get('sort_names', 'none') == 'shortest':
+        template_names.sort(key=lambda name: len(name['tokenized_name']))
+    elif commands.get('sort_names', 'none') == 'longest':
+        template_names.sort(key=lambda name: len(name['tokenized_name']), reverse=True)
+    elif commands.get('sort_names', 'none') == 'a-z':
+        template_names.sort(key=itemgetter('normalized_name'))
+    elif commands.get('sort_names', 'none') == 'z-a':
+        template_names.sort(key=itemgetter('normalized_name'), reverse=True)
 
     ranks = [name['rank'] for name in template_names]
     interesting_scores = [name['system_interesting_score'] for name in template_names]
@@ -182,10 +223,10 @@ def prepare_custom_collection(
         'data': {
             'collection_name': collection.name,
             'names': [{
-                'normalized_name': member.curated,
+                'normalized_name': name['normalized_name'],
                 'avatar_override': '',
-                'tokenized_name': member.tokenized,
-            } for member in collection.members],
+                'tokenized_name': name['tokenized_name'],
+            } for name in template_names],
             'collection_description': collection.description,
             'collection_keywords': collection.keywords,
             'collection_image': None,  # TODO can there be a custom collection image?
@@ -193,7 +234,7 @@ def prepare_custom_collection(
 
             'banner_image': collection.banner_image,
             'avatar_image': None,
-            'avatar_emoji': avatar_emoji.get_emoji(collection.id, ...),
+            'avatar_emoji': avatar_emoji.get_emoji(collection.id, []),
 
             'archived': False,
         },
@@ -218,15 +259,15 @@ def prepare_custom_collection(
             ),
         },
         'template': {
-            'collection_wikipedia_link': ...,  # TODO
-            'collection_wikidata_id': ...,  # TODO
-            'collection_types': ...,  # TODO
-            'collection_rank': ...,  # TODO
+            'collection_wikipedia_link': None,
+            'collection_wikidata_id': None,
+            'collection_types': [],
+            'collection_rank': DEFAULT_COLLECTION_RANK,
             'translations_count': None,
             'has_related': None,
 
-            'collection_images': collection.image,  # TODO ??
-            'collection_page_banners': collection.page_banner,  # TODO ??
+            'collection_images': None,
+            'collection_page_banners': None,
 
             'names': template_names,
             'top10_names': template_names[:10],
@@ -268,9 +309,9 @@ def prepare_custom_collections(
         avatar_emoji_path: str,
 ):
     with jsonlines.open(input_file, 'r') as reader, jsonlines.open(output_file, 'w') as writer:
-        for collection in reader:
+        for collection_json in reader:
             prepared_collection = prepare_custom_collection(
-                collection=collection,
+                collection_json=collection_json,
                 domains_path=domains_path,
                 interesting_score_path=interesting_score_path,
                 force_normalize_path=force_normalize_path,
@@ -291,7 +332,7 @@ with DAG(
             "start_date": CONFIG.start_date,
         },
         description="Loads custom collections from S3, processes them and loads to Elasticsearch",
-        schedule=[Dataset(CONFIG.remote_file)],
+        # schedule=[Dataset(CONFIG.remote_prefix)],  # TODO update path
         start_date=CONFIG.start_date,
         catchup=False,
         tags=["load-custom-collections", "custom-collections"],
@@ -301,8 +342,8 @@ with DAG(
         python_callable=download_s3_file,
         op_kwargs={
             "bucket": CONFIG.s3.bucket,
-            "remote_file": 'custom-collections.jsonl',
-            "local_file": 'custom-collections.jsonl',
+            "remote_file": CUSTOM_COLLECTIONS.name(),
+            "local_file": CUSTOM_COLLECTIONS.local_name()
         },
     )
     download_custom_collections_task.doc_md = dedent(
@@ -315,11 +356,11 @@ with DAG(
     download_suggestable_domains_task = PythonOperator(
         outlets=[SUGGESTABLE_DOMAINS],
         task_id="download-suggestable-domains",
-        python_callable=download_suggestable_domains,
+        python_callable=download_s3_file,
         op_kwargs={
             "bucket": "prod-name-generator-namegeneratori-inputss3bucket-c26jqo3twfxy",
-            "name": SUGGESTABLE_DOMAINS.name(),
-            "path": SUGGESTABLE_DOMAINS.local_name()
+            "remote_file": SUGGESTABLE_DOMAINS.name(),
+            "local_file": SUGGESTABLE_DOMAINS.local_name()
         },
     )
     download_suggestable_domains_task.doc_md = dedent(
@@ -332,11 +373,11 @@ with DAG(
     download_avatars_emojis_task = PythonOperator(
         outlets=[AVATAR_EMOJI],
         task_id="download-avatars-emojis",
-        python_callable=download_suggestable_domains,
+        python_callable=download_s3_file,
         op_kwargs={
             "bucket": "prod-name-generator-namegeneratori-inputss3bucket-c26jqo3twfxy",
-            "name": AVATAR_EMOJI.name(),
-            "path": AVATAR_EMOJI.local_name()
+            "remote_file": AVATAR_EMOJI.name(),
+            "local_file": AVATAR_EMOJI.local_name()
         },
     )
 
@@ -344,8 +385,8 @@ with DAG(
         task_id='prepare-custom-collections',
         python_callable=prepare_custom_collections,
         op_kwargs={
-            "input_file": 'custom-collections.jsonl',
-            "output_file": 'custom-collections-processed.jsonl',
+            "input_file": CUSTOM_COLLECTIONS.local_name(),
+            "output_file": CUSTOM_COLLECTIONS_PROCESSED.local_name(),
             "domains_path": SUGGESTABLE_DOMAINS.local_name(),
             "interesting_score_path": INTERESTING_SCORE_CACHE.local_name(),
             "force_normalize_path": FORCE_NORMALIZE_CACHE.local_name(),
