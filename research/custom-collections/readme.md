@@ -4,17 +4,22 @@ Custom collections should be stored in a JSONL file, where each separate line is
 
 ```json
 {
-  "collection_id": "string",
-  "collection_name": "string",
-  "collection_description": "optional string",
-  "collection_keywords": "list of strings, may be empty",
-  "avatar_emoji": "optional string",
-  "names": [
-    {
-      "normalized_name": "string",
-      "tokenized_name": "optional string"
-    },
-    ...
-  ]
+  "commands": {
+    "sort_names": "none"
+  },
+  "data": {
+    "collection_id": "string",
+    "collection_name": "string",
+    "collection_description": "optional string",
+    "collection_keywords": "list of strings, may be empty",
+    "avatar_emoji": "optional string",
+    "names": [
+      {
+        "normalized_name": "string",
+        "tokenized_name": "optional string"
+      },
+      ...
+    ]
+  }
 }
 ```
