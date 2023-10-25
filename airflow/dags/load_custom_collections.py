@@ -33,7 +33,14 @@ from create_merged import (
     read_csv_domains,
     AvatarEmoji,
 )
-from update_es import connect_to_elasticsearch
+from update_es import (
+    connect_to_elasticsearch,
+    generate_id,
+    collect_ids_mapping,
+    apply_operations,
+    prepare_full_update,
+    UPDATING_FIELDS,
+)
 
 
 @dataclass
@@ -98,6 +105,8 @@ NAME_TO_HASH_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}name-to-hash.rock
 
 CUSTOM_COLLECTIONS = CollectionDataset(f"{CONFIG.remote_prefix}custom-collections.jsonl")
 CUSTOM_COLLECTIONS_PROCESSED = CollectionDataset(f"{CONFIG.remote_prefix}custom-collections-processed.jsonl")
+CUSTOM_COLLECTIONS_UPDATE_OPERATIONS = \
+    CollectionDataset(f"{CONFIG.remote_prefix}custom-collections-update-operations.jsonl")
 
 MIN_VALUE = 1e-8
 # TODO test these
@@ -279,7 +288,7 @@ def prepare_custom_collection(
             'members_system_interesting_score_mean': max(np.mean(interesting_scores), MIN_VALUE),
             'members_system_interesting_score_median': max(np.median(interesting_scores), MIN_VALUE),
             'valid_members_count': len(collection.members),
-            'invalid_members_count': 0,  # TODO ??
+            'invalid_members_count': 1,  # rank features cannot be zero  # TODO ??
             'valid_members_ratio': 1.0,  # TODO ??
             'nonavailable_members_count': nonavailable_members,
             'nonavailable_members_ratio': max(nonavailable_members / len(collection.members), MIN_VALUE),
@@ -319,6 +328,32 @@ def prepare_custom_collections(
                 avatar_emoji_path=avatar_emoji_path,
             )
             writer.write(prepared_collection)
+
+
+def produce_custom_update_operations(custom_collections_path: str, custom_update_operations: str):
+    es = connect_to_elasticsearch(CONFIG.elasticsearch)
+    ids_mapping = collect_ids_mapping(es, CONFIG.elasticsearch.index)
+
+    ops = custom_update_operations
+    with jsonlines.open(custom_collections_path, 'r') as reader, jsonlines.open(ops, 'w') as writer:
+        for collection in reader:
+            metadata_id = collection['metadata']['id']
+
+            if metadata_id in ids_mapping:
+                # there are not that many custom collections, thus no need for optimization - executing a full update
+                writer.write(prepare_full_update(
+                    ids_mapping[metadata_id],
+                    collection,
+                    UPDATING_FIELDS,  # TODO this may change eventually
+                    CONFIG.elasticsearch.index
+                ))
+            else:
+                writer.write({
+                    '_index': CONFIG.elasticsearch.index,
+                    '_op_type': 'create',
+                    '_id': generate_id(),
+                    '_source': collection
+                })
 
 
 with DAG(
@@ -401,5 +436,34 @@ with DAG(
     """
     )
 
+    produce_update_operations_task = PythonOperator(
+        task_id='produce-update-operations',
+        python_callable=produce_custom_update_operations,
+        op_kwargs={
+            "custom_collections_path": CUSTOM_COLLECTIONS_PROCESSED.local_name(),
+            "custom_update_operations": CUSTOM_COLLECTIONS_UPDATE_OPERATIONS.local_name()
+        }
+    )
+    produce_update_operations_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+    Produce Elasticsearch update operations of the custom collections
+    """
+    )
+
+    update_elasticsearch_task = PythonOperator(
+        task_id='update-elasticsearch-custom-collections',
+        python_callable=apply_operations,
+        op_kwargs={
+            "operations": CUSTOM_COLLECTIONS_UPDATE_OPERATIONS.local_name()
+        }
+    )
+    update_elasticsearch_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+    Update Elasticsearch index with the newly created and updated custom collections by applying produced operations
+    """
+    )
+
     [download_custom_collections_task, download_suggestable_domains_task, download_avatars_emojis_task] \
-        >> prepare_custom_collections_task
+        >> prepare_custom_collections_task >> produce_update_operations_task >> update_elasticsearch_task
