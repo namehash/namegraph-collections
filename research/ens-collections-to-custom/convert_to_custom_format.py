@@ -12,6 +12,7 @@ ens_collections_repo_url = 'https://github.com/Zimtente/ens-collections.git'
 data_path = Path.cwd() / 'data'
 repo_path = data_path / 'ens-collections'
 ens_collections_metadata_path = repo_path / 'ens-collections.json'
+raw_collections_path = repo_path / 'collections'
 
 
 def clone_repo():
@@ -23,6 +24,19 @@ def remove_repo():
     shutil.rmtree(repo_path)
 
 
+def rename_files_to_lowercase(dir_path: Path):
+    assert dir_path.is_dir(), f"{dir_path} is not a directory!"
+    print('\nRenaming csv files...')
+    for file_path in dir_path.iterdir():
+        if file_path.is_file():
+            new_name = file_path.name.lower()
+            new_file_path = file_path.parent / new_name
+            if file_path != new_file_path:
+                file_path.rename(new_file_path)
+                print(f"\t{file_path.name} -> {new_file_path.name}")
+    print()
+
+
 def read_metadata() -> dict:
     with open(ens_collections_metadata_path, 'r') as f:
         data = json.load(f)
@@ -30,24 +44,70 @@ def read_metadata() -> dict:
 
 
 def save_custom_collections(output_path: Path, custom_collections: list[dict]):
+    print(f'\nSaving transformed collections to "{output_path}"')
     with jsonlines.open(output_path, 'w') as writer:
         for c in custom_collections:
             writer.write(c)
 
 
+def remove_duplicates_from_metadata(metadata_list: list[dict]) -> list[dict]:
+    slugs = [r["slug"] for r in metadata_list]
+    slugs_set = set(slugs)
+    for s in slugs_set:
+        slugs.remove(s)
+
+    for duplicate_s in slugs:
+        # remove first record with this slug
+        to_remove_idx = None
+        for i, r in enumerate(metadata_list):
+            if r['slug'] == duplicate_s:
+                to_remove_idx = i
+        metadata_list.pop(to_remove_idx)
+
+    return metadata_list
+
+
 def extract_names(csv_filename: str) -> list[dict]:
     names = []
 
-    csv_path = repo_path / 'collections' / csv_filename
+    csv_path = raw_collections_path / csv_filename
     with open(csv_path, newline='', encoding='utf-8') as f:
         for row in csv.reader(f, delimiter=','):
-            # FIXME: not always are the columns in correct order
+            name = row[0]
+            if csv_path.name in ('3-digits-hebrew-club.csv', 'male-firstname-arabic-club.csv'):
+                # (token, name) instead of (name, token) in csv
+                name = row[1]
+
             names.append(
                 {
-                    "normalized_name": row[0],
-                    # "tokenized_name": row[0]  # todo: row[0] for collections with non-tokenizable names? (like '0x17')
+                    "normalized_name": name,
+                    # "tokenized_name": row[0]  # todo: row[0] for collections with unigram names? (like '0x17')
                 }
             )
+            # non-trivial tokenization for collections below:
+            #
+            # 365-club.csv : april23th -> april, 25th
+            # country-leaders.csv : no tokenization (?) (names and surnames)
+            # english-animals.csv : no tokenization (?) (latin names of species)
+            # ens-date-club.csv : 4jan -> 4, jan
+            # ens-full-date-club.csv : 10december -> 10, december
+            # all collections with emojis only : treat as one token (?)
+            # flagcountry-club.csv : 🇦🇫afghanistan -> 🇦🇫, afghanistan
+            # got-houses-club.csv : houseblackberry -> houseblackfyre -> house, blackfyre
+            # harry-potter.csv : no tokenization (?) (names and surnames)
+            # kanye-ens-club.csv : no tokenization (?) (mix of unigrams and n>1grams)
+            # marvel-club.csv : no tokenization (?) (mix of names)
+            # naruto-names.csv : no tokenization (?) (names and surnames)
+            # playstation-console-series.csvc : no tokenization (?) (playstation4slim etc.)
+            # pre-punk-1k.csv, pre-punk-10k.csv, pre-punk-club.csv, pre-punk-spanish.csv : no tokenization (?) (mixed)
+            # psalms-club.csv : psalm100 -> psalm, 100
+            # skateboard-tricks.csv : no tokenization (?) (mix of trick and numbers)
+            # spanish-animals.csv : no tokenization (?) (latin/english names of species)
+            # the-cents-club.csv : 17cents -> 17, cents
+            # tolkien.csv : no tokenization (?) (names and surnames)
+            # tolkien.csv : no tokenization (?) (names and surnames)
+            # un-countries.csv : no tokenization (?) (some countries are multi-words like dominicanrepublic)
+            # us-999-club.csv : 🇺🇸998 -> 🇺🇸, 998
     return names
 
 def transform_collections(metadata: dict) -> list[dict]:
@@ -55,13 +115,17 @@ def transform_collections(metadata: dict) -> list[dict]:
 
     transformed_collections = []
 
+    metadata_per_collection = remove_duplicates_from_metadata(metadata_per_collection)
+
     # assert unique slugs
     slugs = [r["slug"] for r in metadata_per_collection]
     assert len(slugs) == len(set(slugs)), f'slug ids are not unique! [ {len(set(slugs))} / {len(slugs)} ]'
-    # FIXME: they are not !!! :)  [ 138 / 140 ]
 
     # assert single csv file for each collection
     assert all(len(r["csv"]) == 1 for r in metadata_per_collection), 'some collections have more than 1 csv file!'
+
+    # assert all csv file names in metadata are lowercase
+    assert all(r["csv"][0].islower() for r in metadata_per_collection), 'not all csv file names are lowercase!'
 
 
     for c_meta_record in metadata_per_collection:
@@ -82,9 +146,6 @@ def transform_collections(metadata: dict) -> list[dict]:
     return transformed_collections
 
 
-
-
-
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('-o', '--output', help='output filename', default='custom-ens-collections')
@@ -92,16 +153,19 @@ if __name__ == '__main__':
                         action='store_true', default=False)
     args = parser.parse_args()
     output_path = Path(args.output) if args.output.endswith('.jsonl') else Path(args.output + '.jsonl')
-    output_path = output_path.resolve()
+    output_path = data_path / output_path
     save_repo = args.save_repo
 
     clone_repo()
+
+    # wrong filenames fix
+    rename_files_to_lowercase(raw_collections_path)
+
     meta = read_metadata()
 
     transformed = transform_collections(meta)
 
     save_custom_collections(output_path, transformed)
+
     if not save_repo:
         remove_repo()
-
-# python research/ens-collections-to-custom/convert_to_custom_format.py --save_repo
