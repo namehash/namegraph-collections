@@ -180,10 +180,10 @@ def prepare_custom_collection(
     commands = collection_json['commands']
 
     members = []
-    for member_json in collection_data['names']:
-        if "tokenized_name" not in member_json:
-            member_json["tokenized_name"] = tokenize_name(member_json["normalized_name"])
-        member = Member(tokenized=member_json['tokenized_name'])
+    for member_json in collection_data['labels']:
+        if "tokenized_label" not in member_json:
+            member_json["tokenized_label"] = tokenize_name(member_json["normalized_label"])
+        member = Member(tokenized=member_json['tokenized_label'])
         members.append(member)
 
     collection = Collection(
@@ -206,15 +206,15 @@ def prepare_custom_collection(
         # 'translations_count': None,
     } for member in collection.members]
 
-    if commands.get('sort_names', 'none') == 'interesting_score':
+    if commands.get('sort_labels', 'none') == 'interesting_score':
         template_names.sort(key=itemgetter('system_interesting_score'), reverse=True)
-    elif commands.get('sort_names', 'none') == 'shortest':
+    elif commands.get('sort_labels', 'none') == 'shortest':
         template_names.sort(key=lambda name: len(name['tokenized_name']))
-    elif commands.get('sort_names', 'none') == 'longest':
+    elif commands.get('sort_labels', 'none') == 'longest':
         template_names.sort(key=lambda name: len(name['tokenized_name']), reverse=True)
-    elif commands.get('sort_names', 'none') == 'a-z':
+    elif commands.get('sort_labels', 'none') == 'a-z':
         template_names.sort(key=itemgetter('normalized_name'))
-    elif commands.get('sort_names', 'none') == 'z-a':
+    elif commands.get('sort_labels', 'none') == 'z-a':
         template_names.sort(key=itemgetter('normalized_name'), reverse=True)
 
     ranks = [name['rank'] for name in template_names]

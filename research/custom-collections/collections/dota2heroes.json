@@ -1,6 +1,6 @@
 {
   "commands": {
-    "sort_names": "none"
+    "sort_labels": "none"
   },
   "data": {
     "collection_id": "dota2heroes",
@@ -16,291 +16,291 @@
       "defence of the ancients"
     ],
     "avatar_emoji": "🎮",
-    "names": [
+    "labels": [
       {
-        "normalized_name": "abaddon",
-        "tokenized_name": [
+        "normalized_label": "abaddon",
+        "tokenized_label": [
           "abaddon"
         ]
       },
       {
-        "normalized_name": "alchemist",
-        "tokenized_name": [
+        "normalized_label": "alchemist",
+        "tokenized_label": [
           "alchemist"
         ]
       },
       {
-        "normalized_name": "ancientapparition",
-        "tokenized_name": [
+        "normalized_label": "ancientapparition",
+        "tokenized_label": [
           "ancient",
           "apparition"
         ]
       },
       {
-        "normalized_name": "antimage",
-        "tokenized_name": [
+        "normalized_label": "antimage",
+        "tokenized_label": [
           "anti",
           "mage"
         ]
       },
       {
-        "normalized_name": "arcwarden",
-        "tokenized_name": [
+        "normalized_label": "arcwarden",
+        "tokenized_label": [
           "arc",
           "warden"
         ]
       },
       {
-        "normalized_name": "axe",
-        "tokenized_name": [
+        "normalized_label": "axe",
+        "tokenized_label": [
           "axe"
         ]
       },
       {
-        "normalized_name": "bane",
-        "tokenized_name": [
+        "normalized_label": "bane",
+        "tokenized_label": [
           "bane"
         ]
       },
       {
-        "normalized_name": "batrider",
-        "tokenized_name": [
+        "normalized_label": "batrider",
+        "tokenized_label": [
           "batrider"
         ]
       },
       {
-        "normalized_name": "beastmaster",
-        "tokenized_name": [
+        "normalized_label": "beastmaster",
+        "tokenized_label": [
           "beastmaster"
         ]
       },
       {
-        "normalized_name": "bloodseeker",
-        "tokenized_name": [
+        "normalized_label": "bloodseeker",
+        "tokenized_label": [
           "bloodseeker"
         ]
       },
       {
-        "normalized_name": "bountyhunter",
-        "tokenized_name": [
+        "normalized_label": "bountyhunter",
+        "tokenized_label": [
           "bounty",
           "hunter"
         ]
       },
       {
-        "normalized_name": "brewmaster",
-        "tokenized_name": [
+        "normalized_label": "brewmaster",
+        "tokenized_label": [
           "brewmaster"
         ]
       },
       {
-        "normalized_name": "bristleback",
-        "tokenized_name": [
+        "normalized_label": "bristleback",
+        "tokenized_label": [
           "bristleback"
         ]
       },
       {
-        "normalized_name": "broodmother",
-        "tokenized_name": [
+        "normalized_label": "broodmother",
+        "tokenized_label": [
           "broodmother"
         ]
       },
       {
-        "normalized_name": "centaurwarrunner",
-        "tokenized_name": [
+        "normalized_label": "centaurwarrunner",
+        "tokenized_label": [
           "centaur",
           "warrunner"
         ]
       },
       {
-        "normalized_name": "chaosknight",
-        "tokenized_name": [
+        "normalized_label": "chaosknight",
+        "tokenized_label": [
           "chaos",
           "knight"
         ]
       },
       {
-        "normalized_name": "chen",
-        "tokenized_name": [
+        "normalized_label": "chen",
+        "tokenized_label": [
           "chen"
         ]
       },
       {
-        "normalized_name": "clinkz",
-        "tokenized_name": [
+        "normalized_label": "clinkz",
+        "tokenized_label": [
           "clinkz"
         ]
       },
       {
-        "normalized_name": "clockwerk",
-        "tokenized_name": [
+        "normalized_label": "clockwerk",
+        "tokenized_label": [
           "clockwerk"
         ]
       },
       {
-        "normalized_name": "crystalmaiden",
-        "tokenized_name": [
+        "normalized_label": "crystalmaiden",
+        "tokenized_label": [
           "crystal",
           "maiden"
         ]
       },
       {
-        "normalized_name": "darkseer",
-        "tokenized_name": [
+        "normalized_label": "darkseer",
+        "tokenized_label": [
           "dark",
           "seer"
         ]
       },
       {
-        "normalized_name": "darkwillow",
-        "tokenized_name": [
+        "normalized_label": "darkwillow",
+        "tokenized_label": [
           "dark",
           "willow"
         ]
       },
       {
-        "normalized_name": "dawnbreaker",
-        "tokenized_name": [
+        "normalized_label": "dawnbreaker",
+        "tokenized_label": [
           "dawnbreaker"
         ]
       },
       {
-        "normalized_name": "dazzle",
-        "tokenized_name": [
+        "normalized_label": "dazzle",
+        "tokenized_label": [
           "dazzle"
         ]
       },
       {
-        "normalized_name": "deathprophet",
-        "tokenized_name": [
+        "normalized_label": "deathprophet",
+        "tokenized_label": [
           "death",
           "prophet"
         ]
       },
       {
-        "normalized_name": "disruptor",
-        "tokenized_name": [
+        "normalized_label": "disruptor",
+        "tokenized_label": [
           "disruptor"
         ]
       },
       {
-        "normalized_name": "doom",
-        "tokenized_name": [
+        "normalized_label": "doom",
+        "tokenized_label": [
           "doom"
         ]
       },
       {
-        "normalized_name": "dragonknight",
-        "tokenized_name": [
+        "normalized_label": "dragonknight",
+        "tokenized_label": [
           "dragon",
           "knight"
         ]
       },
       {
-        "normalized_name": "drowranger",
-        "tokenized_name": [
+        "normalized_label": "drowranger",
+        "tokenized_label": [
           "drow",
           "ranger"
         ]
       },
       {
-        "normalized_name": "earthspirit",
-        "tokenized_name": [
+        "normalized_label": "earthspirit",
+        "tokenized_label": [
           "earth",
           "spirit"
         ]
       },
       {
-        "normalized_name": "earthshaker",
-        "tokenized_name": [
+        "normalized_label": "earthshaker",
+        "tokenized_label": [
           "earthshaker"
         ]
       },
       {
-        "normalized_name": "eldertitan",
-        "tokenized_name": [
+        "normalized_label": "eldertitan",
+        "tokenized_label": [
           "elder",
           "titan"
         ]
       },
       {
-        "normalized_name": "emberspirit",
-        "tokenized_name": [
+        "normalized_label": "emberspirit",
+        "tokenized_label": [
           "ember",
           "spirit"
         ]
       },
       {
-        "normalized_name": "enchantress",
-        "tokenized_name": [
+        "normalized_label": "enchantress",
+        "tokenized_label": [
           "enchantress"
         ]
       },
       {
-        "normalized_name": "enigma",
-        "tokenized_name": [
+        "normalized_label": "enigma",
+        "tokenized_label": [
           "enigma"
         ]
       },
       {
-        "normalized_name": "facelessvoid",
-        "tokenized_name": [
+        "normalized_label": "facelessvoid",
+        "tokenized_label": [
           "faceless",
           "void"
         ]
       },
       {
-        "normalized_name": "grimstroke",
-        "tokenized_name": [
+        "normalized_label": "grimstroke",
+        "tokenized_label": [
           "grim",
           "stroke"
         ]
       },
       {
-        "normalized_name": "gyrocopter",
-        "tokenized_name": [
+        "normalized_label": "gyrocopter",
+        "tokenized_label": [
           "gyrocopter"
         ]
       },
       {
-        "normalized_name": "hoodwink",
-        "tokenized_name": [
+        "normalized_label": "hoodwink",
+        "tokenized_label": [
           "hoodwink"
         ]
       },
       {
-        "normalized_name": "huskar",
-        "tokenized_name": [
+        "normalized_label": "huskar",
+        "tokenized_label": [
           "huskar"
         ]
       },
       {
-        "normalized_name": "invoker",
-        "tokenized_name": [
+        "normalized_label": "invoker",
+        "tokenized_label": [
           "invoker"
         ]
       },
       {
-        "normalized_name": "io",
-        "tokenized_name": [
+        "normalized_label": "io",
+        "tokenized_label": [
           "io"
         ]
       },
       {
-        "normalized_name": "jakiro",
-        "tokenized_name": [
+        "normalized_label": "jakiro",
+        "tokenized_label": [
           "jakiro"
         ]
       },
       {
-        "normalized_name": "juggernaut",
-        "tokenized_name": [
+        "normalized_label": "juggernaut",
+        "tokenized_label": [
           "juggernaut"
         ]
       },
       {
-        "normalized_name": "keeperofthelight",
-        "tokenized_name": [
+        "normalized_label": "keeperofthelight",
+        "tokenized_label": [
           "keeper",
           "of",
           "the",
@@ -308,505 +308,505 @@
         ]
       },
       {
-        "normalized_name": "kunkka",
-        "tokenized_name": [
+        "normalized_label": "kunkka",
+        "tokenized_label": [
           "kunkka"
         ]
       },
       {
-        "normalized_name": "legioncommander",
-        "tokenized_name": [
+        "normalized_label": "legioncommander",
+        "tokenized_label": [
           "legion",
           "commander"
         ]
       },
       {
-        "normalized_name": "leshrac",
-        "tokenized_name": [
+        "normalized_label": "leshrac",
+        "tokenized_label": [
           "leshrac"
         ]
       },
       {
-        "normalized_name": "lich",
-        "tokenized_name": [
+        "normalized_label": "lich",
+        "tokenized_label": [
           "lich"
         ]
       },
       {
-        "normalized_name": "lifestealer",
-        "tokenized_name": [
+        "normalized_label": "lifestealer",
+        "tokenized_label": [
           "lifestealer"
         ]
       },
       {
-        "normalized_name": "lina",
-        "tokenized_name": [
+        "normalized_label": "lina",
+        "tokenized_label": [
           "lina"
         ]
       },
       {
-        "normalized_name": "lion",
-        "tokenized_name": [
+        "normalized_label": "lion",
+        "tokenized_label": [
           "lion"
         ]
       },
       {
-        "normalized_name": "lonedruid",
-        "tokenized_name": [
+        "normalized_label": "lonedruid",
+        "tokenized_label": [
           "lone",
           "druid"
         ]
       },
       {
-        "normalized_name": "luna",
-        "tokenized_name": [
+        "normalized_label": "luna",
+        "tokenized_label": [
           "luna"
         ]
       },
       {
-        "normalized_name": "lycan",
-        "tokenized_name": [
+        "normalized_label": "lycan",
+        "tokenized_label": [
           "lycan"
         ]
       },
       {
-        "normalized_name": "magnus",
-        "tokenized_name": [
+        "normalized_label": "magnus",
+        "tokenized_label": [
           "magnus"
         ]
       },
       {
-        "normalized_name": "marci",
-        "tokenized_name": [
+        "normalized_label": "marci",
+        "tokenized_label": [
           "marci"
         ]
       },
       {
-        "normalized_name": "mars",
-        "tokenized_name": [
+        "normalized_label": "mars",
+        "tokenized_label": [
           "mars"
         ]
       },
       {
-        "normalized_name": "medusa",
-        "tokenized_name": [
+        "normalized_label": "medusa",
+        "tokenized_label": [
           "medusa"
         ]
       },
       {
-        "normalized_name": "meepo",
-        "tokenized_name": [
+        "normalized_label": "meepo",
+        "tokenized_label": [
           "meepo"
         ]
       },
       {
-        "normalized_name": "mirana",
-        "tokenized_name": [
+        "normalized_label": "mirana",
+        "tokenized_label": [
           "mirana"
         ]
       },
       {
-        "normalized_name": "monkeyking",
-        "tokenized_name": [
+        "normalized_label": "monkeyking",
+        "tokenized_label": [
           "monkey",
           "king"
         ]
       },
       {
-        "normalized_name": "morphling",
-        "tokenized_name": [
+        "normalized_label": "morphling",
+        "tokenized_label": [
           "morphling"
         ]
       },
       {
-        "normalized_name": "muerta",
-        "tokenized_name": [
+        "normalized_label": "muerta",
+        "tokenized_label": [
           "muerta"
         ]
       },
       {
-        "normalized_name": "nagasiren",
-        "tokenized_name": [
+        "normalized_label": "nagasiren",
+        "tokenized_label": [
           "naga",
           "siren"
         ]
       },
       {
-        "normalized_name": "naturesprophet",
-        "tokenized_name": [
+        "normalized_label": "naturesprophet",
+        "tokenized_label": [
           "natures",
           "prophet"
         ]
       },
       {
-        "normalized_name": "necrophos",
-        "tokenized_name": [
+        "normalized_label": "necrophos",
+        "tokenized_label": [
           "necrophos"
         ]
       },
       {
-        "normalized_name": "nightstalker",
-        "tokenized_name": [
+        "normalized_label": "nightstalker",
+        "tokenized_label": [
           "night",
           "stalker"
         ]
       },
       {
-        "normalized_name": "nyxassassin",
-        "tokenized_name": [
+        "normalized_label": "nyxassassin",
+        "tokenized_label": [
           "nyx",
           "assassin"
         ]
       },
       {
-        "normalized_name": "ogremagi",
-        "tokenized_name": [
+        "normalized_label": "ogremagi",
+        "tokenized_label": [
           "ogre",
           "magi"
         ]
       },
       {
-        "normalized_name": "omniknight",
-        "tokenized_name": [
+        "normalized_label": "omniknight",
+        "tokenized_label": [
           "omniknight"
         ]
       },
       {
-        "normalized_name": "oracle",
-        "tokenized_name": [
+        "normalized_label": "oracle",
+        "tokenized_label": [
           "oracle"
         ]
       },
       {
-        "normalized_name": "outworlddevourer",
-        "tokenized_name": [
+        "normalized_label": "outworlddevourer",
+        "tokenized_label": [
           "outworld",
           "devourer"
         ]
       },
       {
-        "normalized_name": "pangolier",
-        "tokenized_name": [
+        "normalized_label": "pangolier",
+        "tokenized_label": [
           "pangolier"
         ]
       },
       {
-        "normalized_name": "phantomassassin",
-        "tokenized_name": [
+        "normalized_label": "phantomassassin",
+        "tokenized_label": [
           "phantom",
           "assassin"
         ]
       },
       {
-        "normalized_name": "phantomlancer",
-        "tokenized_name": [
+        "normalized_label": "phantomlancer",
+        "tokenized_label": [
           "phantom",
           "lancer"
         ]
       },
       {
-        "normalized_name": "phoenix",
-        "tokenized_name": [
+        "normalized_label": "phoenix",
+        "tokenized_label": [
           "phoenix"
         ]
       },
       {
-        "normalized_name": "primalbeast",
-        "tokenized_name": [
+        "normalized_label": "primalbeast",
+        "tokenized_label": [
           "primal",
           "beast"
         ]
       },
       {
-        "normalized_name": "puck",
-        "tokenized_name": [
+        "normalized_label": "puck",
+        "tokenized_label": [
           "puck"
         ]
       },
       {
-        "normalized_name": "pudge",
-        "tokenized_name": [
+        "normalized_label": "pudge",
+        "tokenized_label": [
           "pudge"
         ]
       },
       {
-        "normalized_name": "pugna",
-        "tokenized_name": [
+        "normalized_label": "pugna",
+        "tokenized_label": [
           "pugna"
         ]
       },
       {
-        "normalized_name": "queenofpain",
-        "tokenized_name": [
+        "normalized_label": "queenofpain",
+        "tokenized_label": [
           "queen",
           "of",
           "pain"
         ]
       },
       {
-        "normalized_name": "razor",
-        "tokenized_name": [
+        "normalized_label": "razor",
+        "tokenized_label": [
           "razor"
         ]
       },
       {
-        "normalized_name": "riki",
-        "tokenized_name": [
+        "normalized_label": "riki",
+        "tokenized_label": [
           "riki"
         ]
       },
       {
-        "normalized_name": "rubick",
-        "tokenized_name": [
+        "normalized_label": "rubick",
+        "tokenized_label": [
           "rubick"
         ]
       },
       {
-        "normalized_name": "sandking",
-        "tokenized_name": [
+        "normalized_label": "sandking",
+        "tokenized_label": [
           "sand",
           "king"
         ]
       },
       {
-        "normalized_name": "shadowdemon",
-        "tokenized_name": [
+        "normalized_label": "shadowdemon",
+        "tokenized_label": [
           "shadow",
           "demon"
         ]
       },
       {
-        "normalized_name": "shadowfiend",
-        "tokenized_name": [
+        "normalized_label": "shadowfiend",
+        "tokenized_label": [
           "shadow",
           "fiend"
         ]
       },
       {
-        "normalized_name": "shadowshaman",
-        "tokenized_name": [
+        "normalized_label": "shadowshaman",
+        "tokenized_label": [
           "shadow",
           "shaman"
         ]
       },
       {
-        "normalized_name": "silencer",
-        "tokenized_name": [
+        "normalized_label": "silencer",
+        "tokenized_label": [
           "silencer"
         ]
       },
       {
-        "normalized_name": "skywrathmage",
-        "tokenized_name": [
+        "normalized_label": "skywrathmage",
+        "tokenized_label": [
           "skywrath",
           "mage"
         ]
       },
       {
-        "normalized_name": "slardar",
-        "tokenized_name": [
+        "normalized_label": "slardar",
+        "tokenized_label": [
           "slardar"
         ]
       },
       {
-        "normalized_name": "slark",
-        "tokenized_name": [
+        "normalized_label": "slark",
+        "tokenized_label": [
           "slark"
         ]
       },
       {
-        "normalized_name": "snapfire",
-        "tokenized_name": [
+        "normalized_label": "snapfire",
+        "tokenized_label": [
           "snapfire"
         ]
       },
       {
-        "normalized_name": "sniper",
-        "tokenized_name": [
+        "normalized_label": "sniper",
+        "tokenized_label": [
           "sniper"
         ]
       },
       {
-        "normalized_name": "spectre",
-        "tokenized_name": [
+        "normalized_label": "spectre",
+        "tokenized_label": [
           "spectre"
         ]
       },
       {
-        "normalized_name": "spiritbreaker",
-        "tokenized_name": [
+        "normalized_label": "spiritbreaker",
+        "tokenized_label": [
           "spirit",
           "breaker"
         ]
       },
       {
-        "normalized_name": "stormspirit",
-        "tokenized_name": [
+        "normalized_label": "stormspirit",
+        "tokenized_label": [
           "storm",
           "spirit"
         ]
       },
       {
-        "normalized_name": "sven",
-        "tokenized_name": [
+        "normalized_label": "sven",
+        "tokenized_label": [
           "sven"
         ]
       },
       {
-        "normalized_name": "techies",
-        "tokenized_name": [
+        "normalized_label": "techies",
+        "tokenized_label": [
           "techies"
         ]
       },
       {
-        "normalized_name": "templarassassin",
-        "tokenized_name": [
+        "normalized_label": "templarassassin",
+        "tokenized_label": [
           "templar",
           "assassin"
         ]
       },
       {
-        "normalized_name": "terrorblade",
-        "tokenized_name": [
+        "normalized_label": "terrorblade",
+        "tokenized_label": [
           "terrorblade"
         ]
       },
       {
-        "normalized_name": "tidehunter",
-        "tokenized_name": [
+        "normalized_label": "tidehunter",
+        "tokenized_label": [
           "tidehunter"
         ]
       },
       {
-        "normalized_name": "timbersaw",
-        "tokenized_name": [
+        "normalized_label": "timbersaw",
+        "tokenized_label": [
           "timbersaw"
         ]
       },
       {
-        "normalized_name": "tinker",
-        "tokenized_name": [
+        "normalized_label": "tinker",
+        "tokenized_label": [
           "tinker"
         ]
       },
       {
-        "normalized_name": "tiny",
-        "tokenized_name": [
+        "normalized_label": "tiny",
+        "tokenized_label": [
           "tiny"
         ]
       },
       {
-        "normalized_name": "treantprotector",
-        "tokenized_name": [
+        "normalized_label": "treantprotector",
+        "tokenized_label": [
           "treant",
           "protector"
         ]
       },
       {
-        "normalized_name": "trollwarlord",
-        "tokenized_name": [
+        "normalized_label": "trollwarlord",
+        "tokenized_label": [
           "troll",
           "warlord"
         ]
       },
       {
-        "normalized_name": "tusk",
-        "tokenized_name": [
+        "normalized_label": "tusk",
+        "tokenized_label": [
           "tusk"
         ]
       },
       {
-        "normalized_name": "underlord",
-        "tokenized_name": [
+        "normalized_label": "underlord",
+        "tokenized_label": [
           "underlord"
         ]
       },
       {
-        "normalized_name": "undying",
-        "tokenized_name": [
+        "normalized_label": "undying",
+        "tokenized_label": [
           "undying"
         ]
       },
       {
-        "normalized_name": "ursa",
-        "tokenized_name": [
+        "normalized_label": "ursa",
+        "tokenized_label": [
           "ursa"
         ]
       },
       {
-        "normalized_name": "vengefulspirit",
-        "tokenized_name": [
+        "normalized_label": "vengefulspirit",
+        "tokenized_label": [
           "vengeful",
           "spirit"
         ]
       },
       {
-        "normalized_name": "venomancer",
-        "tokenized_name": [
+        "normalized_label": "venomancer",
+        "tokenized_label": [
           "venomancer"
         ]
       },
       {
-        "normalized_name": "viper",
-        "tokenized_name": [
+        "normalized_label": "viper",
+        "tokenized_label": [
           "viper"
         ]
       },
       {
-        "normalized_name": "visage",
-        "tokenized_name": [
+        "normalized_label": "visage",
+        "tokenized_label": [
           "visage"
         ]
       },
       {
-        "normalized_name": "voidspirit",
-        "tokenized_name": [
+        "normalized_label": "voidspirit",
+        "tokenized_label": [
           "void",
           "spirit"
         ]
       },
       {
-        "normalized_name": "warlock",
-        "tokenized_name": [
+        "normalized_label": "warlock",
+        "tokenized_label": [
           "warlock"
         ]
       },
       {
-        "normalized_name": "weaver",
-        "tokenized_name": [
+        "normalized_label": "weaver",
+        "tokenized_label": [
           "weaver"
         ]
       },
       {
-        "normalized_name": "windranger",
-        "tokenized_name": [
+        "normalized_label": "windranger",
+        "tokenized_label": [
           "windranger"
         ]
       },
       {
-        "normalized_name": "winterwyvern",
-        "tokenized_name": [
+        "normalized_label": "winterwyvern",
+        "tokenized_label": [
           "winter",
           "wyvern"
         ]
       },
       {
-        "normalized_name": "witchdoctor",
-        "tokenized_name": [
+        "normalized_label": "witchdoctor",
+        "tokenized_label": [
           "witch",
           "doctor"
         ]
       },
       {
-        "normalized_name": "wraithking",
-        "tokenized_name": [
+        "normalized_label": "wraithking",
+        "tokenized_label": [
           "wraith",
           "king"
         ]
       },
       {
-        "normalized_name": "zeus",
-        "tokenized_name": [
+        "normalized_label": "zeus",
+        "tokenized_label": [
           "zeus"
         ]
       }

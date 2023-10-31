@@ -1,6 +1,6 @@
 {
   "commands": {
-    "sort_names": "none"
+    "sort_labels": "none"
   },
   "data": {
     "collection_id": "mrrobot-characters",
@@ -13,78 +13,78 @@
       "characters"
     ],
     "avatar_emoji": "\uD83E\uDD16",
-    "names": [
+    "labels": [
       {
-        "normalized_name": "elliotalderson"
+        "normalized_label": "elliotalderson"
       },
       {
-        "normalized_name": "mrrobot"
+        "normalized_label": "mrrobot"
       },
       {
-        "normalized_name": "angelamoss"
+        "normalized_label": "angelamoss"
       },
       {
-        "normalized_name": "tyrellwellick"
+        "normalized_label": "tyrellwellick"
       },
       {
-          "normalized_name": "darlenesnell"
+          "normalized_label": "darlenesnell"
       },
       {
-          "normalized_name": "dominiquedipierro"
+          "normalized_label": "dominiquedipierro"
       },
       {
-          "normalized_name": "phillipprice"
+          "normalized_label": "phillipprice"
       },
       {
-          "normalized_name": "whiterose"
+          "normalized_label": "whiterose"
       },
       {
-          "normalized_name": "joannawellick"
+          "normalized_label": "joannawellick"
       },
       {
-          "normalized_name": "leon"
+          "normalized_label": "leon"
       },
       {
-          "normalized_name": "irving"
+          "normalized_label": "irving"
       },
       {
-          "normalized_name": "terrycolby"
+          "normalized_label": "terrycolby"
       },
       {
-          "normalized_name": "gideon"
+          "normalized_label": "gideon"
       },
       {
-          "normalized_name": "shaylalyle"
+          "normalized_label": "shaylalyle"
       },
       {
-          "normalized_name": "rayheynes"
+          "normalized_label": "rayheynes"
       },
       {
-          "normalized_name": "trenton"
+          "normalized_label": "trenton"
       },
       {
-          "normalized_name": "mobley"
+          "normalized_label": "mobley"
       },
       {
-          "normalized_name": "romero"
+          "normalized_label": "romero"
       },
       {
-          "normalized_name": "billharper"
+          "normalized_label": "billharper"
       },
       {
-          "normalized_name": "frankbowman"
+          "normalized_label": "frankbowman"
       },
       {
-          "normalized_name": "lloydchung"
+          "normalized_label": "lloydchung"
       },
       {
-          "normalized_name": "santiago"
+          "normalized_label": "santiago"
       },
       {
-          "normalized_name": "susanjacobs"
+          "normalized_label": "susanjacobs"
       },
       {
-          "normalized_name": "scottknowles"
+          "normalized_label": "scottknowles"
       }
     ]
   }
