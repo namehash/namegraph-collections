@@ -81,34 +81,11 @@ def extract_names(csv_filename: str) -> list[dict]:
             names.append(
                 {
                     "normalized_name": name,
-                    # "tokenized_name": row[0]  # todo: row[0] for collections with unigram names? (like '0x17')
+                    # "tokenized_name": row[0]  # no tokenization here
                 }
             )
-            # non-trivial tokenization for collections below:
-            #
-            # 365-club.csv : april23th -> april, 25th
-            # country-leaders.csv : no tokenization (?) (names and surnames)
-            # english-animals.csv : no tokenization (?) (latin names of species)
-            # ens-date-club.csv : 4jan -> 4, jan
-            # ens-full-date-club.csv : 10december -> 10, december
-            # all collections with emojis only : treat as one token (?)
-            # flagcountry-club.csv : 🇦🇫afghanistan -> 🇦🇫, afghanistan
-            # got-houses-club.csv : houseblackberry -> houseblackfyre -> house, blackfyre
-            # harry-potter.csv : no tokenization (?) (names and surnames)
-            # kanye-ens-club.csv : no tokenization (?) (mix of unigrams and n>1grams)
-            # marvel-club.csv : no tokenization (?) (mix of names)
-            # naruto-names.csv : no tokenization (?) (names and surnames)
-            # playstation-console-series.csvc : no tokenization (?) (playstation4slim etc.)
-            # pre-punk-1k.csv, pre-punk-10k.csv, pre-punk-club.csv, pre-punk-spanish.csv : no tokenization (?) (mixed)
-            # psalms-club.csv : psalm100 -> psalm, 100
-            # skateboard-tricks.csv : no tokenization (?) (mix of trick and numbers)
-            # spanish-animals.csv : no tokenization (?) (latin/english names of species)
-            # the-cents-club.csv : 17cents -> 17, cents
-            # tolkien.csv : no tokenization (?) (names and surnames)
-            # tolkien.csv : no tokenization (?) (names and surnames)
-            # un-countries.csv : no tokenization (?) (some countries are multi-words like dominicanrepublic)
-            # us-999-club.csv : 🇺🇸998 -> 🇺🇸, 998
     return names
+
 
 def transform_collections(metadata: dict) -> list[dict]:
     metadata_per_collection = metadata['collections']
@@ -127,11 +104,37 @@ def transform_collections(metadata: dict) -> list[dict]:
     # assert all csv file names in metadata are lowercase
     assert all(r["csv"][0].islower() for r in metadata_per_collection), 'not all csv file names are lowercase!'
 
+    # non-trivial tokenization for collections below:
+    #
+    # 365-club.csv : april23th -> april, 25th
+    # country-leaders.csv : no tokenization (?) (names and surnames)
+    # english-animals.csv : no tokenization (?) (latin names of species)
+    # ens-date-club.csv : 4jan -> 4, jan
+    # ens-full-date-club.csv : 10december -> 10, december
+    # all collections with emojis only : treat as one token (?)
+    # flagcountry-club.csv : 🇦🇫afghanistan -> 🇦🇫, afghanistan
+    # got-houses-club.csv : houseblackberry -> houseblackfyre -> house, blackfyre
+    # harry-potter.csv : no tokenization (?) (names and surnames)
+    # kanye-ens-club.csv : no tokenization (?) (mix of unigrams and n>1grams)
+    # marvel-club.csv : no tokenization (?) (mix of names)
+    # naruto-names.csv : no tokenization (?) (names and surnames)
+    # playstation-console-series.csvc : no tokenization (?) (playstation4slim etc.)
+    # pre-punk-1k.csv, pre-punk-10k.csv, pre-punk-club.csv, pre-punk-spanish.csv : no tokenization (?) (mixed)
+    # psalms-club.csv : psalm100 -> psalm, 100
+    # skateboard-tricks.csv : no tokenization (?) (mix of trick and numbers)
+    # spanish-animals.csv : no tokenization (?) (latin/english names of species)
+    # the-cents-club.csv : 17cents -> 17, cents
+    # tolkien.csv : no tokenization (?) (names and surnames)
+    # tolkien.csv : no tokenization (?) (names and surnames)
+    # un-countries.csv : no tokenization (?) (some countries are multi-words like dominicanrepublic)
+    # us-999-club.csv : 🇺🇸998 -> 🇺🇸, 998
+
+    # not doing any tokenization here for now
 
     for c_meta_record in metadata_per_collection:
         transformed_collections.append(
             {
-                "commands": {"sort_names": "none"},  # todo: is none ok?
+                "commands": {"sort_names": "none"},
                 "data": {
                     "collection_id": c_meta_record["slug"],
                     "collection_name": c_meta_record["name"],
@@ -158,7 +161,7 @@ if __name__ == '__main__':
 
     clone_repo()
 
-    # wrong filenames fix
+    # required due to incorrect filenames in metadata (all are lowercase)
     rename_files_to_lowercase(raw_collections_path)
 
     meta = read_metadata()
