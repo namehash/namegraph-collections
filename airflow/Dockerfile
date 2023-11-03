@@ -56,4 +56,8 @@ RUN python -m namehash_common.generate_cache
 USER root
 COPY sql_parser.c /home/airflow
 RUN g++ -o /home/airflow/.local/bin/sql_parser /home/airflow/sql_parser.c
+<<<<<<< HEAD
 USER airflow
+=======
+USER airflow
+>>>>>>> c2b4aa4 (Clear files + file upload to S3)
