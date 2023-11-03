@@ -54,14 +54,14 @@ def extract_collections(id_title_path: str, members_type_path: str, mode: str, o
         try:
             if predicate in predicates:
                 article_name = id_title_db[wikidata_id]
-                
+
                 if mode == 'category':
                     if not article_name.startswith('Category:'):
                         continue
                 elif mode == 'list':
                     if article_name.startswith('Lists_of:'):
                         continue
-                
+
                 articles.append({
                     "item": wikidata_id,
                     "type": predicates[predicate],
@@ -120,9 +120,9 @@ with DAG(
         task_id='create-categories',
         python_callable=extract_collections,
         op_kwargs={
-            "id_title_path": ROCKS_DB_1_REVERSE.local_name(), 
-            "members_type_path": ROCKS_DB_3.local_name(), 
-            "mode": 'category', 
+            "id_title_path": ROCKS_DB_1_REVERSE.local_name(),
+            "members_type_path": ROCKS_DB_3.local_name(),
+            "mode": 'category',
             "output": CATEGORIES.local_name()
         },
         outlets=[CATEGORIES]
@@ -207,8 +207,6 @@ def extract_associations_from_tsv(input, output, mode, allowed_values):
             if(len(items) != 2):
                 continue
 
-            #items = [clean_id(e) for e in items]
-            
             if items[filter_column] in allowed_items:
                 output_csv.writerow(items)
 
@@ -283,9 +281,9 @@ with DAG(
         task_id='create-lists',
         python_callable=extract_collections,
         op_kwargs={
-            "id_title_path": ROCKS_DB_1_REVERSE.local_name(), 
-            "members_type_path": ROCKS_DB_3.local_name(), 
-            "mode": 'list', 
+            "id_title_path": ROCKS_DB_1_REVERSE.local_name(),
+            "members_type_path": ROCKS_DB_3.local_name(),
+            "mode": 'list',
             "output": LISTS.local_name(),
         },
         outlets=[LISTS],
@@ -437,8 +435,8 @@ with DAG(
         task_id='create-mapped-categories',
         python_callable=map_to_titles,
         op_kwargs={
-            "input": CATEGORY_PAGES.local_name(), 
-            "mode": 'category', 
+            "input": CATEGORY_PAGES.local_name(),
+            "mode": 'category',
             "output": MAPPED_CATEGORIES.local_name(),
             "wikimapper_path": WIKIMAPPER.local_name(),
         },
@@ -455,7 +453,7 @@ with DAG(
     create_sorted_categories_task = BashOperator(
         outlets=[SORTED_CATEGORIES],
         task_id="sort-categories",
-        bash_command=f"(head -n 1 {MAPPED_CATEGORIES.local_name()} && tail -n +2 {MAPPED_CATEGORIES.local_name()} | " + 
+        bash_command=f"(head -n 1 {MAPPED_CATEGORIES.local_name()} && tail -n +2 {MAPPED_CATEGORIES.local_name()} | " +
             f"LC_ALL=C sort) > {SORTED_CATEGORIES.local_name()}",
     )
 
@@ -490,8 +488,8 @@ with DAG(
         task_id='create-mapped-lists',
         python_callable=map_to_titles,
         op_kwargs={
-            "input": LIST_PAGES.local_name(), 
-            "mode": 'list', 
+            "input": LIST_PAGES.local_name(),
+            "mode": 'list',
             "output": MAPPED_LISTS.local_name(),
             "wikimapper_path": WIKIMAPPER.local_name(),
         },
@@ -508,7 +506,7 @@ with DAG(
     create_sorted_lists_task = BashOperator(
         outlets=[SORTED_LISTS],
         task_id="sort-lists",
-        bash_command=f"(head -n 1 {MAPPED_LISTS.local_name()} && tail -n +2 {MAPPED_LISTS.local_name()} | " + 
+        bash_command=f"(head -n 1 {MAPPED_LISTS.local_name()} && tail -n +2 {MAPPED_LISTS.local_name()} | " +
             f"LC_ALL=C sort) > {SORTED_LISTS.local_name()}",
     )
 
@@ -553,7 +551,7 @@ def reformat_csv_to_json(input, output, collections_json):
 
         print(list(collections.keys())[:10])
         prev_key = first_row[0]
-        prev_key = re.sub(r"_", " ", prev_key) 
+        prev_key = re.sub(r"_", " ", prev_key)
         members = [first_row[1]]
         for key, member in tqdm(reader):
             key = re.sub(r"_", " ", key)
@@ -629,7 +627,7 @@ def has_path_rocksdb(source: str, target: str, id_type_db: Rdict, same_as_db: Rd
             NO_PARENT += 1
         pass
     return any([finder.has_path_rocksdb_subclass(entry, target) for entry in entries])
-    
+
 
 def extract_article_name(article: str) -> str:
     """
@@ -746,7 +744,7 @@ with DAG(
         task_id='create-category-members',
         python_callable=reformat_csv_to_json,
         op_kwargs={
-            "input": SORTED_CATEGORIES.local_name(), 
+            "input": SORTED_CATEGORIES.local_name(),
             "output": CATEGORY_MEMBERS.local_name(),
             "collections_json": CATEGORIES.local_name(),
         },
@@ -756,7 +754,7 @@ with DAG(
     #### Task Documentation
     Change CSV **categories** file, to JSON format.
 
-    The task combines the Wikipedia names with Wikidata structured info resulting in a JSON object containing the info about the 
+    The task combines the Wikipedia names with Wikidata structured info resulting in a JSON object containing the info about the
     collection and its members.
     """
     )
@@ -765,7 +763,7 @@ with DAG(
         task_id='validate-category-members',
         python_callable=validate_members,
         op_kwargs={
-            "input": CATEGORY_MEMBERS.local_name(), 
+            "input": CATEGORY_MEMBERS.local_name(),
             "output": VALIDATED_CATEGORY_MEMBERS.local_name(),
             "title_id_path": ROCKS_DB_1.local_name(),
             "id_type_path": ROCKS_DB_2.local_name(),
@@ -824,7 +822,7 @@ with DAG(
         task_id='create-list-members',
         python_callable=reformat_csv_to_json,
         op_kwargs={
-            "input": SORTED_LISTS.local_name(), 
+            "input": SORTED_LISTS.local_name(),
             "output": LIST_MEMBERS.local_name(),
             "collections_json": LISTS.local_name(),
         },
@@ -834,7 +832,7 @@ with DAG(
     #### Task Documentation
     Change CSV **lists** file, to JSON format.
 
-    The task combines the Wikipedia names with Wikidata structured info resulting in a JSON object containing the info about the 
+    The task combines the Wikipedia names with Wikidata structured info resulting in a JSON object containing the info about the
     collection and its members.
     """
     )
@@ -843,7 +841,7 @@ with DAG(
         task_id='validate-list-members',
         python_callable=validate_members,
         op_kwargs={
-            "input": LIST_MEMBERS.local_name(), 
+            "input": LIST_MEMBERS.local_name(),
             "output": VALIDATED_LIST_MEMBERS.local_name(),
             "title_id_path": ROCKS_DB_1.local_name(),
             "id_type_path": ROCKS_DB_2.local_name(),
