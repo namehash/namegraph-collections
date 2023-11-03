@@ -13,6 +13,7 @@ data_path = Path.cwd() / 'data'
 repo_path = data_path / 'ens-collections'
 ens_collections_metadata_path = repo_path / 'ens-collections.json'
 raw_collections_path = repo_path / 'collections'
+whitelist_path = Path(__file__).resolve().parent / 'ens_clubs_whitelist_slugs.csv'
 
 
 def clone_repo():
@@ -50,6 +51,12 @@ def save_custom_collections(output_path: Path, custom_collections: list[dict]):
             writer.write(c)
 
 
+def filter_whitelist(metadata_list: list[dict]) -> list[dict]:
+    with open(whitelist_path, 'r') as f:
+        whitelist_slugs = [row[0] for row in csv.reader(f)]
+    return list(filter(lambda r: r['slug'] in whitelist_slugs, metadata_list))
+
+
 def remove_duplicates_from_metadata(metadata_list: list[dict]) -> list[dict]:
     slugs = [r["slug"] for r in metadata_list]
     slugs_set = set(slugs)
@@ -73,14 +80,9 @@ def extract_names(csv_filename: str) -> list[dict]:
     csv_path = raw_collections_path / csv_filename
     with open(csv_path, newline='', encoding='utf-8') as f:
         for row in csv.reader(f, delimiter=','):
-            name = row[0]
-            if csv_path.name in ('3-digits-hebrew-club.csv', 'male-firstname-arabic-club.csv'):
-                # (token, name) instead of (name, token) in csv
-                name = row[1]
-
             names.append(
                 {
-                    "normalized_name": name,
+                    "normalized_name": row[0],
                     # "tokenized_name": row[0]  # no tokenization here
                 }
             )
@@ -90,7 +92,7 @@ def extract_names(csv_filename: str) -> list[dict]:
 def transform_collections(metadata: dict) -> list[dict]:
     metadata_per_collection = metadata['collections']
 
-    transformed_collections = []
+    metadata_per_collection = filter_whitelist(metadata_per_collection)
 
     metadata_per_collection = remove_duplicates_from_metadata(metadata_per_collection)
 
@@ -130,6 +132,8 @@ def transform_collections(metadata: dict) -> list[dict]:
     # us-999-club.csv : 🇺🇸998 -> 🇺🇸, 998
 
     # not doing any tokenization here for now
+
+    transformed_collections = []
 
     for c_meta_record in metadata_per_collection:
         transformed_collections.append(
