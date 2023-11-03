@@ -1,0 +1,110 @@
+  {
+    "suffix": "locality)",
+    "count": 470,
+    "examples": [
+      "Abaga (rural locality)",
+      "Afanasyevsky (rural locality)",
+      "Aksenov (rural locality)",
+      "Alatyr (inhabited locality)",
+      "Aleksinsky (rural locality)"
+    ]
+  },
+  {
+    "suffix": "Georgia (country)",
+    "count": 442,
+    "examples": [
+      "10th-century people from Georgia (country)",
+      "10th-century poets from Georgia (country)",
+      "10th-century women from Georgia (country)",
+      "11th-century people from Georgia (country)",
+      "11th-century poets from Georgia (country)"
+    ]
+  },
+  {
+    "suffix": "(country)",
+    "count": 442,
+    "examples": [
+      "10th-century people from Georgia (country)",
+      "10th-century poets from Georgia (country)",
+      "10th-century women from Georgia (country)",
+      "11th-century people from Georgia (country)",
+      "11th-century poets from Georgia (country)"
+    ]
+  },
+  {
+    "suffix": "(state)",
+    "count": 424,
+    "examples": [
+      "AIDS-related deaths in New York (state)",
+      "AIDS-related deaths in Rio de Janeiro (state)",
+      "AIDS-related deaths in São Paulo (state)",
+      "Academics from New York (state)",
+      "Academics from Washington (state)"
+    ]
+  },
+  {
+    "suffix": "(musician)",
+    "count": 347,
+    "examples": [
+      "Albums arranged by Bob Cooper (musician)",
+      "Albums arranged by Bob Thompson (musician)",
+      "Albums arranged by Bobby Bryant (musician)",
+      "Albums arranged by Bobby Scott (musician)",
+      "Albums arranged by Buddy Cole (musician)"
+    ]
+  },
+  {
+    "suffix": "(district)",
+    "count": 264,
+    "examples": [
+      "People from Aachen (district)",
+      "People from Ahrweiler (district)",
+      "People from Altenkirchen (district)",
+      "People from Altötting (district)",
+      "People from Ansbach (district)"
+    ]
+  },
+  {
+    "suffix": "(people)",
+    "count": 163,
+    "examples": [
+      "16th-century publishers (people)",
+      "17th-century American newspaper publishers (people)",
+      "17th-century German newspaper publishers (people)",
+      "17th-century newspaper publishers (people)",
+      "17th-century publishers (people)"
+    ]
+  },
+  {
+    "suffix": "(city)",
+    "count": 109,
+    "examples": [
+      "People from Langley, British Columbia (city)",
+      "Actors from Dublin (city)",
+      "Actors from Rio de Janeiro (city)",
+      "Actresses from Cork (city)",
+      "Actresses from Dublin (city)"
+    ]
+  },
+  {
+    "suffix": "(songwriter)",
+    "count": 102,
+    "examples": [
+      "Albums conducted by Les Reed (songwriter)",
+      "Albums produced by Alex Hope (songwriter)",
+      "Albums produced by Bob Montgomery (songwriter)",
+      "Albums produced by Drew Pearson (songwriter)",
+      "Albums produced by Guy Fletcher (songwriter)"
+    ]
+  },
+  {
+    "suffix": "(singer)",
+    "count": 101,
+    "examples": [
+      "Albums produced by Ai (singer)",
+      "Albums produced by Allan Clarke (singer)",
+      "Albums produced by Bill Anderson (singer)",
+      "Albums produced by Chris Robinson (singer)",
+      "Albums produced by Hui (singer)"
+    ]
+  },

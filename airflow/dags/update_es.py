@@ -2,13 +2,15 @@ from textwrap import dedent
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-from elasticsearch import Elasticsearch
+from elasticsearch import Elasticsearch, ConflictError
 from elasticsearch.helpers import streaming_bulk, scan
 
 from typing import Optional, Any
 from datetime import datetime
 import jsonlines
 import hashlib
+import random
+import string
 import shutil
 import tqdm
 import time
@@ -128,17 +130,25 @@ def set_nested_field(document: dict, field: str, value: Any) -> None:
     placeholder[splitted_field[-1]] = value
 
 
+def generate_id(length: int = 12) -> str:
+    alphabet = string.ascii_letters + string.digits + '_'
+    return ''.join(random.choice(alphabet) for _ in range(length))
+
+
 def prepare_insert(collection: dict, index: str) -> Optional[dict[str, Any]]:
     if collection['metadata']['members_count'] > 10000:
         # print('Skipping collection with more than 10000 members')
         return None
 
+    es_id = generate_id()
+
     collection['template']['nonavailable_members_count'] += 1
     collection['template']['invalid_members_count'] += 1
 
     return {
-        '_op_type': 'index',
+        '_op_type': 'create',
         '_index': index,
+        '_id': es_id,
         '_source': collection
     }
 
@@ -305,6 +315,7 @@ def produce_update_operations(previous: str, current: str, output: str):
 
 def apply_operations(operations: str):
     es = connect_to_elasticsearch(CONFIG.elasticsearch)
+    conflict_ids = set()
     with jsonlines.open(operations, 'r') as reader:
         progress = tqdm.tqdm(unit="actions")
         successes = 0
@@ -321,6 +332,30 @@ def apply_operations(operations: str):
 
             if not ok:
                 print(action)
+                if 'create' in action and action['create']['status'] == 409:
+                    conflict_ids.add(action['create']['_id'])
+                    print('Conflict id', action['create']['_id'])
+
+    if not conflict_ids:
+        print('No conflicts encountered.')
+        return
+
+    print('Resolving conflicts...')
+    print(conflict_ids)
+
+    with jsonlines.open(operations, 'r') as reader:
+        for op in reader:
+            if op['_op_type'] == 'create' and op['_id'] in conflict_ids:
+                ok = False
+                source = op['_source']
+                while not ok:
+                    substitute_id = generate_id()
+                    try:
+                        es.create(index=CONFIG.elasticsearch.index, id=substitute_id, body=source)
+                        ok = True
+                    except ConflictError:
+                        ok = False
+                        print(f'Conflict again for {source["template"]["collection_wikidata_id"]} with {substitute_id}')
 
 
 def symlink(src: str, dst: str, force: bool = True):

@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - S3_ACCESS_KEY_ID=${S3_ACCESS_KEY_ID}
+      - S3_SECRET_ACCESS_KEY=${S3_SECRET_ACCESS_KEY}
+      - ES_HOST=${ES_HOST}
+      - ES_PORT=${ES_PORT}
+      - ES_USERNAME=${ES_USERNAME}
+      - ES_PASSWORD=${ES_PASSWORD}
+      - ES_INDEX=${ES_INDEX}
+    ports:
+      - 8456:8000
+    networks:
+      - airflow
+
+networks:
+  airflow:
+    name: airflow_default
+    external: true

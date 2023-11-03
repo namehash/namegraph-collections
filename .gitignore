@@ -10,5 +10,7 @@ research/parsing-wiki-dumps/*.rocksdb
 research/parsing-wiki-dumps/data
 
 research/learning-to-rank/*.jsonl
-
 research/custom-collections/ranks.json
+.ipynb_checkpoints/
+*.ipynb
+*.jsonl
