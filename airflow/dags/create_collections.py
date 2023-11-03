@@ -157,29 +157,6 @@ with DAG(
     create_categories_task >> create_allowed_categories_task
 
 
-def extract_associations_from_dump(input, output, mode, allowed_values):
-    if mode == 'category':
-        def clean_id(id):
-            return re.sub(r" ", "_", unquote(id.strip().removeprefix('Category:')))
-        column_names = ('cl_from', 'cl_to')
-        filter_column = 'cl_to'
-    elif mode == 'list':
-        def clean_id(id):
-            return id.strip()
-        column_names = ('pl_from', 'pl_title')
-        filter_column = 'pl_from'
-    else:
-        raise ValueError('either `categorylinks` or `pagelinks` flag must be set')
-
-    with open(allowed_values, 'r', encoding='utf-8') as f:
-        allowed_items = tuple([clean_id(id) for id in f.read().strip('\n').split('\n')])
-
-    WikipediaSqlDump(
-        input,
-        keep_column_names=column_names,
-        allowlists={filter_column: allowed_items}
-    ).to_csv(output)
-
 def extract_associations_from_tsv(input, output, mode, allowed_values):
     if mode == 'category':
         def clean_id(id):
