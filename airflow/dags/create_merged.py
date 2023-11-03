@@ -24,7 +24,7 @@ from hexbytes import HexBytes
 
 from create_collections import extract_article_name, VALIDATED_LIST_MEMBERS, VALIDATED_CATEGORY_MEMBERS
 from create_kv import ROCKS_DB_5, ROCKS_DB_4
-from create_inlets import CONFIG, WIKIMAPPER, QRANK, CollectionDataset, SUGGESTABLE_DOMAINS, AVATAR_EMOJI
+from create_inlets import CONFIG, WIKIMAPPER, QRANK, CollectionDataset, SUGGESTABLE_DOMAINS, AVATAR_EMOJI, upload_s3_file
 
 
 INTERESTING_SCORE_CACHE = CollectionDataset(f"{CONFIG.remote_prefix}interesting-score.rocks")
@@ -489,7 +489,7 @@ def compute_all_info(input, output, interesting_score_path, qrank_path, domains_
 
 
 with DAG(
-    "collection-all-info",
+    "collections-all-info",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -1026,7 +1026,7 @@ def remove_duplicates(input, output):
 
 
 with DAG(
-    "merge",
+    "collections-merge",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -1055,6 +1055,25 @@ with DAG(
         """\
     #### Task Documentation
     Merge list and category members.
+    """
+    )
+
+
+    upload_merged_task = PythonOperator(
+        task_id="backup-list-members",
+        python_callable=upload_s3_file,
+        op_kwargs={
+            "bucket": CONFIG.s3_bucket_upload,
+            "local_path": MERGED_COLLECTIONS.local_name(),
+            "remote_path": MERGED_COLLECTIONS.s3_name(),
+        },
+    )
+
+    upload_merged_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+
+    Upload merged collection members data to S3.
     """
     )
 
@@ -1106,4 +1125,4 @@ with DAG(
     """
     )
 
-    merge_lists_and_categories_task >> remove_letters_task >> remove_duplicates_task >> final_processing_task
+    merge_lists_and_categories_task >> upload_merged_task >> remove_letters_task >> remove_duplicates_task >> final_processing_task
