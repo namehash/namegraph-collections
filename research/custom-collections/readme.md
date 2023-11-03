@@ -13,7 +13,7 @@ Custom collections should be stored in a JSONL file, where each separate line is
     "collection_description": "optional string",
     "collection_keywords": "list of strings, may be empty",
     "avatar_emoji": "optional string",
-    "names": [
+    "labels": [
       {
         "normalized_name": "string",
         "tokenized_name": "optional string"

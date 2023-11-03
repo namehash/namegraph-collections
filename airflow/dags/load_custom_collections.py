@@ -71,6 +71,7 @@ class Config:
     run_interval: timedelta
     s3: S3Config
     elasticsearch: ElasticsearchConfig
+    generator_s3_bucket: str
 
 
 CONFIG = Config(
@@ -82,8 +83,6 @@ CONFIG = Config(
     run_interval=timedelta(days=3),  # TODO ??
     s3=S3Config(
         bucket="mhaltiuk-custom-collection-templates",
-        access_key_id=Variable.get("s3_access_key_id", "minio"),
-        secret_access_key=Variable.get("s3_secret_access_key", "minio123"),
         region_name="us-east-1",
     ),
     elasticsearch=ElasticsearchConfig(
@@ -94,6 +93,7 @@ CONFIG = Config(
         username=Variable.get("es_username", "elastic"),
         password=Variable.get("es_password", "changeme"),
     )
+    generator_s3_bucket="prod-name-generator-namegeneratori-inputss3bucket-c26jqo3twfxy"
 )
 
 
@@ -115,12 +115,7 @@ DEFAULT_MEMBER_RANK = 10_000_000
 
 
 def download_s3_file(bucket: str, remote_file: str, local_file: str):
-    s3 = boto3.client(
-        "s3",
-        aws_access_key_id=CONFIG.s3.access_key_id,
-        aws_secret_access_key=CONFIG.s3.secret_access_key,
-        region_name=CONFIG.s3.region_name
-    )
+    s3 = boto3.client("s3")
     s3.download_file(bucket, remote_file, local_file)
 
 
@@ -131,7 +126,7 @@ def tokenize_name(name: str) -> list[str]:
 
 @dataclass
 class Member:
-    tokenized: list[str]  # FIXME what if there is no tokenized name? how do we spot it? do we use our tokenizer then?
+    tokenized: list[str]
 
     @property
     def curated(self) -> str:
@@ -393,7 +388,7 @@ with DAG(
         task_id="download-suggestable-domains",
         python_callable=download_s3_file,
         op_kwargs={
-            "bucket": "prod-name-generator-namegeneratori-inputss3bucket-c26jqo3twfxy",
+            "bucket": CONFIG.generator_s3_bucket,
             "remote_file": SUGGESTABLE_DOMAINS.name(),
             "local_file": SUGGESTABLE_DOMAINS.local_name()
         },
@@ -410,7 +405,7 @@ with DAG(
         task_id="download-avatars-emojis",
         python_callable=download_s3_file,
         op_kwargs={
-            "bucket": "prod-name-generator-namegeneratori-inputss3bucket-c26jqo3twfxy",
+            "bucket": CONFIG.generator_s3_bucket,
             "remote_file": AVATAR_EMOJI.name(),
             "local_file": AVATAR_EMOJI.local_name()
         },
