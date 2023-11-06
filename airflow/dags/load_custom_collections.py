@@ -23,7 +23,6 @@ import numpy as np
 import wordninja
 
 from create_inlets import (
-    download_suggestable_domains,
     CollectionDataset,
 )
 from create_merged import (
@@ -46,8 +45,6 @@ from update_es import (
 @dataclass
 class S3Config:
     bucket: str
-    access_key_id: str
-    secret_access_key: str
     region_name: str
 
 
@@ -92,7 +89,7 @@ CONFIG = Config(
         index=Variable.get("es_index", "collection-templates-1"),
         username=Variable.get("es_username", "elastic"),
         password=Variable.get("es_password", "changeme"),
-    )
+    ),
     generator_s3_bucket="prod-name-generator-namegeneratori-inputss3bucket-c26jqo3twfxy"
 )
 

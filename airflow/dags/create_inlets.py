@@ -500,24 +500,6 @@ with DAG(
     """
     )
 
-    remove_files_task >> create_date_file_task >> create_buckup_directory_task
-
-with DAG(
-    "setup-environment-test",
-    default_args={
-        "email": [CONFIG.email],
-        "email_on_failure": False,
-        "email_on_retry": False,
-        "retries": 1,
-        "cwd": CONFIG.local_prefix,
-        "start_date": CONFIG.start_date,
-    },
-    description="TEST TASK",
-    start_date=CONFIG.start_date,
-    catchup=False,
-    tags=["prepare"],
-    schedule=CONFIG.run_interval,
-) as dag:
     clear_dags_task = PythonOperator(
         task_id="clear-dags",
         python_callable=clear_dags,
@@ -532,3 +514,6 @@ with DAG(
     Clear status of all DAGs related to collection templates.
     """
     )
+
+    remove_files_task >> create_date_file_task >> create_buckup_directory_task >> clear_dags_task
+
