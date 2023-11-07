@@ -1124,5 +1124,23 @@ with DAG(
     Create final representation of collections.
     """
     )
+    
+    upload_final_task = PythonOperator(
+        task_id="backup-final-merged",
+        python_callable=upload_s3_file,
+        op_kwargs={
+            "bucket": CONFIG.s3_bucket_upload,
+            "local_path": MERGED_FINAL.local_name(),
+            "remote_path": MERGED_FINAL.s3_name(),
+        },
+    )
 
-    merge_lists_and_categories_task >> upload_merged_task >> remove_letters_task >> remove_duplicates_task >> final_processing_task
+    upload_final_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+
+    Upload final collection members data to S3.
+    """
+    )
+
+    merge_lists_and_categories_task >> upload_merged_task >> remove_letters_task >> remove_duplicates_task >> final_processing_task >> upload_final_task
