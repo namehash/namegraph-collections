@@ -1060,7 +1060,7 @@ with DAG(
 
 
     upload_merged_task = PythonOperator(
-        task_id="backup-list-members",
+        task_id="backup-merged-collection-members",
         python_callable=upload_s3_file,
         op_kwargs={
             "bucket": CONFIG.s3_bucket_upload,
