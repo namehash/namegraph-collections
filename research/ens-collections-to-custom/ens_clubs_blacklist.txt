@@ -5,8 +5,6 @@ pre-punk-1k
 pre-punk-club
 pre-punk-digits
 pre-punk-spanish
-100k-club
-10k-club
 2-hex-club  # duplicate with 0x99-club
 3-hex-club  # duplicate with 0x999-club
 3-digit-palindromes
@@ -22,13 +20,13 @@ pre-punk-spanish
 5-letter-palindromes
 6-digit-palindromes
 6-letter-palindromes
-999-club
 arabic-10k-club
 bip39-club
 cn-10k-club
 double-hyphens-lv-lv
 double-hyphens-vv-vv
-english-nouns  # I left english-adjectives in whitelist
+english-adjectives
+english-nouns
 english-verbs
 ens-full-date-club
 hindi-10k-club
@@ -46,3 +44,9 @@ negative-arabic-99-club
 negative-arabic-999-club
 spanish-nouns
 spanish-verbs
+
+male-firstnames
+female-firstnames
+surnames
+un-capital-cities
+un-countries
