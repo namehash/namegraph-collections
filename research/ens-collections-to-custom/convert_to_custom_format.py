@@ -138,7 +138,11 @@ def transform_collections(metadata: dict) -> list[dict]:
     for c_meta_record in metadata_per_collection:
         transformed_collections.append(
             {
-                "commands": {"sort_names": "none"},
+                "commands": {
+                    "sort_names": "none",
+                    "collection_rank": 300_000,
+                    "member_rank": 2_000_000,
+                },
                 "data": {
                     "collection_id": c_meta_record["slug"],
                     "collection_name": c_meta_record["name"],
