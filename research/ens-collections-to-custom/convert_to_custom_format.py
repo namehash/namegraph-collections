@@ -82,8 +82,8 @@ def extract_names(csv_filename: str) -> list[dict]:
         for row in csv.reader(f, delimiter=','):
             names.append(
                 {
-                    "normalized_name": row[0],
-                    # "tokenized_name": row[0]  # no tokenization here
+                    "normalized_label": row[0],
+                    # "tokenized_label": row[0]  # no tokenization here
                 }
             )
     return names
@@ -149,7 +149,7 @@ def transform_collections(metadata: dict) -> list[dict]:
                     "collection_description": c_meta_record["description"],
                     "collection_keywords": ["ens-clubs"],
                     # "avatar_emoji": None,
-                    "names": extract_names(csv_filename=c_meta_record["csv"][0])
+                    "labels": extract_names(csv_filename=c_meta_record["csv"][0])
                 }
             }
         )
