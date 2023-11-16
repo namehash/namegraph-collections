@@ -192,7 +192,7 @@ def prepare_custom_collection(
         'normalized_name': member.curated,
         'tokenized_name': member.tokenized,
         'system_interesting_score': interesting_score_function(member.curated)[0],
-        'rank': DEFAULT_MEMBER_RANK,
+        'rank': commands.get('member_rank', DEFAULT_MEMBER_RANK),
         'cached_status': domains.get(member.curated, None),
         'namehash': normal_name_to_hash_function(member.curated + '.eth'),
         # 'translations_count': None,
@@ -263,7 +263,7 @@ def prepare_custom_collection(
             'collection_wikipedia_link': None,
             'collection_wikidata_id': None,
             'collection_types': [],
-            'collection_rank': DEFAULT_COLLECTION_RANK,
+            'collection_rank': commands.get('collection_rank', DEFAULT_COLLECTION_RANK),
             'translations_count': None,
             'has_related': None,
 
