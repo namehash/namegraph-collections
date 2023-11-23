@@ -123,11 +123,8 @@ def tokenize_name(name: str) -> list[str]:
 
 @dataclass
 class Member:
+    normalized: str
     tokenized: list[str]
-
-    @property
-    def curated(self) -> str:
-        return ''.join(self.tokenized)
 
 
 @dataclass
@@ -148,24 +145,14 @@ def generate_random_banner_image():
 
 def prepare_custom_collection(
         collection_json: dict,
-        domains_path: str,
-        interesting_score_path: str,
-        force_normalize_path: str,
-        name_to_hash_path: str,
-        avatar_emoji_path: str,
+        inspector: Inspector,
+        domains: dict[str, str],
+        interesting_score_function: Any,
+        force_normalize_function: Any,
+        normal_name_to_hash_function: Any,
+        avatar_emoji: AvatarEmoji,
 ) -> dict:
 
-    GlobalHydra.instance().clear()
-    initialize_config_module(version_base=None, config_module='inspector_conf')
-    config = compose(config_name="prod_config")
-    inspector = Inspector(config)
-
-    domains = read_csv_domains(domains_path)
-    interesting_score_function = configure_interesting_score(inspector, interesting_score_path)
-    force_normalize_function = configure_force_normalize(force_normalize_path)
-    normal_name_to_hash_function = configure_nomrmal_name_to_hash(name_to_hash_path)
-
-    avatar_emoji = AvatarEmoji(avatar_emoji_path)  # FIXME how do we get type?
     current_time = time.time() * 1000
 
     collection_data = collection_json['data']
@@ -173,9 +160,17 @@ def prepare_custom_collection(
 
     members = []
     for member_json in collection_data['labels']:
+        if "normalized_label" not in member_json and "tokenized_label" not in member_json:
+            print(f"Skipping member {member_json['label']} because it has no normalized_label and no tokenized_label")
+            continue
+
+        if "normalized_label" not in member_json:
+            member_json["normalized_label"] = ''.join(member_json["tokenized_label"])
         if "tokenized_label" not in member_json:
             member_json["tokenized_label"] = tokenize_name(member_json["normalized_label"])
-        member = Member(tokenized=member_json['tokenized_label'])
+
+        member = Member(normalized=member_json['normalized_label'],
+                        tokenized=member_json['tokenized_label'])
         members.append(member)
 
     collection = Collection(
@@ -189,12 +184,12 @@ def prepare_custom_collection(
     )
 
     template_names = [{
-        'normalized_name': member.curated,
+        'normalized_name': member.normalized,
         'tokenized_name': member.tokenized,
-        'system_interesting_score': interesting_score_function(member.curated)[0],
+        'system_interesting_score': interesting_score_function(member.normalized)[0],
         'rank': commands.get('member_rank', DEFAULT_MEMBER_RANK),
-        'cached_status': domains.get(member.curated, None),
-        'namehash': normal_name_to_hash_function(member.curated + '.eth'),
+        'cached_status': domains.get(member.normalized, None),
+        'namehash': normal_name_to_hash_function(member.normalized + '.eth'),
         # 'translations_count': None,
     } for member in collection.members]
 
@@ -309,15 +304,28 @@ def prepare_custom_collections(
         name_to_hash_path: str,
         avatar_emoji_path: str,
 ):
+    GlobalHydra.instance().clear()
+    initialize_config_module(version_base=None, config_module='inspector_conf')
+    config = compose(config_name="prod_config")
+    inspector = Inspector(config)
+
+    domains = read_csv_domains(domains_path)
+    interesting_score_function = configure_interesting_score(inspector, interesting_score_path)
+    force_normalize_function = configure_force_normalize(force_normalize_path)
+    normal_name_to_hash_function = configure_nomrmal_name_to_hash(name_to_hash_path)
+
+    avatar_emoji = AvatarEmoji(avatar_emoji_path)  # FIXME how do we get type?
+
     with jsonlines.open(input_file, 'r') as reader, jsonlines.open(output_file, 'w') as writer:
         for collection_json in reader:
             prepared_collection = prepare_custom_collection(
                 collection_json=collection_json,
-                domains_path=domains_path,
-                interesting_score_path=interesting_score_path,
-                force_normalize_path=force_normalize_path,
-                name_to_hash_path=name_to_hash_path,
-                avatar_emoji_path=avatar_emoji_path,
+                inspector=inspector,
+                domains=domains,
+                interesting_score_function=interesting_score_function,
+                force_normalize_function=force_normalize_function,
+                normal_name_to_hash_function=normal_name_to_hash_function,
+                avatar_emoji=avatar_emoji,
             )
             writer.write(prepared_collection)
 
