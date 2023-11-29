@@ -1,12 +1,15 @@
 from typing import Optional, Any
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
+from functools import lru_cache
 from operator import itemgetter
 from textwrap import dedent
 import jsonlines
 import random
+import emoji
 import time
 import os
+import re
 
 from airflow import DAG
 from airflow.models import Variable
@@ -116,9 +119,44 @@ def download_s3_file(bucket: str, remote_file: str, local_file: str):
     s3.download_file(bucket, remote_file, local_file)
 
 
+_SPLIT_RE = re.compile("([a-zA-Z0-9']+|\d+)", re.UNICODE)
+_SIMPLE_RE = re.compile("^[a-zA-Z0-9']+$")
+
+
+def emoji_split(name: str) -> list[tuple[str, bool]]:
+    token = []
+    for c in emoji.tokenizer.tokenize(name, keep_zwj=True):
+        if isinstance(c.value, emoji.EmojiMatch):
+            if token:
+                yield ''.join(token), False
+                token = []
+            yield c.chars, True
+        else:
+            token.append(c.chars)
+    if token:
+        yield ''.join(token), False
+
+
+@lru_cache(64)
+def _tokenizer(name: str) -> list[str]:
+    tokens = []
+    for token, is_emoji in emoji_split(name):
+        if is_emoji:
+            tokens.append(token)
+        else:
+            split_name = _SPLIT_RE.split(token)
+            for token2 in split_name:
+                if not token2:
+                    continue
+                if _SIMPLE_RE.match(token2):
+                    tokens.extend(wordninja.split(token2))
+                else:
+                    tokens.append(token2)
+    return tokens
+
+
 def tokenize_name(name: str) -> list[str]:
-    # TODO substitute with our dictionary from NameGenerator
-    return wordninja.split(name)
+    return _tokenizer(name)
 
 
 @dataclass
@@ -275,9 +313,9 @@ def prepare_custom_collection(
             'members_system_interesting_score_mean': max(np.mean(interesting_scores), MIN_VALUE),
             'members_system_interesting_score_median': max(np.median(interesting_scores), MIN_VALUE),
             'valid_members_count': len(collection.members),
-            'invalid_members_count': 1,  # rank features cannot be zero  # TODO ??
-            'valid_members_ratio': 1.0,  # TODO ??
-            'nonavailable_members_count': nonavailable_members,
+            'invalid_members_count': 1,  # rank features cannot be zero
+            'valid_members_ratio': 1.0,
+            'nonavailable_members_count': nonavailable_members + 1,  # rank features cannot be zero
             'nonavailable_members_ratio': max(nonavailable_members / len(collection.members), MIN_VALUE),
 
             'is_merged': False,
@@ -341,12 +379,14 @@ def produce_custom_update_operations(custom_collections_path: str, custom_update
 
             if metadata_id in ids_mapping:
                 # there are not that many custom collections, thus no need for optimization - executing a full update
-                writer.write(prepare_full_update(
+                full_update = prepare_full_update(
                     ids_mapping[metadata_id],
                     collection,
                     UPDATING_FIELDS,  # TODO this may change eventually
                     CONFIG.elasticsearch.index
-                ))
+                )
+                if full_update is not None:
+                    writer.write(full_update)
             else:
                 writer.write({
                     '_index': CONFIG.elasticsearch.index,
