@@ -1,0 +1,1448 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "male-firstname-arabic-club",
+        "collection_name": "Male Firstname Arabic club",
+        "collection_description": "Arabic Male First Names",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "أبو"
+            },
+            {
+                "normalized_label": "أبوبكر"
+            },
+            {
+                "normalized_label": "أثير"
+            },
+            {
+                "normalized_label": "أحمد"
+            },
+            {
+                "normalized_label": "أدريس"
+            },
+            {
+                "normalized_label": "أديب"
+            },
+            {
+                "normalized_label": "أزهر"
+            },
+            {
+                "normalized_label": "أسامة"
+            },
+            {
+                "normalized_label": "أسد"
+            },
+            {
+                "normalized_label": "أسعد"
+            },
+            {
+                "normalized_label": "أصيل"
+            },
+            {
+                "normalized_label": "أكرم"
+            },
+            {
+                "normalized_label": "أمجد"
+            },
+            {
+                "normalized_label": "أمير"
+            },
+            {
+                "normalized_label": "أمين"
+            },
+            {
+                "normalized_label": "أنس"
+            },
+            {
+                "normalized_label": "أنور"
+            },
+            {
+                "normalized_label": "أنيس"
+            },
+            {
+                "normalized_label": "أهاب"
+            },
+            {
+                "normalized_label": "أوس"
+            },
+            {
+                "normalized_label": "أيمن"
+            },
+            {
+                "normalized_label": "ابراهيم"
+            },
+            {
+                "normalized_label": "ابو"
+            },
+            {
+                "normalized_label": "احسان"
+            },
+            {
+                "normalized_label": "ادریس"
+            },
+            {
+                "normalized_label": "ادم"
+            },
+            {
+                "normalized_label": "اسحق"
+            },
+            {
+                "normalized_label": "اسماعيل"
+            },
+            {
+                "normalized_label": "اشرف"
+            },
+            {
+                "normalized_label": "امتياز"
+            },
+            {
+                "normalized_label": "اميل"
+            },
+            {
+                "normalized_label": "انطون"
+            },
+            {
+                "normalized_label": "اياد"
+            },
+            {
+                "normalized_label": "ايهاب"
+            },
+            {
+                "normalized_label": "ايوب"
+            },
+            {
+                "normalized_label": "بارق"
+            },
+            {
+                "normalized_label": "باسل"
+            },
+            {
+                "normalized_label": "باسم"
+            },
+            {
+                "normalized_label": "باقر"
+            },
+            {
+                "normalized_label": "باهر"
+            },
+            {
+                "normalized_label": "بدر"
+            },
+            {
+                "normalized_label": "بديع"
+            },
+            {
+                "normalized_label": "بركات"
+            },
+            {
+                "normalized_label": "برهان"
+            },
+            {
+                "normalized_label": "بشائر"
+            },
+            {
+                "normalized_label": "بشار"
+            },
+            {
+                "normalized_label": "بشارة"
+            },
+            {
+                "normalized_label": "بشير"
+            },
+            {
+                "normalized_label": "بكر"
+            },
+            {
+                "normalized_label": "بلال"
+            },
+            {
+                "normalized_label": "بنان"
+            },
+            {
+                "normalized_label": "بندر"
+            },
+            {
+                "normalized_label": "بهجت"
+            },
+            {
+                "normalized_label": "بول"
+            },
+            {
+                "normalized_label": "تحسين"
+            },
+            {
+                "normalized_label": "تركي"
+            },
+            {
+                "normalized_label": "تكرار"
+            },
+            {
+                "normalized_label": "توفيق"
+            },
+            {
+                "normalized_label": "تيسير"
+            },
+            {
+                "normalized_label": "ثابت"
+            },
+            {
+                "normalized_label": "ثامر"
+            },
+            {
+                "normalized_label": "جابر"
+            },
+            {
+                "normalized_label": "جاد"
+            },
+            {
+                "normalized_label": "جاسر"
+            },
+            {
+                "normalized_label": "جاسم"
+            },
+            {
+                "normalized_label": "جبار"
+            },
+            {
+                "normalized_label": "جبر"
+            },
+            {
+                "normalized_label": "جبريل"
+            },
+            {
+                "normalized_label": "جعفر"
+            },
+            {
+                "normalized_label": "جلال"
+            },
+            {
+                "normalized_label": "جليل"
+            },
+            {
+                "normalized_label": "جمال"
+            },
+            {
+                "normalized_label": "جمعة"
+            },
+            {
+                "normalized_label": "جميل"
+            },
+            {
+                "normalized_label": "جنيد"
+            },
+            {
+                "normalized_label": "جواد"
+            },
+            {
+                "normalized_label": "جورج"
+            },
+            {
+                "normalized_label": "حاتم"
+            },
+            {
+                "normalized_label": "حارث"
+            },
+            {
+                "normalized_label": "حازم"
+            },
+            {
+                "normalized_label": "حافظ"
+            },
+            {
+                "normalized_label": "حامد"
+            },
+            {
+                "normalized_label": "حبيب"
+            },
+            {
+                "normalized_label": "حذيفة"
+            },
+            {
+                "normalized_label": "حرب"
+            },
+            {
+                "normalized_label": "حسام"
+            },
+            {
+                "normalized_label": "حسان"
+            },
+            {
+                "normalized_label": "حسن"
+            },
+            {
+                "normalized_label": "حسنين"
+            },
+            {
+                "normalized_label": "حسيب"
+            },
+            {
+                "normalized_label": "حسين"
+            },
+            {
+                "normalized_label": "حفيظ"
+            },
+            {
+                "normalized_label": "حكم"
+            },
+            {
+                "normalized_label": "حكيم"
+            },
+            {
+                "normalized_label": "حليم"
+            },
+            {
+                "normalized_label": "حماد"
+            },
+            {
+                "normalized_label": "حمادة"
+            },
+            {
+                "normalized_label": "حمد"
+            },
+            {
+                "normalized_label": "حمدان"
+            },
+            {
+                "normalized_label": "حمدي"
+            },
+            {
+                "normalized_label": "حمزة"
+            },
+            {
+                "normalized_label": "حمود"
+            },
+            {
+                "normalized_label": "حمودة"
+            },
+            {
+                "normalized_label": "حميد"
+            },
+            {
+                "normalized_label": "حميدي"
+            },
+            {
+                "normalized_label": "حنا"
+            },
+            {
+                "normalized_label": "حنيفة"
+            },
+            {
+                "normalized_label": "حيدر"
+            },
+            {
+                "normalized_label": "خضر"
+            },
+            {
+                "normalized_label": "خطاب"
+            },
+            {
+                "normalized_label": "خطيب"
+            },
+            {
+                "normalized_label": "خلدون"
+            },
+            {
+                "normalized_label": "خلف"
+            },
+            {
+                "normalized_label": "خلفان"
+            },
+            {
+                "normalized_label": "خليفة"
+            },
+            {
+                "normalized_label": "خليل"
+            },
+            {
+                "normalized_label": "خورشيد"
+            },
+            {
+                "normalized_label": "خيري"
+            },
+            {
+                "normalized_label": "دانيال"
+            },
+            {
+                "normalized_label": "داود"
+            },
+            {
+                "normalized_label": "درويش"
+            },
+            {
+                "normalized_label": "دياب"
+            },
+            {
+                "normalized_label": "ديفيد"
+            },
+            {
+                "normalized_label": "رأفت"
+            },
+            {
+                "normalized_label": "رؤوف"
+            },
+            {
+                "normalized_label": "رائد"
+            },
+            {
+                "normalized_label": "راتب"
+            },
+            {
+                "normalized_label": "راجح"
+            },
+            {
+                "normalized_label": "راجي"
+            },
+            {
+                "normalized_label": "راسم"
+            },
+            {
+                "normalized_label": "راشد"
+            },
+            {
+                "normalized_label": "رافي"
+            },
+            {
+                "normalized_label": "راكان"
+            },
+            {
+                "normalized_label": "رامز"
+            },
+            {
+                "normalized_label": "رامي"
+            },
+            {
+                "normalized_label": "رباح"
+            },
+            {
+                "normalized_label": "رحيم"
+            },
+            {
+                "normalized_label": "رزاق"
+            },
+            {
+                "normalized_label": "رسلان"
+            },
+            {
+                "normalized_label": "رشاد"
+            },
+            {
+                "normalized_label": "رشدي"
+            },
+            {
+                "normalized_label": "رشيد"
+            },
+            {
+                "normalized_label": "رضا"
+            },
+            {
+                "normalized_label": "رضوان"
+            },
+            {
+                "normalized_label": "رعد"
+            },
+            {
+                "normalized_label": "رغم"
+            },
+            {
+                "normalized_label": "رفيق"
+            },
+            {
+                "normalized_label": "رمزي"
+            },
+            {
+                "normalized_label": "رمضان"
+            },
+            {
+                "normalized_label": "رياض"
+            },
+            {
+                "normalized_label": "ريان"
+            },
+            {
+                "normalized_label": "زاهد"
+            },
+            {
+                "normalized_label": "زاهر"
+            },
+            {
+                "normalized_label": "زاهي"
+            },
+            {
+                "normalized_label": "زايد"
+            },
+            {
+                "normalized_label": "زبير"
+            },
+            {
+                "normalized_label": "زكريا"
+            },
+            {
+                "normalized_label": "زكي"
+            },
+            {
+                "normalized_label": "زهران"
+            },
+            {
+                "normalized_label": "زهير"
+            },
+            {
+                "normalized_label": "زياد"
+            },
+            {
+                "normalized_label": "زيد"
+            },
+            {
+                "normalized_label": "زيدان"
+            },
+            {
+                "normalized_label": "زيف"
+            },
+            {
+                "normalized_label": "زين"
+            },
+            {
+                "normalized_label": "سابا"
+            },
+            {
+                "normalized_label": "ساجد"
+            },
+            {
+                "normalized_label": "ساحق"
+            },
+            {
+                "normalized_label": "ساري"
+            },
+            {
+                "normalized_label": "سالم"
+            },
+            {
+                "normalized_label": "سامح"
+            },
+            {
+                "normalized_label": "سامي"
+            },
+            {
+                "normalized_label": "ساهر"
+            },
+            {
+                "normalized_label": "ستار"
+            },
+            {
+                "normalized_label": "ستيفن"
+            },
+            {
+                "normalized_label": "سجد"
+            },
+            {
+                "normalized_label": "سراج"
+            },
+            {
+                "normalized_label": "سرمد"
+            },
+            {
+                "normalized_label": "سطام"
+            },
+            {
+                "normalized_label": "سعد"
+            },
+            {
+                "normalized_label": "سعود"
+            },
+            {
+                "normalized_label": "سعيد"
+            },
+            {
+                "normalized_label": "سفيان"
+            },
+            {
+                "normalized_label": "سلامة"
+            },
+            {
+                "normalized_label": "سلطان"
+            },
+            {
+                "normalized_label": "سلمان"
+            },
+            {
+                "normalized_label": "سلوان"
+            },
+            {
+                "normalized_label": "سليم"
+            },
+            {
+                "normalized_label": "سليمان"
+            },
+            {
+                "normalized_label": "سمير"
+            },
+            {
+                "normalized_label": "سنان"
+            },
+            {
+                "normalized_label": "سهل"
+            },
+            {
+                "normalized_label": "سهيل"
+            },
+            {
+                "normalized_label": "سوداد"
+            },
+            {
+                "normalized_label": "سومر"
+            },
+            {
+                "normalized_label": "سيد"
+            },
+            {
+                "normalized_label": "سيف"
+            },
+            {
+                "normalized_label": "شار"
+            },
+            {
+                "normalized_label": "شافي"
+            },
+            {
+                "normalized_label": "شاكر"
+            },
+            {
+                "normalized_label": "شاهر"
+            },
+            {
+                "normalized_label": "شاهين"
+            },
+            {
+                "normalized_label": "شباب"
+            },
+            {
+                "normalized_label": "شبير"
+            },
+            {
+                "normalized_label": "شرف"
+            },
+            {
+                "normalized_label": "شريف"
+            },
+            {
+                "normalized_label": "شعبان"
+            },
+            {
+                "normalized_label": "شعيب"
+            },
+            {
+                "normalized_label": "شفيق"
+            },
+            {
+                "normalized_label": "شما"
+            },
+            {
+                "normalized_label": "شهاب"
+            },
+            {
+                "normalized_label": "شوكت"
+            },
+            {
+                "normalized_label": "شيخ"
+            },
+            {
+                "normalized_label": "صائب"
+            },
+            {
+                "normalized_label": "صابر"
+            },
+            {
+                "normalized_label": "صادق"
+            },
+            {
+                "normalized_label": "صالح"
+            },
+            {
+                "normalized_label": "صباح"
+            },
+            {
+                "normalized_label": "صبحي"
+            },
+            {
+                "normalized_label": "صبري"
+            },
+            {
+                "normalized_label": "صدام"
+            },
+            {
+                "normalized_label": "صديق"
+            },
+            {
+                "normalized_label": "صفاء"
+            },
+            {
+                "normalized_label": "صفد"
+            },
+            {
+                "normalized_label": "صفوان"
+            },
+            {
+                "normalized_label": "صلاح"
+            },
+            {
+                "normalized_label": "صمد"
+            },
+            {
+                "normalized_label": "صهيب"
+            },
+            {
+                "normalized_label": "ضرغام"
+            },
+            {
+                "normalized_label": "طارق"
+            },
+            {
+                "normalized_label": "طالب"
+            },
+            {
+                "normalized_label": "طاهر"
+            },
+            {
+                "normalized_label": "طحنون"
+            },
+            {
+                "normalized_label": "طرفة"
+            },
+            {
+                "normalized_label": "طلال"
+            },
+            {
+                "normalized_label": "طلحة"
+            },
+            {
+                "normalized_label": "طيب"
+            },
+            {
+                "normalized_label": "طيف"
+            },
+            {
+                "normalized_label": "عادل"
+            },
+            {
+                "normalized_label": "عاصم"
+            },
+            {
+                "normalized_label": "عاطف"
+            },
+            {
+                "normalized_label": "عاكف"
+            },
+            {
+                "normalized_label": "عامر"
+            },
+            {
+                "normalized_label": "عايد"
+            },
+            {
+                "normalized_label": "عايش"
+            },
+            {
+                "normalized_label": "عباس"
+            },
+            {
+                "normalized_label": "عبد"
+            },
+            {
+                "normalized_label": "عبدالامير"
+            },
+            {
+                "normalized_label": "عبدالجبار"
+            },
+            {
+                "normalized_label": "عبدالحفيظ"
+            },
+            {
+                "normalized_label": "عبدالحق"
+            },
+            {
+                "normalized_label": "عبدالحكيم"
+            },
+            {
+                "normalized_label": "عبدالحميد"
+            },
+            {
+                "normalized_label": "عبدالرحمن"
+            },
+            {
+                "normalized_label": "عبدالرزاق"
+            },
+            {
+                "normalized_label": "عبدالرشيد"
+            },
+            {
+                "normalized_label": "عبدالعزيز"
+            },
+            {
+                "normalized_label": "عبدالغفار"
+            },
+            {
+                "normalized_label": "عبدالغفور"
+            },
+            {
+                "normalized_label": "عبدالقادر"
+            },
+            {
+                "normalized_label": "عبدالكريم"
+            },
+            {
+                "normalized_label": "عبداللطيف"
+            },
+            {
+                "normalized_label": "عبدالله"
+            },
+            {
+                "normalized_label": "عبدالمؤمن"
+            },
+            {
+                "normalized_label": "عبدالمالك"
+            },
+            {
+                "normalized_label": "عبدالمجيد"
+            },
+            {
+                "normalized_label": "عبدالمحسن"
+            },
+            {
+                "normalized_label": "عبدالواحد"
+            },
+            {
+                "normalized_label": "عبده"
+            },
+            {
+                "normalized_label": "عبود"
+            },
+            {
+                "normalized_label": "عبيد"
+            },
+            {
+                "normalized_label": "عثمان"
+            },
+            {
+                "normalized_label": "عدلي"
+            },
+            {
+                "normalized_label": "عدنان"
+            },
+            {
+                "normalized_label": "عدي"
+            },
+            {
+                "normalized_label": "عرفات"
+            },
+            {
+                "normalized_label": "عزام"
+            },
+            {
+                "normalized_label": "عزت"
+            },
+            {
+                "normalized_label": "عزمي"
+            },
+            {
+                "normalized_label": "عزوز"
+            },
+            {
+                "normalized_label": "عزيز"
+            },
+            {
+                "normalized_label": "عصام"
+            },
+            {
+                "normalized_label": "عطا"
+            },
+            {
+                "normalized_label": "عظيم"
+            },
+            {
+                "normalized_label": "عفيف"
+            },
+            {
+                "normalized_label": "عقيل"
+            },
+            {
+                "normalized_label": "علوي"
+            },
+            {
+                "normalized_label": "علي"
+            },
+            {
+                "normalized_label": "عليان"
+            },
+            {
+                "normalized_label": "عماد"
+            },
+            {
+                "normalized_label": "عمار"
+            },
+            {
+                "normalized_label": "عمر"
+            },
+            {
+                "normalized_label": "عمران"
+            },
+            {
+                "normalized_label": "عمرو"
+            },
+            {
+                "normalized_label": "عوبيد"
+            },
+            {
+                "normalized_label": "عوض"
+            },
+            {
+                "normalized_label": "عياش"
+            },
+            {
+                "normalized_label": "عيسى"
+            },
+            {
+                "normalized_label": "غازي"
+            },
+            {
+                "normalized_label": "غانم"
+            },
+            {
+                "normalized_label": "غريب"
+            },
+            {
+                "normalized_label": "غزل"
+            },
+            {
+                "normalized_label": "غسان"
+            },
+            {
+                "normalized_label": "غلام"
+            },
+            {
+                "normalized_label": "غيث"
+            },
+            {
+                "normalized_label": "فؤاد"
+            },
+            {
+                "normalized_label": "فائق"
+            },
+            {
+                "normalized_label": "فاتح"
+            },
+            {
+                "normalized_label": "فادي"
+            },
+            {
+                "normalized_label": "فارس"
+            },
+            {
+                "normalized_label": "فاروق"
+            },
+            {
+                "normalized_label": "فاضل"
+            },
+            {
+                "normalized_label": "فايد"
+            },
+            {
+                "normalized_label": "فايز"
+            },
+            {
+                "normalized_label": "فتحي"
+            },
+            {
+                "normalized_label": "فخري"
+            },
+            {
+                "normalized_label": "فرح"
+            },
+            {
+                "normalized_label": "فريد"
+            },
+            {
+                "normalized_label": "فزاع"
+            },
+            {
+                "normalized_label": "فضل"
+            },
+            {
+                "normalized_label": "فلاح"
+            },
+            {
+                "normalized_label": "فهد"
+            },
+            {
+                "normalized_label": "فهمي"
+            },
+            {
+                "normalized_label": "فواز"
+            },
+            {
+                "normalized_label": "فوزي"
+            },
+            {
+                "normalized_label": "فياض"
+            },
+            {
+                "normalized_label": "فيصل"
+            },
+            {
+                "normalized_label": "قادر"
+            },
+            {
+                "normalized_label": "قاسم"
+            },
+            {
+                "normalized_label": "قحطان"
+            },
+            {
+                "normalized_label": "قدري"
+            },
+            {
+                "normalized_label": "قصي"
+            },
+            {
+                "normalized_label": "قيس"
+            },
+            {
+                "normalized_label": "قيصر"
+            },
+            {
+                "normalized_label": "كارلوس"
+            },
+            {
+                "normalized_label": "كاظم"
+            },
+            {
+                "normalized_label": "كامل"
+            },
+            {
+                "normalized_label": "كبير"
+            },
+            {
+                "normalized_label": "كرار"
+            },
+            {
+                "normalized_label": "كردي"
+            },
+            {
+                "normalized_label": "كرم"
+            },
+            {
+                "normalized_label": "كريم"
+            },
+            {
+                "normalized_label": "كنعان"
+            },
+            {
+                "normalized_label": "لؤي"
+            },
+            {
+                "normalized_label": "لبيب"
+            },
+            {
+                "normalized_label": "لطفي"
+            },
+            {
+                "normalized_label": "لطيف"
+            },
+            {
+                "normalized_label": "لقمان"
+            },
+            {
+                "normalized_label": "مأمون"
+            },
+            {
+                "normalized_label": "ماجد"
+            },
+            {
+                "normalized_label": "مازن"
+            },
+            {
+                "normalized_label": "مالك"
+            },
+            {
+                "normalized_label": "ماهر"
+            },
+            {
+                "normalized_label": "مبارك"
+            },
+            {
+                "normalized_label": "مبشر"
+            },
+            {
+                "normalized_label": "متعب"
+            },
+            {
+                "normalized_label": "مجاهد"
+            },
+            {
+                "normalized_label": "مجدي"
+            },
+            {
+                "normalized_label": "مجيب"
+            },
+            {
+                "normalized_label": "مجيد"
+            },
+            {
+                "normalized_label": "محرم"
+            },
+            {
+                "normalized_label": "محسن"
+            },
+            {
+                "normalized_label": "محفوظ"
+            },
+            {
+                "normalized_label": "محمد"
+            },
+            {
+                "normalized_label": "محمود"
+            },
+            {
+                "normalized_label": "مختار"
+            },
+            {
+                "normalized_label": "مخلص"
+            },
+            {
+                "normalized_label": "مراد"
+            },
+            {
+                "normalized_label": "مرزق"
+            },
+            {
+                "normalized_label": "مرشد"
+            },
+            {
+                "normalized_label": "مروان"
+            },
+            {
+                "normalized_label": "مزهر"
+            },
+            {
+                "normalized_label": "مسعود"
+            },
+            {
+                "normalized_label": "مسلم"
+            },
+            {
+                "normalized_label": "مشاري"
+            },
+            {
+                "normalized_label": "مشتاق"
+            },
+            {
+                "normalized_label": "مشرف"
+            },
+            {
+                "normalized_label": "مشعل"
+            },
+            {
+                "normalized_label": "مشهور"
+            },
+            {
+                "normalized_label": "مصطفى"
+            },
+            {
+                "normalized_label": "مصعب"
+            },
+            {
+                "normalized_label": "مطر"
+            },
+            {
+                "normalized_label": "مظفر"
+            },
+            {
+                "normalized_label": "معتز"
+            },
+            {
+                "normalized_label": "معتصم"
+            },
+            {
+                "normalized_label": "معمر"
+            },
+            {
+                "normalized_label": "مفيد"
+            },
+            {
+                "normalized_label": "مقداد"
+            },
+            {
+                "normalized_label": "مكتوم"
+            },
+            {
+                "normalized_label": "مكي"
+            },
+            {
+                "normalized_label": "ملاك"
+            },
+            {
+                "normalized_label": "ملحم"
+            },
+            {
+                "normalized_label": "ملك"
+            },
+            {
+                "normalized_label": "ممتاز"
+            },
+            {
+                "normalized_label": "مناف"
+            },
+            {
+                "normalized_label": "منان"
+            },
+            {
+                "normalized_label": "مناور"
+            },
+            {
+                "normalized_label": "منتصر"
+            },
+            {
+                "normalized_label": "منذر"
+            },
+            {
+                "normalized_label": "منصور"
+            },
+            {
+                "normalized_label": "منور"
+            },
+            {
+                "normalized_label": "منير"
+            },
+            {
+                "normalized_label": "مهاجر"
+            },
+            {
+                "normalized_label": "مهدي"
+            },
+            {
+                "normalized_label": "مهران"
+            },
+            {
+                "normalized_label": "مهند"
+            },
+            {
+                "normalized_label": "مهيب"
+            },
+            {
+                "normalized_label": "موسى"
+            },
+            {
+                "normalized_label": "مولود"
+            },
+            {
+                "normalized_label": "موهان"
+            },
+            {
+                "normalized_label": "ميثم"
+            },
+            {
+                "normalized_label": "ميخائيل"
+            },
+            {
+                "normalized_label": "ميرزا"
+            },
+            {
+                "normalized_label": "ميشيل"
+            },
+            {
+                "normalized_label": "ناجح"
+            },
+            {
+                "normalized_label": "نادر"
+            },
+            {
+                "normalized_label": "ناصر"
+            },
+            {
+                "normalized_label": "ناصف"
+            },
+            {
+                "normalized_label": "ناظم"
+            },
+            {
+                "normalized_label": "نافع"
+            },
+            {
+                "normalized_label": "نايف"
+            },
+            {
+                "normalized_label": "نبيل"
+            },
+            {
+                "normalized_label": "نجاح"
+            },
+            {
+                "normalized_label": "نجيب"
+            },
+            {
+                "normalized_label": "نديم"
+            },
+            {
+                "normalized_label": "نذير"
+            },
+            {
+                "normalized_label": "نزار"
+            },
+            {
+                "normalized_label": "نزيه"
+            },
+            {
+                "normalized_label": "نسيم"
+            },
+            {
+                "normalized_label": "نشأت"
+            },
+            {
+                "normalized_label": "نشوان"
+            },
+            {
+                "normalized_label": "نصار"
+            },
+            {
+                "normalized_label": "نصر"
+            },
+            {
+                "normalized_label": "نصير"
+            },
+            {
+                "normalized_label": "نطاق"
+            },
+            {
+                "normalized_label": "نظام"
+            },
+            {
+                "normalized_label": "نعمان"
+            },
+            {
+                "normalized_label": "نعيم"
+            },
+            {
+                "normalized_label": "نهيان"
+            },
+            {
+                "normalized_label": "نواف"
+            },
+            {
+                "normalized_label": "نوح"
+            },
+            {
+                "normalized_label": "نوري"
+            },
+            {
+                "normalized_label": "نوفل"
+            },
+            {
+                "normalized_label": "هاجر"
+            },
+            {
+                "normalized_label": "هادر"
+            },
+            {
+                "normalized_label": "هادي"
+            },
+            {
+                "normalized_label": "هارون"
+            },
+            {
+                "normalized_label": "هاشم"
+            },
+            {
+                "normalized_label": "هاني"
+            },
+            {
+                "normalized_label": "هزاع"
+            },
+            {
+                "normalized_label": "هشام"
+            },
+            {
+                "normalized_label": "هلال"
+            },
+            {
+                "normalized_label": "همام"
+            },
+            {
+                "normalized_label": "هنري"
+            },
+            {
+                "normalized_label": "هيثم"
+            },
+            {
+                "normalized_label": "واثق"
+            },
+            {
+                "normalized_label": "وجدي"
+            },
+            {
+                "normalized_label": "وحيد"
+            },
+            {
+                "normalized_label": "وديع"
+            },
+            {
+                "normalized_label": "وسام"
+            },
+            {
+                "normalized_label": "وسيم"
+            },
+            {
+                "normalized_label": "وقاص"
+            },
+            {
+                "normalized_label": "وليام"
+            },
+            {
+                "normalized_label": "وليد"
+            },
+            {
+                "normalized_label": "وهاب"
+            },
+            {
+                "normalized_label": "وهيب"
+            },
+            {
+                "normalized_label": "ويلسون"
+            },
+            {
+                "normalized_label": "ياس"
+            },
+            {
+                "normalized_label": "ياسر"
+            },
+            {
+                "normalized_label": "ياسين"
+            },
+            {
+                "normalized_label": "يحيى"
+            },
+            {
+                "normalized_label": "يزن"
+            },
+            {
+                "normalized_label": "يزيد"
+            },
+            {
+                "normalized_label": "يسري"
+            },
+            {
+                "normalized_label": "يعقوب"
+            },
+            {
+                "normalized_label": "يوسف"
+            },
+            {
+                "normalized_label": "يونس"
+            }
+        ]
+    }
+}

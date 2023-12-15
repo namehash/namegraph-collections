@@ -1,0 +1,398 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "kanye-ens-club",
+        "collection_name": "Kanye Ens Club",
+        "collection_description": "All kanye song titles in Ens format",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "024"
+            },
+            {
+                "normalized_label": "allday"
+            },
+            {
+                "normalized_label": "allfallsdown"
+            },
+            {
+                "normalized_label": "allmine"
+            },
+            {
+                "normalized_label": "allofthelights"
+            },
+            {
+                "normalized_label": "amazing"
+            },
+            {
+                "normalized_label": "awesome"
+            },
+            {
+                "normalized_label": "badnews"
+            },
+            {
+                "normalized_label": "believewhatisay"
+            },
+            {
+                "normalized_label": "bigbrother"
+            },
+            {
+                "normalized_label": "blackskinhead"
+            },
+            {
+                "normalized_label": "blamegame"
+            },
+            {
+                "normalized_label": "bloodontheleaves"
+            },
+            {
+                "normalized_label": "bound2"
+            },
+            {
+                "normalized_label": "brothers"
+            },
+            {
+                "normalized_label": "canttellmenothing"
+            },
+            {
+                "normalized_label": "champion"
+            },
+            {
+                "normalized_label": "champions"
+            },
+            {
+                "normalized_label": "christiandiordenimflow"
+            },
+            {
+                "normalized_label": "clique"
+            },
+            {
+                "normalized_label": "closedonsunday"
+            },
+            {
+                "normalized_label": "cold"
+            },
+            {
+                "normalized_label": "coldestwinter"
+            },
+            {
+                "normalized_label": "cometolife"
+            },
+            {
+                "normalized_label": "darkfantasy"
+            },
+            {
+                "normalized_label": "devilinanewdress"
+            },
+            {
+                "normalized_label": "diamondsfromsierraleone"
+            },
+            {
+                "normalized_label": "donda"
+            },
+            {
+                "normalized_label": "dontstop"
+            },
+            {
+                "normalized_label": "eazy"
+            },
+            {
+                "normalized_label": "everyhour"
+            },
+            {
+                "normalized_label": "everythingiam"
+            },
+            {
+                "normalized_label": "everythingweneed"
+            },
+            {
+                "normalized_label": "facts"
+            },
+            {
+                "normalized_label": "fade"
+            },
+            {
+                "normalized_label": "famous"
+            },
+            {
+                "normalized_label": "fatherstretchmyhandspt1"
+            },
+            {
+                "normalized_label": "fatherstretchmyhandspt2"
+            },
+            {
+                "normalized_label": "flashinglights"
+            },
+            {
+                "normalized_label": "fml"
+            },
+            {
+                "normalized_label": "followgod"
+            },
+            {
+                "normalized_label": "ghosttown"
+            },
+            {
+                "normalized_label": "godbreathed"
+            },
+            {
+                "normalized_label": "godis"
+            },
+            {
+                "normalized_label": "golddigger"
+            },
+            {
+                "normalized_label": "gone"
+            },
+            {
+                "normalized_label": "goodfriday"
+            },
+            {
+                "normalized_label": "goodlife"
+            },
+            {
+                "normalized_label": "gorgeous"
+            },
+            {
+                "normalized_label": "guilttrip"
+            },
+            {
+                "normalized_label": "handson"
+            },
+            {
+                "normalized_label": "heardemsay"
+            },
+            {
+                "normalized_label": "heartless"
+            },
+            {
+                "normalized_label": "heavenandhell"
+            },
+            {
+                "normalized_label": "hellofalife"
+            },
+            {
+                "normalized_label": "heymama"
+            },
+            {
+                "normalized_label": "highlights"
+            },
+            {
+                "normalized_label": "holdmyliquor"
+            },
+            {
+                "normalized_label": "homecoming"
+            },
+            {
+                "normalized_label": "hurricane"
+            },
+            {
+                "normalized_label": "iamagod"
+            },
+            {
+                "normalized_label": "iloveit"
+            },
+            {
+                "normalized_label": "iminit"
+            },
+            {
+                "normalized_label": "isgospel"
+            },
+            {
+                "normalized_label": "ithoughtaboutkillingyou"
+            },
+            {
+                "normalized_label": "iwonder"
+            },
+            {
+                "normalized_label": "jail"
+            },
+            {
+                "normalized_label": "jailpt2"
+            },
+            {
+                "normalized_label": "jesuslord"
+            },
+            {
+                "normalized_label": "jesuswalks"
+            },
+            {
+                "normalized_label": "jonah"
+            },
+            {
+                "normalized_label": "junya"
+            },
+            {
+                "normalized_label": "lifeoftheparty"
+            },
+            {
+                "normalized_label": "liftyourself"
+            },
+            {
+                "normalized_label": "lordlordlord"
+            },
+            {
+                "normalized_label": "lostintheworld"
+            },
+            {
+                "normalized_label": "lovelockdown"
+            },
+            {
+                "normalized_label": "lowlights"
+            },
+            {
+                "normalized_label": "mamasboyfriend"
+            },
+            {
+                "normalized_label": "mercy"
+            },
+            {
+                "normalized_label": "monster"
+            },
+            {
+                "normalized_label": "moon"
+            },
+            {
+                "normalized_label": "nahnahnah"
+            },
+            {
+                "normalized_label": "newgodflow"
+            },
+            {
+                "normalized_label": "newslaves"
+            },
+            {
+                "normalized_label": "nochildleftbehind"
+            },
+            {
+                "normalized_label": "nomistakes"
+            },
+            {
+                "normalized_label": "nomorepartiesinla"
+            },
+            {
+                "normalized_label": "offthegrid"
+            },
+            {
+                "normalized_label": "okok"
+            },
+            {
+                "normalized_label": "ongod"
+            },
+            {
+                "normalized_label": "onlyone"
+            },
+            {
+                "normalized_label": "onsight"
+            },
+            {
+                "normalized_label": "paranoid"
+            },
+            {
+                "normalized_label": "pinnochiostory"
+            },
+            {
+                "normalized_label": "power"
+            },
+            {
+                "normalized_label": "praisegod"
+            },
+            {
+                "normalized_label": "realfriends"
+            },
+            {
+                "normalized_label": "robocop"
+            },
+            {
+                "normalized_label": "runaway"
+            },
+            {
+                "normalized_label": "saintpablo"
+            },
+            {
+                "normalized_label": "sayyouwill"
+            },
+            {
+                "normalized_label": "seemenow"
+            },
+            {
+                "normalized_label": "seeyouinmynightmares"
+            },
+            {
+                "normalized_label": "selah"
+            },
+            {
+                "normalized_label": "senditup"
+            },
+            {
+                "normalized_label": "siiiiiiiiilversurffffeeeeerintermission"
+            },
+            {
+                "normalized_label": "soappalled"
+            },
+            {
+                "normalized_label": "streetlights"
+            },
+            {
+                "normalized_label": "stronger"
+            },
+            {
+                "normalized_label": "thejoy"
+            },
+            {
+                "normalized_label": "throughthewire"
+            },
+            {
+                "normalized_label": "totheworld"
+            },
+            {
+                "normalized_label": "touchthesky"
+            },
+            {
+                "normalized_label": "truelove"
+            },
+            {
+                "normalized_label": "ultralightbeam"
+            },
+            {
+                "normalized_label": "violentcrimes"
+            },
+            {
+                "normalized_label": "washusintheblood"
+            },
+            {
+                "normalized_label": "water"
+            },
+            {
+                "normalized_label": "waves"
+            },
+            {
+                "normalized_label": "welcometoheartbreak"
+            },
+            {
+                "normalized_label": "whitedress"
+            },
+            {
+                "normalized_label": "whowillsurviveinamerica"
+            },
+            {
+                "normalized_label": "wolves"
+            },
+            {
+                "normalized_label": "wouldntleave"
+            },
+            {
+                "normalized_label": "yevsthepeople"
+            },
+            {
+                "normalized_label": "yikes"
+            }
+        ]
+    }
+}

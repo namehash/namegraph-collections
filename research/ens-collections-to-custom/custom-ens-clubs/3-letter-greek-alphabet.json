@@ -1,0 +1,89 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "3-letter-greek-alphabet",
+        "collection_name": "3 Letter Greek Alphabet",
+        "collection_description": "The 24 letters of the Greek alphabet in 3 characters.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "ααα"
+            },
+            {
+                "normalized_label": "βββ"
+            },
+            {
+                "normalized_label": "γγγ"
+            },
+            {
+                "normalized_label": "δδδ"
+            },
+            {
+                "normalized_label": "εεε"
+            },
+            {
+                "normalized_label": "ζζζ"
+            },
+            {
+                "normalized_label": "ηηη"
+            },
+            {
+                "normalized_label": "θθθ"
+            },
+            {
+                "normalized_label": "ιιι"
+            },
+            {
+                "normalized_label": "κκκ"
+            },
+            {
+                "normalized_label": "λλλ"
+            },
+            {
+                "normalized_label": "μμμ"
+            },
+            {
+                "normalized_label": "ννν"
+            },
+            {
+                "normalized_label": "ξξξ"
+            },
+            {
+                "normalized_label": "οοο"
+            },
+            {
+                "normalized_label": "πππ"
+            },
+            {
+                "normalized_label": "ρρρ"
+            },
+            {
+                "normalized_label": "σσσ"
+            },
+            {
+                "normalized_label": "τττ"
+            },
+            {
+                "normalized_label": "υυυ"
+            },
+            {
+                "normalized_label": "φφφ"
+            },
+            {
+                "normalized_label": "χχχ"
+            },
+            {
+                "normalized_label": "ψψψ"
+            },
+            {
+                "normalized_label": "ωωω"
+            }
+        ]
+    }
+}

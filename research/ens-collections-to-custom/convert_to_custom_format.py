@@ -1,6 +1,5 @@
 import subprocess
 import csv
-import jsonlines
 import json
 import shutil
 from pathlib import Path
@@ -44,11 +43,14 @@ def read_metadata() -> dict:
     return data
 
 
-def save_custom_collections(output_path: Path, custom_collections: list[dict]):
-    print(f'\nSaving transformed collections to "{output_path}"')
-    with jsonlines.open(output_path, 'w') as writer:
-        for c in custom_collections:
-            writer.write(c)
+def save_custom_collections(custom_collections: list[dict], json_output_path: Path):
+    json_output_path.mkdir(exist_ok=True)
+
+    print(f'\nSaving transformed collections as separates jsons to "{json_output_path}"')
+    for collection_record in custom_collections:
+        filename = f'{collection_record["data"]["collection_id"]}.json'
+        with open(json_output_path / filename, 'w', encoding='utf-8') as f:
+            json.dump(collection_record, f, ensure_ascii=False, indent=4)
 
 
 def filter_whitelist(metadata_list: list[dict]) -> list[dict]:
@@ -158,13 +160,14 @@ def transform_collections(metadata: dict) -> list[dict]:
 
 
 if __name__ == '__main__':
-    parser = ArgumentParser()
-    parser.add_argument('-o', '--output', help='output filename', default='custom-ens-collections')
+    parser = ArgumentParser(
+        description="Download ens clubs from repo and save each of them to a json file using custom format."
+    )
+    parser.add_argument('-o', '--output', help='output directory', default='custom-ens-clubs')
     parser.add_argument('--save_repo', help='if set, the cloned repo will not be removed',
                         action='store_true', default=False)
     args = parser.parse_args()
-    output_path = Path(args.output) if args.output.endswith('.jsonl') else Path(args.output + '.jsonl')
-    output_path = data_path / output_path
+    output_path = Path(__file__).resolve().parent / Path(args.output)
     save_repo = args.save_repo
 
     clone_repo()
@@ -176,7 +179,10 @@ if __name__ == '__main__':
 
     transformed = transform_collections(meta)
 
-    save_custom_collections(output_path, transformed)
+    save_custom_collections(transformed, json_output_path=output_path)
 
     if not save_repo:
         remove_repo()
+
+# from repo root:
+# python research/ens-collections-to-custom/convert_to_custom_format.py

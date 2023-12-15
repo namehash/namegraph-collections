@@ -1,0 +1,3017 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "korean-999-club",
+        "collection_name": "Korean 999 Club",
+        "collection_description": "영영영 - 구구구 (simplified)",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "구구구"
+            },
+            {
+                "normalized_label": "구구사"
+            },
+            {
+                "normalized_label": "구구삼"
+            },
+            {
+                "normalized_label": "구구영"
+            },
+            {
+                "normalized_label": "구구오"
+            },
+            {
+                "normalized_label": "구구육"
+            },
+            {
+                "normalized_label": "구구이"
+            },
+            {
+                "normalized_label": "구구일"
+            },
+            {
+                "normalized_label": "구구칠"
+            },
+            {
+                "normalized_label": "구구팔"
+            },
+            {
+                "normalized_label": "구사구"
+            },
+            {
+                "normalized_label": "구사사"
+            },
+            {
+                "normalized_label": "구사삼"
+            },
+            {
+                "normalized_label": "구사영"
+            },
+            {
+                "normalized_label": "구사오"
+            },
+            {
+                "normalized_label": "구사육"
+            },
+            {
+                "normalized_label": "구사이"
+            },
+            {
+                "normalized_label": "구사일"
+            },
+            {
+                "normalized_label": "구사칠"
+            },
+            {
+                "normalized_label": "구사팔"
+            },
+            {
+                "normalized_label": "구삼구"
+            },
+            {
+                "normalized_label": "구삼사"
+            },
+            {
+                "normalized_label": "구삼삼"
+            },
+            {
+                "normalized_label": "구삼영"
+            },
+            {
+                "normalized_label": "구삼오"
+            },
+            {
+                "normalized_label": "구삼육"
+            },
+            {
+                "normalized_label": "구삼이"
+            },
+            {
+                "normalized_label": "구삼일"
+            },
+            {
+                "normalized_label": "구삼칠"
+            },
+            {
+                "normalized_label": "구삼팔"
+            },
+            {
+                "normalized_label": "구영구"
+            },
+            {
+                "normalized_label": "구영사"
+            },
+            {
+                "normalized_label": "구영삼"
+            },
+            {
+                "normalized_label": "구영영"
+            },
+            {
+                "normalized_label": "구영오"
+            },
+            {
+                "normalized_label": "구영육"
+            },
+            {
+                "normalized_label": "구영이"
+            },
+            {
+                "normalized_label": "구영일"
+            },
+            {
+                "normalized_label": "구영칠"
+            },
+            {
+                "normalized_label": "구영팔"
+            },
+            {
+                "normalized_label": "구오구"
+            },
+            {
+                "normalized_label": "구오사"
+            },
+            {
+                "normalized_label": "구오삼"
+            },
+            {
+                "normalized_label": "구오영"
+            },
+            {
+                "normalized_label": "구오오"
+            },
+            {
+                "normalized_label": "구오육"
+            },
+            {
+                "normalized_label": "구오이"
+            },
+            {
+                "normalized_label": "구오일"
+            },
+            {
+                "normalized_label": "구오칠"
+            },
+            {
+                "normalized_label": "구오팔"
+            },
+            {
+                "normalized_label": "구육구"
+            },
+            {
+                "normalized_label": "구육사"
+            },
+            {
+                "normalized_label": "구육삼"
+            },
+            {
+                "normalized_label": "구육영"
+            },
+            {
+                "normalized_label": "구육오"
+            },
+            {
+                "normalized_label": "구육육"
+            },
+            {
+                "normalized_label": "구육이"
+            },
+            {
+                "normalized_label": "구육일"
+            },
+            {
+                "normalized_label": "구육칠"
+            },
+            {
+                "normalized_label": "구육팔"
+            },
+            {
+                "normalized_label": "구이구"
+            },
+            {
+                "normalized_label": "구이사"
+            },
+            {
+                "normalized_label": "구이삼"
+            },
+            {
+                "normalized_label": "구이영"
+            },
+            {
+                "normalized_label": "구이오"
+            },
+            {
+                "normalized_label": "구이육"
+            },
+            {
+                "normalized_label": "구이이"
+            },
+            {
+                "normalized_label": "구이일"
+            },
+            {
+                "normalized_label": "구이칠"
+            },
+            {
+                "normalized_label": "구이팔"
+            },
+            {
+                "normalized_label": "구일구"
+            },
+            {
+                "normalized_label": "구일사"
+            },
+            {
+                "normalized_label": "구일삼"
+            },
+            {
+                "normalized_label": "구일영"
+            },
+            {
+                "normalized_label": "구일오"
+            },
+            {
+                "normalized_label": "구일육"
+            },
+            {
+                "normalized_label": "구일이"
+            },
+            {
+                "normalized_label": "구일일"
+            },
+            {
+                "normalized_label": "구일칠"
+            },
+            {
+                "normalized_label": "구일팔"
+            },
+            {
+                "normalized_label": "구칠구"
+            },
+            {
+                "normalized_label": "구칠사"
+            },
+            {
+                "normalized_label": "구칠삼"
+            },
+            {
+                "normalized_label": "구칠영"
+            },
+            {
+                "normalized_label": "구칠오"
+            },
+            {
+                "normalized_label": "구칠육"
+            },
+            {
+                "normalized_label": "구칠이"
+            },
+            {
+                "normalized_label": "구칠일"
+            },
+            {
+                "normalized_label": "구칠칠"
+            },
+            {
+                "normalized_label": "구칠팔"
+            },
+            {
+                "normalized_label": "구팔구"
+            },
+            {
+                "normalized_label": "구팔사"
+            },
+            {
+                "normalized_label": "구팔삼"
+            },
+            {
+                "normalized_label": "구팔영"
+            },
+            {
+                "normalized_label": "구팔오"
+            },
+            {
+                "normalized_label": "구팔육"
+            },
+            {
+                "normalized_label": "구팔이"
+            },
+            {
+                "normalized_label": "구팔일"
+            },
+            {
+                "normalized_label": "구팔칠"
+            },
+            {
+                "normalized_label": "구팔팔"
+            },
+            {
+                "normalized_label": "사구구"
+            },
+            {
+                "normalized_label": "사구사"
+            },
+            {
+                "normalized_label": "사구삼"
+            },
+            {
+                "normalized_label": "사구영"
+            },
+            {
+                "normalized_label": "사구오"
+            },
+            {
+                "normalized_label": "사구육"
+            },
+            {
+                "normalized_label": "사구이"
+            },
+            {
+                "normalized_label": "사구일"
+            },
+            {
+                "normalized_label": "사구칠"
+            },
+            {
+                "normalized_label": "사구팔"
+            },
+            {
+                "normalized_label": "사사구"
+            },
+            {
+                "normalized_label": "사사사"
+            },
+            {
+                "normalized_label": "사사삼"
+            },
+            {
+                "normalized_label": "사사영"
+            },
+            {
+                "normalized_label": "사사오"
+            },
+            {
+                "normalized_label": "사사육"
+            },
+            {
+                "normalized_label": "사사이"
+            },
+            {
+                "normalized_label": "사사일"
+            },
+            {
+                "normalized_label": "사사칠"
+            },
+            {
+                "normalized_label": "사사팔"
+            },
+            {
+                "normalized_label": "사삼구"
+            },
+            {
+                "normalized_label": "사삼사"
+            },
+            {
+                "normalized_label": "사삼삼"
+            },
+            {
+                "normalized_label": "사삼영"
+            },
+            {
+                "normalized_label": "사삼오"
+            },
+            {
+                "normalized_label": "사삼육"
+            },
+            {
+                "normalized_label": "사삼이"
+            },
+            {
+                "normalized_label": "사삼일"
+            },
+            {
+                "normalized_label": "사삼칠"
+            },
+            {
+                "normalized_label": "사삼팔"
+            },
+            {
+                "normalized_label": "사영구"
+            },
+            {
+                "normalized_label": "사영사"
+            },
+            {
+                "normalized_label": "사영삼"
+            },
+            {
+                "normalized_label": "사영영"
+            },
+            {
+                "normalized_label": "사영오"
+            },
+            {
+                "normalized_label": "사영육"
+            },
+            {
+                "normalized_label": "사영이"
+            },
+            {
+                "normalized_label": "사영일"
+            },
+            {
+                "normalized_label": "사영칠"
+            },
+            {
+                "normalized_label": "사영팔"
+            },
+            {
+                "normalized_label": "사오구"
+            },
+            {
+                "normalized_label": "사오사"
+            },
+            {
+                "normalized_label": "사오삼"
+            },
+            {
+                "normalized_label": "사오영"
+            },
+            {
+                "normalized_label": "사오오"
+            },
+            {
+                "normalized_label": "사오육"
+            },
+            {
+                "normalized_label": "사오이"
+            },
+            {
+                "normalized_label": "사오일"
+            },
+            {
+                "normalized_label": "사오칠"
+            },
+            {
+                "normalized_label": "사오팔"
+            },
+            {
+                "normalized_label": "사육구"
+            },
+            {
+                "normalized_label": "사육사"
+            },
+            {
+                "normalized_label": "사육삼"
+            },
+            {
+                "normalized_label": "사육영"
+            },
+            {
+                "normalized_label": "사육오"
+            },
+            {
+                "normalized_label": "사육육"
+            },
+            {
+                "normalized_label": "사육이"
+            },
+            {
+                "normalized_label": "사육일"
+            },
+            {
+                "normalized_label": "사육칠"
+            },
+            {
+                "normalized_label": "사육팔"
+            },
+            {
+                "normalized_label": "사이구"
+            },
+            {
+                "normalized_label": "사이사"
+            },
+            {
+                "normalized_label": "사이삼"
+            },
+            {
+                "normalized_label": "사이영"
+            },
+            {
+                "normalized_label": "사이오"
+            },
+            {
+                "normalized_label": "사이육"
+            },
+            {
+                "normalized_label": "사이이"
+            },
+            {
+                "normalized_label": "사이일"
+            },
+            {
+                "normalized_label": "사이칠"
+            },
+            {
+                "normalized_label": "사이팔"
+            },
+            {
+                "normalized_label": "사일구"
+            },
+            {
+                "normalized_label": "사일사"
+            },
+            {
+                "normalized_label": "사일삼"
+            },
+            {
+                "normalized_label": "사일영"
+            },
+            {
+                "normalized_label": "사일오"
+            },
+            {
+                "normalized_label": "사일육"
+            },
+            {
+                "normalized_label": "사일이"
+            },
+            {
+                "normalized_label": "사일일"
+            },
+            {
+                "normalized_label": "사일칠"
+            },
+            {
+                "normalized_label": "사일팔"
+            },
+            {
+                "normalized_label": "사칠구"
+            },
+            {
+                "normalized_label": "사칠사"
+            },
+            {
+                "normalized_label": "사칠삼"
+            },
+            {
+                "normalized_label": "사칠영"
+            },
+            {
+                "normalized_label": "사칠오"
+            },
+            {
+                "normalized_label": "사칠육"
+            },
+            {
+                "normalized_label": "사칠이"
+            },
+            {
+                "normalized_label": "사칠일"
+            },
+            {
+                "normalized_label": "사칠칠"
+            },
+            {
+                "normalized_label": "사칠팔"
+            },
+            {
+                "normalized_label": "사팔구"
+            },
+            {
+                "normalized_label": "사팔사"
+            },
+            {
+                "normalized_label": "사팔삼"
+            },
+            {
+                "normalized_label": "사팔영"
+            },
+            {
+                "normalized_label": "사팔오"
+            },
+            {
+                "normalized_label": "사팔육"
+            },
+            {
+                "normalized_label": "사팔이"
+            },
+            {
+                "normalized_label": "사팔일"
+            },
+            {
+                "normalized_label": "사팔칠"
+            },
+            {
+                "normalized_label": "사팔팔"
+            },
+            {
+                "normalized_label": "삼구구"
+            },
+            {
+                "normalized_label": "삼구사"
+            },
+            {
+                "normalized_label": "삼구삼"
+            },
+            {
+                "normalized_label": "삼구영"
+            },
+            {
+                "normalized_label": "삼구오"
+            },
+            {
+                "normalized_label": "삼구육"
+            },
+            {
+                "normalized_label": "삼구이"
+            },
+            {
+                "normalized_label": "삼구일"
+            },
+            {
+                "normalized_label": "삼구칠"
+            },
+            {
+                "normalized_label": "삼구팔"
+            },
+            {
+                "normalized_label": "삼사구"
+            },
+            {
+                "normalized_label": "삼사사"
+            },
+            {
+                "normalized_label": "삼사삼"
+            },
+            {
+                "normalized_label": "삼사영"
+            },
+            {
+                "normalized_label": "삼사오"
+            },
+            {
+                "normalized_label": "삼사육"
+            },
+            {
+                "normalized_label": "삼사이"
+            },
+            {
+                "normalized_label": "삼사일"
+            },
+            {
+                "normalized_label": "삼사칠"
+            },
+            {
+                "normalized_label": "삼사팔"
+            },
+            {
+                "normalized_label": "삼삼구"
+            },
+            {
+                "normalized_label": "삼삼사"
+            },
+            {
+                "normalized_label": "삼삼삼"
+            },
+            {
+                "normalized_label": "삼삼영"
+            },
+            {
+                "normalized_label": "삼삼오"
+            },
+            {
+                "normalized_label": "삼삼육"
+            },
+            {
+                "normalized_label": "삼삼이"
+            },
+            {
+                "normalized_label": "삼삼일"
+            },
+            {
+                "normalized_label": "삼삼칠"
+            },
+            {
+                "normalized_label": "삼삼팔"
+            },
+            {
+                "normalized_label": "삼영구"
+            },
+            {
+                "normalized_label": "삼영사"
+            },
+            {
+                "normalized_label": "삼영삼"
+            },
+            {
+                "normalized_label": "삼영영"
+            },
+            {
+                "normalized_label": "삼영오"
+            },
+            {
+                "normalized_label": "삼영육"
+            },
+            {
+                "normalized_label": "삼영이"
+            },
+            {
+                "normalized_label": "삼영일"
+            },
+            {
+                "normalized_label": "삼영칠"
+            },
+            {
+                "normalized_label": "삼영팔"
+            },
+            {
+                "normalized_label": "삼오구"
+            },
+            {
+                "normalized_label": "삼오사"
+            },
+            {
+                "normalized_label": "삼오삼"
+            },
+            {
+                "normalized_label": "삼오영"
+            },
+            {
+                "normalized_label": "삼오오"
+            },
+            {
+                "normalized_label": "삼오육"
+            },
+            {
+                "normalized_label": "삼오이"
+            },
+            {
+                "normalized_label": "삼오일"
+            },
+            {
+                "normalized_label": "삼오칠"
+            },
+            {
+                "normalized_label": "삼오팔"
+            },
+            {
+                "normalized_label": "삼육구"
+            },
+            {
+                "normalized_label": "삼육사"
+            },
+            {
+                "normalized_label": "삼육삼"
+            },
+            {
+                "normalized_label": "삼육영"
+            },
+            {
+                "normalized_label": "삼육오"
+            },
+            {
+                "normalized_label": "삼육육"
+            },
+            {
+                "normalized_label": "삼육이"
+            },
+            {
+                "normalized_label": "삼육일"
+            },
+            {
+                "normalized_label": "삼육칠"
+            },
+            {
+                "normalized_label": "삼육팔"
+            },
+            {
+                "normalized_label": "삼이구"
+            },
+            {
+                "normalized_label": "삼이사"
+            },
+            {
+                "normalized_label": "삼이삼"
+            },
+            {
+                "normalized_label": "삼이영"
+            },
+            {
+                "normalized_label": "삼이오"
+            },
+            {
+                "normalized_label": "삼이육"
+            },
+            {
+                "normalized_label": "삼이이"
+            },
+            {
+                "normalized_label": "삼이일"
+            },
+            {
+                "normalized_label": "삼이칠"
+            },
+            {
+                "normalized_label": "삼이팔"
+            },
+            {
+                "normalized_label": "삼일구"
+            },
+            {
+                "normalized_label": "삼일사"
+            },
+            {
+                "normalized_label": "삼일삼"
+            },
+            {
+                "normalized_label": "삼일영"
+            },
+            {
+                "normalized_label": "삼일오"
+            },
+            {
+                "normalized_label": "삼일육"
+            },
+            {
+                "normalized_label": "삼일이"
+            },
+            {
+                "normalized_label": "삼일일"
+            },
+            {
+                "normalized_label": "삼일칠"
+            },
+            {
+                "normalized_label": "삼일팔"
+            },
+            {
+                "normalized_label": "삼칠구"
+            },
+            {
+                "normalized_label": "삼칠사"
+            },
+            {
+                "normalized_label": "삼칠삼"
+            },
+            {
+                "normalized_label": "삼칠영"
+            },
+            {
+                "normalized_label": "삼칠오"
+            },
+            {
+                "normalized_label": "삼칠육"
+            },
+            {
+                "normalized_label": "삼칠이"
+            },
+            {
+                "normalized_label": "삼칠일"
+            },
+            {
+                "normalized_label": "삼칠칠"
+            },
+            {
+                "normalized_label": "삼칠팔"
+            },
+            {
+                "normalized_label": "삼팔구"
+            },
+            {
+                "normalized_label": "삼팔사"
+            },
+            {
+                "normalized_label": "삼팔삼"
+            },
+            {
+                "normalized_label": "삼팔영"
+            },
+            {
+                "normalized_label": "삼팔오"
+            },
+            {
+                "normalized_label": "삼팔육"
+            },
+            {
+                "normalized_label": "삼팔이"
+            },
+            {
+                "normalized_label": "삼팔일"
+            },
+            {
+                "normalized_label": "삼팔칠"
+            },
+            {
+                "normalized_label": "삼팔팔"
+            },
+            {
+                "normalized_label": "영구구"
+            },
+            {
+                "normalized_label": "영구사"
+            },
+            {
+                "normalized_label": "영구삼"
+            },
+            {
+                "normalized_label": "영구영"
+            },
+            {
+                "normalized_label": "영구오"
+            },
+            {
+                "normalized_label": "영구육"
+            },
+            {
+                "normalized_label": "영구이"
+            },
+            {
+                "normalized_label": "영구일"
+            },
+            {
+                "normalized_label": "영구칠"
+            },
+            {
+                "normalized_label": "영구팔"
+            },
+            {
+                "normalized_label": "영사구"
+            },
+            {
+                "normalized_label": "영사사"
+            },
+            {
+                "normalized_label": "영사삼"
+            },
+            {
+                "normalized_label": "영사영"
+            },
+            {
+                "normalized_label": "영사오"
+            },
+            {
+                "normalized_label": "영사육"
+            },
+            {
+                "normalized_label": "영사이"
+            },
+            {
+                "normalized_label": "영사일"
+            },
+            {
+                "normalized_label": "영사칠"
+            },
+            {
+                "normalized_label": "영사팔"
+            },
+            {
+                "normalized_label": "영삼구"
+            },
+            {
+                "normalized_label": "영삼사"
+            },
+            {
+                "normalized_label": "영삼삼"
+            },
+            {
+                "normalized_label": "영삼영"
+            },
+            {
+                "normalized_label": "영삼오"
+            },
+            {
+                "normalized_label": "영삼육"
+            },
+            {
+                "normalized_label": "영삼이"
+            },
+            {
+                "normalized_label": "영삼일"
+            },
+            {
+                "normalized_label": "영삼칠"
+            },
+            {
+                "normalized_label": "영삼팔"
+            },
+            {
+                "normalized_label": "영영구"
+            },
+            {
+                "normalized_label": "영영사"
+            },
+            {
+                "normalized_label": "영영삼"
+            },
+            {
+                "normalized_label": "영영영"
+            },
+            {
+                "normalized_label": "영영오"
+            },
+            {
+                "normalized_label": "영영육"
+            },
+            {
+                "normalized_label": "영영이"
+            },
+            {
+                "normalized_label": "영영일"
+            },
+            {
+                "normalized_label": "영영칠"
+            },
+            {
+                "normalized_label": "영영팔"
+            },
+            {
+                "normalized_label": "영오구"
+            },
+            {
+                "normalized_label": "영오사"
+            },
+            {
+                "normalized_label": "영오삼"
+            },
+            {
+                "normalized_label": "영오영"
+            },
+            {
+                "normalized_label": "영오오"
+            },
+            {
+                "normalized_label": "영오육"
+            },
+            {
+                "normalized_label": "영오이"
+            },
+            {
+                "normalized_label": "영오일"
+            },
+            {
+                "normalized_label": "영오칠"
+            },
+            {
+                "normalized_label": "영오팔"
+            },
+            {
+                "normalized_label": "영육구"
+            },
+            {
+                "normalized_label": "영육사"
+            },
+            {
+                "normalized_label": "영육삼"
+            },
+            {
+                "normalized_label": "영육영"
+            },
+            {
+                "normalized_label": "영육오"
+            },
+            {
+                "normalized_label": "영육육"
+            },
+            {
+                "normalized_label": "영육이"
+            },
+            {
+                "normalized_label": "영육일"
+            },
+            {
+                "normalized_label": "영육칠"
+            },
+            {
+                "normalized_label": "영육팔"
+            },
+            {
+                "normalized_label": "영이구"
+            },
+            {
+                "normalized_label": "영이사"
+            },
+            {
+                "normalized_label": "영이삼"
+            },
+            {
+                "normalized_label": "영이영"
+            },
+            {
+                "normalized_label": "영이오"
+            },
+            {
+                "normalized_label": "영이육"
+            },
+            {
+                "normalized_label": "영이이"
+            },
+            {
+                "normalized_label": "영이일"
+            },
+            {
+                "normalized_label": "영이칠"
+            },
+            {
+                "normalized_label": "영이팔"
+            },
+            {
+                "normalized_label": "영일구"
+            },
+            {
+                "normalized_label": "영일사"
+            },
+            {
+                "normalized_label": "영일삼"
+            },
+            {
+                "normalized_label": "영일영"
+            },
+            {
+                "normalized_label": "영일오"
+            },
+            {
+                "normalized_label": "영일육"
+            },
+            {
+                "normalized_label": "영일이"
+            },
+            {
+                "normalized_label": "영일일"
+            },
+            {
+                "normalized_label": "영일칠"
+            },
+            {
+                "normalized_label": "영일팔"
+            },
+            {
+                "normalized_label": "영칠구"
+            },
+            {
+                "normalized_label": "영칠사"
+            },
+            {
+                "normalized_label": "영칠삼"
+            },
+            {
+                "normalized_label": "영칠영"
+            },
+            {
+                "normalized_label": "영칠오"
+            },
+            {
+                "normalized_label": "영칠육"
+            },
+            {
+                "normalized_label": "영칠이"
+            },
+            {
+                "normalized_label": "영칠일"
+            },
+            {
+                "normalized_label": "영칠칠"
+            },
+            {
+                "normalized_label": "영칠팔"
+            },
+            {
+                "normalized_label": "영팔구"
+            },
+            {
+                "normalized_label": "영팔사"
+            },
+            {
+                "normalized_label": "영팔삼"
+            },
+            {
+                "normalized_label": "영팔영"
+            },
+            {
+                "normalized_label": "영팔오"
+            },
+            {
+                "normalized_label": "영팔육"
+            },
+            {
+                "normalized_label": "영팔이"
+            },
+            {
+                "normalized_label": "영팔일"
+            },
+            {
+                "normalized_label": "영팔칠"
+            },
+            {
+                "normalized_label": "영팔팔"
+            },
+            {
+                "normalized_label": "오구구"
+            },
+            {
+                "normalized_label": "오구사"
+            },
+            {
+                "normalized_label": "오구삼"
+            },
+            {
+                "normalized_label": "오구영"
+            },
+            {
+                "normalized_label": "오구오"
+            },
+            {
+                "normalized_label": "오구육"
+            },
+            {
+                "normalized_label": "오구이"
+            },
+            {
+                "normalized_label": "오구일"
+            },
+            {
+                "normalized_label": "오구칠"
+            },
+            {
+                "normalized_label": "오구팔"
+            },
+            {
+                "normalized_label": "오사구"
+            },
+            {
+                "normalized_label": "오사사"
+            },
+            {
+                "normalized_label": "오사삼"
+            },
+            {
+                "normalized_label": "오사영"
+            },
+            {
+                "normalized_label": "오사오"
+            },
+            {
+                "normalized_label": "오사육"
+            },
+            {
+                "normalized_label": "오사이"
+            },
+            {
+                "normalized_label": "오사일"
+            },
+            {
+                "normalized_label": "오사칠"
+            },
+            {
+                "normalized_label": "오사팔"
+            },
+            {
+                "normalized_label": "오삼구"
+            },
+            {
+                "normalized_label": "오삼사"
+            },
+            {
+                "normalized_label": "오삼삼"
+            },
+            {
+                "normalized_label": "오삼영"
+            },
+            {
+                "normalized_label": "오삼오"
+            },
+            {
+                "normalized_label": "오삼육"
+            },
+            {
+                "normalized_label": "오삼이"
+            },
+            {
+                "normalized_label": "오삼일"
+            },
+            {
+                "normalized_label": "오삼칠"
+            },
+            {
+                "normalized_label": "오삼팔"
+            },
+            {
+                "normalized_label": "오영구"
+            },
+            {
+                "normalized_label": "오영사"
+            },
+            {
+                "normalized_label": "오영삼"
+            },
+            {
+                "normalized_label": "오영영"
+            },
+            {
+                "normalized_label": "오영오"
+            },
+            {
+                "normalized_label": "오영육"
+            },
+            {
+                "normalized_label": "오영이"
+            },
+            {
+                "normalized_label": "오영일"
+            },
+            {
+                "normalized_label": "오영칠"
+            },
+            {
+                "normalized_label": "오영팔"
+            },
+            {
+                "normalized_label": "오오구"
+            },
+            {
+                "normalized_label": "오오사"
+            },
+            {
+                "normalized_label": "오오삼"
+            },
+            {
+                "normalized_label": "오오영"
+            },
+            {
+                "normalized_label": "오오오"
+            },
+            {
+                "normalized_label": "오오육"
+            },
+            {
+                "normalized_label": "오오이"
+            },
+            {
+                "normalized_label": "오오일"
+            },
+            {
+                "normalized_label": "오오칠"
+            },
+            {
+                "normalized_label": "오오팔"
+            },
+            {
+                "normalized_label": "오육구"
+            },
+            {
+                "normalized_label": "오육사"
+            },
+            {
+                "normalized_label": "오육삼"
+            },
+            {
+                "normalized_label": "오육영"
+            },
+            {
+                "normalized_label": "오육오"
+            },
+            {
+                "normalized_label": "오육육"
+            },
+            {
+                "normalized_label": "오육이"
+            },
+            {
+                "normalized_label": "오육일"
+            },
+            {
+                "normalized_label": "오육칠"
+            },
+            {
+                "normalized_label": "오육팔"
+            },
+            {
+                "normalized_label": "오이구"
+            },
+            {
+                "normalized_label": "오이사"
+            },
+            {
+                "normalized_label": "오이삼"
+            },
+            {
+                "normalized_label": "오이영"
+            },
+            {
+                "normalized_label": "오이오"
+            },
+            {
+                "normalized_label": "오이육"
+            },
+            {
+                "normalized_label": "오이이"
+            },
+            {
+                "normalized_label": "오이일"
+            },
+            {
+                "normalized_label": "오이칠"
+            },
+            {
+                "normalized_label": "오이팔"
+            },
+            {
+                "normalized_label": "오일구"
+            },
+            {
+                "normalized_label": "오일사"
+            },
+            {
+                "normalized_label": "오일삼"
+            },
+            {
+                "normalized_label": "오일영"
+            },
+            {
+                "normalized_label": "오일오"
+            },
+            {
+                "normalized_label": "오일육"
+            },
+            {
+                "normalized_label": "오일이"
+            },
+            {
+                "normalized_label": "오일일"
+            },
+            {
+                "normalized_label": "오일칠"
+            },
+            {
+                "normalized_label": "오일팔"
+            },
+            {
+                "normalized_label": "오칠구"
+            },
+            {
+                "normalized_label": "오칠사"
+            },
+            {
+                "normalized_label": "오칠삼"
+            },
+            {
+                "normalized_label": "오칠영"
+            },
+            {
+                "normalized_label": "오칠오"
+            },
+            {
+                "normalized_label": "오칠육"
+            },
+            {
+                "normalized_label": "오칠이"
+            },
+            {
+                "normalized_label": "오칠일"
+            },
+            {
+                "normalized_label": "오칠칠"
+            },
+            {
+                "normalized_label": "오칠팔"
+            },
+            {
+                "normalized_label": "오팔구"
+            },
+            {
+                "normalized_label": "오팔사"
+            },
+            {
+                "normalized_label": "오팔삼"
+            },
+            {
+                "normalized_label": "오팔영"
+            },
+            {
+                "normalized_label": "오팔오"
+            },
+            {
+                "normalized_label": "오팔육"
+            },
+            {
+                "normalized_label": "오팔이"
+            },
+            {
+                "normalized_label": "오팔일"
+            },
+            {
+                "normalized_label": "오팔칠"
+            },
+            {
+                "normalized_label": "오팔팔"
+            },
+            {
+                "normalized_label": "육구구"
+            },
+            {
+                "normalized_label": "육구사"
+            },
+            {
+                "normalized_label": "육구삼"
+            },
+            {
+                "normalized_label": "육구영"
+            },
+            {
+                "normalized_label": "육구오"
+            },
+            {
+                "normalized_label": "육구육"
+            },
+            {
+                "normalized_label": "육구이"
+            },
+            {
+                "normalized_label": "육구일"
+            },
+            {
+                "normalized_label": "육구칠"
+            },
+            {
+                "normalized_label": "육구팔"
+            },
+            {
+                "normalized_label": "육사구"
+            },
+            {
+                "normalized_label": "육사사"
+            },
+            {
+                "normalized_label": "육사삼"
+            },
+            {
+                "normalized_label": "육사영"
+            },
+            {
+                "normalized_label": "육사오"
+            },
+            {
+                "normalized_label": "육사육"
+            },
+            {
+                "normalized_label": "육사이"
+            },
+            {
+                "normalized_label": "육사일"
+            },
+            {
+                "normalized_label": "육사칠"
+            },
+            {
+                "normalized_label": "육사팔"
+            },
+            {
+                "normalized_label": "육삼구"
+            },
+            {
+                "normalized_label": "육삼사"
+            },
+            {
+                "normalized_label": "육삼삼"
+            },
+            {
+                "normalized_label": "육삼영"
+            },
+            {
+                "normalized_label": "육삼오"
+            },
+            {
+                "normalized_label": "육삼육"
+            },
+            {
+                "normalized_label": "육삼이"
+            },
+            {
+                "normalized_label": "육삼일"
+            },
+            {
+                "normalized_label": "육삼칠"
+            },
+            {
+                "normalized_label": "육삼팔"
+            },
+            {
+                "normalized_label": "육영구"
+            },
+            {
+                "normalized_label": "육영사"
+            },
+            {
+                "normalized_label": "육영삼"
+            },
+            {
+                "normalized_label": "육영영"
+            },
+            {
+                "normalized_label": "육영오"
+            },
+            {
+                "normalized_label": "육영육"
+            },
+            {
+                "normalized_label": "육영이"
+            },
+            {
+                "normalized_label": "육영일"
+            },
+            {
+                "normalized_label": "육영칠"
+            },
+            {
+                "normalized_label": "육영팔"
+            },
+            {
+                "normalized_label": "육오구"
+            },
+            {
+                "normalized_label": "육오사"
+            },
+            {
+                "normalized_label": "육오삼"
+            },
+            {
+                "normalized_label": "육오영"
+            },
+            {
+                "normalized_label": "육오오"
+            },
+            {
+                "normalized_label": "육오육"
+            },
+            {
+                "normalized_label": "육오이"
+            },
+            {
+                "normalized_label": "육오일"
+            },
+            {
+                "normalized_label": "육오칠"
+            },
+            {
+                "normalized_label": "육오팔"
+            },
+            {
+                "normalized_label": "육육구"
+            },
+            {
+                "normalized_label": "육육사"
+            },
+            {
+                "normalized_label": "육육삼"
+            },
+            {
+                "normalized_label": "육육영"
+            },
+            {
+                "normalized_label": "육육오"
+            },
+            {
+                "normalized_label": "육육육"
+            },
+            {
+                "normalized_label": "육육이"
+            },
+            {
+                "normalized_label": "육육일"
+            },
+            {
+                "normalized_label": "육육칠"
+            },
+            {
+                "normalized_label": "육육팔"
+            },
+            {
+                "normalized_label": "육이구"
+            },
+            {
+                "normalized_label": "육이사"
+            },
+            {
+                "normalized_label": "육이삼"
+            },
+            {
+                "normalized_label": "육이영"
+            },
+            {
+                "normalized_label": "육이오"
+            },
+            {
+                "normalized_label": "육이육"
+            },
+            {
+                "normalized_label": "육이이"
+            },
+            {
+                "normalized_label": "육이일"
+            },
+            {
+                "normalized_label": "육이칠"
+            },
+            {
+                "normalized_label": "육이팔"
+            },
+            {
+                "normalized_label": "육일구"
+            },
+            {
+                "normalized_label": "육일사"
+            },
+            {
+                "normalized_label": "육일삼"
+            },
+            {
+                "normalized_label": "육일영"
+            },
+            {
+                "normalized_label": "육일오"
+            },
+            {
+                "normalized_label": "육일육"
+            },
+            {
+                "normalized_label": "육일이"
+            },
+            {
+                "normalized_label": "육일일"
+            },
+            {
+                "normalized_label": "육일칠"
+            },
+            {
+                "normalized_label": "육일팔"
+            },
+            {
+                "normalized_label": "육칠구"
+            },
+            {
+                "normalized_label": "육칠사"
+            },
+            {
+                "normalized_label": "육칠삼"
+            },
+            {
+                "normalized_label": "육칠영"
+            },
+            {
+                "normalized_label": "육칠오"
+            },
+            {
+                "normalized_label": "육칠육"
+            },
+            {
+                "normalized_label": "육칠이"
+            },
+            {
+                "normalized_label": "육칠일"
+            },
+            {
+                "normalized_label": "육칠칠"
+            },
+            {
+                "normalized_label": "육칠팔"
+            },
+            {
+                "normalized_label": "육팔구"
+            },
+            {
+                "normalized_label": "육팔사"
+            },
+            {
+                "normalized_label": "육팔삼"
+            },
+            {
+                "normalized_label": "육팔영"
+            },
+            {
+                "normalized_label": "육팔오"
+            },
+            {
+                "normalized_label": "육팔육"
+            },
+            {
+                "normalized_label": "육팔이"
+            },
+            {
+                "normalized_label": "육팔일"
+            },
+            {
+                "normalized_label": "육팔칠"
+            },
+            {
+                "normalized_label": "육팔팔"
+            },
+            {
+                "normalized_label": "이구구"
+            },
+            {
+                "normalized_label": "이구사"
+            },
+            {
+                "normalized_label": "이구삼"
+            },
+            {
+                "normalized_label": "이구영"
+            },
+            {
+                "normalized_label": "이구오"
+            },
+            {
+                "normalized_label": "이구육"
+            },
+            {
+                "normalized_label": "이구이"
+            },
+            {
+                "normalized_label": "이구일"
+            },
+            {
+                "normalized_label": "이구칠"
+            },
+            {
+                "normalized_label": "이구팔"
+            },
+            {
+                "normalized_label": "이사구"
+            },
+            {
+                "normalized_label": "이사사"
+            },
+            {
+                "normalized_label": "이사삼"
+            },
+            {
+                "normalized_label": "이사영"
+            },
+            {
+                "normalized_label": "이사오"
+            },
+            {
+                "normalized_label": "이사육"
+            },
+            {
+                "normalized_label": "이사이"
+            },
+            {
+                "normalized_label": "이사일"
+            },
+            {
+                "normalized_label": "이사칠"
+            },
+            {
+                "normalized_label": "이사팔"
+            },
+            {
+                "normalized_label": "이삼구"
+            },
+            {
+                "normalized_label": "이삼사"
+            },
+            {
+                "normalized_label": "이삼삼"
+            },
+            {
+                "normalized_label": "이삼영"
+            },
+            {
+                "normalized_label": "이삼오"
+            },
+            {
+                "normalized_label": "이삼육"
+            },
+            {
+                "normalized_label": "이삼이"
+            },
+            {
+                "normalized_label": "이삼일"
+            },
+            {
+                "normalized_label": "이삼칠"
+            },
+            {
+                "normalized_label": "이삼팔"
+            },
+            {
+                "normalized_label": "이영구"
+            },
+            {
+                "normalized_label": "이영사"
+            },
+            {
+                "normalized_label": "이영삼"
+            },
+            {
+                "normalized_label": "이영영"
+            },
+            {
+                "normalized_label": "이영오"
+            },
+            {
+                "normalized_label": "이영육"
+            },
+            {
+                "normalized_label": "이영이"
+            },
+            {
+                "normalized_label": "이영일"
+            },
+            {
+                "normalized_label": "이영칠"
+            },
+            {
+                "normalized_label": "이영팔"
+            },
+            {
+                "normalized_label": "이오구"
+            },
+            {
+                "normalized_label": "이오사"
+            },
+            {
+                "normalized_label": "이오삼"
+            },
+            {
+                "normalized_label": "이오영"
+            },
+            {
+                "normalized_label": "이오오"
+            },
+            {
+                "normalized_label": "이오육"
+            },
+            {
+                "normalized_label": "이오이"
+            },
+            {
+                "normalized_label": "이오일"
+            },
+            {
+                "normalized_label": "이오칠"
+            },
+            {
+                "normalized_label": "이오팔"
+            },
+            {
+                "normalized_label": "이육구"
+            },
+            {
+                "normalized_label": "이육사"
+            },
+            {
+                "normalized_label": "이육삼"
+            },
+            {
+                "normalized_label": "이육영"
+            },
+            {
+                "normalized_label": "이육오"
+            },
+            {
+                "normalized_label": "이육육"
+            },
+            {
+                "normalized_label": "이육이"
+            },
+            {
+                "normalized_label": "이육일"
+            },
+            {
+                "normalized_label": "이육칠"
+            },
+            {
+                "normalized_label": "이육팔"
+            },
+            {
+                "normalized_label": "이이구"
+            },
+            {
+                "normalized_label": "이이사"
+            },
+            {
+                "normalized_label": "이이삼"
+            },
+            {
+                "normalized_label": "이이영"
+            },
+            {
+                "normalized_label": "이이오"
+            },
+            {
+                "normalized_label": "이이육"
+            },
+            {
+                "normalized_label": "이이이"
+            },
+            {
+                "normalized_label": "이이일"
+            },
+            {
+                "normalized_label": "이이칠"
+            },
+            {
+                "normalized_label": "이이팔"
+            },
+            {
+                "normalized_label": "이일구"
+            },
+            {
+                "normalized_label": "이일사"
+            },
+            {
+                "normalized_label": "이일삼"
+            },
+            {
+                "normalized_label": "이일영"
+            },
+            {
+                "normalized_label": "이일오"
+            },
+            {
+                "normalized_label": "이일육"
+            },
+            {
+                "normalized_label": "이일이"
+            },
+            {
+                "normalized_label": "이일일"
+            },
+            {
+                "normalized_label": "이일칠"
+            },
+            {
+                "normalized_label": "이일팔"
+            },
+            {
+                "normalized_label": "이칠구"
+            },
+            {
+                "normalized_label": "이칠사"
+            },
+            {
+                "normalized_label": "이칠삼"
+            },
+            {
+                "normalized_label": "이칠영"
+            },
+            {
+                "normalized_label": "이칠오"
+            },
+            {
+                "normalized_label": "이칠육"
+            },
+            {
+                "normalized_label": "이칠이"
+            },
+            {
+                "normalized_label": "이칠일"
+            },
+            {
+                "normalized_label": "이칠칠"
+            },
+            {
+                "normalized_label": "이칠팔"
+            },
+            {
+                "normalized_label": "이팔구"
+            },
+            {
+                "normalized_label": "이팔사"
+            },
+            {
+                "normalized_label": "이팔삼"
+            },
+            {
+                "normalized_label": "이팔영"
+            },
+            {
+                "normalized_label": "이팔오"
+            },
+            {
+                "normalized_label": "이팔육"
+            },
+            {
+                "normalized_label": "이팔이"
+            },
+            {
+                "normalized_label": "이팔일"
+            },
+            {
+                "normalized_label": "이팔칠"
+            },
+            {
+                "normalized_label": "이팔팔"
+            },
+            {
+                "normalized_label": "일구구"
+            },
+            {
+                "normalized_label": "일구사"
+            },
+            {
+                "normalized_label": "일구삼"
+            },
+            {
+                "normalized_label": "일구영"
+            },
+            {
+                "normalized_label": "일구오"
+            },
+            {
+                "normalized_label": "일구육"
+            },
+            {
+                "normalized_label": "일구이"
+            },
+            {
+                "normalized_label": "일구일"
+            },
+            {
+                "normalized_label": "일구칠"
+            },
+            {
+                "normalized_label": "일구팔"
+            },
+            {
+                "normalized_label": "일사구"
+            },
+            {
+                "normalized_label": "일사사"
+            },
+            {
+                "normalized_label": "일사삼"
+            },
+            {
+                "normalized_label": "일사영"
+            },
+            {
+                "normalized_label": "일사오"
+            },
+            {
+                "normalized_label": "일사육"
+            },
+            {
+                "normalized_label": "일사이"
+            },
+            {
+                "normalized_label": "일사일"
+            },
+            {
+                "normalized_label": "일사칠"
+            },
+            {
+                "normalized_label": "일사팔"
+            },
+            {
+                "normalized_label": "일삼구"
+            },
+            {
+                "normalized_label": "일삼사"
+            },
+            {
+                "normalized_label": "일삼삼"
+            },
+            {
+                "normalized_label": "일삼영"
+            },
+            {
+                "normalized_label": "일삼오"
+            },
+            {
+                "normalized_label": "일삼육"
+            },
+            {
+                "normalized_label": "일삼이"
+            },
+            {
+                "normalized_label": "일삼일"
+            },
+            {
+                "normalized_label": "일삼칠"
+            },
+            {
+                "normalized_label": "일삼팔"
+            },
+            {
+                "normalized_label": "일영구"
+            },
+            {
+                "normalized_label": "일영사"
+            },
+            {
+                "normalized_label": "일영삼"
+            },
+            {
+                "normalized_label": "일영영"
+            },
+            {
+                "normalized_label": "일영오"
+            },
+            {
+                "normalized_label": "일영육"
+            },
+            {
+                "normalized_label": "일영이"
+            },
+            {
+                "normalized_label": "일영일"
+            },
+            {
+                "normalized_label": "일영칠"
+            },
+            {
+                "normalized_label": "일영팔"
+            },
+            {
+                "normalized_label": "일오구"
+            },
+            {
+                "normalized_label": "일오사"
+            },
+            {
+                "normalized_label": "일오삼"
+            },
+            {
+                "normalized_label": "일오영"
+            },
+            {
+                "normalized_label": "일오오"
+            },
+            {
+                "normalized_label": "일오육"
+            },
+            {
+                "normalized_label": "일오이"
+            },
+            {
+                "normalized_label": "일오일"
+            },
+            {
+                "normalized_label": "일오칠"
+            },
+            {
+                "normalized_label": "일오팔"
+            },
+            {
+                "normalized_label": "일육구"
+            },
+            {
+                "normalized_label": "일육사"
+            },
+            {
+                "normalized_label": "일육삼"
+            },
+            {
+                "normalized_label": "일육영"
+            },
+            {
+                "normalized_label": "일육오"
+            },
+            {
+                "normalized_label": "일육육"
+            },
+            {
+                "normalized_label": "일육이"
+            },
+            {
+                "normalized_label": "일육일"
+            },
+            {
+                "normalized_label": "일육칠"
+            },
+            {
+                "normalized_label": "일육팔"
+            },
+            {
+                "normalized_label": "일이구"
+            },
+            {
+                "normalized_label": "일이사"
+            },
+            {
+                "normalized_label": "일이삼"
+            },
+            {
+                "normalized_label": "일이영"
+            },
+            {
+                "normalized_label": "일이오"
+            },
+            {
+                "normalized_label": "일이육"
+            },
+            {
+                "normalized_label": "일이이"
+            },
+            {
+                "normalized_label": "일이일"
+            },
+            {
+                "normalized_label": "일이칠"
+            },
+            {
+                "normalized_label": "일이팔"
+            },
+            {
+                "normalized_label": "일일구"
+            },
+            {
+                "normalized_label": "일일사"
+            },
+            {
+                "normalized_label": "일일삼"
+            },
+            {
+                "normalized_label": "일일영"
+            },
+            {
+                "normalized_label": "일일오"
+            },
+            {
+                "normalized_label": "일일육"
+            },
+            {
+                "normalized_label": "일일이"
+            },
+            {
+                "normalized_label": "일일일"
+            },
+            {
+                "normalized_label": "일일칠"
+            },
+            {
+                "normalized_label": "일일팔"
+            },
+            {
+                "normalized_label": "일칠구"
+            },
+            {
+                "normalized_label": "일칠사"
+            },
+            {
+                "normalized_label": "일칠삼"
+            },
+            {
+                "normalized_label": "일칠영"
+            },
+            {
+                "normalized_label": "일칠오"
+            },
+            {
+                "normalized_label": "일칠육"
+            },
+            {
+                "normalized_label": "일칠이"
+            },
+            {
+                "normalized_label": "일칠일"
+            },
+            {
+                "normalized_label": "일칠칠"
+            },
+            {
+                "normalized_label": "일칠팔"
+            },
+            {
+                "normalized_label": "일팔구"
+            },
+            {
+                "normalized_label": "일팔사"
+            },
+            {
+                "normalized_label": "일팔삼"
+            },
+            {
+                "normalized_label": "일팔영"
+            },
+            {
+                "normalized_label": "일팔오"
+            },
+            {
+                "normalized_label": "일팔육"
+            },
+            {
+                "normalized_label": "일팔이"
+            },
+            {
+                "normalized_label": "일팔일"
+            },
+            {
+                "normalized_label": "일팔칠"
+            },
+            {
+                "normalized_label": "일팔팔"
+            },
+            {
+                "normalized_label": "칠구구"
+            },
+            {
+                "normalized_label": "칠구사"
+            },
+            {
+                "normalized_label": "칠구삼"
+            },
+            {
+                "normalized_label": "칠구영"
+            },
+            {
+                "normalized_label": "칠구오"
+            },
+            {
+                "normalized_label": "칠구육"
+            },
+            {
+                "normalized_label": "칠구이"
+            },
+            {
+                "normalized_label": "칠구일"
+            },
+            {
+                "normalized_label": "칠구칠"
+            },
+            {
+                "normalized_label": "칠구팔"
+            },
+            {
+                "normalized_label": "칠사구"
+            },
+            {
+                "normalized_label": "칠사사"
+            },
+            {
+                "normalized_label": "칠사삼"
+            },
+            {
+                "normalized_label": "칠사영"
+            },
+            {
+                "normalized_label": "칠사오"
+            },
+            {
+                "normalized_label": "칠사육"
+            },
+            {
+                "normalized_label": "칠사이"
+            },
+            {
+                "normalized_label": "칠사일"
+            },
+            {
+                "normalized_label": "칠사칠"
+            },
+            {
+                "normalized_label": "칠사팔"
+            },
+            {
+                "normalized_label": "칠삼구"
+            },
+            {
+                "normalized_label": "칠삼사"
+            },
+            {
+                "normalized_label": "칠삼삼"
+            },
+            {
+                "normalized_label": "칠삼영"
+            },
+            {
+                "normalized_label": "칠삼오"
+            },
+            {
+                "normalized_label": "칠삼육"
+            },
+            {
+                "normalized_label": "칠삼이"
+            },
+            {
+                "normalized_label": "칠삼일"
+            },
+            {
+                "normalized_label": "칠삼칠"
+            },
+            {
+                "normalized_label": "칠삼팔"
+            },
+            {
+                "normalized_label": "칠영구"
+            },
+            {
+                "normalized_label": "칠영사"
+            },
+            {
+                "normalized_label": "칠영삼"
+            },
+            {
+                "normalized_label": "칠영영"
+            },
+            {
+                "normalized_label": "칠영오"
+            },
+            {
+                "normalized_label": "칠영육"
+            },
+            {
+                "normalized_label": "칠영이"
+            },
+            {
+                "normalized_label": "칠영일"
+            },
+            {
+                "normalized_label": "칠영칠"
+            },
+            {
+                "normalized_label": "칠영팔"
+            },
+            {
+                "normalized_label": "칠오구"
+            },
+            {
+                "normalized_label": "칠오사"
+            },
+            {
+                "normalized_label": "칠오삼"
+            },
+            {
+                "normalized_label": "칠오영"
+            },
+            {
+                "normalized_label": "칠오오"
+            },
+            {
+                "normalized_label": "칠오육"
+            },
+            {
+                "normalized_label": "칠오이"
+            },
+            {
+                "normalized_label": "칠오일"
+            },
+            {
+                "normalized_label": "칠오칠"
+            },
+            {
+                "normalized_label": "칠오팔"
+            },
+            {
+                "normalized_label": "칠육구"
+            },
+            {
+                "normalized_label": "칠육사"
+            },
+            {
+                "normalized_label": "칠육삼"
+            },
+            {
+                "normalized_label": "칠육영"
+            },
+            {
+                "normalized_label": "칠육오"
+            },
+            {
+                "normalized_label": "칠육육"
+            },
+            {
+                "normalized_label": "칠육이"
+            },
+            {
+                "normalized_label": "칠육일"
+            },
+            {
+                "normalized_label": "칠육칠"
+            },
+            {
+                "normalized_label": "칠육팔"
+            },
+            {
+                "normalized_label": "칠이구"
+            },
+            {
+                "normalized_label": "칠이사"
+            },
+            {
+                "normalized_label": "칠이삼"
+            },
+            {
+                "normalized_label": "칠이영"
+            },
+            {
+                "normalized_label": "칠이오"
+            },
+            {
+                "normalized_label": "칠이육"
+            },
+            {
+                "normalized_label": "칠이이"
+            },
+            {
+                "normalized_label": "칠이일"
+            },
+            {
+                "normalized_label": "칠이칠"
+            },
+            {
+                "normalized_label": "칠이팔"
+            },
+            {
+                "normalized_label": "칠일구"
+            },
+            {
+                "normalized_label": "칠일사"
+            },
+            {
+                "normalized_label": "칠일삼"
+            },
+            {
+                "normalized_label": "칠일영"
+            },
+            {
+                "normalized_label": "칠일오"
+            },
+            {
+                "normalized_label": "칠일육"
+            },
+            {
+                "normalized_label": "칠일이"
+            },
+            {
+                "normalized_label": "칠일일"
+            },
+            {
+                "normalized_label": "칠일칠"
+            },
+            {
+                "normalized_label": "칠일팔"
+            },
+            {
+                "normalized_label": "칠칠구"
+            },
+            {
+                "normalized_label": "칠칠사"
+            },
+            {
+                "normalized_label": "칠칠삼"
+            },
+            {
+                "normalized_label": "칠칠영"
+            },
+            {
+                "normalized_label": "칠칠오"
+            },
+            {
+                "normalized_label": "칠칠육"
+            },
+            {
+                "normalized_label": "칠칠이"
+            },
+            {
+                "normalized_label": "칠칠일"
+            },
+            {
+                "normalized_label": "칠칠칠"
+            },
+            {
+                "normalized_label": "칠칠팔"
+            },
+            {
+                "normalized_label": "칠팔구"
+            },
+            {
+                "normalized_label": "칠팔사"
+            },
+            {
+                "normalized_label": "칠팔삼"
+            },
+            {
+                "normalized_label": "칠팔영"
+            },
+            {
+                "normalized_label": "칠팔오"
+            },
+            {
+                "normalized_label": "칠팔육"
+            },
+            {
+                "normalized_label": "칠팔이"
+            },
+            {
+                "normalized_label": "칠팔일"
+            },
+            {
+                "normalized_label": "칠팔칠"
+            },
+            {
+                "normalized_label": "칠팔팔"
+            },
+            {
+                "normalized_label": "팔구구"
+            },
+            {
+                "normalized_label": "팔구사"
+            },
+            {
+                "normalized_label": "팔구삼"
+            },
+            {
+                "normalized_label": "팔구영"
+            },
+            {
+                "normalized_label": "팔구오"
+            },
+            {
+                "normalized_label": "팔구육"
+            },
+            {
+                "normalized_label": "팔구이"
+            },
+            {
+                "normalized_label": "팔구일"
+            },
+            {
+                "normalized_label": "팔구칠"
+            },
+            {
+                "normalized_label": "팔구팔"
+            },
+            {
+                "normalized_label": "팔사구"
+            },
+            {
+                "normalized_label": "팔사사"
+            },
+            {
+                "normalized_label": "팔사삼"
+            },
+            {
+                "normalized_label": "팔사영"
+            },
+            {
+                "normalized_label": "팔사오"
+            },
+            {
+                "normalized_label": "팔사육"
+            },
+            {
+                "normalized_label": "팔사이"
+            },
+            {
+                "normalized_label": "팔사일"
+            },
+            {
+                "normalized_label": "팔사칠"
+            },
+            {
+                "normalized_label": "팔사팔"
+            },
+            {
+                "normalized_label": "팔삼구"
+            },
+            {
+                "normalized_label": "팔삼사"
+            },
+            {
+                "normalized_label": "팔삼삼"
+            },
+            {
+                "normalized_label": "팔삼영"
+            },
+            {
+                "normalized_label": "팔삼오"
+            },
+            {
+                "normalized_label": "팔삼육"
+            },
+            {
+                "normalized_label": "팔삼이"
+            },
+            {
+                "normalized_label": "팔삼일"
+            },
+            {
+                "normalized_label": "팔삼칠"
+            },
+            {
+                "normalized_label": "팔삼팔"
+            },
+            {
+                "normalized_label": "팔영구"
+            },
+            {
+                "normalized_label": "팔영사"
+            },
+            {
+                "normalized_label": "팔영삼"
+            },
+            {
+                "normalized_label": "팔영영"
+            },
+            {
+                "normalized_label": "팔영오"
+            },
+            {
+                "normalized_label": "팔영육"
+            },
+            {
+                "normalized_label": "팔영이"
+            },
+            {
+                "normalized_label": "팔영일"
+            },
+            {
+                "normalized_label": "팔영칠"
+            },
+            {
+                "normalized_label": "팔영팔"
+            },
+            {
+                "normalized_label": "팔오구"
+            },
+            {
+                "normalized_label": "팔오사"
+            },
+            {
+                "normalized_label": "팔오삼"
+            },
+            {
+                "normalized_label": "팔오영"
+            },
+            {
+                "normalized_label": "팔오오"
+            },
+            {
+                "normalized_label": "팔오육"
+            },
+            {
+                "normalized_label": "팔오이"
+            },
+            {
+                "normalized_label": "팔오일"
+            },
+            {
+                "normalized_label": "팔오칠"
+            },
+            {
+                "normalized_label": "팔오팔"
+            },
+            {
+                "normalized_label": "팔육구"
+            },
+            {
+                "normalized_label": "팔육사"
+            },
+            {
+                "normalized_label": "팔육삼"
+            },
+            {
+                "normalized_label": "팔육영"
+            },
+            {
+                "normalized_label": "팔육오"
+            },
+            {
+                "normalized_label": "팔육육"
+            },
+            {
+                "normalized_label": "팔육이"
+            },
+            {
+                "normalized_label": "팔육일"
+            },
+            {
+                "normalized_label": "팔육칠"
+            },
+            {
+                "normalized_label": "팔육팔"
+            },
+            {
+                "normalized_label": "팔이구"
+            },
+            {
+                "normalized_label": "팔이사"
+            },
+            {
+                "normalized_label": "팔이삼"
+            },
+            {
+                "normalized_label": "팔이영"
+            },
+            {
+                "normalized_label": "팔이오"
+            },
+            {
+                "normalized_label": "팔이육"
+            },
+            {
+                "normalized_label": "팔이이"
+            },
+            {
+                "normalized_label": "팔이일"
+            },
+            {
+                "normalized_label": "팔이칠"
+            },
+            {
+                "normalized_label": "팔이팔"
+            },
+            {
+                "normalized_label": "팔일구"
+            },
+            {
+                "normalized_label": "팔일사"
+            },
+            {
+                "normalized_label": "팔일삼"
+            },
+            {
+                "normalized_label": "팔일영"
+            },
+            {
+                "normalized_label": "팔일오"
+            },
+            {
+                "normalized_label": "팔일육"
+            },
+            {
+                "normalized_label": "팔일이"
+            },
+            {
+                "normalized_label": "팔일일"
+            },
+            {
+                "normalized_label": "팔일칠"
+            },
+            {
+                "normalized_label": "팔일팔"
+            },
+            {
+                "normalized_label": "팔칠구"
+            },
+            {
+                "normalized_label": "팔칠사"
+            },
+            {
+                "normalized_label": "팔칠삼"
+            },
+            {
+                "normalized_label": "팔칠영"
+            },
+            {
+                "normalized_label": "팔칠오"
+            },
+            {
+                "normalized_label": "팔칠육"
+            },
+            {
+                "normalized_label": "팔칠이"
+            },
+            {
+                "normalized_label": "팔칠일"
+            },
+            {
+                "normalized_label": "팔칠칠"
+            },
+            {
+                "normalized_label": "팔칠팔"
+            },
+            {
+                "normalized_label": "팔팔구"
+            },
+            {
+                "normalized_label": "팔팔사"
+            },
+            {
+                "normalized_label": "팔팔삼"
+            },
+            {
+                "normalized_label": "팔팔영"
+            },
+            {
+                "normalized_label": "팔팔오"
+            },
+            {
+                "normalized_label": "팔팔육"
+            },
+            {
+                "normalized_label": "팔팔이"
+            },
+            {
+                "normalized_label": "팔팔일"
+            },
+            {
+                "normalized_label": "팔팔칠"
+            },
+            {
+                "normalized_label": "팔팔팔"
+            }
+        ]
+    }
+}

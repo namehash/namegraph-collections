@@ -1,0 +1,521 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "harry-potter",
+        "collection_name": "Harry Potter",
+        "collection_description": "Harry Potter characters",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "aberforthdumbledore"
+            },
+            {
+                "normalized_label": "alastormoody"
+            },
+            {
+                "normalized_label": "albertruncorn"
+            },
+            {
+                "normalized_label": "albusdumbledore"
+            },
+            {
+                "normalized_label": "albuspotter"
+            },
+            {
+                "normalized_label": "alectacarrow"
+            },
+            {
+                "normalized_label": "aliciaspinnet"
+            },
+            {
+                "normalized_label": "amosdiggory"
+            },
+            {
+                "normalized_label": "amycuscarrow"
+            },
+            {
+                "normalized_label": "antonindolohov"
+            },
+            {
+                "normalized_label": "arabellafigg"
+            },
+            {
+                "normalized_label": "aragog"
+            },
+            {
+                "normalized_label": "argusfilch"
+            },
+            {
+                "normalized_label": "arthurweasley"
+            },
+            {
+                "normalized_label": "auntmuriel"
+            },
+            {
+                "normalized_label": "bane"
+            },
+            {
+                "normalized_label": "bartycrouch"
+            },
+            {
+                "normalized_label": "bartycrouchjr"
+            },
+            {
+                "normalized_label": "bathildabagshot"
+            },
+            {
+                "normalized_label": "bellatrixlestrange"
+            },
+            {
+                "normalized_label": "billweasley"
+            },
+            {
+                "normalized_label": "buckbeak"
+            },
+            {
+                "normalized_label": "cedricdiggory"
+            },
+            {
+                "normalized_label": "charlieweasley"
+            },
+            {
+                "normalized_label": "chochang"
+            },
+            {
+                "normalized_label": "colincreevey"
+            },
+            {
+                "normalized_label": "corbanyaxley"
+            },
+            {
+                "normalized_label": "cormacmclaggen"
+            },
+            {
+                "normalized_label": "corneliusfudge"
+            },
+            {
+                "normalized_label": "crookshanks"
+            },
+            {
+                "normalized_label": "deanthomas"
+            },
+            {
+                "normalized_label": "dobby"
+            },
+            {
+                "normalized_label": "doloresumbridge"
+            },
+            {
+                "normalized_label": "dracomalfoy"
+            },
+            {
+                "normalized_label": "dudleydursley"
+            },
+            {
+                "normalized_label": "elphiasdoge"
+            },
+            {
+                "normalized_label": "ernieprang"
+            },
+            {
+                "normalized_label": "fawkes"
+            },
+            {
+                "normalized_label": "fenrirgreyback"
+            },
+            {
+                "normalized_label": "filiusflitwick"
+            },
+            {
+                "normalized_label": "firenze"
+            },
+            {
+                "normalized_label": "fleurdelacour"
+            },
+            {
+                "normalized_label": "frankbryce"
+            },
+            {
+                "normalized_label": "fredweasley"
+            },
+            {
+                "normalized_label": "garrickollivander"
+            },
+            {
+                "normalized_label": "georgeweasley"
+            },
+            {
+                "normalized_label": "gilderoylockhart"
+            },
+            {
+                "normalized_label": "ginnyweasley"
+            },
+            {
+                "normalized_label": "grawp"
+            },
+            {
+                "normalized_label": "gregorygoyle"
+            },
+            {
+                "normalized_label": "griphook"
+            },
+            {
+                "normalized_label": "hannahabbott"
+            },
+            {
+                "normalized_label": "harrypotter"
+            },
+            {
+                "normalized_label": "hedwig"
+            },
+            {
+                "normalized_label": "helenaravenclaw"
+            },
+            {
+                "normalized_label": "hermionegranger"
+            },
+            {
+                "normalized_label": "horaceslughorn"
+            },
+            {
+                "normalized_label": "igorkarkaroff"
+            },
+            {
+                "normalized_label": "jamespotter"
+            },
+            {
+                "normalized_label": "justinfinch-fletchley"
+            },
+            {
+                "normalized_label": "katiebell"
+            },
+            {
+                "normalized_label": "kingsleyshacklebolt"
+            },
+            {
+                "normalized_label": "kreacher"
+            },
+            {
+                "normalized_label": "lavenderbrown"
+            },
+            {
+                "normalized_label": "lilypotter"
+            },
+            {
+                "normalized_label": "lordvoldemort"
+            },
+            {
+                "normalized_label": "luciusmalfoy"
+            },
+            {
+                "normalized_label": "lunalovegood"
+            },
+            {
+                "normalized_label": "mad-eyemoody"
+            },
+            {
+                "normalized_label": "madamemaxime"
+            },
+            {
+                "normalized_label": "madamhooch"
+            },
+            {
+                "normalized_label": "madampomfrey"
+            },
+            {
+                "normalized_label": "madamrosmerta"
+            },
+            {
+                "normalized_label": "mafaldahopkirk"
+            },
+            {
+                "normalized_label": "margedursley"
+            },
+            {
+                "normalized_label": "minervamcgonagall"
+            },
+            {
+                "normalized_label": "moaningmyrtle"
+            },
+            {
+                "normalized_label": "mollyweasley"
+            },
+            {
+                "normalized_label": "mrollivander"
+            },
+            {
+                "normalized_label": "mrsfigg"
+            },
+            {
+                "normalized_label": "mundungusfletcher"
+            },
+            {
+                "normalized_label": "narcissamalfoy"
+            },
+            {
+                "normalized_label": "nearlyheadlessnick"
+            },
+            {
+                "normalized_label": "nevillelongbottom"
+            },
+            {
+                "normalized_label": "nymphadoratonks"
+            },
+            {
+                "normalized_label": "oliverwood"
+            },
+            {
+                "normalized_label": "olympemaxime"
+            },
+            {
+                "normalized_label": "padmapatil"
+            },
+            {
+                "normalized_label": "pansyparkinson"
+            },
+            {
+                "normalized_label": "parvatipatil"
+            },
+            {
+                "normalized_label": "percyweasley"
+            },
+            {
+                "normalized_label": "peterpettigrew"
+            },
+            {
+                "normalized_label": "petuniadursley"
+            },
+            {
+                "normalized_label": "piusthicknesse"
+            },
+            {
+                "normalized_label": "pomonasprout"
+            },
+            {
+                "normalized_label": "poppypomfrey"
+            },
+            {
+                "normalized_label": "professordumbledore"
+            },
+            {
+                "normalized_label": "professorflitwick"
+            },
+            {
+                "normalized_label": "professorgrubbly-plank"
+            },
+            {
+                "normalized_label": "professorlockhart"
+            },
+            {
+                "normalized_label": "professorlupin"
+            },
+            {
+                "normalized_label": "professormcgonagall"
+            },
+            {
+                "normalized_label": "professormoody"
+            },
+            {
+                "normalized_label": "professorquirrell"
+            },
+            {
+                "normalized_label": "professorslughorn"
+            },
+            {
+                "normalized_label": "professorsnape"
+            },
+            {
+                "normalized_label": "professorsprout"
+            },
+            {
+                "normalized_label": "professortrelawney"
+            },
+            {
+                "normalized_label": "professorumbridge"
+            },
+            {
+                "normalized_label": "quirinusquirrell"
+            },
+            {
+                "normalized_label": "regcattermole"
+            },
+            {
+                "normalized_label": "remuslupin"
+            },
+            {
+                "normalized_label": "ritaskeeter"
+            },
+            {
+                "normalized_label": "rolandahooch"
+            },
+            {
+                "normalized_label": "romildavane"
+            },
+            {
+                "normalized_label": "ronweasley"
+            },
+            {
+                "normalized_label": "roseweasley"
+            },
+            {
+                "normalized_label": "rubeushagrid"
+            },
+            {
+                "normalized_label": "rufusscrimgeour"
+            },
+            {
+                "normalized_label": "scabbers"
+            },
+            {
+                "normalized_label": "scabior"
+            },
+            {
+                "normalized_label": "seamusfinnigan"
+            },
+            {
+                "normalized_label": "severussnape"
+            },
+            {
+                "normalized_label": "siriusblack"
+            },
+            {
+                "normalized_label": "stanshunpike"
+            },
+            {
+                "normalized_label": "sybilltrelawney"
+            },
+            {
+                "normalized_label": "thebloodybaron"
+            },
+            {
+                "normalized_label": "thefatlady"
+            },
+            {
+                "normalized_label": "thesortinghat"
+            },
+            {
+                "normalized_label": "thorfinnrowle"
+            },
+            {
+                "normalized_label": "tomriddle"
+            },
+            {
+                "normalized_label": "vernondursley"
+            },
+            {
+                "normalized_label": "viktorkrum"
+            },
+            {
+                "normalized_label": "vincentcrabbe"
+            },
+            {
+                "normalized_label": "voldemort"
+            },
+            {
+                "normalized_label": "wilhelminagrubbly-plank"
+            },
+            {
+                "normalized_label": "winky"
+            },
+            {
+                "normalized_label": "wormtail"
+            },
+            {
+                "normalized_label": "xenophiliuslovegood"
+            },
+            {
+                "normalized_label": "angelinajohnson"
+            },
+            {
+                "normalized_label": "arianadumbledore"
+            },
+            {
+                "normalized_label": "fatfriar"
+            },
+            {
+                "normalized_label": "nicolasflamel"
+            },
+            {
+                "normalized_label": "sircadogan"
+            },
+            {
+                "normalized_label": "susanbones"
+            },
+            {
+                "normalized_label": "waldenmacnair"
+            },
+            {
+                "normalized_label": "bartemiuscrouchsr"
+            },
+            {
+                "normalized_label": "bloodybaron"
+            },
+            {
+                "normalized_label": "cerberus"
+            },
+            {
+                "normalized_label": "deatheaters"
+            },
+            {
+                "normalized_label": "edgarcloggs"
+            },
+            {
+                "normalized_label": "gellertgrindelwald"
+            },
+            {
+                "normalized_label": "ginevraweasley"
+            },
+            {
+                "normalized_label": "godricgryffindor"
+            },
+            {
+                "normalized_label": "ludovicbagman"
+            },
+            {
+                "normalized_label": "nagini"
+            },
+            {
+                "normalized_label": "newtonscamander"
+            },
+            {
+                "normalized_label": "peeves"
+            },
+            {
+                "normalized_label": "porpentinagoldstein"
+            },
+            {
+                "normalized_label": "ronaldweasley"
+            },
+            {
+                "normalized_label": "rowenaravenclaw"
+            },
+            {
+                "normalized_label": "salazarslytherin"
+            },
+            {
+                "normalized_label": "snatchers"
+            },
+            {
+                "normalized_label": "thebasilisk"
+            },
+            {
+                "normalized_label": "thehungarianhorntail"
+            },
+            {
+                "normalized_label": "themountaintroll"
+            },
+            {
+                "normalized_label": "dedalusdiggle"
+            },
+            {
+                "normalized_label": "blaisezabini"
+            }
+        ]
+    }
+}

@@ -1,0 +1,3914 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "naruto-names",
+        "collection_name": "Naruto Names",
+        "collection_description": "Names of all characters from Naruto!",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "abiru"
+            },
+            {
+                "normalized_label": "agari"
+            },
+            {
+                "normalized_label": "agarikaisen"
+            },
+            {
+                "normalized_label": "ageha"
+            },
+            {
+                "normalized_label": "agiraryūdōin"
+            },
+            {
+                "normalized_label": "ahiko"
+            },
+            {
+                "normalized_label": "akaboshi"
+            },
+            {
+                "normalized_label": "akahoshi"
+            },
+            {
+                "normalized_label": "akamaru"
+            },
+            {
+                "normalized_label": "akane"
+            },
+            {
+                "normalized_label": "akari"
+            },
+            {
+                "normalized_label": "akatsuchi"
+            },
+            {
+                "normalized_label": "akino"
+            },
+            {
+                "normalized_label": "akio"
+            },
+            {
+                "normalized_label": "amachi"
+            },
+            {
+                "normalized_label": "amaru"
+            },
+            {
+                "normalized_label": "amayo"
+            },
+            {
+                "normalized_label": "ami"
+            },
+            {
+                "normalized_label": "aniki"
+            },
+            {
+                "normalized_label": "ankomitarashi"
+            },
+            {
+                "normalized_label": "aobayamashiro"
+            },
+            {
+                "normalized_label": "aoirokushō"
+            },
+            {
+                "normalized_label": "arashi"
+            },
+            {
+                "normalized_label": "asumasarutobi"
+            },
+            {
+                "normalized_label": "ayame"
+            },
+            {
+                "normalized_label": "baiu"
+            },
+            {
+                "normalized_label": "baki"
+            },
+            {
+                "normalized_label": "baku"
+            },
+            {
+                "normalized_label": "bakuto"
+            },
+            {
+                "normalized_label": "bando"
+            },
+            {
+                "normalized_label": "bansai"
+            },
+            {
+                "normalized_label": "bee"
+            },
+            {
+                "normalized_label": "bekkō"
+            },
+            {
+                "normalized_label": "benten"
+            },
+            {
+                "normalized_label": "bisuke"
+            },
+            {
+                "normalized_label": "bull"
+            },
+            {
+                "normalized_label": "buna"
+            },
+            {
+                "normalized_label": "bunzō"
+            },
+            {
+                "normalized_label": "chibi"
+            },
+            {
+                "normalized_label": "chikara"
+            },
+            {
+                "normalized_label": "chiriku"
+            },
+            {
+                "normalized_label": "chishima"
+            },
+            {
+                "normalized_label": "chiyo"
+            },
+            {
+                "normalized_label": "chōhan"
+            },
+            {
+                "normalized_label": "chōjiakimichi"
+            },
+            {
+                "normalized_label": "chōjūrō"
+            },
+            {
+                "normalized_label": "chōseki"
+            },
+            {
+                "normalized_label": "chōzaakimichi"
+            },
+            {
+                "normalized_label": "chūshin"
+            },
+            {
+                "normalized_label": "daichi"
+            },
+            {
+                "normalized_label": "daikokufuneno"
+            },
+            {
+                "normalized_label": "dajimu"
+            },
+            {
+                "normalized_label": "dan"
+            },
+            {
+                "normalized_label": "danzōshimura"
+            },
+            {
+                "normalized_label": "deidara"
+            },
+            {
+                "normalized_label": "dengaku"
+            },
+            {
+                "normalized_label": "denka"
+            },
+            {
+                "normalized_label": "doki"
+            },
+            {
+                "normalized_label": "dosukinuta"
+            },
+            {
+                "normalized_label": "dotōkazahana"
+            },
+            {
+                "normalized_label": "doushin"
+            },
+            {
+                "normalized_label": "ebisu"
+            },
+            {
+                "normalized_label": "ebizō"
+            },
+            {
+                "normalized_label": "emi"
+            },
+            {
+                "normalized_label": "emiru"
+            },
+            {
+                "normalized_label": "ennogyōja"
+            },
+            {
+                "normalized_label": "firsthoshikage"
+            },
+            {
+                "normalized_label": "firsttsuchikage"
+            },
+            {
+                "normalized_label": "fourthkazekage"
+            },
+            {
+                "normalized_label": "fubukikakuyoku"
+            },
+            {
+                "normalized_label": "fudō"
+            },
+            {
+                "normalized_label": "fuen"
+            },
+            {
+                "normalized_label": "fugai"
+            },
+            {
+                "normalized_label": "fugakuuchiha"
+            },
+            {
+                "normalized_label": "fujin"
+            },
+            {
+                "normalized_label": "fukasaku"
+            },
+            {
+                "normalized_label": "fuki"
+            },
+            {
+                "normalized_label": "fuku"
+            },
+            {
+                "normalized_label": "fukusukehikyakuya"
+            },
+            {
+                "normalized_label": "funari"
+            },
+            {
+                "normalized_label": "futaba"
+            },
+            {
+                "normalized_label": "fūka"
+            },
+            {
+                "normalized_label": "gaara"
+            },
+            {
+                "normalized_label": "gama"
+            },
+            {
+                "normalized_label": "gamabunta"
+            },
+            {
+                "normalized_label": "gamahiro"
+            },
+            {
+                "normalized_label": "gamaken"
+            },
+            {
+                "normalized_label": "gamakichi"
+            },
+            {
+                "normalized_label": "gamariki"
+            },
+            {
+                "normalized_label": "gamatatsu"
+            },
+            {
+                "normalized_label": "gandō"
+            },
+            {
+                "normalized_label": "gantetsu"
+            },
+            {
+                "normalized_label": "gatsu"
+            },
+            {
+                "normalized_label": "gatō"
+            },
+            {
+                "normalized_label": "genmai"
+            },
+            {
+                "normalized_label": "genmashiranui"
+            },
+            {
+                "normalized_label": "gennai"
+            },
+            {
+                "normalized_label": "gennō"
+            },
+            {
+                "normalized_label": "genshōryūdōin"
+            },
+            {
+                "normalized_label": "genzō"
+            },
+            {
+                "normalized_label": "gerotora"
+            },
+            {
+                "normalized_label": "giichi"
+            },
+            {
+                "normalized_label": "ginji"
+            },
+            {
+                "normalized_label": "gitai"
+            },
+            {
+                "normalized_label": "goshiki"
+            },
+            {
+                "normalized_label": "gosunkugi"
+            },
+            {
+                "normalized_label": "gozu"
+            },
+            {
+                "normalized_label": "greattoadsage"
+            },
+            {
+                "normalized_label": "guren"
+            },
+            {
+                "normalized_label": "guruko"
+            },
+            {
+                "normalized_label": "gōza"
+            },
+            {
+                "normalized_label": "gōzu"
+            },
+            {
+                "normalized_label": "hagane"
+            },
+            {
+                "normalized_label": "haido"
+            },
+            {
+                "normalized_label": "hakkaku"
+            },
+            {
+                "normalized_label": "haku"
+            },
+            {
+                "normalized_label": "hakui"
+            },
+            {
+                "normalized_label": "hamakimimura"
+            },
+            {
+                "normalized_label": "han"
+            },
+            {
+                "normalized_label": "hanabihyūga"
+            },
+            {
+                "normalized_label": "hanainuzuka"
+            },
+            {
+                "normalized_label": "hanzaki"
+            },
+            {
+                "normalized_label": "hanzō"
+            },
+            {
+                "normalized_label": "haruna"
+            },
+            {
+                "normalized_label": "harusame"
+            },
+            {
+                "normalized_label": "hashiramasenju"
+            },
+            {
+                "normalized_label": "hato"
+            },
+            {
+                "normalized_label": "hayase"
+            },
+            {
+                "normalized_label": "hayategekkō"
+            },
+            {
+                "normalized_label": "hiashihyūga"
+            },
+            {
+                "normalized_label": "hibari"
+            },
+            {
+                "normalized_label": "hidan"
+            },
+            {
+                "normalized_label": "hikakuuchiha"
+            },
+            {
+                "normalized_label": "hikarutsuki"
+            },
+            {
+                "normalized_label": "hina"
+            },
+            {
+                "normalized_label": "hinatahyūga"
+            },
+            {
+                "normalized_label": "hiruko"
+            },
+            {
+                "normalized_label": "hiruzensarutobi"
+            },
+            {
+                "normalized_label": "hisame"
+            },
+            {
+                "normalized_label": "hizashihyūga"
+            },
+            {
+                "normalized_label": "hokushin"
+            },
+            {
+                "normalized_label": "hokuto"
+            },
+            {
+                "normalized_label": "homuramitokado"
+            },
+            {
+                "normalized_label": "hotaru"
+            },
+            {
+                "normalized_label": "hotarubi"
+            },
+            {
+                "normalized_label": "hyō"
+            },
+            {
+                "normalized_label": "hōki"
+            },
+            {
+                "normalized_label": "hōsei"
+            },
+            {
+                "normalized_label": "hōshō"
+            },
+            {
+                "normalized_label": "iashi"
+            },
+            {
+                "normalized_label": "ibara"
+            },
+            {
+                "normalized_label": "ibikimorino"
+            },
+            {
+                "normalized_label": "ibushi"
+            },
+            {
+                "normalized_label": "ichi"
+            },
+            {
+                "normalized_label": "ichigen"
+            },
+            {
+                "normalized_label": "idatemorino"
+            },
+            {
+                "normalized_label": "inabiuchiha"
+            },
+            {
+                "normalized_label": "inaho"
+            },
+            {
+                "normalized_label": "inari"
+            },
+            {
+                "normalized_label": "inoichiyamanaka"
+            },
+            {
+                "normalized_label": "inomatsu"
+            },
+            {
+                "normalized_label": "inoyamanaka"
+            },
+            {
+                "normalized_label": "irukaumino"
+            },
+            {
+                "normalized_label": "isago"
+            },
+            {
+                "normalized_label": "isaribi"
+            },
+            {
+                "normalized_label": "ishidate"
+            },
+            {
+                "normalized_label": "itachiuchiha"
+            },
+            {
+                "normalized_label": "ittetsu"
+            },
+            {
+                "normalized_label": "iwanaakame"
+            },
+            {
+                "normalized_label": "iwashitatami"
+            },
+            {
+                "normalized_label": "izumokamizuki"
+            },
+            {
+                "normalized_label": "izunauchiha"
+            },
+            {
+                "normalized_label": "jakōryūdōin"
+            },
+            {
+                "normalized_label": "jantō"
+            },
+            {
+                "normalized_label": "jibachi"
+            },
+            {
+                "normalized_label": "jiga"
+            },
+            {
+                "normalized_label": "jigumo"
+            },
+            {
+                "normalized_label": "jimei"
+            },
+            {
+                "normalized_label": "jiraiya"
+            },
+            {
+                "normalized_label": "jirōbō"
+            },
+            {
+                "normalized_label": "jirōchōwasabi"
+            },
+            {
+                "normalized_label": "jōseki"
+            },
+            {
+                "normalized_label": "jūgo"
+            },
+            {
+                "normalized_label": "kabutoyakushi"
+            },
+            {
+                "normalized_label": "kagamiuchiha"
+            },
+            {
+                "normalized_label": "kagari"
+            },
+            {
+                "normalized_label": "kagerō"
+            },
+            {
+                "normalized_label": "kagura"
+            },
+            {
+                "normalized_label": "kahiko"
+            },
+            {
+                "normalized_label": "kaiza"
+            },
+            {
+                "normalized_label": "kaji"
+            },
+            {
+                "normalized_label": "kajika"
+            },
+            {
+                "normalized_label": "kakashihatake"
+            },
+            {
+                "normalized_label": "kakerutsuki"
+            },
+            {
+                "normalized_label": "kakkō"
+            },
+            {
+                "normalized_label": "kakuzu"
+            },
+            {
+                "normalized_label": "kamatari"
+            },
+            {
+                "normalized_label": "kamikiri"
+            },
+            {
+                "normalized_label": "kamina"
+            },
+            {
+                "normalized_label": "kankurō"
+            },
+            {
+                "normalized_label": "kanpō"
+            },
+            {
+                "normalized_label": "kaori"
+            },
+            {
+                "normalized_label": "karashi"
+            },
+            {
+                "normalized_label": "karenbana"
+            },
+            {
+                "normalized_label": "karin"
+            },
+            {
+                "normalized_label": "karui"
+            },
+            {
+                "normalized_label": "karura"
+            },
+            {
+                "normalized_label": "kashike"
+            },
+            {
+                "normalized_label": "kasumi"
+            },
+            {
+                "normalized_label": "katsuyu"
+            },
+            {
+                "normalized_label": "kazabune"
+            },
+            {
+                "normalized_label": "kazuma"
+            },
+            {
+                "normalized_label": "kegon"
+            },
+            {
+                "normalized_label": "kibainuzuka"
+            },
+            {
+                "normalized_label": "kidōmaru"
+            },
+            {
+                "normalized_label": "kigiri"
+            },
+            {
+                "normalized_label": "kihō"
+            },
+            {
+                "normalized_label": "kiki"
+            },
+            {
+                "normalized_label": "kikujō"
+            },
+            {
+                "normalized_label": "killer"
+            },
+            {
+                "normalized_label": "kimimaro"
+            },
+            {
+                "normalized_label": "kin"
+            },
+            {
+                "normalized_label": "kirisame"
+            },
+            {
+                "normalized_label": "kisamehoshigaki"
+            },
+            {
+                "normalized_label": "kitane"
+            },
+            {
+                "normalized_label": "kitō"
+            },
+            {
+                "normalized_label": "kiyomufukuda"
+            },
+            {
+                "normalized_label": "kohada"
+            },
+            {
+                "normalized_label": "koharuutatane"
+            },
+            {
+                "normalized_label": "koji"
+            },
+            {
+                "normalized_label": "komachi"
+            },
+            {
+                "normalized_label": "komaza"
+            },
+            {
+                "normalized_label": "komugi"
+            },
+            {
+                "normalized_label": "konan"
+            },
+            {
+                "normalized_label": "kongō"
+            },
+            {
+                "normalized_label": "konohamarusarutobi"
+            },
+            {
+                "normalized_label": "korega"
+            },
+            {
+                "normalized_label": "kotetsu"
+            },
+            {
+                "normalized_label": "kotohime"
+            },
+            {
+                "normalized_label": "koyukikazahana"
+            },
+            {
+                "normalized_label": "kujaku"
+            },
+            {
+                "normalized_label": "kumadetoriichi"
+            },
+            {
+                "normalized_label": "kunihisa"
+            },
+            {
+                "normalized_label": "kunijiro"
+            },
+            {
+                "normalized_label": "kunugimokume"
+            },
+            {
+                "normalized_label": "kurenaiyūhi"
+            },
+            {
+                "normalized_label": "kurobachi"
+            },
+            {
+                "normalized_label": "kuroma"
+            },
+            {
+                "normalized_label": "kuromaru"
+            },
+            {
+                "normalized_label": "kurotsuchi"
+            },
+            {
+                "normalized_label": "kusabi"
+            },
+            {
+                "normalized_label": "kushinauzumaki"
+            },
+            {
+                "normalized_label": "kusuma"
+            },
+            {
+                "normalized_label": "kusuna"
+            },
+            {
+                "normalized_label": "kusushi"
+            },
+            {
+                "normalized_label": "kyodaigumo"
+            },
+            {
+                "normalized_label": "kyūrokuwagarashi"
+            },
+            {
+                "normalized_label": "kōga"
+            },
+            {
+                "normalized_label": "kōhyūga"
+            },
+            {
+                "normalized_label": "kōmei"
+            },
+            {
+                "normalized_label": "kōsuke"
+            },
+            {
+                "normalized_label": "kōta"
+            },
+            {
+                "normalized_label": "madamshijimi"
+            },
+            {
+                "normalized_label": "madarauchiha"
+            },
+            {
+                "normalized_label": "mahiru"
+            },
+            {
+                "normalized_label": "manda"
+            },
+            {
+                "normalized_label": "mangetsuhōzuki"
+            },
+            {
+                "normalized_label": "matsu"
+            },
+            {
+                "normalized_label": "matsuri"
+            },
+            {
+                "normalized_label": "meiterumī"
+            },
+            {
+                "normalized_label": "meizu"
+            },
+            {
+                "normalized_label": "menma"
+            },
+            {
+                "normalized_label": "menō"
+            },
+            {
+                "normalized_label": "michirutsuki"
+            },
+            {
+                "normalized_label": "midare"
+            },
+            {
+                "normalized_label": "midori"
+            },
+            {
+                "normalized_label": "mifune"
+            },
+            {
+                "normalized_label": "migaki"
+            },
+            {
+                "normalized_label": "mightguy"
+            },
+            {
+                "normalized_label": "mikotouchiha"
+            },
+            {
+                "normalized_label": "minatonamikaze"
+            },
+            {
+                "normalized_label": "minoji"
+            },
+            {
+                "normalized_label": "miroku"
+            },
+            {
+                "normalized_label": "misumitsurugi"
+            },
+            {
+                "normalized_label": "mitate"
+            },
+            {
+                "normalized_label": "mizorefuyukuma"
+            },
+            {
+                "normalized_label": "mizuki"
+            },
+            {
+                "normalized_label": "mizura"
+            },
+            {
+                "normalized_label": "moegi"
+            },
+            {
+                "normalized_label": "mogusa"
+            },
+            {
+                "normalized_label": "momiji"
+            },
+            {
+                "normalized_label": "mondai"
+            },
+            {
+                "normalized_label": "monju"
+            },
+            {
+                "normalized_label": "monzaemonchikamatsu"
+            },
+            {
+                "normalized_label": "mozuku"
+            },
+            {
+                "normalized_label": "mubi"
+            },
+            {
+                "normalized_label": "mujinianano"
+            },
+            {
+                "normalized_label": "mukade"
+            },
+            {
+                "normalized_label": "murakumokurama"
+            },
+            {
+                "normalized_label": "murasame"
+            },
+            {
+                "normalized_label": "mōryō"
+            },
+            {
+                "normalized_label": "nadarerōga"
+            },
+            {
+                "normalized_label": "nae"
+            },
+            {
+                "normalized_label": "nagare"
+            },
+            {
+                "normalized_label": "nagato"
+            },
+            {
+                "normalized_label": "nanafushi"
+            },
+            {
+                "normalized_label": "nangō"
+            },
+            {
+                "normalized_label": "narutouzumaki"
+            },
+            {
+                "normalized_label": "natori"
+            },
+            {
+                "normalized_label": "natsuhi"
+            },
+            {
+                "normalized_label": "nauma"
+            },
+            {
+                "normalized_label": "nawaki"
+            },
+            {
+                "normalized_label": "nejihyūga"
+            },
+            {
+                "normalized_label": "nejiri"
+            },
+            {
+                "normalized_label": "nekobaa"
+            },
+            {
+                "normalized_label": "nerugui"
+            },
+            {
+                "normalized_label": "nigiriumeboshi"
+            },
+            {
+                "normalized_label": "ninkame"
+            },
+            {
+                "normalized_label": "nishi"
+            },
+            {
+                "normalized_label": "nobori"
+            },
+            {
+                "normalized_label": "nurari"
+            },
+            {
+                "normalized_label": "nōzu"
+            },
+            {
+                "normalized_label": "obitouchiha"
+            },
+            {
+                "normalized_label": "oboro"
+            },
+            {
+                "normalized_label": "okisuke"
+            },
+            {
+                "normalized_label": "okyō"
+            },
+            {
+                "normalized_label": "omoi"
+            },
+            {
+                "normalized_label": "orochimaru"
+            },
+            {
+                "normalized_label": "otoha"
+            },
+            {
+                "normalized_label": "otokaze"
+            },
+            {
+                "normalized_label": "otora"
+            },
+            {
+                "normalized_label": "oyone"
+            },
+            {
+                "normalized_label": "pakkun"
+            },
+            {
+                "normalized_label": "pochi"
+            },
+            {
+                "normalized_label": "ponta"
+            },
+            {
+                "normalized_label": "potcha"
+            },
+            {
+                "normalized_label": "princesskasumi"
+            },
+            {
+                "normalized_label": "raidōnamiashi"
+            },
+            {
+                "normalized_label": "raigakurosuki"
+            },
+            {
+                "normalized_label": "raijin"
+            },
+            {
+                "normalized_label": "ranke"
+            },
+            {
+                "normalized_label": "ranmaru"
+            },
+            {
+                "normalized_label": "reki"
+            },
+            {
+                "normalized_label": "renga"
+            },
+            {
+                "normalized_label": "riichi"
+            },
+            {
+                "normalized_label": "rikumaru"
+            },
+            {
+                "normalized_label": "rin"
+            },
+            {
+                "normalized_label": "rinji"
+            },
+            {
+                "normalized_label": "rocklee"
+            },
+            {
+                "normalized_label": "rokkakuryūdōin"
+            },
+            {
+                "normalized_label": "ruiga"
+            },
+            {
+                "normalized_label": "ryōkan"
+            },
+            {
+                "normalized_label": "ryūgan"
+            },
+            {
+                "normalized_label": "ryūsa"
+            },
+            {
+                "normalized_label": "ryūsui"
+            },
+            {
+                "normalized_label": "rōshi"
+            },
+            {
+                "normalized_label": "sabu"
+            },
+            {
+                "normalized_label": "sageofthesixpaths"
+            },
+            {
+                "normalized_label": "sagi"
+            },
+            {
+                "normalized_label": "sai"
+            },
+            {
+                "normalized_label": "sajin"
+            },
+            {
+                "normalized_label": "sajō"
+            },
+            {
+                "normalized_label": "sakonandukon"
+            },
+            {
+                "normalized_label": "sakumohatake"
+            },
+            {
+                "normalized_label": "sakuraharuno"
+            },
+            {
+                "normalized_label": "samui"
+            },
+            {
+                "normalized_label": "san"
+            },
+            {
+                "normalized_label": "sandayūasama"
+            },
+            {
+                "normalized_label": "sanshō"
+            },
+            {
+                "normalized_label": "sari"
+            },
+            {
+                "normalized_label": "sasame"
+            },
+            {
+                "normalized_label": "sasori"
+            },
+            {
+                "normalized_label": "sasukeuchiha"
+            },
+            {
+                "normalized_label": "satetsu"
+            },
+            {
+                "normalized_label": "sazanami"
+            },
+            {
+                "normalized_label": "seimei"
+            },
+            {
+                "normalized_label": "seito"
+            },
+            {
+                "normalized_label": "sekka"
+            },
+            {
+                "normalized_label": "senta"
+            },
+            {
+                "normalized_label": "sentoki"
+            },
+            {
+                "normalized_label": "setsuna"
+            },
+            {
+                "normalized_label": "setsunauchiha"
+            },
+            {
+                "normalized_label": "shabadaba"
+            },
+            {
+                "normalized_label": "shiba"
+            },
+            {
+                "normalized_label": "shibiaburame"
+            },
+            {
+                "normalized_label": "shibire"
+            },
+            {
+                "normalized_label": "shibitohigashi"
+            },
+            {
+                "normalized_label": "shibuki"
+            },
+            {
+                "normalized_label": "shigure"
+            },
+            {
+                "normalized_label": "shiho"
+            },
+            {
+                "normalized_label": "shiin"
+            },
+            {
+                "normalized_label": "shikakunara"
+            },
+            {
+                "normalized_label": "shikamarunara"
+            },
+            {
+                "normalized_label": "shikuroaburame"
+            },
+            {
+                "normalized_label": "shima"
+            },
+            {
+                "normalized_label": "shimeji"
+            },
+            {
+                "normalized_label": "shimonhijiri"
+            },
+            {
+                "normalized_label": "shin"
+            },
+            {
+                "normalized_label": "shinga"
+            },
+            {
+                "normalized_label": "shinnō"
+            },
+            {
+                "normalized_label": "shinoaburame"
+            },
+            {
+                "normalized_label": "shinobumibu"
+            },
+            {
+                "normalized_label": "shinta"
+            },
+            {
+                "normalized_label": "shion"
+            },
+            {
+                "normalized_label": "shiore"
+            },
+            {
+                "normalized_label": "shiranami"
+            },
+            {
+                "normalized_label": "shiromari"
+            },
+            {
+                "normalized_label": "shisuiuchiha"
+            },
+            {
+                "normalized_label": "shisō"
+            },
+            {
+                "normalized_label": "shizuku"
+            },
+            {
+                "normalized_label": "shizune"
+            },
+            {
+                "normalized_label": "shura"
+            },
+            {
+                "normalized_label": "shū"
+            },
+            {
+                "normalized_label": "sora"
+            },
+            {
+                "normalized_label": "suien"
+            },
+            {
+                "normalized_label": "suigetsuhōzuki"
+            },
+            {
+                "normalized_label": "suiko"
+            },
+            {
+                "normalized_label": "sukima"
+            },
+            {
+                "normalized_label": "sumaru"
+            },
+            {
+                "normalized_label": "sumashi"
+            },
+            {
+                "normalized_label": "sumire"
+            },
+            {
+                "normalized_label": "suname"
+            },
+            {
+                "normalized_label": "susuki"
+            },
+            {
+                "normalized_label": "suzume"
+            },
+            {
+                "normalized_label": "suzumebachi"
+            },
+            {
+                "normalized_label": "sōsetsukazahana"
+            },
+            {
+                "normalized_label": "taiseki"
+            },
+            {
+                "normalized_label": "takamaru"
+            },
+            {
+                "normalized_label": "takishi"
+            },
+            {
+                "normalized_label": "tamaki"
+            },
+            {
+                "normalized_label": "tami"
+            },
+            {
+                "normalized_label": "tanzō"
+            },
+            {
+                "normalized_label": "taruho"
+            },
+            {
+                "normalized_label": "tatsuji"
+            },
+            {
+                "normalized_label": "tayuya"
+            },
+            {
+                "normalized_label": "tazuna"
+            },
+            {
+                "normalized_label": "teguse"
+            },
+            {
+                "normalized_label": "tekkauchiha"
+            },
+            {
+                "normalized_label": "temari"
+            },
+            {
+                "normalized_label": "temujin"
+            },
+            {
+                "normalized_label": "tenten"
+            },
+            {
+                "normalized_label": "tenzendaikoku"
+            },
+            {
+                "normalized_label": "tera"
+            },
+            {
+                "normalized_label": "terai"
+            },
+            {
+                "normalized_label": "tetsuru"
+            },
+            {
+                "normalized_label": "teuchi"
+            },
+            {
+                "normalized_label": "teyakiuchiha"
+            },
+            {
+                "normalized_label": "tezuna"
+            },
+            {
+                "normalized_label": "thirdhoshikage"
+            },
+            {
+                "normalized_label": "Tomari "
+            },
+            {
+                "normalized_label": "tobio"
+            },
+            {
+                "normalized_label": "tobiramasenju"
+            },
+            {
+                "normalized_label": "todoroki"
+            },
+            {
+                "normalized_label": "toki"
+            },
+            {
+                "normalized_label": "tomari"
+            },
+            {
+                "normalized_label": "tomaruminakura"
+            },
+            {
+                "normalized_label": "tonbee"
+            },
+            {
+                "normalized_label": "tonbotobitake"
+            },
+            {
+                "normalized_label": "tonton"
+            },
+            {
+                "normalized_label": "tora"
+            },
+            {
+                "normalized_label": "torifuakimichi"
+            },
+            {
+                "normalized_label": "torune"
+            },
+            {
+                "normalized_label": "towa"
+            },
+            {
+                "normalized_label": "tsuba"
+            },
+            {
+                "normalized_label": "tsubaki"
+            },
+            {
+                "normalized_label": "tsubusa"
+            },
+            {
+                "normalized_label": "tsuchi"
+            },
+            {
+                "normalized_label": "tsuchino"
+            },
+            {
+                "normalized_label": "tsukino"
+            },
+            {
+                "normalized_label": "tsukushi"
+            },
+            {
+                "normalized_label": "tsumeinuzuka"
+            },
+            {
+                "normalized_label": "tsunade"
+            },
+            {
+                "normalized_label": "tsunami"
+            },
+            {
+                "normalized_label": "tsurugi"
+            },
+            {
+                "normalized_label": "tsuzumisarugaku"
+            },
+            {
+                "normalized_label": "tōkasenju"
+            },
+            {
+                "normalized_label": "tōu"
+            },
+            {
+                "normalized_label": "udon"
+            },
+            {
+                "normalized_label": "ugai"
+            },
+            {
+                "normalized_label": "ugatsu"
+            },
+            {
+                "normalized_label": "unkaikurama"
+            },
+            {
+                "normalized_label": "urakaku"
+            },
+            {
+                "normalized_label": "urokokurama"
+            },
+            {
+                "normalized_label": "uruchiuchiha"
+            },
+            {
+                "normalized_label": "urushi"
+            },
+            {
+                "normalized_label": "ushi"
+            },
+            {
+                "normalized_label": "utakata"
+            },
+            {
+                "normalized_label": "waraji"
+            },
+            {
+                "normalized_label": "yagura"
+            },
+            {
+                "normalized_label": "yahiko"
+            },
+            {
+                "normalized_label": "yajirobee"
+            },
+            {
+                "normalized_label": "yakku"
+            },
+            {
+                "normalized_label": "yakumiuchiha"
+            },
+            {
+                "normalized_label": "yakumokurama"
+            },
+            {
+                "normalized_label": "yamato"
+            },
+            {
+                "normalized_label": "yashamaru"
+            },
+            {
+                "normalized_label": "yashirouchiha"
+            },
+            {
+                "normalized_label": "yomi"
+            },
+            {
+                "normalized_label": "yoroiakadō"
+            },
+            {
+                "normalized_label": "yoshinonara"
+            },
+            {
+                "normalized_label": "yotaka"
+            },
+            {
+                "normalized_label": "yugitonii"
+            },
+            {
+                "normalized_label": "yui"
+            },
+            {
+                "normalized_label": "yurika"
+            },
+            {
+                "normalized_label": "yurinojō"
+            },
+            {
+                "normalized_label": "yūdachi"
+            },
+            {
+                "normalized_label": "yūgaouzuki"
+            },
+            {
+                "normalized_label": "yūkimaru"
+            },
+            {
+                "normalized_label": "yūra"
+            },
+            {
+                "normalized_label": "zabuzamomochi"
+            },
+            {
+                "normalized_label": "zakuabumi"
+            },
+            {
+                "normalized_label": "zangei"
+            },
+            {
+                "normalized_label": "zenza"
+            },
+            {
+                "normalized_label": "zetsu"
+            },
+            {
+                "normalized_label": "zōri"
+            },
+            {
+                "normalized_label": "ōkei"
+            },
+            {
+                "normalized_label": "ōnoki"
+            },
+            {
+                "normalized_label": "ōwashi"
+            },
+            {
+                "normalized_label": "ūhei"
+            },
+            {
+                "normalized_label": "ibiki"
+            },
+            {
+                "normalized_label": "ada"
+            },
+            {
+                "normalized_label": "agara"
+            },
+            {
+                "normalized_label": "aino"
+            },
+            {
+                "normalized_label": "ajisai"
+            },
+            {
+                "normalized_label": "akaritatsushiro"
+            },
+            {
+                "normalized_label": "akebisanzu"
+            },
+            {
+                "normalized_label": "akemaru"
+            },
+            {
+                "normalized_label": "akitainuzuka"
+            },
+            {
+                "normalized_label": "akkun"
+            },
+            {
+                "normalized_label": "amadosanzu"
+            },
+            {
+                "normalized_label": "amagi"
+            },
+            {
+                "normalized_label": "amagiizuno"
+            },
+            {
+                "normalized_label": "amai"
+            },
+            {
+                "normalized_label": "ameno"
+            },
+            {
+                "normalized_label": "ameyuki"
+            },
+            {
+                "normalized_label": "ameyuriringo"
+            },
+            {
+                "normalized_label": "amino"
+            },
+            {
+                "normalized_label": "amuda"
+            },
+            {
+                "normalized_label": "anaguma"
+            },
+            {
+                "normalized_label": "anato"
+            },
+            {
+                "normalized_label": "aoda"
+            },
+            {
+                "normalized_label": "aoneko"
+            },
+            {
+                "normalized_label": "aosa"
+            },
+            {
+                "normalized_label": "arai"
+            },
+            {
+                "normalized_label": "arashiumeya"
+            },
+            {
+                "normalized_label": "araumifunato"
+            },
+            {
+                "normalized_label": "araya"
+            },
+            {
+                "normalized_label": "armadiko"
+            },
+            {
+                "normalized_label": "asaka"
+            },
+            {
+                "normalized_label": "asaki"
+            },
+            {
+                "normalized_label": "asami"
+            },
+            {
+                "normalized_label": "ashimaru"
+            },
+            {
+                "normalized_label": "ashina"
+            },
+            {
+                "normalized_label": "ashinauzumaki"
+            },
+            {
+                "normalized_label": "ashitaba"
+            },
+            {
+                "normalized_label": "asurapath"
+            },
+            {
+                "normalized_label": "asuraōtsutsuki"
+            },
+            {
+                "normalized_label": "atsui"
+            },
+            {
+                "normalized_label": "awajiunabara"
+            },
+            {
+                "normalized_label": "ayame"
+            },
+            {
+                "normalized_label": "azami"
+            },
+            {
+                "normalized_label": "azurefang"
+            },
+            {
+                "normalized_label": "baji"
+            },
+            {
+                "normalized_label": "bamboominister"
+            },
+            {
+                "normalized_label": "bandō"
+            },
+            {
+                "normalized_label": "banna"
+            },
+            {
+                "normalized_label": "baruuchiha"
+            },
+            {
+                "normalized_label": "batorakuromori"
+            },
+            {
+                "normalized_label": "batta"
+            },
+            {
+                "normalized_label": "beekeeper"
+            },
+            {
+                "normalized_label": "benga"
+            },
+            {
+                "normalized_label": "biwakosarutobi"
+            },
+            {
+                "normalized_label": "blackshadow"
+            },
+            {
+                "normalized_label": "blackzetsu"
+            },
+            {
+                "normalized_label": "blueb"
+            },
+            {
+                "normalized_label": "boro"
+            },
+            {
+                "normalized_label": "borutouzumaki"
+            },
+            {
+                "normalized_label": "breezedancer"
+            },
+            {
+                "normalized_label": "bug"
+            },
+            {
+                "normalized_label": "bunpuku"
+            },
+            {
+                "normalized_label": "buntankurosuki"
+            },
+            {
+                "normalized_label": "burami"
+            },
+            {
+                "normalized_label": "burikonekoka"
+            },
+            {
+                "normalized_label": "butsumasenju"
+            },
+            {
+                "normalized_label": "byakuren"
+            },
+            {
+                "normalized_label": "chamaru"
+            },
+            {
+                "normalized_label": "chamū"
+            },
+            {
+                "normalized_label": "chen"
+            },
+            {
+                "normalized_label": "chichiatsu"
+            },
+            {
+                "normalized_label": "chino"
+            },
+            {
+                "normalized_label": "chiyomatsu"
+            },
+            {
+                "normalized_label": "chōbeeakimichi"
+            },
+            {
+                "normalized_label": "chōchōakimichi"
+            },
+            {
+                "normalized_label": "chōmei"
+            },
+            {
+                "normalized_label": "chūji"
+            },
+            {
+                "normalized_label": "chūkaku"
+            },
+            {
+                "normalized_label": "chūkichi"
+            },
+            {
+                "normalized_label": "code"
+            },
+            {
+                "normalized_label": "conchking"
+            },
+            {
+                "normalized_label": "condor"
+            },
+            {
+                "normalized_label": "crimsonfist"
+            },
+            {
+                "normalized_label": "daemon"
+            },
+            {
+                "normalized_label": "daennara"
+            },
+            {
+                "normalized_label": "daibutsu"
+            },
+            {
+                "normalized_label": "daimaru"
+            },
+            {
+                "normalized_label": "daizenmatsushige"
+            },
+            {
+                "normalized_label": "dangomitsuki"
+            },
+            {
+                "normalized_label": "dangō"
+            },
+            {
+                "normalized_label": "danjō"
+            },
+            {
+                "normalized_label": "dankatō"
+            },
+            {
+                "normalized_label": "daoredōtonbori"
+            },
+            {
+                "normalized_label": "darui"
+            },
+            {
+                "normalized_label": "darumaizuno"
+            },
+            {
+                "normalized_label": "datsuji"
+            },
+            {
+                "normalized_label": "deepa"
+            },
+            {
+                "normalized_label": "delta"
+            },
+            {
+                "normalized_label": "denkikaminarimon"
+            },
+            {
+                "normalized_label": "disonasu"
+            },
+            {
+                "normalized_label": "dodai"
+            },
+            {
+                "normalized_label": "dokan"
+            },
+            {
+                "normalized_label": "dokku"
+            },
+            {
+                "normalized_label": "don"
+            },
+            {
+                "normalized_label": "doragu"
+            },
+            {
+                "normalized_label": "dosekiganryū"
+            },
+            {
+                "normalized_label": "dreadlion"
+            },
+            {
+                "normalized_label": "dōshin"
+            },
+            {
+                "normalized_label": "dōshugoetsu"
+            },
+            {
+                "normalized_label": "dōtōakimichi"
+            },
+            {
+                "normalized_label": "ehōnorimaki"
+            },
+            {
+                "normalized_label": "eikifūma"
+            },
+            {
+                "normalized_label": "emina"
+            },
+            {
+                "normalized_label": "enchūnara"
+            },
+            {
+                "normalized_label": "enkoonikuma"
+            },
+            {
+                "normalized_label": "enoyashiro"
+            },
+            {
+                "normalized_label": "enra"
+            },
+            {
+                "normalized_label": "ensuinara"
+            },
+            {
+                "normalized_label": "enzotenrō"
+            },
+            {
+                "normalized_label": "erekikaminarimon"
+            },
+            {
+                "normalized_label": "erimakisharo"
+            },
+            {
+                "normalized_label": "etorokonjiki"
+            },
+            {
+                "normalized_label": "faz"
+            },
+            {
+                "normalized_label": "fugi"
+            },
+            {
+                "normalized_label": "fugukisuikazan"
+            },
+            {
+                "normalized_label": "fugō"
+            },
+            {
+                "normalized_label": "fukuemon"
+            },
+            {
+                "normalized_label": "fukurokumaru"
+            },
+            {
+                "normalized_label": "fukuyokana"
+            },
+            {
+                "normalized_label": "funamushi"
+            },
+            {
+                "normalized_label": "fundaru"
+            },
+            {
+                "normalized_label": "furofuki"
+            },
+            {
+                "normalized_label": "furui"
+            },
+            {
+                "normalized_label": "fusō"
+            },
+            {
+                "normalized_label": "futami"
+            },
+            {
+                "normalized_label": "futsu"
+            },
+            {
+                "normalized_label": "fuyō"
+            },
+            {
+                "normalized_label": "fūjin"
+            },
+            {
+                "normalized_label": "fūka"
+            },
+            {
+                "normalized_label": "fūtakagetsu"
+            },
+            {
+                "normalized_label": "fūyamanaka"
+            },
+            {
+                "normalized_label": "gakuinuzuka"
+            },
+            {
+                "normalized_label": "gamaden"
+            },
+            {
+                "normalized_label": "gamagorō"
+            },
+            {
+                "normalized_label": "gamamaru"
+            },
+            {
+                "normalized_label": "gamamichi"
+            },
+            {
+                "normalized_label": "gamatama"
+            },
+            {
+                "normalized_label": "gameru"
+            },
+            {
+                "normalized_label": "ganno"
+            },
+            {
+                "normalized_label": "ganryū"
+            },
+            {
+                "normalized_label": "gantetsuiwagakure"
+            },
+            {
+                "normalized_label": "garaga"
+            },
+            {
+                "normalized_label": "garashitōno"
+            },
+            {
+                "normalized_label": "gari"
+            },
+            {
+                "normalized_label": "garuda"
+            },
+            {
+                "normalized_label": "garyō"
+            },
+            {
+                "normalized_label": "garō"
+            },
+            {
+                "normalized_label": "gatai"
+            },
+            {
+                "normalized_label": "gataro"
+            },
+            {
+                "normalized_label": "gatekeeper"
+            },
+            {
+                "normalized_label": "gazeru"
+            },
+            {
+                "normalized_label": "gekkō"
+            },
+            {
+                "normalized_label": "gekomatsu"
+            },
+            {
+                "normalized_label": "genbu"
+            },
+            {
+                "normalized_label": "gengetsuhōzuki"
+            },
+            {
+                "normalized_label": "gengo"
+            },
+            {
+                "normalized_label": "genie"
+            },
+            {
+                "normalized_label": "genji"
+            },
+            {
+                "normalized_label": "genkatsugi"
+            },
+            {
+                "normalized_label": "gensuiamagiri"
+            },
+            {
+                "normalized_label": "gen’yūmaru"
+            },
+            {
+                "normalized_label": "gigi"
+            },
+            {
+                "normalized_label": "ginkaku"
+            },
+            {
+                "normalized_label": "goji"
+            },
+            {
+                "normalized_label": "gojō"
+            },
+            {
+                "normalized_label": "gokai"
+            },
+            {
+                "normalized_label": "gonbee"
+            },
+            {
+                "normalized_label": "gongorōkamakura"
+            },
+            {
+                "normalized_label": "gotta"
+            },
+            {
+                "normalized_label": "gyokurōchabashira"
+            },
+            {
+                "normalized_label": "gyūki"
+            },
+            {
+                "normalized_label": "gōshō"
+            },
+            {
+                "normalized_label": "hachidai"
+            },
+            {
+                "normalized_label": "hagiri"
+            },
+            {
+                "normalized_label": "hagoromoōtsutsuki"
+            },
+            {
+                "normalized_label": "haguruma"
+            },
+            {
+                "normalized_label": "haie"
+            },
+            {
+                "normalized_label": "hainosuke"
+            },
+            {
+                "normalized_label": "hakokuroi"
+            },
+            {
+                "normalized_label": "hakubishin"
+            },
+            {
+                "normalized_label": "hakuhyō"
+            },
+            {
+                "normalized_label": "hakuto"
+            },
+            {
+                "normalized_label": "hamuraōtsutsuki"
+            },
+            {
+                "normalized_label": "hana"
+            },
+            {
+                "normalized_label": "hanainuzuka"
+            },
+            {
+                "normalized_label": "hanakaka"
+            },
+            {
+                "normalized_label": "hanare"
+            },
+            {
+                "normalized_label": "hanuma"
+            },
+            {
+                "normalized_label": "haori"
+            },
+            {
+                "normalized_label": "harikaaburame"
+            },
+            {
+                "normalized_label": "harine"
+            },
+            {
+                "normalized_label": "hassakuonomichi"
+            },
+            {
+                "normalized_label": "hayamashirakumo"
+            },
+            {
+                "normalized_label": "hazukiuchiha"
+            },
+            {
+                "normalized_label": "hebihime"
+            },
+            {
+                "normalized_label": "hebiichigo"
+            },
+            {
+                "normalized_label": "heiji"
+            },
+            {
+                "normalized_label": "heki"
+            },
+            {
+                "normalized_label": "hibachi"
+            },
+            {
+                "normalized_label": "hibarikamakura"
+            },
+            {
+                "normalized_label": "hibiki"
+            },
+            {
+                "normalized_label": "hidari"
+            },
+            {
+                "normalized_label": "hidero"
+            },
+            {
+                "normalized_label": "hikaru"
+            },
+            {
+                "normalized_label": "himatsu"
+            },
+            {
+                "normalized_label": "himawariuzumaki"
+            },
+            {
+                "normalized_label": "himeno"
+            },
+            {
+                "normalized_label": "himeyuri"
+            },
+            {
+                "normalized_label": "himukasuzukaze"
+            },
+            {
+                "normalized_label": "himushi"
+            },
+            {
+                "normalized_label": "hinoe"
+            },
+            {
+                "normalized_label": "hinoki"
+            },
+            {
+                "normalized_label": "hinoko"
+            },
+            {
+                "normalized_label": "hinoto"
+            },
+            {
+                "normalized_label": "hippoboss"
+            },
+            {
+                "normalized_label": "hiruga"
+            },
+            {
+                "normalized_label": "hisen"
+            },
+            {
+                "normalized_label": "hishaku"
+            },
+            {
+                "normalized_label": "hitode"
+            },
+            {
+                "normalized_label": "hohetohyūga"
+            },
+            {
+                "normalized_label": "hohozuki"
+            },
+            {
+                "normalized_label": "honoka"
+            },
+            {
+                "normalized_label": "hyōgo"
+            },
+            {
+                "normalized_label": "hyōiyorishiro"
+            },
+            {
+                "normalized_label": "hyūgaelder"
+            },
+            {
+                "normalized_label": "hāto"
+            },
+            {
+                "normalized_label": "hōichi"
+            },
+            {
+                "normalized_label": "hōkitaketori"
+            },
+            {
+                "normalized_label": "hōkitakigakure"
+            },
+            {
+                "normalized_label": "hōkitakumi"
+            },
+            {
+                "normalized_label": "hōkiwatari"
+            },
+            {
+                "normalized_label": "hōzuki"
+            },
+            {
+                "normalized_label": "ibuse"
+            },
+            {
+                "normalized_label": "ichikishimahime"
+            },
+            {
+                "normalized_label": "ichirōtaoniyuzu"
+            },
+            {
+                "normalized_label": "iggy"
+            },
+            {
+                "normalized_label": "ikadafunato"
+            },
+            {
+                "normalized_label": "ikanago"
+            },
+            {
+                "normalized_label": "ikkakuumino"
+            },
+            {
+                "normalized_label": "ikkyūmadoka"
+            },
+            {
+                "normalized_label": "indraōtsutsuki"
+            },
+            {
+                "normalized_label": "inojinyamanaka"
+            },
+            {
+                "normalized_label": "inori"
+            },
+            {
+                "normalized_label": "iori"
+            },
+            {
+                "normalized_label": "irohagenin"
+            },
+            {
+                "normalized_label": "irohahyūga"
+            },
+            {
+                "normalized_label": "isarifunato"
+            },
+            {
+                "normalized_label": "ise"
+            },
+            {
+                "normalized_label": "ishikawa"
+            },
+            {
+                "normalized_label": "isobu"
+            },
+            {
+                "normalized_label": "isono"
+            },
+            {
+                "normalized_label": "isshikiōtsutsuki"
+            },
+            {
+                "normalized_label": "itamasenju"
+            },
+            {
+                "normalized_label": "ittan"
+            },
+            {
+                "normalized_label": "iwabeeyuino"
+            },
+            {
+                "normalized_label": "iwadoctor"
+            },
+            {
+                "normalized_label": "iwaji"
+            },
+            {
+                "normalized_label": "iwakunoichi"
+            },
+            {
+                "normalized_label": "iwakyō"
+            },
+            {
+                "normalized_label": "iwana"
+            },
+            {
+                "normalized_label": "iwanaakame"
+            },
+            {
+                "normalized_label": "iwanaotogakure"
+            },
+            {
+                "normalized_label": "iwazō"
+            },
+            {
+                "normalized_label": "iyashi"
+            },
+            {
+                "normalized_label": "izumiuchiha"
+            },
+            {
+                "normalized_label": "jaggy"
+            },
+            {
+                "normalized_label": "jako"
+            },
+            {
+                "normalized_label": "janmāru-tataru"
+            },
+            {
+                "normalized_label": "jibiki"
+            },
+            {
+                "normalized_label": "jigen"
+            },
+            {
+                "normalized_label": "jin"
+            },
+            {
+                "normalized_label": "jingokumano"
+            },
+            {
+                "normalized_label": "jininakebino"
+            },
+            {
+                "normalized_label": "jinkaminari"
+            },
+            {
+                "normalized_label": "jinpachimunashi"
+            },
+            {
+                "normalized_label": "jiryūsendō"
+            },
+            {
+                "normalized_label": "jirō"
+            },
+            {
+                "normalized_label": "jujumaru"
+            },
+            {
+                "normalized_label": "junsai"
+            },
+            {
+                "normalized_label": "jūzōbiwa"
+            },
+            {
+                "normalized_label": "kaburetokisuki"
+            },
+            {
+                "normalized_label": "kaede"
+            },
+            {
+                "normalized_label": "kaedeyoshino"
+            },
+            {
+                "normalized_label": "kaeyukiwari"
+            },
+            {
+                "normalized_label": "kage"
+            },
+            {
+                "normalized_label": "kageki"
+            },
+            {
+                "normalized_label": "kagenuchiha"
+            },
+            {
+                "normalized_label": "kagurakaratachi"
+            },
+            {
+                "normalized_label": "kaguyaōtsutsuki"
+            },
+            {
+                "normalized_label": "kahyō"
+            },
+            {
+                "normalized_label": "kail"
+            },
+            {
+                "normalized_label": "kaitokawanami"
+            },
+            {
+                "normalized_label": "kajiki"
+            },
+            {
+                "normalized_label": "kajūra"
+            },
+            {
+                "normalized_label": "kakesu"
+            },
+            {
+                "normalized_label": "kakoi"
+            },
+            {
+                "normalized_label": "kakui"
+            },
+            {
+                "normalized_label": "kakō"
+            },
+            {
+                "normalized_label": "kamakiriikeno"
+            },
+            {
+                "normalized_label": "kamatari"
+            },
+            {
+                "normalized_label": "kamira"
+            },
+            {
+                "normalized_label": "kanabun"
+            },
+            {
+                "normalized_label": "kanchi"
+            },
+            {
+                "normalized_label": "kandachi"
+            },
+            {
+                "normalized_label": "kandeinabikari"
+            },
+            {
+                "normalized_label": "kaneki"
+            },
+            {
+                "normalized_label": "kankitsuakitsuki"
+            },
+            {
+                "normalized_label": "kanna"
+            },
+            {
+                "normalized_label": "kanoe"
+            },
+            {
+                "normalized_label": "kanoto"
+            },
+            {
+                "normalized_label": "kanpu"
+            },
+            {
+                "normalized_label": "kanyū"
+            },
+            {
+                "normalized_label": "karai"
+            },
+            {
+                "normalized_label": "karasuki"
+            },
+            {
+                "normalized_label": "karinkagura"
+            },
+            {
+                "normalized_label": "karyū"
+            },
+            {
+                "normalized_label": "kasuganara"
+            },
+            {
+                "normalized_label": "katara"
+            },
+            {
+                "normalized_label": "katasuketōno"
+            },
+            {
+                "normalized_label": "katazu"
+            },
+            {
+                "normalized_label": "katsura"
+            },
+            {
+                "normalized_label": "kawaki"
+            },
+            {
+                "normalized_label": "kawaramasenju"
+            },
+            {
+                "normalized_label": "kaya"
+            },
+            {
+                "normalized_label": "kayo"
+            },
+            {
+                "normalized_label": "kayui"
+            },
+            {
+                "normalized_label": "kazami"
+            },
+            {
+                "normalized_label": "kazan"
+            },
+            {
+                "normalized_label": "kedama"
+            },
+            {
+                "normalized_label": "keiri"
+            },
+            {
+                "normalized_label": "kidotsumiki"
+            },
+            {
+                "normalized_label": "kie"
+            },
+            {
+                "normalized_label": "kiiro"
+            },
+            {
+                "normalized_label": "kiji"
+            },
+            {
+                "normalized_label": "kiku"
+            },
+            {
+                "normalized_label": "kikuchiyo"
+            },
+            {
+                "normalized_label": "kikunojō"
+            },
+            {
+                "normalized_label": "killerb"
+            },
+            {
+                "normalized_label": "kinakodon"
+            },
+            {
+                "normalized_label": "king"
+            },
+            {
+                "normalized_label": "kingofhell"
+            },
+            {
+                "normalized_label": "kinkaku"
+            },
+            {
+                "normalized_label": "kinoto"
+            },
+            {
+                "normalized_label": "kinshikiōtsutsuki"
+            },
+            {
+                "normalized_label": "kintoki"
+            },
+            {
+                "normalized_label": "kintsuchi"
+            },
+            {
+                "normalized_label": "kirara"
+            },
+            {
+                "normalized_label": "kiri"
+            },
+            {
+                "normalized_label": "kirisaki"
+            },
+            {
+                "normalized_label": "kiruru"
+            },
+            {
+                "normalized_label": "kiserugankubi"
+            },
+            {
+                "normalized_label": "kisukemaboroshi"
+            },
+            {
+                "normalized_label": "kitsuchi"
+            },
+            {
+                "normalized_label": "kiyoiyotsuki"
+            },
+            {
+                "normalized_label": "kiyoyasukagetsu"
+            },
+            {
+                "normalized_label": "kizashiharuno"
+            },
+            {
+                "normalized_label": "kobasoza"
+            },
+            {
+                "normalized_label": "kobuna"
+            },
+            {
+                "normalized_label": "kobushisaiki"
+            },
+            {
+                "normalized_label": "kodaka"
+            },
+            {
+                "normalized_label": "kodama"
+            },
+            {
+                "normalized_label": "kohanyamanaka"
+            },
+            {
+                "normalized_label": "kohariumino"
+            },
+            {
+                "normalized_label": "kojikashin"
+            },
+            {
+                "normalized_label": "kokageyanagikage"
+            },
+            {
+                "normalized_label": "kokatsu"
+            },
+            {
+                "normalized_label": "kokuri"
+            },
+            {
+                "normalized_label": "kokushi"
+            },
+            {
+                "normalized_label": "kokuyō"
+            },
+            {
+                "normalized_label": "kokuō"
+            },
+            {
+                "normalized_label": "komame"
+            },
+            {
+                "normalized_label": "komichi"
+            },
+            {
+                "normalized_label": "komitsu"
+            },
+            {
+                "normalized_label": "komori"
+            },
+            {
+                "normalized_label": "komushi"
+            },
+            {
+                "normalized_label": "kona"
+            },
+            {
+                "normalized_label": "konashinerikiri"
+            },
+            {
+                "normalized_label": "konenmaru"
+            },
+            {
+                "normalized_label": "kontsuchi"
+            },
+            {
+                "normalized_label": "korobi"
+            },
+            {
+                "normalized_label": "koshō"
+            },
+            {
+                "normalized_label": "kosuke"
+            },
+            {
+                "normalized_label": "kosukemaruboshi"
+            },
+            {
+                "normalized_label": "kotetsuhagane"
+            },
+            {
+                "normalized_label": "kozuchi"
+            },
+            {
+                "normalized_label": "kuen"
+            },
+            {
+                "normalized_label": "kujaku"
+            },
+            {
+                "normalized_label": "kumadori"
+            },
+            {
+                "normalized_label": "kumapanda"
+            },
+            {
+                "normalized_label": "kunijirō"
+            },
+            {
+                "normalized_label": "kurakageno"
+            },
+            {
+                "normalized_label": "kurama"
+            },
+            {
+                "normalized_label": "kurobane"
+            },
+            {
+                "normalized_label": "kuromatatsushiro"
+            },
+            {
+                "normalized_label": "kurozuka"
+            },
+            {
+                "normalized_label": "kushimarukuriarare"
+            },
+            {
+                "normalized_label": "kussaku"
+            },
+            {
+                "normalized_label": "kusune"
+            },
+            {
+                "normalized_label": "kuwayokohori"
+            },
+            {
+                "normalized_label": "kyohōfuefuki"
+            },
+            {
+                "normalized_label": "kyōya"
+            },
+            {
+                "normalized_label": "kyūsuke"
+            },
+            {
+                "normalized_label": "kōji"
+            },
+            {
+                "normalized_label": "kōjisuna"
+            },
+            {
+                "normalized_label": "kōkogare"
+            },
+            {
+                "normalized_label": "kōrogi"
+            },
+            {
+                "normalized_label": "kōsuke"
+            },
+            {
+                "normalized_label": "kōtarōfūma"
+            },
+            {
+                "normalized_label": "kōzakubisaki"
+            },
+            {
+                "normalized_label": "kūidōtonbori"
+            },
+            {
+                "normalized_label": "lando"
+            },
+            {
+                "normalized_label": "larsalexandersson"
+            },
+            {
+                "normalized_label": "leh"
+            },
+            {
+                "normalized_label": "leo"
+            },
+            {
+                "normalized_label": "lilyhimeno"
+            },
+            {
+                "normalized_label": "lion-turtle"
+            },
+            {
+                "normalized_label": "log"
+            },
+            {
+                "normalized_label": "lyla"
+            },
+            {
+                "normalized_label": "mabo"
+            },
+            {
+                "normalized_label": "mabui"
+            },
+            {
+                "normalized_label": "maennara"
+            },
+            {
+                "normalized_label": "magire"
+            },
+            {
+                "normalized_label": "magirekakuremino"
+            },
+            {
+                "normalized_label": "maikagetsu"
+            },
+            {
+                "normalized_label": "makaroakimichi"
+            },
+            {
+                "normalized_label": "maki"
+            },
+            {
+                "normalized_label": "makibi"
+            },
+            {
+                "normalized_label": "makinamisenka"
+            },
+            {
+                "normalized_label": "makino"
+            },
+            {
+                "normalized_label": "malice"
+            },
+            {
+                "normalized_label": "mamushi"
+            },
+            {
+                "normalized_label": "manabuakado"
+            },
+            {
+                "normalized_label": "manari"
+            },
+            {
+                "normalized_label": "manda"
+            },
+            {
+                "normalized_label": "margo"
+            },
+            {
+                "normalized_label": "maroi"
+            },
+            {
+                "normalized_label": "marui"
+            },
+            {
+                "normalized_label": "maruta"
+            },
+            {
+                "normalized_label": "marutenakimichi"
+            },
+            {
+                "normalized_label": "masako"
+            },
+            {
+                "normalized_label": "mashō"
+            },
+            {
+                "normalized_label": "matatabi"
+            },
+            {
+                "normalized_label": "matsuba"
+            },
+            {
+                "normalized_label": "mawashidokuraku"
+            },
+            {
+                "normalized_label": "mazumaizuno"
+            },
+            {
+                "normalized_label": "mebukiharuno"
+            },
+            {
+                "normalized_label": "mecha-kurama"
+            },
+            {
+                "normalized_label": "mecha-naruto"
+            },
+            {
+                "normalized_label": "menmanamikaze"
+            },
+            {
+                "normalized_label": "menmauzumaki"
+            },
+            {
+                "normalized_label": "metallee"
+            },
+            {
+                "normalized_label": "metorokonjiki"
+            },
+            {
+                "normalized_label": "mezu"
+            },
+            {
+                "normalized_label": "mia"
+            },
+            {
+                "normalized_label": "mibuna"
+            },
+            {
+                "normalized_label": "michizōmanaka"
+            },
+            {
+                "normalized_label": "michy"
+            },
+            {
+                "normalized_label": "midnightblade"
+            },
+            {
+                "normalized_label": "miina"
+            },
+            {
+                "normalized_label": "mijin"
+            },
+            {
+                "normalized_label": "mikazuki"
+            },
+            {
+                "normalized_label": "mikazukiamaashi"
+            },
+            {
+                "normalized_label": "mikoshi"
+            },
+            {
+                "normalized_label": "mimiinuzuka"
+            },
+            {
+                "normalized_label": "minamofunato"
+            },
+            {
+                "normalized_label": "minoichi"
+            },
+            {
+                "normalized_label": "miraisarutobi"
+            },
+            {
+                "normalized_label": "miru"
+            },
+            {
+                "normalized_label": "misuno"
+            },
+            {
+                "normalized_label": "mitoku"
+            },
+            {
+                "normalized_label": "mitouzumaki"
+            },
+            {
+                "normalized_label": "mitsuki"
+            },
+            {
+                "normalized_label": "mitsuo"
+            },
+            {
+                "normalized_label": "mizugoke"
+            },
+            {
+                "normalized_label": "mizunoe"
+            },
+            {
+                "normalized_label": "mizunoto"
+            },
+            {
+                "normalized_label": "moegikazamatsuri"
+            },
+            {
+                "normalized_label": "moguranmaru"
+            },
+            {
+                "normalized_label": "mokumearai"
+            },
+            {
+                "normalized_label": "momo"
+            },
+            {
+                "normalized_label": "momoshikiōtsutsuki"
+            },
+            {
+                "normalized_label": "monga"
+            },
+            {
+                "normalized_label": "morio"
+            },
+            {
+                "normalized_label": "moroi"
+            },
+            {
+                "normalized_label": "motoi"
+            },
+            {
+                "normalized_label": "mozushitakiri"
+            },
+            {
+                "normalized_label": "mugino"
+            },
+            {
+                "normalized_label": "mui"
+            },
+            {
+                "normalized_label": "mujin"
+            },
+            {
+                "normalized_label": "mujō"
+            },
+            {
+                "normalized_label": "mukaikohinata"
+            },
+            {
+                "normalized_label": "muku"
+            },
+            {
+                "normalized_label": "musai"
+            },
+            {
+                "normalized_label": "mutaaburame"
+            },
+            {
+                "normalized_label": "muyami"
+            },
+            {
+                "normalized_label": "naho"
+            },
+            {
+                "normalized_label": "nakauchiha"
+            },
+            {
+                "normalized_label": "namidasuzumeno"
+            },
+            {
+                "normalized_label": "namua"
+            },
+            {
+                "normalized_label": "nan"
+            },
+            {
+                "normalized_label": "nanara"
+            },
+            {
+                "normalized_label": "naoriuchiha"
+            },
+            {
+                "normalized_label": "narakapath"
+            },
+            {
+                "normalized_label": "natsu"
+            },
+            {
+                "normalized_label": "natsuhyūga"
+            },
+            {
+                "normalized_label": "nattōitohiki"
+            },
+            {
+                "normalized_label": "nazuna"
+            },
+            {
+                "normalized_label": "nekomata"
+            },
+            {
+                "normalized_label": "nemui"
+            },
+            {
+                "normalized_label": "neonasakusa"
+            },
+            {
+                "normalized_label": "nezumikaitō"
+            },
+            {
+                "normalized_label": "nigai"
+            },
+            {
+                "normalized_label": "ningame"
+            },
+            {
+                "normalized_label": "nitoratake"
+            },
+            {
+                "normalized_label": "noji"
+            },
+            {
+                "normalized_label": "nonota"
+            },
+            {
+                "normalized_label": "nonōyakushi"
+            },
+            {
+                "normalized_label": "nowaki"
+            },
+            {
+                "normalized_label": "nue"
+            },
+            {
+                "normalized_label": "nurui"
+            },
+            {
+                "normalized_label": "ohagi"
+            },
+            {
+                "normalized_label": "okami"
+            },
+            {
+                "normalized_label": "oko"
+            },
+            {
+                "normalized_label": "onbu"
+            },
+            {
+                "normalized_label": "oppo"
+            },
+            {
+                "normalized_label": "osoi"
+            },
+            {
+                "normalized_label": "osukakamakura"
+            },
+            {
+                "normalized_label": "pakura"
+            },
+            {
+                "normalized_label": "penjira"
+            },
+            {
+                "normalized_label": "poochie"
+            },
+            {
+                "normalized_label": "pretapath"
+            },
+            {
+                "normalized_label": "rahyō"
+            },
+            {
+                "normalized_label": "raidōnamiashi"
+            },
+            {
+                "normalized_label": "raimei"
+            },
+            {
+                "normalized_label": "rainenmaru"
+            },
+            {
+                "normalized_label": "raiuchiha"
+            },
+            {
+                "normalized_label": "ran"
+            },
+            {
+                "normalized_label": "ranka"
+            },
+            {
+                "normalized_label": "rankunoichi"
+            },
+            {
+                "normalized_label": "ransōgi"
+            },
+            {
+                "normalized_label": "rasa"
+            },
+            {
+                "normalized_label": "rashii"
+            },
+            {
+                "normalized_label": "reishikodon"
+            },
+            {
+                "normalized_label": "remonyoimura"
+            },
+            {
+                "normalized_label": "rengakokubō"
+            },
+            {
+                "normalized_label": "rengemomoashi"
+            },
+            {
+                "normalized_label": "reto"
+            },
+            {
+                "normalized_label": "rinnohara"
+            },
+            {
+                "normalized_label": "rokuro"
+            },
+            {
+                "normalized_label": "rokusuke"
+            },
+            {
+                "normalized_label": "ruka"
+            },
+            {
+                "normalized_label": "ryukatenrō"
+            },
+            {
+                "normalized_label": "ryōgi"
+            },
+            {
+                "normalized_label": "ryūki"
+            },
+            {
+                "normalized_label": "ryūrimaru"
+            },
+            {
+                "normalized_label": "ryūzetsu"
+            },
+            {
+                "normalized_label": "rōen"
+            },
+            {
+                "normalized_label": "sabiru"
+            },
+            {
+                "normalized_label": "sabure"
+            },
+            {
+                "normalized_label": "sada"
+            },
+            {
+                "normalized_label": "sadai"
+            },
+            {
+                "normalized_label": "sadoru"
+            },
+            {
+                "normalized_label": "sagan"
+            },
+            {
+                "normalized_label": "sagiri"
+            },
+            {
+                "normalized_label": "saiken"
+            },
+            {
+                "normalized_label": "saisukamano"
+            },
+            {
+                "normalized_label": "sakanami"
+            },
+            {
+                "normalized_label": "sakuya"
+            },
+            {
+                "normalized_label": "samidare"
+            },
+            {
+                "normalized_label": "samidareamaashi"
+            },
+            {
+                "normalized_label": "sana"
+            },
+            {
+                "normalized_label": "sangorō"
+            },
+            {
+                "normalized_label": "sansho"
+            },
+            {
+                "normalized_label": "santayamanaka"
+            },
+            {
+                "normalized_label": "sanzuiunabara"
+            },
+            {
+                "normalized_label": "saradauchiha"
+            },
+            {
+                "normalized_label": "sarai"
+            },
+            {
+                "normalized_label": "sasukesarutobi"
+            },
+            {
+                "normalized_label": "satori"
+            },
+            {
+                "normalized_label": "satō"
+            },
+            {
+                "normalized_label": "saya"
+            },
+            {
+                "normalized_label": "sayūjōge"
+            },
+            {
+                "normalized_label": "sazanamisenka"
+            },
+            {
+                "normalized_label": "sazanka"
+            },
+            {
+                "normalized_label": "saō"
+            },
+            {
+                "normalized_label": "scarletblaze"
+            },
+            {
+                "normalized_label": "seirenfunato"
+            },
+            {
+                "normalized_label": "sekiei"
+            },
+            {
+                "normalized_label": "sekki"
+            },
+            {
+                "normalized_label": "sen"
+            },
+            {
+                "normalized_label": "senji"
+            },
+            {
+                "normalized_label": "shamo"
+            },
+            {
+                "normalized_label": "shamon"
+            },
+            {
+                "normalized_label": "shibaiōtsutsuki"
+            },
+            {
+                "normalized_label": "shibitoazuma"
+            },
+            {
+                "normalized_label": "shigezane"
+            },
+            {
+                "normalized_label": "shijima"
+            },
+            {
+                "normalized_label": "shikadainara"
+            },
+            {
+                "normalized_label": "shikazo"
+            },
+            {
+                "normalized_label": "shinayakana"
+            },
+            {
+                "normalized_label": "shinigami"
+            },
+            {
+                "normalized_label": "shinki"
+            },
+            {
+                "normalized_label": "shinkoinari"
+            },
+            {
+                "normalized_label": "shinkuyūhi"
+            },
+            {
+                "normalized_label": "shinuchiha"
+            },
+            {
+                "normalized_label": "shin’emon"
+            },
+            {
+                "normalized_label": "shio"
+            },
+            {
+                "normalized_label": "shirabe"
+            },
+            {
+                "normalized_label": "shiro"
+            },
+            {
+                "normalized_label": "shiseru"
+            },
+            {
+                "normalized_label": "shishio"
+            },
+            {
+                "normalized_label": "shitōakimichi"
+            },
+            {
+                "normalized_label": "shizuka"
+            },
+            {
+                "normalized_label": "shizukutaki"
+            },
+            {
+                "normalized_label": "shizumahoshigaki"
+            },
+            {
+                "normalized_label": "shojoji"
+            },
+            {
+                "normalized_label": "shukaku"
+            },
+            {
+                "normalized_label": "shun"
+            },
+            {
+                "normalized_label": "shōseki"
+            },
+            {
+                "normalized_label": "songokū"
+            },
+            {
+                "normalized_label": "sora"
+            },
+            {
+                "normalized_label": "soultao"
+            },
+            {
+                "normalized_label": "suguro"
+            },
+            {
+                "normalized_label": "suika"
+            },
+            {
+                "normalized_label": "suikakannonji"
+            },
+            {
+                "normalized_label": "suiren"
+            },
+            {
+                "normalized_label": "suirenkiri"
+            },
+            {
+                "normalized_label": "suiu"
+            },
+            {
+                "normalized_label": "sukeza"
+            },
+            {
+                "normalized_label": "sukui"
+            },
+            {
+                "normalized_label": "sukune"
+            },
+            {
+                "normalized_label": "sumirekakei"
+            },
+            {
+                "normalized_label": "sumure"
+            },
+            {
+                "normalized_label": "suzaku"
+            },
+            {
+                "normalized_label": "suzakunara"
+            },
+            {
+                "normalized_label": "suzuran"
+            },
+            {
+                "normalized_label": "suzusōgi"
+            },
+            {
+                "normalized_label": "sāra"
+            },
+            {
+                "normalized_label": "sēramu"
+            },
+            {
+                "normalized_label": "sōma"
+            },
+            {
+                "normalized_label": "sōshaamino"
+            },
+            {
+                "normalized_label": "sōta"
+            },
+            {
+                "normalized_label": "sōzu"
+            },
+            {
+                "normalized_label": "tadaichi"
+            },
+            {
+                "normalized_label": "tagitsuhime"
+            },
+            {
+                "normalized_label": "tagorihime"
+            },
+            {
+                "normalized_label": "taiki"
+            },
+            {
+                "normalized_label": "taikouchiha"
+            },
+            {
+                "normalized_label": "taisaamagiri"
+            },
+            {
+                "normalized_label": "taizō"
+            },
+            {
+                "normalized_label": "taji"
+            },
+            {
+                "normalized_label": "tajiki"
+            },
+            {
+                "normalized_label": "tajimauchiha"
+            },
+            {
+                "normalized_label": "takajōtorikai"
+            },
+            {
+                "normalized_label": "takanamisenka"
+            },
+            {
+                "normalized_label": "taku"
+            },
+            {
+                "normalized_label": "tamae"
+            },
+            {
+                "normalized_label": "tamao"
+            },
+            {
+                "normalized_label": "tango"
+            },
+            {
+                "normalized_label": "tanishi"
+            },
+            {
+                "normalized_label": "tanukishigaraki"
+            },
+            {
+                "normalized_label": "tarui"
+            },
+            {
+                "normalized_label": "taruto"
+            },
+            {
+                "normalized_label": "tarō"
+            },
+            {
+                "normalized_label": "tasuki"
+            },
+            {
+                "normalized_label": "tatewaki"
+            },
+            {
+                "normalized_label": "tatsumaaburame"
+            },
+            {
+                "normalized_label": "tatsumi"
+            },
+            {
+                "normalized_label": "tatsunami"
+            },
+            {
+                "normalized_label": "tayorikuroyagi"
+            },
+            {
+                "normalized_label": "tea"
+            },
+            {
+                "normalized_label": "teadaimyō"
+            },
+            {
+                "normalized_label": "tekkan"
+            },
+            {
+                "normalized_label": "tekunokanden"
+            },
+            {
+                "normalized_label": "temui"
+            },
+            {
+                "normalized_label": "ten-tails"
+            },
+            {
+                "normalized_label": "tenga"
+            },
+            {
+                "normalized_label": "tenji"
+            },
+            {
+                "normalized_label": "tenmafunato"
+            },
+            {
+                "normalized_label": "tenmaizumo"
+            },
+            {
+                "normalized_label": "tenmakodon"
+            },
+            {
+                "normalized_label": "tentōmadoka"
+            },
+            {
+                "normalized_label": "tenzendaikoku"
+            },
+            {
+                "normalized_label": "tenzō"
+            },
+            {
+                "normalized_label": "teru"
+            },
+            {
+                "normalized_label": "terubō"
+            },
+            {
+                "normalized_label": "tessa"
+            },
+            {
+                "normalized_label": "tessentogeito"
+            },
+            {
+                "normalized_label": "tetsu"
+            },
+            {
+                "normalized_label": "tezutsumikawa"
+            },
+            {
+                "normalized_label": "thirdmizukage"
+            },
+            {
+                "normalized_label": "tobi"
+            },
+            {
+                "normalized_label": "tobimaru"
+            },
+            {
+                "normalized_label": "tofu"
+            },
+            {
+                "normalized_label": "tokara"
+            },
+            {
+                "normalized_label": "tokishinobazu"
+            },
+            {
+                "normalized_label": "tokiwa"
+            },
+            {
+                "normalized_label": "tokumahyūga"
+            },
+            {
+                "normalized_label": "tomaru"
+            },
+            {
+                "normalized_label": "toneriōtsutsuki"
+            },
+            {
+                "normalized_label": "tonsuke"
+            },
+            {
+                "normalized_label": "toroi"
+            },
+            {
+                "normalized_label": "toruneaburame"
+            },
+            {
+                "normalized_label": "tosaka"
+            },
+            {
+                "normalized_label": "toshi"
+            },
+            {
+                "normalized_label": "tsubakikurogane"
+            },
+            {
+                "normalized_label": "tsubutefutaba"
+            },
+            {
+                "normalized_label": "tsuchigumochief"
+            },
+            {
+                "normalized_label": "tsuchinoe"
+            },
+            {
+                "normalized_label": "tsuchinoto"
+            },
+            {
+                "normalized_label": "tsukado"
+            },
+            {
+                "normalized_label": "tsukikokagetsu"
+            },
+            {
+                "normalized_label": "tsukiyo"
+            },
+            {
+                "normalized_label": "tsukune"
+            },
+            {
+                "normalized_label": "tsuruitoi"
+            },
+            {
+                "normalized_label": "tsurushihachiya"
+            },
+            {
+                "normalized_label": "tsuyu"
+            },
+            {
+                "normalized_label": "tsuzumi"
+            },
+            {
+                "normalized_label": "tsuzurashitakiri"
+            },
+            {
+                "normalized_label": "tōbeikagetsu"
+            },
+            {
+                "normalized_label": "tōfū"
+            },
+            {
+                "normalized_label": "tōjūrō"
+            },
+            {
+                "normalized_label": "tōkasenju"
+            },
+            {
+                "normalized_label": "ubau"
+            },
+            {
+                "normalized_label": "udonise"
+            },
+            {
+                "normalized_label": "umibōzu"
+            },
+            {
+                "normalized_label": "unagi"
+            },
+            {
+                "normalized_label": "unmosamidare"
+            },
+            {
+                "normalized_label": "urashikiōtsutsuki"
+            },
+            {
+                "normalized_label": "victor"
+            },
+            {
+                "normalized_label": "wasabiizuno"
+            },
+            {
+                "normalized_label": "watase"
+            },
+            {
+                "normalized_label": "whitezetsu"
+            },
+            {
+                "normalized_label": "yagurakaratachi"
+            },
+            {
+                "normalized_label": "yamame"
+            },
+            {
+                "normalized_label": "yamaoka"
+            },
+            {
+                "normalized_label": "yaoki"
+            },
+            {
+                "normalized_label": "yatogoryūgen"
+            },
+            {
+                "normalized_label": "yodo"
+            },
+            {
+                "normalized_label": "yokaze"
+            },
+            {
+                "normalized_label": "yokozuna"
+            },
+            {
+                "normalized_label": "yome"
+            },
+            {
+                "normalized_label": "yomitohirasaka"
+            },
+            {
+                "normalized_label": "yone"
+            },
+            {
+                "normalized_label": "yoruga"
+            },
+            {
+                "normalized_label": "yoshiteru"
+            },
+            {
+                "normalized_label": "yota"
+            },
+            {
+                "normalized_label": "yubeshi"
+            },
+            {
+                "normalized_label": "yubina"
+            },
+            {
+                "normalized_label": "yuinaitomaki"
+            },
+            {
+                "normalized_label": "yukai"
+            },
+            {
+                "normalized_label": "yukata"
+            },
+            {
+                "normalized_label": "yuki"
+            },
+            {
+                "normalized_label": "yukimi"
+            },
+            {
+                "normalized_label": "yurito"
+            },
+            {
+                "normalized_label": "yurui"
+            },
+            {
+                "normalized_label": "yōjiaburame"
+            },
+            {
+                "normalized_label": "yōrō"
+            },
+            {
+                "normalized_label": "yūga"
+            },
+            {
+                "normalized_label": "yūkiminazuki"
+            },
+            {
+                "normalized_label": "yūsuke"
+            },
+            {
+                "normalized_label": "yūto"
+            },
+            {
+                "normalized_label": "zaji"
+            },
+            {
+                "normalized_label": "zansūru"
+            },
+            {
+                "normalized_label": "zenigoke"
+            },
+            {
+                "normalized_label": "zero-tails"
+            },
+            {
+                "normalized_label": "zōsui"
+            },
+            {
+                "normalized_label": "ōga"
+            },
+            {
+                "normalized_label": "ōmitsu"
+            },
+            {
+                "normalized_label": "ōnami"
+            },
+            {
+                "normalized_label": "ōtora"
+            }
+        ]
+    }
+}

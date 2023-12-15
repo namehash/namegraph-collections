@@ -1,0 +1,3017 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "999-japan-simplified",
+        "collection_name": "999-Japan-Simplified",
+        "collection_description": "Simplified Japanese numerals 000-999",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "〇〇一"
+            },
+            {
+                "normalized_label": "〇〇二"
+            },
+            {
+                "normalized_label": "〇〇三"
+            },
+            {
+                "normalized_label": "〇〇四"
+            },
+            {
+                "normalized_label": "〇〇五"
+            },
+            {
+                "normalized_label": "〇〇六"
+            },
+            {
+                "normalized_label": "〇〇七"
+            },
+            {
+                "normalized_label": "〇〇八"
+            },
+            {
+                "normalized_label": "〇〇九"
+            },
+            {
+                "normalized_label": "〇一〇"
+            },
+            {
+                "normalized_label": "〇一一"
+            },
+            {
+                "normalized_label": "〇一二"
+            },
+            {
+                "normalized_label": "〇一三"
+            },
+            {
+                "normalized_label": "〇一四"
+            },
+            {
+                "normalized_label": "〇一五"
+            },
+            {
+                "normalized_label": "〇一六"
+            },
+            {
+                "normalized_label": "〇一七"
+            },
+            {
+                "normalized_label": "〇一八"
+            },
+            {
+                "normalized_label": "〇一九"
+            },
+            {
+                "normalized_label": "〇二〇"
+            },
+            {
+                "normalized_label": "〇二一"
+            },
+            {
+                "normalized_label": "〇二二"
+            },
+            {
+                "normalized_label": "〇二三"
+            },
+            {
+                "normalized_label": "〇二四"
+            },
+            {
+                "normalized_label": "〇二五"
+            },
+            {
+                "normalized_label": "〇二六"
+            },
+            {
+                "normalized_label": "〇二七"
+            },
+            {
+                "normalized_label": "〇二八"
+            },
+            {
+                "normalized_label": "〇二九"
+            },
+            {
+                "normalized_label": "〇三〇"
+            },
+            {
+                "normalized_label": "〇三一"
+            },
+            {
+                "normalized_label": "〇三二"
+            },
+            {
+                "normalized_label": "〇三三"
+            },
+            {
+                "normalized_label": "〇三四"
+            },
+            {
+                "normalized_label": "〇三五"
+            },
+            {
+                "normalized_label": "〇三六"
+            },
+            {
+                "normalized_label": "〇三七"
+            },
+            {
+                "normalized_label": "〇三八"
+            },
+            {
+                "normalized_label": "〇三九"
+            },
+            {
+                "normalized_label": "〇四〇"
+            },
+            {
+                "normalized_label": "〇四一"
+            },
+            {
+                "normalized_label": "〇四二"
+            },
+            {
+                "normalized_label": "〇四三"
+            },
+            {
+                "normalized_label": "〇四四"
+            },
+            {
+                "normalized_label": "〇四五"
+            },
+            {
+                "normalized_label": "〇四六"
+            },
+            {
+                "normalized_label": "〇四七"
+            },
+            {
+                "normalized_label": "〇四八"
+            },
+            {
+                "normalized_label": "〇四九"
+            },
+            {
+                "normalized_label": "〇五〇"
+            },
+            {
+                "normalized_label": "〇五一"
+            },
+            {
+                "normalized_label": "〇五二"
+            },
+            {
+                "normalized_label": "〇五三"
+            },
+            {
+                "normalized_label": "〇五四"
+            },
+            {
+                "normalized_label": "〇五五"
+            },
+            {
+                "normalized_label": "〇五六"
+            },
+            {
+                "normalized_label": "〇五七"
+            },
+            {
+                "normalized_label": "〇五八"
+            },
+            {
+                "normalized_label": "〇五九"
+            },
+            {
+                "normalized_label": "〇六〇"
+            },
+            {
+                "normalized_label": "〇六一"
+            },
+            {
+                "normalized_label": "〇六二"
+            },
+            {
+                "normalized_label": "〇六三"
+            },
+            {
+                "normalized_label": "〇六四"
+            },
+            {
+                "normalized_label": "〇六五"
+            },
+            {
+                "normalized_label": "〇六六"
+            },
+            {
+                "normalized_label": "〇六七"
+            },
+            {
+                "normalized_label": "〇六八"
+            },
+            {
+                "normalized_label": "〇六九"
+            },
+            {
+                "normalized_label": "〇七〇"
+            },
+            {
+                "normalized_label": "〇七一"
+            },
+            {
+                "normalized_label": "〇七二"
+            },
+            {
+                "normalized_label": "〇七三"
+            },
+            {
+                "normalized_label": "〇七四"
+            },
+            {
+                "normalized_label": "〇七五"
+            },
+            {
+                "normalized_label": "〇七六"
+            },
+            {
+                "normalized_label": "〇七七"
+            },
+            {
+                "normalized_label": "〇七八"
+            },
+            {
+                "normalized_label": "〇七九"
+            },
+            {
+                "normalized_label": "〇八〇"
+            },
+            {
+                "normalized_label": "〇八一"
+            },
+            {
+                "normalized_label": "〇八二"
+            },
+            {
+                "normalized_label": "〇八三"
+            },
+            {
+                "normalized_label": "〇八四"
+            },
+            {
+                "normalized_label": "〇八五"
+            },
+            {
+                "normalized_label": "〇八六"
+            },
+            {
+                "normalized_label": "〇八七"
+            },
+            {
+                "normalized_label": "〇八八"
+            },
+            {
+                "normalized_label": "〇八九"
+            },
+            {
+                "normalized_label": "〇九〇"
+            },
+            {
+                "normalized_label": "〇九一"
+            },
+            {
+                "normalized_label": "〇九二"
+            },
+            {
+                "normalized_label": "〇九三"
+            },
+            {
+                "normalized_label": "〇九四"
+            },
+            {
+                "normalized_label": "〇九五"
+            },
+            {
+                "normalized_label": "〇九六"
+            },
+            {
+                "normalized_label": "〇九七"
+            },
+            {
+                "normalized_label": "〇九八"
+            },
+            {
+                "normalized_label": "〇九九"
+            },
+            {
+                "normalized_label": "一〇〇"
+            },
+            {
+                "normalized_label": "一〇一"
+            },
+            {
+                "normalized_label": "一〇二"
+            },
+            {
+                "normalized_label": "一〇三"
+            },
+            {
+                "normalized_label": "一〇四"
+            },
+            {
+                "normalized_label": "一〇五"
+            },
+            {
+                "normalized_label": "一〇六"
+            },
+            {
+                "normalized_label": "一〇七"
+            },
+            {
+                "normalized_label": "一〇八"
+            },
+            {
+                "normalized_label": "一〇九"
+            },
+            {
+                "normalized_label": "一一〇"
+            },
+            {
+                "normalized_label": "一一一"
+            },
+            {
+                "normalized_label": "一一二"
+            },
+            {
+                "normalized_label": "一一三"
+            },
+            {
+                "normalized_label": "一一四"
+            },
+            {
+                "normalized_label": "一一五"
+            },
+            {
+                "normalized_label": "一一六"
+            },
+            {
+                "normalized_label": "一一七"
+            },
+            {
+                "normalized_label": "一一八"
+            },
+            {
+                "normalized_label": "一一九"
+            },
+            {
+                "normalized_label": "一二〇"
+            },
+            {
+                "normalized_label": "一二一"
+            },
+            {
+                "normalized_label": "一二二"
+            },
+            {
+                "normalized_label": "一二三"
+            },
+            {
+                "normalized_label": "一二四"
+            },
+            {
+                "normalized_label": "一二五"
+            },
+            {
+                "normalized_label": "一二六"
+            },
+            {
+                "normalized_label": "一二七"
+            },
+            {
+                "normalized_label": "一二八"
+            },
+            {
+                "normalized_label": "一二九"
+            },
+            {
+                "normalized_label": "一三〇"
+            },
+            {
+                "normalized_label": "一三一"
+            },
+            {
+                "normalized_label": "一三二"
+            },
+            {
+                "normalized_label": "一三三"
+            },
+            {
+                "normalized_label": "一三四"
+            },
+            {
+                "normalized_label": "一三五"
+            },
+            {
+                "normalized_label": "一三六"
+            },
+            {
+                "normalized_label": "一三七"
+            },
+            {
+                "normalized_label": "一三八"
+            },
+            {
+                "normalized_label": "一三九"
+            },
+            {
+                "normalized_label": "一四〇"
+            },
+            {
+                "normalized_label": "一四一"
+            },
+            {
+                "normalized_label": "一四二"
+            },
+            {
+                "normalized_label": "一四三"
+            },
+            {
+                "normalized_label": "一四四"
+            },
+            {
+                "normalized_label": "一四五"
+            },
+            {
+                "normalized_label": "一四六"
+            },
+            {
+                "normalized_label": "一四七"
+            },
+            {
+                "normalized_label": "一四八"
+            },
+            {
+                "normalized_label": "一四九"
+            },
+            {
+                "normalized_label": "一五〇"
+            },
+            {
+                "normalized_label": "一五一"
+            },
+            {
+                "normalized_label": "一五二"
+            },
+            {
+                "normalized_label": "一五三"
+            },
+            {
+                "normalized_label": "一五四"
+            },
+            {
+                "normalized_label": "一五五"
+            },
+            {
+                "normalized_label": "一五六"
+            },
+            {
+                "normalized_label": "一五七"
+            },
+            {
+                "normalized_label": "一五八"
+            },
+            {
+                "normalized_label": "一五九"
+            },
+            {
+                "normalized_label": "一六〇"
+            },
+            {
+                "normalized_label": "一六一"
+            },
+            {
+                "normalized_label": "一六二"
+            },
+            {
+                "normalized_label": "一六三"
+            },
+            {
+                "normalized_label": "一六四"
+            },
+            {
+                "normalized_label": "一六五"
+            },
+            {
+                "normalized_label": "一六六"
+            },
+            {
+                "normalized_label": "一六七"
+            },
+            {
+                "normalized_label": "一六八"
+            },
+            {
+                "normalized_label": "一六九"
+            },
+            {
+                "normalized_label": "一七〇"
+            },
+            {
+                "normalized_label": "一七一"
+            },
+            {
+                "normalized_label": "一七二"
+            },
+            {
+                "normalized_label": "一七三"
+            },
+            {
+                "normalized_label": "一七四"
+            },
+            {
+                "normalized_label": "一七五"
+            },
+            {
+                "normalized_label": "一七六"
+            },
+            {
+                "normalized_label": "一七七"
+            },
+            {
+                "normalized_label": "一七八"
+            },
+            {
+                "normalized_label": "一七九"
+            },
+            {
+                "normalized_label": "一八〇"
+            },
+            {
+                "normalized_label": "一八一"
+            },
+            {
+                "normalized_label": "一八二"
+            },
+            {
+                "normalized_label": "一八三"
+            },
+            {
+                "normalized_label": "一八四"
+            },
+            {
+                "normalized_label": "一八五"
+            },
+            {
+                "normalized_label": "一八六"
+            },
+            {
+                "normalized_label": "一八七"
+            },
+            {
+                "normalized_label": "一八八"
+            },
+            {
+                "normalized_label": "一八九"
+            },
+            {
+                "normalized_label": "一九〇"
+            },
+            {
+                "normalized_label": "一九一"
+            },
+            {
+                "normalized_label": "一九二"
+            },
+            {
+                "normalized_label": "一九三"
+            },
+            {
+                "normalized_label": "一九四"
+            },
+            {
+                "normalized_label": "一九五"
+            },
+            {
+                "normalized_label": "一九六"
+            },
+            {
+                "normalized_label": "一九七"
+            },
+            {
+                "normalized_label": "一九八"
+            },
+            {
+                "normalized_label": "一九九"
+            },
+            {
+                "normalized_label": "二〇〇"
+            },
+            {
+                "normalized_label": "二〇一"
+            },
+            {
+                "normalized_label": "二〇二"
+            },
+            {
+                "normalized_label": "二〇三"
+            },
+            {
+                "normalized_label": "二〇四"
+            },
+            {
+                "normalized_label": "二〇五"
+            },
+            {
+                "normalized_label": "二〇六"
+            },
+            {
+                "normalized_label": "二〇七"
+            },
+            {
+                "normalized_label": "二〇八"
+            },
+            {
+                "normalized_label": "二〇九"
+            },
+            {
+                "normalized_label": "二一〇"
+            },
+            {
+                "normalized_label": "二一一"
+            },
+            {
+                "normalized_label": "二一二"
+            },
+            {
+                "normalized_label": "二一三"
+            },
+            {
+                "normalized_label": "二一四"
+            },
+            {
+                "normalized_label": "二一五"
+            },
+            {
+                "normalized_label": "二一六"
+            },
+            {
+                "normalized_label": "二一七"
+            },
+            {
+                "normalized_label": "二一八"
+            },
+            {
+                "normalized_label": "二一九"
+            },
+            {
+                "normalized_label": "二二〇"
+            },
+            {
+                "normalized_label": "二二一"
+            },
+            {
+                "normalized_label": "二二二"
+            },
+            {
+                "normalized_label": "二二三"
+            },
+            {
+                "normalized_label": "二二四"
+            },
+            {
+                "normalized_label": "二二五"
+            },
+            {
+                "normalized_label": "二二六"
+            },
+            {
+                "normalized_label": "二二七"
+            },
+            {
+                "normalized_label": "二二八"
+            },
+            {
+                "normalized_label": "二二九"
+            },
+            {
+                "normalized_label": "二三〇"
+            },
+            {
+                "normalized_label": "二三一"
+            },
+            {
+                "normalized_label": "二三二"
+            },
+            {
+                "normalized_label": "二三三"
+            },
+            {
+                "normalized_label": "二三四"
+            },
+            {
+                "normalized_label": "二三五"
+            },
+            {
+                "normalized_label": "二三六"
+            },
+            {
+                "normalized_label": "二三七"
+            },
+            {
+                "normalized_label": "二三八"
+            },
+            {
+                "normalized_label": "二三九"
+            },
+            {
+                "normalized_label": "二四〇"
+            },
+            {
+                "normalized_label": "二四一"
+            },
+            {
+                "normalized_label": "二四二"
+            },
+            {
+                "normalized_label": "二四三"
+            },
+            {
+                "normalized_label": "二四四"
+            },
+            {
+                "normalized_label": "二四五"
+            },
+            {
+                "normalized_label": "二四六"
+            },
+            {
+                "normalized_label": "二四七"
+            },
+            {
+                "normalized_label": "二四八"
+            },
+            {
+                "normalized_label": "二四九"
+            },
+            {
+                "normalized_label": "二五〇"
+            },
+            {
+                "normalized_label": "二五一"
+            },
+            {
+                "normalized_label": "二五二"
+            },
+            {
+                "normalized_label": "二五三"
+            },
+            {
+                "normalized_label": "二五四"
+            },
+            {
+                "normalized_label": "二五五"
+            },
+            {
+                "normalized_label": "二五六"
+            },
+            {
+                "normalized_label": "二五七"
+            },
+            {
+                "normalized_label": "二五八"
+            },
+            {
+                "normalized_label": "二五九"
+            },
+            {
+                "normalized_label": "二六〇"
+            },
+            {
+                "normalized_label": "二六一"
+            },
+            {
+                "normalized_label": "二六二"
+            },
+            {
+                "normalized_label": "二六三"
+            },
+            {
+                "normalized_label": "二六四"
+            },
+            {
+                "normalized_label": "二六五"
+            },
+            {
+                "normalized_label": "二六六"
+            },
+            {
+                "normalized_label": "二六七"
+            },
+            {
+                "normalized_label": "二六八"
+            },
+            {
+                "normalized_label": "二六九"
+            },
+            {
+                "normalized_label": "二七〇"
+            },
+            {
+                "normalized_label": "二七一"
+            },
+            {
+                "normalized_label": "二七二"
+            },
+            {
+                "normalized_label": "二七三"
+            },
+            {
+                "normalized_label": "二七四"
+            },
+            {
+                "normalized_label": "二七五"
+            },
+            {
+                "normalized_label": "二七六"
+            },
+            {
+                "normalized_label": "二七七"
+            },
+            {
+                "normalized_label": "二七八"
+            },
+            {
+                "normalized_label": "二七九"
+            },
+            {
+                "normalized_label": "二八〇"
+            },
+            {
+                "normalized_label": "二八一"
+            },
+            {
+                "normalized_label": "二八二"
+            },
+            {
+                "normalized_label": "二八三"
+            },
+            {
+                "normalized_label": "二八四"
+            },
+            {
+                "normalized_label": "二八五"
+            },
+            {
+                "normalized_label": "二八六"
+            },
+            {
+                "normalized_label": "二八七"
+            },
+            {
+                "normalized_label": "二八八"
+            },
+            {
+                "normalized_label": "二八九"
+            },
+            {
+                "normalized_label": "二九〇"
+            },
+            {
+                "normalized_label": "二九一"
+            },
+            {
+                "normalized_label": "二九二"
+            },
+            {
+                "normalized_label": "二九三"
+            },
+            {
+                "normalized_label": "二九四"
+            },
+            {
+                "normalized_label": "二九五"
+            },
+            {
+                "normalized_label": "二九六"
+            },
+            {
+                "normalized_label": "二九七"
+            },
+            {
+                "normalized_label": "二九八"
+            },
+            {
+                "normalized_label": "二九九"
+            },
+            {
+                "normalized_label": "三〇〇"
+            },
+            {
+                "normalized_label": "三〇一"
+            },
+            {
+                "normalized_label": "三〇二"
+            },
+            {
+                "normalized_label": "三〇三"
+            },
+            {
+                "normalized_label": "三〇四"
+            },
+            {
+                "normalized_label": "三〇五"
+            },
+            {
+                "normalized_label": "三〇六"
+            },
+            {
+                "normalized_label": "三〇七"
+            },
+            {
+                "normalized_label": "三〇八"
+            },
+            {
+                "normalized_label": "三〇九"
+            },
+            {
+                "normalized_label": "三一〇"
+            },
+            {
+                "normalized_label": "三一一"
+            },
+            {
+                "normalized_label": "三一二"
+            },
+            {
+                "normalized_label": "三一三"
+            },
+            {
+                "normalized_label": "三一四"
+            },
+            {
+                "normalized_label": "三一五"
+            },
+            {
+                "normalized_label": "三一六"
+            },
+            {
+                "normalized_label": "三一七"
+            },
+            {
+                "normalized_label": "三一八"
+            },
+            {
+                "normalized_label": "三一九"
+            },
+            {
+                "normalized_label": "三二〇"
+            },
+            {
+                "normalized_label": "三二一"
+            },
+            {
+                "normalized_label": "三二二"
+            },
+            {
+                "normalized_label": "三二三"
+            },
+            {
+                "normalized_label": "三二四"
+            },
+            {
+                "normalized_label": "三二五"
+            },
+            {
+                "normalized_label": "三二六"
+            },
+            {
+                "normalized_label": "三二七"
+            },
+            {
+                "normalized_label": "三二八"
+            },
+            {
+                "normalized_label": "三二九"
+            },
+            {
+                "normalized_label": "三三〇"
+            },
+            {
+                "normalized_label": "三三一"
+            },
+            {
+                "normalized_label": "三三二"
+            },
+            {
+                "normalized_label": "三三三"
+            },
+            {
+                "normalized_label": "三三四"
+            },
+            {
+                "normalized_label": "三三五"
+            },
+            {
+                "normalized_label": "三三六"
+            },
+            {
+                "normalized_label": "三三七"
+            },
+            {
+                "normalized_label": "三三八"
+            },
+            {
+                "normalized_label": "三三九"
+            },
+            {
+                "normalized_label": "三四〇"
+            },
+            {
+                "normalized_label": "三四一"
+            },
+            {
+                "normalized_label": "三四二"
+            },
+            {
+                "normalized_label": "三四三"
+            },
+            {
+                "normalized_label": "三四四"
+            },
+            {
+                "normalized_label": "三四五"
+            },
+            {
+                "normalized_label": "三四六"
+            },
+            {
+                "normalized_label": "三四七"
+            },
+            {
+                "normalized_label": "三四八"
+            },
+            {
+                "normalized_label": "三四九"
+            },
+            {
+                "normalized_label": "三五〇"
+            },
+            {
+                "normalized_label": "三五一"
+            },
+            {
+                "normalized_label": "三五二"
+            },
+            {
+                "normalized_label": "三五三"
+            },
+            {
+                "normalized_label": "三五四"
+            },
+            {
+                "normalized_label": "三五五"
+            },
+            {
+                "normalized_label": "三五六"
+            },
+            {
+                "normalized_label": "三五七"
+            },
+            {
+                "normalized_label": "三五八"
+            },
+            {
+                "normalized_label": "三五九"
+            },
+            {
+                "normalized_label": "三六〇"
+            },
+            {
+                "normalized_label": "三六一"
+            },
+            {
+                "normalized_label": "三六二"
+            },
+            {
+                "normalized_label": "三六三"
+            },
+            {
+                "normalized_label": "三六四"
+            },
+            {
+                "normalized_label": "三六五"
+            },
+            {
+                "normalized_label": "三六六"
+            },
+            {
+                "normalized_label": "三六七"
+            },
+            {
+                "normalized_label": "三六八"
+            },
+            {
+                "normalized_label": "三六九"
+            },
+            {
+                "normalized_label": "三七〇"
+            },
+            {
+                "normalized_label": "三七一"
+            },
+            {
+                "normalized_label": "三七二"
+            },
+            {
+                "normalized_label": "三七三"
+            },
+            {
+                "normalized_label": "三七四"
+            },
+            {
+                "normalized_label": "三七五"
+            },
+            {
+                "normalized_label": "三七六"
+            },
+            {
+                "normalized_label": "三七七"
+            },
+            {
+                "normalized_label": "三七八"
+            },
+            {
+                "normalized_label": "三七九"
+            },
+            {
+                "normalized_label": "三八〇"
+            },
+            {
+                "normalized_label": "三八一"
+            },
+            {
+                "normalized_label": "三八二"
+            },
+            {
+                "normalized_label": "三八三"
+            },
+            {
+                "normalized_label": "三八四"
+            },
+            {
+                "normalized_label": "三八五"
+            },
+            {
+                "normalized_label": "三八六"
+            },
+            {
+                "normalized_label": "三八七"
+            },
+            {
+                "normalized_label": "三八八"
+            },
+            {
+                "normalized_label": "三八九"
+            },
+            {
+                "normalized_label": "三九〇"
+            },
+            {
+                "normalized_label": "三九一"
+            },
+            {
+                "normalized_label": "三九二"
+            },
+            {
+                "normalized_label": "三九三"
+            },
+            {
+                "normalized_label": "三九四"
+            },
+            {
+                "normalized_label": "三九五"
+            },
+            {
+                "normalized_label": "三九六"
+            },
+            {
+                "normalized_label": "三九七"
+            },
+            {
+                "normalized_label": "三九八"
+            },
+            {
+                "normalized_label": "三九九"
+            },
+            {
+                "normalized_label": "四〇〇"
+            },
+            {
+                "normalized_label": "四〇一"
+            },
+            {
+                "normalized_label": "四〇二"
+            },
+            {
+                "normalized_label": "四〇三"
+            },
+            {
+                "normalized_label": "四〇四"
+            },
+            {
+                "normalized_label": "四〇五"
+            },
+            {
+                "normalized_label": "四〇六"
+            },
+            {
+                "normalized_label": "四〇七"
+            },
+            {
+                "normalized_label": "四〇八"
+            },
+            {
+                "normalized_label": "四〇九"
+            },
+            {
+                "normalized_label": "四一〇"
+            },
+            {
+                "normalized_label": "四一一"
+            },
+            {
+                "normalized_label": "四一二"
+            },
+            {
+                "normalized_label": "四一三"
+            },
+            {
+                "normalized_label": "四一四"
+            },
+            {
+                "normalized_label": "四一五"
+            },
+            {
+                "normalized_label": "四一六"
+            },
+            {
+                "normalized_label": "四一七"
+            },
+            {
+                "normalized_label": "四一八"
+            },
+            {
+                "normalized_label": "四一九"
+            },
+            {
+                "normalized_label": "四二〇"
+            },
+            {
+                "normalized_label": "四二一"
+            },
+            {
+                "normalized_label": "四二二"
+            },
+            {
+                "normalized_label": "四二三"
+            },
+            {
+                "normalized_label": "四二四"
+            },
+            {
+                "normalized_label": "四二五"
+            },
+            {
+                "normalized_label": "四二六"
+            },
+            {
+                "normalized_label": "四二七"
+            },
+            {
+                "normalized_label": "四二八"
+            },
+            {
+                "normalized_label": "四二九"
+            },
+            {
+                "normalized_label": "四三〇"
+            },
+            {
+                "normalized_label": "四三一"
+            },
+            {
+                "normalized_label": "四三二"
+            },
+            {
+                "normalized_label": "四三三"
+            },
+            {
+                "normalized_label": "四三四"
+            },
+            {
+                "normalized_label": "四三五"
+            },
+            {
+                "normalized_label": "四三六"
+            },
+            {
+                "normalized_label": "四三七"
+            },
+            {
+                "normalized_label": "四三八"
+            },
+            {
+                "normalized_label": "四三九"
+            },
+            {
+                "normalized_label": "四四〇"
+            },
+            {
+                "normalized_label": "四四一"
+            },
+            {
+                "normalized_label": "四四二"
+            },
+            {
+                "normalized_label": "四四三"
+            },
+            {
+                "normalized_label": "四四四"
+            },
+            {
+                "normalized_label": "四四五"
+            },
+            {
+                "normalized_label": "四四六"
+            },
+            {
+                "normalized_label": "四四七"
+            },
+            {
+                "normalized_label": "四四八"
+            },
+            {
+                "normalized_label": "四四九"
+            },
+            {
+                "normalized_label": "四五〇"
+            },
+            {
+                "normalized_label": "四五一"
+            },
+            {
+                "normalized_label": "四五二"
+            },
+            {
+                "normalized_label": "四五三"
+            },
+            {
+                "normalized_label": "四五四"
+            },
+            {
+                "normalized_label": "四五五"
+            },
+            {
+                "normalized_label": "四五六"
+            },
+            {
+                "normalized_label": "四五七"
+            },
+            {
+                "normalized_label": "四五八"
+            },
+            {
+                "normalized_label": "四五九"
+            },
+            {
+                "normalized_label": "四六〇"
+            },
+            {
+                "normalized_label": "四六一"
+            },
+            {
+                "normalized_label": "四六二"
+            },
+            {
+                "normalized_label": "四六三"
+            },
+            {
+                "normalized_label": "四六四"
+            },
+            {
+                "normalized_label": "四六五"
+            },
+            {
+                "normalized_label": "四六六"
+            },
+            {
+                "normalized_label": "四六七"
+            },
+            {
+                "normalized_label": "四六八"
+            },
+            {
+                "normalized_label": "四六九"
+            },
+            {
+                "normalized_label": "四七〇"
+            },
+            {
+                "normalized_label": "四七一"
+            },
+            {
+                "normalized_label": "四七二"
+            },
+            {
+                "normalized_label": "四七三"
+            },
+            {
+                "normalized_label": "四七四"
+            },
+            {
+                "normalized_label": "四七五"
+            },
+            {
+                "normalized_label": "四七六"
+            },
+            {
+                "normalized_label": "四七七"
+            },
+            {
+                "normalized_label": "四七八"
+            },
+            {
+                "normalized_label": "四七九"
+            },
+            {
+                "normalized_label": "四八〇"
+            },
+            {
+                "normalized_label": "四八一"
+            },
+            {
+                "normalized_label": "四八二"
+            },
+            {
+                "normalized_label": "四八三"
+            },
+            {
+                "normalized_label": "四八四"
+            },
+            {
+                "normalized_label": "四八五"
+            },
+            {
+                "normalized_label": "四八六"
+            },
+            {
+                "normalized_label": "四八七"
+            },
+            {
+                "normalized_label": "四八八"
+            },
+            {
+                "normalized_label": "四八九"
+            },
+            {
+                "normalized_label": "四九〇"
+            },
+            {
+                "normalized_label": "四九一"
+            },
+            {
+                "normalized_label": "四九二"
+            },
+            {
+                "normalized_label": "四九三"
+            },
+            {
+                "normalized_label": "四九四"
+            },
+            {
+                "normalized_label": "四九五"
+            },
+            {
+                "normalized_label": "四九六"
+            },
+            {
+                "normalized_label": "四九七"
+            },
+            {
+                "normalized_label": "四九八"
+            },
+            {
+                "normalized_label": "四九九"
+            },
+            {
+                "normalized_label": "五〇〇"
+            },
+            {
+                "normalized_label": "五〇一"
+            },
+            {
+                "normalized_label": "五〇二"
+            },
+            {
+                "normalized_label": "五〇三"
+            },
+            {
+                "normalized_label": "五〇四"
+            },
+            {
+                "normalized_label": "五〇五"
+            },
+            {
+                "normalized_label": "五〇六"
+            },
+            {
+                "normalized_label": "五〇七"
+            },
+            {
+                "normalized_label": "五〇八"
+            },
+            {
+                "normalized_label": "五〇九"
+            },
+            {
+                "normalized_label": "五一〇"
+            },
+            {
+                "normalized_label": "五一一"
+            },
+            {
+                "normalized_label": "五一二"
+            },
+            {
+                "normalized_label": "五一三"
+            },
+            {
+                "normalized_label": "五一四"
+            },
+            {
+                "normalized_label": "五一五"
+            },
+            {
+                "normalized_label": "五一六"
+            },
+            {
+                "normalized_label": "五一七"
+            },
+            {
+                "normalized_label": "五一八"
+            },
+            {
+                "normalized_label": "五一九"
+            },
+            {
+                "normalized_label": "五二〇"
+            },
+            {
+                "normalized_label": "五二一"
+            },
+            {
+                "normalized_label": "五二二"
+            },
+            {
+                "normalized_label": "五二三"
+            },
+            {
+                "normalized_label": "五二四"
+            },
+            {
+                "normalized_label": "五二五"
+            },
+            {
+                "normalized_label": "五二六"
+            },
+            {
+                "normalized_label": "五二七"
+            },
+            {
+                "normalized_label": "五二八"
+            },
+            {
+                "normalized_label": "五二九"
+            },
+            {
+                "normalized_label": "五三〇"
+            },
+            {
+                "normalized_label": "五三一"
+            },
+            {
+                "normalized_label": "五三二"
+            },
+            {
+                "normalized_label": "五三三"
+            },
+            {
+                "normalized_label": "五三四"
+            },
+            {
+                "normalized_label": "五三五"
+            },
+            {
+                "normalized_label": "五三六"
+            },
+            {
+                "normalized_label": "五三七"
+            },
+            {
+                "normalized_label": "五三八"
+            },
+            {
+                "normalized_label": "五三九"
+            },
+            {
+                "normalized_label": "五四〇"
+            },
+            {
+                "normalized_label": "五四一"
+            },
+            {
+                "normalized_label": "五四二"
+            },
+            {
+                "normalized_label": "五四三"
+            },
+            {
+                "normalized_label": "五四四"
+            },
+            {
+                "normalized_label": "五四五"
+            },
+            {
+                "normalized_label": "五四六"
+            },
+            {
+                "normalized_label": "五四七"
+            },
+            {
+                "normalized_label": "五四八"
+            },
+            {
+                "normalized_label": "五四九"
+            },
+            {
+                "normalized_label": "五五〇"
+            },
+            {
+                "normalized_label": "五五一"
+            },
+            {
+                "normalized_label": "五五二"
+            },
+            {
+                "normalized_label": "五五三"
+            },
+            {
+                "normalized_label": "五五四"
+            },
+            {
+                "normalized_label": "五五五"
+            },
+            {
+                "normalized_label": "五五六"
+            },
+            {
+                "normalized_label": "五五七"
+            },
+            {
+                "normalized_label": "五五八"
+            },
+            {
+                "normalized_label": "五五九"
+            },
+            {
+                "normalized_label": "五六〇"
+            },
+            {
+                "normalized_label": "五六一"
+            },
+            {
+                "normalized_label": "五六二"
+            },
+            {
+                "normalized_label": "五六三"
+            },
+            {
+                "normalized_label": "五六四"
+            },
+            {
+                "normalized_label": "五六五"
+            },
+            {
+                "normalized_label": "五六六"
+            },
+            {
+                "normalized_label": "五六七"
+            },
+            {
+                "normalized_label": "五六八"
+            },
+            {
+                "normalized_label": "五六九"
+            },
+            {
+                "normalized_label": "五七〇"
+            },
+            {
+                "normalized_label": "五七一"
+            },
+            {
+                "normalized_label": "五七二"
+            },
+            {
+                "normalized_label": "五七三"
+            },
+            {
+                "normalized_label": "五七四"
+            },
+            {
+                "normalized_label": "五七五"
+            },
+            {
+                "normalized_label": "五七六"
+            },
+            {
+                "normalized_label": "五七七"
+            },
+            {
+                "normalized_label": "五七八"
+            },
+            {
+                "normalized_label": "五七九"
+            },
+            {
+                "normalized_label": "五八〇"
+            },
+            {
+                "normalized_label": "五八一"
+            },
+            {
+                "normalized_label": "五八二"
+            },
+            {
+                "normalized_label": "五八三"
+            },
+            {
+                "normalized_label": "五八四"
+            },
+            {
+                "normalized_label": "五八五"
+            },
+            {
+                "normalized_label": "五八六"
+            },
+            {
+                "normalized_label": "五八七"
+            },
+            {
+                "normalized_label": "五八八"
+            },
+            {
+                "normalized_label": "五八九"
+            },
+            {
+                "normalized_label": "五九〇"
+            },
+            {
+                "normalized_label": "五九一"
+            },
+            {
+                "normalized_label": "五九二"
+            },
+            {
+                "normalized_label": "五九三"
+            },
+            {
+                "normalized_label": "五九四"
+            },
+            {
+                "normalized_label": "五九五"
+            },
+            {
+                "normalized_label": "五九六"
+            },
+            {
+                "normalized_label": "五九七"
+            },
+            {
+                "normalized_label": "五九八"
+            },
+            {
+                "normalized_label": "五九九"
+            },
+            {
+                "normalized_label": "六〇〇"
+            },
+            {
+                "normalized_label": "六〇一"
+            },
+            {
+                "normalized_label": "六〇二"
+            },
+            {
+                "normalized_label": "六〇三"
+            },
+            {
+                "normalized_label": "六〇四"
+            },
+            {
+                "normalized_label": "六〇五"
+            },
+            {
+                "normalized_label": "六〇六"
+            },
+            {
+                "normalized_label": "六〇七"
+            },
+            {
+                "normalized_label": "六〇八"
+            },
+            {
+                "normalized_label": "六〇九"
+            },
+            {
+                "normalized_label": "六一〇"
+            },
+            {
+                "normalized_label": "六一一"
+            },
+            {
+                "normalized_label": "六一二"
+            },
+            {
+                "normalized_label": "六一三"
+            },
+            {
+                "normalized_label": "六一四"
+            },
+            {
+                "normalized_label": "六一五"
+            },
+            {
+                "normalized_label": "六一六"
+            },
+            {
+                "normalized_label": "六一七"
+            },
+            {
+                "normalized_label": "六一八"
+            },
+            {
+                "normalized_label": "六一九"
+            },
+            {
+                "normalized_label": "六二〇"
+            },
+            {
+                "normalized_label": "六二一"
+            },
+            {
+                "normalized_label": "六二二"
+            },
+            {
+                "normalized_label": "六二三"
+            },
+            {
+                "normalized_label": "六二四"
+            },
+            {
+                "normalized_label": "六二五"
+            },
+            {
+                "normalized_label": "六二六"
+            },
+            {
+                "normalized_label": "六二七"
+            },
+            {
+                "normalized_label": "六二八"
+            },
+            {
+                "normalized_label": "六二九"
+            },
+            {
+                "normalized_label": "六三〇"
+            },
+            {
+                "normalized_label": "六三一"
+            },
+            {
+                "normalized_label": "六三二"
+            },
+            {
+                "normalized_label": "六三三"
+            },
+            {
+                "normalized_label": "六三四"
+            },
+            {
+                "normalized_label": "六三五"
+            },
+            {
+                "normalized_label": "六三六"
+            },
+            {
+                "normalized_label": "六三七"
+            },
+            {
+                "normalized_label": "六三八"
+            },
+            {
+                "normalized_label": "六三九"
+            },
+            {
+                "normalized_label": "六四〇"
+            },
+            {
+                "normalized_label": "六四一"
+            },
+            {
+                "normalized_label": "六四二"
+            },
+            {
+                "normalized_label": "六四三"
+            },
+            {
+                "normalized_label": "六四四"
+            },
+            {
+                "normalized_label": "六四五"
+            },
+            {
+                "normalized_label": "六四六"
+            },
+            {
+                "normalized_label": "六四七"
+            },
+            {
+                "normalized_label": "六四八"
+            },
+            {
+                "normalized_label": "六四九"
+            },
+            {
+                "normalized_label": "六五〇"
+            },
+            {
+                "normalized_label": "六五一"
+            },
+            {
+                "normalized_label": "六五二"
+            },
+            {
+                "normalized_label": "六五三"
+            },
+            {
+                "normalized_label": "六五四"
+            },
+            {
+                "normalized_label": "六五五"
+            },
+            {
+                "normalized_label": "六五六"
+            },
+            {
+                "normalized_label": "六五七"
+            },
+            {
+                "normalized_label": "六五八"
+            },
+            {
+                "normalized_label": "六五九"
+            },
+            {
+                "normalized_label": "六六〇"
+            },
+            {
+                "normalized_label": "六六一"
+            },
+            {
+                "normalized_label": "六六二"
+            },
+            {
+                "normalized_label": "六六三"
+            },
+            {
+                "normalized_label": "六六四"
+            },
+            {
+                "normalized_label": "六六五"
+            },
+            {
+                "normalized_label": "六六六"
+            },
+            {
+                "normalized_label": "六六七"
+            },
+            {
+                "normalized_label": "六六八"
+            },
+            {
+                "normalized_label": "六六九"
+            },
+            {
+                "normalized_label": "六七〇"
+            },
+            {
+                "normalized_label": "六七一"
+            },
+            {
+                "normalized_label": "六七二"
+            },
+            {
+                "normalized_label": "六七三"
+            },
+            {
+                "normalized_label": "六七四"
+            },
+            {
+                "normalized_label": "六七五"
+            },
+            {
+                "normalized_label": "六七六"
+            },
+            {
+                "normalized_label": "六七七"
+            },
+            {
+                "normalized_label": "六七八"
+            },
+            {
+                "normalized_label": "六七九"
+            },
+            {
+                "normalized_label": "六八〇"
+            },
+            {
+                "normalized_label": "六八一"
+            },
+            {
+                "normalized_label": "六八二"
+            },
+            {
+                "normalized_label": "六八三"
+            },
+            {
+                "normalized_label": "六八四"
+            },
+            {
+                "normalized_label": "六八五"
+            },
+            {
+                "normalized_label": "六八六"
+            },
+            {
+                "normalized_label": "六八七"
+            },
+            {
+                "normalized_label": "六八八"
+            },
+            {
+                "normalized_label": "六八九"
+            },
+            {
+                "normalized_label": "六九〇"
+            },
+            {
+                "normalized_label": "六九一"
+            },
+            {
+                "normalized_label": "六九二"
+            },
+            {
+                "normalized_label": "六九三"
+            },
+            {
+                "normalized_label": "六九四"
+            },
+            {
+                "normalized_label": "六九五"
+            },
+            {
+                "normalized_label": "六九六"
+            },
+            {
+                "normalized_label": "六九七"
+            },
+            {
+                "normalized_label": "六九八"
+            },
+            {
+                "normalized_label": "六九九"
+            },
+            {
+                "normalized_label": "七〇〇"
+            },
+            {
+                "normalized_label": "七〇一"
+            },
+            {
+                "normalized_label": "七〇二"
+            },
+            {
+                "normalized_label": "七〇三"
+            },
+            {
+                "normalized_label": "七〇四"
+            },
+            {
+                "normalized_label": "七〇五"
+            },
+            {
+                "normalized_label": "七〇六"
+            },
+            {
+                "normalized_label": "七〇七"
+            },
+            {
+                "normalized_label": "七〇八"
+            },
+            {
+                "normalized_label": "七〇九"
+            },
+            {
+                "normalized_label": "七一〇"
+            },
+            {
+                "normalized_label": "七一一"
+            },
+            {
+                "normalized_label": "七一二"
+            },
+            {
+                "normalized_label": "七一三"
+            },
+            {
+                "normalized_label": "七一四"
+            },
+            {
+                "normalized_label": "七一五"
+            },
+            {
+                "normalized_label": "七一六"
+            },
+            {
+                "normalized_label": "七一七"
+            },
+            {
+                "normalized_label": "七一八"
+            },
+            {
+                "normalized_label": "七一九"
+            },
+            {
+                "normalized_label": "七二〇"
+            },
+            {
+                "normalized_label": "七二一"
+            },
+            {
+                "normalized_label": "七二二"
+            },
+            {
+                "normalized_label": "七二三"
+            },
+            {
+                "normalized_label": "七二四"
+            },
+            {
+                "normalized_label": "七二五"
+            },
+            {
+                "normalized_label": "七二六"
+            },
+            {
+                "normalized_label": "七二七"
+            },
+            {
+                "normalized_label": "七二八"
+            },
+            {
+                "normalized_label": "七二九"
+            },
+            {
+                "normalized_label": "七三〇"
+            },
+            {
+                "normalized_label": "七三一"
+            },
+            {
+                "normalized_label": "七三二"
+            },
+            {
+                "normalized_label": "七三三"
+            },
+            {
+                "normalized_label": "七三四"
+            },
+            {
+                "normalized_label": "七三五"
+            },
+            {
+                "normalized_label": "七三六"
+            },
+            {
+                "normalized_label": "七三七"
+            },
+            {
+                "normalized_label": "七三八"
+            },
+            {
+                "normalized_label": "七三九"
+            },
+            {
+                "normalized_label": "七四〇"
+            },
+            {
+                "normalized_label": "七四一"
+            },
+            {
+                "normalized_label": "七四二"
+            },
+            {
+                "normalized_label": "七四三"
+            },
+            {
+                "normalized_label": "七四四"
+            },
+            {
+                "normalized_label": "七四五"
+            },
+            {
+                "normalized_label": "七四六"
+            },
+            {
+                "normalized_label": "七四七"
+            },
+            {
+                "normalized_label": "七四八"
+            },
+            {
+                "normalized_label": "七四九"
+            },
+            {
+                "normalized_label": "七五〇"
+            },
+            {
+                "normalized_label": "七五一"
+            },
+            {
+                "normalized_label": "七五二"
+            },
+            {
+                "normalized_label": "七五三"
+            },
+            {
+                "normalized_label": "七五四"
+            },
+            {
+                "normalized_label": "七五五"
+            },
+            {
+                "normalized_label": "七五六"
+            },
+            {
+                "normalized_label": "七五七"
+            },
+            {
+                "normalized_label": "七五八"
+            },
+            {
+                "normalized_label": "七五九"
+            },
+            {
+                "normalized_label": "七六〇"
+            },
+            {
+                "normalized_label": "七六一"
+            },
+            {
+                "normalized_label": "七六二"
+            },
+            {
+                "normalized_label": "七六三"
+            },
+            {
+                "normalized_label": "七六四"
+            },
+            {
+                "normalized_label": "七六五"
+            },
+            {
+                "normalized_label": "七六六"
+            },
+            {
+                "normalized_label": "七六七"
+            },
+            {
+                "normalized_label": "七六八"
+            },
+            {
+                "normalized_label": "七六九"
+            },
+            {
+                "normalized_label": "七七〇"
+            },
+            {
+                "normalized_label": "七七一"
+            },
+            {
+                "normalized_label": "七七二"
+            },
+            {
+                "normalized_label": "七七三"
+            },
+            {
+                "normalized_label": "七七四"
+            },
+            {
+                "normalized_label": "七七五"
+            },
+            {
+                "normalized_label": "七七六"
+            },
+            {
+                "normalized_label": "七七七"
+            },
+            {
+                "normalized_label": "七七八"
+            },
+            {
+                "normalized_label": "七七九"
+            },
+            {
+                "normalized_label": "七八〇"
+            },
+            {
+                "normalized_label": "七八一"
+            },
+            {
+                "normalized_label": "七八二"
+            },
+            {
+                "normalized_label": "七八三"
+            },
+            {
+                "normalized_label": "七八四"
+            },
+            {
+                "normalized_label": "七八五"
+            },
+            {
+                "normalized_label": "七八六"
+            },
+            {
+                "normalized_label": "七八七"
+            },
+            {
+                "normalized_label": "七八八"
+            },
+            {
+                "normalized_label": "七八九"
+            },
+            {
+                "normalized_label": "七九〇"
+            },
+            {
+                "normalized_label": "七九一"
+            },
+            {
+                "normalized_label": "七九二"
+            },
+            {
+                "normalized_label": "七九三"
+            },
+            {
+                "normalized_label": "七九四"
+            },
+            {
+                "normalized_label": "七九五"
+            },
+            {
+                "normalized_label": "七九六"
+            },
+            {
+                "normalized_label": "七九七"
+            },
+            {
+                "normalized_label": "七九八"
+            },
+            {
+                "normalized_label": "七九九"
+            },
+            {
+                "normalized_label": "八〇〇"
+            },
+            {
+                "normalized_label": "八〇一"
+            },
+            {
+                "normalized_label": "八〇二"
+            },
+            {
+                "normalized_label": "八〇三"
+            },
+            {
+                "normalized_label": "八〇四"
+            },
+            {
+                "normalized_label": "八〇五"
+            },
+            {
+                "normalized_label": "八〇六"
+            },
+            {
+                "normalized_label": "八〇七"
+            },
+            {
+                "normalized_label": "八〇八"
+            },
+            {
+                "normalized_label": "八〇九"
+            },
+            {
+                "normalized_label": "八一〇"
+            },
+            {
+                "normalized_label": "八一一"
+            },
+            {
+                "normalized_label": "八一二"
+            },
+            {
+                "normalized_label": "八一三"
+            },
+            {
+                "normalized_label": "八一四"
+            },
+            {
+                "normalized_label": "八一五"
+            },
+            {
+                "normalized_label": "八一六"
+            },
+            {
+                "normalized_label": "八一七"
+            },
+            {
+                "normalized_label": "八一八"
+            },
+            {
+                "normalized_label": "八一九"
+            },
+            {
+                "normalized_label": "八二〇"
+            },
+            {
+                "normalized_label": "八二一"
+            },
+            {
+                "normalized_label": "八二二"
+            },
+            {
+                "normalized_label": "八二三"
+            },
+            {
+                "normalized_label": "八二四"
+            },
+            {
+                "normalized_label": "八二五"
+            },
+            {
+                "normalized_label": "八二六"
+            },
+            {
+                "normalized_label": "八二七"
+            },
+            {
+                "normalized_label": "八二八"
+            },
+            {
+                "normalized_label": "八二九"
+            },
+            {
+                "normalized_label": "八三〇"
+            },
+            {
+                "normalized_label": "八三一"
+            },
+            {
+                "normalized_label": "八三二"
+            },
+            {
+                "normalized_label": "八三三"
+            },
+            {
+                "normalized_label": "八三四"
+            },
+            {
+                "normalized_label": "八三五"
+            },
+            {
+                "normalized_label": "八三六"
+            },
+            {
+                "normalized_label": "八三七"
+            },
+            {
+                "normalized_label": "八三八"
+            },
+            {
+                "normalized_label": "八三九"
+            },
+            {
+                "normalized_label": "八四〇"
+            },
+            {
+                "normalized_label": "八四一"
+            },
+            {
+                "normalized_label": "八四二"
+            },
+            {
+                "normalized_label": "八四三"
+            },
+            {
+                "normalized_label": "八四四"
+            },
+            {
+                "normalized_label": "八四五"
+            },
+            {
+                "normalized_label": "八四六"
+            },
+            {
+                "normalized_label": "八四七"
+            },
+            {
+                "normalized_label": "八四八"
+            },
+            {
+                "normalized_label": "八四九"
+            },
+            {
+                "normalized_label": "八五〇"
+            },
+            {
+                "normalized_label": "八五一"
+            },
+            {
+                "normalized_label": "八五二"
+            },
+            {
+                "normalized_label": "八五三"
+            },
+            {
+                "normalized_label": "八五四"
+            },
+            {
+                "normalized_label": "八五五"
+            },
+            {
+                "normalized_label": "八五六"
+            },
+            {
+                "normalized_label": "八五七"
+            },
+            {
+                "normalized_label": "八五八"
+            },
+            {
+                "normalized_label": "八五九"
+            },
+            {
+                "normalized_label": "八六〇"
+            },
+            {
+                "normalized_label": "八六一"
+            },
+            {
+                "normalized_label": "八六二"
+            },
+            {
+                "normalized_label": "八六三"
+            },
+            {
+                "normalized_label": "八六四"
+            },
+            {
+                "normalized_label": "八六五"
+            },
+            {
+                "normalized_label": "八六六"
+            },
+            {
+                "normalized_label": "八六七"
+            },
+            {
+                "normalized_label": "八六八"
+            },
+            {
+                "normalized_label": "八六九"
+            },
+            {
+                "normalized_label": "八七〇"
+            },
+            {
+                "normalized_label": "八七一"
+            },
+            {
+                "normalized_label": "八七二"
+            },
+            {
+                "normalized_label": "八七三"
+            },
+            {
+                "normalized_label": "八七四"
+            },
+            {
+                "normalized_label": "八七五"
+            },
+            {
+                "normalized_label": "八七六"
+            },
+            {
+                "normalized_label": "八七七"
+            },
+            {
+                "normalized_label": "八七八"
+            },
+            {
+                "normalized_label": "八七九"
+            },
+            {
+                "normalized_label": "八八〇"
+            },
+            {
+                "normalized_label": "八八一"
+            },
+            {
+                "normalized_label": "八八二"
+            },
+            {
+                "normalized_label": "八八三"
+            },
+            {
+                "normalized_label": "八八四"
+            },
+            {
+                "normalized_label": "八八五"
+            },
+            {
+                "normalized_label": "八八六"
+            },
+            {
+                "normalized_label": "八八七"
+            },
+            {
+                "normalized_label": "八八八"
+            },
+            {
+                "normalized_label": "八八九"
+            },
+            {
+                "normalized_label": "八九〇"
+            },
+            {
+                "normalized_label": "八九一"
+            },
+            {
+                "normalized_label": "八九二"
+            },
+            {
+                "normalized_label": "八九三"
+            },
+            {
+                "normalized_label": "八九四"
+            },
+            {
+                "normalized_label": "八九五"
+            },
+            {
+                "normalized_label": "八九六"
+            },
+            {
+                "normalized_label": "八九七"
+            },
+            {
+                "normalized_label": "八九八"
+            },
+            {
+                "normalized_label": "八九九"
+            },
+            {
+                "normalized_label": "九〇〇"
+            },
+            {
+                "normalized_label": "九〇一"
+            },
+            {
+                "normalized_label": "九〇二"
+            },
+            {
+                "normalized_label": "九〇三"
+            },
+            {
+                "normalized_label": "九〇四"
+            },
+            {
+                "normalized_label": "九〇五"
+            },
+            {
+                "normalized_label": "九〇六"
+            },
+            {
+                "normalized_label": "九〇七"
+            },
+            {
+                "normalized_label": "九〇八"
+            },
+            {
+                "normalized_label": "九〇九"
+            },
+            {
+                "normalized_label": "九一〇"
+            },
+            {
+                "normalized_label": "九一一"
+            },
+            {
+                "normalized_label": "九一二"
+            },
+            {
+                "normalized_label": "九一三"
+            },
+            {
+                "normalized_label": "九一四"
+            },
+            {
+                "normalized_label": "九一五"
+            },
+            {
+                "normalized_label": "九一六"
+            },
+            {
+                "normalized_label": "九一七"
+            },
+            {
+                "normalized_label": "九一八"
+            },
+            {
+                "normalized_label": "九一九"
+            },
+            {
+                "normalized_label": "九二〇"
+            },
+            {
+                "normalized_label": "九二一"
+            },
+            {
+                "normalized_label": "九二二"
+            },
+            {
+                "normalized_label": "九二三"
+            },
+            {
+                "normalized_label": "九二四"
+            },
+            {
+                "normalized_label": "九二五"
+            },
+            {
+                "normalized_label": "九二六"
+            },
+            {
+                "normalized_label": "九二七"
+            },
+            {
+                "normalized_label": "九二八"
+            },
+            {
+                "normalized_label": "九二九"
+            },
+            {
+                "normalized_label": "九三〇"
+            },
+            {
+                "normalized_label": "九三一"
+            },
+            {
+                "normalized_label": "九三二"
+            },
+            {
+                "normalized_label": "九三三"
+            },
+            {
+                "normalized_label": "九三四"
+            },
+            {
+                "normalized_label": "九三五"
+            },
+            {
+                "normalized_label": "九三六"
+            },
+            {
+                "normalized_label": "九三七"
+            },
+            {
+                "normalized_label": "九三八"
+            },
+            {
+                "normalized_label": "九三九"
+            },
+            {
+                "normalized_label": "九四〇"
+            },
+            {
+                "normalized_label": "九四一"
+            },
+            {
+                "normalized_label": "九四二"
+            },
+            {
+                "normalized_label": "九四三"
+            },
+            {
+                "normalized_label": "九四四"
+            },
+            {
+                "normalized_label": "九四五"
+            },
+            {
+                "normalized_label": "九四六"
+            },
+            {
+                "normalized_label": "九四七"
+            },
+            {
+                "normalized_label": "九四八"
+            },
+            {
+                "normalized_label": "九四九"
+            },
+            {
+                "normalized_label": "九五〇"
+            },
+            {
+                "normalized_label": "九五一"
+            },
+            {
+                "normalized_label": "九五二"
+            },
+            {
+                "normalized_label": "九五三"
+            },
+            {
+                "normalized_label": "九五四"
+            },
+            {
+                "normalized_label": "九五五"
+            },
+            {
+                "normalized_label": "九五六"
+            },
+            {
+                "normalized_label": "九五七"
+            },
+            {
+                "normalized_label": "九五八"
+            },
+            {
+                "normalized_label": "九五九"
+            },
+            {
+                "normalized_label": "九六〇"
+            },
+            {
+                "normalized_label": "九六一"
+            },
+            {
+                "normalized_label": "九六二"
+            },
+            {
+                "normalized_label": "九六三"
+            },
+            {
+                "normalized_label": "九六四"
+            },
+            {
+                "normalized_label": "九六五"
+            },
+            {
+                "normalized_label": "九六六"
+            },
+            {
+                "normalized_label": "九六七"
+            },
+            {
+                "normalized_label": "九六八"
+            },
+            {
+                "normalized_label": "九六九"
+            },
+            {
+                "normalized_label": "九七〇"
+            },
+            {
+                "normalized_label": "九七一"
+            },
+            {
+                "normalized_label": "九七二"
+            },
+            {
+                "normalized_label": "九七三"
+            },
+            {
+                "normalized_label": "九七四"
+            },
+            {
+                "normalized_label": "九七五"
+            },
+            {
+                "normalized_label": "九七六"
+            },
+            {
+                "normalized_label": "九七七"
+            },
+            {
+                "normalized_label": "九七八"
+            },
+            {
+                "normalized_label": "九七九"
+            },
+            {
+                "normalized_label": "九八〇"
+            },
+            {
+                "normalized_label": "九八一"
+            },
+            {
+                "normalized_label": "九八二"
+            },
+            {
+                "normalized_label": "九八三"
+            },
+            {
+                "normalized_label": "九八四"
+            },
+            {
+                "normalized_label": "九八五"
+            },
+            {
+                "normalized_label": "九八六"
+            },
+            {
+                "normalized_label": "九八七"
+            },
+            {
+                "normalized_label": "九八八"
+            },
+            {
+                "normalized_label": "九八九"
+            },
+            {
+                "normalized_label": "九九〇"
+            },
+            {
+                "normalized_label": "九九一"
+            },
+            {
+                "normalized_label": "九九二"
+            },
+            {
+                "normalized_label": "九九三"
+            },
+            {
+                "normalized_label": "九九四"
+            },
+            {
+                "normalized_label": "九九五"
+            },
+            {
+                "normalized_label": "九九六"
+            },
+            {
+                "normalized_label": "九九七"
+            },
+            {
+                "normalized_label": "九九八"
+            },
+            {
+                "normalized_label": "九九九"
+            },
+            {
+                "normalized_label": "〇〇〇"
+            }
+        ]
+    }
+}

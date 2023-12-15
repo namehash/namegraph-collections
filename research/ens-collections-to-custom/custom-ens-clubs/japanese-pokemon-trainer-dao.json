@@ -1,0 +1,3032 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "japanese-pokemon-trainer-dao",
+        "collection_name": "Japanese Pokemon Trainer DAO",
+        "collection_description": "Japanese Pokemon ENS.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "アイアント"
+            },
+            {
+                "normalized_label": "アオガラス"
+            },
+            {
+                "normalized_label": "アギルダー"
+            },
+            {
+                "normalized_label": "アクジキング"
+            },
+            {
+                "normalized_label": "アグノム"
+            },
+            {
+                "normalized_label": "アゲハント"
+            },
+            {
+                "normalized_label": "アゴジムシ"
+            },
+            {
+                "normalized_label": "アサナン"
+            },
+            {
+                "normalized_label": "アシマリ"
+            },
+            {
+                "normalized_label": "アシレーヌ"
+            },
+            {
+                "normalized_label": "アズマオウ"
+            },
+            {
+                "normalized_label": "アチャモ"
+            },
+            {
+                "normalized_label": "アップリュー"
+            },
+            {
+                "normalized_label": "アノプス"
+            },
+            {
+                "normalized_label": "アバゴーラ"
+            },
+            {
+                "normalized_label": "アブソル"
+            },
+            {
+                "normalized_label": "アブリボン"
+            },
+            {
+                "normalized_label": "アブリー"
+            },
+            {
+                "normalized_label": "アマカジ"
+            },
+            {
+                "normalized_label": "アママイコ"
+            },
+            {
+                "normalized_label": "アマルス"
+            },
+            {
+                "normalized_label": "アマルルガ"
+            },
+            {
+                "normalized_label": "アマージョ"
+            },
+            {
+                "normalized_label": "アメタマ"
+            },
+            {
+                "normalized_label": "アメモース"
+            },
+            {
+                "normalized_label": "アヤシシ"
+            },
+            {
+                "normalized_label": "アリアドス"
+            },
+            {
+                "normalized_label": "アリゲイツ"
+            },
+            {
+                "normalized_label": "アルセウス"
+            },
+            {
+                "normalized_label": "アンノーン"
+            },
+            {
+                "normalized_label": "アーケオス"
+            },
+            {
+                "normalized_label": "アーケン"
+            },
+            {
+                "normalized_label": "アーゴヨン"
+            },
+            {
+                "normalized_label": "アーボ"
+            },
+            {
+                "normalized_label": "アーボック"
+            },
+            {
+                "normalized_label": "アーマルド"
+            },
+            {
+                "normalized_label": "アーマーガア"
+            },
+            {
+                "normalized_label": "イエッサン"
+            },
+            {
+                "normalized_label": "イオルブ"
+            },
+            {
+                "normalized_label": "イシズマイ"
+            },
+            {
+                "normalized_label": "イシツブテ"
+            },
+            {
+                "normalized_label": "イシヘンジン"
+            },
+            {
+                "normalized_label": "イダイトウ"
+            },
+            {
+                "normalized_label": "イトマル"
+            },
+            {
+                "normalized_label": "イノムー"
+            },
+            {
+                "normalized_label": "イベルタル"
+            },
+            {
+                "normalized_label": "イルミーゼ"
+            },
+            {
+                "normalized_label": "イワパレス"
+            },
+            {
+                "normalized_label": "イワンコ"
+            },
+            {
+                "normalized_label": "イワーク"
+            },
+            {
+                "normalized_label": "インテレオン"
+            },
+            {
+                "normalized_label": "イーブイ"
+            },
+            {
+                "normalized_label": "ウインディ"
+            },
+            {
+                "normalized_label": "ウォーグル"
+            },
+            {
+                "normalized_label": "ウオチルドン"
+            },
+            {
+                "normalized_label": "ウオノラゴン"
+            },
+            {
+                "normalized_label": "ウソッキー"
+            },
+            {
+                "normalized_label": "ウソハチ"
+            },
+            {
+                "normalized_label": "ウッウ"
+            },
+            {
+                "normalized_label": "ウツドン"
+            },
+            {
+                "normalized_label": "ウツボット"
+            },
+            {
+                "normalized_label": "ウツロイド"
+            },
+            {
+                "normalized_label": "ウデッポウ"
+            },
+            {
+                "normalized_label": "ウパー"
+            },
+            {
+                "normalized_label": "ウリムー"
+            },
+            {
+                "normalized_label": "ウルガモス"
+            },
+            {
+                "normalized_label": "ウーラオス"
+            },
+            {
+                "normalized_label": "ウールー"
+            },
+            {
+                "normalized_label": "エアームド"
+            },
+            {
+                "normalized_label": "エイパム"
+            },
+            {
+                "normalized_label": "エテボース"
+            },
+            {
+                "normalized_label": "エネコ"
+            },
+            {
+                "normalized_label": "エネコロロ"
+            },
+            {
+                "normalized_label": "エビワラー"
+            },
+            {
+                "normalized_label": "エムリット"
+            },
+            {
+                "normalized_label": "エモンガ"
+            },
+            {
+                "normalized_label": "エリキテル"
+            },
+            {
+                "normalized_label": "エルフーン"
+            },
+            {
+                "normalized_label": "エルレイド"
+            },
+            {
+                "normalized_label": "エレキッド"
+            },
+            {
+                "normalized_label": "エレキブル"
+            },
+            {
+                "normalized_label": "エレザード"
+            },
+            {
+                "normalized_label": "エレズン"
+            },
+            {
+                "normalized_label": "エレブー"
+            },
+            {
+                "normalized_label": "エンテイ"
+            },
+            {
+                "normalized_label": "エンニュート"
+            },
+            {
+                "normalized_label": "エンブオー"
+            },
+            {
+                "normalized_label": "エンペルト"
+            },
+            {
+                "normalized_label": "エースバーン"
+            },
+            {
+                "normalized_label": "エーフィ"
+            },
+            {
+                "normalized_label": "オオスバメ"
+            },
+            {
+                "normalized_label": "オオタチ"
+            },
+            {
+                "normalized_label": "オオニューラ"
+            },
+            {
+                "normalized_label": "オクタン"
+            },
+            {
+                "normalized_label": "オコリザル"
+            },
+            {
+                "normalized_label": "オシャマリ"
+            },
+            {
+                "normalized_label": "オタチ"
+            },
+            {
+                "normalized_label": "オタマロ"
+            },
+            {
+                "normalized_label": "オトスパス"
+            },
+            {
+                "normalized_label": "オドシシ"
+            },
+            {
+                "normalized_label": "オドリドリ"
+            },
+            {
+                "normalized_label": "オニゴーリ"
+            },
+            {
+                "normalized_label": "オニシズクモ"
+            },
+            {
+                "normalized_label": "オニスズメ"
+            },
+            {
+                "normalized_label": "オニドリル"
+            },
+            {
+                "normalized_label": "オノノクス"
+            },
+            {
+                "normalized_label": "オノンド"
+            },
+            {
+                "normalized_label": "オムスター"
+            },
+            {
+                "normalized_label": "オムナイト"
+            },
+            {
+                "normalized_label": "オンバット"
+            },
+            {
+                "normalized_label": "オンバーン"
+            },
+            {
+                "normalized_label": "オーダイル"
+            },
+            {
+                "normalized_label": "オーベム"
+            },
+            {
+                "normalized_label": "オーロット"
+            },
+            {
+                "normalized_label": "オーロンゲ"
+            },
+            {
+                "normalized_label": "カイオーガ"
+            },
+            {
+                "normalized_label": "カイリキー"
+            },
+            {
+                "normalized_label": "カイリュー"
+            },
+            {
+                "normalized_label": "カイロス"
+            },
+            {
+                "normalized_label": "カエンジシ"
+            },
+            {
+                "normalized_label": "カクレオン"
+            },
+            {
+                "normalized_label": "カゲボウズ"
+            },
+            {
+                "normalized_label": "カジッチュ"
+            },
+            {
+                "normalized_label": "カジリガメ"
+            },
+            {
+                "normalized_label": "カチコール"
+            },
+            {
+                "normalized_label": "カバルドン"
+            },
+            {
+                "normalized_label": "カビゴン"
+            },
+            {
+                "normalized_label": "カブト"
+            },
+            {
+                "normalized_label": "カブトプス"
+            },
+            {
+                "normalized_label": "カブルモ"
+            },
+            {
+                "normalized_label": "カプ・コケコ"
+            },
+            {
+                "normalized_label": "カプ・テテフ"
+            },
+            {
+                "normalized_label": "カプ・ブルル"
+            },
+            {
+                "normalized_label": "カプ・レヒレ"
+            },
+            {
+                "normalized_label": "カポエラー"
+            },
+            {
+                "normalized_label": "カマスジョー"
+            },
+            {
+                "normalized_label": "カミツルギ"
+            },
+            {
+                "normalized_label": "カムカメ"
+            },
+            {
+                "normalized_label": "カメックス"
+            },
+            {
+                "normalized_label": "カメテテ"
+            },
+            {
+                "normalized_label": "カメール"
+            },
+            {
+                "normalized_label": "カモネギ"
+            },
+            {
+                "normalized_label": "カラカラ"
+            },
+            {
+                "normalized_label": "カラサリス"
+            },
+            {
+                "normalized_label": "カラナクシ"
+            },
+            {
+                "normalized_label": "カラマネロ"
+            },
+            {
+                "normalized_label": "カリキリ"
+            },
+            {
+                "normalized_label": "ガオガエン"
+            },
+            {
+                "normalized_label": "ガチグマ"
+            },
+            {
+                "normalized_label": "ガチゴラス"
+            },
+            {
+                "normalized_label": "ガバイト"
+            },
+            {
+                "normalized_label": "ガブリアス"
+            },
+            {
+                "normalized_label": "ガマガル"
+            },
+            {
+                "normalized_label": "ガマゲロゲ"
+            },
+            {
+                "normalized_label": "ガメノデス"
+            },
+            {
+                "normalized_label": "ガラガラ"
+            },
+            {
+                "normalized_label": "ガルーラ"
+            },
+            {
+                "normalized_label": "ガントル"
+            },
+            {
+                "normalized_label": "ガーディ"
+            },
+            {
+                "normalized_label": "ガーメイル"
+            },
+            {
+                "normalized_label": "キテルグマ"
+            },
+            {
+                "normalized_label": "キノガッサ"
+            },
+            {
+                "normalized_label": "キノココ"
+            },
+            {
+                "normalized_label": "キバゴ"
+            },
+            {
+                "normalized_label": "キバニア"
+            },
+            {
+                "normalized_label": "キマワリ"
+            },
+            {
+                "normalized_label": "キモリ"
+            },
+            {
+                "normalized_label": "キャタピー"
+            },
+            {
+                "normalized_label": "キャモメ"
+            },
+            {
+                "normalized_label": "キュウコン"
+            },
+            {
+                "normalized_label": "キュレム"
+            },
+            {
+                "normalized_label": "キュワワー"
+            },
+            {
+                "normalized_label": "キリキザン"
+            },
+            {
+                "normalized_label": "キリンリキ"
+            },
+            {
+                "normalized_label": "キルリア"
+            },
+            {
+                "normalized_label": "キレイハナ"
+            },
+            {
+                "normalized_label": "キングドラ"
+            },
+            {
+                "normalized_label": "キングラー"
+            },
+            {
+                "normalized_label": "ギアル"
+            },
+            {
+                "normalized_label": "ギガイアス"
+            },
+            {
+                "normalized_label": "ギギアル"
+            },
+            {
+                "normalized_label": "ギギギアル"
+            },
+            {
+                "normalized_label": "ギモー"
+            },
+            {
+                "normalized_label": "ギャラドス"
+            },
+            {
+                "normalized_label": "ギャロップ"
+            },
+            {
+                "normalized_label": "ギラティナ"
+            },
+            {
+                "normalized_label": "ギルガルド"
+            },
+            {
+                "normalized_label": "クイタラン"
+            },
+            {
+                "normalized_label": "クサイハナ"
+            },
+            {
+                "normalized_label": "クスネ"
+            },
+            {
+                "normalized_label": "クズモー"
+            },
+            {
+                "normalized_label": "クチート"
+            },
+            {
+                "normalized_label": "クヌギダマ"
+            },
+            {
+                "normalized_label": "クマシュン"
+            },
+            {
+                "normalized_label": "クラブ"
+            },
+            {
+                "normalized_label": "クリムガン"
+            },
+            {
+                "normalized_label": "クルマユ"
+            },
+            {
+                "normalized_label": "クルミル"
+            },
+            {
+                "normalized_label": "クレセリア"
+            },
+            {
+                "normalized_label": "クレッフィ"
+            },
+            {
+                "normalized_label": "クレベース"
+            },
+            {
+                "normalized_label": "クロバット"
+            },
+            {
+                "normalized_label": "クワガノン"
+            },
+            {
+                "normalized_label": "グソクムシャ"
+            },
+            {
+                "normalized_label": "グライオン"
+            },
+            {
+                "normalized_label": "グライガー"
+            },
+            {
+                "normalized_label": "グラエナ"
+            },
+            {
+                "normalized_label": "グランブル"
+            },
+            {
+                "normalized_label": "グラードン"
+            },
+            {
+                "normalized_label": "グレイシア"
+            },
+            {
+                "normalized_label": "グレッグル"
+            },
+            {
+                "normalized_label": "ケイコウオ"
+            },
+            {
+                "normalized_label": "ケケンカニ"
+            },
+            {
+                "normalized_label": "ケッキング"
+            },
+            {
+                "normalized_label": "ケムッソ"
+            },
+            {
+                "normalized_label": "ケララッパ"
+            },
+            {
+                "normalized_label": "ケルディオ"
+            },
+            {
+                "normalized_label": "ケロマツ"
+            },
+            {
+                "normalized_label": "ケンタロス"
+            },
+            {
+                "normalized_label": "ケンホロウ"
+            },
+            {
+                "normalized_label": "ケーシィ"
+            },
+            {
+                "normalized_label": "ゲコガシラ"
+            },
+            {
+                "normalized_label": "ゲッコウガ"
+            },
+            {
+                "normalized_label": "ゲノセクト"
+            },
+            {
+                "normalized_label": "ゲンガー"
+            },
+            {
+                "normalized_label": "コアルヒー"
+            },
+            {
+                "normalized_label": "コイキング"
+            },
+            {
+                "normalized_label": "コイル"
+            },
+            {
+                "normalized_label": "コオリッポ"
+            },
+            {
+                "normalized_label": "コクーン"
+            },
+            {
+                "normalized_label": "ココガラ"
+            },
+            {
+                "normalized_label": "ココドラ"
+            },
+            {
+                "normalized_label": "ココロモリ"
+            },
+            {
+                "normalized_label": "コジョフー"
+            },
+            {
+                "normalized_label": "コジョンド"
+            },
+            {
+                "normalized_label": "コスモウム"
+            },
+            {
+                "normalized_label": "コスモッグ"
+            },
+            {
+                "normalized_label": "コソクムシ"
+            },
+            {
+                "normalized_label": "コダック"
+            },
+            {
+                "normalized_label": "コドラ"
+            },
+            {
+                "normalized_label": "コノハナ"
+            },
+            {
+                "normalized_label": "コバルオン"
+            },
+            {
+                "normalized_label": "コフキムシ"
+            },
+            {
+                "normalized_label": "コフーライ"
+            },
+            {
+                "normalized_label": "コマタナ"
+            },
+            {
+                "normalized_label": "コモルー"
+            },
+            {
+                "normalized_label": "コラッタ"
+            },
+            {
+                "normalized_label": "コリンク"
+            },
+            {
+                "normalized_label": "コロトック"
+            },
+            {
+                "normalized_label": "コロボーシ"
+            },
+            {
+                "normalized_label": "コロモリ"
+            },
+            {
+                "normalized_label": "コンパン"
+            },
+            {
+                "normalized_label": "コータス"
+            },
+            {
+                "normalized_label": "ゴウカザル"
+            },
+            {
+                "normalized_label": "ゴクリン"
+            },
+            {
+                "normalized_label": "ゴチミル"
+            },
+            {
+                "normalized_label": "ゴチム"
+            },
+            {
+                "normalized_label": "ゴチルゼル"
+            },
+            {
+                "normalized_label": "ゴニョニョ"
+            },
+            {
+                "normalized_label": "ゴビット"
+            },
+            {
+                "normalized_label": "ゴマゾウ"
+            },
+            {
+                "normalized_label": "ゴリランダー"
+            },
+            {
+                "normalized_label": "ゴルダック"
+            },
+            {
+                "normalized_label": "ゴルバット"
+            },
+            {
+                "normalized_label": "ゴルーグ"
+            },
+            {
+                "normalized_label": "ゴロンダ"
+            },
+            {
+                "normalized_label": "ゴローニャ"
+            },
+            {
+                "normalized_label": "ゴローン"
+            },
+            {
+                "normalized_label": "ゴンベ"
+            },
+            {
+                "normalized_label": "ゴーゴート"
+            },
+            {
+                "normalized_label": "ゴース"
+            },
+            {
+                "normalized_label": "ゴースト"
+            },
+            {
+                "normalized_label": "ゴーリキー"
+            },
+            {
+                "normalized_label": "サイドン"
+            },
+            {
+                "normalized_label": "サイホーン"
+            },
+            {
+                "normalized_label": "サクラビス"
+            },
+            {
+                "normalized_label": "サザンドラ"
+            },
+            {
+                "normalized_label": "サシカマス"
+            },
+            {
+                "normalized_label": "サダイジャ"
+            },
+            {
+                "normalized_label": "サッチムシ"
+            },
+            {
+                "normalized_label": "サナギラス"
+            },
+            {
+                "normalized_label": "サニゴーン"
+            },
+            {
+                "normalized_label": "サニーゴ"
+            },
+            {
+                "normalized_label": "サボネア"
+            },
+            {
+                "normalized_label": "サマヨール"
+            },
+            {
+                "normalized_label": "サメハダー"
+            },
+            {
+                "normalized_label": "サルノリ"
+            },
+            {
+                "normalized_label": "サワムラー"
+            },
+            {
+                "normalized_label": "サンダー"
+            },
+            {
+                "normalized_label": "サンダース"
+            },
+            {
+                "normalized_label": "サンド"
+            },
+            {
+                "normalized_label": "サンドパン"
+            },
+            {
+                "normalized_label": "サーナイト"
+            },
+            {
+                "normalized_label": "ザシアン"
+            },
+            {
+                "normalized_label": "ザマゼンタ"
+            },
+            {
+                "normalized_label": "ザルード"
+            },
+            {
+                "normalized_label": "ザングース"
+            },
+            {
+                "normalized_label": "シェイミ"
+            },
+            {
+                "normalized_label": "シェルダー"
+            },
+            {
+                "normalized_label": "シキジカ"
+            },
+            {
+                "normalized_label": "シザリガー"
+            },
+            {
+                "normalized_label": "シシコ"
+            },
+            {
+                "normalized_label": "シズクモ"
+            },
+            {
+                "normalized_label": "シビシラス"
+            },
+            {
+                "normalized_label": "シビビール"
+            },
+            {
+                "normalized_label": "シビルドン"
+            },
+            {
+                "normalized_label": "シママ"
+            },
+            {
+                "normalized_label": "シャワーズ"
+            },
+            {
+                "normalized_label": "シャンデラ"
+            },
+            {
+                "normalized_label": "シュシュプ"
+            },
+            {
+                "normalized_label": "シュバルゴ"
+            },
+            {
+                "normalized_label": "シルヴァディ"
+            },
+            {
+                "normalized_label": "シロデスナ"
+            },
+            {
+                "normalized_label": "シンボラー"
+            },
+            {
+                "normalized_label": "シードラ"
+            },
+            {
+                "normalized_label": "ジガルデ"
+            },
+            {
+                "normalized_label": "ジグザグマ"
+            },
+            {
+                "normalized_label": "ジジーロン"
+            },
+            {
+                "normalized_label": "ジバコイル"
+            },
+            {
+                "normalized_label": "ジヘッド"
+            },
+            {
+                "normalized_label": "ジメレオン"
+            },
+            {
+                "normalized_label": "ジャノビー"
+            },
+            {
+                "normalized_label": "ジャラコ"
+            },
+            {
+                "normalized_label": "ジャラランガ"
+            },
+            {
+                "normalized_label": "ジャランゴ"
+            },
+            {
+                "normalized_label": "ジャローダ"
+            },
+            {
+                "normalized_label": "ジュカイン"
+            },
+            {
+                "normalized_label": "ジュゴン"
+            },
+            {
+                "normalized_label": "ジュナイパー"
+            },
+            {
+                "normalized_label": "ジュプトル"
+            },
+            {
+                "normalized_label": "ジュペッタ"
+            },
+            {
+                "normalized_label": "ジュラルドン"
+            },
+            {
+                "normalized_label": "ジラーチ"
+            },
+            {
+                "normalized_label": "ジーランス"
+            },
+            {
+                "normalized_label": "スイクン"
+            },
+            {
+                "normalized_label": "スカタンク"
+            },
+            {
+                "normalized_label": "スカンプー"
+            },
+            {
+                "normalized_label": "スコルピ"
+            },
+            {
+                "normalized_label": "スターミー"
+            },
+            {
+                "normalized_label": "ストライク"
+            },
+            {
+                "normalized_label": "ストリンダー"
+            },
+            {
+                "normalized_label": "スナバァ"
+            },
+            {
+                "normalized_label": "スナヘビ"
+            },
+            {
+                "normalized_label": "スバメ"
+            },
+            {
+                "normalized_label": "スピアー"
+            },
+            {
+                "normalized_label": "スボミー"
+            },
+            {
+                "normalized_label": "スリーパー"
+            },
+            {
+                "normalized_label": "スリープ"
+            },
+            {
+                "normalized_label": "スワンナ"
+            },
+            {
+                "normalized_label": "ズガイドス"
+            },
+            {
+                "normalized_label": "ズガドーン"
+            },
+            {
+                "normalized_label": "ズバット"
+            },
+            {
+                "normalized_label": "ズルズキン"
+            },
+            {
+                "normalized_label": "ズルッグ"
+            },
+            {
+                "normalized_label": "セキタンザン"
+            },
+            {
+                "normalized_label": "セレビィ"
+            },
+            {
+                "normalized_label": "ゼクロム"
+            },
+            {
+                "normalized_label": "ゼニガメ"
+            },
+            {
+                "normalized_label": "ゼブライカ"
+            },
+            {
+                "normalized_label": "ゼラオラ"
+            },
+            {
+                "normalized_label": "ゼルネアス"
+            },
+            {
+                "normalized_label": "ソルガレオ"
+            },
+            {
+                "normalized_label": "ソルロック"
+            },
+            {
+                "normalized_label": "ソーナノ"
+            },
+            {
+                "normalized_label": "ソーナンス"
+            },
+            {
+                "normalized_label": "ゾウドウ"
+            },
+            {
+                "normalized_label": "ゾロア"
+            },
+            {
+                "normalized_label": "ゾロアーク"
+            },
+            {
+                "normalized_label": "タイレーツ"
+            },
+            {
+                "normalized_label": "タタッコ"
+            },
+            {
+                "normalized_label": "タチフサグマ"
+            },
+            {
+                "normalized_label": "タッツー"
+            },
+            {
+                "normalized_label": "タツベイ"
+            },
+            {
+                "normalized_label": "タテトプス"
+            },
+            {
+                "normalized_label": "タネボー"
+            },
+            {
+                "normalized_label": "タブンネ"
+            },
+            {
+                "normalized_label": "タマゲタケ"
+            },
+            {
+                "normalized_label": "タマザラシ"
+            },
+            {
+                "normalized_label": "タマタマ"
+            },
+            {
+                "normalized_label": "タマンタ"
+            },
+            {
+                "normalized_label": "タルップル"
+            },
+            {
+                "normalized_label": "タンドン"
+            },
+            {
+                "normalized_label": "ダイオウドウ"
+            },
+            {
+                "normalized_label": "ダイケンキ"
+            },
+            {
+                "normalized_label": "ダイノーズ"
+            },
+            {
+                "normalized_label": "ダクマ"
+            },
+            {
+                "normalized_label": "ダグトリオ"
+            },
+            {
+                "normalized_label": "ダゲキ"
+            },
+            {
+                "normalized_label": "ダストダス"
+            },
+            {
+                "normalized_label": "ダダリン"
+            },
+            {
+                "normalized_label": "ダブラン"
+            },
+            {
+                "normalized_label": "ダルマッカ"
+            },
+            {
+                "normalized_label": "ダンゴロ"
+            },
+            {
+                "normalized_label": "ダンバル"
+            },
+            {
+                "normalized_label": "ダークライ"
+            },
+            {
+                "normalized_label": "ダーテング"
+            },
+            {
+                "normalized_label": "チェリム"
+            },
+            {
+                "normalized_label": "チェリンボ"
+            },
+            {
+                "normalized_label": "チコリータ"
+            },
+            {
+                "normalized_label": "チゴラス"
+            },
+            {
+                "normalized_label": "チャオブー"
+            },
+            {
+                "normalized_label": "チャーレム"
+            },
+            {
+                "normalized_label": "チュリネ"
+            },
+            {
+                "normalized_label": "チョボマキ"
+            },
+            {
+                "normalized_label": "チョロネコ"
+            },
+            {
+                "normalized_label": "チョンチー"
+            },
+            {
+                "normalized_label": "チラチーノ"
+            },
+            {
+                "normalized_label": "チラーミィ"
+            },
+            {
+                "normalized_label": "チリーン"
+            },
+            {
+                "normalized_label": "チルタリス"
+            },
+            {
+                "normalized_label": "チルット"
+            },
+            {
+                "normalized_label": "ツタージャ"
+            },
+            {
+                "normalized_label": "ツチニン"
+            },
+            {
+                "normalized_label": "ツツケラ"
+            },
+            {
+                "normalized_label": "ツボツボ"
+            },
+            {
+                "normalized_label": "ツンデツンデ"
+            },
+            {
+                "normalized_label": "ツンベアー"
+            },
+            {
+                "normalized_label": "テッカグヤ"
+            },
+            {
+                "normalized_label": "テッカニン"
+            },
+            {
+                "normalized_label": "テッシード"
+            },
+            {
+                "normalized_label": "テッポウオ"
+            },
+            {
+                "normalized_label": "テブリム"
+            },
+            {
+                "normalized_label": "テラキオン"
+            },
+            {
+                "normalized_label": "テールナー"
+            },
+            {
+                "normalized_label": "ディアルガ"
+            },
+            {
+                "normalized_label": "ディアンシー"
+            },
+            {
+                "normalized_label": "ディグダ"
+            },
+            {
+                "normalized_label": "デオキシス"
+            },
+            {
+                "normalized_label": "デカグース"
+            },
+            {
+                "normalized_label": "デスカーン"
+            },
+            {
+                "normalized_label": "デスバーン"
+            },
+            {
+                "normalized_label": "デスマス"
+            },
+            {
+                "normalized_label": "デデンネ"
+            },
+            {
+                "normalized_label": "デリバード"
+            },
+            {
+                "normalized_label": "デルビル"
+            },
+            {
+                "normalized_label": "デンジュモク"
+            },
+            {
+                "normalized_label": "デンチュラ"
+            },
+            {
+                "normalized_label": "デンヂムシ"
+            },
+            {
+                "normalized_label": "デンリュウ"
+            },
+            {
+                "normalized_label": "トゲキッス"
+            },
+            {
+                "normalized_label": "トゲチック"
+            },
+            {
+                "normalized_label": "トゲデマル"
+            },
+            {
+                "normalized_label": "トゲピー"
+            },
+            {
+                "normalized_label": "トサキント"
+            },
+            {
+                "normalized_label": "トドグラー"
+            },
+            {
+                "normalized_label": "トドゼルガ"
+            },
+            {
+                "normalized_label": "トランセル"
+            },
+            {
+                "normalized_label": "トリデプス"
+            },
+            {
+                "normalized_label": "トリトドン"
+            },
+            {
+                "normalized_label": "トリミアン"
+            },
+            {
+                "normalized_label": "トルネロス"
+            },
+            {
+                "normalized_label": "トロッゴン"
+            },
+            {
+                "normalized_label": "トロピウス"
+            },
+            {
+                "normalized_label": "ドガース"
+            },
+            {
+                "normalized_label": "ドククラゲ"
+            },
+            {
+                "normalized_label": "ドクケイル"
+            },
+            {
+                "normalized_label": "ドクロッグ"
+            },
+            {
+                "normalized_label": "ドゴーム"
+            },
+            {
+                "normalized_label": "ドサイドン"
+            },
+            {
+                "normalized_label": "ドジョッチ"
+            },
+            {
+                "normalized_label": "ドダイトス"
+            },
+            {
+                "normalized_label": "ドッコラー"
+            },
+            {
+                "normalized_label": "ドテッコツ"
+            },
+            {
+                "normalized_label": "ドデカバシ"
+            },
+            {
+                "normalized_label": "ドヒドイデ"
+            },
+            {
+                "normalized_label": "ドラパルト"
+            },
+            {
+                "normalized_label": "ドラピオン"
+            },
+            {
+                "normalized_label": "ドラミドロ"
+            },
+            {
+                "normalized_label": "ドラメシヤ"
+            },
+            {
+                "normalized_label": "ドリュウズ"
+            },
+            {
+                "normalized_label": "ドレディア"
+            },
+            {
+                "normalized_label": "ドロバンコ"
+            },
+            {
+                "normalized_label": "ドロンチ"
+            },
+            {
+                "normalized_label": "ドンカラス"
+            },
+            {
+                "normalized_label": "ドンファン"
+            },
+            {
+                "normalized_label": "ドンメル"
+            },
+            {
+                "normalized_label": "ドータクン"
+            },
+            {
+                "normalized_label": "ドードリオ"
+            },
+            {
+                "normalized_label": "ドードー"
+            },
+            {
+                "normalized_label": "ドーブル"
+            },
+            {
+                "normalized_label": "ドーミラー"
+            },
+            {
+                "normalized_label": "ナエトル"
+            },
+            {
+                "normalized_label": "ナゲキ"
+            },
+            {
+                "normalized_label": "ナゲツケサル"
+            },
+            {
+                "normalized_label": "ナゾノクサ"
+            },
+            {
+                "normalized_label": "ナックラー"
+            },
+            {
+                "normalized_label": "ナッシー"
+            },
+            {
+                "normalized_label": "ナットレイ"
+            },
+            {
+                "normalized_label": "ナマケロ"
+            },
+            {
+                "normalized_label": "ナマコブシ"
+            },
+            {
+                "normalized_label": "ナマズン"
+            },
+            {
+                "normalized_label": "ニダンギル"
+            },
+            {
+                "normalized_label": "ニドキング"
+            },
+            {
+                "normalized_label": "ニドクイン"
+            },
+            {
+                "normalized_label": "ニドラン♀"
+            },
+            {
+                "normalized_label": "ニドラン♂"
+            },
+            {
+                "normalized_label": "ニドリーナ"
+            },
+            {
+                "normalized_label": "ニドリーノ"
+            },
+            {
+                "normalized_label": "ニャイキング"
+            },
+            {
+                "normalized_label": "ニャオニクス"
+            },
+            {
+                "normalized_label": "ニャスパー"
+            },
+            {
+                "normalized_label": "ニャヒート"
+            },
+            {
+                "normalized_label": "ニャビー"
+            },
+            {
+                "normalized_label": "ニャルマー"
+            },
+            {
+                "normalized_label": "ニャース"
+            },
+            {
+                "normalized_label": "ニューラ"
+            },
+            {
+                "normalized_label": "ニョロゾ"
+            },
+            {
+                "normalized_label": "ニョロトノ"
+            },
+            {
+                "normalized_label": "ニョロボン"
+            },
+            {
+                "normalized_label": "ニョロモ"
+            },
+            {
+                "normalized_label": "ニンフィア"
+            },
+            {
+                "normalized_label": "ヌイコグマ"
+            },
+            {
+                "normalized_label": "ヌオー"
+            },
+            {
+                "normalized_label": "ヌケニン"
+            },
+            {
+                "normalized_label": "ヌマクロー"
+            },
+            {
+                "normalized_label": "ヌメイル"
+            },
+            {
+                "normalized_label": "ヌメラ"
+            },
+            {
+                "normalized_label": "ヌメルゴン"
+            },
+            {
+                "normalized_label": "ネイティ"
+            },
+            {
+                "normalized_label": "ネイティオ"
+            },
+            {
+                "normalized_label": "ネオラント"
+            },
+            {
+                "normalized_label": "ネギガナイト"
+            },
+            {
+                "normalized_label": "ネクロズマ"
+            },
+            {
+                "normalized_label": "ネッコアラ"
+            },
+            {
+                "normalized_label": "ネマシュ"
+            },
+            {
+                "normalized_label": "ネンドール"
+            },
+            {
+                "normalized_label": "ノクタス"
+            },
+            {
+                "normalized_label": "ノコッチ"
+            },
+            {
+                "normalized_label": "ノズパス"
+            },
+            {
+                "normalized_label": "ハガネール"
+            },
+            {
+                "normalized_label": "ハギギシリ"
+            },
+            {
+                "normalized_label": "ハクリュー"
+            },
+            {
+                "normalized_label": "ハスブレロ"
+            },
+            {
+                "normalized_label": "ハスボー"
+            },
+            {
+                "normalized_label": "ハッサム"
+            },
+            {
+                "normalized_label": "ハトーボー"
+            },
+            {
+                "normalized_label": "ハネッコ"
+            },
+            {
+                "normalized_label": "ハハコモリ"
+            },
+            {
+                "normalized_label": "ハピナス"
+            },
+            {
+                "normalized_label": "ハブネーク"
+            },
+            {
+                "normalized_label": "ハヤシガメ"
+            },
+            {
+                "normalized_label": "ハリテヤマ"
+            },
+            {
+                "normalized_label": "ハリボーグ"
+            },
+            {
+                "normalized_label": "ハリマロン"
+            },
+            {
+                "normalized_label": "ハリーセン"
+            },
+            {
+                "normalized_label": "ハリーマン"
+            },
+            {
+                "normalized_label": "ハンテール"
+            },
+            {
+                "normalized_label": "ハーデリア"
+            },
+            {
+                "normalized_label": "バイウールー"
+            },
+            {
+                "normalized_label": "バイバニラ"
+            },
+            {
+                "normalized_label": "バオッキー"
+            },
+            {
+                "normalized_label": "バオップ"
+            },
+            {
+                "normalized_label": "バクオング"
+            },
+            {
+                "normalized_label": "バクガメス"
+            },
+            {
+                "normalized_label": "バクフーン"
+            },
+            {
+                "normalized_label": "バクーダ"
+            },
+            {
+                "normalized_label": "バケッチャ"
+            },
+            {
+                "normalized_label": "バサギリ"
+            },
+            {
+                "normalized_label": "バシャーモ"
+            },
+            {
+                "normalized_label": "バスラオ"
+            },
+            {
+                "normalized_label": "バタフリー"
+            },
+            {
+                "normalized_label": "バチュル"
+            },
+            {
+                "normalized_label": "バチンウニ"
+            },
+            {
+                "normalized_label": "バチンキー"
+            },
+            {
+                "normalized_label": "バッフロン"
+            },
+            {
+                "normalized_label": "バドレックス"
+            },
+            {
+                "normalized_label": "バニプッチ"
+            },
+            {
+                "normalized_label": "バニリッチ"
+            },
+            {
+                "normalized_label": "バネブー"
+            },
+            {
+                "normalized_label": "バリコオル"
+            },
+            {
+                "normalized_label": "バリヤード"
+            },
+            {
+                "normalized_label": "バルキー"
+            },
+            {
+                "normalized_label": "バルジーナ"
+            },
+            {
+                "normalized_label": "バルチャイ"
+            },
+            {
+                "normalized_label": "バルビート"
+            },
+            {
+                "normalized_label": "バンギラス"
+            },
+            {
+                "normalized_label": "バンバドロ"
+            },
+            {
+                "normalized_label": "パウワウ"
+            },
+            {
+                "normalized_label": "パチリス"
+            },
+            {
+                "normalized_label": "パッチラゴン"
+            },
+            {
+                "normalized_label": "パッチルドン"
+            },
+            {
+                "normalized_label": "パッチール"
+            },
+            {
+                "normalized_label": "パラス"
+            },
+            {
+                "normalized_label": "パラセクト"
+            },
+            {
+                "normalized_label": "パルキア"
+            },
+            {
+                "normalized_label": "パルシェン"
+            },
+            {
+                "normalized_label": "パルスワン"
+            },
+            {
+                "normalized_label": "パンプジン"
+            },
+            {
+                "normalized_label": "パールル"
+            },
+            {
+                "normalized_label": "ヒコザル"
+            },
+            {
+                "normalized_label": "ヒトカゲ"
+            },
+            {
+                "normalized_label": "ヒトツキ"
+            },
+            {
+                "normalized_label": "ヒトデマン"
+            },
+            {
+                "normalized_label": "ヒトモシ"
+            },
+            {
+                "normalized_label": "ヒドイデ"
+            },
+            {
+                "normalized_label": "ヒノアラシ"
+            },
+            {
+                "normalized_label": "ヒノヤコマ"
+            },
+            {
+                "normalized_label": "ヒバニー"
+            },
+            {
+                "normalized_label": "ヒヒダルマ"
+            },
+            {
+                "normalized_label": "ヒポポタス"
+            },
+            {
+                "normalized_label": "ヒマナッツ"
+            },
+            {
+                "normalized_label": "ヒメグマ"
+            },
+            {
+                "normalized_label": "ヒメンカ"
+            },
+            {
+                "normalized_label": "ヒヤッキー"
+            },
+            {
+                "normalized_label": "ヒヤップ"
+            },
+            {
+                "normalized_label": "ヒンバス"
+            },
+            {
+                "normalized_label": "ヒードラン"
+            },
+            {
+                "normalized_label": "ビクティニ"
+            },
+            {
+                "normalized_label": "ビッパ"
+            },
+            {
+                "normalized_label": "ビビヨン"
+            },
+            {
+                "normalized_label": "ビブラーバ"
+            },
+            {
+                "normalized_label": "ビリジオン"
+            },
+            {
+                "normalized_label": "ビリリダマ"
+            },
+            {
+                "normalized_label": "ビークイン"
+            },
+            {
+                "normalized_label": "ビーダル"
+            },
+            {
+                "normalized_label": "ビードル"
+            },
+            {
+                "normalized_label": "ピカチュウ"
+            },
+            {
+                "normalized_label": "ピクシー"
+            },
+            {
+                "normalized_label": "ピジョット"
+            },
+            {
+                "normalized_label": "ピジョン"
+            },
+            {
+                "normalized_label": "ピチュー"
+            },
+            {
+                "normalized_label": "ピッピ"
+            },
+            {
+                "normalized_label": "ピンプク"
+            },
+            {
+                "normalized_label": "ファイアロー"
+            },
+            {
+                "normalized_label": "ファイヤー"
+            },
+            {
+                "normalized_label": "フィオネ"
+            },
+            {
+                "normalized_label": "フェローチェ"
+            },
+            {
+                "normalized_label": "フォクスライ"
+            },
+            {
+                "normalized_label": "フォッコ"
+            },
+            {
+                "normalized_label": "フォレトス"
+            },
+            {
+                "normalized_label": "フカマル"
+            },
+            {
+                "normalized_label": "フクスロー"
+            },
+            {
+                "normalized_label": "フシギソウ"
+            },
+            {
+                "normalized_label": "フシギダネ"
+            },
+            {
+                "normalized_label": "フシギバナ"
+            },
+            {
+                "normalized_label": "フシデ"
+            },
+            {
+                "normalized_label": "フタチマル"
+            },
+            {
+                "normalized_label": "フライゴン"
+            },
+            {
+                "normalized_label": "フラエッテ"
+            },
+            {
+                "normalized_label": "フラベベ"
+            },
+            {
+                "normalized_label": "フラージェス"
+            },
+            {
+                "normalized_label": "フリーザー"
+            },
+            {
+                "normalized_label": "フリージオ"
+            },
+            {
+                "normalized_label": "フレフワン"
+            },
+            {
+                "normalized_label": "フローゼル"
+            },
+            {
+                "normalized_label": "フワライド"
+            },
+            {
+                "normalized_label": "フワンテ"
+            },
+            {
+                "normalized_label": "フーディン"
+            },
+            {
+                "normalized_label": "フーパ"
+            },
+            {
+                "normalized_label": "ブイゼル"
+            },
+            {
+                "normalized_label": "ブニャット"
+            },
+            {
+                "normalized_label": "ブビィ"
+            },
+            {
+                "normalized_label": "ブラッキー"
+            },
+            {
+                "normalized_label": "ブリガロン"
+            },
+            {
+                "normalized_label": "ブリザポス"
+            },
+            {
+                "normalized_label": "ブリムオン"
+            },
+            {
+                "normalized_label": "ブルンゲル"
+            },
+            {
+                "normalized_label": "ブルー"
+            },
+            {
+                "normalized_label": "ブロスター"
+            },
+            {
+                "normalized_label": "ブースター"
+            },
+            {
+                "normalized_label": "ブーバー"
+            },
+            {
+                "normalized_label": "ブーバーン"
+            },
+            {
+                "normalized_label": "ブーピッグ"
+            },
+            {
+                "normalized_label": "プクリン"
+            },
+            {
+                "normalized_label": "プテラ"
+            },
+            {
+                "normalized_label": "ププリン"
+            },
+            {
+                "normalized_label": "プラスル"
+            },
+            {
+                "normalized_label": "プリン"
+            },
+            {
+                "normalized_label": "プルリル"
+            },
+            {
+                "normalized_label": "プロトーガ"
+            },
+            {
+                "normalized_label": "ヘイガニ"
+            },
+            {
+                "normalized_label": "ヘラクロス"
+            },
+            {
+                "normalized_label": "ヘルガー"
+            },
+            {
+                "normalized_label": "ベイリーフ"
+            },
+            {
+                "normalized_label": "ベトベター"
+            },
+            {
+                "normalized_label": "ベトベトン"
+            },
+            {
+                "normalized_label": "ベベノム"
+            },
+            {
+                "normalized_label": "ベロバー"
+            },
+            {
+                "normalized_label": "ベロベルト"
+            },
+            {
+                "normalized_label": "ベロリンガ"
+            },
+            {
+                "normalized_label": "ペラップ"
+            },
+            {
+                "normalized_label": "ペリッパー"
+            },
+            {
+                "normalized_label": "ペルシアン"
+            },
+            {
+                "normalized_label": "ペロッパフ"
+            },
+            {
+                "normalized_label": "ペロリーム"
+            },
+            {
+                "normalized_label": "ペンドラー"
+            },
+            {
+                "normalized_label": "ホイーガ"
+            },
+            {
+                "normalized_label": "ホウオウ"
+            },
+            {
+                "normalized_label": "ホエルオー"
+            },
+            {
+                "normalized_label": "ホエルコ"
+            },
+            {
+                "normalized_label": "ホシガリス"
+            },
+            {
+                "normalized_label": "ホルビー"
+            },
+            {
+                "normalized_label": "ホルード"
+            },
+            {
+                "normalized_label": "ホーホー"
+            },
+            {
+                "normalized_label": "ボクレー"
+            },
+            {
+                "normalized_label": "ボスゴドラ"
+            },
+            {
+                "normalized_label": "ボルケニオン"
+            },
+            {
+                "normalized_label": "ボルトロス"
+            },
+            {
+                "normalized_label": "ボーマンダ"
+            },
+            {
+                "normalized_label": "ポカブ"
+            },
+            {
+                "normalized_label": "ポチエナ"
+            },
+            {
+                "normalized_label": "ポッタイシ"
+            },
+            {
+                "normalized_label": "ポッチャマ"
+            },
+            {
+                "normalized_label": "ポットデス"
+            },
+            {
+                "normalized_label": "ポッポ"
+            },
+            {
+                "normalized_label": "ポニータ"
+            },
+            {
+                "normalized_label": "ポポッコ"
+            },
+            {
+                "normalized_label": "ポリゴン"
+            },
+            {
+                "normalized_label": "ポリゴン2"
+            },
+            {
+                "normalized_label": "ポリゴンz"
+            },
+            {
+                "normalized_label": "ポワルン"
+            },
+            {
+                "normalized_label": "マイナン"
+            },
+            {
+                "normalized_label": "マギアナ"
+            },
+            {
+                "normalized_label": "マクノシタ"
+            },
+            {
+                "normalized_label": "マグカルゴ"
+            },
+            {
+                "normalized_label": "マグマッグ"
+            },
+            {
+                "normalized_label": "マグマラシ"
+            },
+            {
+                "normalized_label": "マケンカニ"
+            },
+            {
+                "normalized_label": "マシェード"
+            },
+            {
+                "normalized_label": "マスキッパ"
+            },
+            {
+                "normalized_label": "マタドガス"
+            },
+            {
+                "normalized_label": "マダツボミ"
+            },
+            {
+                "normalized_label": "マッギョ"
+            },
+            {
+                "normalized_label": "マッシブーン"
+            },
+            {
+                "normalized_label": "マッスグマ"
+            },
+            {
+                "normalized_label": "マナフィ"
+            },
+            {
+                "normalized_label": "マニューラ"
+            },
+            {
+                "normalized_label": "マネネ"
+            },
+            {
+                "normalized_label": "マフォクシー"
+            },
+            {
+                "normalized_label": "マホイップ"
+            },
+            {
+                "normalized_label": "マホミル"
+            },
+            {
+                "normalized_label": "ママンボウ"
+            },
+            {
+                "normalized_label": "マメパト"
+            },
+            {
+                "normalized_label": "マユルド"
+            },
+            {
+                "normalized_label": "マラカッチ"
+            },
+            {
+                "normalized_label": "マリル"
+            },
+            {
+                "normalized_label": "マリルリ"
+            },
+            {
+                "normalized_label": "マルノーム"
+            },
+            {
+                "normalized_label": "マルマイン"
+            },
+            {
+                "normalized_label": "マルヤクデ"
+            },
+            {
+                "normalized_label": "マンキー"
+            },
+            {
+                "normalized_label": "マンタイン"
+            },
+            {
+                "normalized_label": "マンムー"
+            },
+            {
+                "normalized_label": "マーイーカ"
+            },
+            {
+                "normalized_label": "マーシャドー"
+            },
+            {
+                "normalized_label": "ミカルゲ"
+            },
+            {
+                "normalized_label": "ミジュマル"
+            },
+            {
+                "normalized_label": "ミズゴロウ"
+            },
+            {
+                "normalized_label": "ミツハニー"
+            },
+            {
+                "normalized_label": "ミニリュウ"
+            },
+            {
+                "normalized_label": "ミネズミ"
+            },
+            {
+                "normalized_label": "ミノマダム"
+            },
+            {
+                "normalized_label": "ミノムッチ"
+            },
+            {
+                "normalized_label": "ミブリム"
+            },
+            {
+                "normalized_label": "ミミッキュ"
+            },
+            {
+                "normalized_label": "ミミロップ"
+            },
+            {
+                "normalized_label": "ミミロル"
+            },
+            {
+                "normalized_label": "ミュウ"
+            },
+            {
+                "normalized_label": "ミュウツー"
+            },
+            {
+                "normalized_label": "ミルタンク"
+            },
+            {
+                "normalized_label": "ミルホッグ"
+            },
+            {
+                "normalized_label": "ミロカロス"
+            },
+            {
+                "normalized_label": "ムウマ"
+            },
+            {
+                "normalized_label": "ムウマージ"
+            },
+            {
+                "normalized_label": "ムクバード"
+            },
+            {
+                "normalized_label": "ムクホーク"
+            },
+            {
+                "normalized_label": "ムゲンダイナ"
+            },
+            {
+                "normalized_label": "ムシャーナ"
+            },
+            {
+                "normalized_label": "ムチュール"
+            },
+            {
+                "normalized_label": "ムックル"
+            },
+            {
+                "normalized_label": "ムンナ"
+            },
+            {
+                "normalized_label": "ムーランド"
+            },
+            {
+                "normalized_label": "メェークル"
+            },
+            {
+                "normalized_label": "メガニウム"
+            },
+            {
+                "normalized_label": "メガヤンマ"
+            },
+            {
+                "normalized_label": "メグロコ"
+            },
+            {
+                "normalized_label": "メタグロス"
+            },
+            {
+                "normalized_label": "メタモン"
+            },
+            {
+                "normalized_label": "メタング"
+            },
+            {
+                "normalized_label": "メッソン"
+            },
+            {
+                "normalized_label": "メテノ"
+            },
+            {
+                "normalized_label": "メノクラゲ"
+            },
+            {
+                "normalized_label": "メブキジカ"
+            },
+            {
+                "normalized_label": "メラルバ"
+            },
+            {
+                "normalized_label": "メリープ"
+            },
+            {
+                "normalized_label": "メルタン"
+            },
+            {
+                "normalized_label": "メルメタル"
+            },
+            {
+                "normalized_label": "メレシー"
+            },
+            {
+                "normalized_label": "メロエッタ"
+            },
+            {
+                "normalized_label": "モウカザル"
+            },
+            {
+                "normalized_label": "モクロー"
+            },
+            {
+                "normalized_label": "モグリュー"
+            },
+            {
+                "normalized_label": "モココ"
+            },
+            {
+                "normalized_label": "モジャンボ"
+            },
+            {
+                "normalized_label": "モスノウ"
+            },
+            {
+                "normalized_label": "モノズ"
+            },
+            {
+                "normalized_label": "モルフォン"
+            },
+            {
+                "normalized_label": "モルペコ"
+            },
+            {
+                "normalized_label": "モロバレル"
+            },
+            {
+                "normalized_label": "モンジャラ"
+            },
+            {
+                "normalized_label": "モンメン"
+            },
+            {
+                "normalized_label": "ヤクデ"
+            },
+            {
+                "normalized_label": "ヤジロン"
+            },
+            {
+                "normalized_label": "ヤトウモリ"
+            },
+            {
+                "normalized_label": "ヤドキング"
+            },
+            {
+                "normalized_label": "ヤドラン"
+            },
+            {
+                "normalized_label": "ヤドン"
+            },
+            {
+                "normalized_label": "ヤナッキー"
+            },
+            {
+                "normalized_label": "ヤナップ"
+            },
+            {
+                "normalized_label": "ヤバチャ"
+            },
+            {
+                "normalized_label": "ヤブクロン"
+            },
+            {
+                "normalized_label": "ヤミカラス"
+            },
+            {
+                "normalized_label": "ヤミラミ"
+            },
+            {
+                "normalized_label": "ヤヤコマ"
+            },
+            {
+                "normalized_label": "ヤルキモノ"
+            },
+            {
+                "normalized_label": "ヤレユータン"
+            },
+            {
+                "normalized_label": "ヤングース"
+            },
+            {
+                "normalized_label": "ヤンチャム"
+            },
+            {
+                "normalized_label": "ヤンヤンマ"
+            },
+            {
+                "normalized_label": "ユキカブリ"
+            },
+            {
+                "normalized_label": "ユキノオー"
+            },
+            {
+                "normalized_label": "ユキハミ"
+            },
+            {
+                "normalized_label": "ユキメノコ"
+            },
+            {
+                "normalized_label": "ユキワラシ"
+            },
+            {
+                "normalized_label": "ユクシー"
+            },
+            {
+                "normalized_label": "ユニラン"
+            },
+            {
+                "normalized_label": "ユレイドル"
+            },
+            {
+                "normalized_label": "ユンゲラー"
+            },
+            {
+                "normalized_label": "ヨクバリス"
+            },
+            {
+                "normalized_label": "ヨノワール"
+            },
+            {
+                "normalized_label": "ヨマワル"
+            },
+            {
+                "normalized_label": "ヨルノズク"
+            },
+            {
+                "normalized_label": "ヨワシ"
+            },
+            {
+                "normalized_label": "ヨーギラス"
+            },
+            {
+                "normalized_label": "ヨーテリー"
+            },
+            {
+                "normalized_label": "ライコウ"
+            },
+            {
+                "normalized_label": "ライチュウ"
+            },
+            {
+                "normalized_label": "ライボルト"
+            },
+            {
+                "normalized_label": "ラクライ"
+            },
+            {
+                "normalized_label": "ラグラージ"
+            },
+            {
+                "normalized_label": "ラッキー"
+            },
+            {
+                "normalized_label": "ラッタ"
+            },
+            {
+                "normalized_label": "ラティアス"
+            },
+            {
+                "normalized_label": "ラティオス"
+            },
+            {
+                "normalized_label": "ラビフット"
+            },
+            {
+                "normalized_label": "ラフレシア"
+            },
+            {
+                "normalized_label": "ラブカス"
+            },
+            {
+                "normalized_label": "ラブトロス"
+            },
+            {
+                "normalized_label": "ラプラス"
+            },
+            {
+                "normalized_label": "ラムパルド"
+            },
+            {
+                "normalized_label": "ラランテス"
+            },
+            {
+                "normalized_label": "ラルトス"
+            },
+            {
+                "normalized_label": "ランクルス"
+            },
+            {
+                "normalized_label": "ランターン"
+            },
+            {
+                "normalized_label": "ランドロス"
+            },
+            {
+                "normalized_label": "ランプラー"
+            },
+            {
+                "normalized_label": "リオル"
+            },
+            {
+                "normalized_label": "リグレー"
+            },
+            {
+                "normalized_label": "リザード"
+            },
+            {
+                "normalized_label": "リザードン"
+            },
+            {
+                "normalized_label": "リリーラ"
+            },
+            {
+                "normalized_label": "リングマ"
+            },
+            {
+                "normalized_label": "リーシャン"
+            },
+            {
+                "normalized_label": "リーフィア"
+            },
+            {
+                "normalized_label": "ルカリオ"
+            },
+            {
+                "normalized_label": "ルガルガン"
+            },
+            {
+                "normalized_label": "ルギア"
+            },
+            {
+                "normalized_label": "ルクシオ"
+            },
+            {
+                "normalized_label": "ルチャブル"
+            },
+            {
+                "normalized_label": "ルナアーラ"
+            },
+            {
+                "normalized_label": "ルナトーン"
+            },
+            {
+                "normalized_label": "ルリリ"
+            },
+            {
+                "normalized_label": "ルンパッパ"
+            },
+            {
+                "normalized_label": "ルージュラ"
+            },
+            {
+                "normalized_label": "レアコイル"
+            },
+            {
+                "normalized_label": "レイスポス"
+            },
+            {
+                "normalized_label": "レシラム"
+            },
+            {
+                "normalized_label": "レジアイス"
+            },
+            {
+                "normalized_label": "レジエレキ"
+            },
+            {
+                "normalized_label": "レジギガス"
+            },
+            {
+                "normalized_label": "レジスチル"
+            },
+            {
+                "normalized_label": "レジドラゴ"
+            },
+            {
+                "normalized_label": "レジロック"
+            },
+            {
+                "normalized_label": "レックウザ"
+            },
+            {
+                "normalized_label": "レディアン"
+            },
+            {
+                "normalized_label": "レディバ"
+            },
+            {
+                "normalized_label": "レドームシ"
+            },
+            {
+                "normalized_label": "レパルダス"
+            },
+            {
+                "normalized_label": "レントラー"
+            },
+            {
+                "normalized_label": "ロコン"
+            },
+            {
+                "normalized_label": "ロズレイド"
+            },
+            {
+                "normalized_label": "ロゼリア"
+            },
+            {
+                "normalized_label": "ロトム"
+            },
+            {
+                "normalized_label": "ローブシン"
+            },
+            {
+                "normalized_label": "ワカシャモ"
+            },
+            {
+                "normalized_label": "ワシボン"
+            },
+            {
+                "normalized_label": "ワタシラガ"
+            },
+            {
+                "normalized_label": "ワタッコ"
+            },
+            {
+                "normalized_label": "ワニノコ"
+            },
+            {
+                "normalized_label": "ワルビアル"
+            },
+            {
+                "normalized_label": "ワルビル"
+            },
+            {
+                "normalized_label": "ワンパチ"
+            },
+            {
+                "normalized_label": "ワンリキー"
+            },
+            {
+                "normalized_label": "タイプ：ヌル"
+            },
+            {
+                "normalized_label": "アチゲータ"
+            },
+            {
+                "normalized_label": "アノクサ"
+            },
+            {
+                "normalized_label": "アノホラグサ"
+            },
+            {
+                "normalized_label": "アラブルタケ"
+            },
+            {
+                "normalized_label": "アルクジラ"
+            },
+            {
+                "normalized_label": "イキリンコ"
+            },
+            {
+                "normalized_label": "イダイナキバ"
+            },
+            {
+                "normalized_label": "イッカネズミ"
+            },
+            {
+                "normalized_label": "イルカマン"
+            },
+            {
+                "normalized_label": "イーユイ"
+            },
+            {
+                "normalized_label": "ウェルカモ"
+            },
+            {
+                "normalized_label": "ウェーニバル"
+            },
+            {
+                "normalized_label": "ウミディグダ"
+            },
+            {
+                "normalized_label": "ウミトリオ"
+            },
+            {
+                "normalized_label": "エクスレッグ"
+            },
+            {
+                "normalized_label": "オトシドリ"
+            },
+            {
+                "normalized_label": "オラチフ"
+            },
+            {
+                "normalized_label": "オリーニョ"
+            },
+            {
+                "normalized_label": "オリーヴァ"
+            },
+            {
+                "normalized_label": "カイデン"
+            },
+            {
+                "normalized_label": "カヌチャン"
+            },
+            {
+                "normalized_label": "カプサイジ"
+            },
+            {
+                "normalized_label": "カラミンゴ"
+            },
+            {
+                "normalized_label": "カルボウ"
+            },
+            {
+                "normalized_label": "ガケガニ"
+            },
+            {
+                "normalized_label": "キョジオーン"
+            },
+            {
+                "normalized_label": "キラフロル"
+            },
+            {
+                "normalized_label": "キラーメ"
+            },
+            {
+                "normalized_label": "クエスパトラ"
+            },
+            {
+                "normalized_label": "クワッス"
+            },
+            {
+                "normalized_label": "グルトン"
+            },
+            {
+                "normalized_label": "グレンアルマ"
+            },
+            {
+                "normalized_label": "コジオ"
+            },
+            {
+                "normalized_label": "コノヨザル"
+            },
+            {
+                "normalized_label": "コライドン"
+            },
+            {
+                "normalized_label": "コレクレー"
+            },
+            {
+                "normalized_label": "サケブシッポ"
+            },
+            {
+                "normalized_label": "サーフゴー"
+            },
+            {
+                "normalized_label": "シガロコ"
+            },
+            {
+                "normalized_label": "シャリタツ"
+            },
+            {
+                "normalized_label": "シルシュルー"
+            },
+            {
+                "normalized_label": "ジオヅム"
+            },
+            {
+                "normalized_label": "スコヴィラン"
+            },
+            {
+                "normalized_label": "スナノケガワ"
+            },
+            {
+                "normalized_label": "ズピカ"
+            },
+            {
+                "normalized_label": "セグレイブ"
+            },
+            {
+                "normalized_label": "セゴール"
+            },
+            {
+                "normalized_label": "セビエ"
+            },
+            {
+                "normalized_label": "ソウブレイズ"
+            },
+            {
+                "normalized_label": "タイカイデン"
+            },
+            {
+                "normalized_label": "タギングル"
+            },
+            {
+                "normalized_label": "タマンチュラ"
+            },
+            {
+                "normalized_label": "チオンジェン"
+            },
+            {
+                "normalized_label": "チヲハウハネ"
+            },
+            {
+                "normalized_label": "テツノイバラ"
+            },
+            {
+                "normalized_label": "テツノカイナ"
+            },
+            {
+                "normalized_label": "テツノコウベ"
+            },
+            {
+                "normalized_label": "テツノツツミ"
+            },
+            {
+                "normalized_label": "テツノドクガ"
+            },
+            {
+                "normalized_label": "テツノブジン"
+            },
+            {
+                "normalized_label": "テツノワダチ"
+            },
+            {
+                "normalized_label": "ディンルー"
+            },
+            {
+                "normalized_label": "デカヌチャン"
+            },
+            {
+                "normalized_label": "トドロクツキ"
+            },
+            {
+                "normalized_label": "ドオー"
+            },
+            {
+                "normalized_label": "ドドゲザン"
+            },
+            {
+                "normalized_label": "ナカヌチャン"
+            },
+            {
+                "normalized_label": "ナミイルカ"
+            },
+            {
+                "normalized_label": "ニャオハ"
+            },
+            {
+                "normalized_label": "ニャローテ"
+            },
+            {
+                "normalized_label": "ノココッチ"
+            },
+            {
+                "normalized_label": "ノノクラゲ"
+            },
+            {
+                "normalized_label": "ハカドッグ"
+            },
+            {
+                "normalized_label": "ハバタクカミ"
+            },
+            {
+                "normalized_label": "ハラバリー"
+            },
+            {
+                "normalized_label": "ハルクジラ"
+            },
+            {
+                "normalized_label": "バウッツェル"
+            },
+            {
+                "normalized_label": "パオジアン"
+            },
+            {
+                "normalized_label": "パピモッチ"
+            },
+            {
+                "normalized_label": "パフュートン"
+            },
+            {
+                "normalized_label": "パモット"
+            },
+            {
+                "normalized_label": "パーモット"
+            },
+            {
+                "normalized_label": "ヒラヒナ"
+            },
+            {
+                "normalized_label": "ブロロローム"
+            },
+            {
+                "normalized_label": "ブロロン"
+            },
+            {
+                "normalized_label": "ヘイラッシャ"
+            },
+            {
+                "normalized_label": "ベラカス"
+            },
+            {
+                "normalized_label": "ホゲータ"
+            },
+            {
+                "normalized_label": "マスカーニャ"
+            },
+            {
+                "normalized_label": "マフィティフ"
+            },
+            {
+                "normalized_label": "マメバッタ"
+            },
+            {
+                "normalized_label": "ミガルーサ"
+            },
+            {
+                "normalized_label": "ミニーブ"
+            },
+            {
+                "normalized_label": "ミミズズ"
+            },
+            {
+                "normalized_label": "ミライドン"
+            },
+            {
+                "normalized_label": "モトトカゲ"
+            },
+            {
+                "normalized_label": "ラウドボーン"
+            },
+            {
+                "normalized_label": "リキキリン"
+            },
+            {
+                "normalized_label": "リククラゲ"
+            },
+            {
+                "normalized_label": "ワッカネズミ"
+            },
+            {
+                "normalized_label": "ワナイダー"
+            }
+        ]
+    }
+}

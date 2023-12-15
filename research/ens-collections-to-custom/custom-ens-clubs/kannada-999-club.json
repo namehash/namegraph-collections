@@ -1,0 +1,3017 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "kannada-999-club",
+        "collection_name": "Kannada 999 Club",
+        "collection_description": "Names with 3 digits, 000-999 in Kannada characters.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "೦೦೦"
+            },
+            {
+                "normalized_label": "೦೦೧"
+            },
+            {
+                "normalized_label": "೦೦೨"
+            },
+            {
+                "normalized_label": "೦೦೩"
+            },
+            {
+                "normalized_label": "೦೦೪"
+            },
+            {
+                "normalized_label": "೦೦೫"
+            },
+            {
+                "normalized_label": "೦೦೬"
+            },
+            {
+                "normalized_label": "೦೦೭"
+            },
+            {
+                "normalized_label": "೦೦೮"
+            },
+            {
+                "normalized_label": "೦೦೯"
+            },
+            {
+                "normalized_label": "೦೧೦"
+            },
+            {
+                "normalized_label": "೦೧೧"
+            },
+            {
+                "normalized_label": "೦೧೨"
+            },
+            {
+                "normalized_label": "೦೧೩"
+            },
+            {
+                "normalized_label": "೦೧೪"
+            },
+            {
+                "normalized_label": "೦೧೫"
+            },
+            {
+                "normalized_label": "೦೧೬"
+            },
+            {
+                "normalized_label": "೦೧೭"
+            },
+            {
+                "normalized_label": "೦೧೮"
+            },
+            {
+                "normalized_label": "೦೧೯"
+            },
+            {
+                "normalized_label": "೦೨೦"
+            },
+            {
+                "normalized_label": "೦೨೧"
+            },
+            {
+                "normalized_label": "೦೨೨"
+            },
+            {
+                "normalized_label": "೦೨೩"
+            },
+            {
+                "normalized_label": "೦೨೪"
+            },
+            {
+                "normalized_label": "೦೨೫"
+            },
+            {
+                "normalized_label": "೦೨೬"
+            },
+            {
+                "normalized_label": "೦೨೭"
+            },
+            {
+                "normalized_label": "೦೨೮"
+            },
+            {
+                "normalized_label": "೦೨೯"
+            },
+            {
+                "normalized_label": "೦೩೦"
+            },
+            {
+                "normalized_label": "೦೩೧"
+            },
+            {
+                "normalized_label": "೦೩೨"
+            },
+            {
+                "normalized_label": "೦೩೩"
+            },
+            {
+                "normalized_label": "೦೩೪"
+            },
+            {
+                "normalized_label": "೦೩೫"
+            },
+            {
+                "normalized_label": "೦೩೬"
+            },
+            {
+                "normalized_label": "೦೩೭"
+            },
+            {
+                "normalized_label": "೦೩೮"
+            },
+            {
+                "normalized_label": "೦೩೯"
+            },
+            {
+                "normalized_label": "೦೪೦"
+            },
+            {
+                "normalized_label": "೦೪೧"
+            },
+            {
+                "normalized_label": "೦೪೨"
+            },
+            {
+                "normalized_label": "೦೪೩"
+            },
+            {
+                "normalized_label": "೦೪೪"
+            },
+            {
+                "normalized_label": "೦೪೫"
+            },
+            {
+                "normalized_label": "೦೪೬"
+            },
+            {
+                "normalized_label": "೦೪೭"
+            },
+            {
+                "normalized_label": "೦೪೮"
+            },
+            {
+                "normalized_label": "೦೪೯"
+            },
+            {
+                "normalized_label": "೦೫೦"
+            },
+            {
+                "normalized_label": "೦೫೧"
+            },
+            {
+                "normalized_label": "೦೫೨"
+            },
+            {
+                "normalized_label": "೦೫೩"
+            },
+            {
+                "normalized_label": "೦೫೪"
+            },
+            {
+                "normalized_label": "೦೫೫"
+            },
+            {
+                "normalized_label": "೦೫೬"
+            },
+            {
+                "normalized_label": "೦೫೭"
+            },
+            {
+                "normalized_label": "೦೫೮"
+            },
+            {
+                "normalized_label": "೦೫೯"
+            },
+            {
+                "normalized_label": "೦೬೦"
+            },
+            {
+                "normalized_label": "೦೬೧"
+            },
+            {
+                "normalized_label": "೦೬೨"
+            },
+            {
+                "normalized_label": "೦೬೩"
+            },
+            {
+                "normalized_label": "೦೬೪"
+            },
+            {
+                "normalized_label": "೦೬೫"
+            },
+            {
+                "normalized_label": "೦೬೬"
+            },
+            {
+                "normalized_label": "೦೬೭"
+            },
+            {
+                "normalized_label": "೦೬೮"
+            },
+            {
+                "normalized_label": "೦೬೯"
+            },
+            {
+                "normalized_label": "೦೭೦"
+            },
+            {
+                "normalized_label": "೦೭೧"
+            },
+            {
+                "normalized_label": "೦೭೨"
+            },
+            {
+                "normalized_label": "೦೭೩"
+            },
+            {
+                "normalized_label": "೦೭೪"
+            },
+            {
+                "normalized_label": "೦೭೫"
+            },
+            {
+                "normalized_label": "೦೭೬"
+            },
+            {
+                "normalized_label": "೦೭೭"
+            },
+            {
+                "normalized_label": "೦೭೮"
+            },
+            {
+                "normalized_label": "೦೭೯"
+            },
+            {
+                "normalized_label": "೦೮೦"
+            },
+            {
+                "normalized_label": "೦೮೧"
+            },
+            {
+                "normalized_label": "೦೮೨"
+            },
+            {
+                "normalized_label": "೦೮೩"
+            },
+            {
+                "normalized_label": "೦೮೪"
+            },
+            {
+                "normalized_label": "೦೮೫"
+            },
+            {
+                "normalized_label": "೦೮೬"
+            },
+            {
+                "normalized_label": "೦೮೭"
+            },
+            {
+                "normalized_label": "೦೮೮"
+            },
+            {
+                "normalized_label": "೦೮೯"
+            },
+            {
+                "normalized_label": "೦೯೦"
+            },
+            {
+                "normalized_label": "೦೯೧"
+            },
+            {
+                "normalized_label": "೦೯೨"
+            },
+            {
+                "normalized_label": "೦೯೩"
+            },
+            {
+                "normalized_label": "೦೯೪"
+            },
+            {
+                "normalized_label": "೦೯೫"
+            },
+            {
+                "normalized_label": "೦೯೬"
+            },
+            {
+                "normalized_label": "೦೯೭"
+            },
+            {
+                "normalized_label": "೦೯೮"
+            },
+            {
+                "normalized_label": "೦೯೯"
+            },
+            {
+                "normalized_label": "೧೦೦"
+            },
+            {
+                "normalized_label": "೧೦೧"
+            },
+            {
+                "normalized_label": "೧೦೨"
+            },
+            {
+                "normalized_label": "೧೦೩"
+            },
+            {
+                "normalized_label": "೧೦೪"
+            },
+            {
+                "normalized_label": "೧೦೫"
+            },
+            {
+                "normalized_label": "೧೦೬"
+            },
+            {
+                "normalized_label": "೧೦೭"
+            },
+            {
+                "normalized_label": "೧೦೮"
+            },
+            {
+                "normalized_label": "೧೦೯"
+            },
+            {
+                "normalized_label": "೧೧೦"
+            },
+            {
+                "normalized_label": "೧೧೧"
+            },
+            {
+                "normalized_label": "೧೧೨"
+            },
+            {
+                "normalized_label": "೧೧೩"
+            },
+            {
+                "normalized_label": "೧೧೪"
+            },
+            {
+                "normalized_label": "೧೧೫"
+            },
+            {
+                "normalized_label": "೧೧೬"
+            },
+            {
+                "normalized_label": "೧೧೭"
+            },
+            {
+                "normalized_label": "೧೧೮"
+            },
+            {
+                "normalized_label": "೧೧೯"
+            },
+            {
+                "normalized_label": "೧೨೦"
+            },
+            {
+                "normalized_label": "೧೨೧"
+            },
+            {
+                "normalized_label": "೧೨೨"
+            },
+            {
+                "normalized_label": "೧೨೩"
+            },
+            {
+                "normalized_label": "೧೨೪"
+            },
+            {
+                "normalized_label": "೧೨೫"
+            },
+            {
+                "normalized_label": "೧೨೬"
+            },
+            {
+                "normalized_label": "೧೨೭"
+            },
+            {
+                "normalized_label": "೧೨೮"
+            },
+            {
+                "normalized_label": "೧೨೯"
+            },
+            {
+                "normalized_label": "೧೩೦"
+            },
+            {
+                "normalized_label": "೧೩೧"
+            },
+            {
+                "normalized_label": "೧೩೨"
+            },
+            {
+                "normalized_label": "೧೩೩"
+            },
+            {
+                "normalized_label": "೧೩೪"
+            },
+            {
+                "normalized_label": "೧೩೫"
+            },
+            {
+                "normalized_label": "೧೩೬"
+            },
+            {
+                "normalized_label": "೧೩೭"
+            },
+            {
+                "normalized_label": "೧೩೮"
+            },
+            {
+                "normalized_label": "೧೩೯"
+            },
+            {
+                "normalized_label": "೧೪೦"
+            },
+            {
+                "normalized_label": "೧೪೧"
+            },
+            {
+                "normalized_label": "೧೪೨"
+            },
+            {
+                "normalized_label": "೧೪೩"
+            },
+            {
+                "normalized_label": "೧೪೪"
+            },
+            {
+                "normalized_label": "೧೪೫"
+            },
+            {
+                "normalized_label": "೧೪೬"
+            },
+            {
+                "normalized_label": "೧೪೭"
+            },
+            {
+                "normalized_label": "೧೪೮"
+            },
+            {
+                "normalized_label": "೧೪೯"
+            },
+            {
+                "normalized_label": "೧೫೦"
+            },
+            {
+                "normalized_label": "೧೫೧"
+            },
+            {
+                "normalized_label": "೧೫೨"
+            },
+            {
+                "normalized_label": "೧೫೩"
+            },
+            {
+                "normalized_label": "೧೫೪"
+            },
+            {
+                "normalized_label": "೧೫೫"
+            },
+            {
+                "normalized_label": "೧೫೬"
+            },
+            {
+                "normalized_label": "೧೫೭"
+            },
+            {
+                "normalized_label": "೧೫೮"
+            },
+            {
+                "normalized_label": "೧೫೯"
+            },
+            {
+                "normalized_label": "೧೬೦"
+            },
+            {
+                "normalized_label": "೧೬೧"
+            },
+            {
+                "normalized_label": "೧೬೨"
+            },
+            {
+                "normalized_label": "೧೬೩"
+            },
+            {
+                "normalized_label": "೧೬೪"
+            },
+            {
+                "normalized_label": "೧೬೫"
+            },
+            {
+                "normalized_label": "೧೬೬"
+            },
+            {
+                "normalized_label": "೧೬೭"
+            },
+            {
+                "normalized_label": "೧೬೮"
+            },
+            {
+                "normalized_label": "೧೬೯"
+            },
+            {
+                "normalized_label": "೧೭೦"
+            },
+            {
+                "normalized_label": "೧೭೧"
+            },
+            {
+                "normalized_label": "೧೭೨"
+            },
+            {
+                "normalized_label": "೧೭೩"
+            },
+            {
+                "normalized_label": "೧೭೪"
+            },
+            {
+                "normalized_label": "೧೭೫"
+            },
+            {
+                "normalized_label": "೧೭೬"
+            },
+            {
+                "normalized_label": "೧೭೭"
+            },
+            {
+                "normalized_label": "೧೭೮"
+            },
+            {
+                "normalized_label": "೧೭೯"
+            },
+            {
+                "normalized_label": "೧೮೦"
+            },
+            {
+                "normalized_label": "೧೮೧"
+            },
+            {
+                "normalized_label": "೧೮೨"
+            },
+            {
+                "normalized_label": "೧೮೩"
+            },
+            {
+                "normalized_label": "೧೮೪"
+            },
+            {
+                "normalized_label": "೧೮೫"
+            },
+            {
+                "normalized_label": "೧೮೬"
+            },
+            {
+                "normalized_label": "೧೮೭"
+            },
+            {
+                "normalized_label": "೧೮೮"
+            },
+            {
+                "normalized_label": "೧೮೯"
+            },
+            {
+                "normalized_label": "೧೯೦"
+            },
+            {
+                "normalized_label": "೧೯೧"
+            },
+            {
+                "normalized_label": "೧೯೨"
+            },
+            {
+                "normalized_label": "೧೯೩"
+            },
+            {
+                "normalized_label": "೧೯೪"
+            },
+            {
+                "normalized_label": "೧೯೫"
+            },
+            {
+                "normalized_label": "೧೯೬"
+            },
+            {
+                "normalized_label": "೧೯೭"
+            },
+            {
+                "normalized_label": "೧೯೮"
+            },
+            {
+                "normalized_label": "೧೯೯"
+            },
+            {
+                "normalized_label": "೨೦೦"
+            },
+            {
+                "normalized_label": "೨೦೧"
+            },
+            {
+                "normalized_label": "೨೦೨"
+            },
+            {
+                "normalized_label": "೨೦೩"
+            },
+            {
+                "normalized_label": "೨೦೪"
+            },
+            {
+                "normalized_label": "೨೦೫"
+            },
+            {
+                "normalized_label": "೨೦೬"
+            },
+            {
+                "normalized_label": "೨೦೭"
+            },
+            {
+                "normalized_label": "೨೦೮"
+            },
+            {
+                "normalized_label": "೨೦೯"
+            },
+            {
+                "normalized_label": "೨೧೦"
+            },
+            {
+                "normalized_label": "೨೧೧"
+            },
+            {
+                "normalized_label": "೨೧೨"
+            },
+            {
+                "normalized_label": "೨೧೩"
+            },
+            {
+                "normalized_label": "೨೧೪"
+            },
+            {
+                "normalized_label": "೨೧೫"
+            },
+            {
+                "normalized_label": "೨೧೬"
+            },
+            {
+                "normalized_label": "೨೧೭"
+            },
+            {
+                "normalized_label": "೨೧೮"
+            },
+            {
+                "normalized_label": "೨೧೯"
+            },
+            {
+                "normalized_label": "೨೨೦"
+            },
+            {
+                "normalized_label": "೨೨೧"
+            },
+            {
+                "normalized_label": "೨೨೨"
+            },
+            {
+                "normalized_label": "೨೨೩"
+            },
+            {
+                "normalized_label": "೨೨೪"
+            },
+            {
+                "normalized_label": "೨೨೫"
+            },
+            {
+                "normalized_label": "೨೨೬"
+            },
+            {
+                "normalized_label": "೨೨೭"
+            },
+            {
+                "normalized_label": "೨೨೮"
+            },
+            {
+                "normalized_label": "೨೨೯"
+            },
+            {
+                "normalized_label": "೨೩೦"
+            },
+            {
+                "normalized_label": "೨೩೧"
+            },
+            {
+                "normalized_label": "೨೩೨"
+            },
+            {
+                "normalized_label": "೨೩೩"
+            },
+            {
+                "normalized_label": "೨೩೪"
+            },
+            {
+                "normalized_label": "೨೩೫"
+            },
+            {
+                "normalized_label": "೨೩೬"
+            },
+            {
+                "normalized_label": "೨೩೭"
+            },
+            {
+                "normalized_label": "೨೩೮"
+            },
+            {
+                "normalized_label": "೨೩೯"
+            },
+            {
+                "normalized_label": "೨೪೦"
+            },
+            {
+                "normalized_label": "೨೪೧"
+            },
+            {
+                "normalized_label": "೨೪೨"
+            },
+            {
+                "normalized_label": "೨೪೩"
+            },
+            {
+                "normalized_label": "೨೪೪"
+            },
+            {
+                "normalized_label": "೨೪೫"
+            },
+            {
+                "normalized_label": "೨೪೬"
+            },
+            {
+                "normalized_label": "೨೪೭"
+            },
+            {
+                "normalized_label": "೨೪೮"
+            },
+            {
+                "normalized_label": "೨೪೯"
+            },
+            {
+                "normalized_label": "೨೫೦"
+            },
+            {
+                "normalized_label": "೨೫೧"
+            },
+            {
+                "normalized_label": "೨೫೨"
+            },
+            {
+                "normalized_label": "೨೫೩"
+            },
+            {
+                "normalized_label": "೨೫೪"
+            },
+            {
+                "normalized_label": "೨೫೫"
+            },
+            {
+                "normalized_label": "೨೫೬"
+            },
+            {
+                "normalized_label": "೨೫೭"
+            },
+            {
+                "normalized_label": "೨೫೮"
+            },
+            {
+                "normalized_label": "೨೫೯"
+            },
+            {
+                "normalized_label": "೨೬೦"
+            },
+            {
+                "normalized_label": "೨೬೧"
+            },
+            {
+                "normalized_label": "೨೬೨"
+            },
+            {
+                "normalized_label": "೨೬೩"
+            },
+            {
+                "normalized_label": "೨೬೪"
+            },
+            {
+                "normalized_label": "೨೬೫"
+            },
+            {
+                "normalized_label": "೨೬೬"
+            },
+            {
+                "normalized_label": "೨೬೭"
+            },
+            {
+                "normalized_label": "೨೬೮"
+            },
+            {
+                "normalized_label": "೨೬೯"
+            },
+            {
+                "normalized_label": "೨೭೦"
+            },
+            {
+                "normalized_label": "೨೭೧"
+            },
+            {
+                "normalized_label": "೨೭೨"
+            },
+            {
+                "normalized_label": "೨೭೩"
+            },
+            {
+                "normalized_label": "೨೭೪"
+            },
+            {
+                "normalized_label": "೨೭೫"
+            },
+            {
+                "normalized_label": "೨೭೬"
+            },
+            {
+                "normalized_label": "೨೭೭"
+            },
+            {
+                "normalized_label": "೨೭೮"
+            },
+            {
+                "normalized_label": "೨೭೯"
+            },
+            {
+                "normalized_label": "೨೮೦"
+            },
+            {
+                "normalized_label": "೨೮೧"
+            },
+            {
+                "normalized_label": "೨೮೨"
+            },
+            {
+                "normalized_label": "೨೮೩"
+            },
+            {
+                "normalized_label": "೨೮೪"
+            },
+            {
+                "normalized_label": "೨೮೫"
+            },
+            {
+                "normalized_label": "೨೮೬"
+            },
+            {
+                "normalized_label": "೨೮೭"
+            },
+            {
+                "normalized_label": "೨೮೮"
+            },
+            {
+                "normalized_label": "೨೮೯"
+            },
+            {
+                "normalized_label": "೨೯೦"
+            },
+            {
+                "normalized_label": "೨೯೧"
+            },
+            {
+                "normalized_label": "೨೯೨"
+            },
+            {
+                "normalized_label": "೨೯೩"
+            },
+            {
+                "normalized_label": "೨೯೪"
+            },
+            {
+                "normalized_label": "೨೯೫"
+            },
+            {
+                "normalized_label": "೨೯೬"
+            },
+            {
+                "normalized_label": "೨೯೭"
+            },
+            {
+                "normalized_label": "೨೯೮"
+            },
+            {
+                "normalized_label": "೨೯೯"
+            },
+            {
+                "normalized_label": "೩೦೦"
+            },
+            {
+                "normalized_label": "೩೦೧"
+            },
+            {
+                "normalized_label": "೩೦೨"
+            },
+            {
+                "normalized_label": "೩೦೩"
+            },
+            {
+                "normalized_label": "೩೦೪"
+            },
+            {
+                "normalized_label": "೩೦೫"
+            },
+            {
+                "normalized_label": "೩೦೬"
+            },
+            {
+                "normalized_label": "೩೦೭"
+            },
+            {
+                "normalized_label": "೩೦೮"
+            },
+            {
+                "normalized_label": "೩೦೯"
+            },
+            {
+                "normalized_label": "೩೧೦"
+            },
+            {
+                "normalized_label": "೩೧೧"
+            },
+            {
+                "normalized_label": "೩೧೨"
+            },
+            {
+                "normalized_label": "೩೧೩"
+            },
+            {
+                "normalized_label": "೩೧೪"
+            },
+            {
+                "normalized_label": "೩೧೫"
+            },
+            {
+                "normalized_label": "೩೧೬"
+            },
+            {
+                "normalized_label": "೩೧೭"
+            },
+            {
+                "normalized_label": "೩೧೮"
+            },
+            {
+                "normalized_label": "೩೧೯"
+            },
+            {
+                "normalized_label": "೩೨೦"
+            },
+            {
+                "normalized_label": "೩೨೧"
+            },
+            {
+                "normalized_label": "೩೨೨"
+            },
+            {
+                "normalized_label": "೩೨೩"
+            },
+            {
+                "normalized_label": "೩೨೪"
+            },
+            {
+                "normalized_label": "೩೨೫"
+            },
+            {
+                "normalized_label": "೩೨೬"
+            },
+            {
+                "normalized_label": "೩೨೭"
+            },
+            {
+                "normalized_label": "೩೨೮"
+            },
+            {
+                "normalized_label": "೩೨೯"
+            },
+            {
+                "normalized_label": "೩೩೦"
+            },
+            {
+                "normalized_label": "೩೩೧"
+            },
+            {
+                "normalized_label": "೩೩೨"
+            },
+            {
+                "normalized_label": "೩೩೩"
+            },
+            {
+                "normalized_label": "೩೩೪"
+            },
+            {
+                "normalized_label": "೩೩೫"
+            },
+            {
+                "normalized_label": "೩೩೬"
+            },
+            {
+                "normalized_label": "೩೩೭"
+            },
+            {
+                "normalized_label": "೩೩೮"
+            },
+            {
+                "normalized_label": "೩೩೯"
+            },
+            {
+                "normalized_label": "೩೪೦"
+            },
+            {
+                "normalized_label": "೩೪೧"
+            },
+            {
+                "normalized_label": "೩೪೨"
+            },
+            {
+                "normalized_label": "೩೪೩"
+            },
+            {
+                "normalized_label": "೩೪೪"
+            },
+            {
+                "normalized_label": "೩೪೫"
+            },
+            {
+                "normalized_label": "೩೪೬"
+            },
+            {
+                "normalized_label": "೩೪೭"
+            },
+            {
+                "normalized_label": "೩೪೮"
+            },
+            {
+                "normalized_label": "೩೪೯"
+            },
+            {
+                "normalized_label": "೩೫೦"
+            },
+            {
+                "normalized_label": "೩೫೧"
+            },
+            {
+                "normalized_label": "೩೫೨"
+            },
+            {
+                "normalized_label": "೩೫೩"
+            },
+            {
+                "normalized_label": "೩೫೪"
+            },
+            {
+                "normalized_label": "೩೫೫"
+            },
+            {
+                "normalized_label": "೩೫೬"
+            },
+            {
+                "normalized_label": "೩೫೭"
+            },
+            {
+                "normalized_label": "೩೫೮"
+            },
+            {
+                "normalized_label": "೩೫೯"
+            },
+            {
+                "normalized_label": "೩೬೦"
+            },
+            {
+                "normalized_label": "೩೬೧"
+            },
+            {
+                "normalized_label": "೩೬೨"
+            },
+            {
+                "normalized_label": "೩೬೩"
+            },
+            {
+                "normalized_label": "೩೬೪"
+            },
+            {
+                "normalized_label": "೩೬೫"
+            },
+            {
+                "normalized_label": "೩೬೬"
+            },
+            {
+                "normalized_label": "೩೬೭"
+            },
+            {
+                "normalized_label": "೩೬೮"
+            },
+            {
+                "normalized_label": "೩೬೯"
+            },
+            {
+                "normalized_label": "೩೭೦"
+            },
+            {
+                "normalized_label": "೩೭೧"
+            },
+            {
+                "normalized_label": "೩೭೨"
+            },
+            {
+                "normalized_label": "೩೭೩"
+            },
+            {
+                "normalized_label": "೩೭೪"
+            },
+            {
+                "normalized_label": "೩೭೫"
+            },
+            {
+                "normalized_label": "೩೭೬"
+            },
+            {
+                "normalized_label": "೩೭೭"
+            },
+            {
+                "normalized_label": "೩೭೮"
+            },
+            {
+                "normalized_label": "೩೭೯"
+            },
+            {
+                "normalized_label": "೩೮೦"
+            },
+            {
+                "normalized_label": "೩೮೧"
+            },
+            {
+                "normalized_label": "೩೮೨"
+            },
+            {
+                "normalized_label": "೩೮೩"
+            },
+            {
+                "normalized_label": "೩೮೪"
+            },
+            {
+                "normalized_label": "೩೮೫"
+            },
+            {
+                "normalized_label": "೩೮೬"
+            },
+            {
+                "normalized_label": "೩೮೭"
+            },
+            {
+                "normalized_label": "೩೮೮"
+            },
+            {
+                "normalized_label": "೩೮೯"
+            },
+            {
+                "normalized_label": "೩೯೦"
+            },
+            {
+                "normalized_label": "೩೯೧"
+            },
+            {
+                "normalized_label": "೩೯೨"
+            },
+            {
+                "normalized_label": "೩೯೩"
+            },
+            {
+                "normalized_label": "೩೯೪"
+            },
+            {
+                "normalized_label": "೩೯೫"
+            },
+            {
+                "normalized_label": "೩೯೬"
+            },
+            {
+                "normalized_label": "೩೯೭"
+            },
+            {
+                "normalized_label": "೩೯೮"
+            },
+            {
+                "normalized_label": "೩೯೯"
+            },
+            {
+                "normalized_label": "೪೦೦"
+            },
+            {
+                "normalized_label": "೪೦೧"
+            },
+            {
+                "normalized_label": "೪೦೨"
+            },
+            {
+                "normalized_label": "೪೦೩"
+            },
+            {
+                "normalized_label": "೪೦೪"
+            },
+            {
+                "normalized_label": "೪೦೫"
+            },
+            {
+                "normalized_label": "೪೦೬"
+            },
+            {
+                "normalized_label": "೪೦೭"
+            },
+            {
+                "normalized_label": "೪೦೮"
+            },
+            {
+                "normalized_label": "೪೦೯"
+            },
+            {
+                "normalized_label": "೪೧೦"
+            },
+            {
+                "normalized_label": "೪೧೧"
+            },
+            {
+                "normalized_label": "೪೧೨"
+            },
+            {
+                "normalized_label": "೪೧೩"
+            },
+            {
+                "normalized_label": "೪೧೪"
+            },
+            {
+                "normalized_label": "೪೧೫"
+            },
+            {
+                "normalized_label": "೪೧೬"
+            },
+            {
+                "normalized_label": "೪೧೭"
+            },
+            {
+                "normalized_label": "೪೧೮"
+            },
+            {
+                "normalized_label": "೪೧೯"
+            },
+            {
+                "normalized_label": "೪೨೦"
+            },
+            {
+                "normalized_label": "೪೨೧"
+            },
+            {
+                "normalized_label": "೪೨೨"
+            },
+            {
+                "normalized_label": "೪೨೩"
+            },
+            {
+                "normalized_label": "೪೨೪"
+            },
+            {
+                "normalized_label": "೪೨೫"
+            },
+            {
+                "normalized_label": "೪೨೬"
+            },
+            {
+                "normalized_label": "೪೨೭"
+            },
+            {
+                "normalized_label": "೪೨೮"
+            },
+            {
+                "normalized_label": "೪೨೯"
+            },
+            {
+                "normalized_label": "೪೩೦"
+            },
+            {
+                "normalized_label": "೪೩೧"
+            },
+            {
+                "normalized_label": "೪೩೨"
+            },
+            {
+                "normalized_label": "೪೩೩"
+            },
+            {
+                "normalized_label": "೪೩೪"
+            },
+            {
+                "normalized_label": "೪೩೫"
+            },
+            {
+                "normalized_label": "೪೩೬"
+            },
+            {
+                "normalized_label": "೪೩೭"
+            },
+            {
+                "normalized_label": "೪೩೮"
+            },
+            {
+                "normalized_label": "೪೩೯"
+            },
+            {
+                "normalized_label": "೪೪೦"
+            },
+            {
+                "normalized_label": "೪೪೧"
+            },
+            {
+                "normalized_label": "೪೪೨"
+            },
+            {
+                "normalized_label": "೪೪೩"
+            },
+            {
+                "normalized_label": "೪೪೪"
+            },
+            {
+                "normalized_label": "೪೪೫"
+            },
+            {
+                "normalized_label": "೪೪೬"
+            },
+            {
+                "normalized_label": "೪೪೭"
+            },
+            {
+                "normalized_label": "೪೪೮"
+            },
+            {
+                "normalized_label": "೪೪೯"
+            },
+            {
+                "normalized_label": "೪೫೦"
+            },
+            {
+                "normalized_label": "೪೫೧"
+            },
+            {
+                "normalized_label": "೪೫೨"
+            },
+            {
+                "normalized_label": "೪೫೩"
+            },
+            {
+                "normalized_label": "೪೫೪"
+            },
+            {
+                "normalized_label": "೪೫೫"
+            },
+            {
+                "normalized_label": "೪೫೬"
+            },
+            {
+                "normalized_label": "೪೫೭"
+            },
+            {
+                "normalized_label": "೪೫೮"
+            },
+            {
+                "normalized_label": "೪೫೯"
+            },
+            {
+                "normalized_label": "೪೬೦"
+            },
+            {
+                "normalized_label": "೪೬೧"
+            },
+            {
+                "normalized_label": "೪೬೨"
+            },
+            {
+                "normalized_label": "೪೬೩"
+            },
+            {
+                "normalized_label": "೪೬೪"
+            },
+            {
+                "normalized_label": "೪೬೫"
+            },
+            {
+                "normalized_label": "೪೬೬"
+            },
+            {
+                "normalized_label": "೪೬೭"
+            },
+            {
+                "normalized_label": "೪೬೮"
+            },
+            {
+                "normalized_label": "೪೬೯"
+            },
+            {
+                "normalized_label": "೪೭೦"
+            },
+            {
+                "normalized_label": "೪೭೧"
+            },
+            {
+                "normalized_label": "೪೭೨"
+            },
+            {
+                "normalized_label": "೪೭೩"
+            },
+            {
+                "normalized_label": "೪೭೪"
+            },
+            {
+                "normalized_label": "೪೭೫"
+            },
+            {
+                "normalized_label": "೪೭೬"
+            },
+            {
+                "normalized_label": "೪೭೭"
+            },
+            {
+                "normalized_label": "೪೭೮"
+            },
+            {
+                "normalized_label": "೪೭೯"
+            },
+            {
+                "normalized_label": "೪೮೦"
+            },
+            {
+                "normalized_label": "೪೮೧"
+            },
+            {
+                "normalized_label": "೪೮೨"
+            },
+            {
+                "normalized_label": "೪೮೩"
+            },
+            {
+                "normalized_label": "೪೮೪"
+            },
+            {
+                "normalized_label": "೪೮೫"
+            },
+            {
+                "normalized_label": "೪೮೬"
+            },
+            {
+                "normalized_label": "೪೮೭"
+            },
+            {
+                "normalized_label": "೪೮೮"
+            },
+            {
+                "normalized_label": "೪೮೯"
+            },
+            {
+                "normalized_label": "೪೯೦"
+            },
+            {
+                "normalized_label": "೪೯೧"
+            },
+            {
+                "normalized_label": "೪೯೨"
+            },
+            {
+                "normalized_label": "೪೯೩"
+            },
+            {
+                "normalized_label": "೪೯೪"
+            },
+            {
+                "normalized_label": "೪೯೫"
+            },
+            {
+                "normalized_label": "೪೯೬"
+            },
+            {
+                "normalized_label": "೪೯೭"
+            },
+            {
+                "normalized_label": "೪೯೮"
+            },
+            {
+                "normalized_label": "೪೯೯"
+            },
+            {
+                "normalized_label": "೫೦೦"
+            },
+            {
+                "normalized_label": "೫೦೧"
+            },
+            {
+                "normalized_label": "೫೦೨"
+            },
+            {
+                "normalized_label": "೫೦೩"
+            },
+            {
+                "normalized_label": "೫೦೪"
+            },
+            {
+                "normalized_label": "೫೦೫"
+            },
+            {
+                "normalized_label": "೫೦೬"
+            },
+            {
+                "normalized_label": "೫೦೭"
+            },
+            {
+                "normalized_label": "೫೦೮"
+            },
+            {
+                "normalized_label": "೫೦೯"
+            },
+            {
+                "normalized_label": "೫೧೦"
+            },
+            {
+                "normalized_label": "೫೧೧"
+            },
+            {
+                "normalized_label": "೫೧೨"
+            },
+            {
+                "normalized_label": "೫೧೩"
+            },
+            {
+                "normalized_label": "೫೧೪"
+            },
+            {
+                "normalized_label": "೫೧೫"
+            },
+            {
+                "normalized_label": "೫೧೬"
+            },
+            {
+                "normalized_label": "೫೧೭"
+            },
+            {
+                "normalized_label": "೫೧೮"
+            },
+            {
+                "normalized_label": "೫೧೯"
+            },
+            {
+                "normalized_label": "೫೨೦"
+            },
+            {
+                "normalized_label": "೫೨೧"
+            },
+            {
+                "normalized_label": "೫೨೨"
+            },
+            {
+                "normalized_label": "೫೨೩"
+            },
+            {
+                "normalized_label": "೫೨೪"
+            },
+            {
+                "normalized_label": "೫೨೫"
+            },
+            {
+                "normalized_label": "೫೨೬"
+            },
+            {
+                "normalized_label": "೫೨೭"
+            },
+            {
+                "normalized_label": "೫೨೮"
+            },
+            {
+                "normalized_label": "೫೨೯"
+            },
+            {
+                "normalized_label": "೫೩೦"
+            },
+            {
+                "normalized_label": "೫೩೧"
+            },
+            {
+                "normalized_label": "೫೩೨"
+            },
+            {
+                "normalized_label": "೫೩೩"
+            },
+            {
+                "normalized_label": "೫೩೪"
+            },
+            {
+                "normalized_label": "೫೩೫"
+            },
+            {
+                "normalized_label": "೫೩೬"
+            },
+            {
+                "normalized_label": "೫೩೭"
+            },
+            {
+                "normalized_label": "೫೩೮"
+            },
+            {
+                "normalized_label": "೫೩೯"
+            },
+            {
+                "normalized_label": "೫೪೦"
+            },
+            {
+                "normalized_label": "೫೪೧"
+            },
+            {
+                "normalized_label": "೫೪೨"
+            },
+            {
+                "normalized_label": "೫೪೩"
+            },
+            {
+                "normalized_label": "೫೪೪"
+            },
+            {
+                "normalized_label": "೫೪೫"
+            },
+            {
+                "normalized_label": "೫೪೬"
+            },
+            {
+                "normalized_label": "೫೪೭"
+            },
+            {
+                "normalized_label": "೫೪೮"
+            },
+            {
+                "normalized_label": "೫೪೯"
+            },
+            {
+                "normalized_label": "೫೫೦"
+            },
+            {
+                "normalized_label": "೫೫೧"
+            },
+            {
+                "normalized_label": "೫೫೨"
+            },
+            {
+                "normalized_label": "೫೫೩"
+            },
+            {
+                "normalized_label": "೫೫೪"
+            },
+            {
+                "normalized_label": "೫೫೫"
+            },
+            {
+                "normalized_label": "೫೫೬"
+            },
+            {
+                "normalized_label": "೫೫೭"
+            },
+            {
+                "normalized_label": "೫೫೮"
+            },
+            {
+                "normalized_label": "೫೫೯"
+            },
+            {
+                "normalized_label": "೫೬೦"
+            },
+            {
+                "normalized_label": "೫೬೧"
+            },
+            {
+                "normalized_label": "೫೬೨"
+            },
+            {
+                "normalized_label": "೫೬೩"
+            },
+            {
+                "normalized_label": "೫೬೪"
+            },
+            {
+                "normalized_label": "೫೬೫"
+            },
+            {
+                "normalized_label": "೫೬೬"
+            },
+            {
+                "normalized_label": "೫೬೭"
+            },
+            {
+                "normalized_label": "೫೬೮"
+            },
+            {
+                "normalized_label": "೫೬೯"
+            },
+            {
+                "normalized_label": "೫೭೦"
+            },
+            {
+                "normalized_label": "೫೭೧"
+            },
+            {
+                "normalized_label": "೫೭೨"
+            },
+            {
+                "normalized_label": "೫೭೩"
+            },
+            {
+                "normalized_label": "೫೭೪"
+            },
+            {
+                "normalized_label": "೫೭೫"
+            },
+            {
+                "normalized_label": "೫೭೬"
+            },
+            {
+                "normalized_label": "೫೭೭"
+            },
+            {
+                "normalized_label": "೫೭೮"
+            },
+            {
+                "normalized_label": "೫೭೯"
+            },
+            {
+                "normalized_label": "೫೮೦"
+            },
+            {
+                "normalized_label": "೫೮೧"
+            },
+            {
+                "normalized_label": "೫೮೨"
+            },
+            {
+                "normalized_label": "೫೮೩"
+            },
+            {
+                "normalized_label": "೫೮೪"
+            },
+            {
+                "normalized_label": "೫೮೫"
+            },
+            {
+                "normalized_label": "೫೮೬"
+            },
+            {
+                "normalized_label": "೫೮೭"
+            },
+            {
+                "normalized_label": "೫೮೮"
+            },
+            {
+                "normalized_label": "೫೮೯"
+            },
+            {
+                "normalized_label": "೫೯೦"
+            },
+            {
+                "normalized_label": "೫೯೧"
+            },
+            {
+                "normalized_label": "೫೯೨"
+            },
+            {
+                "normalized_label": "೫೯೩"
+            },
+            {
+                "normalized_label": "೫೯೪"
+            },
+            {
+                "normalized_label": "೫೯೫"
+            },
+            {
+                "normalized_label": "೫೯೬"
+            },
+            {
+                "normalized_label": "೫೯೭"
+            },
+            {
+                "normalized_label": "೫೯೮"
+            },
+            {
+                "normalized_label": "೫೯೯"
+            },
+            {
+                "normalized_label": "೬೦೦"
+            },
+            {
+                "normalized_label": "೬೦೧"
+            },
+            {
+                "normalized_label": "೬೦೨"
+            },
+            {
+                "normalized_label": "೬೦೩"
+            },
+            {
+                "normalized_label": "೬೦೪"
+            },
+            {
+                "normalized_label": "೬೦೫"
+            },
+            {
+                "normalized_label": "೬೦೬"
+            },
+            {
+                "normalized_label": "೬೦೭"
+            },
+            {
+                "normalized_label": "೬೦೮"
+            },
+            {
+                "normalized_label": "೬೦೯"
+            },
+            {
+                "normalized_label": "೬೧೦"
+            },
+            {
+                "normalized_label": "೬೧೧"
+            },
+            {
+                "normalized_label": "೬೧೨"
+            },
+            {
+                "normalized_label": "೬೧೩"
+            },
+            {
+                "normalized_label": "೬೧೪"
+            },
+            {
+                "normalized_label": "೬೧೫"
+            },
+            {
+                "normalized_label": "೬೧೬"
+            },
+            {
+                "normalized_label": "೬೧೭"
+            },
+            {
+                "normalized_label": "೬೧೮"
+            },
+            {
+                "normalized_label": "೬೧೯"
+            },
+            {
+                "normalized_label": "೬೨೦"
+            },
+            {
+                "normalized_label": "೬೨೧"
+            },
+            {
+                "normalized_label": "೬೨೨"
+            },
+            {
+                "normalized_label": "೬೨೩"
+            },
+            {
+                "normalized_label": "೬೨೪"
+            },
+            {
+                "normalized_label": "೬೨೫"
+            },
+            {
+                "normalized_label": "೬೨೬"
+            },
+            {
+                "normalized_label": "೬೨೭"
+            },
+            {
+                "normalized_label": "೬೨೮"
+            },
+            {
+                "normalized_label": "೬೨೯"
+            },
+            {
+                "normalized_label": "೬೩೦"
+            },
+            {
+                "normalized_label": "೬೩೧"
+            },
+            {
+                "normalized_label": "೬೩೨"
+            },
+            {
+                "normalized_label": "೬೩೩"
+            },
+            {
+                "normalized_label": "೬೩೪"
+            },
+            {
+                "normalized_label": "೬೩೫"
+            },
+            {
+                "normalized_label": "೬೩೬"
+            },
+            {
+                "normalized_label": "೬೩೭"
+            },
+            {
+                "normalized_label": "೬೩೮"
+            },
+            {
+                "normalized_label": "೬೩೯"
+            },
+            {
+                "normalized_label": "೬೪೦"
+            },
+            {
+                "normalized_label": "೬೪೧"
+            },
+            {
+                "normalized_label": "೬೪೨"
+            },
+            {
+                "normalized_label": "೬೪೩"
+            },
+            {
+                "normalized_label": "೬೪೪"
+            },
+            {
+                "normalized_label": "೬೪೫"
+            },
+            {
+                "normalized_label": "೬೪೬"
+            },
+            {
+                "normalized_label": "೬೪೭"
+            },
+            {
+                "normalized_label": "೬೪೮"
+            },
+            {
+                "normalized_label": "೬೪೯"
+            },
+            {
+                "normalized_label": "೬೫೦"
+            },
+            {
+                "normalized_label": "೬೫೧"
+            },
+            {
+                "normalized_label": "೬೫೨"
+            },
+            {
+                "normalized_label": "೬೫೩"
+            },
+            {
+                "normalized_label": "೬೫೪"
+            },
+            {
+                "normalized_label": "೬೫೫"
+            },
+            {
+                "normalized_label": "೬೫೬"
+            },
+            {
+                "normalized_label": "೬೫೭"
+            },
+            {
+                "normalized_label": "೬೫೮"
+            },
+            {
+                "normalized_label": "೬೫೯"
+            },
+            {
+                "normalized_label": "೬೬೦"
+            },
+            {
+                "normalized_label": "೬೬೧"
+            },
+            {
+                "normalized_label": "೬೬೨"
+            },
+            {
+                "normalized_label": "೬೬೩"
+            },
+            {
+                "normalized_label": "೬೬೪"
+            },
+            {
+                "normalized_label": "೬೬೫"
+            },
+            {
+                "normalized_label": "೬೬೬"
+            },
+            {
+                "normalized_label": "೬೬೭"
+            },
+            {
+                "normalized_label": "೬೬೮"
+            },
+            {
+                "normalized_label": "೬೬೯"
+            },
+            {
+                "normalized_label": "೬೭೦"
+            },
+            {
+                "normalized_label": "೬೭೧"
+            },
+            {
+                "normalized_label": "೬೭೨"
+            },
+            {
+                "normalized_label": "೬೭೩"
+            },
+            {
+                "normalized_label": "೬೭೪"
+            },
+            {
+                "normalized_label": "೬೭೫"
+            },
+            {
+                "normalized_label": "೬೭೬"
+            },
+            {
+                "normalized_label": "೬೭೭"
+            },
+            {
+                "normalized_label": "೬೭೮"
+            },
+            {
+                "normalized_label": "೬೭೯"
+            },
+            {
+                "normalized_label": "೬೮೦"
+            },
+            {
+                "normalized_label": "೬೮೧"
+            },
+            {
+                "normalized_label": "೬೮೨"
+            },
+            {
+                "normalized_label": "೬೮೩"
+            },
+            {
+                "normalized_label": "೬೮೪"
+            },
+            {
+                "normalized_label": "೬೮೫"
+            },
+            {
+                "normalized_label": "೬೮೬"
+            },
+            {
+                "normalized_label": "೬೮೭"
+            },
+            {
+                "normalized_label": "೬೮೮"
+            },
+            {
+                "normalized_label": "೬೮೯"
+            },
+            {
+                "normalized_label": "೬೯೦"
+            },
+            {
+                "normalized_label": "೬೯೧"
+            },
+            {
+                "normalized_label": "೬೯೨"
+            },
+            {
+                "normalized_label": "೬೯೩"
+            },
+            {
+                "normalized_label": "೬೯೪"
+            },
+            {
+                "normalized_label": "೬೯೫"
+            },
+            {
+                "normalized_label": "೬೯೬"
+            },
+            {
+                "normalized_label": "೬೯೭"
+            },
+            {
+                "normalized_label": "೬೯೮"
+            },
+            {
+                "normalized_label": "೬೯೯"
+            },
+            {
+                "normalized_label": "೭೦೦"
+            },
+            {
+                "normalized_label": "೭೦೧"
+            },
+            {
+                "normalized_label": "೭೦೨"
+            },
+            {
+                "normalized_label": "೭೦೩"
+            },
+            {
+                "normalized_label": "೭೦೪"
+            },
+            {
+                "normalized_label": "೭೦೫"
+            },
+            {
+                "normalized_label": "೭೦೬"
+            },
+            {
+                "normalized_label": "೭೦೭"
+            },
+            {
+                "normalized_label": "೭೦೮"
+            },
+            {
+                "normalized_label": "೭೦೯"
+            },
+            {
+                "normalized_label": "೭೧೦"
+            },
+            {
+                "normalized_label": "೭೧೧"
+            },
+            {
+                "normalized_label": "೭೧೨"
+            },
+            {
+                "normalized_label": "೭೧೩"
+            },
+            {
+                "normalized_label": "೭೧೪"
+            },
+            {
+                "normalized_label": "೭೧೫"
+            },
+            {
+                "normalized_label": "೭೧೬"
+            },
+            {
+                "normalized_label": "೭೧೭"
+            },
+            {
+                "normalized_label": "೭೧೮"
+            },
+            {
+                "normalized_label": "೭೧೯"
+            },
+            {
+                "normalized_label": "೭೨೦"
+            },
+            {
+                "normalized_label": "೭೨೧"
+            },
+            {
+                "normalized_label": "೭೨೨"
+            },
+            {
+                "normalized_label": "೭೨೩"
+            },
+            {
+                "normalized_label": "೭೨೪"
+            },
+            {
+                "normalized_label": "೭೨೫"
+            },
+            {
+                "normalized_label": "೭೨೬"
+            },
+            {
+                "normalized_label": "೭೨೭"
+            },
+            {
+                "normalized_label": "೭೨೮"
+            },
+            {
+                "normalized_label": "೭೨೯"
+            },
+            {
+                "normalized_label": "೭೩೦"
+            },
+            {
+                "normalized_label": "೭೩೧"
+            },
+            {
+                "normalized_label": "೭೩೨"
+            },
+            {
+                "normalized_label": "೭೩೩"
+            },
+            {
+                "normalized_label": "೭೩೪"
+            },
+            {
+                "normalized_label": "೭೩೫"
+            },
+            {
+                "normalized_label": "೭೩೬"
+            },
+            {
+                "normalized_label": "೭೩೭"
+            },
+            {
+                "normalized_label": "೭೩೮"
+            },
+            {
+                "normalized_label": "೭೩೯"
+            },
+            {
+                "normalized_label": "೭೪೦"
+            },
+            {
+                "normalized_label": "೭೪೧"
+            },
+            {
+                "normalized_label": "೭೪೨"
+            },
+            {
+                "normalized_label": "೭೪೩"
+            },
+            {
+                "normalized_label": "೭೪೪"
+            },
+            {
+                "normalized_label": "೭೪೫"
+            },
+            {
+                "normalized_label": "೭೪೬"
+            },
+            {
+                "normalized_label": "೭೪೭"
+            },
+            {
+                "normalized_label": "೭೪೮"
+            },
+            {
+                "normalized_label": "೭೪೯"
+            },
+            {
+                "normalized_label": "೭೫೦"
+            },
+            {
+                "normalized_label": "೭೫೧"
+            },
+            {
+                "normalized_label": "೭೫೨"
+            },
+            {
+                "normalized_label": "೭೫೩"
+            },
+            {
+                "normalized_label": "೭೫೪"
+            },
+            {
+                "normalized_label": "೭೫೫"
+            },
+            {
+                "normalized_label": "೭೫೬"
+            },
+            {
+                "normalized_label": "೭೫೭"
+            },
+            {
+                "normalized_label": "೭೫೮"
+            },
+            {
+                "normalized_label": "೭೫೯"
+            },
+            {
+                "normalized_label": "೭೬೦"
+            },
+            {
+                "normalized_label": "೭೬೧"
+            },
+            {
+                "normalized_label": "೭೬೨"
+            },
+            {
+                "normalized_label": "೭೬೩"
+            },
+            {
+                "normalized_label": "೭೬೪"
+            },
+            {
+                "normalized_label": "೭೬೫"
+            },
+            {
+                "normalized_label": "೭೬೬"
+            },
+            {
+                "normalized_label": "೭೬೭"
+            },
+            {
+                "normalized_label": "೭೬೮"
+            },
+            {
+                "normalized_label": "೭೬೯"
+            },
+            {
+                "normalized_label": "೭೭೦"
+            },
+            {
+                "normalized_label": "೭೭೧"
+            },
+            {
+                "normalized_label": "೭೭೨"
+            },
+            {
+                "normalized_label": "೭೭೩"
+            },
+            {
+                "normalized_label": "೭೭೪"
+            },
+            {
+                "normalized_label": "೭೭೫"
+            },
+            {
+                "normalized_label": "೭೭೬"
+            },
+            {
+                "normalized_label": "೭೭೭"
+            },
+            {
+                "normalized_label": "೭೭೮"
+            },
+            {
+                "normalized_label": "೭೭೯"
+            },
+            {
+                "normalized_label": "೭೮೦"
+            },
+            {
+                "normalized_label": "೭೮೧"
+            },
+            {
+                "normalized_label": "೭೮೨"
+            },
+            {
+                "normalized_label": "೭೮೩"
+            },
+            {
+                "normalized_label": "೭೮೪"
+            },
+            {
+                "normalized_label": "೭೮೫"
+            },
+            {
+                "normalized_label": "೭೮೬"
+            },
+            {
+                "normalized_label": "೭೮೭"
+            },
+            {
+                "normalized_label": "೭೮೮"
+            },
+            {
+                "normalized_label": "೭೮೯"
+            },
+            {
+                "normalized_label": "೭೯೦"
+            },
+            {
+                "normalized_label": "೭೯೧"
+            },
+            {
+                "normalized_label": "೭೯೨"
+            },
+            {
+                "normalized_label": "೭೯೩"
+            },
+            {
+                "normalized_label": "೭೯೪"
+            },
+            {
+                "normalized_label": "೭೯೫"
+            },
+            {
+                "normalized_label": "೭೯೬"
+            },
+            {
+                "normalized_label": "೭೯೭"
+            },
+            {
+                "normalized_label": "೭೯೮"
+            },
+            {
+                "normalized_label": "೭೯೯"
+            },
+            {
+                "normalized_label": "೮೦೦"
+            },
+            {
+                "normalized_label": "೮೦೧"
+            },
+            {
+                "normalized_label": "೮೦೨"
+            },
+            {
+                "normalized_label": "೮೦೩"
+            },
+            {
+                "normalized_label": "೮೦೪"
+            },
+            {
+                "normalized_label": "೮೦೫"
+            },
+            {
+                "normalized_label": "೮೦೬"
+            },
+            {
+                "normalized_label": "೮೦೭"
+            },
+            {
+                "normalized_label": "೮೦೮"
+            },
+            {
+                "normalized_label": "೮೦೯"
+            },
+            {
+                "normalized_label": "೮೧೦"
+            },
+            {
+                "normalized_label": "೮೧೧"
+            },
+            {
+                "normalized_label": "೮೧೨"
+            },
+            {
+                "normalized_label": "೮೧೩"
+            },
+            {
+                "normalized_label": "೮೧೪"
+            },
+            {
+                "normalized_label": "೮೧೫"
+            },
+            {
+                "normalized_label": "೮೧೬"
+            },
+            {
+                "normalized_label": "೮೧೭"
+            },
+            {
+                "normalized_label": "೮೧೮"
+            },
+            {
+                "normalized_label": "೮೧೯"
+            },
+            {
+                "normalized_label": "೮೨೦"
+            },
+            {
+                "normalized_label": "೮೨೧"
+            },
+            {
+                "normalized_label": "೮೨೨"
+            },
+            {
+                "normalized_label": "೮೨೩"
+            },
+            {
+                "normalized_label": "೮೨೪"
+            },
+            {
+                "normalized_label": "೮೨೫"
+            },
+            {
+                "normalized_label": "೮೨೬"
+            },
+            {
+                "normalized_label": "೮೨೭"
+            },
+            {
+                "normalized_label": "೮೨೮"
+            },
+            {
+                "normalized_label": "೮೨೯"
+            },
+            {
+                "normalized_label": "೮೩೦"
+            },
+            {
+                "normalized_label": "೮೩೧"
+            },
+            {
+                "normalized_label": "೮೩೨"
+            },
+            {
+                "normalized_label": "೮೩೩"
+            },
+            {
+                "normalized_label": "೮೩೪"
+            },
+            {
+                "normalized_label": "೮೩೫"
+            },
+            {
+                "normalized_label": "೮೩೬"
+            },
+            {
+                "normalized_label": "೮೩೭"
+            },
+            {
+                "normalized_label": "೮೩೮"
+            },
+            {
+                "normalized_label": "೮೩೯"
+            },
+            {
+                "normalized_label": "೮೪೦"
+            },
+            {
+                "normalized_label": "೮೪೧"
+            },
+            {
+                "normalized_label": "೮೪೨"
+            },
+            {
+                "normalized_label": "೮೪೩"
+            },
+            {
+                "normalized_label": "೮೪೪"
+            },
+            {
+                "normalized_label": "೮೪೫"
+            },
+            {
+                "normalized_label": "೮೪೬"
+            },
+            {
+                "normalized_label": "೮೪೭"
+            },
+            {
+                "normalized_label": "೮೪೮"
+            },
+            {
+                "normalized_label": "೮೪೯"
+            },
+            {
+                "normalized_label": "೮೫೦"
+            },
+            {
+                "normalized_label": "೮೫೧"
+            },
+            {
+                "normalized_label": "೮೫೨"
+            },
+            {
+                "normalized_label": "೮೫೩"
+            },
+            {
+                "normalized_label": "೮೫೪"
+            },
+            {
+                "normalized_label": "೮೫೫"
+            },
+            {
+                "normalized_label": "೮೫೬"
+            },
+            {
+                "normalized_label": "೮೫೭"
+            },
+            {
+                "normalized_label": "೮೫೮"
+            },
+            {
+                "normalized_label": "೮೫೯"
+            },
+            {
+                "normalized_label": "೮೬೦"
+            },
+            {
+                "normalized_label": "೮೬೧"
+            },
+            {
+                "normalized_label": "೮೬೨"
+            },
+            {
+                "normalized_label": "೮೬೩"
+            },
+            {
+                "normalized_label": "೮೬೪"
+            },
+            {
+                "normalized_label": "೮೬೫"
+            },
+            {
+                "normalized_label": "೮೬೬"
+            },
+            {
+                "normalized_label": "೮೬೭"
+            },
+            {
+                "normalized_label": "೮೬೮"
+            },
+            {
+                "normalized_label": "೮೬೯"
+            },
+            {
+                "normalized_label": "೮೭೦"
+            },
+            {
+                "normalized_label": "೮೭೧"
+            },
+            {
+                "normalized_label": "೮೭೨"
+            },
+            {
+                "normalized_label": "೮೭೩"
+            },
+            {
+                "normalized_label": "೮೭೪"
+            },
+            {
+                "normalized_label": "೮೭೫"
+            },
+            {
+                "normalized_label": "೮೭೬"
+            },
+            {
+                "normalized_label": "೮೭೭"
+            },
+            {
+                "normalized_label": "೮೭೮"
+            },
+            {
+                "normalized_label": "೮೭೯"
+            },
+            {
+                "normalized_label": "೮೮೦"
+            },
+            {
+                "normalized_label": "೮೮೧"
+            },
+            {
+                "normalized_label": "೮೮೨"
+            },
+            {
+                "normalized_label": "೮೮೩"
+            },
+            {
+                "normalized_label": "೮೮೪"
+            },
+            {
+                "normalized_label": "೮೮೫"
+            },
+            {
+                "normalized_label": "೮೮೬"
+            },
+            {
+                "normalized_label": "೮೮೭"
+            },
+            {
+                "normalized_label": "೮೮೮"
+            },
+            {
+                "normalized_label": "೮೮೯"
+            },
+            {
+                "normalized_label": "೮೯೦"
+            },
+            {
+                "normalized_label": "೮೯೧"
+            },
+            {
+                "normalized_label": "೮೯೨"
+            },
+            {
+                "normalized_label": "೮೯೩"
+            },
+            {
+                "normalized_label": "೮೯೪"
+            },
+            {
+                "normalized_label": "೮೯೫"
+            },
+            {
+                "normalized_label": "೮೯೬"
+            },
+            {
+                "normalized_label": "೮೯೭"
+            },
+            {
+                "normalized_label": "೮೯೮"
+            },
+            {
+                "normalized_label": "೮೯೯"
+            },
+            {
+                "normalized_label": "೯೦೦"
+            },
+            {
+                "normalized_label": "೯೦೧"
+            },
+            {
+                "normalized_label": "೯೦೨"
+            },
+            {
+                "normalized_label": "೯೦೩"
+            },
+            {
+                "normalized_label": "೯೦೪"
+            },
+            {
+                "normalized_label": "೯೦೫"
+            },
+            {
+                "normalized_label": "೯೦೬"
+            },
+            {
+                "normalized_label": "೯೦೭"
+            },
+            {
+                "normalized_label": "೯೦೮"
+            },
+            {
+                "normalized_label": "೯೦೯"
+            },
+            {
+                "normalized_label": "೯೧೦"
+            },
+            {
+                "normalized_label": "೯೧೧"
+            },
+            {
+                "normalized_label": "೯೧೨"
+            },
+            {
+                "normalized_label": "೯೧೩"
+            },
+            {
+                "normalized_label": "೯೧೪"
+            },
+            {
+                "normalized_label": "೯೧೫"
+            },
+            {
+                "normalized_label": "೯೧೬"
+            },
+            {
+                "normalized_label": "೯೧೭"
+            },
+            {
+                "normalized_label": "೯೧೮"
+            },
+            {
+                "normalized_label": "೯೧೯"
+            },
+            {
+                "normalized_label": "೯೨೦"
+            },
+            {
+                "normalized_label": "೯೨೧"
+            },
+            {
+                "normalized_label": "೯೨೨"
+            },
+            {
+                "normalized_label": "೯೨೩"
+            },
+            {
+                "normalized_label": "೯೨೪"
+            },
+            {
+                "normalized_label": "೯೨೫"
+            },
+            {
+                "normalized_label": "೯೨೬"
+            },
+            {
+                "normalized_label": "೯೨೭"
+            },
+            {
+                "normalized_label": "೯೨೮"
+            },
+            {
+                "normalized_label": "೯೨೯"
+            },
+            {
+                "normalized_label": "೯೩೦"
+            },
+            {
+                "normalized_label": "೯೩೧"
+            },
+            {
+                "normalized_label": "೯೩೨"
+            },
+            {
+                "normalized_label": "೯೩೩"
+            },
+            {
+                "normalized_label": "೯೩೪"
+            },
+            {
+                "normalized_label": "೯೩೫"
+            },
+            {
+                "normalized_label": "೯೩೬"
+            },
+            {
+                "normalized_label": "೯೩೭"
+            },
+            {
+                "normalized_label": "೯೩೮"
+            },
+            {
+                "normalized_label": "೯೩೯"
+            },
+            {
+                "normalized_label": "೯೪೦"
+            },
+            {
+                "normalized_label": "೯೪೧"
+            },
+            {
+                "normalized_label": "೯೪೨"
+            },
+            {
+                "normalized_label": "೯೪೩"
+            },
+            {
+                "normalized_label": "೯೪೪"
+            },
+            {
+                "normalized_label": "೯೪೫"
+            },
+            {
+                "normalized_label": "೯೪೬"
+            },
+            {
+                "normalized_label": "೯೪೭"
+            },
+            {
+                "normalized_label": "೯೪೮"
+            },
+            {
+                "normalized_label": "೯೪೯"
+            },
+            {
+                "normalized_label": "೯೫೦"
+            },
+            {
+                "normalized_label": "೯೫೧"
+            },
+            {
+                "normalized_label": "೯೫೨"
+            },
+            {
+                "normalized_label": "೯೫೩"
+            },
+            {
+                "normalized_label": "೯೫೪"
+            },
+            {
+                "normalized_label": "೯೫೫"
+            },
+            {
+                "normalized_label": "೯೫೬"
+            },
+            {
+                "normalized_label": "೯೫೭"
+            },
+            {
+                "normalized_label": "೯೫೮"
+            },
+            {
+                "normalized_label": "೯೫೯"
+            },
+            {
+                "normalized_label": "೯೬೦"
+            },
+            {
+                "normalized_label": "೯೬೧"
+            },
+            {
+                "normalized_label": "೯೬೨"
+            },
+            {
+                "normalized_label": "೯೬೩"
+            },
+            {
+                "normalized_label": "೯೬೪"
+            },
+            {
+                "normalized_label": "೯೬೫"
+            },
+            {
+                "normalized_label": "೯೬೬"
+            },
+            {
+                "normalized_label": "೯೬೭"
+            },
+            {
+                "normalized_label": "೯೬೮"
+            },
+            {
+                "normalized_label": "೯೬೯"
+            },
+            {
+                "normalized_label": "೯೭೦"
+            },
+            {
+                "normalized_label": "೯೭೧"
+            },
+            {
+                "normalized_label": "೯೭೨"
+            },
+            {
+                "normalized_label": "೯೭೩"
+            },
+            {
+                "normalized_label": "೯೭೪"
+            },
+            {
+                "normalized_label": "೯೭೫"
+            },
+            {
+                "normalized_label": "೯೭೬"
+            },
+            {
+                "normalized_label": "೯೭೭"
+            },
+            {
+                "normalized_label": "೯೭೮"
+            },
+            {
+                "normalized_label": "೯೭೯"
+            },
+            {
+                "normalized_label": "೯೮೦"
+            },
+            {
+                "normalized_label": "೯೮೧"
+            },
+            {
+                "normalized_label": "೯೮೨"
+            },
+            {
+                "normalized_label": "೯೮೩"
+            },
+            {
+                "normalized_label": "೯೮೪"
+            },
+            {
+                "normalized_label": "೯೮೫"
+            },
+            {
+                "normalized_label": "೯೮೬"
+            },
+            {
+                "normalized_label": "೯೮೭"
+            },
+            {
+                "normalized_label": "೯೮೮"
+            },
+            {
+                "normalized_label": "೯೮೯"
+            },
+            {
+                "normalized_label": "೯೯೦"
+            },
+            {
+                "normalized_label": "೯೯೧"
+            },
+            {
+                "normalized_label": "೯೯೨"
+            },
+            {
+                "normalized_label": "೯೯೩"
+            },
+            {
+                "normalized_label": "೯೯೪"
+            },
+            {
+                "normalized_label": "೯೯೫"
+            },
+            {
+                "normalized_label": "೯೯೬"
+            },
+            {
+                "normalized_label": "೯೯೭"
+            },
+            {
+                "normalized_label": "೯೯೮"
+            },
+            {
+                "normalized_label": "೯೯೯"
+            }
+        ]
+    }
+}

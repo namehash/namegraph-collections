@@ -1,0 +1,5579 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "spanish-animals",
+        "collection_name": "Spanish Animals",
+        "collection_description": "Animales en Idioma española.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "aardvark"
+            },
+            {
+                "normalized_label": "aardwolf"
+            },
+            {
+                "normalized_label": "abyssinian"
+            },
+            {
+                "normalized_label": "achriopteramanga"
+            },
+            {
+                "normalized_label": "addax"
+            },
+            {
+                "normalized_label": "adeliepenguin"
+            },
+            {
+                "normalized_label": "aesculapiansnake"
+            },
+            {
+                "normalized_label": "affenpinscher"
+            },
+            {
+                "normalized_label": "afghanhound"
+            },
+            {
+                "normalized_label": "africanbullfrog"
+            },
+            {
+                "normalized_label": "africanbushelephant"
+            },
+            {
+                "normalized_label": "africancivet"
+            },
+            {
+                "normalized_label": "africanclawedfrog"
+            },
+            {
+                "normalized_label": "africanforestelephant"
+            },
+            {
+                "normalized_label": "africangreyparrot"
+            },
+            {
+                "normalized_label": "africanpalmcivet"
+            },
+            {
+                "normalized_label": "africanpenguin"
+            },
+            {
+                "normalized_label": "africantreetoad"
+            },
+            {
+                "normalized_label": "africanwilddog"
+            },
+            {
+                "normalized_label": "agamalizard"
+            },
+            {
+                "normalized_label": "aidi"
+            },
+            {
+                "normalized_label": "ainu"
+            },
+            {
+                "normalized_label": "airedaleterrier"
+            },
+            {
+                "normalized_label": "airedoodle"
+            },
+            {
+                "normalized_label": "akbash"
+            },
+            {
+                "normalized_label": "akita"
+            },
+            {
+                "normalized_label": "akitashepherd"
+            },
+            {
+                "normalized_label": "alabai"
+            },
+            {
+                "normalized_label": "alaskanhusky"
+            },
+            {
+                "normalized_label": "alaskankleekai"
+            },
+            {
+                "normalized_label": "alaskanmalamute"
+            },
+            {
+                "normalized_label": "alaskanpollock"
+            },
+            {
+                "normalized_label": "alaskanshepherd"
+            },
+            {
+                "normalized_label": "albacoretuna"
+            },
+            {
+                "normalized_label": "albatross"
+            },
+            {
+                "normalized_label": "albinoferrets"
+            },
+            {
+                "normalized_label": "aldabragianttortoise"
+            },
+            {
+                "normalized_label": "alligator"
+            },
+            {
+                "normalized_label": "alligatorgar"
+            },
+            {
+                "normalized_label": "allosaurus"
+            },
+            {
+                "normalized_label": "alpaca"
+            },
+            {
+                "normalized_label": "alpinedachsbracke"
+            },
+            {
+                "normalized_label": "alpinegoat"
+            },
+            {
+                "normalized_label": "alusky"
+            },
+            {
+                "normalized_label": "amargasaurus"
+            },
+            {
+                "normalized_label": "amarok"
+            },
+            {
+                "normalized_label": "amazonparrot"
+            },
+            {
+                "normalized_label": "amazonriverdolphin"
+            },
+            {
+                "normalized_label": "amazontreeboa"
+            },
+            {
+                "normalized_label": "ambrosiabeetle"
+            },
+            {
+                "normalized_label": "americanalsatian"
+            },
+            {
+                "normalized_label": "americanbulldog"
+            },
+            {
+                "normalized_label": "americancockerspaniel"
+            },
+            {
+                "normalized_label": "americancockroach"
+            },
+            {
+                "normalized_label": "americancoonhound"
+            },
+            {
+                "normalized_label": "americandogtick"
+            },
+            {
+                "normalized_label": "americaneskimodog"
+            },
+            {
+                "normalized_label": "americanfoxhound"
+            },
+            {
+                "normalized_label": "americanhairlessterrier"
+            },
+            {
+                "normalized_label": "americanleopardhound"
+            },
+            {
+                "normalized_label": "americanpitbullterrier"
+            },
+            {
+                "normalized_label": "americanpygmygoat"
+            },
+            {
+                "normalized_label": "americanrobin"
+            },
+            {
+                "normalized_label": "americanstaffordshireterrier"
+            },
+            {
+                "normalized_label": "americantoad"
+            },
+            {
+                "normalized_label": "americanwaterspaniel"
+            },
+            {
+                "normalized_label": "amethystinepython"
+            },
+            {
+                "normalized_label": "amurleopard"
+            },
+            {
+                "normalized_label": "anaconda"
+            },
+            {
+                "normalized_label": "anatolianshepherddog"
+            },
+            {
+                "normalized_label": "anchovies"
+            },
+            {
+                "normalized_label": "angelfish"
+            },
+            {
+                "normalized_label": "anglerfish"
+            },
+            {
+                "normalized_label": "angoraferret"
+            },
+            {
+                "normalized_label": "angoragoat"
+            },
+            {
+                "normalized_label": "anolelizard"
+            },
+            {
+                "normalized_label": "anomalocaris"
+            },
+            {
+                "normalized_label": "ant"
+            },
+            {
+                "normalized_label": "antarcticscaleworm"
+            },
+            {
+                "normalized_label": "anteater"
+            },
+            {
+                "normalized_label": "antelope"
+            },
+            {
+                "normalized_label": "antilope"
+            },
+            {
+                "normalized_label": "ape"
+            },
+            {
+                "normalized_label": "appenzellerdog"
+            },
+            {
+                "normalized_label": "appleheadchihuahua"
+            },
+            {
+                "normalized_label": "applemoth"
+            },
+            {
+                "normalized_label": "arabiancobra"
+            },
+            {
+                "normalized_label": "arafurafilesnake"
+            },
+            {
+                "normalized_label": "arapaima"
+            },
+            {
+                "normalized_label": "archaeopteryx"
+            },
+            {
+                "normalized_label": "archaeotherium"
+            },
+            {
+                "normalized_label": "archelonturtle"
+            },
+            {
+                "normalized_label": "arcticfox"
+            },
+            {
+                "normalized_label": "arctichare"
+            },
+            {
+                "normalized_label": "arcticwolf"
+            },
+            {
+                "normalized_label": "arctodus"
+            },
+            {
+                "normalized_label": "arctotherium"
+            },
+            {
+                "normalized_label": "arizonabarkscorpion"
+            },
+            {
+                "normalized_label": "arizonablackrattlesnake"
+            },
+            {
+                "normalized_label": "arizonacoralsnake"
+            },
+            {
+                "normalized_label": "armadillo"
+            },
+            {
+                "normalized_label": "armadillolizard"
+            },
+            {
+                "normalized_label": "armyworm"
+            },
+            {
+                "normalized_label": "arubarattlesnake"
+            },
+            {
+                "normalized_label": "asianarowana"
+            },
+            {
+                "normalized_label": "asiancockroach"
+            },
+            {
+                "normalized_label": "asianelephant"
+            },
+            {
+                "normalized_label": "asiangianthornet"
+            },
+            {
+                "normalized_label": "asianpalmcivet"
+            },
+            {
+                "normalized_label": "asianvinesnake"
+            },
+            {
+                "normalized_label": "asiaticblackbear"
+            },
+            {
+                "normalized_label": "assassinbug"
+            },
+            {
+                "normalized_label": "atlanticsalmon"
+            },
+            {
+                "normalized_label": "atlasmoth"
+            },
+            {
+                "normalized_label": "aurochs"
+            },
+            {
+                "normalized_label": "aussiedoodle"
+            },
+            {
+                "normalized_label": "aussiedor"
+            },
+            {
+                "normalized_label": "australianbulldog"
+            },
+            {
+                "normalized_label": "australiancattledog"
+            },
+            {
+                "normalized_label": "australiancockroach"
+            },
+            {
+                "normalized_label": "australianflatheadperch"
+            },
+            {
+                "normalized_label": "australiangecko"
+            },
+            {
+                "normalized_label": "australiankelpiedog"
+            },
+            {
+                "normalized_label": "australianlabradoodle"
+            },
+            {
+                "normalized_label": "australianmist"
+            },
+            {
+                "normalized_label": "australianretriever"
+            },
+            {
+                "normalized_label": "australianshepherd"
+            },
+            {
+                "normalized_label": "australianterrier"
+            },
+            {
+                "normalized_label": "australopithecus"
+            },
+            {
+                "normalized_label": "avocet"
+            },
+            {
+                "normalized_label": "axolotl"
+            },
+            {
+                "normalized_label": "ayeaye"
+            },
+            {
+                "normalized_label": "babirusa"
+            },
+            {
+                "normalized_label": "baboon"
+            },
+            {
+                "normalized_label": "bactriancamel"
+            },
+            {
+                "normalized_label": "badger"
+            },
+            {
+                "normalized_label": "baiji"
+            },
+            {
+                "normalized_label": "baldeagle"
+            },
+            {
+                "normalized_label": "baleenwhale"
+            },
+            {
+                "normalized_label": "balinese"
+            },
+            {
+                "normalized_label": "balkanlynx"
+            },
+            {
+                "normalized_label": "ballpython"
+            },
+            {
+                "normalized_label": "bambooworms"
+            },
+            {
+                "normalized_label": "bananaballpython"
+            },
+            {
+                "normalized_label": "bananaeel"
+            },
+            {
+                "normalized_label": "bananaspider"
+            },
+            {
+                "normalized_label": "bandedkrait"
+            },
+            {
+                "normalized_label": "bandedpalmcivet"
+            },
+            {
+                "normalized_label": "bandedwatersnake"
+            },
+            {
+                "normalized_label": "bandicoot"
+            },
+            {
+                "normalized_label": "banjocatfish"
+            },
+            {
+                "normalized_label": "banshee"
+            },
+            {
+                "normalized_label": "barb"
+            },
+            {
+                "normalized_label": "barbet"
+            },
+            {
+                "normalized_label": "barnowl"
+            },
+            {
+                "normalized_label": "barnswallow"
+            },
+            {
+                "normalized_label": "barnacle"
+            },
+            {
+                "normalized_label": "barracuda"
+            },
+            {
+                "normalized_label": "barramundifish"
+            },
+            {
+                "normalized_label": "barredowl"
+            },
+            {
+                "normalized_label": "basenjidog"
+            },
+            {
+                "normalized_label": "basilisk"
+            },
+            {
+                "normalized_label": "basilisklizard"
+            },
+            {
+                "normalized_label": "basilosaurus"
+            },
+            {
+                "normalized_label": "baskingshark"
+            },
+            {
+                "normalized_label": "bass"
+            },
+            {
+                "normalized_label": "bassador"
+            },
+            {
+                "normalized_label": "bassetfauvedebretagne"
+            },
+            {
+                "normalized_label": "bassethound"
+            },
+            {
+                "normalized_label": "bassetoodle"
+            },
+            {
+                "normalized_label": "bat"
+            },
+            {
+                "normalized_label": "batfish"
+            },
+            {
+                "normalized_label": "bavarianmountainhound"
+            },
+            {
+                "normalized_label": "baya"
+            },
+            {
+                "normalized_label": "bea-tzu"
+            },
+            {
+                "normalized_label": "beabull"
+            },
+            {
+                "normalized_label": "beagador"
+            },
+            {
+                "normalized_label": "beagle"
+            },
+            {
+                "normalized_label": "beagleshepherd"
+            },
+            {
+                "normalized_label": "beaglier"
+            },
+            {
+                "normalized_label": "beago"
+            },
+            {
+                "normalized_label": "bear"
+            },
+            {
+                "normalized_label": "beardedcollie"
+            },
+            {
+                "normalized_label": "beardeddragon"
+            },
+            {
+                "normalized_label": "beardedvulture"
+            },
+            {
+                "normalized_label": "beaski"
+            },
+            {
+                "normalized_label": "beauceron"
+            },
+            {
+                "normalized_label": "beautyratsnake"
+            },
+            {
+                "normalized_label": "beaver"
+            },
+            {
+                "normalized_label": "bedbugs"
+            },
+            {
+                "normalized_label": "bedlingtonterrier"
+            },
+            {
+                "normalized_label": "bee"
+            },
+            {
+                "normalized_label": "beefalo"
+            },
+            {
+                "normalized_label": "beetle"
+            },
+            {
+                "normalized_label": "behemoth"
+            },
+            {
+                "normalized_label": "belgianshepherd"
+            },
+            {
+                "normalized_label": "belgiantervuren"
+            },
+            {
+                "normalized_label": "belugasturgeon"
+            },
+            {
+                "normalized_label": "bengaltiger"
+            },
+            {
+                "normalized_label": "bergamasco"
+            },
+            {
+                "normalized_label": "bergerpicard"
+            },
+            {
+                "normalized_label": "bernedoodle"
+            },
+            {
+                "normalized_label": "bernesemountaindog"
+            },
+            {
+                "normalized_label": "berneseshepherd"
+            },
+            {
+                "normalized_label": "bettafish"
+            },
+            {
+                "normalized_label": "bichir"
+            },
+            {
+                "normalized_label": "bichonfrise"
+            },
+            {
+                "normalized_label": "bichpoo"
+            },
+            {
+                "normalized_label": "biewerterrier"
+            },
+            {
+                "normalized_label": "bigfoot"
+            },
+            {
+                "normalized_label": "bighornsheep"
+            },
+            {
+                "normalized_label": "bilby"
+            },
+            {
+                "normalized_label": "binturong"
+            },
+            {
+                "normalized_label": "bird"
+            },
+            {
+                "normalized_label": "birdofparadise"
+            },
+            {
+                "normalized_label": "birman"
+            },
+            {
+                "normalized_label": "biscuitbeetle"
+            },
+            {
+                "normalized_label": "bison"
+            },
+            {
+                "normalized_label": "blackandtancoonhound"
+            },
+            {
+                "normalized_label": "blackmamba"
+            },
+            {
+                "normalized_label": "blackmarlin"
+            },
+            {
+                "normalized_label": "blackratsnake"
+            },
+            {
+                "normalized_label": "blackrhinoceros"
+            },
+            {
+                "normalized_label": "blackrussianterrier"
+            },
+            {
+                "normalized_label": "blackwasp"
+            },
+            {
+                "normalized_label": "blackwidow"
+            },
+            {
+                "normalized_label": "blackwidowspider"
+            },
+            {
+                "normalized_label": "blackwitchmoth"
+            },
+            {
+                "normalized_label": "black-cappedchickadee"
+            },
+            {
+                "normalized_label": "black-footedferret"
+            },
+            {
+                "normalized_label": "black-headedpython"
+            },
+            {
+                "normalized_label": "blacknoseshark"
+            },
+            {
+                "normalized_label": "blackpollwarbler"
+            },
+            {
+                "normalized_label": "blacktipreefshark"
+            },
+            {
+                "normalized_label": "bladefinbasslet"
+            },
+            {
+                "normalized_label": "blanketoctopus"
+            },
+            {
+                "normalized_label": "blindsnake"
+            },
+            {
+                "normalized_label": "blisterbeetle"
+            },
+            {
+                "normalized_label": "blobfish"
+            },
+            {
+                "normalized_label": "bloodpython"
+            },
+            {
+                "normalized_label": "bloodhound"
+            },
+            {
+                "normalized_label": "bluebellylizard"
+            },
+            {
+                "normalized_label": "bluecatfish"
+            },
+            {
+                "normalized_label": "blueeyedpleco"
+            },
+            {
+                "normalized_label": "bluegraygnatcatcher"
+            },
+            {
+                "normalized_label": "bluegrosbeak"
+            },
+            {
+                "normalized_label": "blueiguana"
+            },
+            {
+                "normalized_label": "bluejay"
+            },
+            {
+                "normalized_label": "bluelacydog"
+            },
+            {
+                "normalized_label": "bluepicardyspaniel"
+            },
+            {
+                "normalized_label": "blueracer"
+            },
+            {
+                "normalized_label": "blueshark"
+            },
+            {
+                "normalized_label": "bluetit"
+            },
+            {
+                "normalized_label": "bluewhale"
+            },
+            {
+                "normalized_label": "blue-ringedoctopus"
+            },
+            {
+                "normalized_label": "bluefintuna"
+            },
+            {
+                "normalized_label": "bluegill"
+            },
+            {
+                "normalized_label": "bluetickcoonhound"
+            },
+            {
+                "normalized_label": "boas"
+            },
+            {
+                "normalized_label": "bobcat"
+            },
+            {
+                "normalized_label": "bobolink"
+            },
+            {
+                "normalized_label": "bogeyman"
+            },
+            {
+                "normalized_label": "boggle"
+            },
+            {
+                "normalized_label": "boglenterrier"
+            },
+            {
+                "normalized_label": "bogyman"
+            },
+            {
+                "normalized_label": "boiga"
+            },
+            {
+                "normalized_label": "boliviananaconda"
+            },
+            {
+                "normalized_label": "bolognesedog"
+            },
+            {
+                "normalized_label": "bombay"
+            },
+            {
+                "normalized_label": "bongo"
+            },
+            {
+                "normalized_label": "bonitofish"
+            },
+            {
+                "normalized_label": "bonnetheadshark"
+            },
+            {
+                "normalized_label": "bonobo"
+            },
+            {
+                "normalized_label": "booby"
+            },
+            {
+                "normalized_label": "boogeyman"
+            },
+            {
+                "normalized_label": "boomslang"
+            },
+            {
+                "normalized_label": "borador"
+            },
+            {
+                "normalized_label": "bordercollie"
+            },
+            {
+                "normalized_label": "borderterrier"
+            },
+            {
+                "normalized_label": "bordoodle"
+            },
+            {
+                "normalized_label": "borkie"
+            },
+            {
+                "normalized_label": "borneanorang-utan"
+            },
+            {
+                "normalized_label": "borneoelephant"
+            },
+            {
+                "normalized_label": "bostonterrier"
+            },
+            {
+                "normalized_label": "bottlenosedolphin"
+            },
+            {
+                "normalized_label": "bouvierdesflandres"
+            },
+            {
+                "normalized_label": "bowfin"
+            },
+            {
+                "normalized_label": "bowheadwhale"
+            },
+            {
+                "normalized_label": "boxtreemoth"
+            },
+            {
+                "normalized_label": "boxturtle"
+            },
+            {
+                "normalized_label": "boxador"
+            },
+            {
+                "normalized_label": "boxerdog"
+            },
+            {
+                "normalized_label": "boxerdoodle"
+            },
+            {
+                "normalized_label": "boxfish"
+            },
+            {
+                "normalized_label": "boxsky"
+            },
+            {
+                "normalized_label": "boxweiler"
+            },
+            {
+                "normalized_label": "boykinspaniel"
+            },
+            {
+                "normalized_label": "brachiosaurus"
+            },
+            {
+                "normalized_label": "brahminyblindsnake"
+            },
+            {
+                "normalized_label": "brazilianterrier"
+            },
+            {
+                "normalized_label": "britishtimber"
+            },
+            {
+                "normalized_label": "brittany"
+            },
+            {
+                "normalized_label": "brontosaurus"
+            },
+            {
+                "normalized_label": "bronzewhalershark"
+            },
+            {
+                "normalized_label": "brookesiamicra"
+            },
+            {
+                "normalized_label": "brownbear"
+            },
+            {
+                "normalized_label": "browndogtick"
+            },
+            {
+                "normalized_label": "brownhyena"
+            },
+            {
+                "normalized_label": "brownsnake"
+            },
+            {
+                "normalized_label": "brownwatersnake"
+            },
+            {
+                "normalized_label": "brown-bandedcockroach"
+            },
+            {
+                "normalized_label": "brug"
+            },
+            {
+                "normalized_label": "brusselsgriffon"
+            },
+            {
+                "normalized_label": "budgerigar"
+            },
+            {
+                "normalized_label": "buffalo"
+            },
+            {
+                "normalized_label": "bullshark"
+            },
+            {
+                "normalized_label": "bullterrier"
+            },
+            {
+                "normalized_label": "bulltrout"
+            },
+            {
+                "normalized_label": "bulldog"
+            },
+            {
+                "normalized_label": "bullfrog"
+            },
+            {
+                "normalized_label": "bullmastiff"
+            },
+            {
+                "normalized_label": "bullsnake"
+            },
+            {
+                "normalized_label": "bumblebee"
+            },
+            {
+                "normalized_label": "burmese"
+            },
+            {
+                "normalized_label": "burmesepython"
+            },
+            {
+                "normalized_label": "burrowingfrog"
+            },
+            {
+                "normalized_label": "burrowingowl"
+            },
+            {
+                "normalized_label": "bushbaby"
+            },
+            {
+                "normalized_label": "bushviper"
+            },
+            {
+                "normalized_label": "bushmastersnake"
+            },
+            {
+                "normalized_label": "butterfly"
+            },
+            {
+                "normalized_label": "butterflyfish"
+            },
+            {
+                "normalized_label": "cabbagemoth"
+            },
+            {
+                "normalized_label": "cacatua"
+            },
+            {
+                "normalized_label": "cactusmoth"
+            },
+            {
+                "normalized_label": "cactusmouse"
+            },
+            {
+                "normalized_label": "caecilian"
+            },
+            {
+                "normalized_label": "caiman"
+            },
+            {
+                "normalized_label": "caimanlizard"
+            },
+            {
+                "normalized_label": "cairnterrier"
+            },
+            {
+                "normalized_label": "californiakingsnake"
+            },
+            {
+                "normalized_label": "camel"
+            },
+            {
+                "normalized_label": "camelcricket"
+            },
+            {
+                "normalized_label": "camelspider"
+            },
+            {
+                "normalized_label": "canaandog"
+            },
+            {
+                "normalized_label": "canadalynx"
+            },
+            {
+                "normalized_label": "canadawarbler"
+            },
+            {
+                "normalized_label": "canadianeskimodog"
+            },
+            {
+                "normalized_label": "canadianhorse"
+            },
+            {
+                "normalized_label": "canecorso"
+            },
+            {
+                "normalized_label": "canebrakerattlesnake"
+            },
+            {
+                "normalized_label": "cantil"
+            },
+            {
+                "normalized_label": "capelion"
+            },
+            {
+                "normalized_label": "capybara"
+            },
+            {
+                "normalized_label": "caracal"
+            },
+            {
+                "normalized_label": "caribbeanreefshark"
+            },
+            {
+                "normalized_label": "caribou"
+            },
+            {
+                "normalized_label": "carolinadog"
+            },
+            {
+                "normalized_label": "carolinaparakeet"
+            },
+            {
+                "normalized_label": "carp"
+            },
+            {
+                "normalized_label": "carpenterant"
+            },
+            {
+                "normalized_label": "carpetpython"
+            },
+            {
+                "normalized_label": "carpetviper"
+            },
+            {
+                "normalized_label": "cascabel"
+            },
+            {
+                "normalized_label": "cashmeregoat"
+            },
+            {
+                "normalized_label": "cassowary"
+            },
+            {
+                "normalized_label": "cat"
+            },
+            {
+                "normalized_label": "catsnake"
+            },
+            {
+                "normalized_label": "cat-eyedsnake"
+            },
+            {
+                "normalized_label": "catahoulaleopard"
+            },
+            {
+                "normalized_label": "catalansheepdog"
+            },
+            {
+                "normalized_label": "caterpillar"
+            },
+            {
+                "normalized_label": "catfish"
+            },
+            {
+                "normalized_label": "cavatzu"
+            },
+            {
+                "normalized_label": "cavador"
+            },
+            {
+                "normalized_label": "cavalierkingcharlesspaniel"
+            },
+            {
+                "normalized_label": "cavapoo"
+            },
+            {
+                "normalized_label": "cavebear"
+            },
+            {
+                "normalized_label": "cavelion"
+            },
+            {
+                "normalized_label": "ccylla"
+            },
+            {
+                "normalized_label": "cecropiamoth"
+            },
+            {
+                "normalized_label": "centaur"
+            },
+            {
+                "normalized_label": "centaurs"
+            },
+            {
+                "normalized_label": "centipede"
+            },
+            {
+                "normalized_label": "centralrangestaipan"
+            },
+            {
+                "normalized_label": "ceratosaurus"
+            },
+            {
+                "normalized_label": "cerberus"
+            },
+            {
+                "normalized_label": "ceskyfousek"
+            },
+            {
+                "normalized_label": "ceskyterrier"
+            },
+            {
+                "normalized_label": "chameleon"
+            },
+            {
+                "normalized_label": "chamois"
+            },
+            {
+                "normalized_label": "chartreux"
+            },
+            {
+                "normalized_label": "charybdis"
+            },
+            {
+                "normalized_label": "cheagle"
+            },
+            {
+                "normalized_label": "checkeredgartersnake"
+            },
+            {
+                "normalized_label": "cheetah"
+            },
+            {
+                "normalized_label": "chesapeakebayretriever"
+            },
+            {
+                "normalized_label": "chickadee"
+            },
+            {
+                "normalized_label": "chicken"
+            },
+            {
+                "normalized_label": "chickensnake"
+            },
+            {
+                "normalized_label": "chihuahua"
+            },
+            {
+                "normalized_label": "chimaera"
+            },
+            {
+                "normalized_label": "chimera"
+            },
+            {
+                "normalized_label": "chimpanzee"
+            },
+            {
+                "normalized_label": "chinchilla"
+            },
+            {
+                "normalized_label": "chinesealligator"
+            },
+            {
+                "normalized_label": "chinesecobra"
+            },
+            {
+                "normalized_label": "chinesecresteddog"
+            },
+            {
+                "normalized_label": "chinesegeese"
+            },
+            {
+                "normalized_label": "chinesepaddlefish"
+            },
+            {
+                "normalized_label": "chineseshar-pei"
+            },
+            {
+                "normalized_label": "chinook"
+            },
+            {
+                "normalized_label": "chinooksalmon"
+            },
+            {
+                "normalized_label": "chinstrappenguin"
+            },
+            {
+                "normalized_label": "chipmunk"
+            },
+            {
+                "normalized_label": "chipoo"
+            },
+            {
+                "normalized_label": "chippingsparrow"
+            },
+            {
+                "normalized_label": "chiweenie"
+            },
+            {
+                "normalized_label": "chorkie"
+            },
+            {
+                "normalized_label": "chowchow"
+            },
+            {
+                "normalized_label": "chowshepherd"
+            },
+            {
+                "normalized_label": "christmasislandredcrab"
+            },
+            {
+                "normalized_label": "chupacabra"
+            },
+            {
+                "normalized_label": "cicada"
+            },
+            {
+                "normalized_label": "cichlid"
+            },
+            {
+                "normalized_label": "cinereousvulture"
+            },
+            {
+                "normalized_label": "cinnamonferret"
+            },
+            {
+                "normalized_label": "cloudedleopard"
+            },
+            {
+                "normalized_label": "clownfish"
+            },
+            {
+                "normalized_label": "clumberspaniel"
+            },
+            {
+                "normalized_label": "coachwhipsnake"
+            },
+            {
+                "normalized_label": "coastalcarpetpython"
+            },
+            {
+                "normalized_label": "coastaltaipan"
+            },
+            {
+                "normalized_label": "coati"
+            },
+            {
+                "normalized_label": "cobiafish"
+            },
+            {
+                "normalized_label": "cobras"
+            },
+            {
+                "normalized_label": "cockalier"
+            },
+            {
+                "normalized_label": "cockapoo"
+            },
+            {
+                "normalized_label": "cockatiel"
+            },
+            {
+                "normalized_label": "cockatoo"
+            },
+            {
+                "normalized_label": "cockerspaniel"
+            },
+            {
+                "normalized_label": "cockroach"
+            },
+            {
+                "normalized_label": "codfish"
+            },
+            {
+                "normalized_label": "codlingmoth"
+            },
+            {
+                "normalized_label": "coelacanth"
+            },
+            {
+                "normalized_label": "collaredpeccary"
+            },
+            {
+                "normalized_label": "collie"
+            },
+            {
+                "normalized_label": "colossalsquid"
+            },
+            {
+                "normalized_label": "cometmoth"
+            },
+            {
+                "normalized_label": "commonboa"
+            },
+            {
+                "normalized_label": "commonbuzzard"
+            },
+            {
+                "normalized_label": "commoneuropeanadder"
+            },
+            {
+                "normalized_label": "commonfrog"
+            },
+            {
+                "normalized_label": "commonfurniturebeetle"
+            },
+            {
+                "normalized_label": "commonhousespider"
+            },
+            {
+                "normalized_label": "commonloon"
+            },
+            {
+                "normalized_label": "commonraven"
+            },
+            {
+                "normalized_label": "commontoad"
+            },
+            {
+                "normalized_label": "compsognathus"
+            },
+            {
+                "normalized_label": "condor"
+            },
+            {
+                "normalized_label": "congereel"
+            },
+            {
+                "normalized_label": "congosnake"
+            },
+            {
+                "normalized_label": "cookiecuttershark"
+            },
+            {
+                "normalized_label": "copperhead"
+            },
+            {
+                "normalized_label": "coral"
+            },
+            {
+                "normalized_label": "coralsnake"
+            },
+            {
+                "normalized_label": "corgidor"
+            },
+            {
+                "normalized_label": "corgipoo"
+            },
+            {
+                "normalized_label": "corkie"
+            },
+            {
+                "normalized_label": "cormanshepherd"
+            },
+            {
+                "normalized_label": "cornrexcat"
+            },
+            {
+                "normalized_label": "cornsnake"
+            },
+            {
+                "normalized_label": "cornishrex"
+            },
+            {
+                "normalized_label": "cotondetulear"
+            },
+            {
+                "normalized_label": "cotton-toptamarin"
+            },
+            {
+                "normalized_label": "cottonmouth"
+            },
+            {
+                "normalized_label": "cougar"
+            },
+            {
+                "normalized_label": "cow"
+            },
+            {
+                "normalized_label": "coyote"
+            },
+            {
+                "normalized_label": "crab"
+            },
+            {
+                "normalized_label": "crabspider"
+            },
+            {
+                "normalized_label": "crab-eatingmacaque"
+            },
+            {
+                "normalized_label": "crabeaterseal"
+            },
+            {
+                "normalized_label": "crane"
+            },
+            {
+                "normalized_label": "crappiefish"
+            },
+            {
+                "normalized_label": "crestedgecko"
+            },
+            {
+                "normalized_label": "crestedpenguin"
+            },
+            {
+                "normalized_label": "cricket"
+            },
+            {
+                "normalized_label": "crocodile"
+            },
+            {
+                "normalized_label": "crossfox"
+            },
+            {
+                "normalized_label": "crossrivergorilla"
+            },
+            {
+                "normalized_label": "crow"
+            },
+            {
+                "normalized_label": "cruciancarp"
+            },
+            {
+                "normalized_label": "cubanboa"
+            },
+            {
+                "normalized_label": "cubancockroach"
+            },
+            {
+                "normalized_label": "cuckoo"
+            },
+            {
+                "normalized_label": "curlycoatedretriever"
+            },
+            {
+                "normalized_label": "cuscus"
+            },
+            {
+                "normalized_label": "cuttlefish"
+            },
+            {
+                "normalized_label": "cyclops"
+            },
+            {
+                "normalized_label": "czechoslovakianwolfdog"
+            },
+            {
+                "normalized_label": "dachsador"
+            },
+            {
+                "normalized_label": "dachshund"
+            },
+            {
+                "normalized_label": "daeodon"
+            },
+            {
+                "normalized_label": "dalmadoodle"
+            },
+            {
+                "normalized_label": "dalmador"
+            },
+            {
+                "normalized_label": "dalmatian"
+            },
+            {
+                "normalized_label": "danios"
+            },
+            {
+                "normalized_label": "dappledachshund"
+            },
+            {
+                "normalized_label": "dark-eyedjunco"
+            },
+            {
+                "normalized_label": "deathadder"
+            },
+            {
+                "normalized_label": "deathwatchbeetle"
+            },
+            {
+                "normalized_label": "deer"
+            },
+            {
+                "normalized_label": "deerheadchihuahua"
+            },
+            {
+                "normalized_label": "deertick"
+            },
+            {
+                "normalized_label": "desertkingsnake"
+            },
+            {
+                "normalized_label": "desertlocust"
+            },
+            {
+                "normalized_label": "desertrainfrog"
+            },
+            {
+                "normalized_label": "deserttortoise"
+            },
+            {
+                "normalized_label": "deutschebracke"
+            },
+            {
+                "normalized_label": "devilscoachhorsebeetle"
+            },
+            {
+                "normalized_label": "devonrex"
+            },
+            {
+                "normalized_label": "dhole"
+            },
+            {
+                "normalized_label": "diamondpython"
+            },
+            {
+                "normalized_label": "diamondbackmoth"
+            },
+            {
+                "normalized_label": "dik-dik"
+            },
+            {
+                "normalized_label": "dingo"
+            },
+            {
+                "normalized_label": "diplodocus"
+            },
+            {
+                "normalized_label": "direwolf"
+            },
+            {
+                "normalized_label": "discus"
+            },
+            {
+                "normalized_label": "dobermanpinscher"
+            },
+            {
+                "normalized_label": "dodo"
+            },
+            {
+                "normalized_label": "dog"
+            },
+            {
+                "normalized_label": "dogtick"
+            },
+            {
+                "normalized_label": "dogfish"
+            },
+            {
+                "normalized_label": "dogoargentino"
+            },
+            {
+                "normalized_label": "doguedebordeaux"
+            },
+            {
+                "normalized_label": "dolphin"
+            },
+            {
+                "normalized_label": "dolphinfish"
+            },
+            {
+                "normalized_label": "donkey"
+            },
+            {
+                "normalized_label": "dorgi"
+            },
+            {
+                "normalized_label": "dorkie"
+            },
+            {
+                "normalized_label": "dormouse"
+            },
+            {
+                "normalized_label": "doubledoodle"
+            },
+            {
+                "normalized_label": "douc"
+            },
+            {
+                "normalized_label": "doxiepoo"
+            },
+            {
+                "normalized_label": "doxle"
+            },
+            {
+                "normalized_label": "dracovolanslizard"
+            },
+            {
+                "normalized_label": "draculaparrot"
+            },
+            {
+                "normalized_label": "dragon"
+            },
+            {
+                "normalized_label": "dragonfish"
+            },
+            {
+                "normalized_label": "dragonfly"
+            },
+            {
+                "normalized_label": "drever"
+            },
+            {
+                "normalized_label": "drumfish"
+            },
+            {
+                "normalized_label": "dubiacockroach"
+            },
+            {
+                "normalized_label": "duck"
+            },
+            {
+                "normalized_label": "dugong"
+            },
+            {
+                "normalized_label": "dungbeetle"
+            },
+            {
+                "normalized_label": "dunker"
+            },
+            {
+                "normalized_label": "dunnock"
+            },
+            {
+                "normalized_label": "duskydolphin"
+            },
+            {
+                "normalized_label": "duskyshark"
+            },
+            {
+                "normalized_label": "dwarfboa"
+            },
+            {
+                "normalized_label": "dwarfcrocodile"
+            },
+            {
+                "normalized_label": "dwarfhamster"
+            },
+            {
+                "normalized_label": "eagle"
+            },
+            {
+                "normalized_label": "earthworm"
+            },
+            {
+                "normalized_label": "earwig"
+            },
+            {
+                "normalized_label": "easternbarredbandicoot"
+            },
+            {
+                "normalized_label": "easternbluebird"
+            },
+            {
+                "normalized_label": "easternbrownsnake"
+            },
+            {
+                "normalized_label": "easternchipmunk"
+            },
+            {
+                "normalized_label": "easterncoralsnake"
+            },
+            {
+                "normalized_label": "easterndiamondbackrattlesnake"
+            },
+            {
+                "normalized_label": "easternfencelizard"
+            },
+            {
+                "normalized_label": "easternglasslizard"
+            },
+            {
+                "normalized_label": "easterngorilla"
+            },
+            {
+                "normalized_label": "easterngraysquirrel"
+            },
+            {
+                "normalized_label": "easterngreenmamba"
+            },
+            {
+                "normalized_label": "easternindigosnake"
+            },
+            {
+                "normalized_label": "easternlowlandgorilla"
+            },
+            {
+                "normalized_label": "easternphoebe"
+            },
+            {
+                "normalized_label": "easternracer"
+            },
+            {
+                "normalized_label": "easternratsnake"
+            },
+            {
+                "normalized_label": "easternwoodrat"
+            },
+            {
+                "normalized_label": "echidna"
+            },
+            {
+                "normalized_label": "eclectusparrot"
+            },
+            {
+                "normalized_label": "ediblefrog"
+            },
+            {
+                "normalized_label": "eel"
+            },
+            {
+                "normalized_label": "egyptiancobra"
+            },
+            {
+                "normalized_label": "egyptiangoose"
+            },
+            {
+                "normalized_label": "egyptianmau"
+            },
+            {
+                "normalized_label": "eland"
+            },
+            {
+                "normalized_label": "elasmosaurus"
+            },
+            {
+                "normalized_label": "elasmotherium"
+            },
+            {
+                "normalized_label": "electriccatfish"
+            },
+            {
+                "normalized_label": "electriceel"
+            },
+            {
+                "normalized_label": "eleganttern"
+            },
+            {
+                "normalized_label": "elephant"
+            },
+            {
+                "normalized_label": "elephantseal"
+            },
+            {
+                "normalized_label": "elephantshrew"
+            },
+            {
+                "normalized_label": "elk"
+            },
+            {
+                "normalized_label": "emeraldtreemonitor"
+            },
+            {
+                "normalized_label": "emperorpenguin"
+            },
+            {
+                "normalized_label": "emperortamarin"
+            },
+            {
+                "normalized_label": "emu"
+            },
+            {
+                "normalized_label": "englishbulldog"
+            },
+            {
+                "normalized_label": "englishcockerspaniel"
+            },
+            {
+                "normalized_label": "englishcreamgoldenretriever"
+            },
+            {
+                "normalized_label": "englishfoxhound"
+            },
+            {
+                "normalized_label": "englishpointer"
+            },
+            {
+                "normalized_label": "englishsetter"
+            },
+            {
+                "normalized_label": "englishshepherd"
+            },
+            {
+                "normalized_label": "englishspringerspaniel"
+            },
+            {
+                "normalized_label": "entlebuchermountaindog"
+            },
+            {
+                "normalized_label": "epagneulpontaudemer"
+            },
+            {
+                "normalized_label": "equatorialspittingcobra"
+            },
+            {
+                "normalized_label": "ermine"
+            },
+            {
+                "normalized_label": "escolar"
+            },
+            {
+                "normalized_label": "eskimodog"
+            },
+            {
+                "normalized_label": "eskipoo"
+            },
+            {
+                "normalized_label": "estrelamountaindog"
+            },
+            {
+                "normalized_label": "eurasianbeaver"
+            },
+            {
+                "normalized_label": "eurasianjay"
+            },
+            {
+                "normalized_label": "eurasianlynx"
+            },
+            {
+                "normalized_label": "eurasiannuthatch"
+            },
+            {
+                "normalized_label": "eurasianwolf"
+            },
+            {
+                "normalized_label": "europeanbee-eater"
+            },
+            {
+                "normalized_label": "europeancornborer"
+            },
+            {
+                "normalized_label": "europeanpolecat"
+            },
+            {
+                "normalized_label": "europeanrobin"
+            },
+            {
+                "normalized_label": "europeanwildcat"
+            },
+            {
+                "normalized_label": "eveningbat"
+            },
+            {
+                "normalized_label": "eyelashviper"
+            },
+            {
+                "normalized_label": "fairies"
+            },
+            {
+                "normalized_label": "fairy"
+            },
+            {
+                "normalized_label": "falcon"
+            },
+            {
+                "normalized_label": "fallowdeer"
+            },
+            {
+                "normalized_label": "falsecobra"
+            },
+            {
+                "normalized_label": "falsecoralsnake"
+            },
+            {
+                "normalized_label": "falsekillerwhale"
+            },
+            {
+                "normalized_label": "falsewatercobra"
+            },
+            {
+                "normalized_label": "falsewidowspider"
+            },
+            {
+                "normalized_label": "fangtooth"
+            },
+            {
+                "normalized_label": "faun"
+            },
+            {
+                "normalized_label": "fauns"
+            },
+            {
+                "normalized_label": "feist"
+            },
+            {
+                "normalized_label": "fennecfox"
+            },
+            {
+                "normalized_label": "fenrir"
+            },
+            {
+                "normalized_label": "fer-de-lancesnake"
+            },
+            {
+                "normalized_label": "ferret"
+            },
+            {
+                "normalized_label": "ferruginoushawk"
+            },
+            {
+                "normalized_label": "fiddlercrab"
+            },
+            {
+                "normalized_label": "fieldspaniel"
+            },
+            {
+                "normalized_label": "fiercesnake"
+            },
+            {
+                "normalized_label": "filabrasileiro"
+            },
+            {
+                "normalized_label": "finwhale"
+            },
+            {
+                "normalized_label": "fingermonkey"
+            },
+            {
+                "normalized_label": "finnishspitz"
+            },
+            {
+                "normalized_label": "fireeel"
+            },
+            {
+                "normalized_label": "firesalamander"
+            },
+            {
+                "normalized_label": "fire-belliedtoad"
+            },
+            {
+                "normalized_label": "firefly"
+            },
+            {
+                "normalized_label": "fish"
+            },
+            {
+                "normalized_label": "fishercat"
+            },
+            {
+                "normalized_label": "fishingcat"
+            },
+            {
+                "normalized_label": "flamingo"
+            },
+            {
+                "normalized_label": "flat-coatedretriever"
+            },
+            {
+                "normalized_label": "flea"
+            },
+            {
+                "normalized_label": "floridagar"
+            },
+            {
+                "normalized_label": "floridapanther"
+            },
+            {
+                "normalized_label": "floridawoodscockroach"
+            },
+            {
+                "normalized_label": "flounder"
+            },
+            {
+                "normalized_label": "flowerhornfish"
+            },
+            {
+                "normalized_label": "flukefish"
+            },
+            {
+                "normalized_label": "fly"
+            },
+            {
+                "normalized_label": "flyingfish"
+            },
+            {
+                "normalized_label": "flyinglemur"
+            },
+            {
+                "normalized_label": "flyingsnake"
+            },
+            {
+                "normalized_label": "flyingsquirrel"
+            },
+            {
+                "normalized_label": "footballfish"
+            },
+            {
+                "normalized_label": "forestcobra"
+            },
+            {
+                "normalized_label": "formosanmountaindog"
+            },
+            {
+                "normalized_label": "fossa"
+            },
+            {
+                "normalized_label": "fox"
+            },
+            {
+                "normalized_label": "foxsnakes"
+            },
+            {
+                "normalized_label": "foxsquirrel"
+            },
+            {
+                "normalized_label": "foxterrier"
+            },
+            {
+                "normalized_label": "frenchbulldog"
+            },
+            {
+                "normalized_label": "frenchton"
+            },
+            {
+                "normalized_label": "frengle"
+            },
+            {
+                "normalized_label": "freshwatercrocodile"
+            },
+            {
+                "normalized_label": "freshwatereel"
+            },
+            {
+                "normalized_label": "freshwaterjellyfish"
+            },
+            {
+                "normalized_label": "frigatebird"
+            },
+            {
+                "normalized_label": "frilledlizard"
+            },
+            {
+                "normalized_label": "frilledshark"
+            },
+            {
+                "normalized_label": "frog"
+            },
+            {
+                "normalized_label": "frogfish"
+            },
+            {
+                "normalized_label": "fruitbat"
+            },
+            {
+                "normalized_label": "fruitfly"
+            },
+            {
+                "normalized_label": "furseal"
+            },
+            {
+                "normalized_label": "gaboonviper"
+            },
+            {
+                "normalized_label": "galapagospenguin"
+            },
+            {
+                "normalized_label": "galapagosshark"
+            },
+            {
+                "normalized_label": "galapagostortoise"
+            },
+            {
+                "normalized_label": "gar"
+            },
+            {
+                "normalized_label": "gardeneel"
+            },
+            {
+                "normalized_label": "gargoylegecko"
+            },
+            {
+                "normalized_label": "gartersnake"
+            },
+            {
+                "normalized_label": "gazelle"
+            },
+            {
+                "normalized_label": "gecko"
+            },
+            {
+                "normalized_label": "genet"
+            },
+            {
+                "normalized_label": "gentoopenguin"
+            },
+            {
+                "normalized_label": "geoffroystamarin"
+            },
+            {
+                "normalized_label": "gerberianshepsky"
+            },
+            {
+                "normalized_label": "gerbil"
+            },
+            {
+                "normalized_label": "germancockroach"
+            },
+            {
+                "normalized_label": "germanpinscher"
+            },
+            {
+                "normalized_label": "germanshepherdguide"
+            },
+            {
+                "normalized_label": "germansheppit"
+            },
+            {
+                "normalized_label": "germansheprador"
+            },
+            {
+                "normalized_label": "germanshorthairedpointer"
+            },
+            {
+                "normalized_label": "germanspitz"
+            },
+            {
+                "normalized_label": "gharial"
+            },
+            {
+                "normalized_label": "ghostcatfish"
+            },
+            {
+                "normalized_label": "ghostcrab"
+            },
+            {
+                "normalized_label": "giantafricanlandsnail"
+            },
+            {
+                "normalized_label": "giantarmadillo"
+            },
+            {
+                "normalized_label": "giantclam"
+            },
+            {
+                "normalized_label": "giantleopardmoth"
+            },
+            {
+                "normalized_label": "giantpandabear"
+            },
+            {
+                "normalized_label": "giantsalamander"
+            },
+            {
+                "normalized_label": "giantschnauzer"
+            },
+            {
+                "normalized_label": "giantschnoodle"
+            },
+            {
+                "normalized_label": "gibbon"
+            },
+            {
+                "normalized_label": "gilamonster"
+            },
+            {
+                "normalized_label": "giraffe"
+            },
+            {
+                "normalized_label": "glassfrog"
+            },
+            {
+                "normalized_label": "glasslizard"
+            },
+            {
+                "normalized_label": "glechon"
+            },
+            {
+                "normalized_label": "glenofimaalterrier"
+            },
+            {
+                "normalized_label": "glowworm"
+            },
+            {
+                "normalized_label": "gnat"
+            },
+            {
+                "normalized_label": "goat"
+            },
+            {
+                "normalized_label": "goberian"
+            },
+            {
+                "normalized_label": "goblin"
+            },
+            {
+                "normalized_label": "goblinshark"
+            },
+            {
+                "normalized_label": "goblins"
+            },
+            {
+                "normalized_label": "goldador"
+            },
+            {
+                "normalized_label": "goldendox"
+            },
+            {
+                "normalized_label": "goldenlancehead"
+            },
+            {
+                "normalized_label": "goldenliontamarin"
+            },
+            {
+                "normalized_label": "goldenmaskedowl"
+            },
+            {
+                "normalized_label": "goldennewfie"
+            },
+            {
+                "normalized_label": "goldenoriole"
+            },
+            {
+                "normalized_label": "goldenpyrenees"
+            },
+            {
+                "normalized_label": "goldenretriever"
+            },
+            {
+                "normalized_label": "goldensaint"
+            },
+            {
+                "normalized_label": "goldenshepherd"
+            },
+            {
+                "normalized_label": "golden-crownedflyingfox"
+            },
+            {
+                "normalized_label": "goldendoodle"
+            },
+            {
+                "normalized_label": "goldfish"
+            },
+            {
+                "normalized_label": "goliathfrog"
+            },
+            {
+                "normalized_label": "goliathtigerfish"
+            },
+            {
+                "normalized_label": "gomphotherium"
+            },
+            {
+                "normalized_label": "goonchcatfish"
+            },
+            {
+                "normalized_label": "goose"
+            },
+            {
+                "normalized_label": "gopher"
+            },
+            {
+                "normalized_label": "gophersnake"
+            },
+            {
+                "normalized_label": "gophertortoise"
+            },
+            {
+                "normalized_label": "gordonsetter"
+            },
+            {
+                "normalized_label": "gorgon"
+            },
+            {
+                "normalized_label": "gorilla"
+            },
+            {
+                "normalized_label": "goshawk"
+            },
+            {
+                "normalized_label": "gouldianfinch"
+            },
+            {
+                "normalized_label": "grasscarp"
+            },
+            {
+                "normalized_label": "grasssnake"
+            },
+            {
+                "normalized_label": "grasshopper"
+            },
+            {
+                "normalized_label": "grasshoppermouse"
+            },
+            {
+                "normalized_label": "grayfox"
+            },
+            {
+                "normalized_label": "graytreefrog"
+            },
+            {
+                "normalized_label": "greatblueheron"
+            },
+            {
+                "normalized_label": "greatcrestedflycatcher"
+            },
+            {
+                "normalized_label": "greatdane"
+            },
+            {
+                "normalized_label": "greatdanoodle"
+            },
+            {
+                "normalized_label": "greategret"
+            },
+            {
+                "normalized_label": "greathammerheadshark"
+            },
+            {
+                "normalized_label": "greatplainsratsnake"
+            },
+            {
+                "normalized_label": "greatpyrenees"
+            },
+            {
+                "normalized_label": "greatwhiteshark"
+            },
+            {
+                "normalized_label": "greaterswissmountaindog"
+            },
+            {
+                "normalized_label": "greenanaconda"
+            },
+            {
+                "normalized_label": "greenanole"
+            },
+            {
+                "normalized_label": "greenbee-eater"
+            },
+            {
+                "normalized_label": "greenfrog"
+            },
+            {
+                "normalized_label": "greenheron"
+            },
+            {
+                "normalized_label": "greenmamba"
+            },
+            {
+                "normalized_label": "greenratsnake"
+            },
+            {
+                "normalized_label": "greensnake"
+            },
+            {
+                "normalized_label": "greentreefrog"
+            },
+            {
+                "normalized_label": "greentreepython"
+            },
+            {
+                "normalized_label": "greenlanddog"
+            },
+            {
+                "normalized_label": "greenlandshark"
+            },
+            {
+                "normalized_label": "greyheron"
+            },
+            {
+                "normalized_label": "greymouselemur"
+            },
+            {
+                "normalized_label": "greyreefshark"
+            },
+            {
+                "normalized_label": "greyseal"
+            },
+            {
+                "normalized_label": "greyhound"
+            },
+            {
+                "normalized_label": "griffin"
+            },
+            {
+                "normalized_label": "griffonvulture"
+            },
+            {
+                "normalized_label": "griffonshire"
+            },
+            {
+                "normalized_label": "grizzlybear"
+            },
+            {
+                "normalized_label": "groenendael"
+            },
+            {
+                "normalized_label": "groundsnake"
+            },
+            {
+                "normalized_label": "groundhog"
+            },
+            {
+                "normalized_label": "grouper"
+            },
+            {
+                "normalized_label": "grouse"
+            },
+            {
+                "normalized_label": "guineafowl"
+            },
+            {
+                "normalized_label": "guineapig"
+            },
+            {
+                "normalized_label": "guppy"
+            },
+            {
+                "normalized_label": "habusnake"
+            },
+            {
+                "normalized_label": "haddock"
+            },
+            {
+                "normalized_label": "hagfish"
+            },
+            {
+                "normalized_label": "halibut"
+            },
+            {
+                "normalized_label": "hammerheadshark"
+            },
+            {
+                "normalized_label": "hamster"
+            },
+            {
+                "normalized_label": "harborseal"
+            },
+            {
+                "normalized_label": "hardheadcatfish"
+            },
+            {
+                "normalized_label": "hare"
+            },
+            {
+                "normalized_label": "harlequinsnake"
+            },
+            {
+                "normalized_label": "harpseal"
+            },
+            {
+                "normalized_label": "harpy"
+            },
+            {
+                "normalized_label": "harpyeagle"
+            },
+            {
+                "normalized_label": "harrier"
+            },
+            {
+                "normalized_label": "harrishawk"
+            },
+            {
+                "normalized_label": "havanese"
+            },
+            {
+                "normalized_label": "havapoo"
+            },
+            {
+                "normalized_label": "havashire"
+            },
+            {
+                "normalized_label": "hawaiiancrow"
+            },
+            {
+                "normalized_label": "hawaiiangoose"
+            },
+            {
+                "normalized_label": "hawaiianmonkseal"
+            },
+            {
+                "normalized_label": "hawkmothcaterpillar"
+            },
+            {
+                "normalized_label": "hedgehog"
+            },
+            {
+                "normalized_label": "hellbender"
+            },
+            {
+                "normalized_label": "herculesbeetle"
+            },
+            {
+                "normalized_label": "herculesmoth"
+            },
+            {
+                "normalized_label": "hermitcrab"
+            },
+            {
+                "normalized_label": "heron"
+            },
+            {
+                "normalized_label": "herring"
+            },
+            {
+                "normalized_label": "highlandcattle"
+            },
+            {
+                "normalized_label": "himalayan"
+            },
+            {
+                "normalized_label": "himalayanbear"
+            },
+            {
+                "normalized_label": "hippogriff"
+            },
+            {
+                "normalized_label": "hippopotamus"
+            },
+            {
+                "normalized_label": "hoarybat"
+            },
+            {
+                "normalized_label": "hognosesnake"
+            },
+            {
+                "normalized_label": "hokkaido"
+            },
+            {
+                "normalized_label": "honduranwhitebat"
+            },
+            {
+                "normalized_label": "honeybadger"
+            },
+            {
+                "normalized_label": "honeybee"
+            },
+            {
+                "normalized_label": "honeybuzzard"
+            },
+            {
+                "normalized_label": "hoodedoriole"
+            },
+            {
+                "normalized_label": "hoodedseal"
+            },
+            {
+                "normalized_label": "hook-nosedseasnake"
+            },
+            {
+                "normalized_label": "hoopoe"
+            },
+            {
+                "normalized_label": "horgi"
+            },
+            {
+                "normalized_label": "hornshark"
+            },
+            {
+                "normalized_label": "hornbill"
+            },
+            {
+                "normalized_label": "hornedadder"
+            },
+            {
+                "normalized_label": "hornedfrog"
+            },
+            {
+                "normalized_label": "hornedlizard"
+            },
+            {
+                "normalized_label": "hornedviper"
+            },
+            {
+                "normalized_label": "horse"
+            },
+            {
+                "normalized_label": "horsefly"
+            },
+            {
+                "normalized_label": "horseshoecrab"
+            },
+            {
+                "normalized_label": "housefinch"
+            },
+            {
+                "normalized_label": "housesparrow"
+            },
+            {
+                "normalized_label": "housewren"
+            },
+            {
+                "normalized_label": "housefly"
+            },
+            {
+                "normalized_label": "howlermonkey"
+            },
+            {
+                "normalized_label": "human"
+            },
+            {
+                "normalized_label": "humboldtpenguin"
+            },
+            {
+                "normalized_label": "humboldtsquid"
+            },
+            {
+                "normalized_label": "hummingbird"
+            },
+            {
+                "normalized_label": "hummingbirdhawk-moth"
+            },
+            {
+                "normalized_label": "humpbackwhale"
+            },
+            {
+                "normalized_label": "huntaway"
+            },
+            {
+                "normalized_label": "huntsmanspider"
+            },
+            {
+                "normalized_label": "huskador"
+            },
+            {
+                "normalized_label": "huskita"
+            },
+            {
+                "normalized_label": "husky"
+            },
+            {
+                "normalized_label": "huskyjack"
+            },
+            {
+                "normalized_label": "huskydoodle"
+            },
+            {
+                "normalized_label": "hyaenodon"
+            },
+            {
+                "normalized_label": "hydra"
+            },
+            {
+                "normalized_label": "hyena"
+            },
+            {
+                "normalized_label": "ibex"
+            },
+            {
+                "normalized_label": "ibis"
+            },
+            {
+                "normalized_label": "ibizanhound"
+            },
+            {
+                "normalized_label": "icelandicsheepdog"
+            },
+            {
+                "normalized_label": "ichthyosaurus"
+            },
+            {
+                "normalized_label": "iguana"
+            },
+            {
+                "normalized_label": "immortaljellyfish"
+            },
+            {
+                "normalized_label": "impala"
+            },
+            {
+                "normalized_label": "imperialmoth"
+            },
+            {
+                "normalized_label": "indiancobra"
+            },
+            {
+                "normalized_label": "indianelephant"
+            },
+            {
+                "normalized_label": "indiangiantsquirrel"
+            },
+            {
+                "normalized_label": "indianpalmsquirrel"
+            },
+            {
+                "normalized_label": "indianrhinoceros"
+            },
+            {
+                "normalized_label": "indianstartortoise"
+            },
+            {
+                "normalized_label": "indianmealmoth"
+            },
+            {
+                "normalized_label": "indigosnake"
+            },
+            {
+                "normalized_label": "indochinesetiger"
+            },
+            {
+                "normalized_label": "indri"
+            },
+            {
+                "normalized_label": "inlandtaipan"
+            },
+            {
+                "normalized_label": "insect"
+            },
+            {
+                "normalized_label": "insects"
+            },
+            {
+                "normalized_label": "irishdoodle"
+            },
+            {
+                "normalized_label": "irishsetter"
+            },
+            {
+                "normalized_label": "irishterrier"
+            },
+            {
+                "normalized_label": "irishwaterspaniel"
+            },
+            {
+                "normalized_label": "irishwolfhound"
+            },
+            {
+                "normalized_label": "italiangreyhound"
+            },
+            {
+                "normalized_label": "ivory-billedwoodpecker"
+            },
+            {
+                "normalized_label": "jacana"
+            },
+            {
+                "normalized_label": "jackrussell"
+            },
+            {
+                "normalized_label": "jackabee"
+            },
+            {
+                "normalized_label": "jackal"
+            },
+            {
+                "normalized_label": "jackalope"
+            },
+            {
+                "normalized_label": "jackdaw"
+            },
+            {
+                "normalized_label": "jackrabbit"
+            },
+            {
+                "normalized_label": "jaguar"
+            },
+            {
+                "normalized_label": "jaguarundicat"
+            },
+            {
+                "normalized_label": "jamaicanboa"
+            },
+            {
+                "normalized_label": "japanesebeetle"
+            },
+            {
+                "normalized_label": "japanesechin"
+            },
+            {
+                "normalized_label": "japanesemacaque"
+            },
+            {
+                "normalized_label": "japaneseratsnake"
+            },
+            {
+                "normalized_label": "japanesespitz"
+            },
+            {
+                "normalized_label": "japanesesquirrel"
+            },
+            {
+                "normalized_label": "japaneseterrier"
+            },
+            {
+                "normalized_label": "javanrhinoceros"
+            },
+            {
+                "normalized_label": "javanese"
+            },
+            {
+                "normalized_label": "jellyfish"
+            },
+            {
+                "normalized_label": "jerboa"
+            },
+            {
+                "normalized_label": "jewelbeetle"
+            },
+            {
+                "normalized_label": "jonahcrab"
+            },
+            {
+                "normalized_label": "jorospider"
+            },
+            {
+                "normalized_label": "jumpingspider"
+            },
+            {
+                "normalized_label": "junglecarpetpython"
+            },
+            {
+                "normalized_label": "junglefowl"
+            },
+            {
+                "normalized_label": "kaiken"
+            },
+            {
+                "normalized_label": "kakapo"
+            },
+            {
+                "normalized_label": "kangal"
+            },
+            {
+                "normalized_label": "kangaroo"
+            },
+            {
+                "normalized_label": "kangaroorat"
+            },
+            {
+                "normalized_label": "keel-billedtoucan"
+            },
+            {
+                "normalized_label": "keelback"
+            },
+            {
+                "normalized_label": "keeshond"
+            },
+            {
+                "normalized_label": "kenyansandboa"
+            },
+            {
+                "normalized_label": "kerryblueterrier"
+            },
+            {
+                "normalized_label": "kestrel"
+            },
+            {
+                "normalized_label": "ketasalmon"
+            },
+            {
+                "normalized_label": "keydeer"
+            },
+            {
+                "normalized_label": "kikogoat"
+            },
+            {
+                "normalized_label": "killdeer"
+            },
+            {
+                "normalized_label": "killerwhale"
+            },
+            {
+                "normalized_label": "kinabalugiantredleech"
+            },
+            {
+                "normalized_label": "kindergoat"
+            },
+            {
+                "normalized_label": "kingcobra"
+            },
+            {
+                "normalized_label": "kingcrab"
+            },
+            {
+                "normalized_label": "kingpenguin"
+            },
+            {
+                "normalized_label": "kingratsnake"
+            },
+            {
+                "normalized_label": "kingshepherd"
+            },
+            {
+                "normalized_label": "kingsnake"
+            },
+            {
+                "normalized_label": "kingvulture"
+            },
+            {
+                "normalized_label": "kingfisher"
+            },
+            {
+                "normalized_label": "kinkajou"
+            },
+            {
+                "normalized_label": "kishu"
+            },
+            {
+                "normalized_label": "kitfox"
+            },
+            {
+                "normalized_label": "kitefinshark"
+            },
+            {
+                "normalized_label": "kiwi"
+            },
+            {
+                "normalized_label": "klipspringer"
+            },
+            {
+                "normalized_label": "koala"
+            },
+            {
+                "normalized_label": "kodkod"
+            },
+            {
+                "normalized_label": "koifish"
+            },
+            {
+                "normalized_label": "komododragon"
+            },
+            {
+                "normalized_label": "kooikerhondje"
+            },
+            {
+                "normalized_label": "kookaburra"
+            },
+            {
+                "normalized_label": "koolie"
+            },
+            {
+                "normalized_label": "koribustard"
+            },
+            {
+                "normalized_label": "krait"
+            },
+            {
+                "normalized_label": "kraken"
+            },
+            {
+                "normalized_label": "krill"
+            },
+            {
+                "normalized_label": "kudu"
+            },
+            {
+                "normalized_label": "kuvasz"
+            },
+            {
+                "normalized_label": "labahoula"
+            },
+            {
+                "normalized_label": "labmaraner"
+            },
+            {
+                "normalized_label": "labradane"
+            },
+            {
+                "normalized_label": "labradoodle"
+            },
+            {
+                "normalized_label": "labradorretriever"
+            },
+            {
+                "normalized_label": "labraheeler"
+            },
+            {
+                "normalized_label": "ladybug"
+            },
+            {
+                "normalized_label": "lakesturgeon"
+            },
+            {
+                "normalized_label": "lakelandterrier"
+            },
+            {
+                "normalized_label": "lamanchagoat"
+            },
+            {
+                "normalized_label": "lamprey"
+            },
+            {
+                "normalized_label": "lancashireheeler"
+            },
+            {
+                "normalized_label": "lappet-facedvulture"
+            },
+            {
+                "normalized_label": "lapponianherder"
+            },
+            {
+                "normalized_label": "lawnmowerblenny"
+            },
+            {
+                "normalized_label": "lazaruslizard"
+            },
+            {
+                "normalized_label": "leaf-tailedgecko"
+            },
+            {
+                "normalized_label": "leatherbackseaturtle"
+            },
+            {
+                "normalized_label": "leech"
+            },
+            {
+                "normalized_label": "lemming"
+            },
+            {
+                "normalized_label": "lemur"
+            },
+            {
+                "normalized_label": "leonberger"
+            },
+            {
+                "normalized_label": "leopard"
+            },
+            {
+                "normalized_label": "leopardcat"
+            },
+            {
+                "normalized_label": "leopardfrog"
+            },
+            {
+                "normalized_label": "leopardgecko"
+            },
+            {
+                "normalized_label": "leopardlizard"
+            },
+            {
+                "normalized_label": "leopardseal"
+            },
+            {
+                "normalized_label": "leopardshark"
+            },
+            {
+                "normalized_label": "leopardtortoise"
+            },
+            {
+                "normalized_label": "leprechaun"
+            },
+            {
+                "normalized_label": "leprechauns"
+            },
+            {
+                "normalized_label": "leviathan"
+            },
+            {
+                "normalized_label": "lhasaapso"
+            },
+            {
+                "normalized_label": "lhasapoo"
+            },
+            {
+                "normalized_label": "liger"
+            },
+            {
+                "normalized_label": "lion"
+            },
+            {
+                "normalized_label": "lionfish"
+            },
+            {
+                "normalized_label": "littlebrownbat"
+            },
+            {
+                "normalized_label": "littlepenguin"
+            },
+            {
+                "normalized_label": "livyatan"
+            },
+            {
+                "normalized_label": "lizard"
+            },
+            {
+                "normalized_label": "lizardfish"
+            },
+            {
+                "normalized_label": "llama"
+            },
+            {
+                "normalized_label": "loach"
+            },
+            {
+                "normalized_label": "lobster"
+            },
+            {
+                "normalized_label": "lochnessmonster"
+            },
+            {
+                "normalized_label": "locust"
+            },
+            {
+                "normalized_label": "lonestartick"
+            },
+            {
+                "normalized_label": "long-earedowl"
+            },
+            {
+                "normalized_label": "long-hairedrottweiler"
+            },
+            {
+                "normalized_label": "long-tailedtit"
+            },
+            {
+                "normalized_label": "longfinmakoshark"
+            },
+            {
+                "normalized_label": "longnosegar"
+            },
+            {
+                "normalized_label": "lorikeet"
+            },
+            {
+                "normalized_label": "lowchen"
+            },
+            {
+                "normalized_label": "lumpfish"
+            },
+            {
+                "normalized_label": "lungfish"
+            },
+            {
+                "normalized_label": "lynx"
+            },
+            {
+                "normalized_label": "lyrebird"
+            },
+            {
+                "normalized_label": "macaque"
+            },
+            {
+                "normalized_label": "macaronipenguin"
+            },
+            {
+                "normalized_label": "macaw"
+            },
+            {
+                "normalized_label": "mackenziewolf"
+            },
+            {
+                "normalized_label": "madagascarhissingcockroach"
+            },
+            {
+                "normalized_label": "madagascartreeboa"
+            },
+            {
+                "normalized_label": "magellanicpenguin"
+            },
+            {
+                "normalized_label": "maggot"
+            },
+            {
+                "normalized_label": "magpie"
+            },
+            {
+                "normalized_label": "mahimahi"
+            },
+            {
+                "normalized_label": "maiasaura"
+            },
+            {
+                "normalized_label": "mainecoon"
+            },
+            {
+                "normalized_label": "malayancivet"
+            },
+            {
+                "normalized_label": "malayankrait"
+            },
+            {
+                "normalized_label": "malayantiger"
+            },
+            {
+                "normalized_label": "malchi"
+            },
+            {
+                "normalized_label": "mallard"
+            },
+            {
+                "normalized_label": "malteagle"
+            },
+            {
+                "normalized_label": "maltese"
+            },
+            {
+                "normalized_label": "malteseshihtzu"
+            },
+            {
+                "normalized_label": "maltipoo"
+            },
+            {
+                "normalized_label": "mamba"
+            },
+            {
+                "normalized_label": "mamushisnake"
+            },
+            {
+                "normalized_label": "manofwarjellyfish"
+            },
+            {
+                "normalized_label": "manatee"
+            },
+            {
+                "normalized_label": "manchesterterrier"
+            },
+            {
+                "normalized_label": "mandarinratsnake"
+            },
+            {
+                "normalized_label": "mandrill"
+            },
+            {
+                "normalized_label": "manedwolf"
+            },
+            {
+                "normalized_label": "mangrovesnake"
+            },
+            {
+                "normalized_label": "mantaray"
+            },
+            {
+                "normalized_label": "mantellafrog"
+            },
+            {
+                "normalized_label": "manturon"
+            },
+            {
+                "normalized_label": "maraboustork"
+            },
+            {
+                "normalized_label": "marblefox"
+            },
+            {
+                "normalized_label": "marineiguana"
+            },
+            {
+                "normalized_label": "marinetoad"
+            },
+            {
+                "normalized_label": "markhor"
+            },
+            {
+                "normalized_label": "marmoset"
+            },
+            {
+                "normalized_label": "marmot"
+            },
+            {
+                "normalized_label": "marshfrog"
+            },
+            {
+                "normalized_label": "maskedangelfish"
+            },
+            {
+                "normalized_label": "maskedpalmcivet"
+            },
+            {
+                "normalized_label": "massasauga"
+            },
+            {
+                "normalized_label": "mastador"
+            },
+            {
+                "normalized_label": "mastiff"
+            },
+            {
+                "normalized_label": "mayfly"
+            },
+            {
+                "normalized_label": "meagle"
+            },
+            {
+                "normalized_label": "mealybug"
+            },
+            {
+                "normalized_label": "meerkat"
+            },
+            {
+                "normalized_label": "megalania"
+            },
+            {
+                "normalized_label": "megalodon"
+            },
+            {
+                "normalized_label": "megamouthshark"
+            },
+            {
+                "normalized_label": "megatherium"
+            },
+            {
+                "normalized_label": "mekonggiantcatfish"
+            },
+            {
+                "normalized_label": "mermaid"
+            },
+            {
+                "normalized_label": "mexicanalligatorlizard"
+            },
+            {
+                "normalized_label": "mexicanblackkingsnake"
+            },
+            {
+                "normalized_label": "mexicaneagle"
+            },
+            {
+                "normalized_label": "mexicanfree-tailedbat"
+            },
+            {
+                "normalized_label": "mexicanmolelizard"
+            },
+            {
+                "normalized_label": "microraptor"
+            },
+            {
+                "normalized_label": "midgetfadedrattlesnake"
+            },
+            {
+                "normalized_label": "miki"
+            },
+            {
+                "normalized_label": "milksnake"
+            },
+            {
+                "normalized_label": "milkfish"
+            },
+            {
+                "normalized_label": "millipede"
+            },
+            {
+                "normalized_label": "minilabradoodle"
+            },
+            {
+                "normalized_label": "miniaturebullterrier"
+            },
+            {
+                "normalized_label": "miniaturehusky"
+            },
+            {
+                "normalized_label": "miniaturepinscher"
+            },
+            {
+                "normalized_label": "mink"
+            },
+            {
+                "normalized_label": "minkewhale"
+            },
+            {
+                "normalized_label": "minotaur"
+            },
+            {
+                "normalized_label": "mississippikite"
+            },
+            {
+                "normalized_label": "moccasinsnake"
+            },
+            {
+                "normalized_label": "mojarra"
+            },
+            {
+                "normalized_label": "mojaverattlesnake"
+            },
+            {
+                "normalized_label": "molamola"
+            },
+            {
+                "normalized_label": "mole"
+            },
+            {
+                "normalized_label": "molecricket"
+            },
+            {
+                "normalized_label": "molesnake"
+            },
+            {
+                "normalized_label": "molly"
+            },
+            {
+                "normalized_label": "monarchbutterfly"
+            },
+            {
+                "normalized_label": "mongoose"
+            },
+            {
+                "normalized_label": "mongrel"
+            },
+            {
+                "normalized_label": "monitorlizard"
+            },
+            {
+                "normalized_label": "monkey"
+            },
+            {
+                "normalized_label": "monkfish"
+            },
+            {
+                "normalized_label": "monocledcobra"
+            },
+            {
+                "normalized_label": "monteiberiaeleuth"
+            },
+            {
+                "normalized_label": "moonjellyfish"
+            },
+            {
+                "normalized_label": "moorhen"
+            },
+            {
+                "normalized_label": "moose"
+            },
+            {
+                "normalized_label": "morayeel"
+            },
+            {
+                "normalized_label": "morkie"
+            },
+            {
+                "normalized_label": "mosasaurus"
+            },
+            {
+                "normalized_label": "moscowwatchdog"
+            },
+            {
+                "normalized_label": "mosquito"
+            },
+            {
+                "normalized_label": "moth"
+            },
+            {
+                "normalized_label": "mountainbluebird"
+            },
+            {
+                "normalized_label": "mountaincur"
+            },
+            {
+                "normalized_label": "mountainfeist"
+            },
+            {
+                "normalized_label": "mountaingorilla"
+            },
+            {
+                "normalized_label": "mountainlion"
+            },
+            {
+                "normalized_label": "mourningdove"
+            },
+            {
+                "normalized_label": "mouse"
+            },
+            {
+                "normalized_label": "mozambiquespittingcobra"
+            },
+            {
+                "normalized_label": "mudsnake"
+            },
+            {
+                "normalized_label": "mudi"
+            },
+            {
+                "normalized_label": "mudpuppy"
+            },
+            {
+                "normalized_label": "mule"
+            },
+            {
+                "normalized_label": "mulgasnake"
+            },
+            {
+                "normalized_label": "muntjac"
+            },
+            {
+                "normalized_label": "muskox"
+            },
+            {
+                "normalized_label": "muskrat"
+            },
+            {
+                "normalized_label": "mussuranasnake"
+            },
+            {
+                "normalized_label": "muttaburrasaurus"
+            },
+            {
+                "normalized_label": "mynabird"
+            },
+            {
+                "normalized_label": "nakedmolerat"
+            },
+            {
+                "normalized_label": "narwhal"
+            },
+            {
+                "normalized_label": "natterjack"
+            },
+            {
+                "normalized_label": "neanderthal"
+            },
+            {
+                "normalized_label": "neapolitanmastiff"
+            },
+            {
+                "normalized_label": "nebelung"
+            },
+            {
+                "normalized_label": "needlefish"
+            },
+            {
+                "normalized_label": "neontetra"
+            },
+            {
+                "normalized_label": "neptunegrouper"
+            },
+            {
+                "normalized_label": "newfoundland"
+            },
+            {
+                "normalized_label": "newfypoo"
+            },
+            {
+                "normalized_label": "newt"
+            },
+            {
+                "normalized_label": "nicobarpigeon"
+            },
+            {
+                "normalized_label": "nigeriangoat"
+            },
+            {
+                "normalized_label": "nightadder"
+            },
+            {
+                "normalized_label": "nightheron"
+            },
+            {
+                "normalized_label": "nightsnake"
+            },
+            {
+                "normalized_label": "nightingale"
+            },
+            {
+                "normalized_label": "nilecrocodile"
+            },
+            {
+                "normalized_label": "nilgai"
+            },
+            {
+                "normalized_label": "noseeums"
+            },
+            {
+                "normalized_label": "norfolkterrier"
+            },
+            {
+                "normalized_label": "northamericanblackbear"
+            },
+            {
+                "normalized_label": "northernalligatorlizard"
+            },
+            {
+                "normalized_label": "northerncardinal"
+            },
+            {
+                "normalized_label": "northerncrestedcaracara"
+            },
+            {
+                "normalized_label": "northernfurseal"
+            },
+            {
+                "normalized_label": "northerninuitdog"
+            },
+            {
+                "normalized_label": "northernwatersnake"
+            },
+            {
+                "normalized_label": "norwegianbuhund"
+            },
+            {
+                "normalized_label": "norwegianelkhound"
+            },
+            {
+                "normalized_label": "norwegianforest"
+            },
+            {
+                "normalized_label": "norwegianlundehund"
+            },
+            {
+                "normalized_label": "norwichterrier"
+            },
+            {
+                "normalized_label": "nose-hornedviper"
+            },
+            {
+                "normalized_label": "novascotiaducktollingretriever"
+            },
+            {
+                "normalized_label": "nubiangoat"
+            },
+            {
+                "normalized_label": "nudibranch"
+            },
+            {
+                "normalized_label": "numbat"
+            },
+            {
+                "normalized_label": "nurseshark"
+            },
+            {
+                "normalized_label": "nyala"
+            },
+            {
+                "normalized_label": "oaktoad"
+            },
+            {
+                "normalized_label": "oceansunfish"
+            },
+            {
+                "normalized_label": "oceanicwhitetipshark"
+            },
+            {
+                "normalized_label": "ocelot"
+            },
+            {
+                "normalized_label": "octopus"
+            },
+            {
+                "normalized_label": "oenpellipython"
+            },
+            {
+                "normalized_label": "ogre"
+            },
+            {
+                "normalized_label": "okapi"
+            },
+            {
+                "normalized_label": "oldenglishsheepdog"
+            },
+            {
+                "normalized_label": "olivebaboon"
+            },
+            {
+                "normalized_label": "oliveseasnake"
+            },
+            {
+                "normalized_label": "olm"
+            },
+            {
+                "normalized_label": "opossum"
+            },
+            {
+                "normalized_label": "orang-utan"
+            },
+            {
+                "normalized_label": "orange-crownedwarbler"
+            },
+            {
+                "normalized_label": "orangutan"
+            },
+            {
+                "normalized_label": "orbweaver"
+            },
+            {
+                "normalized_label": "ornithomimus"
+            },
+            {
+                "normalized_label": "ortolanbunting"
+            },
+            {
+                "normalized_label": "oscarfish"
+            },
+            {
+                "normalized_label": "ostrich"
+            },
+            {
+                "normalized_label": "otter"
+            },
+            {
+                "normalized_label": "otterhound"
+            },
+            {
+                "normalized_label": "oviraptor"
+            },
+            {
+                "normalized_label": "owl"
+            },
+            {
+                "normalized_label": "ox"
+            },
+            {
+                "normalized_label": "oyster"
+            },
+            {
+                "normalized_label": "oystertoadfish"
+            },
+            {
+                "normalized_label": "pacificsleepershark"
+            },
+            {
+                "normalized_label": "paddlefish"
+            },
+            {
+                "normalized_label": "pademelon"
+            },
+            {
+                "normalized_label": "paintedturtle"
+            },
+            {
+                "normalized_label": "panda"
+            },
+            {
+                "normalized_label": "pangolin"
+            },
+            {
+                "normalized_label": "panther"
+            },
+            {
+                "normalized_label": "papillon"
+            },
+            {
+                "normalized_label": "paradiseflyingsnake"
+            },
+            {
+                "normalized_label": "parakeet"
+            },
+            {
+                "normalized_label": "parasaurolophus"
+            },
+            {
+                "normalized_label": "parrot"
+            },
+            {
+                "normalized_label": "parrotsnake"
+            },
+            {
+                "normalized_label": "parrotfish"
+            },
+            {
+                "normalized_label": "parrotlet"
+            },
+            {
+                "normalized_label": "parsonrussellterrier"
+            },
+            {
+                "normalized_label": "patagotitan"
+            },
+            {
+                "normalized_label": "patasmonkey"
+            },
+            {
+                "normalized_label": "patterdaleterrier"
+            },
+            {
+                "normalized_label": "peapuffer"
+            },
+            {
+                "normalized_label": "peacock"
+            },
+            {
+                "normalized_label": "peacockbutterfly"
+            },
+            {
+                "normalized_label": "peacockspider"
+            },
+            {
+                "normalized_label": "peagle"
+            },
+            {
+                "normalized_label": "peekapoo"
+            },
+            {
+                "normalized_label": "pegasus"
+            },
+            {
+                "normalized_label": "pekingese"
+            },
+            {
+                "normalized_label": "pelican"
+            },
+            {
+                "normalized_label": "pembrokewelshcorgi"
+            },
+            {
+                "normalized_label": "penguin"
+            },
+            {
+                "normalized_label": "pennsylvaniawoodcockroach"
+            },
+            {
+                "normalized_label": "pepperedmoth"
+            },
+            {
+                "normalized_label": "peppermintangelfish"
+            },
+            {
+                "normalized_label": "peredavidsdeer"
+            },
+            {
+                "normalized_label": "peregrinefalcon"
+            },
+            {
+                "normalized_label": "perrodepresacanario"
+            },
+            {
+                "normalized_label": "persian"
+            },
+            {
+                "normalized_label": "peruvianincaorchid"
+            },
+            {
+                "normalized_label": "petitbassetgriffonvendéen"
+            },
+            {
+                "normalized_label": "petitegoldendoodle"
+            },
+            {
+                "normalized_label": "pheasant"
+            },
+            {
+                "normalized_label": "philippinecobra"
+            },
+            {
+                "normalized_label": "phoenix"
+            },
+            {
+                "normalized_label": "phorusrhacos"
+            },
+            {
+                "normalized_label": "piedballpython"
+            },
+            {
+                "normalized_label": "piedtamarin"
+            },
+            {
+                "normalized_label": "pig"
+            },
+            {
+                "normalized_label": "pigeon"
+            },
+            {
+                "normalized_label": "pika"
+            },
+            {
+                "normalized_label": "pikefish"
+            },
+            {
+                "normalized_label": "pileatedwoodpecker"
+            },
+            {
+                "normalized_label": "pinemarten"
+            },
+            {
+                "normalized_label": "pinesnake"
+            },
+            {
+                "normalized_label": "pinkdolphin"
+            },
+            {
+                "normalized_label": "pinkfairyarmadillo"
+            },
+            {
+                "normalized_label": "pipesnake"
+            },
+            {
+                "normalized_label": "pipefish"
+            },
+            {
+                "normalized_label": "piranha"
+            },
+            {
+                "normalized_label": "pitbull"
+            },
+            {
+                "normalized_label": "pitviper"
+            },
+            {
+                "normalized_label": "pitador"
+            },
+            {
+                "normalized_label": "pitsky"
+            },
+            {
+                "normalized_label": "plainshognosesnake"
+            },
+            {
+                "normalized_label": "platinumarowana"
+            },
+            {
+                "normalized_label": "platybelodon"
+            },
+            {
+                "normalized_label": "platypus"
+            },
+            {
+                "normalized_label": "pocketbeagle"
+            },
+            {
+                "normalized_label": "pocketpitbull"
+            },
+            {
+                "normalized_label": "pointer"
+            },
+            {
+                "normalized_label": "poisondartfrog"
+            },
+            {
+                "normalized_label": "polarbear"
+            },
+            {
+                "normalized_label": "polecat"
+            },
+            {
+                "normalized_label": "polishlowlandsheepdog"
+            },
+            {
+                "normalized_label": "polkadotstingray"
+            },
+            {
+                "normalized_label": "polyphemusmoth"
+            },
+            {
+                "normalized_label": "pomapoo"
+            },
+            {
+                "normalized_label": "pomchi"
+            },
+            {
+                "normalized_label": "pomeagle"
+            },
+            {
+                "normalized_label": "pomeranian"
+            },
+            {
+                "normalized_label": "pomsky"
+            },
+            {
+                "normalized_label": "pondskater"
+            },
+            {
+                "normalized_label": "poochon"
+            },
+            {
+                "normalized_label": "poodle"
+            },
+            {
+                "normalized_label": "poogle"
+            },
+            {
+                "normalized_label": "poolfrog"
+            },
+            {
+                "normalized_label": "porbeagleshark"
+            },
+            {
+                "normalized_label": "porcupine"
+            },
+            {
+                "normalized_label": "porpoise"
+            },
+            {
+                "normalized_label": "possum"
+            },
+            {
+                "normalized_label": "potoo"
+            },
+            {
+                "normalized_label": "potoroo"
+            },
+            {
+                "normalized_label": "prairiedog"
+            },
+            {
+                "normalized_label": "prairierattlesnake"
+            },
+            {
+                "normalized_label": "prawn"
+            },
+            {
+                "normalized_label": "prayingmantis"
+            },
+            {
+                "normalized_label": "proboscismonkey"
+            },
+            {
+                "normalized_label": "procoptodon"
+            },
+            {
+                "normalized_label": "pronghorn"
+            },
+            {
+                "normalized_label": "psittacosaurus"
+            },
+            {
+                "normalized_label": "pteranodon"
+            },
+            {
+                "normalized_label": "pterodactyl"
+            },
+            {
+                "normalized_label": "pudelpointer"
+            },
+            {
+                "normalized_label": "puffadder"
+            },
+            {
+                "normalized_label": "pufferfish"
+            },
+            {
+                "normalized_label": "puffin"
+            },
+            {
+                "normalized_label": "pug"
+            },
+            {
+                "normalized_label": "pugapoo"
+            },
+            {
+                "normalized_label": "puggle"
+            },
+            {
+                "normalized_label": "pugshire"
+            },
+            {
+                "normalized_label": "puma"
+            },
+            {
+                "normalized_label": "pumi"
+            },
+            {
+                "normalized_label": "purpleemperorbutterfly"
+            },
+            {
+                "normalized_label": "purplefinch"
+            },
+            {
+                "normalized_label": "pussmoth"
+            },
+            {
+                "normalized_label": "pygmyhippopotamus"
+            },
+            {
+                "normalized_label": "pygmymarmoset"
+            },
+            {
+                "normalized_label": "pygmypython"
+            },
+            {
+                "normalized_label": "pygmyshark"
+            },
+            {
+                "normalized_label": "pygoragoat"
+            },
+            {
+                "normalized_label": "pyjamashark"
+            },
+            {
+                "normalized_label": "pyrador"
+            },
+            {
+                "normalized_label": "pyredoodle"
+            },
+            {
+                "normalized_label": "python"
+            },
+            {
+                "normalized_label": "quagga"
+            },
+            {
+                "normalized_label": "quail"
+            },
+            {
+                "normalized_label": "queensnake"
+            },
+            {
+                "normalized_label": "quetzal"
+            },
+            {
+                "normalized_label": "quokka"
+            },
+            {
+                "normalized_label": "quoll"
+            },
+            {
+                "normalized_label": "rabbit"
+            },
+            {
+                "normalized_label": "raccoon"
+            },
+            {
+                "normalized_label": "raccoondog"
+            },
+            {
+                "normalized_label": "racersnake"
+            },
+            {
+                "normalized_label": "radiatedtortoise"
+            },
+            {
+                "normalized_label": "ragamuffin"
+            },
+            {
+                "normalized_label": "ragdoll"
+            },
+            {
+                "normalized_label": "raggle"
+            },
+            {
+                "normalized_label": "rainbowboa"
+            },
+            {
+                "normalized_label": "rainbowshark"
+            },
+            {
+                "normalized_label": "rat"
+            },
+            {
+                "normalized_label": "ratsnakes"
+            },
+            {
+                "normalized_label": "ratterrier"
+            },
+            {
+                "normalized_label": "rattlesnake"
+            },
+            {
+                "normalized_label": "reddiamondbackrattlesnake"
+            },
+            {
+                "normalized_label": "redfinch"
+            },
+            {
+                "normalized_label": "redfox"
+            },
+            {
+                "normalized_label": "redkite"
+            },
+            {
+                "normalized_label": "redkneetarantula"
+            },
+            {
+                "normalized_label": "redpanda"
+            },
+            {
+                "normalized_label": "redracersnake"
+            },
+            {
+                "normalized_label": "redspittingcobra"
+            },
+            {
+                "normalized_label": "redsquirrel"
+            },
+            {
+                "normalized_label": "redtailboa"
+            },
+            {
+                "normalized_label": "redwolf"
+            },
+            {
+                "normalized_label": "red-belliedblacksnake"
+            },
+            {
+                "normalized_label": "red-billedqueleabird"
+            },
+            {
+                "normalized_label": "red-earedslider"
+            },
+            {
+                "normalized_label": "red-eyedtreefrog"
+            },
+            {
+                "normalized_label": "red-footedtortoise"
+            },
+            {
+                "normalized_label": "red-handedtamarin"
+            },
+            {
+                "normalized_label": "red-headedvulture"
+            },
+            {
+                "normalized_label": "red-lippedbatfish"
+            },
+            {
+                "normalized_label": "red-wingedblackbird"
+            },
+            {
+                "normalized_label": "redbackspider"
+            },
+            {
+                "normalized_label": "redbonecoonhound"
+            },
+            {
+                "normalized_label": "redtailcatfish"
+            },
+            {
+                "normalized_label": "reefshark"
+            },
+            {
+                "normalized_label": "reindeer"
+            },
+            {
+                "normalized_label": "repenomamus"
+            },
+            {
+                "normalized_label": "reticulatedpython"
+            },
+            {
+                "normalized_label": "rhinoviper"
+            },
+            {
+                "normalized_label": "rhinoceros"
+            },
+            {
+                "normalized_label": "rhombicegg-eatersnake"
+            },
+            {
+                "normalized_label": "ribboneel"
+            },
+            {
+                "normalized_label": "ribbonsnake"
+            },
+            {
+                "normalized_label": "ring-billedgull"
+            },
+            {
+                "normalized_label": "ringedkingfisher"
+            },
+            {
+                "normalized_label": "rinkhalssnake"
+            },
+            {
+                "normalized_label": "riverotter"
+            },
+            {
+                "normalized_label": "riverturtle"
+            },
+            {
+                "normalized_label": "robin"
+            },
+            {
+                "normalized_label": "rockcrab"
+            },
+            {
+                "normalized_label": "rockhyrax"
+            },
+            {
+                "normalized_label": "rockpython"
+            },
+            {
+                "normalized_label": "rockfish"
+            },
+            {
+                "normalized_label": "rockhopperpenguin"
+            },
+            {
+                "normalized_label": "rodents"
+            },
+            {
+                "normalized_label": "roedeer"
+            },
+            {
+                "normalized_label": "rooster"
+            },
+            {
+                "normalized_label": "rose-breastedgrosbeak"
+            },
+            {
+                "normalized_label": "roseatespoonbill"
+            },
+            {
+                "normalized_label": "rosyboa"
+            },
+            {
+                "normalized_label": "rottsky"
+            },
+            {
+                "normalized_label": "rottweiler"
+            },
+            {
+                "normalized_label": "roughgreensnake"
+            },
+            {
+                "normalized_label": "royalpenguin"
+            },
+            {
+                "normalized_label": "rubberboa"
+            },
+            {
+                "normalized_label": "ruby-throatedhummingbird"
+            },
+            {
+                "normalized_label": "ruddyturnstone"
+            },
+            {
+                "normalized_label": "russellterrier"
+            },
+            {
+                "normalized_label": "russianbeardog"
+            },
+            {
+                "normalized_label": "russianblue"
+            },
+            {
+                "normalized_label": "russiantortoise"
+            },
+            {
+                "normalized_label": "saanengoat"
+            },
+            {
+                "normalized_label": "saarlooswolfdog"
+            },
+            {
+                "normalized_label": "saber-toothedtiger"
+            },
+            {
+                "normalized_label": "sable"
+            },
+            {
+                "normalized_label": "sableblackgermanshepherd"
+            },
+            {
+                "normalized_label": "sableferret"
+            },
+            {
+                "normalized_label": "saiga"
+            },
+            {
+                "normalized_label": "saintberdoodle"
+            },
+            {
+                "normalized_label": "saintbernard"
+            },
+            {
+                "normalized_label": "saintshepherd"
+            },
+            {
+                "normalized_label": "salamander"
+            },
+            {
+                "normalized_label": "salmon"
+            },
+            {
+                "normalized_label": "salmonshark"
+            },
+            {
+                "normalized_label": "saluki"
+            },
+            {
+                "normalized_label": "sambar"
+            },
+            {
+                "normalized_label": "samoyed"
+            },
+            {
+                "normalized_label": "sanfranciscogartersnake"
+            },
+            {
+                "normalized_label": "sandcrab"
+            },
+            {
+                "normalized_label": "sandlizard"
+            },
+            {
+                "normalized_label": "sandtigershark"
+            },
+            {
+                "normalized_label": "sandviper"
+            },
+            {
+                "normalized_label": "saola"
+            },
+            {
+                "normalized_label": "sardines"
+            },
+            {
+                "normalized_label": "satanicleaf-tailedgecko"
+            },
+            {
+                "normalized_label": "sauropoda"
+            },
+            {
+                "normalized_label": "savannagoat"
+            },
+            {
+                "normalized_label": "savannahsparrow"
+            },
+            {
+                "normalized_label": "saw-scaledviper"
+            },
+            {
+                "normalized_label": "sawfish"
+            },
+            {
+                "normalized_label": "scarletkingsnake"
+            },
+            {
+                "normalized_label": "scarletmacaw"
+            },
+            {
+                "normalized_label": "schipperke"
+            },
+            {
+                "normalized_label": "schneagle"
+            },
+            {
+                "normalized_label": "schnoodle"
+            },
+            {
+                "normalized_label": "scimitar-hornedoryx"
+            },
+            {
+                "normalized_label": "scorpion"
+            },
+            {
+                "normalized_label": "scorpionfish"
+            },
+            {
+                "normalized_label": "scottishterrier"
+            },
+            {
+                "normalized_label": "scrotumfrog"
+            },
+            {
+                "normalized_label": "sculpin"
+            },
+            {
+                "normalized_label": "seaanemone"
+            },
+            {
+                "normalized_label": "seadragon"
+            },
+            {
+                "normalized_label": "seaeagle"
+            },
+            {
+                "normalized_label": "sealion"
+            },
+            {
+                "normalized_label": "seaotter"
+            },
+            {
+                "normalized_label": "searoach"
+            },
+            {
+                "normalized_label": "seaslug"
+            },
+            {
+                "normalized_label": "seasnake"
+            },
+            {
+                "normalized_label": "seasquirt"
+            },
+            {
+                "normalized_label": "seaturtle"
+            },
+            {
+                "normalized_label": "seaurchin"
+            },
+            {
+                "normalized_label": "seagull"
+            },
+            {
+                "normalized_label": "seahorse"
+            },
+            {
+                "normalized_label": "seal"
+            },
+            {
+                "normalized_label": "sealyhamterrier"
+            },
+            {
+                "normalized_label": "seiwhale"
+            },
+            {
+                "normalized_label": "senegalparrot"
+            },
+            {
+                "normalized_label": "serpent"
+            },
+            {
+                "normalized_label": "serval"
+            },
+            {
+                "normalized_label": "shark"
+            },
+            {
+                "normalized_label": "sharp-tailedsnake"
+            },
+            {
+                "normalized_label": "sheep"
+            },
+            {
+                "normalized_label": "sheepadoodle"
+            },
+            {
+                "normalized_label": "shepadoodle"
+            },
+            {
+                "normalized_label": "shepkita"
+            },
+            {
+                "normalized_label": "shepweiler"
+            },
+            {
+                "normalized_label": "shibainu"
+            },
+            {
+                "normalized_label": "shihpoo"
+            },
+            {
+                "normalized_label": "shihtzu"
+            },
+            {
+                "normalized_label": "shoebillstork"
+            },
+            {
+                "normalized_label": "shollie"
+            },
+            {
+                "normalized_label": "short-facedbear"
+            },
+            {
+                "normalized_label": "shortfinmakoshark"
+            },
+            {
+                "normalized_label": "shrew"
+            },
+            {
+                "normalized_label": "shrimp"
+            },
+            {
+                "normalized_label": "siamese"
+            },
+            {
+                "normalized_label": "siamesefightingfish"
+            },
+            {
+                "normalized_label": "siberian"
+            },
+            {
+                "normalized_label": "siberianhusky"
+            },
+            {
+                "normalized_label": "siberianibex"
+            },
+            {
+                "normalized_label": "siberianretriever"
+            },
+            {
+                "normalized_label": "siberiantiger"
+            },
+            {
+                "normalized_label": "siberpoo"
+            },
+            {
+                "normalized_label": "sidewinder"
+            },
+            {
+                "normalized_label": "silkiechicken"
+            },
+            {
+                "normalized_label": "silkyshark"
+            },
+            {
+                "normalized_label": "silkyterrier"
+            },
+            {
+                "normalized_label": "silverdollar"
+            },
+            {
+                "normalized_label": "silverlabrador"
+            },
+            {
+                "normalized_label": "sinosauropteryx"
+            },
+            {
+                "normalized_label": "sixgillshark"
+            },
+            {
+                "normalized_label": "skatefish"
+            },
+            {
+                "normalized_label": "skinklizard"
+            },
+            {
+                "normalized_label": "skipjacktuna"
+            },
+            {
+                "normalized_label": "skunk"
+            },
+            {
+                "normalized_label": "skyeterrier"
+            },
+            {
+                "normalized_label": "sleepershark"
+            },
+            {
+                "normalized_label": "sloth"
+            },
+            {
+                "normalized_label": "slowworm"
+            },
+            {
+                "normalized_label": "slug"
+            },
+            {
+                "normalized_label": "smokybrowncockroach"
+            },
+            {
+                "normalized_label": "smoothfoxterrier"
+            },
+            {
+                "normalized_label": "smoothgreensnake"
+            },
+            {
+                "normalized_label": "smoothsnake"
+            },
+            {
+                "normalized_label": "snail"
+            },
+            {
+                "normalized_label": "snake"
+            },
+            {
+                "normalized_label": "snappingturtle"
+            },
+            {
+                "normalized_label": "snookfish"
+            },
+            {
+                "normalized_label": "snorkie"
+            },
+            {
+                "normalized_label": "snoutedcobra"
+            },
+            {
+                "normalized_label": "snowcrab"
+            },
+            {
+                "normalized_label": "snowleopard"
+            },
+            {
+                "normalized_label": "snowshoe"
+            },
+            {
+                "normalized_label": "snowshoehare"
+            },
+            {
+                "normalized_label": "snowyowl"
+            },
+            {
+                "normalized_label": "sockeyesalmon"
+            },
+            {
+                "normalized_label": "somali"
+            },
+            {
+                "normalized_label": "songsparrow"
+            },
+            {
+                "normalized_label": "songthrush"
+            },
+            {
+                "normalized_label": "southchinatiger"
+            },
+            {
+                "normalized_label": "southernblackracer"
+            },
+            {
+                "normalized_label": "southernhognosesnake"
+            },
+            {
+                "normalized_label": "southernpacificrattlesnake"
+            },
+            {
+                "normalized_label": "spadefoottoad"
+            },
+            {
+                "normalized_label": "spanador"
+            },
+            {
+                "normalized_label": "spanishgoat"
+            },
+            {
+                "normalized_label": "spanishmastiff"
+            },
+            {
+                "normalized_label": "sparrow"
+            },
+            {
+                "normalized_label": "sparrowhawk"
+            },
+            {
+                "normalized_label": "speckledkingsnake"
+            },
+            {
+                "normalized_label": "spectacledbear"
+            },
+            {
+                "normalized_label": "spermwhale"
+            },
+            {
+                "normalized_label": "sphinx"
+            },
+            {
+                "normalized_label": "spider"
+            },
+            {
+                "normalized_label": "spiderballpython"
+            },
+            {
+                "normalized_label": "spidermonkey"
+            },
+            {
+                "normalized_label": "spiderwasp"
+            },
+            {
+                "normalized_label": "spider-tailedhornedviper"
+            },
+            {
+                "normalized_label": "spinnershark"
+            },
+            {
+                "normalized_label": "spinoneitaliano"
+            },
+            {
+                "normalized_label": "spinosaurus"
+            },
+            {
+                "normalized_label": "spinydogfish"
+            },
+            {
+                "normalized_label": "spinyhillturtle"
+            },
+            {
+                "normalized_label": "spittingcobra"
+            },
+            {
+                "normalized_label": "spixsmacaw"
+            },
+            {
+                "normalized_label": "sponge"
+            },
+            {
+                "normalized_label": "spottedgar"
+            },
+            {
+                "normalized_label": "spottedlanternfly"
+            },
+            {
+                "normalized_label": "spottedpython"
+            },
+            {
+                "normalized_label": "springador"
+            },
+            {
+                "normalized_label": "springbok"
+            },
+            {
+                "normalized_label": "springerdoodle"
+            },
+            {
+                "normalized_label": "squashbeetle"
+            },
+            {
+                "normalized_label": "squid"
+            },
+            {
+                "normalized_label": "squirrel"
+            },
+            {
+                "normalized_label": "squirrelmonkey"
+            },
+            {
+                "normalized_label": "squirrelfish"
+            },
+            {
+                "normalized_label": "srilankanelephant"
+            },
+            {
+                "normalized_label": "stabyhoun"
+            },
+            {
+                "normalized_label": "staffordshirebullterrier"
+            },
+            {
+                "normalized_label": "stagbeetle"
+            },
+            {
+                "normalized_label": "standardschnauzer"
+            },
+            {
+                "normalized_label": "star-nosedmole"
+            },
+            {
+                "normalized_label": "starfish"
+            },
+            {
+                "normalized_label": "stargazerfish"
+            },
+            {
+                "normalized_label": "steelheadsalmon"
+            },
+            {
+                "normalized_label": "stickinsect"
+            },
+            {
+                "normalized_label": "stilettosnake"
+            },
+            {
+                "normalized_label": "stingray"
+            },
+            {
+                "normalized_label": "stoat"
+            },
+            {
+                "normalized_label": "stonecrab"
+            },
+            {
+                "normalized_label": "stork"
+            },
+            {
+                "normalized_label": "stripedhyena"
+            },
+            {
+                "normalized_label": "stripedrocketfrog"
+            },
+            {
+                "normalized_label": "sturgeon"
+            },
+            {
+                "normalized_label": "styracosaurus"
+            },
+            {
+                "normalized_label": "suchomimus"
+            },
+            {
+                "normalized_label": "suckerfish"
+            },
+            {
+                "normalized_label": "sugarglider"
+            },
+            {
+                "normalized_label": "sulcatatortoise"
+            },
+            {
+                "normalized_label": "sumatranelephant"
+            },
+            {
+                "normalized_label": "sumatranorang-utan"
+            },
+            {
+                "normalized_label": "sumatranrhinoceros"
+            },
+            {
+                "normalized_label": "sumatrantiger"
+            },
+            {
+                "normalized_label": "summerflounder"
+            },
+            {
+                "normalized_label": "sunbear"
+            },
+            {
+                "normalized_label": "sunbeamsnake"
+            },
+            {
+                "normalized_label": "surgeonfish"
+            },
+            {
+                "normalized_label": "swaifish"
+            },
+            {
+                "normalized_label": "swan"
+            },
+            {
+                "normalized_label": "swedishvallhund"
+            },
+            {
+                "normalized_label": "syrianhamster"
+            },
+            {
+                "normalized_label": "tacoterrier"
+            },
+            {
+                "normalized_label": "taipan"
+            },
+            {
+                "normalized_label": "takin"
+            },
+            {
+                "normalized_label": "tamaskan"
+            },
+            {
+                "normalized_label": "tang"
+            },
+            {
+                "normalized_label": "tapanuliorang-utan"
+            },
+            {
+                "normalized_label": "tapir"
+            },
+            {
+                "normalized_label": "tarantulahawk"
+            },
+            {
+                "normalized_label": "tarbosaurus"
+            },
+            {
+                "normalized_label": "tarpon"
+            },
+            {
+                "normalized_label": "tarsier"
+            },
+            {
+                "normalized_label": "tasmaniandevil"
+            },
+            {
+                "normalized_label": "tasmaniantiger"
+            },
+            {
+                "normalized_label": "tawnyowl"
+            },
+            {
+                "normalized_label": "teddybearhamster"
+            },
+            {
+                "normalized_label": "teddyrooseveltterrier"
+            },
+            {
+                "normalized_label": "telescopefish"
+            },
+            {
+                "normalized_label": "tennesseewalkinghorse"
+            },
+            {
+                "normalized_label": "tenterfieldterrier"
+            },
+            {
+                "normalized_label": "termite"
+            },
+            {
+                "normalized_label": "terrier"
+            },
+            {
+                "normalized_label": "terrorbird"
+            },
+            {
+                "normalized_label": "tetra"
+            },
+            {
+                "normalized_label": "texasblindsnake"
+            },
+            {
+                "normalized_label": "texascoralsnake"
+            },
+            {
+                "normalized_label": "texasgartersnake"
+            },
+            {
+                "normalized_label": "texasheeler"
+            },
+            {
+                "normalized_label": "texasindigosnake"
+            },
+            {
+                "normalized_label": "texasnightsnake"
+            },
+            {
+                "normalized_label": "texasratsnake"
+            },
+            {
+                "normalized_label": "texasspinylizard"
+            },
+            {
+                "normalized_label": "thairidgeback"
+            },
+            {
+                "normalized_label": "thornydevil"
+            },
+            {
+                "normalized_label": "threshershark"
+            },
+            {
+                "normalized_label": "thrush"
+            },
+            {
+                "normalized_label": "thylacoleo"
+            },
+            {
+                "normalized_label": "tibetanfox"
+            },
+            {
+                "normalized_label": "tibetanmastiff"
+            },
+            {
+                "normalized_label": "tibetanspaniel"
+            },
+            {
+                "normalized_label": "tibetanterrier"
+            },
+            {
+                "normalized_label": "tick"
+            },
+            {
+                "normalized_label": "tiffany"
+            },
+            {
+                "normalized_label": "tiger"
+            },
+            {
+                "normalized_label": "tigerbeetle"
+            },
+            {
+                "normalized_label": "tigermoth"
+            },
+            {
+                "normalized_label": "tigerrattlesnake"
+            },
+            {
+                "normalized_label": "tigersalamander"
+            },
+            {
+                "normalized_label": "tigershark"
+            },
+            {
+                "normalized_label": "timberrattlesnake"
+            },
+            {
+                "normalized_label": "timorpython"
+            },
+            {
+                "normalized_label": "tiretrackeel"
+            },
+            {
+                "normalized_label": "titanoboa"
+            },
+            {
+                "normalized_label": "toadfish"
+            },
+            {
+                "normalized_label": "torkie"
+            },
+            {
+                "normalized_label": "tortoise"
+            },
+            {
+                "normalized_label": "toucan"
+            },
+            {
+                "normalized_label": "toyfoxterrier"
+            },
+            {
+                "normalized_label": "toypoodle"
+            },
+            {
+                "normalized_label": "transylvanianhound"
+            },
+            {
+                "normalized_label": "treefrog"
+            },
+            {
+                "normalized_label": "treekangaroo"
+            },
+            {
+                "normalized_label": "treesnake"
+            },
+            {
+                "normalized_label": "treeswallow"
+            },
+            {
+                "normalized_label": "treecreeper"
+            },
+            {
+                "normalized_label": "treeingtennesseebrindle"
+            },
+            {
+                "normalized_label": "treeingwalkercoonhound"
+            },
+            {
+                "normalized_label": "troodon"
+            },
+            {
+                "normalized_label": "tropicbird"
+            },
+            {
+                "normalized_label": "trout"
+            },
+            {
+                "normalized_label": "tsetsefly"
+            },
+            {
+                "normalized_label": "tuatara"
+            },
+            {
+                "normalized_label": "tuna"
+            },
+            {
+                "normalized_label": "turkey"
+            },
+            {
+                "normalized_label": "turkishangora"
+            },
+            {
+                "normalized_label": "turtles"
+            },
+            {
+                "normalized_label": "twigsnake"
+            },
+            {
+                "normalized_label": "typhon"
+            },
+            {
+                "normalized_label": "tyrannosaurusrex"
+            },
+            {
+                "normalized_label": "uakari"
+            },
+            {
+                "normalized_label": "uguisu"
+            },
+            {
+                "normalized_label": "uintagroundsquirrel"
+            },
+            {
+                "normalized_label": "uintatherium"
+            },
+            {
+                "normalized_label": "umbrellabird"
+            },
+            {
+                "normalized_label": "unau"
+            },
+            {
+                "normalized_label": "unicorn"
+            },
+            {
+                "normalized_label": "uralowl"
+            },
+            {
+                "normalized_label": "urutusnake"
+            },
+            {
+                "normalized_label": "utonagan"
+            },
+            {
+                "normalized_label": "vampire"
+            },
+            {
+                "normalized_label": "vampirebat"
+            },
+            {
+                "normalized_label": "vampiresquid"
+            },
+            {
+                "normalized_label": "vaquita"
+            },
+            {
+                "normalized_label": "velociraptor"
+            },
+            {
+                "normalized_label": "venusflytrap"
+            },
+            {
+                "normalized_label": "vervetmonkey"
+            },
+            {
+                "normalized_label": "vicuña"
+            },
+            {
+                "normalized_label": "vinesnake"
+            },
+            {
+                "normalized_label": "vinegaroon"
+            },
+            {
+                "normalized_label": "viper"
+            },
+            {
+                "normalized_label": "vipershark"
+            },
+            {
+                "normalized_label": "virginislandsdwarfgecko"
+            },
+            {
+                "normalized_label": "vizsla"
+            },
+            {
+                "normalized_label": "volpinoitaliano"
+            },
+            {
+                "normalized_label": "vulture"
+            },
+            {
+                "normalized_label": "wahoofish"
+            },
+            {
+                "normalized_label": "waimanu"
+            },
+            {
+                "normalized_label": "walkingcatfish"
+            },
+            {
+                "normalized_label": "wallaby"
+            },
+            {
+                "normalized_label": "walleyefish"
+            },
+            {
+                "normalized_label": "walrus"
+            },
+            {
+                "normalized_label": "wanderingalbatross"
+            },
+            {
+                "normalized_label": "warthog"
+            },
+            {
+                "normalized_label": "wasp"
+            },
+            {
+                "normalized_label": "waterbuffalo"
+            },
+            {
+                "normalized_label": "waterdragon"
+            },
+            {
+                "normalized_label": "watervole"
+            },
+            {
+                "normalized_label": "weasel"
+            },
+            {
+                "normalized_label": "weaverbird"
+            },
+            {
+                "normalized_label": "weimaraner"
+            },
+            {
+                "normalized_label": "weimardoodle"
+            },
+            {
+                "normalized_label": "welscatfish"
+            },
+            {
+                "normalized_label": "welshcorgi"
+            },
+            {
+                "normalized_label": "welshterrier"
+            },
+            {
+                "normalized_label": "werewolf"
+            },
+            {
+                "normalized_label": "westhighlandterrier"
+            },
+            {
+                "normalized_label": "westernblindsnake"
+            },
+            {
+                "normalized_label": "westerndiamondbackrattlesnake"
+            },
+            {
+                "normalized_label": "westerngorilla"
+            },
+            {
+                "normalized_label": "westerngreenmamba"
+            },
+            {
+                "normalized_label": "westernhognosesnake"
+            },
+            {
+                "normalized_label": "westernlowlandgorilla"
+            },
+            {
+                "normalized_label": "westernratsnake"
+            },
+            {
+                "normalized_label": "westiepoo"
+            },
+            {
+                "normalized_label": "whaleshark"
+            },
+            {
+                "normalized_label": "wheatenterrier"
+            },
+            {
+                "normalized_label": "whimbrel"
+            },
+            {
+                "normalized_label": "whinchat"
+            },
+            {
+                "normalized_label": "whippet"
+            },
+            {
+                "normalized_label": "whiptaillizard"
+            },
+            {
+                "normalized_label": "whitebutterfly"
+            },
+            {
+                "normalized_label": "whiteferret"
+            },
+            {
+                "normalized_label": "whiterhinoceros"
+            },
+            {
+                "normalized_label": "whiteshark"
+            },
+            {
+                "normalized_label": "whitetiger"
+            },
+            {
+                "normalized_label": "white-facedcapuchin"
+            },
+            {
+                "normalized_label": "white-taildeer"
+            },
+            {
+                "normalized_label": "white-tailedeagle"
+            },
+            {
+                "normalized_label": "whiting"
+            },
+            {
+                "normalized_label": "whoodle"
+            },
+            {
+                "normalized_label": "whoopingcrane"
+            },
+            {
+                "normalized_label": "wildboar"
+            },
+            {
+                "normalized_label": "wildebeest"
+            },
+            {
+                "normalized_label": "willowwarbler"
+            },
+            {
+                "normalized_label": "wirefoxterrier"
+            },
+            {
+                "normalized_label": "wirehairedpointinggriffon"
+            },
+            {
+                "normalized_label": "wolf"
+            },
+            {
+                "normalized_label": "wolfeel"
+            },
+            {
+                "normalized_label": "wolfsnake"
+            },
+            {
+                "normalized_label": "wolfspider"
+            },
+            {
+                "normalized_label": "wolffish"
+            },
+            {
+                "normalized_label": "wolverine"
+            },
+            {
+                "normalized_label": "womapython"
+            },
+            {
+                "normalized_label": "wombat"
+            },
+            {
+                "normalized_label": "woodbison"
+            },
+            {
+                "normalized_label": "woodfrog"
+            },
+            {
+                "normalized_label": "woodtick"
+            },
+            {
+                "normalized_label": "woodturtle"
+            },
+            {
+                "normalized_label": "woodchuck"
+            },
+            {
+                "normalized_label": "woodlouse"
+            },
+            {
+                "normalized_label": "woodlousespider"
+            },
+            {
+                "normalized_label": "woodpecker"
+            },
+            {
+                "normalized_label": "woodrat"
+            },
+            {
+                "normalized_label": "woollymammoth"
+            },
+            {
+                "normalized_label": "woollymonkey"
+            },
+            {
+                "normalized_label": "woollyrhinoceros"
+            },
+            {
+                "normalized_label": "worm"
+            },
+            {
+                "normalized_label": "wormsnake"
+            },
+            {
+                "normalized_label": "wrasse"
+            },
+            {
+                "normalized_label": "writingspider"
+            },
+            {
+                "normalized_label": "wroughtironbutterflyfish"
+            },
+            {
+                "normalized_label": "wyomingtoad"
+            },
+            {
+                "normalized_label": "wyvern"
+            },
+            {
+                "normalized_label": "x-raytetra"
+            },
+            {
+                "normalized_label": "xerus"
+            },
+            {
+                "normalized_label": "xoloitzcuintli"
+            },
+            {
+                "normalized_label": "yak"
+            },
+            {
+                "normalized_label": "yakutianlaika"
+            },
+            {
+                "normalized_label": "yarara"
+            },
+            {
+                "normalized_label": "yellowanaconda"
+            },
+            {
+                "normalized_label": "yellowcobra"
+            },
+            {
+                "normalized_label": "yellowsacspider"
+            },
+            {
+                "normalized_label": "yellowspottedlizard"
+            },
+            {
+                "normalized_label": "yellow-belliedseasnake"
+            },
+            {
+                "normalized_label": "yellow-eyedpenguin"
+            },
+            {
+                "normalized_label": "yellowfintuna"
+            },
+            {
+                "normalized_label": "yeti"
+            },
+            {
+                "normalized_label": "yeticrab"
+            },
+            {
+                "normalized_label": "yoranian"
+            },
+            {
+                "normalized_label": "yorkiebichon"
+            },
+            {
+                "normalized_label": "yorkie-poo"
+            },
+            {
+                "normalized_label": "yorkshireterrier"
+            },
+            {
+                "normalized_label": "zebra"
+            },
+            {
+                "normalized_label": "zebrafinch"
+            },
+            {
+                "normalized_label": "zebramussels"
+            },
+            {
+                "normalized_label": "zebrapleco"
+            },
+            {
+                "normalized_label": "zebrashark"
+            },
+            {
+                "normalized_label": "zebrasnake"
+            },
+            {
+                "normalized_label": "zebraspittingcobra"
+            },
+            {
+                "normalized_label": "zebu"
+            },
+            {
+                "normalized_label": "zombie"
+            },
+            {
+                "normalized_label": "zonkey"
+            },
+            {
+                "normalized_label": "zorse"
+            },
+            {
+                "normalized_label": "zuchon"
+            }
+        ]
+    }
+}

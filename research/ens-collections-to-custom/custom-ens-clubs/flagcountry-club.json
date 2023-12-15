@@ -1,0 +1,773 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "flagcountry-club",
+        "collection_name": "FlagCountry Club",
+        "collection_description": "254 flags & 254 countries",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "🇦🇫afghanistan"
+            },
+            {
+                "normalized_label": "🇦🇽alandislands"
+            },
+            {
+                "normalized_label": "🇦🇱albania"
+            },
+            {
+                "normalized_label": "🇩🇿algeria"
+            },
+            {
+                "normalized_label": "🇦🇸americansamoa"
+            },
+            {
+                "normalized_label": "🇦🇩andorra"
+            },
+            {
+                "normalized_label": "🇦🇴angola"
+            },
+            {
+                "normalized_label": "🇦🇮anguilla"
+            },
+            {
+                "normalized_label": "🇦🇶antarctica"
+            },
+            {
+                "normalized_label": "🇦🇬antiguaandbarbuda"
+            },
+            {
+                "normalized_label": "🇦🇷argentina"
+            },
+            {
+                "normalized_label": "🇦🇲armenia"
+            },
+            {
+                "normalized_label": "🇦🇼aruba"
+            },
+            {
+                "normalized_label": "🇦🇺australia"
+            },
+            {
+                "normalized_label": "🇦🇹austria"
+            },
+            {
+                "normalized_label": "🇦🇿azerbaijan"
+            },
+            {
+                "normalized_label": "🇧🇸bahamas"
+            },
+            {
+                "normalized_label": "🇧🇭bahrain"
+            },
+            {
+                "normalized_label": "🇧🇩bangladesh"
+            },
+            {
+                "normalized_label": "🇧🇧barbados"
+            },
+            {
+                "normalized_label": "🇧🇾belarus"
+            },
+            {
+                "normalized_label": "🇧🇪belgium"
+            },
+            {
+                "normalized_label": "🇧🇿belize"
+            },
+            {
+                "normalized_label": "🇧🇯benin"
+            },
+            {
+                "normalized_label": "🇧🇲bermuda"
+            },
+            {
+                "normalized_label": "🇧🇹bhutan"
+            },
+            {
+                "normalized_label": "🇧🇴bolivia"
+            },
+            {
+                "normalized_label": "🇧🇦bosniaandherzegovina"
+            },
+            {
+                "normalized_label": "🇧🇼botswana"
+            },
+            {
+                "normalized_label": "🇧🇻bouvetisland"
+            },
+            {
+                "normalized_label": "🇧🇷brazil"
+            },
+            {
+                "normalized_label": "🇮🇴britishindianoceanterritory"
+            },
+            {
+                "normalized_label": "🇧🇳brunei"
+            },
+            {
+                "normalized_label": "🇧🇬bulgaria"
+            },
+            {
+                "normalized_label": "🇧🇫burkinafaso"
+            },
+            {
+                "normalized_label": "🇧🇮burundi"
+            },
+            {
+                "normalized_label": "🇰🇭cambodia"
+            },
+            {
+                "normalized_label": "🇨🇲cameroon"
+            },
+            {
+                "normalized_label": "🇨🇦canada"
+            },
+            {
+                "normalized_label": "🇨🇻capeverde"
+            },
+            {
+                "normalized_label": "🇧🇶caribbeannetherlands"
+            },
+            {
+                "normalized_label": "🇰🇾caymanislands"
+            },
+            {
+                "normalized_label": "🇨🇫centralafricanrepublic"
+            },
+            {
+                "normalized_label": "🇹🇩chad"
+            },
+            {
+                "normalized_label": "🇨🇱chile"
+            },
+            {
+                "normalized_label": "🇨🇳china"
+            },
+            {
+                "normalized_label": "🇨🇽christmasisland"
+            },
+            {
+                "normalized_label": "🇨🇨cocosislands"
+            },
+            {
+                "normalized_label": "🇨🇴colombia"
+            },
+            {
+                "normalized_label": "🇰🇲comoros"
+            },
+            {
+                "normalized_label": "🇨🇬republicofthecongo"
+            },
+            {
+                "normalized_label": "🇨🇩drcongo"
+            },
+            {
+                "normalized_label": "🇨🇰cookislands"
+            },
+            {
+                "normalized_label": "🇨🇷costarica"
+            },
+            {
+                "normalized_label": "🇨🇮ivorycoast"
+            },
+            {
+                "normalized_label": "🇭🇷croatia"
+            },
+            {
+                "normalized_label": "🇨🇺cuba"
+            },
+            {
+                "normalized_label": "🇨🇼curacao"
+            },
+            {
+                "normalized_label": "🇨🇾cyprus"
+            },
+            {
+                "normalized_label": "🇨🇿czechia"
+            },
+            {
+                "normalized_label": "🇩🇰denmark"
+            },
+            {
+                "normalized_label": "🇩🇯djibouti"
+            },
+            {
+                "normalized_label": "🇩🇲dominica"
+            },
+            {
+                "normalized_label": "🇩🇴dominicanrepublic"
+            },
+            {
+                "normalized_label": "🇪🇨ecuador"
+            },
+            {
+                "normalized_label": "🇪🇬egypt"
+            },
+            {
+                "normalized_label": "🇸🇻elsalvador"
+            },
+            {
+                "normalized_label": "🇬🇶equatorialguinea"
+            },
+            {
+                "normalized_label": "🇪🇷eritrea"
+            },
+            {
+                "normalized_label": "🇪🇪estonia"
+            },
+            {
+                "normalized_label": "🇸🇿eswatini"
+            },
+            {
+                "normalized_label": "🇸🇿swaziland"
+            },
+            {
+                "normalized_label": "🇪🇹ethiopia"
+            },
+            {
+                "normalized_label": "🇫🇰falklandislands"
+            },
+            {
+                "normalized_label": "🇫🇴faroeislands"
+            },
+            {
+                "normalized_label": "🇫🇯fiji"
+            },
+            {
+                "normalized_label": "🇫🇮finland"
+            },
+            {
+                "normalized_label": "🇫🇷france"
+            },
+            {
+                "normalized_label": "🇬🇫frenchguiana"
+            },
+            {
+                "normalized_label": "🇵🇫frenchpolynesia"
+            },
+            {
+                "normalized_label": "🇹🇫frenchsouthernandantarcticlands"
+            },
+            {
+                "normalized_label": "🇬🇦gabon"
+            },
+            {
+                "normalized_label": "🇬🇲gambia"
+            },
+            {
+                "normalized_label": "🇬🇪georgia"
+            },
+            {
+                "normalized_label": "🇩🇪germany"
+            },
+            {
+                "normalized_label": "🇬🇭ghana"
+            },
+            {
+                "normalized_label": "🇬🇮gibraltar"
+            },
+            {
+                "normalized_label": "🇬🇷greece"
+            },
+            {
+                "normalized_label": "🇬🇱greenland"
+            },
+            {
+                "normalized_label": "🇬🇩grenada"
+            },
+            {
+                "normalized_label": "🇬🇵guadeloupe"
+            },
+            {
+                "normalized_label": "🇬🇺guam"
+            },
+            {
+                "normalized_label": "🇬🇹guatemala"
+            },
+            {
+                "normalized_label": "🇬🇬guernsey"
+            },
+            {
+                "normalized_label": "🇬🇳guinea"
+            },
+            {
+                "normalized_label": "🇬🇼guineabissau"
+            },
+            {
+                "normalized_label": "🇬🇾guyana"
+            },
+            {
+                "normalized_label": "🇭🇹haiti"
+            },
+            {
+                "normalized_label": "🇭🇲heardislandandmcdonaldislands"
+            },
+            {
+                "normalized_label": "🇭🇳honduras"
+            },
+            {
+                "normalized_label": "🇭🇰hongkong"
+            },
+            {
+                "normalized_label": "🇭🇺hungary"
+            },
+            {
+                "normalized_label": "🇮🇸iceland"
+            },
+            {
+                "normalized_label": "🇮🇳india"
+            },
+            {
+                "normalized_label": "🇮🇩indonesia"
+            },
+            {
+                "normalized_label": "🇮🇷iran"
+            },
+            {
+                "normalized_label": "🇮🇶iraq"
+            },
+            {
+                "normalized_label": "🇮🇪ireland"
+            },
+            {
+                "normalized_label": "🇮🇲isleofman"
+            },
+            {
+                "normalized_label": "🇮🇱israel"
+            },
+            {
+                "normalized_label": "🇮🇹italy"
+            },
+            {
+                "normalized_label": "🇯🇲jamaica"
+            },
+            {
+                "normalized_label": "🇯🇵japan"
+            },
+            {
+                "normalized_label": "🇯🇪jersey"
+            },
+            {
+                "normalized_label": "🇯🇴jordan"
+            },
+            {
+                "normalized_label": "🇰🇿kazakhstan"
+            },
+            {
+                "normalized_label": "🇰🇪kenya"
+            },
+            {
+                "normalized_label": "🇰🇮kiribati"
+            },
+            {
+                "normalized_label": "🇰🇵northkorea"
+            },
+            {
+                "normalized_label": "🇰🇷southkorea"
+            },
+            {
+                "normalized_label": "🇽🇰kosovo"
+            },
+            {
+                "normalized_label": "🇰🇼kuwait"
+            },
+            {
+                "normalized_label": "🇰🇬kyrgyzstan"
+            },
+            {
+                "normalized_label": "🇱🇦laos"
+            },
+            {
+                "normalized_label": "🇱🇻latvia"
+            },
+            {
+                "normalized_label": "🇱🇧lebanon"
+            },
+            {
+                "normalized_label": "🇱🇸lesotho"
+            },
+            {
+                "normalized_label": "🇱🇷liberia"
+            },
+            {
+                "normalized_label": "🇱🇾libya"
+            },
+            {
+                "normalized_label": "🇱🇮liechtenstein"
+            },
+            {
+                "normalized_label": "🇱🇹lithuania"
+            },
+            {
+                "normalized_label": "🇱🇺luxembourg"
+            },
+            {
+                "normalized_label": "🇲🇴macau"
+            },
+            {
+                "normalized_label": "🇲🇬madagascar"
+            },
+            {
+                "normalized_label": "🇲🇼malawi"
+            },
+            {
+                "normalized_label": "🇲🇾malaysia"
+            },
+            {
+                "normalized_label": "🇲🇻maldives"
+            },
+            {
+                "normalized_label": "🇲🇱mali"
+            },
+            {
+                "normalized_label": "🇲🇹malta"
+            },
+            {
+                "normalized_label": "🇲🇭marshallislands"
+            },
+            {
+                "normalized_label": "🇲🇶martinique"
+            },
+            {
+                "normalized_label": "🇲🇷mauritania"
+            },
+            {
+                "normalized_label": "🇲🇺mauritius"
+            },
+            {
+                "normalized_label": "🇾🇹mayotte"
+            },
+            {
+                "normalized_label": "🇲🇽mexico"
+            },
+            {
+                "normalized_label": "🇫🇲micronesia"
+            },
+            {
+                "normalized_label": "🇲🇩moldova"
+            },
+            {
+                "normalized_label": "🇲🇨monaco"
+            },
+            {
+                "normalized_label": "🇲🇳mongolia"
+            },
+            {
+                "normalized_label": "🇲🇪montenegro"
+            },
+            {
+                "normalized_label": "🇲🇸montserrat"
+            },
+            {
+                "normalized_label": "🇲🇦morocco"
+            },
+            {
+                "normalized_label": "🇲🇿mozambique"
+            },
+            {
+                "normalized_label": "🇲🇲myanmar"
+            },
+            {
+                "normalized_label": "🇳🇦namibia"
+            },
+            {
+                "normalized_label": "🇳🇷nauru"
+            },
+            {
+                "normalized_label": "🇳🇵nepal"
+            },
+            {
+                "normalized_label": "🇳🇱netherlands"
+            },
+            {
+                "normalized_label": "🇳🇨newcaledonia"
+            },
+            {
+                "normalized_label": "🇳🇿newzealand"
+            },
+            {
+                "normalized_label": "🇳🇮nicaragua"
+            },
+            {
+                "normalized_label": "🇳🇪niger"
+            },
+            {
+                "normalized_label": "🇳🇬nigeria"
+            },
+            {
+                "normalized_label": "🇳🇺niue"
+            },
+            {
+                "normalized_label": "🇳🇫norfolkisland"
+            },
+            {
+                "normalized_label": "🇲🇰northmacedonia"
+            },
+            {
+                "normalized_label": "🇲🇵northernmarianaislands"
+            },
+            {
+                "normalized_label": "🇳🇴norway"
+            },
+            {
+                "normalized_label": "🇴🇲oman"
+            },
+            {
+                "normalized_label": "🇵🇰pakistan"
+            },
+            {
+                "normalized_label": "🇵🇼palau"
+            },
+            {
+                "normalized_label": "🇵🇸palestine"
+            },
+            {
+                "normalized_label": "🇵🇦panama"
+            },
+            {
+                "normalized_label": "🇵🇬papuanewguinea"
+            },
+            {
+                "normalized_label": "🇵🇾paraguay"
+            },
+            {
+                "normalized_label": "🇵🇪peru"
+            },
+            {
+                "normalized_label": "🇵🇭philippines"
+            },
+            {
+                "normalized_label": "🇵🇳pitcairnislands"
+            },
+            {
+                "normalized_label": "🇵🇱poland"
+            },
+            {
+                "normalized_label": "🇵🇹portugal"
+            },
+            {
+                "normalized_label": "🇵🇷puertorico"
+            },
+            {
+                "normalized_label": "🇶🇦qatar"
+            },
+            {
+                "normalized_label": "🇷🇪reunion"
+            },
+            {
+                "normalized_label": "🇷🇴romania"
+            },
+            {
+                "normalized_label": "🇷🇺russia"
+            },
+            {
+                "normalized_label": "🇷🇼rwanda"
+            },
+            {
+                "normalized_label": "🇧🇱saintbarthelemy"
+            },
+            {
+                "normalized_label": "🇸🇭sainthelena"
+            },
+            {
+                "normalized_label": "🇰🇳saintkittsandnevis"
+            },
+            {
+                "normalized_label": "🇱🇨saintlucia"
+            },
+            {
+                "normalized_label": "🇲🇫saintmartin"
+            },
+            {
+                "normalized_label": "🇵🇲saintpierreandmiquelon"
+            },
+            {
+                "normalized_label": "🇻🇨saintvincentandthegrenadines"
+            },
+            {
+                "normalized_label": "🇼🇸samoa"
+            },
+            {
+                "normalized_label": "🇸🇲sanmarino"
+            },
+            {
+                "normalized_label": "🇸🇹saotomeandprincipe"
+            },
+            {
+                "normalized_label": "🇸🇦saudiarabia"
+            },
+            {
+                "normalized_label": "🇸🇳senegal"
+            },
+            {
+                "normalized_label": "🇷🇸serbia"
+            },
+            {
+                "normalized_label": "🇸🇨seychelles"
+            },
+            {
+                "normalized_label": "🇸🇱sierraleone"
+            },
+            {
+                "normalized_label": "🇸🇬singapore"
+            },
+            {
+                "normalized_label": "🇸🇽sintmaarten"
+            },
+            {
+                "normalized_label": "🇸🇰slovakia"
+            },
+            {
+                "normalized_label": "🇸🇮slovenia"
+            },
+            {
+                "normalized_label": "🇸🇧solomonislands"
+            },
+            {
+                "normalized_label": "🇸🇴somalia"
+            },
+            {
+                "normalized_label": "🇿🇦southafrica"
+            },
+            {
+                "normalized_label": "🇬🇸southgeorgia"
+            },
+            {
+                "normalized_label": "🇸🇸southsudan"
+            },
+            {
+                "normalized_label": "🇪🇸spain"
+            },
+            {
+                "normalized_label": "🇱🇰srilanka"
+            },
+            {
+                "normalized_label": "🇸🇩sudan"
+            },
+            {
+                "normalized_label": "🇸🇷suriname"
+            },
+            {
+                "normalized_label": "🇸🇯svalbardandjanmayen"
+            },
+            {
+                "normalized_label": "🇸🇪sweden"
+            },
+            {
+                "normalized_label": "🇨🇭switzerland"
+            },
+            {
+                "normalized_label": "🇸🇾syria"
+            },
+            {
+                "normalized_label": "🇹🇼taiwan"
+            },
+            {
+                "normalized_label": "🇹🇯tajikistan"
+            },
+            {
+                "normalized_label": "🇹🇿tanzania"
+            },
+            {
+                "normalized_label": "🇹🇭thailand"
+            },
+            {
+                "normalized_label": "🇹🇱timorleste"
+            },
+            {
+                "normalized_label": "🇹🇬togo"
+            },
+            {
+                "normalized_label": "🇹🇰tokelau"
+            },
+            {
+                "normalized_label": "🇹🇴tonga"
+            },
+            {
+                "normalized_label": "🇹🇹trinidadandtobago"
+            },
+            {
+                "normalized_label": "🇹🇳tunisia"
+            },
+            {
+                "normalized_label": "🇹🇷turkey"
+            },
+            {
+                "normalized_label": "🇹🇲turkmenistan"
+            },
+            {
+                "normalized_label": "🇹🇨turksandcaicosislands"
+            },
+            {
+                "normalized_label": "🇹🇻tuvalu"
+            },
+            {
+                "normalized_label": "🇺🇬uganda"
+            },
+            {
+                "normalized_label": "🇺🇦ukraine"
+            },
+            {
+                "normalized_label": "🇦🇪unitedarabemirates"
+            },
+            {
+                "normalized_label": "🇬🇧unitedkingdom"
+            },
+            {
+                "normalized_label": "🇺🇸unitedstates"
+            },
+            {
+                "normalized_label": "🇺🇲unitedstatesminoroutlyingislands"
+            },
+            {
+                "normalized_label": "🇺🇾uruguay"
+            },
+            {
+                "normalized_label": "🇺🇿uzbekistan"
+            },
+            {
+                "normalized_label": "🇻🇺vanuatu"
+            },
+            {
+                "normalized_label": "🇻🇦vaticancity"
+            },
+            {
+                "normalized_label": "🇻🇪venezuela"
+            },
+            {
+                "normalized_label": "🇻🇳vietnam"
+            },
+            {
+                "normalized_label": "🇻🇬britishvirginislands"
+            },
+            {
+                "normalized_label": "🇻🇮unitedstatesvirginislands"
+            },
+            {
+                "normalized_label": "🇼🇫wallisandfutuna"
+            },
+            {
+                "normalized_label": "🇪🇭westernsahara"
+            },
+            {
+                "normalized_label": "🇾🇪yemen"
+            },
+            {
+                "normalized_label": "🇿🇲zambia"
+            },
+            {
+                "normalized_label": "🇿🇼zimbabwe"
+            },
+            {
+                "normalized_label": "🇧🇱saintbarthélemy"
+            }
+        ]
+    }
+}

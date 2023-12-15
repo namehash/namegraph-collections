@@ -1,0 +1,317 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "0x99-club",
+        "collection_name": "0x99 Club",
+        "collection_description": "Names with 0x2Digits.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "0x00"
+            },
+            {
+                "normalized_label": "0x01"
+            },
+            {
+                "normalized_label": "0x02"
+            },
+            {
+                "normalized_label": "0x03"
+            },
+            {
+                "normalized_label": "0x04"
+            },
+            {
+                "normalized_label": "0x05"
+            },
+            {
+                "normalized_label": "0x06"
+            },
+            {
+                "normalized_label": "0x07"
+            },
+            {
+                "normalized_label": "0x10"
+            },
+            {
+                "normalized_label": "0x11"
+            },
+            {
+                "normalized_label": "0x12"
+            },
+            {
+                "normalized_label": "0x13"
+            },
+            {
+                "normalized_label": "0x14"
+            },
+            {
+                "normalized_label": "0x15"
+            },
+            {
+                "normalized_label": "0x16"
+            },
+            {
+                "normalized_label": "0x17"
+            },
+            {
+                "normalized_label": "0x18"
+            },
+            {
+                "normalized_label": "0x08"
+            },
+            {
+                "normalized_label": "0x09"
+            },
+            {
+                "normalized_label": "0x19"
+            },
+            {
+                "normalized_label": "0x20"
+            },
+            {
+                "normalized_label": "0x21"
+            },
+            {
+                "normalized_label": "0x22"
+            },
+            {
+                "normalized_label": "0x23"
+            },
+            {
+                "normalized_label": "0x24"
+            },
+            {
+                "normalized_label": "0x25"
+            },
+            {
+                "normalized_label": "0x26"
+            },
+            {
+                "normalized_label": "0x27"
+            },
+            {
+                "normalized_label": "0x28"
+            },
+            {
+                "normalized_label": "0x29"
+            },
+            {
+                "normalized_label": "0x30"
+            },
+            {
+                "normalized_label": "0x31"
+            },
+            {
+                "normalized_label": "0x32"
+            },
+            {
+                "normalized_label": "0x33"
+            },
+            {
+                "normalized_label": "0x34"
+            },
+            {
+                "normalized_label": "0x35"
+            },
+            {
+                "normalized_label": "0x36"
+            },
+            {
+                "normalized_label": "0x37"
+            },
+            {
+                "normalized_label": "0x38"
+            },
+            {
+                "normalized_label": "0x39"
+            },
+            {
+                "normalized_label": "0x40"
+            },
+            {
+                "normalized_label": "0x41"
+            },
+            {
+                "normalized_label": "0x42"
+            },
+            {
+                "normalized_label": "0x43"
+            },
+            {
+                "normalized_label": "0x44"
+            },
+            {
+                "normalized_label": "0x45"
+            },
+            {
+                "normalized_label": "0x46"
+            },
+            {
+                "normalized_label": "0x47"
+            },
+            {
+                "normalized_label": "0x48"
+            },
+            {
+                "normalized_label": "0x49"
+            },
+            {
+                "normalized_label": "0x50"
+            },
+            {
+                "normalized_label": "0x51"
+            },
+            {
+                "normalized_label": "0x52"
+            },
+            {
+                "normalized_label": "0x53"
+            },
+            {
+                "normalized_label": "0x54"
+            },
+            {
+                "normalized_label": "0x55"
+            },
+            {
+                "normalized_label": "0x56"
+            },
+            {
+                "normalized_label": "0x57"
+            },
+            {
+                "normalized_label": "0x58"
+            },
+            {
+                "normalized_label": "0x59"
+            },
+            {
+                "normalized_label": "0x60"
+            },
+            {
+                "normalized_label": "0x61"
+            },
+            {
+                "normalized_label": "0x62"
+            },
+            {
+                "normalized_label": "0x63"
+            },
+            {
+                "normalized_label": "0x64"
+            },
+            {
+                "normalized_label": "0x65"
+            },
+            {
+                "normalized_label": "0x66"
+            },
+            {
+                "normalized_label": "0x67"
+            },
+            {
+                "normalized_label": "0x68"
+            },
+            {
+                "normalized_label": "0x69"
+            },
+            {
+                "normalized_label": "0x70"
+            },
+            {
+                "normalized_label": "0x71"
+            },
+            {
+                "normalized_label": "0x72"
+            },
+            {
+                "normalized_label": "0x73"
+            },
+            {
+                "normalized_label": "0x74"
+            },
+            {
+                "normalized_label": "0x75"
+            },
+            {
+                "normalized_label": "0x76"
+            },
+            {
+                "normalized_label": "0x77"
+            },
+            {
+                "normalized_label": "0x78"
+            },
+            {
+                "normalized_label": "0x79"
+            },
+            {
+                "normalized_label": "0x80"
+            },
+            {
+                "normalized_label": "0x81"
+            },
+            {
+                "normalized_label": "0x82"
+            },
+            {
+                "normalized_label": "0x83"
+            },
+            {
+                "normalized_label": "0x84"
+            },
+            {
+                "normalized_label": "0x85"
+            },
+            {
+                "normalized_label": "0x86"
+            },
+            {
+                "normalized_label": "0x87"
+            },
+            {
+                "normalized_label": "0x88"
+            },
+            {
+                "normalized_label": "0x89"
+            },
+            {
+                "normalized_label": "0x90"
+            },
+            {
+                "normalized_label": "0x91"
+            },
+            {
+                "normalized_label": "0x92"
+            },
+            {
+                "normalized_label": "0x93"
+            },
+            {
+                "normalized_label": "0x94"
+            },
+            {
+                "normalized_label": "0x95"
+            },
+            {
+                "normalized_label": "0x96"
+            },
+            {
+                "normalized_label": "0x97"
+            },
+            {
+                "normalized_label": "0x98"
+            },
+            {
+                "normalized_label": "0x99"
+            }
+        ]
+    }
+}

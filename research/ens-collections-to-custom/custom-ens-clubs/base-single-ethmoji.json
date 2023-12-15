@@ -1,0 +1,674 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "base-single-ethmoji",
+        "collection_name": "Base Single Emojis",
+        "collection_description": "Gold & Unique Single Emojis.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "⛹‍♀"
+            },
+            {
+                "normalized_label": "⛹‍♂"
+            },
+            {
+                "normalized_label": "❤‍🔥"
+            },
+            {
+                "normalized_label": "❤‍🩹"
+            },
+            {
+                "normalized_label": "🏃‍♀"
+            },
+            {
+                "normalized_label": "🏃‍♂"
+            },
+            {
+                "normalized_label": "🏄‍♀"
+            },
+            {
+                "normalized_label": "🏄‍♂"
+            },
+            {
+                "normalized_label": "🏊‍♀"
+            },
+            {
+                "normalized_label": "🏊‍♂"
+            },
+            {
+                "normalized_label": "🏋‍♀"
+            },
+            {
+                "normalized_label": "🏋‍♂"
+            },
+            {
+                "normalized_label": "🏌‍♀"
+            },
+            {
+                "normalized_label": "🏌‍♂"
+            },
+            {
+                "normalized_label": "🏳‍⚧"
+            },
+            {
+                "normalized_label": "🏳‍🌈"
+            },
+            {
+                "normalized_label": "🏴‍☠"
+            },
+            {
+                "normalized_label": "🐈‍⬛"
+            },
+            {
+                "normalized_label": "🐕‍🦺"
+            },
+            {
+                "normalized_label": "🐻‍❄"
+            },
+            {
+                "normalized_label": "👁‍🗨"
+            },
+            {
+                "normalized_label": "👨‍⚕"
+            },
+            {
+                "normalized_label": "👨‍⚖"
+            },
+            {
+                "normalized_label": "👨‍✈"
+            },
+            {
+                "normalized_label": "👨‍❤‍👨"
+            },
+            {
+                "normalized_label": "👨‍❤‍💋‍👨"
+            },
+            {
+                "normalized_label": "👨‍🌾"
+            },
+            {
+                "normalized_label": "👨‍🍳"
+            },
+            {
+                "normalized_label": "👨‍🍼"
+            },
+            {
+                "normalized_label": "👨‍🎓"
+            },
+            {
+                "normalized_label": "👨‍🎤"
+            },
+            {
+                "normalized_label": "👨‍🎨"
+            },
+            {
+                "normalized_label": "👨‍🏫"
+            },
+            {
+                "normalized_label": "👨‍🏭"
+            },
+            {
+                "normalized_label": "👨‍👦"
+            },
+            {
+                "normalized_label": "👨‍👦‍👦"
+            },
+            {
+                "normalized_label": "👨‍👧"
+            },
+            {
+                "normalized_label": "👨‍👧‍👦"
+            },
+            {
+                "normalized_label": "👨‍👧‍👧"
+            },
+            {
+                "normalized_label": "👨‍👨‍👦"
+            },
+            {
+                "normalized_label": "👨‍👨‍👦‍👦"
+            },
+            {
+                "normalized_label": "👨‍👨‍👧"
+            },
+            {
+                "normalized_label": "👨‍👨‍👧‍👦"
+            },
+            {
+                "normalized_label": "👨‍👨‍👧‍👧"
+            },
+            {
+                "normalized_label": "👨‍👩‍👦"
+            },
+            {
+                "normalized_label": "👨‍👩‍👦‍👦"
+            },
+            {
+                "normalized_label": "👨‍👩‍👧"
+            },
+            {
+                "normalized_label": "👨‍👩‍👧‍👦"
+            },
+            {
+                "normalized_label": "👨‍👩‍👧‍👧"
+            },
+            {
+                "normalized_label": "👨‍💻"
+            },
+            {
+                "normalized_label": "👨‍💼"
+            },
+            {
+                "normalized_label": "👨‍🔧"
+            },
+            {
+                "normalized_label": "👨‍🔬"
+            },
+            {
+                "normalized_label": "👨‍🚀"
+            },
+            {
+                "normalized_label": "👨‍🚒"
+            },
+            {
+                "normalized_label": "👨‍🦯"
+            },
+            {
+                "normalized_label": "👨‍🦰"
+            },
+            {
+                "normalized_label": "👨‍🦱"
+            },
+            {
+                "normalized_label": "👨‍🦲"
+            },
+            {
+                "normalized_label": "👨‍🦳"
+            },
+            {
+                "normalized_label": "👨‍🦼"
+            },
+            {
+                "normalized_label": "👨‍🦽"
+            },
+            {
+                "normalized_label": "👩‍⚕"
+            },
+            {
+                "normalized_label": "👩‍⚖"
+            },
+            {
+                "normalized_label": "👩‍✈"
+            },
+            {
+                "normalized_label": "👩‍❤‍👨"
+            },
+            {
+                "normalized_label": "👩‍❤‍👩"
+            },
+            {
+                "normalized_label": "👩‍❤‍💋‍👨"
+            },
+            {
+                "normalized_label": "👩‍❤‍💋‍👩"
+            },
+            {
+                "normalized_label": "👩‍🌾"
+            },
+            {
+                "normalized_label": "👩‍🍳"
+            },
+            {
+                "normalized_label": "👩‍🍼"
+            },
+            {
+                "normalized_label": "👩‍🎓"
+            },
+            {
+                "normalized_label": "👩‍🎤"
+            },
+            {
+                "normalized_label": "👩‍🎨"
+            },
+            {
+                "normalized_label": "👩‍🏫"
+            },
+            {
+                "normalized_label": "👩‍🏭"
+            },
+            {
+                "normalized_label": "👩‍👦"
+            },
+            {
+                "normalized_label": "👩‍👦‍👦"
+            },
+            {
+                "normalized_label": "👩‍👧"
+            },
+            {
+                "normalized_label": "👩‍👧‍👦"
+            },
+            {
+                "normalized_label": "👩‍👧‍👧"
+            },
+            {
+                "normalized_label": "👩‍👩‍👦"
+            },
+            {
+                "normalized_label": "👩‍👩‍👦‍👦"
+            },
+            {
+                "normalized_label": "👩‍👩‍👧"
+            },
+            {
+                "normalized_label": "👩‍👩‍👧‍👦"
+            },
+            {
+                "normalized_label": "👩‍👩‍👧‍👧"
+            },
+            {
+                "normalized_label": "👩‍💻"
+            },
+            {
+                "normalized_label": "👩‍💼"
+            },
+            {
+                "normalized_label": "👩‍🔧"
+            },
+            {
+                "normalized_label": "👩‍🔬"
+            },
+            {
+                "normalized_label": "👩‍🚀"
+            },
+            {
+                "normalized_label": "👩‍🚒"
+            },
+            {
+                "normalized_label": "👩‍🦯"
+            },
+            {
+                "normalized_label": "👩‍🦰"
+            },
+            {
+                "normalized_label": "👩‍🦱"
+            },
+            {
+                "normalized_label": "👩‍🦲"
+            },
+            {
+                "normalized_label": "👩‍🦳"
+            },
+            {
+                "normalized_label": "👩‍🦼"
+            },
+            {
+                "normalized_label": "👩‍🦽"
+            },
+            {
+                "normalized_label": "👮‍♀"
+            },
+            {
+                "normalized_label": "👮‍♂"
+            },
+            {
+                "normalized_label": "👯‍♀"
+            },
+            {
+                "normalized_label": "👯‍♂"
+            },
+            {
+                "normalized_label": "👰‍♀"
+            },
+            {
+                "normalized_label": "👰‍♂"
+            },
+            {
+                "normalized_label": "👱‍♀"
+            },
+            {
+                "normalized_label": "👱‍♂"
+            },
+            {
+                "normalized_label": "👳‍♀"
+            },
+            {
+                "normalized_label": "👳‍♂"
+            },
+            {
+                "normalized_label": "👷‍♀"
+            },
+            {
+                "normalized_label": "👷‍♂"
+            },
+            {
+                "normalized_label": "💁‍♀"
+            },
+            {
+                "normalized_label": "💁‍♂"
+            },
+            {
+                "normalized_label": "💂‍♀"
+            },
+            {
+                "normalized_label": "💂‍♂"
+            },
+            {
+                "normalized_label": "💆‍♀"
+            },
+            {
+                "normalized_label": "💆‍♂"
+            },
+            {
+                "normalized_label": "💇‍♀"
+            },
+            {
+                "normalized_label": "💇‍♂"
+            },
+            {
+                "normalized_label": "🕵‍♀"
+            },
+            {
+                "normalized_label": "🕵‍♂"
+            },
+            {
+                "normalized_label": "😮‍💨"
+            },
+            {
+                "normalized_label": "😵‍💫"
+            },
+            {
+                "normalized_label": "😶‍🌫"
+            },
+            {
+                "normalized_label": "🙅‍♀"
+            },
+            {
+                "normalized_label": "🙅‍♂"
+            },
+            {
+                "normalized_label": "🙆‍♀"
+            },
+            {
+                "normalized_label": "🙆‍♂"
+            },
+            {
+                "normalized_label": "🙇‍♀"
+            },
+            {
+                "normalized_label": "🙇‍♂"
+            },
+            {
+                "normalized_label": "🙋‍♀"
+            },
+            {
+                "normalized_label": "🙋‍♂"
+            },
+            {
+                "normalized_label": "🙍‍♀"
+            },
+            {
+                "normalized_label": "🙍‍♂"
+            },
+            {
+                "normalized_label": "🙎‍♀"
+            },
+            {
+                "normalized_label": "🙎‍♂"
+            },
+            {
+                "normalized_label": "🚣‍♀"
+            },
+            {
+                "normalized_label": "🚣‍♂"
+            },
+            {
+                "normalized_label": "🚴‍♀"
+            },
+            {
+                "normalized_label": "🚴‍♂"
+            },
+            {
+                "normalized_label": "🚵‍♀"
+            },
+            {
+                "normalized_label": "🚵‍♂"
+            },
+            {
+                "normalized_label": "🚶‍♀"
+            },
+            {
+                "normalized_label": "🚶‍♂"
+            },
+            {
+                "normalized_label": "🤦‍♀"
+            },
+            {
+                "normalized_label": "🤦‍♂"
+            },
+            {
+                "normalized_label": "🤵‍♀"
+            },
+            {
+                "normalized_label": "🤵‍♂"
+            },
+            {
+                "normalized_label": "🤷‍♀"
+            },
+            {
+                "normalized_label": "🤷‍♂"
+            },
+            {
+                "normalized_label": "🤸‍♀"
+            },
+            {
+                "normalized_label": "🤸‍♂"
+            },
+            {
+                "normalized_label": "🤹‍♀"
+            },
+            {
+                "normalized_label": "🤹‍♂"
+            },
+            {
+                "normalized_label": "🤼‍♀"
+            },
+            {
+                "normalized_label": "🤼‍♂"
+            },
+            {
+                "normalized_label": "🤽‍♀"
+            },
+            {
+                "normalized_label": "🤽‍♂"
+            },
+            {
+                "normalized_label": "🤾‍♀"
+            },
+            {
+                "normalized_label": "🤾‍♂"
+            },
+            {
+                "normalized_label": "🦸‍♀"
+            },
+            {
+                "normalized_label": "🦸‍♂"
+            },
+            {
+                "normalized_label": "🦹‍♀"
+            },
+            {
+                "normalized_label": "🦹‍♂"
+            },
+            {
+                "normalized_label": "🧍‍♀"
+            },
+            {
+                "normalized_label": "🧍‍♂"
+            },
+            {
+                "normalized_label": "🧎‍♀"
+            },
+            {
+                "normalized_label": "🧎‍♂"
+            },
+            {
+                "normalized_label": "🧏‍♀"
+            },
+            {
+                "normalized_label": "🧏‍♂"
+            },
+            {
+                "normalized_label": "🧑‍⚕"
+            },
+            {
+                "normalized_label": "🧑‍⚖"
+            },
+            {
+                "normalized_label": "🧑‍✈"
+            },
+            {
+                "normalized_label": "🧑‍🌾"
+            },
+            {
+                "normalized_label": "🧑‍🍳"
+            },
+            {
+                "normalized_label": "🧑‍🍼"
+            },
+            {
+                "normalized_label": "🧑‍🎄"
+            },
+            {
+                "normalized_label": "🧑‍🎓"
+            },
+            {
+                "normalized_label": "🧑‍🎤"
+            },
+            {
+                "normalized_label": "🧑‍🎨"
+            },
+            {
+                "normalized_label": "🧑‍🏫"
+            },
+            {
+                "normalized_label": "🧑‍🏭"
+            },
+            {
+                "normalized_label": "🧑‍💻"
+            },
+            {
+                "normalized_label": "🧑‍💼"
+            },
+            {
+                "normalized_label": "🧑‍🔧"
+            },
+            {
+                "normalized_label": "🧑‍🔬"
+            },
+            {
+                "normalized_label": "🧑‍🚀"
+            },
+            {
+                "normalized_label": "🧑‍🚒"
+            },
+            {
+                "normalized_label": "🧑‍🤝‍🧑"
+            },
+            {
+                "normalized_label": "🧑‍🦯"
+            },
+            {
+                "normalized_label": "🧑‍🦰"
+            },
+            {
+                "normalized_label": "🧑‍🦱"
+            },
+            {
+                "normalized_label": "🧑‍🦲"
+            },
+            {
+                "normalized_label": "🧑‍🦳"
+            },
+            {
+                "normalized_label": "🧑‍🦼"
+            },
+            {
+                "normalized_label": "🧑‍🦽"
+            },
+            {
+                "normalized_label": "🧔‍♀"
+            },
+            {
+                "normalized_label": "🧔‍♂"
+            },
+            {
+                "normalized_label": "🧖‍♀"
+            },
+            {
+                "normalized_label": "🧖‍♂"
+            },
+            {
+                "normalized_label": "🧗‍♀"
+            },
+            {
+                "normalized_label": "🧗‍♂"
+            },
+            {
+                "normalized_label": "🧘‍♀"
+            },
+            {
+                "normalized_label": "🧘‍♂"
+            },
+            {
+                "normalized_label": "🧙‍♀"
+            },
+            {
+                "normalized_label": "🧙‍♂"
+            },
+            {
+                "normalized_label": "🧚‍♀"
+            },
+            {
+                "normalized_label": "🧚‍♂"
+            },
+            {
+                "normalized_label": "🧛‍♀"
+            },
+            {
+                "normalized_label": "🧛‍♂"
+            },
+            {
+                "normalized_label": "🧜‍♀"
+            },
+            {
+                "normalized_label": "🧜‍♂"
+            },
+            {
+                "normalized_label": "🧝‍♀"
+            },
+            {
+                "normalized_label": "🧝‍♂"
+            },
+            {
+                "normalized_label": "🧞‍♀"
+            },
+            {
+                "normalized_label": "🧞‍♂"
+            },
+            {
+                "normalized_label": "🧟‍♀"
+            },
+            {
+                "normalized_label": "🧟‍♂"
+            }
+        ]
+    }
+}

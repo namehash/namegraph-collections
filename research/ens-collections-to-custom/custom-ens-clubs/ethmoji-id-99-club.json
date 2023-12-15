@@ -1,0 +1,317 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "ethmoji-id-99-club",
+        "collection_name": "Ethmoji ID99 Club",
+        "collection_description": "Names with 1-2 Emoji Digits beginning in 🆔.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "🆔1⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔1⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔2⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔3⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔4⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔5⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔6⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔7⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔8⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣0⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣1⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣2⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣3⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣4⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣5⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣6⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣7⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣8⃣"
+            },
+            {
+                "normalized_label": "🆔9⃣9⃣"
+            },
+            {
+                "normalized_label": "🆔0⃣"
+            }
+        ]
+    }
+}

@@ -1,0 +1,3011 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "punjabi-999-club",
+        "collection_name": "Punjabi 999 Club",
+        "collection_description": "Punjabi numerals 000-999.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "੦੦੦"
+            },
+            {
+                "normalized_label": "੦੦੧"
+            },
+            {
+                "normalized_label": "੦੦੨"
+            },
+            {
+                "normalized_label": "੦੦੩"
+            },
+            {
+                "normalized_label": "੦੦੪"
+            },
+            {
+                "normalized_label": "੦੦੫"
+            },
+            {
+                "normalized_label": "੦੦੬"
+            },
+            {
+                "normalized_label": "੦੦੭"
+            },
+            {
+                "normalized_label": "੦੦੮"
+            },
+            {
+                "normalized_label": "੦੦੯"
+            },
+            {
+                "normalized_label": "੦੧੦"
+            },
+            {
+                "normalized_label": "੦੧੧"
+            },
+            {
+                "normalized_label": "੦੧੨"
+            },
+            {
+                "normalized_label": "੦੧੩"
+            },
+            {
+                "normalized_label": "੦੧੪"
+            },
+            {
+                "normalized_label": "੦੧੫"
+            },
+            {
+                "normalized_label": "੦੧੬"
+            },
+            {
+                "normalized_label": "੦੧੭"
+            },
+            {
+                "normalized_label": "੦੧੮"
+            },
+            {
+                "normalized_label": "੦੧੯"
+            },
+            {
+                "normalized_label": "੦੨੦"
+            },
+            {
+                "normalized_label": "੦੨੧"
+            },
+            {
+                "normalized_label": "੦੨੨"
+            },
+            {
+                "normalized_label": "੦੨੩"
+            },
+            {
+                "normalized_label": "੦੨੪"
+            },
+            {
+                "normalized_label": "੦੨੫"
+            },
+            {
+                "normalized_label": "੦੨੬"
+            },
+            {
+                "normalized_label": "੦੨੭"
+            },
+            {
+                "normalized_label": "੦੨੮"
+            },
+            {
+                "normalized_label": "੦੨੯"
+            },
+            {
+                "normalized_label": "੦੩੦"
+            },
+            {
+                "normalized_label": "੦੩੧"
+            },
+            {
+                "normalized_label": "੦੩੨"
+            },
+            {
+                "normalized_label": "੦੩੩"
+            },
+            {
+                "normalized_label": "੦੩੪"
+            },
+            {
+                "normalized_label": "੦੩੫"
+            },
+            {
+                "normalized_label": "੦੩੬"
+            },
+            {
+                "normalized_label": "੦੩੭"
+            },
+            {
+                "normalized_label": "੦੩੮"
+            },
+            {
+                "normalized_label": "੦੩੯"
+            },
+            {
+                "normalized_label": "੦੪੦"
+            },
+            {
+                "normalized_label": "੦੪੧"
+            },
+            {
+                "normalized_label": "੦੪੨"
+            },
+            {
+                "normalized_label": "੦੪੩"
+            },
+            {
+                "normalized_label": "੦੪੪"
+            },
+            {
+                "normalized_label": "੦੪੫"
+            },
+            {
+                "normalized_label": "੦੪੬"
+            },
+            {
+                "normalized_label": "੦੪੭"
+            },
+            {
+                "normalized_label": "੦੪੮"
+            },
+            {
+                "normalized_label": "੦੪੯"
+            },
+            {
+                "normalized_label": "੦੫੦"
+            },
+            {
+                "normalized_label": "੦੫੧"
+            },
+            {
+                "normalized_label": "੦੫੨"
+            },
+            {
+                "normalized_label": "੦੫੩"
+            },
+            {
+                "normalized_label": "੦੫੪"
+            },
+            {
+                "normalized_label": "੦੫੫"
+            },
+            {
+                "normalized_label": "੦੫੬"
+            },
+            {
+                "normalized_label": "੦੫੭"
+            },
+            {
+                "normalized_label": "੦੫੮"
+            },
+            {
+                "normalized_label": "੦੫੯"
+            },
+            {
+                "normalized_label": "੦੬੦"
+            },
+            {
+                "normalized_label": "੦੬੧"
+            },
+            {
+                "normalized_label": "੦੬੨"
+            },
+            {
+                "normalized_label": "੦੬੩"
+            },
+            {
+                "normalized_label": "੦੬੪"
+            },
+            {
+                "normalized_label": "੦੬੫"
+            },
+            {
+                "normalized_label": "੦੬੬"
+            },
+            {
+                "normalized_label": "੦੬੭"
+            },
+            {
+                "normalized_label": "੦੬੮"
+            },
+            {
+                "normalized_label": "੦੬੯"
+            },
+            {
+                "normalized_label": "੦੭੦"
+            },
+            {
+                "normalized_label": "੦੭੧"
+            },
+            {
+                "normalized_label": "੦੭੨"
+            },
+            {
+                "normalized_label": "੦੭੩"
+            },
+            {
+                "normalized_label": "੦੭੪"
+            },
+            {
+                "normalized_label": "੦੭੬"
+            },
+            {
+                "normalized_label": "੦੭੭"
+            },
+            {
+                "normalized_label": "੦੭੮"
+            },
+            {
+                "normalized_label": "੦੭੯"
+            },
+            {
+                "normalized_label": "੦੮੦"
+            },
+            {
+                "normalized_label": "੦੮੧"
+            },
+            {
+                "normalized_label": "੦੮੨"
+            },
+            {
+                "normalized_label": "੦੮੩"
+            },
+            {
+                "normalized_label": "੦੮੪"
+            },
+            {
+                "normalized_label": "੦੮੫"
+            },
+            {
+                "normalized_label": "੦੮੬"
+            },
+            {
+                "normalized_label": "੦੮੭"
+            },
+            {
+                "normalized_label": "੦੮੮"
+            },
+            {
+                "normalized_label": "੦੮੯"
+            },
+            {
+                "normalized_label": "੦੯੦"
+            },
+            {
+                "normalized_label": "੦੯੧"
+            },
+            {
+                "normalized_label": "੦੯੨"
+            },
+            {
+                "normalized_label": "੦੯੩"
+            },
+            {
+                "normalized_label": "੦੯੪"
+            },
+            {
+                "normalized_label": "੦੯੫"
+            },
+            {
+                "normalized_label": "੦੯੬"
+            },
+            {
+                "normalized_label": "੦੯੭"
+            },
+            {
+                "normalized_label": "੦੯੮"
+            },
+            {
+                "normalized_label": "੦੯੯"
+            },
+            {
+                "normalized_label": "੧੦੦"
+            },
+            {
+                "normalized_label": "੧੦੧"
+            },
+            {
+                "normalized_label": "੧੦੨"
+            },
+            {
+                "normalized_label": "੧੦੩"
+            },
+            {
+                "normalized_label": "੧੦੪"
+            },
+            {
+                "normalized_label": "੧੦੫"
+            },
+            {
+                "normalized_label": "੧੦੬"
+            },
+            {
+                "normalized_label": "੧੦੭"
+            },
+            {
+                "normalized_label": "੧੦੮"
+            },
+            {
+                "normalized_label": "੧੦੯"
+            },
+            {
+                "normalized_label": "੧੧੦"
+            },
+            {
+                "normalized_label": "੧੧੧"
+            },
+            {
+                "normalized_label": "੧੧੨"
+            },
+            {
+                "normalized_label": "੧੧੩"
+            },
+            {
+                "normalized_label": "੧੧੪"
+            },
+            {
+                "normalized_label": "੧੧੫"
+            },
+            {
+                "normalized_label": "੧੧੬"
+            },
+            {
+                "normalized_label": "੧੧੭"
+            },
+            {
+                "normalized_label": "੧੧੮"
+            },
+            {
+                "normalized_label": "੧੧੯"
+            },
+            {
+                "normalized_label": "੧੨੦"
+            },
+            {
+                "normalized_label": "੧੨੧"
+            },
+            {
+                "normalized_label": "੧੨੨"
+            },
+            {
+                "normalized_label": "੧੨੩"
+            },
+            {
+                "normalized_label": "੧੨੪"
+            },
+            {
+                "normalized_label": "੧੨੫"
+            },
+            {
+                "normalized_label": "੧੨੬"
+            },
+            {
+                "normalized_label": "੧੨੭"
+            },
+            {
+                "normalized_label": "੧੨੮"
+            },
+            {
+                "normalized_label": "੧੨੯"
+            },
+            {
+                "normalized_label": "੧੩੦"
+            },
+            {
+                "normalized_label": "੧੩੧"
+            },
+            {
+                "normalized_label": "੧੩੨"
+            },
+            {
+                "normalized_label": "੧੩੩"
+            },
+            {
+                "normalized_label": "੧੩੪"
+            },
+            {
+                "normalized_label": "੧੩੫"
+            },
+            {
+                "normalized_label": "੧੩੬"
+            },
+            {
+                "normalized_label": "੧੩੭"
+            },
+            {
+                "normalized_label": "੧੩੮"
+            },
+            {
+                "normalized_label": "੧੩੯"
+            },
+            {
+                "normalized_label": "੧੪੦"
+            },
+            {
+                "normalized_label": "੧੪੧"
+            },
+            {
+                "normalized_label": "੧੪੨"
+            },
+            {
+                "normalized_label": "੧੪੩"
+            },
+            {
+                "normalized_label": "੧੪੪"
+            },
+            {
+                "normalized_label": "੧੪੫"
+            },
+            {
+                "normalized_label": "੧੪੬"
+            },
+            {
+                "normalized_label": "੧੪੭"
+            },
+            {
+                "normalized_label": "੧੪੮"
+            },
+            {
+                "normalized_label": "੧੪੯"
+            },
+            {
+                "normalized_label": "੧੫੦"
+            },
+            {
+                "normalized_label": "੧੫੧"
+            },
+            {
+                "normalized_label": "੧੫੨"
+            },
+            {
+                "normalized_label": "੧੫੩"
+            },
+            {
+                "normalized_label": "੧੫੪"
+            },
+            {
+                "normalized_label": "੧੫੫"
+            },
+            {
+                "normalized_label": "੧੫੬"
+            },
+            {
+                "normalized_label": "੧੫੭"
+            },
+            {
+                "normalized_label": "੧੫੮"
+            },
+            {
+                "normalized_label": "੧੫੯"
+            },
+            {
+                "normalized_label": "੧੬੦"
+            },
+            {
+                "normalized_label": "੧੬੧"
+            },
+            {
+                "normalized_label": "੧੬੨"
+            },
+            {
+                "normalized_label": "੧੬੩"
+            },
+            {
+                "normalized_label": "੧੬੪"
+            },
+            {
+                "normalized_label": "੧੬੫"
+            },
+            {
+                "normalized_label": "੧੬੬"
+            },
+            {
+                "normalized_label": "੧੬੭"
+            },
+            {
+                "normalized_label": "੧੬੮"
+            },
+            {
+                "normalized_label": "੧੬੯"
+            },
+            {
+                "normalized_label": "੧੭੦"
+            },
+            {
+                "normalized_label": "੧੭੧"
+            },
+            {
+                "normalized_label": "੧੭੨"
+            },
+            {
+                "normalized_label": "੧੭੩"
+            },
+            {
+                "normalized_label": "੧੭੪"
+            },
+            {
+                "normalized_label": "੧੭੫"
+            },
+            {
+                "normalized_label": "੧੭੬"
+            },
+            {
+                "normalized_label": "੧੭੭"
+            },
+            {
+                "normalized_label": "੧੭੮"
+            },
+            {
+                "normalized_label": "੧੭੯"
+            },
+            {
+                "normalized_label": "੧੮੦"
+            },
+            {
+                "normalized_label": "੧੮੧"
+            },
+            {
+                "normalized_label": "੧੮੨"
+            },
+            {
+                "normalized_label": "੧੮੩"
+            },
+            {
+                "normalized_label": "੧੮੪"
+            },
+            {
+                "normalized_label": "੧੮੫"
+            },
+            {
+                "normalized_label": "੧੮੬"
+            },
+            {
+                "normalized_label": "੧੮੭"
+            },
+            {
+                "normalized_label": "੧੮੮"
+            },
+            {
+                "normalized_label": "੧੮੯"
+            },
+            {
+                "normalized_label": "੧੯੦"
+            },
+            {
+                "normalized_label": "੧੯੧"
+            },
+            {
+                "normalized_label": "੧੯੨"
+            },
+            {
+                "normalized_label": "੧੯੩"
+            },
+            {
+                "normalized_label": "੧੯੪"
+            },
+            {
+                "normalized_label": "੧੯੫"
+            },
+            {
+                "normalized_label": "੧੯੬"
+            },
+            {
+                "normalized_label": "੧੯੭"
+            },
+            {
+                "normalized_label": "੧੯੮"
+            },
+            {
+                "normalized_label": "੧੯੯"
+            },
+            {
+                "normalized_label": "੨੦੦"
+            },
+            {
+                "normalized_label": "੨੦੧"
+            },
+            {
+                "normalized_label": "੨੦੨"
+            },
+            {
+                "normalized_label": "੨੦੩"
+            },
+            {
+                "normalized_label": "੨੦੪"
+            },
+            {
+                "normalized_label": "੨੦੫"
+            },
+            {
+                "normalized_label": "੨੦੬"
+            },
+            {
+                "normalized_label": "੨੦੭"
+            },
+            {
+                "normalized_label": "੨੦੮"
+            },
+            {
+                "normalized_label": "੨੦੯"
+            },
+            {
+                "normalized_label": "੨੧੦"
+            },
+            {
+                "normalized_label": "੨੧੧"
+            },
+            {
+                "normalized_label": "੨੧੨"
+            },
+            {
+                "normalized_label": "੨੧੩"
+            },
+            {
+                "normalized_label": "੨੧੪"
+            },
+            {
+                "normalized_label": "੨੧੫"
+            },
+            {
+                "normalized_label": "੨੧੬"
+            },
+            {
+                "normalized_label": "੨੧੭"
+            },
+            {
+                "normalized_label": "੨੧੮"
+            },
+            {
+                "normalized_label": "੨੧੯"
+            },
+            {
+                "normalized_label": "੨੨੦"
+            },
+            {
+                "normalized_label": "੨੨੧"
+            },
+            {
+                "normalized_label": "੨੨੨"
+            },
+            {
+                "normalized_label": "੨੨੩"
+            },
+            {
+                "normalized_label": "੨੨੪"
+            },
+            {
+                "normalized_label": "੨੨੫"
+            },
+            {
+                "normalized_label": "੨੨੬"
+            },
+            {
+                "normalized_label": "੨੨੭"
+            },
+            {
+                "normalized_label": "੨੨੮"
+            },
+            {
+                "normalized_label": "੨੨੯"
+            },
+            {
+                "normalized_label": "੨੩੦"
+            },
+            {
+                "normalized_label": "੨੩੧"
+            },
+            {
+                "normalized_label": "੨੩੨"
+            },
+            {
+                "normalized_label": "੨੩੩"
+            },
+            {
+                "normalized_label": "੨੩੪"
+            },
+            {
+                "normalized_label": "੨੩੫"
+            },
+            {
+                "normalized_label": "੨੩੬"
+            },
+            {
+                "normalized_label": "੨੩੭"
+            },
+            {
+                "normalized_label": "੨੩੮"
+            },
+            {
+                "normalized_label": "੨੩੯"
+            },
+            {
+                "normalized_label": "੨੪੦"
+            },
+            {
+                "normalized_label": "੨੪੧"
+            },
+            {
+                "normalized_label": "੨੪੨"
+            },
+            {
+                "normalized_label": "੨੪੩"
+            },
+            {
+                "normalized_label": "੨੪੪"
+            },
+            {
+                "normalized_label": "੨੪੫"
+            },
+            {
+                "normalized_label": "੨੪੬"
+            },
+            {
+                "normalized_label": "੨੪੭"
+            },
+            {
+                "normalized_label": "੨੪੮"
+            },
+            {
+                "normalized_label": "੨੪੯"
+            },
+            {
+                "normalized_label": "੨੫੦"
+            },
+            {
+                "normalized_label": "੨੫੧"
+            },
+            {
+                "normalized_label": "੨੫੨"
+            },
+            {
+                "normalized_label": "੨੫੩"
+            },
+            {
+                "normalized_label": "੨੫੪"
+            },
+            {
+                "normalized_label": "੨੫੫"
+            },
+            {
+                "normalized_label": "੨੫੬"
+            },
+            {
+                "normalized_label": "੨੫੭"
+            },
+            {
+                "normalized_label": "੨੫੮"
+            },
+            {
+                "normalized_label": "੨੫੯"
+            },
+            {
+                "normalized_label": "੨੬੦"
+            },
+            {
+                "normalized_label": "੨੬੧"
+            },
+            {
+                "normalized_label": "੨੬੨"
+            },
+            {
+                "normalized_label": "੨੬੩"
+            },
+            {
+                "normalized_label": "੨੬੪"
+            },
+            {
+                "normalized_label": "੨੬੫"
+            },
+            {
+                "normalized_label": "੨੬੬"
+            },
+            {
+                "normalized_label": "੨੬੭"
+            },
+            {
+                "normalized_label": "੨੬੮"
+            },
+            {
+                "normalized_label": "੨੬੯"
+            },
+            {
+                "normalized_label": "੨੭੦"
+            },
+            {
+                "normalized_label": "੨੭੧"
+            },
+            {
+                "normalized_label": "੨੭੨"
+            },
+            {
+                "normalized_label": "੨੭੩"
+            },
+            {
+                "normalized_label": "੨੭੪"
+            },
+            {
+                "normalized_label": "੨੭੫"
+            },
+            {
+                "normalized_label": "੨੭੬"
+            },
+            {
+                "normalized_label": "੨੭੭"
+            },
+            {
+                "normalized_label": "੨੭੮"
+            },
+            {
+                "normalized_label": "੨੭੯"
+            },
+            {
+                "normalized_label": "੨੮੦"
+            },
+            {
+                "normalized_label": "੨੮੧"
+            },
+            {
+                "normalized_label": "੨੮੨"
+            },
+            {
+                "normalized_label": "੨੮੩"
+            },
+            {
+                "normalized_label": "੨੮੪"
+            },
+            {
+                "normalized_label": "੨੮੫"
+            },
+            {
+                "normalized_label": "੨੮੬"
+            },
+            {
+                "normalized_label": "੨੮੭"
+            },
+            {
+                "normalized_label": "੨੮੮"
+            },
+            {
+                "normalized_label": "੨੮੯"
+            },
+            {
+                "normalized_label": "੨੯੦"
+            },
+            {
+                "normalized_label": "੨੯੧"
+            },
+            {
+                "normalized_label": "੨੯੨"
+            },
+            {
+                "normalized_label": "੨੯੩"
+            },
+            {
+                "normalized_label": "੨੯੪"
+            },
+            {
+                "normalized_label": "੨੯੫"
+            },
+            {
+                "normalized_label": "੨੯੬"
+            },
+            {
+                "normalized_label": "੨੯੭"
+            },
+            {
+                "normalized_label": "੨੯੮"
+            },
+            {
+                "normalized_label": "੨੯੯"
+            },
+            {
+                "normalized_label": "੩੦੦"
+            },
+            {
+                "normalized_label": "੩੦੧"
+            },
+            {
+                "normalized_label": "੩੦੨"
+            },
+            {
+                "normalized_label": "੩੦੩"
+            },
+            {
+                "normalized_label": "੩੦੪"
+            },
+            {
+                "normalized_label": "੩੦੫"
+            },
+            {
+                "normalized_label": "੩੦੬"
+            },
+            {
+                "normalized_label": "੩੦੭"
+            },
+            {
+                "normalized_label": "੩੦੮"
+            },
+            {
+                "normalized_label": "੩੦੯"
+            },
+            {
+                "normalized_label": "੩੧੦"
+            },
+            {
+                "normalized_label": "੩੧੧"
+            },
+            {
+                "normalized_label": "੩੧੨"
+            },
+            {
+                "normalized_label": "੩੧੩"
+            },
+            {
+                "normalized_label": "੩੧੪"
+            },
+            {
+                "normalized_label": "੩੧੫"
+            },
+            {
+                "normalized_label": "੩੧੬"
+            },
+            {
+                "normalized_label": "੩੧੭"
+            },
+            {
+                "normalized_label": "੩੧੮"
+            },
+            {
+                "normalized_label": "੩੧੯"
+            },
+            {
+                "normalized_label": "੩੨੦"
+            },
+            {
+                "normalized_label": "੩੨੧"
+            },
+            {
+                "normalized_label": "੩੨੨"
+            },
+            {
+                "normalized_label": "੩੨੩"
+            },
+            {
+                "normalized_label": "੩੨੪"
+            },
+            {
+                "normalized_label": "੩੨੫"
+            },
+            {
+                "normalized_label": "੩੨੬"
+            },
+            {
+                "normalized_label": "੩੨੭"
+            },
+            {
+                "normalized_label": "੩੨੮"
+            },
+            {
+                "normalized_label": "੩੨੯"
+            },
+            {
+                "normalized_label": "੩੩੦"
+            },
+            {
+                "normalized_label": "੩੩੧"
+            },
+            {
+                "normalized_label": "੩੩੨"
+            },
+            {
+                "normalized_label": "੩੩੩"
+            },
+            {
+                "normalized_label": "੩੩੪"
+            },
+            {
+                "normalized_label": "੩੩੫"
+            },
+            {
+                "normalized_label": "੩੩੬"
+            },
+            {
+                "normalized_label": "੩੩੭"
+            },
+            {
+                "normalized_label": "੩੩੮"
+            },
+            {
+                "normalized_label": "੩੩੯"
+            },
+            {
+                "normalized_label": "੩੪੦"
+            },
+            {
+                "normalized_label": "੩੪੧"
+            },
+            {
+                "normalized_label": "੩੪੨"
+            },
+            {
+                "normalized_label": "੩੪੩"
+            },
+            {
+                "normalized_label": "੩੪੪"
+            },
+            {
+                "normalized_label": "੩੪੫"
+            },
+            {
+                "normalized_label": "੩੪੬"
+            },
+            {
+                "normalized_label": "੩੪੭"
+            },
+            {
+                "normalized_label": "੩੪੮"
+            },
+            {
+                "normalized_label": "੩੪੯"
+            },
+            {
+                "normalized_label": "੩੫੦"
+            },
+            {
+                "normalized_label": "੩੫੧"
+            },
+            {
+                "normalized_label": "੩੫੨"
+            },
+            {
+                "normalized_label": "੩੫੩"
+            },
+            {
+                "normalized_label": "੩੫੪"
+            },
+            {
+                "normalized_label": "੩੫੫"
+            },
+            {
+                "normalized_label": "੩੫੬"
+            },
+            {
+                "normalized_label": "੩੫੭"
+            },
+            {
+                "normalized_label": "੩੫੮"
+            },
+            {
+                "normalized_label": "੩੫੯"
+            },
+            {
+                "normalized_label": "੩੬੦"
+            },
+            {
+                "normalized_label": "੩੬੧"
+            },
+            {
+                "normalized_label": "੩੬੨"
+            },
+            {
+                "normalized_label": "੩੬੩"
+            },
+            {
+                "normalized_label": "੩੬੪"
+            },
+            {
+                "normalized_label": "੩੬੫"
+            },
+            {
+                "normalized_label": "੩੬੬"
+            },
+            {
+                "normalized_label": "੩੬੭"
+            },
+            {
+                "normalized_label": "੩੬੮"
+            },
+            {
+                "normalized_label": "੩੬੯"
+            },
+            {
+                "normalized_label": "੩੭੦"
+            },
+            {
+                "normalized_label": "੩੭੧"
+            },
+            {
+                "normalized_label": "੩੭੨"
+            },
+            {
+                "normalized_label": "੩੭੩"
+            },
+            {
+                "normalized_label": "੩੭੪"
+            },
+            {
+                "normalized_label": "੩੭੫"
+            },
+            {
+                "normalized_label": "੩੭੬"
+            },
+            {
+                "normalized_label": "੩੭੭"
+            },
+            {
+                "normalized_label": "੩੭੮"
+            },
+            {
+                "normalized_label": "੩੭੯"
+            },
+            {
+                "normalized_label": "੩੮੦"
+            },
+            {
+                "normalized_label": "੩੮੧"
+            },
+            {
+                "normalized_label": "੩੮੨"
+            },
+            {
+                "normalized_label": "੩੮੩"
+            },
+            {
+                "normalized_label": "੩੮੪"
+            },
+            {
+                "normalized_label": "੩੮੫"
+            },
+            {
+                "normalized_label": "੩੮੬"
+            },
+            {
+                "normalized_label": "੩੮੭"
+            },
+            {
+                "normalized_label": "੩੮੮"
+            },
+            {
+                "normalized_label": "੩੮੯"
+            },
+            {
+                "normalized_label": "੩੯੦"
+            },
+            {
+                "normalized_label": "੩੯੧"
+            },
+            {
+                "normalized_label": "੩੯੨"
+            },
+            {
+                "normalized_label": "੩੯੩"
+            },
+            {
+                "normalized_label": "੩੯੪"
+            },
+            {
+                "normalized_label": "੩੯੫"
+            },
+            {
+                "normalized_label": "੩੯੬"
+            },
+            {
+                "normalized_label": "੩੯੭"
+            },
+            {
+                "normalized_label": "੩੯੮"
+            },
+            {
+                "normalized_label": "੩੯੯"
+            },
+            {
+                "normalized_label": "੪੦੦"
+            },
+            {
+                "normalized_label": "੪੦੧"
+            },
+            {
+                "normalized_label": "੪੦੨"
+            },
+            {
+                "normalized_label": "੪੦੩"
+            },
+            {
+                "normalized_label": "੪੦੪"
+            },
+            {
+                "normalized_label": "੪੦੫"
+            },
+            {
+                "normalized_label": "੪੦੬"
+            },
+            {
+                "normalized_label": "੪੦੭"
+            },
+            {
+                "normalized_label": "੪੦੮"
+            },
+            {
+                "normalized_label": "੪੦੯"
+            },
+            {
+                "normalized_label": "੪੧੦"
+            },
+            {
+                "normalized_label": "੪੧੧"
+            },
+            {
+                "normalized_label": "੪੧੨"
+            },
+            {
+                "normalized_label": "੪੧੩"
+            },
+            {
+                "normalized_label": "੪੧੪"
+            },
+            {
+                "normalized_label": "੪੧੫"
+            },
+            {
+                "normalized_label": "੪੧੬"
+            },
+            {
+                "normalized_label": "੪੧੭"
+            },
+            {
+                "normalized_label": "੪੧੮"
+            },
+            {
+                "normalized_label": "੪੧੯"
+            },
+            {
+                "normalized_label": "੪੨੦"
+            },
+            {
+                "normalized_label": "੪੨੧"
+            },
+            {
+                "normalized_label": "੪੨੨"
+            },
+            {
+                "normalized_label": "੪੨੩"
+            },
+            {
+                "normalized_label": "੪੨੪"
+            },
+            {
+                "normalized_label": "੪੨੫"
+            },
+            {
+                "normalized_label": "੪੨੬"
+            },
+            {
+                "normalized_label": "੪੨੭"
+            },
+            {
+                "normalized_label": "੪੨੮"
+            },
+            {
+                "normalized_label": "੪੨੯"
+            },
+            {
+                "normalized_label": "੪੩੦"
+            },
+            {
+                "normalized_label": "੪੩੧"
+            },
+            {
+                "normalized_label": "੪੩੨"
+            },
+            {
+                "normalized_label": "੪੩੩"
+            },
+            {
+                "normalized_label": "੪੩੪"
+            },
+            {
+                "normalized_label": "੪੩੫"
+            },
+            {
+                "normalized_label": "੪੩੬"
+            },
+            {
+                "normalized_label": "੪੩੭"
+            },
+            {
+                "normalized_label": "੪੩੮"
+            },
+            {
+                "normalized_label": "੪੩੯"
+            },
+            {
+                "normalized_label": "੪੪੦"
+            },
+            {
+                "normalized_label": "੪੪੧"
+            },
+            {
+                "normalized_label": "੪੪੨"
+            },
+            {
+                "normalized_label": "੪੪੩"
+            },
+            {
+                "normalized_label": "੪੪੪"
+            },
+            {
+                "normalized_label": "੪੪੫"
+            },
+            {
+                "normalized_label": "੪੪੬"
+            },
+            {
+                "normalized_label": "੪੪੭"
+            },
+            {
+                "normalized_label": "੪੪੮"
+            },
+            {
+                "normalized_label": "੪੪੯"
+            },
+            {
+                "normalized_label": "੪੫੦"
+            },
+            {
+                "normalized_label": "੪੫੧"
+            },
+            {
+                "normalized_label": "੪੫੨"
+            },
+            {
+                "normalized_label": "੪੫੩"
+            },
+            {
+                "normalized_label": "੪੫੪"
+            },
+            {
+                "normalized_label": "੪੫੫"
+            },
+            {
+                "normalized_label": "੪੫੬"
+            },
+            {
+                "normalized_label": "੪੫੭"
+            },
+            {
+                "normalized_label": "੪੫੮"
+            },
+            {
+                "normalized_label": "੪੫੯"
+            },
+            {
+                "normalized_label": "੪੬੦"
+            },
+            {
+                "normalized_label": "੪੬੧"
+            },
+            {
+                "normalized_label": "੪੬੨"
+            },
+            {
+                "normalized_label": "੪੬੩"
+            },
+            {
+                "normalized_label": "੪੬੪"
+            },
+            {
+                "normalized_label": "੪੬੫"
+            },
+            {
+                "normalized_label": "੪੬੬"
+            },
+            {
+                "normalized_label": "੪੬੭"
+            },
+            {
+                "normalized_label": "੪੬੮"
+            },
+            {
+                "normalized_label": "੪੬੯"
+            },
+            {
+                "normalized_label": "੪੭੦"
+            },
+            {
+                "normalized_label": "੪੭੧"
+            },
+            {
+                "normalized_label": "੪੭੨"
+            },
+            {
+                "normalized_label": "੪੭੩"
+            },
+            {
+                "normalized_label": "੪੭੪"
+            },
+            {
+                "normalized_label": "੪੭੫"
+            },
+            {
+                "normalized_label": "੪੭੬"
+            },
+            {
+                "normalized_label": "੪੭੭"
+            },
+            {
+                "normalized_label": "੪੭੮"
+            },
+            {
+                "normalized_label": "੪੭੯"
+            },
+            {
+                "normalized_label": "੪੮੦"
+            },
+            {
+                "normalized_label": "੪੮੧"
+            },
+            {
+                "normalized_label": "੪੮੨"
+            },
+            {
+                "normalized_label": "੪੮੩"
+            },
+            {
+                "normalized_label": "੪੮੪"
+            },
+            {
+                "normalized_label": "੪੮੫"
+            },
+            {
+                "normalized_label": "੪੮੬"
+            },
+            {
+                "normalized_label": "੪੮੭"
+            },
+            {
+                "normalized_label": "੪੮੮"
+            },
+            {
+                "normalized_label": "੪੮੯"
+            },
+            {
+                "normalized_label": "੪੯੦"
+            },
+            {
+                "normalized_label": "੪੯੧"
+            },
+            {
+                "normalized_label": "੪੯੨"
+            },
+            {
+                "normalized_label": "੪੯੩"
+            },
+            {
+                "normalized_label": "੪੯੪"
+            },
+            {
+                "normalized_label": "੪੯੫"
+            },
+            {
+                "normalized_label": "੪੯੬"
+            },
+            {
+                "normalized_label": "੪੯੭"
+            },
+            {
+                "normalized_label": "੪੯੮"
+            },
+            {
+                "normalized_label": "੪੯੯"
+            },
+            {
+                "normalized_label": "੫੦੦"
+            },
+            {
+                "normalized_label": "੫੦੧"
+            },
+            {
+                "normalized_label": "੫੦੨"
+            },
+            {
+                "normalized_label": "੫੦੩"
+            },
+            {
+                "normalized_label": "੫੦੪"
+            },
+            {
+                "normalized_label": "੫੦੫"
+            },
+            {
+                "normalized_label": "੫੦੬"
+            },
+            {
+                "normalized_label": "੫੦੭"
+            },
+            {
+                "normalized_label": "੫੦੮"
+            },
+            {
+                "normalized_label": "੫੦੯"
+            },
+            {
+                "normalized_label": "੫੧੦"
+            },
+            {
+                "normalized_label": "੫੧੧"
+            },
+            {
+                "normalized_label": "੫੧੨"
+            },
+            {
+                "normalized_label": "੫੧੩"
+            },
+            {
+                "normalized_label": "੫੧੪"
+            },
+            {
+                "normalized_label": "੫੧੫"
+            },
+            {
+                "normalized_label": "੫੧੬"
+            },
+            {
+                "normalized_label": "੫੧੭"
+            },
+            {
+                "normalized_label": "੫੧੮"
+            },
+            {
+                "normalized_label": "੫੧੯"
+            },
+            {
+                "normalized_label": "੫੨੦"
+            },
+            {
+                "normalized_label": "੫੨੧"
+            },
+            {
+                "normalized_label": "੫੨੨"
+            },
+            {
+                "normalized_label": "੫੨੩"
+            },
+            {
+                "normalized_label": "੫੨੪"
+            },
+            {
+                "normalized_label": "੫੨੫"
+            },
+            {
+                "normalized_label": "੫੨੬"
+            },
+            {
+                "normalized_label": "੫੨੭"
+            },
+            {
+                "normalized_label": "੫੨੮"
+            },
+            {
+                "normalized_label": "੫੨੯"
+            },
+            {
+                "normalized_label": "੫੩੦"
+            },
+            {
+                "normalized_label": "੫੩੧"
+            },
+            {
+                "normalized_label": "੫੩੨"
+            },
+            {
+                "normalized_label": "੫੩੩"
+            },
+            {
+                "normalized_label": "੫੩੪"
+            },
+            {
+                "normalized_label": "੫੩੫"
+            },
+            {
+                "normalized_label": "੫੩੬"
+            },
+            {
+                "normalized_label": "੫੩੭"
+            },
+            {
+                "normalized_label": "੫੩੮"
+            },
+            {
+                "normalized_label": "੫੩੯"
+            },
+            {
+                "normalized_label": "੫੪੦"
+            },
+            {
+                "normalized_label": "੫੪੧"
+            },
+            {
+                "normalized_label": "੫੪੨"
+            },
+            {
+                "normalized_label": "੫੪੩"
+            },
+            {
+                "normalized_label": "੫੪੪"
+            },
+            {
+                "normalized_label": "੫੪੫"
+            },
+            {
+                "normalized_label": "੫੪੬"
+            },
+            {
+                "normalized_label": "੫੪੭"
+            },
+            {
+                "normalized_label": "੫੪੮"
+            },
+            {
+                "normalized_label": "੫੪੯"
+            },
+            {
+                "normalized_label": "੫੫੦"
+            },
+            {
+                "normalized_label": "੫੫੧"
+            },
+            {
+                "normalized_label": "੫੫੨"
+            },
+            {
+                "normalized_label": "੫੫੩"
+            },
+            {
+                "normalized_label": "੫੫੪"
+            },
+            {
+                "normalized_label": "੫੫੫"
+            },
+            {
+                "normalized_label": "੫੫੬"
+            },
+            {
+                "normalized_label": "੫੫੭"
+            },
+            {
+                "normalized_label": "੫੫੮"
+            },
+            {
+                "normalized_label": "੫੫੯"
+            },
+            {
+                "normalized_label": "੫੬੦"
+            },
+            {
+                "normalized_label": "੫੬੧"
+            },
+            {
+                "normalized_label": "੫੬੨"
+            },
+            {
+                "normalized_label": "੫੬੩"
+            },
+            {
+                "normalized_label": "੫੬੪"
+            },
+            {
+                "normalized_label": "੫੬੫"
+            },
+            {
+                "normalized_label": "੫੬੬"
+            },
+            {
+                "normalized_label": "੫੬੭"
+            },
+            {
+                "normalized_label": "੫੬੮"
+            },
+            {
+                "normalized_label": "੫੬੯"
+            },
+            {
+                "normalized_label": "੫੭੦"
+            },
+            {
+                "normalized_label": "੫੭੧"
+            },
+            {
+                "normalized_label": "੫੭੨"
+            },
+            {
+                "normalized_label": "੫੭੩"
+            },
+            {
+                "normalized_label": "੫੭੪"
+            },
+            {
+                "normalized_label": "੫੭੫"
+            },
+            {
+                "normalized_label": "੫੭੬"
+            },
+            {
+                "normalized_label": "੫੭੭"
+            },
+            {
+                "normalized_label": "੫੭੮"
+            },
+            {
+                "normalized_label": "੫੭੯"
+            },
+            {
+                "normalized_label": "੫੮੦"
+            },
+            {
+                "normalized_label": "੫੮੧"
+            },
+            {
+                "normalized_label": "੫੮੨"
+            },
+            {
+                "normalized_label": "੫੮੩"
+            },
+            {
+                "normalized_label": "੫੮੪"
+            },
+            {
+                "normalized_label": "੫੮੫"
+            },
+            {
+                "normalized_label": "੫੮੬"
+            },
+            {
+                "normalized_label": "੫੮੭"
+            },
+            {
+                "normalized_label": "੫੮੮"
+            },
+            {
+                "normalized_label": "੫੮੯"
+            },
+            {
+                "normalized_label": "੫੯੦"
+            },
+            {
+                "normalized_label": "੫੯੧"
+            },
+            {
+                "normalized_label": "੫੯੨"
+            },
+            {
+                "normalized_label": "੫੯੩"
+            },
+            {
+                "normalized_label": "੫੯੪"
+            },
+            {
+                "normalized_label": "੫੯੫"
+            },
+            {
+                "normalized_label": "੫੯੬"
+            },
+            {
+                "normalized_label": "੫੯੭"
+            },
+            {
+                "normalized_label": "੫੯੮"
+            },
+            {
+                "normalized_label": "੫੯੯"
+            },
+            {
+                "normalized_label": "੬੦੦"
+            },
+            {
+                "normalized_label": "੬੦੧"
+            },
+            {
+                "normalized_label": "੬੦੨"
+            },
+            {
+                "normalized_label": "੬੦੩"
+            },
+            {
+                "normalized_label": "੬੦੪"
+            },
+            {
+                "normalized_label": "੬੦੫"
+            },
+            {
+                "normalized_label": "੬੦੬"
+            },
+            {
+                "normalized_label": "੬੦੭"
+            },
+            {
+                "normalized_label": "੬੦੮"
+            },
+            {
+                "normalized_label": "੬੦੯"
+            },
+            {
+                "normalized_label": "੬੧੦"
+            },
+            {
+                "normalized_label": "੬੧੧"
+            },
+            {
+                "normalized_label": "੬੧੨"
+            },
+            {
+                "normalized_label": "੬੧੩"
+            },
+            {
+                "normalized_label": "੬੧੪"
+            },
+            {
+                "normalized_label": "੬੧੫"
+            },
+            {
+                "normalized_label": "੬੧੬"
+            },
+            {
+                "normalized_label": "੬੧੭"
+            },
+            {
+                "normalized_label": "੬੧੮"
+            },
+            {
+                "normalized_label": "੬੧੯"
+            },
+            {
+                "normalized_label": "੬੨੦"
+            },
+            {
+                "normalized_label": "੬੨੧"
+            },
+            {
+                "normalized_label": "੬੨੨"
+            },
+            {
+                "normalized_label": "੬੨੩"
+            },
+            {
+                "normalized_label": "੬੨੪"
+            },
+            {
+                "normalized_label": "੬੨੫"
+            },
+            {
+                "normalized_label": "੬੨੬"
+            },
+            {
+                "normalized_label": "੬੨੭"
+            },
+            {
+                "normalized_label": "੬੨੮"
+            },
+            {
+                "normalized_label": "੬੨੯"
+            },
+            {
+                "normalized_label": "੬੩੦"
+            },
+            {
+                "normalized_label": "੬੩੧"
+            },
+            {
+                "normalized_label": "੬੩੨"
+            },
+            {
+                "normalized_label": "੬੩੩"
+            },
+            {
+                "normalized_label": "੬੩੪"
+            },
+            {
+                "normalized_label": "੬੩੫"
+            },
+            {
+                "normalized_label": "੬੩੬"
+            },
+            {
+                "normalized_label": "੬੩੭"
+            },
+            {
+                "normalized_label": "੬੩੮"
+            },
+            {
+                "normalized_label": "੬੩੯"
+            },
+            {
+                "normalized_label": "੬੪੦"
+            },
+            {
+                "normalized_label": "੬੪੧"
+            },
+            {
+                "normalized_label": "੬੪੨"
+            },
+            {
+                "normalized_label": "੬੪੩"
+            },
+            {
+                "normalized_label": "੬੪੪"
+            },
+            {
+                "normalized_label": "੬੪੫"
+            },
+            {
+                "normalized_label": "੬੪੬"
+            },
+            {
+                "normalized_label": "੬੪੭"
+            },
+            {
+                "normalized_label": "੬੪੮"
+            },
+            {
+                "normalized_label": "੬੪੯"
+            },
+            {
+                "normalized_label": "੬੫੦"
+            },
+            {
+                "normalized_label": "੬੫੧"
+            },
+            {
+                "normalized_label": "੬੫੨"
+            },
+            {
+                "normalized_label": "੬੫੩"
+            },
+            {
+                "normalized_label": "੬੫੪"
+            },
+            {
+                "normalized_label": "੬੫੫"
+            },
+            {
+                "normalized_label": "੬੫੬"
+            },
+            {
+                "normalized_label": "੬੫੭"
+            },
+            {
+                "normalized_label": "੬੫੮"
+            },
+            {
+                "normalized_label": "੬੫੯"
+            },
+            {
+                "normalized_label": "੬੬੦"
+            },
+            {
+                "normalized_label": "੬੬੧"
+            },
+            {
+                "normalized_label": "੬੬੨"
+            },
+            {
+                "normalized_label": "੬੬੩"
+            },
+            {
+                "normalized_label": "੬੬੪"
+            },
+            {
+                "normalized_label": "੬੬੫"
+            },
+            {
+                "normalized_label": "੬੬੬"
+            },
+            {
+                "normalized_label": "੬੬੭"
+            },
+            {
+                "normalized_label": "੬੬੮"
+            },
+            {
+                "normalized_label": "੬੬੯"
+            },
+            {
+                "normalized_label": "੬੭੦"
+            },
+            {
+                "normalized_label": "੬੭੧"
+            },
+            {
+                "normalized_label": "੬੭੨"
+            },
+            {
+                "normalized_label": "੬੭੩"
+            },
+            {
+                "normalized_label": "੬੭੪"
+            },
+            {
+                "normalized_label": "੬੭੫"
+            },
+            {
+                "normalized_label": "੬੭੬"
+            },
+            {
+                "normalized_label": "੬੭੭"
+            },
+            {
+                "normalized_label": "੬੭੮"
+            },
+            {
+                "normalized_label": "੬੭੯"
+            },
+            {
+                "normalized_label": "੬੮੦"
+            },
+            {
+                "normalized_label": "੬੮੧"
+            },
+            {
+                "normalized_label": "੬੮੨"
+            },
+            {
+                "normalized_label": "੬੮੩"
+            },
+            {
+                "normalized_label": "੬੮੪"
+            },
+            {
+                "normalized_label": "੬੮੫"
+            },
+            {
+                "normalized_label": "੬੮੬"
+            },
+            {
+                "normalized_label": "੬੮੭"
+            },
+            {
+                "normalized_label": "੬੮੮"
+            },
+            {
+                "normalized_label": "੬੮੯"
+            },
+            {
+                "normalized_label": "੬੯੦"
+            },
+            {
+                "normalized_label": "੬੯੧"
+            },
+            {
+                "normalized_label": "੬੯੨"
+            },
+            {
+                "normalized_label": "੬੯੩"
+            },
+            {
+                "normalized_label": "੬੯੪"
+            },
+            {
+                "normalized_label": "੬੯੫"
+            },
+            {
+                "normalized_label": "੬੯੬"
+            },
+            {
+                "normalized_label": "੬੯੭"
+            },
+            {
+                "normalized_label": "੬੯੮"
+            },
+            {
+                "normalized_label": "੬੯੯"
+            },
+            {
+                "normalized_label": "੭੦੦"
+            },
+            {
+                "normalized_label": "੭੦੧"
+            },
+            {
+                "normalized_label": "੭੦੨"
+            },
+            {
+                "normalized_label": "੭੦੩"
+            },
+            {
+                "normalized_label": "੭੦੪"
+            },
+            {
+                "normalized_label": "੭੦੫"
+            },
+            {
+                "normalized_label": "੭੦੬"
+            },
+            {
+                "normalized_label": "੭੦੭"
+            },
+            {
+                "normalized_label": "੭੦੮"
+            },
+            {
+                "normalized_label": "੭੦੯"
+            },
+            {
+                "normalized_label": "੭੧੦"
+            },
+            {
+                "normalized_label": "੭੧੧"
+            },
+            {
+                "normalized_label": "੭੧੨"
+            },
+            {
+                "normalized_label": "੭੧੩"
+            },
+            {
+                "normalized_label": "੭੧੪"
+            },
+            {
+                "normalized_label": "੭੧੫"
+            },
+            {
+                "normalized_label": "੭੧੬"
+            },
+            {
+                "normalized_label": "੭੧੭"
+            },
+            {
+                "normalized_label": "੭੧੮"
+            },
+            {
+                "normalized_label": "੭੧੯"
+            },
+            {
+                "normalized_label": "੭੨੦"
+            },
+            {
+                "normalized_label": "੭੨੧"
+            },
+            {
+                "normalized_label": "੭੨੨"
+            },
+            {
+                "normalized_label": "੭੨੩"
+            },
+            {
+                "normalized_label": "੭੨੪"
+            },
+            {
+                "normalized_label": "੭੨੫"
+            },
+            {
+                "normalized_label": "੭੨੬"
+            },
+            {
+                "normalized_label": "੭੨੭"
+            },
+            {
+                "normalized_label": "੭੨੮"
+            },
+            {
+                "normalized_label": "੭੨੯"
+            },
+            {
+                "normalized_label": "੭੩੦"
+            },
+            {
+                "normalized_label": "੭੩੧"
+            },
+            {
+                "normalized_label": "੭੩੨"
+            },
+            {
+                "normalized_label": "੭੩੩"
+            },
+            {
+                "normalized_label": "੭੩੪"
+            },
+            {
+                "normalized_label": "੭੩੫"
+            },
+            {
+                "normalized_label": "੭੩੬"
+            },
+            {
+                "normalized_label": "੭੩੭"
+            },
+            {
+                "normalized_label": "੭੩੮"
+            },
+            {
+                "normalized_label": "੭੩੯"
+            },
+            {
+                "normalized_label": "੭੪੦"
+            },
+            {
+                "normalized_label": "੭੪੧"
+            },
+            {
+                "normalized_label": "੭੪੨"
+            },
+            {
+                "normalized_label": "੭੪੩"
+            },
+            {
+                "normalized_label": "੭੪੪"
+            },
+            {
+                "normalized_label": "੭੪੫"
+            },
+            {
+                "normalized_label": "੭੪੬"
+            },
+            {
+                "normalized_label": "੭੪੭"
+            },
+            {
+                "normalized_label": "੭੪੮"
+            },
+            {
+                "normalized_label": "੭੪੯"
+            },
+            {
+                "normalized_label": "੭੫੦"
+            },
+            {
+                "normalized_label": "੭੫੧"
+            },
+            {
+                "normalized_label": "੭੫੨"
+            },
+            {
+                "normalized_label": "੭੫੩"
+            },
+            {
+                "normalized_label": "੭੫੪"
+            },
+            {
+                "normalized_label": "੭੫੫"
+            },
+            {
+                "normalized_label": "੭੫੬"
+            },
+            {
+                "normalized_label": "੭੫੭"
+            },
+            {
+                "normalized_label": "੭੫੮"
+            },
+            {
+                "normalized_label": "੭੫੯"
+            },
+            {
+                "normalized_label": "੭੬੦"
+            },
+            {
+                "normalized_label": "੭੬੧"
+            },
+            {
+                "normalized_label": "੭੬੨"
+            },
+            {
+                "normalized_label": "੭੬੩"
+            },
+            {
+                "normalized_label": "੭੬੪"
+            },
+            {
+                "normalized_label": "੭੬੫"
+            },
+            {
+                "normalized_label": "੭੬੬"
+            },
+            {
+                "normalized_label": "੭੬੭"
+            },
+            {
+                "normalized_label": "੭੬੮"
+            },
+            {
+                "normalized_label": "੭੬੯"
+            },
+            {
+                "normalized_label": "੭੭੦"
+            },
+            {
+                "normalized_label": "੭੭੧"
+            },
+            {
+                "normalized_label": "੭੭੨"
+            },
+            {
+                "normalized_label": "੭੭੩"
+            },
+            {
+                "normalized_label": "੭੭੪"
+            },
+            {
+                "normalized_label": "੭੭੫"
+            },
+            {
+                "normalized_label": "੭੭੬"
+            },
+            {
+                "normalized_label": "੭੭੭"
+            },
+            {
+                "normalized_label": "੭੭੮"
+            },
+            {
+                "normalized_label": "੭੭੯"
+            },
+            {
+                "normalized_label": "੭੮੦"
+            },
+            {
+                "normalized_label": "੭੮੧"
+            },
+            {
+                "normalized_label": "੭੮੨"
+            },
+            {
+                "normalized_label": "੭੮੩"
+            },
+            {
+                "normalized_label": "੭੮੪"
+            },
+            {
+                "normalized_label": "੭੮੫"
+            },
+            {
+                "normalized_label": "੭੮੬"
+            },
+            {
+                "normalized_label": "੭੮੭"
+            },
+            {
+                "normalized_label": "੭੮੮"
+            },
+            {
+                "normalized_label": "੭੮੯"
+            },
+            {
+                "normalized_label": "੭੯੦"
+            },
+            {
+                "normalized_label": "੭੯੧"
+            },
+            {
+                "normalized_label": "੭੯੨"
+            },
+            {
+                "normalized_label": "੭੯੩"
+            },
+            {
+                "normalized_label": "੭੯੪"
+            },
+            {
+                "normalized_label": "੭੯੫"
+            },
+            {
+                "normalized_label": "੭੯੬"
+            },
+            {
+                "normalized_label": "੭੯੭"
+            },
+            {
+                "normalized_label": "੭੯੮"
+            },
+            {
+                "normalized_label": "੭੯੯"
+            },
+            {
+                "normalized_label": "੮੦੦"
+            },
+            {
+                "normalized_label": "੮੦੧"
+            },
+            {
+                "normalized_label": "੮੦੨"
+            },
+            {
+                "normalized_label": "੮੦੩"
+            },
+            {
+                "normalized_label": "੮੦੪"
+            },
+            {
+                "normalized_label": "੮੦੫"
+            },
+            {
+                "normalized_label": "੮੦੬"
+            },
+            {
+                "normalized_label": "੮੦੭"
+            },
+            {
+                "normalized_label": "੮੦੮"
+            },
+            {
+                "normalized_label": "੮੦੯"
+            },
+            {
+                "normalized_label": "੮੧੦"
+            },
+            {
+                "normalized_label": "੮੧੧"
+            },
+            {
+                "normalized_label": "੮੧੨"
+            },
+            {
+                "normalized_label": "੮੧੩"
+            },
+            {
+                "normalized_label": "੮੧੪"
+            },
+            {
+                "normalized_label": "੮੧੫"
+            },
+            {
+                "normalized_label": "੮੧੬"
+            },
+            {
+                "normalized_label": "੮੧੭"
+            },
+            {
+                "normalized_label": "੮੧੮"
+            },
+            {
+                "normalized_label": "੮੧੯"
+            },
+            {
+                "normalized_label": "੮੨੦"
+            },
+            {
+                "normalized_label": "੮੨੧"
+            },
+            {
+                "normalized_label": "੮੨੨"
+            },
+            {
+                "normalized_label": "੮੨੩"
+            },
+            {
+                "normalized_label": "੮੨੪"
+            },
+            {
+                "normalized_label": "੮੨੫"
+            },
+            {
+                "normalized_label": "੮੨੬"
+            },
+            {
+                "normalized_label": "੮੨੭"
+            },
+            {
+                "normalized_label": "੮੨੮"
+            },
+            {
+                "normalized_label": "੮੨੯"
+            },
+            {
+                "normalized_label": "੮੩੦"
+            },
+            {
+                "normalized_label": "੮੩੧"
+            },
+            {
+                "normalized_label": "੮੩੨"
+            },
+            {
+                "normalized_label": "੮੩੩"
+            },
+            {
+                "normalized_label": "੮੩੪"
+            },
+            {
+                "normalized_label": "੮੩੫"
+            },
+            {
+                "normalized_label": "੮੩੬"
+            },
+            {
+                "normalized_label": "੮੩੭"
+            },
+            {
+                "normalized_label": "੮੩੮"
+            },
+            {
+                "normalized_label": "੮੩੯"
+            },
+            {
+                "normalized_label": "੮੪੦"
+            },
+            {
+                "normalized_label": "੮੪੧"
+            },
+            {
+                "normalized_label": "੮੪੨"
+            },
+            {
+                "normalized_label": "੮੪੩"
+            },
+            {
+                "normalized_label": "੮੪੪"
+            },
+            {
+                "normalized_label": "੮੪੫"
+            },
+            {
+                "normalized_label": "੮੪੬"
+            },
+            {
+                "normalized_label": "੮੪੭"
+            },
+            {
+                "normalized_label": "੮੪੮"
+            },
+            {
+                "normalized_label": "੮੪੯"
+            },
+            {
+                "normalized_label": "੮੫੦"
+            },
+            {
+                "normalized_label": "੮੫੧"
+            },
+            {
+                "normalized_label": "੮੫੨"
+            },
+            {
+                "normalized_label": "੮੫੩"
+            },
+            {
+                "normalized_label": "੮੫੪"
+            },
+            {
+                "normalized_label": "੮੫੫"
+            },
+            {
+                "normalized_label": "੮੫੬"
+            },
+            {
+                "normalized_label": "੮੫੭"
+            },
+            {
+                "normalized_label": "੮੫੮"
+            },
+            {
+                "normalized_label": "੮੫੯"
+            },
+            {
+                "normalized_label": "੮੬੦"
+            },
+            {
+                "normalized_label": "੮੬੧"
+            },
+            {
+                "normalized_label": "੮੬੨"
+            },
+            {
+                "normalized_label": "੮੬੩"
+            },
+            {
+                "normalized_label": "੮੬੪"
+            },
+            {
+                "normalized_label": "੮੬੫"
+            },
+            {
+                "normalized_label": "੮੬੬"
+            },
+            {
+                "normalized_label": "੮੬੭"
+            },
+            {
+                "normalized_label": "੮੬੮"
+            },
+            {
+                "normalized_label": "੮੬੯"
+            },
+            {
+                "normalized_label": "੮੭੦"
+            },
+            {
+                "normalized_label": "੮੭੧"
+            },
+            {
+                "normalized_label": "੮੭੨"
+            },
+            {
+                "normalized_label": "੮੭੩"
+            },
+            {
+                "normalized_label": "੮੭੪"
+            },
+            {
+                "normalized_label": "੮੭੫"
+            },
+            {
+                "normalized_label": "੮੭੬"
+            },
+            {
+                "normalized_label": "੮੭੭"
+            },
+            {
+                "normalized_label": "੮੭੮"
+            },
+            {
+                "normalized_label": "੮੭੯"
+            },
+            {
+                "normalized_label": "੮੮੦"
+            },
+            {
+                "normalized_label": "੮੮੧"
+            },
+            {
+                "normalized_label": "੮੮੨"
+            },
+            {
+                "normalized_label": "੮੮੩"
+            },
+            {
+                "normalized_label": "੮੮੪"
+            },
+            {
+                "normalized_label": "੮੮੫"
+            },
+            {
+                "normalized_label": "੮੮੬"
+            },
+            {
+                "normalized_label": "੮੮੭"
+            },
+            {
+                "normalized_label": "੮੮੮"
+            },
+            {
+                "normalized_label": "੮੮੯"
+            },
+            {
+                "normalized_label": "੮੯੦"
+            },
+            {
+                "normalized_label": "੮੯੧"
+            },
+            {
+                "normalized_label": "੮੯੨"
+            },
+            {
+                "normalized_label": "੮੯੩"
+            },
+            {
+                "normalized_label": "੮੯੪"
+            },
+            {
+                "normalized_label": "੮੯੫"
+            },
+            {
+                "normalized_label": "੮੯੬"
+            },
+            {
+                "normalized_label": "੮੯੭"
+            },
+            {
+                "normalized_label": "੮੯੮"
+            },
+            {
+                "normalized_label": "੮੯੯"
+            },
+            {
+                "normalized_label": "੯੦੦"
+            },
+            {
+                "normalized_label": "੯੦੧"
+            },
+            {
+                "normalized_label": "੯੦੨"
+            },
+            {
+                "normalized_label": "੯੦੩"
+            },
+            {
+                "normalized_label": "੯੦੪"
+            },
+            {
+                "normalized_label": "੯੦੫"
+            },
+            {
+                "normalized_label": "੯੦੬"
+            },
+            {
+                "normalized_label": "੯੦੭"
+            },
+            {
+                "normalized_label": "੯੦੮"
+            },
+            {
+                "normalized_label": "੯੦੯"
+            },
+            {
+                "normalized_label": "੯੧੦"
+            },
+            {
+                "normalized_label": "੯੧੧"
+            },
+            {
+                "normalized_label": "੯੧੨"
+            },
+            {
+                "normalized_label": "੯੧੩"
+            },
+            {
+                "normalized_label": "੯੧੪"
+            },
+            {
+                "normalized_label": "੯੧੫"
+            },
+            {
+                "normalized_label": "੯੧੬"
+            },
+            {
+                "normalized_label": "੯੧੭"
+            },
+            {
+                "normalized_label": "੯੧੮"
+            },
+            {
+                "normalized_label": "੯੧੯"
+            },
+            {
+                "normalized_label": "੯੨੦"
+            },
+            {
+                "normalized_label": "੯੨੧"
+            },
+            {
+                "normalized_label": "੯੨੨"
+            },
+            {
+                "normalized_label": "੯੨੩"
+            },
+            {
+                "normalized_label": "੯੨੪"
+            },
+            {
+                "normalized_label": "੯੨੫"
+            },
+            {
+                "normalized_label": "੯੨੬"
+            },
+            {
+                "normalized_label": "੯੨੭"
+            },
+            {
+                "normalized_label": "੯੨੮"
+            },
+            {
+                "normalized_label": "੯੨੯"
+            },
+            {
+                "normalized_label": "੯੩੦"
+            },
+            {
+                "normalized_label": "੯੩੧"
+            },
+            {
+                "normalized_label": "੯੩੨"
+            },
+            {
+                "normalized_label": "੯੩੩"
+            },
+            {
+                "normalized_label": "੯੩੪"
+            },
+            {
+                "normalized_label": "੯੩੫"
+            },
+            {
+                "normalized_label": "੯੩੬"
+            },
+            {
+                "normalized_label": "੯੩੭"
+            },
+            {
+                "normalized_label": "੯੩੮"
+            },
+            {
+                "normalized_label": "੯੩੯"
+            },
+            {
+                "normalized_label": "੯੪੦"
+            },
+            {
+                "normalized_label": "੯੪੧"
+            },
+            {
+                "normalized_label": "੯੪੨"
+            },
+            {
+                "normalized_label": "੯੪੩"
+            },
+            {
+                "normalized_label": "੯੪੪"
+            },
+            {
+                "normalized_label": "੯੪੫"
+            },
+            {
+                "normalized_label": "੯੪੬"
+            },
+            {
+                "normalized_label": "੯੪੭"
+            },
+            {
+                "normalized_label": "੯੪੮"
+            },
+            {
+                "normalized_label": "੯੪੯"
+            },
+            {
+                "normalized_label": "੯੫੦"
+            },
+            {
+                "normalized_label": "੯੫੧"
+            },
+            {
+                "normalized_label": "੯੫੨"
+            },
+            {
+                "normalized_label": "੯੫੩"
+            },
+            {
+                "normalized_label": "੯੫੪"
+            },
+            {
+                "normalized_label": "੯੫੫"
+            },
+            {
+                "normalized_label": "੯੫੬"
+            },
+            {
+                "normalized_label": "੯੫੭"
+            },
+            {
+                "normalized_label": "੯੫੮"
+            },
+            {
+                "normalized_label": "੯੫੯"
+            },
+            {
+                "normalized_label": "੯੬੦"
+            },
+            {
+                "normalized_label": "੯੬੧"
+            },
+            {
+                "normalized_label": "੯੬੨"
+            },
+            {
+                "normalized_label": "੯੬੩"
+            },
+            {
+                "normalized_label": "੯੬੪"
+            },
+            {
+                "normalized_label": "੯੬੫"
+            },
+            {
+                "normalized_label": "੯੬੬"
+            },
+            {
+                "normalized_label": "੯੬੭"
+            },
+            {
+                "normalized_label": "੯੬੮"
+            },
+            {
+                "normalized_label": "੯੬੯"
+            },
+            {
+                "normalized_label": "੯੭੦"
+            },
+            {
+                "normalized_label": "੯੭੧"
+            },
+            {
+                "normalized_label": "੯੭੨"
+            },
+            {
+                "normalized_label": "੯੭੩"
+            },
+            {
+                "normalized_label": "੯੭੪"
+            },
+            {
+                "normalized_label": "੯੭੫"
+            },
+            {
+                "normalized_label": "੯੭੬"
+            },
+            {
+                "normalized_label": "੯੭੭"
+            },
+            {
+                "normalized_label": "੯੭੮"
+            },
+            {
+                "normalized_label": "੯੭੯"
+            },
+            {
+                "normalized_label": "੯੮੦"
+            },
+            {
+                "normalized_label": "੯੮੧"
+            },
+            {
+                "normalized_label": "੯੮੨"
+            },
+            {
+                "normalized_label": "੯੮੩"
+            },
+            {
+                "normalized_label": "੯੮੪"
+            },
+            {
+                "normalized_label": "੯੮੫"
+            },
+            {
+                "normalized_label": "੯੮੬"
+            },
+            {
+                "normalized_label": "੯੮੭"
+            },
+            {
+                "normalized_label": "੯੮੮"
+            },
+            {
+                "normalized_label": "੯੮੯"
+            },
+            {
+                "normalized_label": "੯੯੦"
+            },
+            {
+                "normalized_label": "੯੯੧"
+            },
+            {
+                "normalized_label": "੯੯੨"
+            },
+            {
+                "normalized_label": "੯੯੩"
+            },
+            {
+                "normalized_label": "੯੯੪"
+            },
+            {
+                "normalized_label": "੯੯੫"
+            },
+            {
+                "normalized_label": "੯੯੬"
+            },
+            {
+                "normalized_label": "੯੯੭"
+            },
+            {
+                "normalized_label": "੯੯੮"
+            }
+        ]
+    }
+}

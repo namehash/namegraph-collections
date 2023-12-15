@@ -1,0 +1,89 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "24-clock-times",
+        "collection_name": "24ClockTimes",
+        "collection_description": "Collection with 1am-12am and 1pm-12pm",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "1am"
+            },
+            {
+                "normalized_label": "2am"
+            },
+            {
+                "normalized_label": "3am"
+            },
+            {
+                "normalized_label": "4am"
+            },
+            {
+                "normalized_label": "5am"
+            },
+            {
+                "normalized_label": "6am"
+            },
+            {
+                "normalized_label": "7am"
+            },
+            {
+                "normalized_label": "8am"
+            },
+            {
+                "normalized_label": "9am"
+            },
+            {
+                "normalized_label": "10am"
+            },
+            {
+                "normalized_label": "11am"
+            },
+            {
+                "normalized_label": "12am"
+            },
+            {
+                "normalized_label": "1pm"
+            },
+            {
+                "normalized_label": "2pm"
+            },
+            {
+                "normalized_label": "3pm"
+            },
+            {
+                "normalized_label": "4pm"
+            },
+            {
+                "normalized_label": "5pm"
+            },
+            {
+                "normalized_label": "6pm"
+            },
+            {
+                "normalized_label": "7pm"
+            },
+            {
+                "normalized_label": "8pm"
+            },
+            {
+                "normalized_label": "9pm"
+            },
+            {
+                "normalized_label": "10pm"
+            },
+            {
+                "normalized_label": "11pm"
+            },
+            {
+                "normalized_label": "12pm"
+            }
+        ]
+    }
+}

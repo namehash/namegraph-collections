@@ -1,0 +1,743 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "ncaa",
+        "collection_name": "NCAA",
+        "collection_description": "NCAA college abbreviations",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "aamu"
+            },
+            {
+                "normalized_label": "acu"
+            },
+            {
+                "normalized_label": "afa"
+            },
+            {
+                "normalized_label": "akr"
+            },
+            {
+                "normalized_label": "alby"
+            },
+            {
+                "normalized_label": "alcn"
+            },
+            {
+                "normalized_label": "alst"
+            },
+            {
+                "normalized_label": "app"
+            },
+            {
+                "normalized_label": "ariz"
+            },
+            {
+                "normalized_label": "ark"
+            },
+            {
+                "normalized_label": "army"
+            },
+            {
+                "normalized_label": "arpb"
+            },
+            {
+                "normalized_label": "arst"
+            },
+            {
+                "normalized_label": "asu"
+            },
+            {
+                "normalized_label": "aub"
+            },
+            {
+                "normalized_label": "ball"
+            },
+            {
+                "normalized_label": "bama"
+            },
+            {
+                "normalized_label": "bay"
+            },
+            {
+                "normalized_label": "brwn"
+            },
+            {
+                "normalized_label": "bry"
+            },
+            {
+                "normalized_label": "bsu"
+            },
+            {
+                "normalized_label": "buck"
+            },
+            {
+                "normalized_label": "buff"
+            },
+            {
+                "normalized_label": "but"
+            },
+            {
+                "normalized_label": "byu"
+            },
+            {
+                "normalized_label": "cal"
+            },
+            {
+                "normalized_label": "camp"
+            },
+            {
+                "normalized_label": "ccar"
+            },
+            {
+                "normalized_label": "ccsu"
+            },
+            {
+                "normalized_label": "char"
+            },
+            {
+                "normalized_label": "chat"
+            },
+            {
+                "normalized_label": "chso"
+            },
+            {
+                "normalized_label": "cin"
+            },
+            {
+                "normalized_label": "cit"
+            },
+            {
+                "normalized_label": "clem"
+            },
+            {
+                "normalized_label": "clmb"
+            },
+            {
+                "normalized_label": "cmu"
+            },
+            {
+                "normalized_label": "colg"
+            },
+            {
+                "normalized_label": "colo"
+            },
+            {
+                "normalized_label": "conn"
+            },
+            {
+                "normalized_label": "cook"
+            },
+            {
+                "normalized_label": "cor"
+            },
+            {
+                "normalized_label": "csu"
+            },
+            {
+                "normalized_label": "dart"
+            },
+            {
+                "normalized_label": "dav"
+            },
+            {
+                "normalized_label": "day"
+            },
+            {
+                "normalized_label": "del"
+            },
+            {
+                "normalized_label": "drke"
+            },
+            {
+                "normalized_label": "dsu"
+            },
+            {
+                "normalized_label": "duke"
+            },
+            {
+                "normalized_label": "duq"
+            },
+            {
+                "normalized_label": "ecu"
+            },
+            {
+                "normalized_label": "eiu"
+            },
+            {
+                "normalized_label": "eky"
+            },
+            {
+                "normalized_label": "elon"
+            },
+            {
+                "normalized_label": "emu"
+            },
+            {
+                "normalized_label": "etsu"
+            },
+            {
+                "normalized_label": "ewu"
+            },
+            {
+                "normalized_label": "famu"
+            },
+            {
+                "normalized_label": "fau"
+            },
+            {
+                "normalized_label": "fiu"
+            },
+            {
+                "normalized_label": "fla"
+            },
+            {
+                "normalized_label": "for"
+            },
+            {
+                "normalized_label": "fres"
+            },
+            {
+                "normalized_label": "fsu"
+            },
+            {
+                "normalized_label": "fur"
+            },
+            {
+                "normalized_label": "gaso"
+            },
+            {
+                "normalized_label": "gram"
+            },
+            {
+                "normalized_label": "gsu"
+            },
+            {
+                "normalized_label": "gtwn"
+            },
+            {
+                "normalized_label": "hamp"
+            },
+            {
+                "normalized_label": "harv"
+            },
+            {
+                "normalized_label": "haw"
+            },
+            {
+                "normalized_label": "hbu"
+            },
+            {
+                "normalized_label": "hou"
+            },
+            {
+                "normalized_label": "how"
+            },
+            {
+                "normalized_label": "idho"
+            },
+            {
+                "normalized_label": "idst"
+            },
+            {
+                "normalized_label": "ill"
+            },
+            {
+                "normalized_label": "ilst"
+            },
+            {
+                "normalized_label": "ind"
+            },
+            {
+                "normalized_label": "inst"
+            },
+            {
+                "normalized_label": "iowa"
+            },
+            {
+                "normalized_label": "isu"
+            },
+            {
+                "normalized_label": "jac"
+            },
+            {
+                "normalized_label": "jkst"
+            },
+            {
+                "normalized_label": "jmu"
+            },
+            {
+                "normalized_label": "jvst"
+            },
+            {
+                "normalized_label": "kenn"
+            },
+            {
+                "normalized_label": "kent"
+            },
+            {
+                "normalized_label": "ksu"
+            },
+            {
+                "normalized_label": "laf"
+            },
+            {
+                "normalized_label": "lam"
+            },
+            {
+                "normalized_label": "leh"
+            },
+            {
+                "normalized_label": "lib"
+            },
+            {
+                "normalized_label": "lou"
+            },
+            {
+                "normalized_label": "lsu"
+            },
+            {
+                "normalized_label": "mcns"
+            },
+            {
+                "normalized_label": "mem"
+            },
+            {
+                "normalized_label": "mer"
+            },
+            {
+                "normalized_label": "mia"
+            },
+            {
+                "normalized_label": "mich"
+            },
+            {
+                "normalized_label": "minn"
+            },
+            {
+                "normalized_label": "miss"
+            },
+            {
+                "normalized_label": "misst"
+            },
+            {
+                "normalized_label": "miz"
+            },
+            {
+                "normalized_label": "mne"
+            },
+            {
+                "normalized_label": "moh"
+            },
+            {
+                "normalized_label": "monm"
+            },
+            {
+                "normalized_label": "mont"
+            },
+            {
+                "normalized_label": "more"
+            },
+            {
+                "normalized_label": "morg"
+            },
+            {
+                "normalized_label": "most"
+            },
+            {
+                "normalized_label": "mrsh"
+            },
+            {
+                "normalized_label": "mrst"
+            },
+            {
+                "normalized_label": "msu"
+            },
+            {
+                "normalized_label": "mtst"
+            },
+            {
+                "normalized_label": "mtsu"
+            },
+            {
+                "normalized_label": "murr"
+            },
+            {
+                "normalized_label": "mvsu"
+            },
+            {
+                "normalized_label": "nau"
+            },
+            {
+                "normalized_label": "navy"
+            },
+            {
+                "normalized_label": "ncat"
+            },
+            {
+                "normalized_label": "nccu"
+            },
+            {
+                "normalized_label": "ncst"
+            },
+            {
+                "normalized_label": "ndsu"
+            },
+            {
+                "normalized_label": "neb"
+            },
+            {
+                "normalized_label": "nec"
+            },
+            {
+                "normalized_label": "nev"
+            },
+            {
+                "normalized_label": "nich"
+            },
+            {
+                "normalized_label": "niu"
+            },
+            {
+                "normalized_label": "nmsu"
+            },
+            {
+                "normalized_label": "norf"
+            },
+            {
+                "normalized_label": "nova"
+            },
+            {
+                "normalized_label": "nwst"
+            },
+            {
+                "normalized_label": "odu"
+            },
+            {
+                "normalized_label": "ohio"
+            },
+            {
+                "normalized_label": "okla"
+            },
+            {
+                "normalized_label": "okst"
+            },
+            {
+                "normalized_label": "ore"
+            },
+            {
+                "normalized_label": "orst"
+            },
+            {
+                "normalized_label": "osu"
+            },
+            {
+                "normalized_label": "ovc"
+            },
+            {
+                "normalized_label": "patriot"
+            },
+            {
+                "normalized_label": "peay"
+            },
+            {
+                "normalized_label": "penn"
+            },
+            {
+                "normalized_label": "pitt"
+            },
+            {
+                "normalized_label": "pre"
+            },
+            {
+                "normalized_label": "prin"
+            },
+            {
+                "normalized_label": "prst"
+            },
+            {
+                "normalized_label": "psu"
+            },
+            {
+                "normalized_label": "pur"
+            },
+            {
+                "normalized_label": "rice"
+            },
+            {
+                "normalized_label": "rich"
+            },
+            {
+                "normalized_label": "rmu"
+            },
+            {
+                "normalized_label": "rutg"
+            },
+            {
+                "normalized_label": "sac"
+            },
+            {
+                "normalized_label": "sam"
+            },
+            {
+                "normalized_label": "sav"
+            },
+            {
+                "normalized_label": "scar"
+            },
+            {
+                "normalized_label": "scst"
+            },
+            {
+                "normalized_label": "sdak"
+            },
+            {
+                "normalized_label": "sdsu"
+            },
+            {
+                "normalized_label": "sela"
+            },
+            {
+                "normalized_label": "semo"
+            },
+            {
+                "normalized_label": "sfa"
+            },
+            {
+                "normalized_label": "sfu"
+            },
+            {
+                "normalized_label": "shsu"
+            },
+            {
+                "normalized_label": "shu"
+            },
+            {
+                "normalized_label": "siu"
+            },
+            {
+                "normalized_label": "sjsu"
+            },
+            {
+                "normalized_label": "smu"
+            },
+            {
+                "normalized_label": "sou"
+            },
+            {
+                "normalized_label": "stan"
+            },
+            {
+                "normalized_label": "stet"
+            },
+            {
+                "normalized_label": "ston"
+            },
+            {
+                "normalized_label": "suu"
+            },
+            {
+                "normalized_label": "syr"
+            },
+            {
+                "normalized_label": "tamu"
+            },
+            {
+                "normalized_label": "tcu"
+            },
+            {
+                "normalized_label": "tem"
+            },
+            {
+                "normalized_label": "tenn"
+            },
+            {
+                "normalized_label": "text"
+            },
+            {
+                "normalized_label": "tlsa"
+            },
+            {
+                "normalized_label": "tnst"
+            },
+            {
+                "normalized_label": "tntc"
+            },
+            {
+                "normalized_label": "tol"
+            },
+            {
+                "normalized_label": "tows"
+            },
+            {
+                "normalized_label": "troy"
+            },
+            {
+                "normalized_label": "ttu"
+            },
+            {
+                "normalized_label": "tuln"
+            },
+            {
+                "normalized_label": "txso"
+            },
+            {
+                "normalized_label": "txst"
+            },
+            {
+                "normalized_label": "uca"
+            },
+            {
+                "normalized_label": "ucd"
+            },
+            {
+                "normalized_label": "ucf"
+            },
+            {
+                "normalized_label": "ucla"
+            },
+            {
+                "normalized_label": "uga"
+            },
+            {
+                "normalized_label": "ull"
+            },
+            {
+                "normalized_label": "ulm"
+            },
+            {
+                "normalized_label": "umass"
+            },
+            {
+                "normalized_label": "umd"
+            },
+            {
+                "normalized_label": "unc"
+            },
+            {
+                "normalized_label": "unco"
+            },
+            {
+                "normalized_label": "und"
+            },
+            {
+                "normalized_label": "unh"
+            },
+            {
+                "normalized_label": "uni"
+            },
+            {
+                "normalized_label": "unlv"
+            },
+            {
+                "normalized_label": "unm"
+            },
+            {
+                "normalized_label": "unt"
+            },
+            {
+                "normalized_label": "uri"
+            },
+            {
+                "normalized_label": "usa"
+            },
+            {
+                "normalized_label": "usc"
+            },
+            {
+                "normalized_label": "usd"
+            },
+            {
+                "normalized_label": "usf"
+            },
+            {
+                "normalized_label": "usm"
+            },
+            {
+                "normalized_label": "usu"
+            },
+            {
+                "normalized_label": "utah"
+            },
+            {
+                "normalized_label": "utep"
+            },
+            {
+                "normalized_label": "utm"
+            },
+            {
+                "normalized_label": "utsa"
+            },
+            {
+                "normalized_label": "uva"
+            },
+            {
+                "normalized_label": "valp"
+            },
+            {
+                "normalized_label": "van"
+            },
+            {
+                "normalized_label": "vgsu"
+            },
+            {
+                "normalized_label": "vmi"
+            },
+            {
+                "normalized_label": "wag"
+            },
+            {
+                "normalized_label": "wake"
+            },
+            {
+                "normalized_label": "wash"
+            },
+            {
+                "normalized_label": "wcu"
+            },
+            {
+                "normalized_label": "web"
+            },
+            {
+                "normalized_label": "webb"
+            },
+            {
+                "normalized_label": "wis"
+            },
+            {
+                "normalized_label": "wiu"
+            },
+            {
+                "normalized_label": "wku"
+            },
+            {
+                "normalized_label": "wmu"
+            },
+            {
+                "normalized_label": "wof"
+            },
+            {
+                "normalized_label": "wsu"
+            },
+            {
+                "normalized_label": "wvu"
+            },
+            {
+                "normalized_label": "wyo"
+            },
+            {
+                "normalized_label": "yale"
+            },
+            {
+                "normalized_label": "ysu"
+            }
+        ]
+    }
+}

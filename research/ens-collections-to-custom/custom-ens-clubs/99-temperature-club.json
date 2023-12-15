@@ -1,0 +1,314 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "99-temperature-club",
+        "collection_name": "99 Temperature Club",
+        "collection_description": "The temperature range of 1-99 degrees is where water is a liquid. One degree warmer or colder and it boils or freezes. The 99 Temperature Club brings this to ENS: 99 three-digit domains each representing one degree of liquidity.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "01°"
+            },
+            {
+                "normalized_label": "02°"
+            },
+            {
+                "normalized_label": "03°"
+            },
+            {
+                "normalized_label": "04°"
+            },
+            {
+                "normalized_label": "05°"
+            },
+            {
+                "normalized_label": "06°"
+            },
+            {
+                "normalized_label": "07°"
+            },
+            {
+                "normalized_label": "08°"
+            },
+            {
+                "normalized_label": "09°"
+            },
+            {
+                "normalized_label": "10°"
+            },
+            {
+                "normalized_label": "11°"
+            },
+            {
+                "normalized_label": "12°"
+            },
+            {
+                "normalized_label": "13°"
+            },
+            {
+                "normalized_label": "14°"
+            },
+            {
+                "normalized_label": "15°"
+            },
+            {
+                "normalized_label": "16°"
+            },
+            {
+                "normalized_label": "17°"
+            },
+            {
+                "normalized_label": "18°"
+            },
+            {
+                "normalized_label": "19°"
+            },
+            {
+                "normalized_label": "20°"
+            },
+            {
+                "normalized_label": "21°"
+            },
+            {
+                "normalized_label": "22°"
+            },
+            {
+                "normalized_label": "23°"
+            },
+            {
+                "normalized_label": "24°"
+            },
+            {
+                "normalized_label": "25°"
+            },
+            {
+                "normalized_label": "26°"
+            },
+            {
+                "normalized_label": "27°"
+            },
+            {
+                "normalized_label": "28°"
+            },
+            {
+                "normalized_label": "29°"
+            },
+            {
+                "normalized_label": "30°"
+            },
+            {
+                "normalized_label": "31°"
+            },
+            {
+                "normalized_label": "32°"
+            },
+            {
+                "normalized_label": "33°"
+            },
+            {
+                "normalized_label": "34°"
+            },
+            {
+                "normalized_label": "35°"
+            },
+            {
+                "normalized_label": "36°"
+            },
+            {
+                "normalized_label": "37°"
+            },
+            {
+                "normalized_label": "38°"
+            },
+            {
+                "normalized_label": "39°"
+            },
+            {
+                "normalized_label": "40°"
+            },
+            {
+                "normalized_label": "41°"
+            },
+            {
+                "normalized_label": "42°"
+            },
+            {
+                "normalized_label": "43°"
+            },
+            {
+                "normalized_label": "44°"
+            },
+            {
+                "normalized_label": "45°"
+            },
+            {
+                "normalized_label": "46°"
+            },
+            {
+                "normalized_label": "47°"
+            },
+            {
+                "normalized_label": "48°"
+            },
+            {
+                "normalized_label": "49°"
+            },
+            {
+                "normalized_label": "50°"
+            },
+            {
+                "normalized_label": "51°"
+            },
+            {
+                "normalized_label": "52°"
+            },
+            {
+                "normalized_label": "53°"
+            },
+            {
+                "normalized_label": "54°"
+            },
+            {
+                "normalized_label": "55°"
+            },
+            {
+                "normalized_label": "56°"
+            },
+            {
+                "normalized_label": "57°"
+            },
+            {
+                "normalized_label": "58°"
+            },
+            {
+                "normalized_label": "59°"
+            },
+            {
+                "normalized_label": "60°"
+            },
+            {
+                "normalized_label": "61°"
+            },
+            {
+                "normalized_label": "62°"
+            },
+            {
+                "normalized_label": "63°"
+            },
+            {
+                "normalized_label": "64°"
+            },
+            {
+                "normalized_label": "65°"
+            },
+            {
+                "normalized_label": "66°"
+            },
+            {
+                "normalized_label": "67°"
+            },
+            {
+                "normalized_label": "68°"
+            },
+            {
+                "normalized_label": "69°"
+            },
+            {
+                "normalized_label": "70°"
+            },
+            {
+                "normalized_label": "71°"
+            },
+            {
+                "normalized_label": "72°"
+            },
+            {
+                "normalized_label": "73°"
+            },
+            {
+                "normalized_label": "74°"
+            },
+            {
+                "normalized_label": "75°"
+            },
+            {
+                "normalized_label": "76°"
+            },
+            {
+                "normalized_label": "77°"
+            },
+            {
+                "normalized_label": "78°"
+            },
+            {
+                "normalized_label": "79°"
+            },
+            {
+                "normalized_label": "80°"
+            },
+            {
+                "normalized_label": "81°"
+            },
+            {
+                "normalized_label": "82°"
+            },
+            {
+                "normalized_label": "83°"
+            },
+            {
+                "normalized_label": "84°"
+            },
+            {
+                "normalized_label": "85°"
+            },
+            {
+                "normalized_label": "86°"
+            },
+            {
+                "normalized_label": "87°"
+            },
+            {
+                "normalized_label": "88°"
+            },
+            {
+                "normalized_label": "89°"
+            },
+            {
+                "normalized_label": "90°"
+            },
+            {
+                "normalized_label": "91°"
+            },
+            {
+                "normalized_label": "92°"
+            },
+            {
+                "normalized_label": "93°"
+            },
+            {
+                "normalized_label": "94°"
+            },
+            {
+                "normalized_label": "95°"
+            },
+            {
+                "normalized_label": "96°"
+            },
+            {
+                "normalized_label": "97°"
+            },
+            {
+                "normalized_label": "98°"
+            },
+            {
+                "normalized_label": "99°"
+            }
+        ]
+    }
+}

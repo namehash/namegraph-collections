@@ -1,0 +1,917 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "tolkien",
+        "collection_name": "Tolkien",
+        "collection_description": "Characters from the Tolkien Legendarium",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "aegnor"
+            },
+            {
+                "normalized_label": "alfrid"
+            },
+            {
+                "normalized_label": "amandil"
+            },
+            {
+                "normalized_label": "amarië"
+            },
+            {
+                "normalized_label": "amlach"
+            },
+            {
+                "normalized_label": "amras"
+            },
+            {
+                "normalized_label": "amrod"
+            },
+            {
+                "normalized_label": "anárion"
+            },
+            {
+                "normalized_label": "anborn"
+            },
+            {
+                "normalized_label": "ancalagon"
+            },
+            {
+                "normalized_label": "angbor"
+            },
+            {
+                "normalized_label": "angrod"
+            },
+            {
+                "normalized_label": "aradûnakhôr"
+            },
+            {
+                "normalized_label": "argimilzôr"
+            },
+            {
+                "normalized_label": "arpharazôn"
+            },
+            {
+                "normalized_label": "arsakalthôr"
+            },
+            {
+                "normalized_label": "aragorn"
+            },
+            {
+                "normalized_label": "aratan"
+            },
+            {
+                "normalized_label": "arathorn"
+            },
+            {
+                "normalized_label": "aredhel"
+            },
+            {
+                "normalized_label": "arien"
+            },
+            {
+                "normalized_label": "arwen"
+            },
+            {
+                "normalized_label": "arwenundómiel"
+            },
+            {
+                "normalized_label": "aulë"
+            },
+            {
+                "normalized_label": "azaghâl"
+            },
+            {
+                "normalized_label": "azog"
+            },
+            {
+                "normalized_label": "balin"
+            },
+            {
+                "normalized_label": "bandobrastook"
+            },
+            {
+                "normalized_label": "baragund"
+            },
+            {
+                "normalized_label": "barahir"
+            },
+            {
+                "normalized_label": "bard"
+            },
+            {
+                "normalized_label": "barlimanbutterbur"
+            },
+            {
+                "normalized_label": "barrowwights"
+            },
+            {
+                "normalized_label": "beechbone"
+            },
+            {
+                "normalized_label": "beleg"
+            },
+            {
+                "normalized_label": "belegund"
+            },
+            {
+                "normalized_label": "belladonnatook"
+            },
+            {
+                "normalized_label": "bëor"
+            },
+            {
+                "normalized_label": "beorn"
+            },
+            {
+                "normalized_label": "bereg"
+            },
+            {
+                "normalized_label": "beregond"
+            },
+            {
+                "normalized_label": "beren"
+            },
+            {
+                "normalized_label": "bergil"
+            },
+            {
+                "normalized_label": "bertthetroll"
+            },
+            {
+                "normalized_label": "bifur"
+            },
+            {
+                "normalized_label": "bilbo"
+            },
+            {
+                "normalized_label": "bilbobaggins"
+            },
+            {
+                "normalized_label": "billferny"
+            },
+            {
+                "normalized_label": "bofur"
+            },
+            {
+                "normalized_label": "bolg"
+            },
+            {
+                "normalized_label": "bombur"
+            },
+            {
+                "normalized_label": "bór"
+            },
+            {
+                "normalized_label": "boromir"
+            },
+            {
+                "normalized_label": "brandir"
+            },
+            {
+                "normalized_label": "brodda"
+            },
+            {
+                "normalized_label": "bungobaggins"
+            },
+            {
+                "normalized_label": "caranthir"
+            },
+            {
+                "normalized_label": "carc"
+            },
+            {
+                "normalized_label": "carcharoth"
+            },
+            {
+                "normalized_label": "celeborn"
+            },
+            {
+                "normalized_label": "celebrimbor"
+            },
+            {
+                "normalized_label": "celegorm"
+            },
+            {
+                "normalized_label": "ceorl"
+            },
+            {
+                "normalized_label": "círdan"
+            },
+            {
+                "normalized_label": "ciryon"
+            },
+            {
+                "normalized_label": "curufin"
+            },
+            {
+                "normalized_label": "daddytwofoot"
+            },
+            {
+                "normalized_label": "daeron"
+            },
+            {
+                "normalized_label": "dáin"
+            },
+            {
+                "normalized_label": "damrod"
+            },
+            {
+                "normalized_label": "déagol"
+            },
+            {
+                "normalized_label": "denethor"
+            },
+            {
+                "normalized_label": "déorwine"
+            },
+            {
+                "normalized_label": "dior"
+            },
+            {
+                "normalized_label": "dori"
+            },
+            {
+                "normalized_label": "dorlas"
+            },
+            {
+                "normalized_label": "draugluin"
+            },
+            {
+                "normalized_label": "duinhir"
+            },
+            {
+                "normalized_label": "durin"
+            },
+            {
+                "normalized_label": "durinsbane"
+            },
+            {
+                "normalized_label": "dwalin"
+            },
+            {
+                "normalized_label": "eärendil"
+            },
+            {
+                "normalized_label": "eärendur"
+            },
+            {
+                "normalized_label": "eärnil"
+            },
+            {
+                "normalized_label": "eärnur"
+            },
+            {
+                "normalized_label": "eärwen"
+            },
+            {
+                "normalized_label": "ecthelion"
+            },
+            {
+                "normalized_label": "edrahil"
+            },
+            {
+                "normalized_label": "eilinel"
+            },
+            {
+                "normalized_label": "elendil"
+            },
+            {
+                "normalized_label": "elendur"
+            },
+            {
+                "normalized_label": "elenwë"
+            },
+            {
+                "normalized_label": "elessar"
+            },
+            {
+                "normalized_label": "elfhelm"
+            },
+            {
+                "normalized_label": "elladan"
+            },
+            {
+                "normalized_label": "elrohir"
+            },
+            {
+                "normalized_label": "elrond"
+            },
+            {
+                "normalized_label": "elros"
+            },
+            {
+                "normalized_label": "eluréd"
+            },
+            {
+                "normalized_label": "elurín"
+            },
+            {
+                "normalized_label": "elwing"
+            },
+            {
+                "normalized_label": "emeldir"
+            },
+            {
+                "normalized_label": "eöl"
+            },
+            {
+                "normalized_label": "éomer"
+            },
+            {
+                "normalized_label": "eönwë"
+            },
+            {
+                "normalized_label": "éothain"
+            },
+            {
+                "normalized_label": "éowyn"
+            },
+            {
+                "normalized_label": "erestor"
+            },
+            {
+                "normalized_label": "erkenbrand"
+            },
+            {
+                "normalized_label": "eru"
+            },
+            {
+                "normalized_label": "estë"
+            },
+            {
+                "normalized_label": "faramir"
+            },
+            {
+                "normalized_label": "farmercotton"
+            },
+            {
+                "normalized_label": "farmermaggot"
+            },
+            {
+                "normalized_label": "fëanor"
+            },
+            {
+                "normalized_label": "fíli"
+            },
+            {
+                "normalized_label": "finarfin"
+            },
+            {
+                "normalized_label": "finduilas"
+            },
+            {
+                "normalized_label": "fingolfin"
+            },
+            {
+                "normalized_label": "fingon"
+            },
+            {
+                "normalized_label": "finrod"
+            },
+            {
+                "normalized_label": "finrodfelagund"
+            },
+            {
+                "normalized_label": "finwë"
+            },
+            {
+                "normalized_label": "folcoboffin"
+            },
+            {
+                "normalized_label": "forlong"
+            },
+            {
+                "normalized_label": "fredegarbolger"
+            },
+            {
+                "normalized_label": "frodo"
+            },
+            {
+                "normalized_label": "frodobaggins"
+            },
+            {
+                "normalized_label": "gaffergamgee"
+            },
+            {
+                "normalized_label": "galadriel"
+            },
+            {
+                "normalized_label": "galdor"
+            },
+            {
+                "normalized_label": "gamling"
+            },
+            {
+                "normalized_label": "gandalf"
+            },
+            {
+                "normalized_label": "gandalfthegrey"
+            },
+            {
+                "normalized_label": "gandalfthewhite"
+            },
+            {
+                "normalized_label": "gelmir"
+            },
+            {
+                "normalized_label": "ghânburighân"
+            },
+            {
+                "normalized_label": "gil-galad"
+            },
+            {
+                "normalized_label": "gildor"
+            },
+            {
+                "normalized_label": "gimli"
+            },
+            {
+                "normalized_label": "glaurung"
+            },
+            {
+                "normalized_label": "glóin"
+            },
+            {
+                "normalized_label": "glorfindel"
+            },
+            {
+                "normalized_label": "goldberry"
+            },
+            {
+                "normalized_label": "gollum"
+            },
+            {
+                "normalized_label": "gorbag"
+            },
+            {
+                "normalized_label": "gorlim"
+            },
+            {
+                "normalized_label": "gorthaur"
+            },
+            {
+                "normalized_label": "gothmog"
+            },
+            {
+                "normalized_label": "greateagle"
+            },
+            {
+                "normalized_label": "greatgoblin"
+            },
+            {
+                "normalized_label": "gríma"
+            },
+            {
+                "normalized_label": "grimbold"
+            },
+            {
+                "normalized_label": "grishnákh"
+            },
+            {
+                "normalized_label": "guilin"
+            },
+            {
+                "normalized_label": "guthláf"
+            },
+            {
+                "normalized_label": "gwaihir"
+            },
+            {
+                "normalized_label": "gwindor"
+            },
+            {
+                "normalized_label": "hador"
+            },
+            {
+                "normalized_label": "halbarad"
+            },
+            {
+                "normalized_label": "haldad"
+            },
+            {
+                "normalized_label": "haldir"
+            },
+            {
+                "normalized_label": "haleth"
+            },
+            {
+                "normalized_label": "háma"
+            },
+            {
+                "normalized_label": "harrygoatleaf"
+            },
+            {
+                "normalized_label": "hirgon"
+            },
+            {
+                "normalized_label": "huan"
+            },
+            {
+                "normalized_label": "huor"
+            },
+            {
+                "normalized_label": "húrin"
+            },
+            {
+                "normalized_label": "idril"
+            },
+            {
+                "normalized_label": "idrilcelebrindal"
+            },
+            {
+                "normalized_label": "ilmarë"
+            },
+            {
+                "normalized_label": "ilúvatar"
+            },
+            {
+                "normalized_label": "imrahil"
+            },
+            {
+                "normalized_label": "indis"
+            },
+            {
+                "normalized_label": "ingwë"
+            },
+            {
+                "normalized_label": "ioreth"
+            },
+            {
+                "normalized_label": "irmo"
+            },
+            {
+                "normalized_label": "isildur"
+            },
+            {
+                "normalized_label": "kíli"
+            },
+            {
+                "normalized_label": "kingofthedead"
+            },
+            {
+                "normalized_label": "legolas"
+            },
+            {
+                "normalized_label": "lenwë"
+            },
+            {
+                "normalized_label": "lindir"
+            },
+            {
+                "normalized_label": "lobeliasackville-baggins"
+            },
+            {
+                "normalized_label": "lothosackville-baggins"
+            },
+            {
+                "normalized_label": "lugdush"
+            },
+            {
+                "normalized_label": "lurtz"
+            },
+            {
+                "normalized_label": "lúthien"
+            },
+            {
+                "normalized_label": "lúthientinúviel"
+            },
+            {
+                "normalized_label": "mablung"
+            },
+            {
+                "normalized_label": "maedhros"
+            },
+            {
+                "normalized_label": "maeglin"
+            },
+            {
+                "normalized_label": "maglor"
+            },
+            {
+                "normalized_label": "mahtan"
+            },
+            {
+                "normalized_label": "mandos"
+            },
+            {
+                "normalized_label": "manwë"
+            },
+            {
+                "normalized_label": "mardil"
+            },
+            {
+                "normalized_label": "masteroflaketown"
+            },
+            {
+                "normalized_label": "melian"
+            },
+            {
+                "normalized_label": "melkor"
+            },
+            {
+                "normalized_label": "meneldil"
+            },
+            {
+                "normalized_label": "meriadocbrandybuck"
+            },
+            {
+                "normalized_label": "merry"
+            },
+            {
+                "normalized_label": "mîm"
+            },
+            {
+                "normalized_label": "míriel"
+            },
+            {
+                "normalized_label": "mithrandir"
+            },
+            {
+                "normalized_label": "morgoth"
+            },
+            {
+                "normalized_label": "morwen"
+            },
+            {
+                "normalized_label": "mouthofsauron"
+            },
+            {
+                "normalized_label": "mrsmaggot"
+            },
+            {
+                "normalized_label": "nahar"
+            },
+            {
+                "normalized_label": "náin"
+            },
+            {
+                "normalized_label": "nazgûl"
+            },
+            {
+                "normalized_label": "necromancer"
+            },
+            {
+                "normalized_label": "nerdanel"
+            },
+            {
+                "normalized_label": "nessa"
+            },
+            {
+                "normalized_label": "nienna"
+            },
+            {
+                "normalized_label": "nienor"
+            },
+            {
+                "normalized_label": "nimloth"
+            },
+            {
+                "normalized_label": "nob"
+            },
+            {
+                "normalized_label": "nori"
+            },
+            {
+                "normalized_label": "odoproudfoot"
+            },
+            {
+                "normalized_label": "ohtar"
+            },
+            {
+                "normalized_label": "óin"
+            },
+            {
+                "normalized_label": "oldmanwillow"
+            },
+            {
+                "normalized_label": "olórin"
+            },
+            {
+                "normalized_label": "olwë"
+            },
+            {
+                "normalized_label": "ori"
+            },
+            {
+                "normalized_label": "orodreth"
+            },
+            {
+                "normalized_label": "oromë"
+            },
+            {
+                "normalized_label": "orophin"
+            },
+            {
+                "normalized_label": "ossë"
+            },
+            {
+                "normalized_label": "othosackville-baggins"
+            },
+            {
+                "normalized_label": "peregrintook"
+            },
+            {
+                "normalized_label": "pippin"
+            },
+            {
+                "normalized_label": "quickbeam"
+            },
+            {
+                "normalized_label": "radagast"
+            },
+            {
+                "normalized_label": "radagastthebrown"
+            },
+            {
+                "normalized_label": "rían"
+            },
+            {
+                "normalized_label": "roäc"
+            },
+            {
+                "normalized_label": "rosiecotton"
+            },
+            {
+                "normalized_label": "rúmil"
+            },
+            {
+                "normalized_label": "saeros"
+            },
+            {
+                "normalized_label": "salmar"
+            },
+            {
+                "normalized_label": "sam"
+            },
+            {
+                "normalized_label": "samwisegamgee"
+            },
+            {
+                "normalized_label": "sanchoproudfoot"
+            },
+            {
+                "normalized_label": "saruman"
+            },
+            {
+                "normalized_label": "sarumanthewhite"
+            },
+            {
+                "normalized_label": "sauron"
+            },
+            {
+                "normalized_label": "shadowfax"
+            },
+            {
+                "normalized_label": "shagrat"
+            },
+            {
+                "normalized_label": "sharkey"
+            },
+            {
+                "normalized_label": "shelob"
+            },
+            {
+                "normalized_label": "silmariën"
+            },
+            {
+                "normalized_label": "skinbark"
+            },
+            {
+                "normalized_label": "smaug"
+            },
+            {
+                "normalized_label": "sméagol"
+            },
+            {
+                "normalized_label": "snaga"
+            },
+            {
+                "normalized_label": "stonegiant"
+            },
+            {
+                "normalized_label": "tarmíriel"
+            },
+            {
+                "normalized_label": "tarpalantir"
+            },
+            {
+                "normalized_label": "tauriel"
+            },
+            {
+                "normalized_label": "tedsandyman"
+            },
+            {
+                "normalized_label": "telchar"
+            },
+            {
+                "normalized_label": "théoden"
+            },
+            {
+                "normalized_label": "théodred"
+            },
+            {
+                "normalized_label": "thingol"
+            },
+            {
+                "normalized_label": "thorin"
+            },
+            {
+                "normalized_label": "thorinoakenshield"
+            },
+            {
+                "normalized_label": "thorondor"
+            },
+            {
+                "normalized_label": "thráin"
+            },
+            {
+                "normalized_label": "thranduil"
+            },
+            {
+                "normalized_label": "thrór"
+            },
+            {
+                "normalized_label": "thuringwethil"
+            },
+            {
+                "normalized_label": "tilion"
+            },
+            {
+                "normalized_label": "tombombadil"
+            },
+            {
+                "normalized_label": "tomthetroll"
+            },
+            {
+                "normalized_label": "treebeard"
+            },
+            {
+                "normalized_label": "tulkas"
+            },
+            {
+                "normalized_label": "tuor"
+            },
+            {
+                "normalized_label": "turgon"
+            },
+            {
+                "normalized_label": "túrin"
+            },
+            {
+                "normalized_label": "túrinturambar"
+            },
+            {
+                "normalized_label": "uglúk"
+            },
+            {
+                "normalized_label": "uinen"
+            },
+            {
+                "normalized_label": "ulfang"
+            },
+            {
+                "normalized_label": "ulmo"
+            },
+            {
+                "normalized_label": "ungoliant"
+            },
+            {
+                "normalized_label": "vairë"
+            },
+            {
+                "normalized_label": "valandil"
+            },
+            {
+                "normalized_label": "vána"
+            },
+            {
+                "normalized_label": "varda"
+            },
+            {
+                "normalized_label": "voronwë"
+            },
+            {
+                "normalized_label": "watcherinthewater"
+            },
+            {
+                "normalized_label": "williamthetroll"
+            },
+            {
+                "normalized_label": "witchking"
+            },
+            {
+                "normalized_label": "wormtongue"
+            },
+            {
+                "normalized_label": "yavanna"
+            }
+        ]
+    }
+}
