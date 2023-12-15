@@ -20,36 +20,51 @@ https://vidyats.medium.com/how-to-switch-from-airflow-default-sequential-executo
     n17["db1.rocks\n5m\n182MB"]
     n16["db1_rev.rocks\n5m\n136MB"]
     n19["db3.rocks\n2h26m\n18MB"]
-    n28["<img src='https://upload.wikimedia.org/wikipedia/commons/5/5a/Wikipedia%27s_W.svg'/>enwiki-latest-categorylinks.sql.gz\n12m\n3.4GB"]
-    n13["<img src='https://upload.wikimedia.org/wikipedia/commons/5/5a/Wikipedia%27s_W.svg'/>enwiki-latest-pagelinks.sql.gz\n27m\n7.5GB"]
+    n28["enwiki-latest-categorylinks.sql.gz\n12m\n3.4GB"]
+    style n28 fill:#ff9
+    n13["enwiki-latest-pagelinks.sql.gz\n27m\n7.5GB"]
+    style n13 fill:#ff9
     n27["enwiki-categories.csv\n48m\n1.3GB"]
-    n21["<img src='https://upload.wikimedia.org/wikipedia/commons/5/5a/Wikipedia%27s_W.svg'/>enwiki-latest-redirect.sql.gz\n34s\n153MB"]
+    n21["enwiki-latest-redirect.sql.gz\n34s\n153MB"]
+    style n21 fill:#ff9
     n12["enwiki-pagelinks.csv\n4h28m\n936MB"]
     n20["index_enwiki-latest.db\n19m\n2.2GB"]
+    style n20 fill:#9f9
     n9["list_members.jsonl\n1m31s\n765MB"]
     n7["list_members_all_info.jsonl\n7m\n750MB"]
     n15["lists.json\n7s\n12MB"]
     n26["mapped-categories.csv\n8m\n1.4GB"]
     n11["mapped-lists.csv\n1m49s\n1.8GB"]
     n6["merged.jsonl\n4m\n3.4GB"]
+    style n6 fill:#9f9
     n5["merged-without-letters.jsonl\n3m40s\n3.4GB"]
     n4["merged-without-duplicates.jsonl\n3m30s\n3.4GB"]
     n3["merged_final.jsonl\n32m\n8.2GB"]
+    style n3 fill:#9f9
     n25["sorted-categories.csv\n41s\n1.4GB"]
     n10["sorted-lists.csv\n24s\n1.8GB"]
     n32["suggestable_domains.csv\n110MB"]
+    style n32 fill:#ff9
     n23["validated_category_members.jsonl\n37m\n735MB"]
+    style n23 fill:#9f9
     n8["validated_list_members.jsonl\n32m16s\n199MB"]
-    n34["<img src='https://upload.wikimedia.org/wikipedia/commons/6/66/Wikidata-logo-en.svg'/>latest-truthy.nt.bz2\n2h10m\n36GB"]
-    n35["latest-truthy.nt.bz2.filtered.bz2\n2h40m\n3.3GB"]
-    n37["<img src='https://upload.wikimedia.org/wikipedia/commons/5/5a/Wikipedia%27s_W.svg'/>enwiki-latest-page_props.sql.gz\n2m\n357MB"]
-    n38["<img src='https://upload.wikimedia.org/wikipedia/commons/5/5a/Wikipedia%27s_W.svg'/>enwiki-latest-page.sql.gz\n8m\n357MB"]
+    style n8 fill:#9f9
+    n34["latest-truthy.nt.bz2\n2h10m\n36GB"]
+    style n34 fill:#ff9
+    n35["latest-truthy.filtered.bz2\n2h40m\n3.3GB"]
+    style n35 fill:#9f9
+    n37["enwiki-latest-page_props.sql.gz\n2m\n357MB"]
+    style n37 fill:#ff9
+    n38["enwiki-latest-page.sql.gz\n8m\n357MB"]
+    style n38 fill:#ff9
     n39["qrank.csv\n6s\n332MB"]
+    style n39 fill:#ff9
     n40["db2.rocks\n2h26m\n630MB"]
     n41["db4.rocks\n2h26m\n2.7MB"]
     n42["db5.rocks\n2h26m\n7.3GB"]
     n43["db6.rocks\n2h26m\n70MB"]
     n44["avatars-emojis.csv\n9.4KB"]
+    style n44 fill:#ff9
     n45["uniq_category_members.txt\n33m\n57MB"]
     n46["uniq_list_members.txt\n23m\n34MB"]
     n31 --> n33

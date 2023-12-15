@@ -13,13 +13,15 @@ from airflow import DAG, Dataset
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from functools import lru_cache
+import gzip
 
-from create_inlets import CONFIG, WIKIPEDIA_CATEGORYLINKS, WIKIPEDIA_PAGELINKS, WIKIMAPPER, CollectionDataset
+from create_inlets import CONFIG, WIKIPEDIA_CATEGORYLINKS, WIKIPEDIA_PAGELINKS, WIKIMAPPER, CollectionDataset, upload_s3_file
 from create_kv import ROCKS_DB_3, ROCKS_DB_1_REVERSE, ROCKS_DB_1, ROCKS_DB_6, ROCKS_DB_2
 
 
 CATEGORIES = CollectionDataset(f"{CONFIG.remote_prefix}categories.json")
 ALLOWED_CATEGORIES = CollectionDataset(f"{CONFIG.remote_prefix}allowed-categories.txt")
+WIKIPEDIA_CATEGORYLINKS_TSV = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-categories.tsv.gz")
 CATEGORY_PAGES = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-categories.csv")
 MAPPED_CATEGORIES = CollectionDataset(f"{CONFIG.remote_prefix}mapped-categories.csv")
 SORTED_CATEGORIES = CollectionDataset(f"{CONFIG.remote_prefix}sorted-categories.csv")
@@ -28,6 +30,7 @@ VALIDATED_CATEGORY_MEMBERS = CollectionDataset(f"{CONFIG.remote_prefix}validated
 
 LISTS = CollectionDataset(f"{CONFIG.remote_prefix}lists.json")
 ALLOWED_LISTS = CollectionDataset(f"{CONFIG.remote_prefix}allowed-lists.txt")
+WIKIPEDIA_PAGELINKS_TSV = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-lists.tsv.gz")
 LIST_PAGES = CollectionDataset(f"{CONFIG.remote_prefix}enwiki-pagelinks.csv")
 MAPPED_LISTS = CollectionDataset(f"{CONFIG.remote_prefix}mapped-lists.csv")
 SORTED_LISTS = CollectionDataset(f"{CONFIG.remote_prefix}sorted-lists.csv")
@@ -51,22 +54,22 @@ def extract_collections(id_title_path: str, members_type_path: str, mode: str, o
         try:
             if predicate in predicates:
                 article_name = id_title_db[wikidata_id]
-                
+
                 if mode == 'category':
                     if not article_name.startswith('Category:'):
                         continue
                 elif mode == 'list':
                     if article_name.startswith('Lists_of:'):
                         continue
-                
+
                 articles.append({
                     "item": wikidata_id,
                     "type": predicates[predicate],
                     "article": article_name,
                     # "count": "221"
                 })
-        except KeyError:
-            pass
+        except KeyError as ex:
+            print('Error:', ex, file=sys.stderr)
     json.dump(articles, open(output, 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
 
 
@@ -99,7 +102,7 @@ def extract_page_ids(input, output, wikimapper_path):
 
 
 with DAG(
-    "categories",
+    "categories-allowed",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -117,9 +120,9 @@ with DAG(
         task_id='create-categories',
         python_callable=extract_collections,
         op_kwargs={
-            "id_title_path": ROCKS_DB_1_REVERSE.local_name(), 
-            "members_type_path": ROCKS_DB_3.local_name(), 
-            "mode": 'category', 
+            "id_title_path": ROCKS_DB_1_REVERSE.local_name(),
+            "members_type_path": ROCKS_DB_3.local_name(),
+            "mode": 'category',
             "output": CATEGORIES.local_name()
         },
         outlets=[CATEGORIES]
@@ -154,29 +157,35 @@ with DAG(
     create_categories_task >> create_allowed_categories_task
 
 
-def extract_associations_from_dump(input, output, mode, allowed_values):
+def extract_associations_from_tsv(input, output, mode, allowed_values):
     if mode == 'category':
         def clean_id(id):
             return re.sub(r" ", "_", unquote(id.strip().removeprefix('Category:')))
+        #column_ids = (0, 1)
         column_names = ('cl_from', 'cl_to')
-        filter_column = 'cl_to'
+        filter_column = 1
     elif mode == 'list':
         def clean_id(id):
             return id.strip()
+        #column_names = (0, 2)
         column_names = ('pl_from', 'pl_title')
-        filter_column = 'pl_from'
+        filter_column = 0
     else:
         raise ValueError('either `categorylinks` or `pagelinks` flag must be set')
 
     with open(allowed_values, 'r', encoding='utf-8') as f:
-        allowed_items = tuple([clean_id(id) for id in f.read().strip('\n').split('\n')])
+        allowed_items = set([clean_id(id) for id in f.read().strip('\n').split('\n')])
 
-    WikipediaSqlDump(
-        input,
-        keep_column_names=column_names,
-        allowlists={filter_column: allowed_items}
-    ).to_csv(output)
+    with gzip.open(input, 'rt', encoding='utf-8', errors='ignore') as input_file, open(output, "w") as output_file:
+        output_csv = csv.writer(output_file)
+        output_csv.writerow(column_names)
+        for idx, line in enumerate(input_file):
+            items = line.strip().split("\t")
+            if(len(items) != 2):
+                continue
 
+            if items[filter_column] in allowed_items:
+                output_csv.writerow(items)
 
 with DAG(
     "categories-enwiki",
@@ -193,22 +202,25 @@ with DAG(
     catchup=False,
     tags=["categories", "collection-templates"],
 ) as dag:
-    copy_enwiki_categories_task = BashOperator(
-        task_id="copy-enwiki-categories",
-        bash_command=f"cp {WIKIPEDIA_CATEGORYLINKS.latest_local_name()} {WIKIPEDIA_CATEGORYLINKS.current_local_name()}",
+    create_categories_tsv_task = BashOperator(
+        task_id="create-enwiki-categories-tsv",
+        bash_command=f"unpigz -c {WIKIPEDIA_CATEGORYLINKS.latest_local_name()} | sql_parser 0 1 | pigz > {WIKIPEDIA_CATEGORYLINKS_TSV.local_name()}",
     )
-    copy_enwiki_categories_task.doc_md = dedent(
+
+    create_categories_tsv_task.doc_md = dedent(
         """\
     #### Task Documentation
-    Copy enwiki categories with current date.
+    Convert SQL dump file to TSV file with selected columns.
+
+    The file contains associations between English Wikipedia categories and the pages that belong to those categories.
     """
     )
 
     create_categories_task = PythonOperator(
         task_id='create-category-links',
-        python_callable=extract_associations_from_dump,
+        python_callable=extract_associations_from_tsv,
         op_kwargs={
-            "input": WIKIPEDIA_CATEGORYLINKS.current_local_name(), 
+            "input": WIKIPEDIA_CATEGORYLINKS_TSV.local_name(), 
             "mode": 'category', 
             "output": CATEGORY_PAGES.local_name(),
             "allowed_values": ALLOWED_CATEGORIES.local_name(),
@@ -218,17 +230,17 @@ with DAG(
     create_categories_task.doc_md = dedent(
         """\
     #### Task Documentation
-    Create file with category content.
+    Create file with category content and filter by allowed categories.
 
     The file contains associations between English Wikipedia categories and the pages that belong to those categories.
     """
     )
 
-    copy_enwiki_categories_task >> create_categories_task
+    create_categories_tsv_task >> create_categories_task
 
 
 with DAG(
-    "lists",
+    "lists-allowed",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -246,9 +258,9 @@ with DAG(
         task_id='create-lists',
         python_callable=extract_collections,
         op_kwargs={
-            "id_title_path": ROCKS_DB_1_REVERSE.local_name(), 
-            "members_type_path": ROCKS_DB_3.local_name(), 
-            "mode": 'list', 
+            "id_title_path": ROCKS_DB_1_REVERSE.local_name(),
+            "members_type_path": ROCKS_DB_3.local_name(),
+            "mode": 'list',
             "output": LISTS.local_name(),
         },
         outlets=[LISTS],
@@ -299,22 +311,26 @@ with DAG(
     catchup=False,
     tags=["lists", "collection-templates"],
 ) as dag:
-    copy_enwiki_lists_task = BashOperator(
-        task_id="copy-enwiki-lists",
-        bash_command=f"cp {WIKIPEDIA_PAGELINKS.latest_local_name()} {WIKIPEDIA_PAGELINKS.current_local_name()}",
+
+    create_lists_tsv_task = BashOperator(
+        task_id="create-enwiki-lists-tsv",
+        bash_command=f"unpigz -c {WIKIPEDIA_PAGELINKS.latest_local_name()} | sql_parser 0 2 | pigz > {WIKIPEDIA_PAGELINKS_TSV.local_name()}",
     )
-    copy_enwiki_lists_task.doc_md = dedent(
+
+    create_lists_tsv_task.doc_md = dedent(
         """\
     #### Task Documentation
-    Copy enwiki lists with current date.
+    Convert SQL dump file to TSV file with selected columns.
+
+    The file contains associations between English Wikipedia lists and the pages that belong to those lists.
     """
     )
 
     create_enwiki_lists_task = PythonOperator(
         task_id='create-list-links',
-        python_callable=extract_associations_from_dump,
+        python_callable=extract_associations_from_tsv,
         op_kwargs={
-            "input": WIKIPEDIA_PAGELINKS.current_local_name(), 
+            "input": WIKIPEDIA_PAGELINKS_TSV.local_name(), 
             "mode": 'list', 
             "output": LIST_PAGES.local_name(),
             "allowed_values": ALLOWED_LISTS.local_name(),
@@ -330,7 +346,7 @@ with DAG(
     """
     )
 
-    copy_enwiki_lists_task >> create_enwiki_lists_task
+    create_lists_tsv_task >> create_enwiki_lists_task
 
 
 def title_for(wikipedia_id: int, wikipedia_id2title, mapper) -> str:
@@ -378,7 +394,7 @@ def map_to_titles(input, output, mode, wikimapper_path):
 
 
 with DAG(
-    "mapped-categories",
+    "categories-mapped",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -396,8 +412,8 @@ with DAG(
         task_id='create-mapped-categories',
         python_callable=map_to_titles,
         op_kwargs={
-            "input": CATEGORY_PAGES.local_name(), 
-            "mode": 'category', 
+            "input": CATEGORY_PAGES.local_name(),
+            "mode": 'category',
             "output": MAPPED_CATEGORIES.local_name(),
             "wikimapper_path": WIKIMAPPER.local_name(),
         },
@@ -414,7 +430,7 @@ with DAG(
     create_sorted_categories_task = BashOperator(
         outlets=[SORTED_CATEGORIES],
         task_id="sort-categories",
-        bash_command=f"(head -n 1 {MAPPED_CATEGORIES.local_name()} && tail -n +2 {MAPPED_CATEGORIES.local_name()} | " + 
+        bash_command=f"(head -n 1 {MAPPED_CATEGORIES.local_name()} && tail -n +2 {MAPPED_CATEGORIES.local_name()} | " +
             f"LC_ALL=C sort) > {SORTED_CATEGORIES.local_name()}",
     )
 
@@ -431,7 +447,7 @@ with DAG(
 
 
 with DAG(
-    "mapped-lists",
+    "lists-mapped",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -449,8 +465,8 @@ with DAG(
         task_id='create-mapped-lists',
         python_callable=map_to_titles,
         op_kwargs={
-            "input": LIST_PAGES.local_name(), 
-            "mode": 'list', 
+            "input": LIST_PAGES.local_name(),
+            "mode": 'list',
             "output": MAPPED_LISTS.local_name(),
             "wikimapper_path": WIKIMAPPER.local_name(),
         },
@@ -467,7 +483,7 @@ with DAG(
     create_sorted_lists_task = BashOperator(
         outlets=[SORTED_LISTS],
         task_id="sort-lists",
-        bash_command=f"(head -n 1 {MAPPED_LISTS.local_name()} && tail -n +2 {MAPPED_LISTS.local_name()} | " + 
+        bash_command=f"(head -n 1 {MAPPED_LISTS.local_name()} && tail -n +2 {MAPPED_LISTS.local_name()} | " +
             f"LC_ALL=C sort) > {SORTED_LISTS.local_name()}",
     )
 
@@ -512,7 +528,7 @@ def reformat_csv_to_json(input, output, collections_json):
 
         print(list(collections.keys())[:10])
         prev_key = first_row[0]
-        prev_key = re.sub(r"_", " ", prev_key) 
+        prev_key = re.sub(r"_", " ", prev_key)
         members = [first_row[1]]
         for key, member in tqdm(reader):
             key = re.sub(r"_", " ", key)
@@ -588,7 +604,7 @@ def has_path_rocksdb(source: str, target: str, id_type_db: Rdict, same_as_db: Rd
             NO_PARENT += 1
         pass
     return any([finder.has_path_rocksdb_subclass(entry, target) for entry in entries])
-    
+
 
 def extract_article_name(article: str) -> str:
     """
@@ -687,7 +703,7 @@ def validate_members(input: str, output: str, title_id_path: str, id_type_path: 
 
 
 with DAG(
-    "category-members",
+    "categories-members",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -705,7 +721,7 @@ with DAG(
         task_id='create-category-members',
         python_callable=reformat_csv_to_json,
         op_kwargs={
-            "input": SORTED_CATEGORIES.local_name(), 
+            "input": SORTED_CATEGORIES.local_name(),
             "output": CATEGORY_MEMBERS.local_name(),
             "collections_json": CATEGORIES.local_name(),
         },
@@ -715,7 +731,7 @@ with DAG(
     #### Task Documentation
     Change CSV **categories** file, to JSON format.
 
-    The task combines the Wikipedia names with Wikidata structured info resulting in a JSON object containing the info about the 
+    The task combines the Wikipedia names with Wikidata structured info resulting in a JSON object containing the info about the
     collection and its members.
     """
     )
@@ -724,7 +740,7 @@ with DAG(
         task_id='validate-category-members',
         python_callable=validate_members,
         op_kwargs={
-            "input": CATEGORY_MEMBERS.local_name(), 
+            "input": CATEGORY_MEMBERS.local_name(),
             "output": VALIDATED_CATEGORY_MEMBERS.local_name(),
             "title_id_path": ROCKS_DB_1.local_name(),
             "id_type_path": ROCKS_DB_2.local_name(),
@@ -737,17 +753,35 @@ with DAG(
     validate_category_members_task.doc_md = dedent(
         """\
     #### Task Documentation
-    Validate correctnes of **category** members.
+    Validate correctness of **category** members.
 
     The methods checks if the members of a collection have type compatible with the collection's type.
     """
     )
 
-    create_category_members_task >> validate_category_members_task
+    upload_category_members_task = PythonOperator(
+        task_id="backup-category-members",
+        python_callable=upload_s3_file,
+        op_kwargs={
+            "bucket": CONFIG.s3_bucket_upload,
+            "local_path": VALIDATED_CATEGORY_MEMBERS.local_name(),
+            "remote_path": VALIDATED_CATEGORY_MEMBERS.s3_name(),
+        },
+    )
+
+    upload_category_members_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+
+    Upload category members data to S3.
+    """
+    )
+
+    create_category_members_task >> validate_category_members_task >> upload_category_members_task
 
 
 with DAG(
-    "list-members",
+    "lists-members",
     default_args={
         "email": [CONFIG.email],
         "email_on_failure": False,
@@ -765,7 +799,7 @@ with DAG(
         task_id='create-list-members',
         python_callable=reformat_csv_to_json,
         op_kwargs={
-            "input": SORTED_LISTS.local_name(), 
+            "input": SORTED_LISTS.local_name(),
             "output": LIST_MEMBERS.local_name(),
             "collections_json": LISTS.local_name(),
         },
@@ -775,7 +809,7 @@ with DAG(
     #### Task Documentation
     Change CSV **lists** file, to JSON format.
 
-    The task combines the Wikipedia names with Wikidata structured info resulting in a JSON object containing the info about the 
+    The task combines the Wikipedia names with Wikidata structured info resulting in a JSON object containing the info about the
     collection and its members.
     """
     )
@@ -784,7 +818,7 @@ with DAG(
         task_id='validate-list-members',
         python_callable=validate_members,
         op_kwargs={
-            "input": LIST_MEMBERS.local_name(), 
+            "input": LIST_MEMBERS.local_name(),
             "output": VALIDATED_LIST_MEMBERS.local_name(),
             "title_id_path": ROCKS_DB_1.local_name(),
             "id_type_path": ROCKS_DB_2.local_name(),
@@ -797,10 +831,28 @@ with DAG(
     validate_list_members_task.doc_md = dedent(
         """\
     #### Task Documentation
-    Validate correctnes of **list** members.
+    Validate correctness of **list** members.
 
     The methods checks if the members of a collection have type compatible with the collection's type.
     """
     )
 
-    create_list_members_task >> validate_list_members_task
+    upload_list_members_task = PythonOperator(
+        task_id="backup-list-members",
+        python_callable=upload_s3_file,
+        op_kwargs={
+            "bucket": CONFIG.s3_bucket_upload,
+            "local_path": VALIDATED_LIST_MEMBERS.local_name(),
+            "remote_path": VALIDATED_LIST_MEMBERS.s3_name(),
+        },
+    )
+
+    upload_list_members_task.doc_md = dedent(
+        """\
+    #### Task Documentation
+
+    Upload list members data to S3.
+    """
+    )
+
+    create_list_members_task >> validate_list_members_task >> upload_list_members_task
