@@ -1,0 +1,434 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "languages-of-the-world",
+        "collection_name": "languages of the world",
+        "collection_description": "ENS names of languages all around the world",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "afrikaans"
+            },
+            {
+                "normalized_label": "albanian"
+            },
+            {
+                "normalized_label": "amharic"
+            },
+            {
+                "normalized_label": "arabic"
+            },
+            {
+                "normalized_label": "armenian"
+            },
+            {
+                "normalized_label": "assamese"
+            },
+            {
+                "normalized_label": "aymara"
+            },
+            {
+                "normalized_label": "azerbaijani"
+            },
+            {
+                "normalized_label": "bambara"
+            },
+            {
+                "normalized_label": "basque"
+            },
+            {
+                "normalized_label": "belarusian"
+            },
+            {
+                "normalized_label": "bengali"
+            },
+            {
+                "normalized_label": "bhojpuri"
+            },
+            {
+                "normalized_label": "bosnian"
+            },
+            {
+                "normalized_label": "bulgarian"
+            },
+            {
+                "normalized_label": "burmese"
+            },
+            {
+                "normalized_label": "catalan"
+            },
+            {
+                "normalized_label": "cebuano"
+            },
+            {
+                "normalized_label": "check"
+            },
+            {
+                "normalized_label": "chichewa"
+            },
+            {
+                "normalized_label": "chinese"
+            },
+            {
+                "normalized_label": "corsican"
+            },
+            {
+                "normalized_label": "croatian"
+            },
+            {
+                "normalized_label": "czech"
+            },
+            {
+                "normalized_label": "danish"
+            },
+            {
+                "normalized_label": "dhivehi"
+            },
+            {
+                "normalized_label": "dogri"
+            },
+            {
+                "normalized_label": "dutch"
+            },
+            {
+                "normalized_label": "english"
+            },
+            {
+                "normalized_label": "esperanto"
+            },
+            {
+                "normalized_label": "estonian"
+            },
+            {
+                "normalized_label": "ewe"
+            },
+            {
+                "normalized_label": "filipino"
+            },
+            {
+                "normalized_label": "finnish"
+            },
+            {
+                "normalized_label": "french"
+            },
+            {
+                "normalized_label": "frisian"
+            },
+            {
+                "normalized_label": "gaelic"
+            },
+            {
+                "normalized_label": "galician"
+            },
+            {
+                "normalized_label": "georgian"
+            },
+            {
+                "normalized_label": "german"
+            },
+            {
+                "normalized_label": "greek"
+            },
+            {
+                "normalized_label": "guarani"
+            },
+            {
+                "normalized_label": "gujarati"
+            },
+            {
+                "normalized_label": "haitian-creole"
+            },
+            {
+                "normalized_label": "hausa"
+            },
+            {
+                "normalized_label": "hawaiian"
+            },
+            {
+                "normalized_label": "hebrew"
+            },
+            {
+                "normalized_label": "hindi"
+            },
+            {
+                "normalized_label": "history"
+            },
+            {
+                "normalized_label": "hmong"
+            },
+            {
+                "normalized_label": "hungarian"
+            },
+            {
+                "normalized_label": "icelandic"
+            },
+            {
+                "normalized_label": "igbo"
+            },
+            {
+                "normalized_label": "ilocano"
+            },
+            {
+                "normalized_label": "indonesian"
+            },
+            {
+                "normalized_label": "irish"
+            },
+            {
+                "normalized_label": "italian"
+            },
+            {
+                "normalized_label": "japanese"
+            },
+            {
+                "normalized_label": "javanese"
+            },
+            {
+                "normalized_label": "kannada"
+            },
+            {
+                "normalized_label": "kazakh"
+            },
+            {
+                "normalized_label": "khmer"
+            },
+            {
+                "normalized_label": "kinyarwanda"
+            },
+            {
+                "normalized_label": "konkani"
+            },
+            {
+                "normalized_label": "korean"
+            },
+            {
+                "normalized_label": "krio"
+            },
+            {
+                "normalized_label": "kurdish"
+            },
+            {
+                "normalized_label": "kurmanji"
+            },
+            {
+                "normalized_label": "kyrgyz"
+            },
+            {
+                "normalized_label": "lao"
+            },
+            {
+                "normalized_label": "latin"
+            },
+            {
+                "normalized_label": "latvian"
+            },
+            {
+                "normalized_label": "lingala"
+            },
+            {
+                "normalized_label": "lithuanian"
+            },
+            {
+                "normalized_label": "luganda"
+            },
+            {
+                "normalized_label": "luxembourgish"
+            },
+            {
+                "normalized_label": "macedonian"
+            },
+            {
+                "normalized_label": "maithili"
+            },
+            {
+                "normalized_label": "malagasy"
+            },
+            {
+                "normalized_label": "malay"
+            },
+            {
+                "normalized_label": "malayalam"
+            },
+            {
+                "normalized_label": "maltese"
+            },
+            {
+                "normalized_label": "manipuri"
+            },
+            {
+                "normalized_label": "maori"
+            },
+            {
+                "normalized_label": "marathi"
+            },
+            {
+                "normalized_label": "meiteilon"
+            },
+            {
+                "normalized_label": "mizo"
+            },
+            {
+                "normalized_label": "mongolian"
+            },
+            {
+                "normalized_label": "myanmar"
+            },
+            {
+                "normalized_label": "nepali"
+            },
+            {
+                "normalized_label": "norwegian"
+            },
+            {
+                "normalized_label": "odia"
+            },
+            {
+                "normalized_label": "oriya"
+            },
+            {
+                "normalized_label": "oromo"
+            },
+            {
+                "normalized_label": "pashto"
+            },
+            {
+                "normalized_label": "persian"
+            },
+            {
+                "normalized_label": "polish"
+            },
+            {
+                "normalized_label": "portuguese"
+            },
+            {
+                "normalized_label": "punjabi"
+            },
+            {
+                "normalized_label": "quechua"
+            },
+            {
+                "normalized_label": "romanian"
+            },
+            {
+                "normalized_label": "russian"
+            },
+            {
+                "normalized_label": "samoan"
+            },
+            {
+                "normalized_label": "sanskrit"
+            },
+            {
+                "normalized_label": "scots"
+            },
+            {
+                "normalized_label": "sepedi"
+            },
+            {
+                "normalized_label": "serbian"
+            },
+            {
+                "normalized_label": "sesotho"
+            },
+            {
+                "normalized_label": "shona"
+            },
+            {
+                "normalized_label": "sindhi"
+            },
+            {
+                "normalized_label": "sinhala"
+            },
+            {
+                "normalized_label": "slovak"
+            },
+            {
+                "normalized_label": "slovenian"
+            },
+            {
+                "normalized_label": "somali"
+            },
+            {
+                "normalized_label": "sorani"
+            },
+            {
+                "normalized_label": "spanish"
+            },
+            {
+                "normalized_label": "sundanese"
+            },
+            {
+                "normalized_label": "swahili"
+            },
+            {
+                "normalized_label": "swedish"
+            },
+            {
+                "normalized_label": "tajik"
+            },
+            {
+                "normalized_label": "tamil"
+            },
+            {
+                "normalized_label": "tatar"
+            },
+            {
+                "normalized_label": "telugu"
+            },
+            {
+                "normalized_label": "thai"
+            },
+            {
+                "normalized_label": "tigrinya"
+            },
+            {
+                "normalized_label": "tsonga"
+            },
+            {
+                "normalized_label": "turkish"
+            },
+            {
+                "normalized_label": "turkmen"
+            },
+            {
+                "normalized_label": "twi"
+            },
+            {
+                "normalized_label": "ukrainian"
+            },
+            {
+                "normalized_label": "urdu"
+            },
+            {
+                "normalized_label": "uyghur"
+            },
+            {
+                "normalized_label": "uzbek"
+            },
+            {
+                "normalized_label": "vietnamese"
+            },
+            {
+                "normalized_label": "welsh"
+            },
+            {
+                "normalized_label": "xhosa"
+            },
+            {
+                "normalized_label": "yiddish"
+            },
+            {
+                "normalized_label": "yoruba"
+            },
+            {
+                "normalized_label": "zulu"
+            }
+        ]
+    }
+}

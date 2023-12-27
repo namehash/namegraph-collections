@@ -1,0 +1,89 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "palindrome-cities",
+        "collection_name": "Palindrome cities",
+        "collection_description": "24 Palindrome Cities",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "abiriba"
+            },
+            {
+                "normalized_label": "acaiaca"
+            },
+            {
+                "normalized_label": "akaaka"
+            },
+            {
+                "normalized_label": "akasaka"
+            },
+            {
+                "normalized_label": "alavala"
+            },
+            {
+                "normalized_label": "aramara"
+            },
+            {
+                "normalized_label": "ateleta"
+            },
+            {
+                "normalized_label": "aworowa"
+            },
+            {
+                "normalized_label": "burggrub"
+            },
+            {
+                "normalized_label": "callac"
+            },
+            {
+                "normalized_label": "ebenebe"
+            },
+            {
+                "normalized_label": "eleele"
+            },
+            {
+                "normalized_label": "etsaste"
+            },
+            {
+                "normalized_label": "glenelg"
+            },
+            {
+                "normalized_label": "haddah"
+            },
+            {
+                "normalized_label": "hallah"
+            },
+            {
+                "normalized_label": "hammah"
+            },
+            {
+                "normalized_label": "heddeh"
+            },
+            {
+                "normalized_label": "idappadi"
+            },
+            {
+                "normalized_label": "ikazaki"
+            },
+            {
+                "normalized_label": "itamati"
+            },
+            {
+                "normalized_label": "kanakanak"
+            },
+            {
+                "normalized_label": "killik"
+            },
+            {
+                "normalized_label": "kinikinik"
+            }
+        ]
+    }
+}

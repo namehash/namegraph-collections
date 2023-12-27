@@ -1,0 +1,317 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "arabic-3-digit-palindromes",
+        "collection_name": "Arabic 3-Digit Palindromes",
+        "collection_description": "Palindromes with Arabic 3 Digits.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "٠٠٠"
+            },
+            {
+                "normalized_label": "٠١٠"
+            },
+            {
+                "normalized_label": "٠٢٠"
+            },
+            {
+                "normalized_label": "٠٣٠"
+            },
+            {
+                "normalized_label": "٠٤٠"
+            },
+            {
+                "normalized_label": "٠٥٠"
+            },
+            {
+                "normalized_label": "٠٦٠"
+            },
+            {
+                "normalized_label": "٠٧٠"
+            },
+            {
+                "normalized_label": "٠٨٠"
+            },
+            {
+                "normalized_label": "٠٩٠"
+            },
+            {
+                "normalized_label": "١٠١"
+            },
+            {
+                "normalized_label": "١١١"
+            },
+            {
+                "normalized_label": "١٢١"
+            },
+            {
+                "normalized_label": "١٣١"
+            },
+            {
+                "normalized_label": "١٤١"
+            },
+            {
+                "normalized_label": "١٥١"
+            },
+            {
+                "normalized_label": "١٦١"
+            },
+            {
+                "normalized_label": "١٧١"
+            },
+            {
+                "normalized_label": "١٨١"
+            },
+            {
+                "normalized_label": "١٩١"
+            },
+            {
+                "normalized_label": "٢٠٢"
+            },
+            {
+                "normalized_label": "٢١٢"
+            },
+            {
+                "normalized_label": "٢٢٢"
+            },
+            {
+                "normalized_label": "٢٣٢"
+            },
+            {
+                "normalized_label": "٢٤٢"
+            },
+            {
+                "normalized_label": "٢٥٢"
+            },
+            {
+                "normalized_label": "٢٦٢"
+            },
+            {
+                "normalized_label": "٢٧٢"
+            },
+            {
+                "normalized_label": "٢٨٢"
+            },
+            {
+                "normalized_label": "٢٩٢"
+            },
+            {
+                "normalized_label": "٣٠٣"
+            },
+            {
+                "normalized_label": "٣١٣"
+            },
+            {
+                "normalized_label": "٣٢٣"
+            },
+            {
+                "normalized_label": "٣٣٣"
+            },
+            {
+                "normalized_label": "٣٤٣"
+            },
+            {
+                "normalized_label": "٣٥٣"
+            },
+            {
+                "normalized_label": "٣٦٣"
+            },
+            {
+                "normalized_label": "٣٧٣"
+            },
+            {
+                "normalized_label": "٣٨٣"
+            },
+            {
+                "normalized_label": "٣٩٣"
+            },
+            {
+                "normalized_label": "٤٠٤"
+            },
+            {
+                "normalized_label": "٤١٤"
+            },
+            {
+                "normalized_label": "٤٢٤"
+            },
+            {
+                "normalized_label": "٤٣٤"
+            },
+            {
+                "normalized_label": "٤٤٤"
+            },
+            {
+                "normalized_label": "٤٥٤"
+            },
+            {
+                "normalized_label": "٤٦٤"
+            },
+            {
+                "normalized_label": "٤٧٤"
+            },
+            {
+                "normalized_label": "٤٨٤"
+            },
+            {
+                "normalized_label": "٤٩٤"
+            },
+            {
+                "normalized_label": "٥٠٥"
+            },
+            {
+                "normalized_label": "٥١٥"
+            },
+            {
+                "normalized_label": "٥٢٥"
+            },
+            {
+                "normalized_label": "٥٣٥"
+            },
+            {
+                "normalized_label": "٥٤٥"
+            },
+            {
+                "normalized_label": "٥٥٥"
+            },
+            {
+                "normalized_label": "٥٦٥"
+            },
+            {
+                "normalized_label": "٥٧٥"
+            },
+            {
+                "normalized_label": "٥٨٥"
+            },
+            {
+                "normalized_label": "٥٩٥"
+            },
+            {
+                "normalized_label": "٦٠٦"
+            },
+            {
+                "normalized_label": "٦١٦"
+            },
+            {
+                "normalized_label": "٦٢٦"
+            },
+            {
+                "normalized_label": "٦٣٦"
+            },
+            {
+                "normalized_label": "٦٤٦"
+            },
+            {
+                "normalized_label": "٦٥٦"
+            },
+            {
+                "normalized_label": "٦٦٦"
+            },
+            {
+                "normalized_label": "٦٧٦"
+            },
+            {
+                "normalized_label": "٦٨٦"
+            },
+            {
+                "normalized_label": "٦٩٦"
+            },
+            {
+                "normalized_label": "٧٠٧"
+            },
+            {
+                "normalized_label": "٧١٧"
+            },
+            {
+                "normalized_label": "٧٢٧"
+            },
+            {
+                "normalized_label": "٧٣٧"
+            },
+            {
+                "normalized_label": "٧٤٧"
+            },
+            {
+                "normalized_label": "٧٥٧"
+            },
+            {
+                "normalized_label": "٧٦٧"
+            },
+            {
+                "normalized_label": "٧٧٧"
+            },
+            {
+                "normalized_label": "٧٨٧"
+            },
+            {
+                "normalized_label": "٧٩٧"
+            },
+            {
+                "normalized_label": "٨٠٨"
+            },
+            {
+                "normalized_label": "٨١٨"
+            },
+            {
+                "normalized_label": "٨٢٨"
+            },
+            {
+                "normalized_label": "٨٣٨"
+            },
+            {
+                "normalized_label": "٨٤٨"
+            },
+            {
+                "normalized_label": "٨٥٨"
+            },
+            {
+                "normalized_label": "٨٦٨"
+            },
+            {
+                "normalized_label": "٨٧٨"
+            },
+            {
+                "normalized_label": "٨٨٨"
+            },
+            {
+                "normalized_label": "٨٩٨"
+            },
+            {
+                "normalized_label": "٩٠٩"
+            },
+            {
+                "normalized_label": "٩١٩"
+            },
+            {
+                "normalized_label": "٩٢٩"
+            },
+            {
+                "normalized_label": "٩٣٩"
+            },
+            {
+                "normalized_label": "٩٤٩"
+            },
+            {
+                "normalized_label": "٩٥٩"
+            },
+            {
+                "normalized_label": "٩٦٩"
+            },
+            {
+                "normalized_label": "٩٧٩"
+            },
+            {
+                "normalized_label": "٩٨٩"
+            },
+            {
+                "normalized_label": "٩٩٩"
+            }
+        ]
+    }
+}

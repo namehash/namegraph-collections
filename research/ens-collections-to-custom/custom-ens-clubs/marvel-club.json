@@ -1,0 +1,5447 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "marvel-club",
+        "collection_name": "Marvel Club",
+        "collection_description": "Names of Marvel Characters. Top 230.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "3-dman"
+            },
+            {
+                "normalized_label": "8-ball"
+            },
+            {
+                "normalized_label": "a-bomb"
+            },
+            {
+                "normalized_label": "aamirkhan"
+            },
+            {
+                "normalized_label": "aardwolf"
+            },
+            {
+                "normalized_label": "aaronnicholson"
+            },
+            {
+                "normalized_label": "aaronstack"
+            },
+            {
+                "normalized_label": "abdulalhazred"
+            },
+            {
+                "normalized_label": "abdulqamar"
+            },
+            {
+                "normalized_label": "aberration"
+            },
+            {
+                "normalized_label": "abigailbrand"
+            },
+            {
+                "normalized_label": "abnerjenkins"
+            },
+            {
+                "normalized_label": "abomination"
+            },
+            {
+                "normalized_label": "abrahamkieros"
+            },
+            {
+                "normalized_label": "abraxas"
+            },
+            {
+                "normalized_label": "absorbingman"
+            },
+            {
+                "normalized_label": "abyss"
+            },
+            {
+                "normalized_label": "ace"
+            },
+            {
+                "normalized_label": "achebe"
+            },
+            {
+                "normalized_label": "acrobat"
+            },
+            {
+                "normalized_label": "acroyear"
+            },
+            {
+                "normalized_label": "adamdestine"
+            },
+            {
+                "normalized_label": "adammann"
+            },
+            {
+                "normalized_label": "adamwarlock"
+            },
+            {
+                "normalized_label": "adaptoid"
+            },
+            {
+                "normalized_label": "administrator"
+            },
+            {
+                "normalized_label": "adriantoomes"
+            },
+            {
+                "normalized_label": "adriennefrost"
+            },
+            {
+                "normalized_label": "adversary"
+            },
+            {
+                "normalized_label": "aegis"
+            },
+            {
+                "normalized_label": "aero"
+            },
+            {
+                "normalized_label": "aftershock"
+            },
+            {
+                "normalized_label": "agathaharkness"
+            },
+            {
+                "normalized_label": "agedgenghis"
+            },
+            {
+                "normalized_label": "agentbrand"
+            },
+            {
+                "normalized_label": "agentmobius"
+            },
+            {
+                "normalized_label": "agentsofatlas"
+            },
+            {
+                "normalized_label": "agentx"
+            },
+            {
+                "normalized_label": "agentzero"
+            },
+            {
+                "normalized_label": "aggamon"
+            },
+            {
+                "normalized_label": "aginar"
+            },
+            {
+                "normalized_label": "aguila"
+            },
+            {
+                "normalized_label": "ahab"
+            },
+            {
+                "normalized_label": "aiapaec"
+            },
+            {
+                "normalized_label": "aim"
+            },
+            {
+                "normalized_label": "air-walker"
+            },
+            {
+                "normalized_label": "airstrike"
+            },
+            {
+                "normalized_label": "aisha"
+            },
+            {
+                "normalized_label": "ajak"
+            },
+            {
+                "normalized_label": "ajax"
+            },
+            {
+                "normalized_label": "ajaxis"
+            },
+            {
+                "normalized_label": "akemi"
+            },
+            {
+                "normalized_label": "akhenaten"
+            },
+            {
+                "normalized_label": "aladikoeke"
+            },
+            {
+                "normalized_label": "alain"
+            },
+            {
+                "normalized_label": "alanoneil"
+            },
+            {
+                "normalized_label": "alapaec"
+            },
+            {
+                "normalized_label": "albertcleary"
+            },
+            {
+                "normalized_label": "albertmalik"
+            },
+            {
+                "normalized_label": "albino"
+            },
+            {
+                "normalized_label": "albion"
+            },
+            {
+                "normalized_label": "alchemy"
+            },
+            {
+                "normalized_label": "aldebron"
+            },
+            {
+                "normalized_label": "aldrifodinsdottir"
+            },
+            {
+                "normalized_label": "alejandromontoya"
+            },
+            {
+                "normalized_label": "aletaogord"
+            },
+            {
+                "normalized_label": "alexamendez"
+            },
+            {
+                "normalized_label": "alexanderbont"
+            },
+            {
+                "normalized_label": "alexanderlexington"
+            },
+            {
+                "normalized_label": "alexanderpierce"
+            },
+            {
+                "normalized_label": "alexanderwoolcot"
+            },
+            {
+                "normalized_label": "alexeishostakov"
+            },
+            {
+                "normalized_label": "alexpower"
+            },
+            {
+                "normalized_label": "alexwilder"
+            },
+            {
+                "normalized_label": "alflyse"
+            },
+            {
+                "normalized_label": "alice"
+            },
+            {
+                "normalized_label": "aliciamasters"
+            },
+            {
+                "normalized_label": "alioth"
+            },
+            {
+                "normalized_label": "alkhema"
+            },
+            {
+                "normalized_label": "all-american"
+            },
+            {
+                "normalized_label": "allatou"
+            },
+            {
+                "normalized_label": "allegion"
+            },
+            {
+                "normalized_label": "alligatorloki"
+            },
+            {
+                "normalized_label": "allisondillon"
+            },
+            {
+                "normalized_label": "alphaflight"
+            },
+            {
+                "normalized_label": "alphatheultimatemutant"
+            },
+            {
+                "normalized_label": "alphonsomackenzie"
+            },
+            {
+                "normalized_label": "alterego"
+            },
+            {
+                "normalized_label": "alvinmaker"
+            },
+            {
+                "normalized_label": "alysandestuart"
+            },
+            {
+                "normalized_label": "alyssamoy"
+            },
+            {
+                "normalized_label": "amadeuscho"
+            },
+            {
+                "normalized_label": "amalgam"
+            },
+            {
+                "normalized_label": "amandasefton"
+            },
+            {
+                "normalized_label": "amaraaquilla"
+            },
+            {
+                "normalized_label": "amazoness"
+            },
+            {
+                "normalized_label": "ameliavoght"
+            },
+            {
+                "normalized_label": "amergin"
+            },
+            {
+                "normalized_label": "americachavez"
+            },
+            {
+                "normalized_label": "americaneagle"
+            },
+            {
+                "normalized_label": "americop"
+            },
+            {
+                "normalized_label": "amiko"
+            },
+            {
+                "normalized_label": "aminedi"
+            },
+            {
+                "normalized_label": "ammit"
+            },
+            {
+                "normalized_label": "amora"
+            },
+            {
+                "normalized_label": "amphibion"
+            },
+            {
+                "normalized_label": "amphibius"
+            },
+            {
+                "normalized_label": "amun"
+            },
+            {
+                "normalized_label": "anaconda"
+            },
+            {
+                "normalized_label": "anak"
+            },
+            {
+                "normalized_label": "ananastasia"
+            },
+            {
+                "normalized_label": "anarchist"
+            },
+            {
+                "normalized_label": "anath-namut"
+            },
+            {
+                "normalized_label": "ancientone"
+            },
+            {
+                "normalized_label": "androidman"
+            },
+            {
+                "normalized_label": "aneka"
+            },
+            {
+                "normalized_label": "anelle"
+            },
+            {
+                "normalized_label": "anesthesia"
+            },
+            {
+                "normalized_label": "angarthescreamer"
+            },
+            {
+                "normalized_label": "angel"
+            },
+            {
+                "normalized_label": "angela"
+            },
+            {
+                "normalized_label": "angeladeltoro"
+            },
+            {
+                "normalized_label": "angeldust"
+            },
+            {
+                "normalized_label": "angelface"
+            },
+            {
+                "normalized_label": "angelsalvadore"
+            },
+            {
+                "normalized_label": "anitablake"
+            },
+            {
+                "normalized_label": "ankhi"
+            },
+            {
+                "normalized_label": "annalee"
+            },
+            {
+                "normalized_label": "anne-mariecortez"
+            },
+            {
+                "normalized_label": "annemariehoag"
+            },
+            {
+                "normalized_label": "annieghazikhanian"
+            },
+            {
+                "normalized_label": "annihilus"
+            },
+            {
+                "normalized_label": "anole"
+            },
+            {
+                "normalized_label": "anomaly"
+            },
+            {
+                "normalized_label": "answer"
+            },
+            {
+                "normalized_label": "ant-man"
+            },
+            {
+                "normalized_label": "anthem"
+            },
+            {
+                "normalized_label": "anthropomorpho"
+            },
+            {
+                "normalized_label": "anti-cap"
+            },
+            {
+                "normalized_label": "antiphontheoverseer"
+            },
+            {
+                "normalized_label": "antoniorodriguez"
+            },
+            {
+                "normalized_label": "antonvanko"
+            },
+            {
+                "normalized_label": "anubis"
+            },
+            {
+                "normalized_label": "anvil"
+            },
+            {
+                "normalized_label": "anyacorazon"
+            },
+            {
+                "normalized_label": "anycabe"
+            },
+            {
+                "normalized_label": "apelargo"
+            },
+            {
+                "normalized_label": "apocalypse"
+            },
+            {
+                "normalized_label": "apollo"
+            },
+            {
+                "normalized_label": "appraiser"
+            },
+            {
+                "normalized_label": "aquarian"
+            },
+            {
+                "normalized_label": "aqueduct"
+            },
+            {
+                "normalized_label": "aquon"
+            },
+            {
+                "normalized_label": "arabianknight"
+            },
+            {
+                "normalized_label": "arachne"
+            },
+            {
+                "normalized_label": "araki"
+            },
+            {
+                "normalized_label": "aralune"
+            },
+            {
+                "normalized_label": "arana"
+            },
+            {
+                "normalized_label": "arc"
+            },
+            {
+                "normalized_label": "arcade"
+            },
+            {
+                "normalized_label": "arcanna"
+            },
+            {
+                "normalized_label": "arch-e-5912"
+            },
+            {
+                "normalized_label": "archangel"
+            },
+            {
+                "normalized_label": "arclight"
+            },
+            {
+                "normalized_label": "arcturusrann"
+            },
+            {
+                "normalized_label": "ares"
+            },
+            {
+                "normalized_label": "argent"
+            },
+            {
+                "normalized_label": "aria"
+            },
+            {
+                "normalized_label": "arides"
+            },
+            {
+                "normalized_label": "arishem"
+            },
+            {
+                "normalized_label": "arishemthejudge"
+            },
+            {
+                "normalized_label": "arize"
+            },
+            {
+                "normalized_label": "armadillo"
+            },
+            {
+                "normalized_label": "armageddon"
+            },
+            {
+                "normalized_label": "armchedon"
+            },
+            {
+                "normalized_label": "armor"
+            },
+            {
+                "normalized_label": "armorer"
+            },
+            {
+                "normalized_label": "armory"
+            },
+            {
+                "normalized_label": "arnimzola"
+            },
+            {
+                "normalized_label": "arranger"
+            },
+            {
+                "normalized_label": "arsenal"
+            },
+            {
+                "normalized_label": "arsenic"
+            },
+            {
+                "normalized_label": "artiee"
+            },
+            {
+                "normalized_label": "artiemaddicks"
+            },
+            {
+                "normalized_label": "artume"
+            },
+            {
+                "normalized_label": "asbestoslady"
+            },
+            {
+                "normalized_label": "asbestosman"
+            },
+            {
+                "normalized_label": "asgardian"
+            },
+            {
+                "normalized_label": "asgardians"
+            },
+            {
+                "normalized_label": "ashcan"
+            },
+            {
+                "normalized_label": "askew-tronics"
+            },
+            {
+                "normalized_label": "asmodeus"
+            },
+            {
+                "normalized_label": "asp"
+            },
+            {
+                "normalized_label": "assassin"
+            },
+            {
+                "normalized_label": "asteroth"
+            },
+            {
+                "normalized_label": "astra"
+            },
+            {
+                "normalized_label": "astronomer"
+            },
+            {
+                "normalized_label": "asylum"
+            },
+            {
+                "normalized_label": "atalon"
+            },
+            {
+                "normalized_label": "atlas"
+            },
+            {
+                "normalized_label": "atlez"
+            },
+            {
+                "normalized_label": "atleza"
+            },
+            {
+                "normalized_label": "atlezalangunn"
+            },
+            {
+                "normalized_label": "atom-smasher"
+            },
+            {
+                "normalized_label": "att-lass"
+            },
+            {
+                "normalized_label": "attuma"
+            },
+            {
+                "normalized_label": "atum"
+            },
+            {
+                "normalized_label": "augustaseger"
+            },
+            {
+                "normalized_label": "augustusbeezer"
+            },
+            {
+                "normalized_label": "auntmay"
+            },
+            {
+                "normalized_label": "auran"
+            },
+            {
+                "normalized_label": "aurora"
+            },
+            {
+                "normalized_label": "authority"
+            },
+            {
+                "normalized_label": "avalanche"
+            },
+            {
+                "normalized_label": "avarrish"
+            },
+            {
+                "normalized_label": "avengers"
+            },
+            {
+                "normalized_label": "avoe"
+            },
+            {
+                "normalized_label": "awesomeandy"
+            },
+            {
+                "normalized_label": "axemanbone"
+            },
+            {
+                "normalized_label": "axon"
+            },
+            {
+                "normalized_label": "axum"
+            },
+            {
+                "normalized_label": "ayo"
+            },
+            {
+                "normalized_label": "azazel"
+            },
+            {
+                "normalized_label": "baal"
+            },
+            {
+                "normalized_label": "bakuto"
+            },
+            {
+                "normalized_label": "balder"
+            },
+            {
+                "normalized_label": "balkaa"
+            },
+            {
+                "normalized_label": "bambimodica"
+            },
+            {
+                "normalized_label": "ban-luck"
+            },
+            {
+                "normalized_label": "bang"
+            },
+            {
+                "normalized_label": "banshee"
+            },
+            {
+                "normalized_label": "bantam"
+            },
+            {
+                "normalized_label": "barbarus"
+            },
+            {
+                "normalized_label": "barnacle"
+            },
+            {
+                "normalized_label": "baronblood"
+            },
+            {
+                "normalized_label": "baroness"
+            },
+            {
+                "normalized_label": "baronessblood"
+            },
+            {
+                "normalized_label": "baronesssbak"
+            },
+            {
+                "normalized_label": "baronmordo"
+            },
+            {
+                "normalized_label": "baronstrucker"
+            },
+            {
+                "normalized_label": "baronvonblitzschlag"
+            },
+            {
+                "normalized_label": "baronzebek"
+            },
+            {
+                "normalized_label": "baronzemo"
+            },
+            {
+                "normalized_label": "barracuda"
+            },
+            {
+                "normalized_label": "barrynormanosborn"
+            },
+            {
+                "normalized_label": "bartholomewbartgallows"
+            },
+            {
+                "normalized_label": "bartrozum"
+            },
+            {
+                "normalized_label": "basher"
+            },
+            {
+                "normalized_label": "basilisk"
+            },
+            {
+                "normalized_label": "bastion"
+            },
+            {
+                "normalized_label": "batch-13"
+            },
+            {
+                "normalized_label": "batroctheleaper"
+            },
+            {
+                "normalized_label": "batteringram"
+            },
+            {
+                "normalized_label": "battlestar"
+            },
+            {
+                "normalized_label": "batwing"
+            },
+            {
+                "normalized_label": "beak"
+            },
+            {
+                "normalized_label": "beast"
+            },
+            {
+                "normalized_label": "beautifuldreamer"
+            },
+            {
+                "normalized_label": "becatron"
+            },
+            {
+                "normalized_label": "beckyryan"
+            },
+            {
+                "normalized_label": "bedlam"
+            },
+            {
+                "normalized_label": "beef"
+            },
+            {
+                "normalized_label": "beetle"
+            },
+            {
+                "normalized_label": "beibang-wen"
+            },
+            {
+                "normalized_label": "belasco"
+            },
+            {
+                "normalized_label": "belladonnaboudreaux"
+            },
+            {
+                "normalized_label": "bellona"
+            },
+            {
+                "normalized_label": "bengal"
+            },
+            {
+                "normalized_label": "bengrimm"
+            },
+            {
+                "normalized_label": "benparker"
+            },
+            {
+                "normalized_label": "benreilly"
+            },
+            {
+                "normalized_label": "benurich"
+            },
+            {
+                "normalized_label": "betaraybill"
+            },
+            {
+                "normalized_label": "betsybraddock"
+            },
+            {
+                "normalized_label": "bettybrant"
+            },
+            {
+                "normalized_label": "bettyross"
+            },
+            {
+                "normalized_label": "bettyswanson"
+            },
+            {
+                "normalized_label": "bevatron"
+            },
+            {
+                "normalized_label": "beyonder"
+            },
+            {
+                "normalized_label": "bi-beast"
+            },
+            {
+                "normalized_label": "bigbertha"
+            },
+            {
+                "normalized_label": "bigmother"
+            },
+            {
+                "normalized_label": "bigwheel"
+            },
+            {
+                "normalized_label": "bigzero"
+            },
+            {
+                "normalized_label": "billcarver"
+            },
+            {
+                "normalized_label": "billfoster"
+            },
+            {
+                "normalized_label": "billhollister"
+            },
+            {
+                "normalized_label": "billymaximoff"
+            },
+            {
+                "normalized_label": "bird-man"
+            },
+            {
+                "normalized_label": "bishop"
+            },
+            {
+                "normalized_label": "bitterfrost"
+            },
+            {
+                "normalized_label": "blackabbot"
+            },
+            {
+                "normalized_label": "blackbird"
+            },
+            {
+                "normalized_label": "blackbolt"
+            },
+            {
+                "normalized_label": "blackcat"
+            },
+            {
+                "normalized_label": "blackcloak"
+            },
+            {
+                "normalized_label": "blackcrow"
+            },
+            {
+                "normalized_label": "blackheart"
+            },
+            {
+                "normalized_label": "blackiedrago"
+            },
+            {
+                "normalized_label": "blackjacktarr"
+            },
+            {
+                "normalized_label": "blackknight"
+            },
+            {
+                "normalized_label": "blacklash"
+            },
+            {
+                "normalized_label": "blackmamba"
+            },
+            {
+                "normalized_label": "blackmariah"
+            },
+            {
+                "normalized_label": "blackout"
+            },
+            {
+                "normalized_label": "blackpanther"
+            },
+            {
+                "normalized_label": "blackqueen"
+            },
+            {
+                "normalized_label": "blackraazer"
+            },
+            {
+                "normalized_label": "blackrose"
+            },
+            {
+                "normalized_label": "blackswan"
+            },
+            {
+                "normalized_label": "blacktarantula"
+            },
+            {
+                "normalized_label": "blacktom"
+            },
+            {
+                "normalized_label": "blackwidow"
+            },
+            {
+                "normalized_label": "blackwing"
+            },
+            {
+                "normalized_label": "blade"
+            },
+            {
+                "normalized_label": "blancheblondiesitznski"
+            },
+            {
+                "normalized_label": "blank"
+            },
+            {
+                "normalized_label": "blaquesmith"
+            },
+            {
+                "normalized_label": "blastaar"
+            },
+            {
+                "normalized_label": "blazingskull"
+            },
+            {
+                "normalized_label": "blimp"
+            },
+            {
+                "normalized_label": "blindal"
+            },
+            {
+                "normalized_label": "blindfold"
+            },
+            {
+                "normalized_label": "blindjustice"
+            },
+            {
+                "normalized_label": "blindspot"
+            },
+            {
+                "normalized_label": "bling"
+            },
+            {
+                "normalized_label": "blink"
+            },
+            {
+                "normalized_label": "blistik"
+            },
+            {
+                "normalized_label": "blitziana"
+            },
+            {
+                "normalized_label": "blitzkrieger"
+            },
+            {
+                "normalized_label": "blizzard"
+            },
+            {
+                "normalized_label": "blob"
+            },
+            {
+                "normalized_label": "blockade"
+            },
+            {
+                "normalized_label": "blockbuster"
+            },
+            {
+                "normalized_label": "blok"
+            },
+            {
+                "normalized_label": "bloke"
+            },
+            {
+                "normalized_label": "blondephantom"
+            },
+            {
+                "normalized_label": "bloodaxe"
+            },
+            {
+                "normalized_label": "bloodbrothers"
+            },
+            {
+                "normalized_label": "bloodhawk"
+            },
+            {
+                "normalized_label": "bloodscream"
+            },
+            {
+                "normalized_label": "bloodshadow"
+            },
+            {
+                "normalized_label": "bloodspider"
+            },
+            {
+                "normalized_label": "bloodstorm"
+            },
+            {
+                "normalized_label": "bloodstrike"
+            },
+            {
+                "normalized_label": "bluebird"
+            },
+            {
+                "normalized_label": "blueblade"
+            },
+            {
+                "normalized_label": "bluediamond"
+            },
+            {
+                "normalized_label": "bluemarvel"
+            },
+            {
+                "normalized_label": "blueshield"
+            },
+            {
+                "normalized_label": "bluestreak"
+            },
+            {
+                "normalized_label": "blur"
+            },
+            {
+                "normalized_label": "boar"
+            },
+            {
+                "normalized_label": "bobagentofhydra"
+            },
+            {
+                "normalized_label": "bogeyman"
+            },
+            {
+                "normalized_label": "bonebreaker"
+            },
+            {
+                "normalized_label": "bonehead"
+            },
+            {
+                "normalized_label": "bookie"
+            },
+            {
+                "normalized_label": "bookworm"
+            },
+            {
+                "normalized_label": "boom-boom"
+            },
+            {
+                "normalized_label": "boomer"
+            },
+            {
+                "normalized_label": "boomerang"
+            },
+            {
+                "normalized_label": "boomslang"
+            },
+            {
+                "normalized_label": "bor"
+            },
+            {
+                "normalized_label": "boris"
+            },
+            {
+                "normalized_label": "bounty"
+            },
+            {
+                "normalized_label": "box"
+            },
+            {
+                "normalized_label": "brawn"
+            },
+            {
+                "normalized_label": "brianfalsworth"
+            },
+            {
+                "normalized_label": "brideofninespiders"
+            },
+            {
+                "normalized_label": "brightstorm"
+            },
+            {
+                "normalized_label": "brio"
+            },
+            {
+                "normalized_label": "bromley"
+            },
+            {
+                "normalized_label": "bron-char"
+            },
+            {
+                "normalized_label": "brood"
+            },
+            {
+                "normalized_label": "brotherhoodofevilmutants"
+            },
+            {
+                "normalized_label": "brothervoodoo"
+            },
+            {
+                "normalized_label": "brucebanner"
+            },
+            {
+                "normalized_label": "brunocarrelli"
+            },
+            {
+                "normalized_label": "brutacus"
+            },
+            {
+                "normalized_label": "brute"
+            },
+            {
+                "normalized_label": "bubonicus"
+            },
+            {
+                "normalized_label": "bucky"
+            },
+            {
+                "normalized_label": "buckybarnes"
+            },
+            {
+                "normalized_label": "bug"
+            },
+            {
+                "normalized_label": "bull"
+            },
+            {
+                "normalized_label": "bullbrogin"
+            },
+            {
+                "normalized_label": "bulldozer"
+            },
+            {
+                "normalized_label": "bullseye"
+            },
+            {
+                "normalized_label": "bushmaster"
+            },
+            {
+                "normalized_label": "bushwacker"
+            },
+            {
+                "normalized_label": "butterfly"
+            },
+            {
+                "normalized_label": "byrrah"
+            },
+            {
+                "normalized_label": "byte"
+            },
+            {
+                "normalized_label": "cable"
+            },
+            {
+                "normalized_label": "caffrey"
+            },
+            {
+                "normalized_label": "caiera"
+            },
+            {
+                "normalized_label": "calamity"
+            },
+            {
+                "normalized_label": "calavera"
+            },
+            {
+                "normalized_label": "caliban"
+            },
+            {
+                "normalized_label": "callisto"
+            },
+            {
+                "normalized_label": "calypso"
+            },
+            {
+                "normalized_label": "cameronhodge"
+            },
+            {
+                "normalized_label": "cammi"
+            },
+            {
+                "normalized_label": "candimuggins"
+            },
+            {
+                "normalized_label": "cannonball"
+            },
+            {
+                "normalized_label": "capnoz"
+            },
+            {
+                "normalized_label": "captainamerica"
+            },
+            {
+                "normalized_label": "captainatlas"
+            },
+            {
+                "normalized_label": "captainaxis"
+            },
+            {
+                "normalized_label": "captainbarracuda"
+            },
+            {
+                "normalized_label": "captainbritain"
+            },
+            {
+                "normalized_label": "captaincarter"
+            },
+            {
+                "normalized_label": "captaincross"
+            },
+            {
+                "normalized_label": "captainflint"
+            },
+            {
+                "normalized_label": "captainmarvel"
+            },
+            {
+                "normalized_label": "captainmidlands"
+            },
+            {
+                "normalized_label": "captainomen"
+            },
+            {
+                "normalized_label": "captainrectitude"
+            },
+            {
+                "normalized_label": "captainshellyconklin"
+            },
+            {
+                "normalized_label": "captainstacy"
+            },
+            {
+                "normalized_label": "captainuk"
+            },
+            {
+                "normalized_label": "captainuniverse"
+            },
+            {
+                "normalized_label": "cardiac"
+            },
+            {
+                "normalized_label": "caregiver"
+            },
+            {
+                "normalized_label": "caretaker"
+            },
+            {
+                "normalized_label": "cargill"
+            },
+            {
+                "normalized_label": "carinawalters"
+            },
+            {
+                "normalized_label": "carjack"
+            },
+            {
+                "normalized_label": "carlcrushercreel"
+            },
+            {
+                "normalized_label": "carliecooper"
+            },
+            {
+                "normalized_label": "carlrivers"
+            },
+            {
+                "normalized_label": "carlzante"
+            },
+            {
+                "normalized_label": "carmellaunuscione"
+            },
+            {
+                "normalized_label": "carmillablack"
+            },
+            {
+                "normalized_label": "carnage"
+            },
+            {
+                "normalized_label": "caroldanvers"
+            },
+            {
+                "normalized_label": "carolhines"
+            },
+            {
+                "normalized_label": "carrion"
+            },
+            {
+                "normalized_label": "carthus"
+            },
+            {
+                "normalized_label": "cassandranova"
+            },
+            {
+                "normalized_label": "catastrophus"
+            },
+            {
+                "normalized_label": "catseye"
+            },
+            {
+                "normalized_label": "ceciliareyes"
+            },
+            {
+                "normalized_label": "celestials"
+            },
+            {
+                "normalized_label": "celiaricadonna"
+            },
+            {
+                "normalized_label": "centaurion"
+            },
+            {
+                "normalized_label": "centennial"
+            },
+            {
+                "normalized_label": "centurions"
+            },
+            {
+                "normalized_label": "centurious"
+            },
+            {
+                "normalized_label": "century"
+            },
+            {
+                "normalized_label": "cerebra"
+            },
+            {
+                "normalized_label": "cerebro"
+            },
+            {
+                "normalized_label": "cerise"
+            },
+            {
+                "normalized_label": "chainlightning"
+            },
+            {
+                "normalized_label": "chamber"
+            },
+            {
+                "normalized_label": "chameleon"
+            },
+            {
+                "normalized_label": "champion"
+            },
+            {
+                "normalized_label": "champions"
+            },
+            {
+                "normalized_label": "changeling"
+            },
+            {
+                "normalized_label": "chaosmites"
+            },
+            {
+                "normalized_label": "chaossprites"
+            },
+            {
+                "normalized_label": "charlesxavier"
+            },
+            {
+                "normalized_label": "charlie-27"
+            },
+            {
+                "normalized_label": "charliecampion"
+            },
+            {
+                "normalized_label": "charlieweiderman"
+            },
+            {
+                "normalized_label": "charlottewitter"
+            },
+            {
+                "normalized_label": "charon"
+            },
+            {
+                "normalized_label": "chasestein"
+            },
+            {
+                "normalized_label": "chat"
+            },
+            {
+                "normalized_label": "cheetah"
+            },
+            {
+                "normalized_label": "chernobog"
+            },
+            {
+                "normalized_label": "cherryblossom"
+            },
+            {
+                "normalized_label": "chi-lin"
+            },
+            {
+                "normalized_label": "chimera"
+            },
+            {
+                "normalized_label": "chod"
+            },
+            {
+                "normalized_label": "chonduthemystic"
+            },
+            {
+                "normalized_label": "choresmacgillicudy"
+            },
+            {
+                "normalized_label": "chrisbradley"
+            },
+            {
+                "normalized_label": "christianwalker"
+            },
+            {
+                "normalized_label": "christinepalmer"
+            },
+            {
+                "normalized_label": "christophernord"
+            },
+            {
+                "normalized_label": "christophnord"
+            },
+            {
+                "normalized_label": "chrome"
+            },
+            {
+                "normalized_label": "chronomancer"
+            },
+            {
+                "normalized_label": "chthon"
+            },
+            {
+                "normalized_label": "cindymoon"
+            },
+            {
+                "normalized_label": "citizenv"
+            },
+            {
+                "normalized_label": "clairetemple"
+            },
+            {
+                "normalized_label": "clandestine"
+            },
+            {
+                "normalized_label": "clea"
+            },
+            {
+                "normalized_label": "cleopatranefertiti"
+            },
+            {
+                "normalized_label": "cleric"
+            },
+            {
+                "normalized_label": "clintbarton"
+            },
+            {
+                "normalized_label": "clivereston"
+            },
+            {
+                "normalized_label": "cloak"
+            },
+            {
+                "normalized_label": "cloud"
+            },
+            {
+                "normalized_label": "cloud9"
+            },
+            {
+                "normalized_label": "coachwhip"
+            },
+            {
+                "normalized_label": "coatofarms"
+            },
+            {
+                "normalized_label": "cobaltman"
+            },
+            {
+                "normalized_label": "collapsar"
+            },
+            {
+                "normalized_label": "collectiveman"
+            },
+            {
+                "normalized_label": "colleenwing"
+            },
+            {
+                "normalized_label": "colonelamerica"
+            },
+            {
+                "normalized_label": "colossus"
+            },
+            {
+                "normalized_label": "comet"
+            },
+            {
+                "normalized_label": "commando"
+            },
+            {
+                "normalized_label": "condor"
+            },
+            {
+                "normalized_label": "confederatesofthecurious"
+            },
+            {
+                "normalized_label": "conli"
+            },
+            {
+                "normalized_label": "constrictor"
+            },
+            {
+                "normalized_label": "contemplator"
+            },
+            {
+                "normalized_label": "contessa"
+            },
+            {
+                "normalized_label": "controller"
+            },
+            {
+                "normalized_label": "copycat"
+            },
+            {
+                "normalized_label": "cornelius"
+            },
+            {
+                "normalized_label": "corneliusvanlunt"
+            },
+            {
+                "normalized_label": "corsair"
+            },
+            {
+                "normalized_label": "corvusglaive"
+            },
+            {
+                "normalized_label": "cosmo"
+            },
+            {
+                "normalized_label": "cottonmouth"
+            },
+            {
+                "normalized_label": "countess"
+            },
+            {
+                "normalized_label": "countnefaria"
+            },
+            {
+                "normalized_label": "crimsoncrusader"
+            },
+            {
+                "normalized_label": "crimsondynamo"
+            },
+            {
+                "normalized_label": "crimsonking"
+            },
+            {
+                "normalized_label": "crossbones"
+            },
+            {
+                "normalized_label": "crule"
+            },
+            {
+                "normalized_label": "crusherhogan"
+            },
+            {
+                "normalized_label": "crystal"
+            },
+            {
+                "normalized_label": "cuckoo"
+            },
+            {
+                "normalized_label": "cullobsidian"
+            },
+            {
+                "normalized_label": "curtconners"
+            },
+            {
+                "normalized_label": "cuthbert"
+            },
+            {
+                "normalized_label": "cyber"
+            },
+            {
+                "normalized_label": "cyclops"
+            },
+            {
+                "normalized_label": "cyllamarkham"
+            },
+            {
+                "normalized_label": "cypher"
+            },
+            {
+                "normalized_label": "dagger"
+            },
+            {
+                "normalized_label": "dailybugle"
+            },
+            {
+                "normalized_label": "daimonhellstrom"
+            },
+            {
+                "normalized_label": "daisyjohnson"
+            },
+            {
+                "normalized_label": "daken"
+            },
+            {
+                "normalized_label": "dakotanorth"
+            },
+            {
+                "normalized_label": "damagecontrol"
+            },
+            {
+                "normalized_label": "danewhitman"
+            },
+            {
+                "normalized_label": "danielaxum"
+            },
+            {
+                "normalized_label": "danielberkhart"
+            },
+            {
+                "normalized_label": "danielketch"
+            },
+            {
+                "normalized_label": "danimoonstar"
+            },
+            {
+                "normalized_label": "dannyrand"
+            },
+            {
+                "normalized_label": "darcylewis"
+            },
+            {
+                "normalized_label": "daredevil"
+            },
+            {
+                "normalized_label": "dargoktor"
+            },
+            {
+                "normalized_label": "darkavengers"
+            },
+            {
+                "normalized_label": "darkbeast"
+            },
+            {
+                "normalized_label": "darkhawk"
+            },
+            {
+                "normalized_label": "darkphoenix"
+            },
+            {
+                "normalized_label": "darkstar"
+            },
+            {
+                "normalized_label": "darkx-men"
+            },
+            {
+                "normalized_label": "darwin"
+            },
+            {
+                "normalized_label": "davidalanangar"
+            },
+            {
+                "normalized_label": "davidalleyne"
+            },
+            {
+                "normalized_label": "davos"
+            },
+            {
+                "normalized_label": "dazzler"
+            },
+            {
+                "normalized_label": "deaconfrost"
+            },
+            {
+                "normalized_label": "deadgirl"
+            },
+            {
+                "normalized_label": "deadpool"
+            },
+            {
+                "normalized_label": "death"
+            },
+            {
+                "normalized_label": "deathbird"
+            },
+            {
+                "normalized_label": "deathcry"
+            },
+            {
+                "normalized_label": "deathlok"
+            },
+            {
+                "normalized_label": "deathstrike"
+            },
+            {
+                "normalized_label": "deborahfields"
+            },
+            {
+                "normalized_label": "debrawhitman"
+            },
+            {
+                "normalized_label": "debrii"
+            },
+            {
+                "normalized_label": "deenapilgrim"
+            },
+            {
+                "normalized_label": "defenders"
+            },
+            {
+                "normalized_label": "demogoblin"
+            },
+            {
+                "normalized_label": "destiny"
+            },
+            {
+                "normalized_label": "detectivesoap"
+            },
+            {
+                "normalized_label": "deviants"
+            },
+            {
+                "normalized_label": "devildinosaur"
+            },
+            {
+                "normalized_label": "devos"
+            },
+            {
+                "normalized_label": "dexterbennett"
+            },
+            {
+                "normalized_label": "diablo"
+            },
+            {
+                "normalized_label": "diamondback"
+            },
+            {
+                "normalized_label": "dimitribukharin"
+            },
+            {
+                "normalized_label": "dinahsoar"
+            },
+            {
+                "normalized_label": "dirkanger"
+            },
+            {
+                "normalized_label": "dkenneramani"
+            },
+            {
+                "normalized_label": "docsamson"
+            },
+            {
+                "normalized_label": "doctordoom"
+            },
+            {
+                "normalized_label": "doctorerikselvig"
+            },
+            {
+                "normalized_label": "doctorfaustus"
+            },
+            {
+                "normalized_label": "doctornemesis"
+            },
+            {
+                "normalized_label": "doctoroctopus"
+            },
+            {
+                "normalized_label": "doctorspectrum"
+            },
+            {
+                "normalized_label": "doctorstrange"
+            },
+            {
+                "normalized_label": "doctorvoodoo"
+            },
+            {
+                "normalized_label": "dogbrother"
+            },
+            {
+                "normalized_label": "domino"
+            },
+            {
+                "normalized_label": "donaldblake"
+            },
+            {
+                "normalized_label": "donnadiego"
+            },
+            {
+                "normalized_label": "doomsdayman"
+            },
+            {
+                "normalized_label": "doop"
+            },
+            {
+                "normalized_label": "doorman"
+            },
+            {
+                "normalized_label": "doramilaje"
+            },
+            {
+                "normalized_label": "doriangray"
+            },
+            {
+                "normalized_label": "dormammu"
+            },
+            {
+                "normalized_label": "dracula"
+            },
+            {
+                "normalized_label": "dragonlord"
+            },
+            {
+                "normalized_label": "dragonman"
+            },
+            {
+                "normalized_label": "drax"
+            },
+            {
+                "normalized_label": "draxthedestroyer"
+            },
+            {
+                "normalized_label": "dreadnoughts"
+            },
+            {
+                "normalized_label": "dreamingcelestial"
+            },
+            {
+                "normalized_label": "druig"
+            },
+            {
+                "normalized_label": "dumdumdugan"
+            },
+            {
+                "normalized_label": "dust"
+            },
+            {
+                "normalized_label": "dwaynetaylor"
+            },
+            {
+                "normalized_label": "earth-712"
+            },
+            {
+                "normalized_label": "earthquake"
+            },
+            {
+                "normalized_label": "ebenezerlaughton"
+            },
+            {
+                "normalized_label": "ebonymaw"
+            },
+            {
+                "normalized_label": "ecat"
+            },
+            {
+                "normalized_label": "echo"
+            },
+            {
+                "normalized_label": "eddiebrock"
+            },
+            {
+                "normalized_label": "eddielau"
+            },
+            {
+                "normalized_label": "edwardtedforrester"
+            },
+            {
+                "normalized_label": "edwardwhelan"
+            },
+            {
+                "normalized_label": "edwinjarvis"
+            },
+            {
+                "normalized_label": "ego"
+            },
+            {
+                "normalized_label": "electro"
+            },
+            {
+                "normalized_label": "elektra"
+            },
+            {
+                "normalized_label": "elementsofdoom"
+            },
+            {
+                "normalized_label": "elite"
+            },
+            {
+                "normalized_label": "elixir"
+            },
+            {
+                "normalized_label": "eliza"
+            },
+            {
+                "normalized_label": "elloekaifi"
+            },
+            {
+                "normalized_label": "elsabloodstone"
+            },
+            {
+                "normalized_label": "emilblonsky"
+            },
+            {
+                "normalized_label": "emmafrost"
+            },
+            {
+                "normalized_label": "emodel"
+            },
+            {
+                "normalized_label": "empath"
+            },
+            {
+                "normalized_label": "emplate"
+            },
+            {
+                "normalized_label": "enchantress"
+            },
+            {
+                "normalized_label": "enderwiggin"
+            },
+            {
+                "normalized_label": "energizer"
+            },
+            {
+                "normalized_label": "epoch"
+            },
+            {
+                "normalized_label": "ericogrady"
+            },
+            {
+                "normalized_label": "erikkillmonger"
+            },
+            {
+                "normalized_label": "erikstephanjosten"
+            },
+            {
+                "normalized_label": "erikthered"
+            },
+            {
+                "normalized_label": "erincicero"
+            },
+            {
+                "normalized_label": "eternals"
+            },
+            {
+                "normalized_label": "eternity"
+            },
+            {
+                "normalized_label": "excalibur"
+            },
+            {
+                "normalized_label": "executioner"
+            },
+            {
+                "normalized_label": "exiles"
+            },
+            {
+                "normalized_label": "exodus"
+            },
+            {
+                "normalized_label": "expediter"
+            },
+            {
+                "normalized_label": "ezekiel"
+            },
+            {
+                "normalized_label": "ezekielstane"
+            },
+            {
+                "normalized_label": "fabiancortez"
+            },
+            {
+                "normalized_label": "falcon"
+            },
+            {
+                "normalized_label": "fallenone"
+            },
+            {
+                "normalized_label": "famine"
+            },
+            {
+                "normalized_label": "fantasticfour"
+            },
+            {
+                "normalized_label": "fantastickfour"
+            },
+            {
+                "normalized_label": "fantomex"
+            },
+            {
+                "normalized_label": "fatcobra"
+            },
+            {
+                "normalized_label": "feliciahardy"
+            },
+            {
+                "normalized_label": "fenris"
+            },
+            {
+                "normalized_label": "feral"
+            },
+            {
+                "normalized_label": "finfangfoom"
+            },
+            {
+                "normalized_label": "firebird"
+            },
+            {
+                "normalized_label": "firebrand"
+            },
+            {
+                "normalized_label": "firedrake"
+            },
+            {
+                "normalized_label": "firelord"
+            },
+            {
+                "normalized_label": "firestar"
+            },
+            {
+                "normalized_label": "fixer"
+            },
+            {
+                "normalized_label": "flashthompson"
+            },
+            {
+                "normalized_label": "flatman"
+            },
+            {
+                "normalized_label": "flyingdutchman"
+            },
+            {
+                "normalized_label": "foggynelson"
+            },
+            {
+                "normalized_label": "forceworks"
+            },
+            {
+                "normalized_label": "forearm"
+            },
+            {
+                "normalized_label": "forge"
+            },
+            {
+                "normalized_label": "forgottenone"
+            },
+            {
+                "normalized_label": "francisklum"
+            },
+            {
+                "normalized_label": "frankcastle"
+            },
+            {
+                "normalized_label": "frankensteinsmonster"
+            },
+            {
+                "normalized_label": "frankieraye"
+            },
+            {
+                "normalized_label": "franklinrichards"
+            },
+            {
+                "normalized_label": "franklinstorm"
+            },
+            {
+                "normalized_label": "fraternityofraptors"
+            },
+            {
+                "normalized_label": "freak"
+            },
+            {
+                "normalized_label": "frenzy"
+            },
+            {
+                "normalized_label": "freyja"
+            },
+            {
+                "normalized_label": "friendlyneighborhoodspider-man"
+            },
+            {
+                "normalized_label": "frigga"
+            },
+            {
+                "normalized_label": "frightfulfour"
+            },
+            {
+                "normalized_label": "frog-man"
+            },
+            {
+                "normalized_label": "frogthor"
+            },
+            {
+                "normalized_label": "gabejones"
+            },
+            {
+                "normalized_label": "gabriellan"
+            },
+            {
+                "normalized_label": "gabriellekinney"
+            },
+            {
+                "normalized_label": "gabrielsummers"
+            },
+            {
+                "normalized_label": "galactus"
+            },
+            {
+                "normalized_label": "galia"
+            },
+            {
+                "normalized_label": "gambit"
+            },
+            {
+                "normalized_label": "gammacorps"
+            },
+            {
+                "normalized_label": "gamora"
+            },
+            {
+                "normalized_label": "gargoyle"
+            },
+            {
+                "normalized_label": "garia"
+            },
+            {
+                "normalized_label": "garrisonkane"
+            },
+            {
+                "normalized_label": "gateway"
+            },
+            {
+                "normalized_label": "gauntlet"
+            },
+            {
+                "normalized_label": "geiger"
+            },
+            {
+                "normalized_label": "generationx"
+            },
+            {
+                "normalized_label": "genesailors"
+            },
+            {
+                "normalized_label": "genesis"
+            },
+            {
+                "normalized_label": "genis-vell"
+            },
+            {
+                "normalized_label": "georgestacy"
+            },
+            {
+                "normalized_label": "gertrudeyorkes"
+            },
+            {
+                "normalized_label": "ghost-spider"
+            },
+            {
+                "normalized_label": "ghostrider"
+            },
+            {
+                "normalized_label": "giant-dok"
+            },
+            {
+                "normalized_label": "giantgirl"
+            },
+            {
+                "normalized_label": "giantman"
+            },
+            {
+                "normalized_label": "gideon"
+            },
+            {
+                "normalized_label": "gilgamesh"
+            },
+            {
+                "normalized_label": "giovannimagniconte"
+            },
+            {
+                "normalized_label": "githoskins"
+            },
+            {
+                "normalized_label": "gladiator"
+            },
+            {
+                "normalized_label": "glenntalbot"
+            },
+            {
+                "normalized_label": "glorian"
+            },
+            {
+                "normalized_label": "goblinqueen"
+            },
+            {
+                "normalized_label": "goddessofthunder"
+            },
+            {
+                "normalized_label": "goldenguardian"
+            },
+            {
+                "normalized_label": "goliath"
+            },
+            {
+                "normalized_label": "goo"
+            },
+            {
+                "normalized_label": "goose"
+            },
+            {
+                "normalized_label": "gorgon"
+            },
+            {
+                "normalized_label": "gorillaman"
+            },
+            {
+                "normalized_label": "gorr"
+            },
+            {
+                "normalized_label": "grandmaster"
+            },
+            {
+                "normalized_label": "graviton"
+            },
+            {
+                "normalized_label": "gravity"
+            },
+            {
+                "normalized_label": "greatlakesavengers"
+            },
+            {
+                "normalized_label": "greengoblin"
+            },
+            {
+                "normalized_label": "greernelson"
+            },
+            {
+                "normalized_label": "gressill"
+            },
+            {
+                "normalized_label": "greygargoyle"
+            },
+            {
+                "normalized_label": "greymalkin"
+            },
+            {
+                "normalized_label": "grimreaper"
+            },
+            {
+                "normalized_label": "groot"
+            },
+            {
+                "normalized_label": "guardian"
+            },
+            {
+                "normalized_label": "guardiansofthegalaxy"
+            },
+            {
+                "normalized_label": "guardsmen"
+            },
+            {
+                "normalized_label": "gunslinger"
+            },
+            {
+                "normalized_label": "gwbridge"
+            },
+            {
+                "normalized_label": "gwenstacy"
+            },
+            {
+                "normalized_label": "hairball"
+            },
+            {
+                "normalized_label": "half-life"
+            },
+            {
+                "normalized_label": "hammer"
+            },
+            {
+                "normalized_label": "hammerhead"
+            },
+            {
+                "normalized_label": "hankmccoy"
+            },
+            {
+                "normalized_label": "hankpym"
+            },
+            {
+                "normalized_label": "hannibalking"
+            },
+            {
+                "normalized_label": "happyhogan"
+            },
+            {
+                "normalized_label": "hardball"
+            },
+            {
+                "normalized_label": "harleydavidsoncooper"
+            },
+            {
+                "normalized_label": "harpoon"
+            },
+            {
+                "normalized_label": "harrier"
+            },
+            {
+                "normalized_label": "harryheck"
+            },
+            {
+                "normalized_label": "harryosborn"
+            },
+            {
+                "normalized_label": "has"
+            },
+            {
+                "normalized_label": "havok"
+            },
+            {
+                "normalized_label": "hawkeye"
+            },
+            {
+                "normalized_label": "hecate"
+            },
+            {
+                "normalized_label": "hedgeknight"
+            },
+            {
+                "normalized_label": "heikezemo"
+            },
+            {
+                "normalized_label": "heimdall"
+            },
+            {
+                "normalized_label": "heinrichzemo"
+            },
+            {
+                "normalized_label": "hela"
+            },
+            {
+                "normalized_label": "hellcat"
+            },
+            {
+                "normalized_label": "hellfireclub"
+            },
+            {
+                "normalized_label": "hellion"
+            },
+            {
+                "normalized_label": "hellions"
+            },
+            {
+                "normalized_label": "hemingway"
+            },
+            {
+                "normalized_label": "henriquemanuelgallante"
+            },
+            {
+                "normalized_label": "henrypetergyrich"
+            },
+            {
+                "normalized_label": "hepzibah"
+            },
+            {
+                "normalized_label": "herbie"
+            },
+            {
+                "normalized_label": "hercules"
+            },
+            {
+                "normalized_label": "hermanschultz"
+            },
+            {
+                "normalized_label": "heroesforhire"
+            },
+            {
+                "normalized_label": "hex"
+            },
+            {
+                "normalized_label": "highevolutionary"
+            },
+            {
+                "normalized_label": "hindsightlad"
+            },
+            {
+                "normalized_label": "hiroim"
+            },
+            {
+                "normalized_label": "hisakoichiki"
+            },
+            {
+                "normalized_label": "hit-monkey"
+            },
+            {
+                "normalized_label": "hitman"
+            },
+            {
+                "normalized_label": "hitomisakuma"
+            },
+            {
+                "normalized_label": "hobgoblin"
+            },
+            {
+                "normalized_label": "holy"
+            },
+            {
+                "normalized_label": "honeybadger"
+            },
+            {
+                "normalized_label": "hopesummers"
+            },
+            {
+                "normalized_label": "howardsaint"
+            },
+            {
+                "normalized_label": "howardstark"
+            },
+            {
+                "normalized_label": "howardtheduck"
+            },
+            {
+                "normalized_label": "hulk"
+            },
+            {
+                "normalized_label": "hulk-dok"
+            },
+            {
+                "normalized_label": "hulkling"
+            },
+            {
+                "normalized_label": "humancannonball"
+            },
+            {
+                "normalized_label": "humanfly"
+            },
+            {
+                "normalized_label": "humanrobot"
+            },
+            {
+                "normalized_label": "humantorch"
+            },
+            {
+                "normalized_label": "humbug"
+            },
+            {
+                "normalized_label": "hunterb15"
+            },
+            {
+                "normalized_label": "husk"
+            },
+            {
+                "normalized_label": "hussar"
+            },
+            {
+                "normalized_label": "hydra"
+            },
+            {
+                "normalized_label": "hydro-man"
+            },
+            {
+                "normalized_label": "hyperion"
+            },
+            {
+                "normalized_label": "hypno-hustler"
+            },
+            {
+                "normalized_label": "iceman"
+            },
+            {
+                "normalized_label": "ikaris"
+            },
+            {
+                "normalized_label": "illuminati"
+            },
+            {
+                "normalized_label": "illyanarasputin"
+            },
+            {
+                "normalized_label": "ilyanarasputin"
+            },
+            {
+                "normalized_label": "immortus"
+            },
+            {
+                "normalized_label": "imp"
+            },
+            {
+                "normalized_label": "imperfects"
+            },
+            {
+                "normalized_label": "imperialguard"
+            },
+            {
+                "normalized_label": "impossibleman"
+            },
+            {
+                "normalized_label": "in-betweener"
+            },
+            {
+                "normalized_label": "incrediblehulk"
+            },
+            {
+                "normalized_label": "inertia"
+            },
+            {
+                "normalized_label": "ineztemple"
+            },
+            {
+                "normalized_label": "infantterrible"
+            },
+            {
+                "normalized_label": "ing"
+            },
+            {
+                "normalized_label": "inhumans"
+            },
+            {
+                "normalized_label": "ink"
+            },
+            {
+                "normalized_label": "invaders"
+            },
+            {
+                "normalized_label": "invisiblewoman"
+            },
+            {
+                "normalized_label": "ironclad"
+            },
+            {
+                "normalized_label": "ironcrossarmy"
+            },
+            {
+                "normalized_label": "ironfist"
+            },
+            {
+                "normalized_label": "ironheart"
+            },
+            {
+                "normalized_label": "ironlad"
+            },
+            {
+                "normalized_label": "ironman"
+            },
+            {
+                "normalized_label": "ironmonger"
+            },
+            {
+                "normalized_label": "ironpatriot"
+            },
+            {
+                "normalized_label": "isaacchristians"
+            },
+            {
+                "normalized_label": "isaiahbradley"
+            },
+            {
+                "normalized_label": "jackal"
+            },
+            {
+                "normalized_label": "jackflag"
+            },
+            {
+                "normalized_label": "jackmurdock"
+            },
+            {
+                "normalized_label": "jackolantern"
+            },
+            {
+                "normalized_label": "jackpot"
+            },
+            {
+                "normalized_label": "jackpower"
+            },
+            {
+                "normalized_label": "jacquesduquesne"
+            },
+            {
+                "normalized_label": "jamesbourne"
+            },
+            {
+                "normalized_label": "jamesbuchananbarnes"
+            },
+            {
+                "normalized_label": "jamesdarnell"
+            },
+            {
+                "normalized_label": "jameshowlett"
+            },
+            {
+                "normalized_label": "jamesrhodes"
+            },
+            {
+                "normalized_label": "jamiebraddock"
+            },
+            {
+                "normalized_label": "janefoster"
+            },
+            {
+                "normalized_label": "janiechin"
+            },
+            {
+                "normalized_label": "janusthenega-man"
+            },
+            {
+                "normalized_label": "jasonmacendale"
+            },
+            {
+                "normalized_label": "jasonstrongbow"
+            },
+            {
+                "normalized_label": "jaspersitwell"
+            },
+            {
+                "normalized_label": "jazinda"
+            },
+            {
+                "normalized_label": "jeangrey"
+            },
+            {
+                "normalized_label": "jeanne-mariebeaubier"
+            },
+            {
+                "normalized_label": "jeffhagees"
+            },
+            {
+                "normalized_label": "jennifersmith"
+            },
+            {
+                "normalized_label": "jenniferwalters"
+            },
+            {
+                "normalized_label": "jerynhogarth"
+            },
+            {
+                "normalized_label": "jessicadrew"
+            },
+            {
+                "normalized_label": "jessicajones"
+            },
+            {
+                "normalized_label": "jetstream"
+            },
+            {
+                "normalized_label": "jigsaw"
+            },
+            {
+                "normalized_label": "jimhammond"
+            },
+            {
+                "normalized_label": "jimmywoo"
+            },
+            {
+                "normalized_label": "jjonahjameson"
+            },
+            {
+                "normalized_label": "joanthemouse"
+            },
+            {
+                "normalized_label": "jocasta"
+            },
+            {
+                "normalized_label": "johnanvil"
+            },
+            {
+                "normalized_label": "johnfarson"
+            },
+            {
+                "normalized_label": "johnjameson"
+            },
+            {
+                "normalized_label": "johnnyblaze"
+            },
+            {
+                "normalized_label": "johnnystorm"
+            },
+            {
+                "normalized_label": "johnporter"
+            },
+            {
+                "normalized_label": "johnproudstar"
+            },
+            {
+                "normalized_label": "johnwraith"
+            },
+            {
+                "normalized_label": "joseph"
+            },
+            {
+                "normalized_label": "josephchapman"
+            },
+            {
+                "normalized_label": "josephgreen"
+            },
+            {
+                "normalized_label": "joshuakane"
+            },
+            {
+                "normalized_label": "josiahx"
+            },
+            {
+                "normalized_label": "joystick"
+            },
+            {
+                "normalized_label": "jubilee"
+            },
+            {
+                "normalized_label": "juggernaut"
+            },
+            {
+                "normalized_label": "julecarpenter"
+            },
+            {
+                "normalized_label": "juliacarpenter"
+            },
+            {
+                "normalized_label": "juliacornwallcarpenter"
+            },
+            {
+                "normalized_label": "juliankeller"
+            },
+            {
+                "normalized_label": "junta"
+            },
+            {
+                "normalized_label": "justice"
+            },
+            {
+                "normalized_label": "justinhammer"
+            },
+            {
+                "normalized_label": "ka-zar"
+            },
+            {
+                "normalized_label": "kabuki"
+            },
+            {
+                "normalized_label": "kaine"
+            },
+            {
+                "normalized_label": "kallark"
+            },
+            {
+                "normalized_label": "kamalakhan"
+            },
+            {
+                "normalized_label": "kang"
+            },
+            {
+                "normalized_label": "kangtheconqueror"
+            },
+            {
+                "normalized_label": "karenomalley"
+            },
+            {
+                "normalized_label": "karenpage"
+            },
+            {
+                "normalized_label": "karlmordo"
+            },
+            {
+                "normalized_label": "karma"
+            },
+            {
+                "normalized_label": "karnak"
+            },
+            {
+                "normalized_label": "karolinadean"
+            },
+            {
+                "normalized_label": "katebishop"
+            },
+            {
+                "normalized_label": "katfarrell"
+            },
+            {
+                "normalized_label": "katiepower"
+            },
+            {
+                "normalized_label": "katy"
+            },
+            {
+                "normalized_label": "kenellis"
+            },
+            {
+                "normalized_label": "keylargo"
+            },
+            {
+                "normalized_label": "khan"
+            },
+            {
+                "normalized_label": "khonshu"
+            },
+            {
+                "normalized_label": "kidcolt"
+            },
+            {
+                "normalized_label": "killershrike"
+            },
+            {
+                "normalized_label": "killmonger"
+            },
+            {
+                "normalized_label": "killraven"
+            },
+            {
+                "normalized_label": "kingbedlam"
+            },
+            {
+                "normalized_label": "kingcobra"
+            },
+            {
+                "normalized_label": "kingo"
+            },
+            {
+                "normalized_label": "kingpin"
+            },
+            {
+                "normalized_label": "kinseywalden"
+            },
+            {
+                "normalized_label": "kittypryde"
+            },
+            {
+                "normalized_label": "klaw"
+            },
+            {
+                "normalized_label": "komodo"
+            },
+            {
+                "normalized_label": "korath"
+            },
+            {
+                "normalized_label": "korg"
+            },
+            {
+                "normalized_label": "korvac"
+            },
+            {
+                "normalized_label": "krakoa"
+            },
+            {
+                "normalized_label": "kraventhehunter"
+            },
+            {
+                "normalized_label": "kree"
+            },
+            {
+                "normalized_label": "kristastarr"
+            },
+            {
+                "normalized_label": "kronos"
+            },
+            {
+                "normalized_label": "kuan-yinxorn"
+            },
+            {
+                "normalized_label": "kulangath"
+            },
+            {
+                "normalized_label": "kwannon"
+            },
+            {
+                "normalized_label": "kylun"
+            },
+            {
+                "normalized_label": "ladybullseye"
+            },
+            {
+                "normalized_label": "ladydeathstrike"
+            },
+            {
+                "normalized_label": "ladymastermind"
+            },
+            {
+                "normalized_label": "ladyursula"
+            },
+            {
+                "normalized_label": "ladyvermin"
+            },
+            {
+                "normalized_label": "lake"
+            },
+            {
+                "normalized_label": "lancealvers"
+            },
+            {
+                "normalized_label": "landau"
+            },
+            {
+                "normalized_label": "lanuit"
+            },
+            {
+                "normalized_label": "lavaman"
+            },
+            {
+                "normalized_label": "laylamiller"
+            },
+            {
+                "normalized_label": "leader"
+            },
+            {
+                "normalized_label": "leech"
+            },
+            {
+                "normalized_label": "legion"
+            },
+            {
+                "normalized_label": "leikungt"
+            },
+            {
+                "normalized_label": "lennybalinger"
+            },
+            {
+                "normalized_label": "leo"
+            },
+            {
+                "normalized_label": "leopardon"
+            },
+            {
+                "normalized_label": "leperqueen"
+            },
+            {
+                "normalized_label": "lester"
+            },
+            {
+                "normalized_label": "lieutenantmarcusstone"
+            },
+            {
+                "normalized_label": "lifeguard"
+            },
+            {
+                "normalized_label": "lightninglordsofnepal"
+            },
+            {
+                "normalized_label": "lightspeed"
+            },
+            {
+                "normalized_label": "lilacheney"
+            },
+            {
+                "normalized_label": "lilandra"
+            },
+            {
+                "normalized_label": "lilith"
+            },
+            {
+                "normalized_label": "lilyhollister"
+            },
+            {
+                "normalized_label": "lindacarter"
+            },
+            {
+                "normalized_label": "lionheart"
+            },
+            {
+                "normalized_label": "livinglaser"
+            },
+            {
+                "normalized_label": "livinglightning"
+            },
+            {
+                "normalized_label": "livingmummy"
+            },
+            {
+                "normalized_label": "livingtribunal"
+            },
+            {
+                "normalized_label": "lizard"
+            },
+            {
+                "normalized_label": "lizosborn"
+            },
+            {
+                "normalized_label": "loa"
+            },
+            {
+                "normalized_label": "lockheed"
+            },
+            {
+                "normalized_label": "lockjaw"
+            },
+            {
+                "normalized_label": "logan"
+            },
+            {
+                "normalized_label": "loki"
+            },
+            {
+                "normalized_label": "lokivariant"
+            },
+            {
+                "normalized_label": "loners"
+            },
+            {
+                "normalized_label": "longshot"
+            },
+            {
+                "normalized_label": "lordhawal"
+            },
+            {
+                "normalized_label": "lordjohnfalsworth"
+            },
+            {
+                "normalized_label": "lordsofavalon"
+            },
+            {
+                "normalized_label": "lordtyger"
+            },
+            {
+                "normalized_label": "lornadane"
+            },
+            {
+                "normalized_label": "luckman"
+            },
+            {
+                "normalized_label": "luckypierre"
+            },
+            {
+                "normalized_label": "lucyinthesky"
+            },
+            {
+                "normalized_label": "luisalvarez"
+            },
+            {
+                "normalized_label": "lukecage"
+            },
+            {
+                "normalized_label": "luminals"
+            },
+            {
+                "normalized_label": "lunasnow"
+            },
+            {
+                "normalized_label": "lunellalayfayette"
+            },
+            {
+                "normalized_label": "lyja"
+            },
+            {
+                "normalized_label": "lyra"
+            },
+            {
+                "normalized_label": "macgargan"
+            },
+            {
+                "normalized_label": "machineman"
+            },
+            {
+                "normalized_label": "machiv"
+            },
+            {
+                "normalized_label": "madamehydra"
+            },
+            {
+                "normalized_label": "madamemasque"
+            },
+            {
+                "normalized_label": "madameweb"
+            },
+            {
+                "normalized_label": "maddog"
+            },
+            {
+                "normalized_label": "madelynepryor"
+            },
+            {
+                "normalized_label": "madripoor"
+            },
+            {
+                "normalized_label": "madrox"
+            },
+            {
+                "normalized_label": "madthinker"
+            },
+            {
+                "normalized_label": "maelstrom"
+            },
+            {
+                "normalized_label": "maestro"
+            },
+            {
+                "normalized_label": "magdalene"
+            },
+            {
+                "normalized_label": "maggott"
+            },
+            {
+                "normalized_label": "magik"
+            },
+            {
+                "normalized_label": "maginty"
+            },
+            {
+                "normalized_label": "magma"
+            },
+            {
+                "normalized_label": "magneto"
+            },
+            {
+                "normalized_label": "magnuci"
+            },
+            {
+                "normalized_label": "magus"
+            },
+            {
+                "normalized_label": "majormapleleaf"
+            },
+            {
+                "normalized_label": "majorpain"
+            },
+            {
+                "normalized_label": "makkari"
+            },
+            {
+                "normalized_label": "malcolmcolcord"
+            },
+            {
+                "normalized_label": "malcolmmcbride"
+            },
+            {
+                "normalized_label": "malekith"
+            },
+            {
+                "normalized_label": "malice"
+            },
+            {
+                "normalized_label": "man-thing"
+            },
+            {
+                "normalized_label": "man-wolf"
+            },
+            {
+                "normalized_label": "mandarin"
+            },
+            {
+                "normalized_label": "mandrill"
+            },
+            {
+                "normalized_label": "mandroid"
+            },
+            {
+                "normalized_label": "manta"
+            },
+            {
+                "normalized_label": "mantis"
+            },
+            {
+                "normalized_label": "mar-vell"
+            },
+            {
+                "normalized_label": "marauders"
+            },
+            {
+                "normalized_label": "marcspector"
+            },
+            {
+                "normalized_label": "marcusvansciver"
+            },
+            {
+                "normalized_label": "mariahill"
+            },
+            {
+                "normalized_label": "mariavasquez"
+            },
+            {
+                "normalized_label": "marikoyashida"
+            },
+            {
+                "normalized_label": "markscarlotti"
+            },
+            {
+                "normalized_label": "marrow"
+            },
+            {
+                "normalized_label": "martenbroadcloak"
+            },
+            {
+                "normalized_label": "martinli"
+            },
+            {
+                "normalized_label": "marvelapes"
+            },
+            {
+                "normalized_label": "marvelavengers"
+            },
+            {
+                "normalized_label": "marvelboy"
+            },
+            {
+                "normalized_label": "marvelzombies"
+            },
+            {
+                "normalized_label": "marvex"
+            },
+            {
+                "normalized_label": "maryjanewatson"
+            },
+            {
+                "normalized_label": "maskedmarvel"
+            },
+            {
+                "normalized_label": "masque"
+            },
+            {
+                "normalized_label": "masterchief"
+            },
+            {
+                "normalized_label": "mastermind"
+            },
+            {
+                "normalized_label": "mastermold"
+            },
+            {
+                "normalized_label": "mastersofevil"
+            },
+            {
+                "normalized_label": "mathemanic"
+            },
+            {
+                "normalized_label": "matsuotsurayaba"
+            },
+            {
+                "normalized_label": "matthewmurdock"
+            },
+            {
+                "normalized_label": "mattiefranklin"
+            },
+            {
+                "normalized_label": "mauler"
+            },
+            {
+                "normalized_label": "maverick"
+            },
+            {
+                "normalized_label": "maximus"
+            },
+            {
+                "normalized_label": "mayparker"
+            },
+            {
+                "normalized_label": "medusa"
+            },
+            {
+                "normalized_label": "meggan"
+            },
+            {
+                "normalized_label": "melatikusuma"
+            },
+            {
+                "normalized_label": "meltdown"
+            },
+            {
+                "normalized_label": "melvinpotter"
+            },
+            {
+                "normalized_label": "menace"
+            },
+            {
+                "normalized_label": "mentallo"
+            },
+            {
+                "normalized_label": "mentor"
+            },
+            {
+                "normalized_label": "mephisto"
+            },
+            {
+                "normalized_label": "mephistopheles"
+            },
+            {
+                "normalized_label": "mercury"
+            },
+            {
+                "normalized_label": "mesmero"
+            },
+            {
+                "normalized_label": "metalmaster"
+            },
+            {
+                "normalized_label": "meteorite"
+            },
+            {
+                "normalized_label": "mi13"
+            },
+            {
+                "normalized_label": "michaelbadilino"
+            },
+            {
+                "normalized_label": "michaelenglish"
+            },
+            {
+                "normalized_label": "michaelpointer"
+            },
+            {
+                "normalized_label": "microbe"
+            },
+            {
+                "normalized_label": "microchip"
+            },
+            {
+                "normalized_label": "micromacro"
+            },
+            {
+                "normalized_label": "micromax"
+            },
+            {
+                "normalized_label": "midnight"
+            },
+            {
+                "normalized_label": "miek"
+            },
+            {
+                "normalized_label": "mightythor"
+            },
+            {
+                "normalized_label": "mikhailrasputin"
+            },
+            {
+                "normalized_label": "milesmorales"
+            },
+            {
+                "normalized_label": "mill"
+            },
+            {
+                "normalized_label": "milleniumguard"
+            },
+            {
+                "normalized_label": "mimic"
+            },
+            {
+                "normalized_label": "mindworm"
+            },
+            {
+                "normalized_label": "minn-erva"
+            },
+            {
+                "normalized_label": "miracleman"
+            },
+            {
+                "normalized_label": "missamerica"
+            },
+            {
+                "normalized_label": "missminutes"
+            },
+            {
+                "normalized_label": "misterfantastic"
+            },
+            {
+                "normalized_label": "misterfear"
+            },
+            {
+                "normalized_label": "mistersinister"
+            },
+            {
+                "normalized_label": "mistyknight"
+            },
+            {
+                "normalized_label": "mitchelltanner"
+            },
+            {
+                "normalized_label": "mockingbird"
+            },
+            {
+                "normalized_label": "modak"
+            },
+            {
+                "normalized_label": "modam"
+            },
+            {
+                "normalized_label": "modog"
+            },
+            {
+                "normalized_label": "moiramactaggert"
+            },
+            {
+                "normalized_label": "mojo"
+            },
+            {
+                "normalized_label": "moleculeman"
+            },
+            {
+                "normalized_label": "moleman"
+            },
+            {
+                "normalized_label": "mollyhayes"
+            },
+            {
+                "normalized_label": "mollyvonrichtofen"
+            },
+            {
+                "normalized_label": "moltenman"
+            },
+            {
+                "normalized_label": "monetstcroix"
+            },
+            {
+                "normalized_label": "mongoose"
+            },
+            {
+                "normalized_label": "mongu"
+            },
+            {
+                "normalized_label": "monicarambeau"
+            },
+            {
+                "normalized_label": "monsterbadoon"
+            },
+            {
+                "normalized_label": "montgomeryfalsworth"
+            },
+            {
+                "normalized_label": "moondragon"
+            },
+            {
+                "normalized_label": "moongirl"
+            },
+            {
+                "normalized_label": "moonknight"
+            },
+            {
+                "normalized_label": "moonstone"
+            },
+            {
+                "normalized_label": "morbius"
+            },
+            {
+                "normalized_label": "mordo"
+            },
+            {
+                "normalized_label": "morg"
+            },
+            {
+                "normalized_label": "morganlefay"
+            },
+            {
+                "normalized_label": "morganstark"
+            },
+            {
+                "normalized_label": "morlocks"
+            },
+            {
+                "normalized_label": "morlun"
+            },
+            {
+                "normalized_label": "morph"
+            },
+            {
+                "normalized_label": "motheraskani"
+            },
+            {
+                "normalized_label": "mrbumpo"
+            },
+            {
+                "normalized_label": "mrfantastic"
+            },
+            {
+                "normalized_label": "mrfish"
+            },
+            {
+                "normalized_label": "mrfixit"
+            },
+            {
+                "normalized_label": "mrhyde"
+            },
+            {
+                "normalized_label": "mrimmortal"
+            },
+            {
+                "normalized_label": "mrmeugniot"
+            },
+            {
+                "normalized_label": "mrnegative"
+            },
+            {
+                "normalized_label": "mrpayback"
+            },
+            {
+                "normalized_label": "mrx"
+            },
+            {
+                "normalized_label": "ms2"
+            },
+            {
+                "normalized_label": "msamerica"
+            },
+            {
+                "normalized_label": "msmarvel"
+            },
+            {
+                "normalized_label": "mulhollandblack"
+            },
+            {
+                "normalized_label": "multipleman"
+            },
+            {
+                "normalized_label": "muzzafarlambert"
+            },
+            {
+                "normalized_label": "mvp"
+            },
+            {
+                "normalized_label": "mysterio"
+            },
+            {
+                "normalized_label": "mystique"
+            },
+            {
+                "normalized_label": "nakia"
+            },
+            {
+                "normalized_label": "namor"
+            },
+            {
+                "normalized_label": "namora"
+            },
+            {
+                "normalized_label": "namorita"
+            },
+            {
+                "normalized_label": "naoko"
+            },
+            {
+                "normalized_label": "natasharomanoff"
+            },
+            {
+                "normalized_label": "nealshaara"
+            },
+            {
+                "normalized_label": "nebula"
+            },
+            {
+                "normalized_label": "nedleeds"
+            },
+            {
+                "normalized_label": "nehzno"
+            },
+            {
+                "normalized_label": "nekra"
+            },
+            {
+                "normalized_label": "nemesis"
+            },
+            {
+                "normalized_label": "network"
+            },
+            {
+                "normalized_label": "newgoblin"
+            },
+            {
+                "normalized_label": "newmutants"
+            },
+            {
+                "normalized_label": "newtondestine"
+            },
+            {
+                "normalized_label": "newwarriors"
+            },
+            {
+                "normalized_label": "newx-men"
+            },
+            {
+                "normalized_label": "nextavengers"
+            },
+            {
+                "normalized_label": "nextwave"
+            },
+            {
+                "normalized_label": "nickfury"
+            },
+            {
+                "normalized_label": "nicolaos"
+            },
+            {
+                "normalized_label": "nicominoru"
+            },
+            {
+                "normalized_label": "nightcrawler"
+            },
+            {
+                "normalized_label": "nighthawk"
+            },
+            {
+                "normalized_label": "nightmare"
+            },
+            {
+                "normalized_label": "nightnurse"
+            },
+            {
+                "normalized_label": "nightshade"
+            },
+            {
+                "normalized_label": "nightthrasher"
+            },
+            {
+                "normalized_label": "nijo"
+            },
+            {
+                "normalized_label": "nine-folddaughtersofxao"
+            },
+            {
+                "normalized_label": "nitro"
+            },
+            {
+                "normalized_label": "nocturne"
+            },
+            {
+                "normalized_label": "nomad"
+            },
+            {
+                "normalized_label": "normanosborn"
+            },
+            {
+                "normalized_label": "norrinradd"
+            },
+            {
+                "normalized_label": "northstar"
+            },
+            {
+                "normalized_label": "nova"
+            },
+            {
+                "normalized_label": "nuke"
+            },
+            {
+                "normalized_label": "obadiahstane"
+            },
+            {
+                "normalized_label": "odin"
+            },
+            {
+                "normalized_label": "ogun"
+            },
+            {
+                "normalized_label": "okoye"
+            },
+            {
+                "normalized_label": "oldlace"
+            },
+            {
+                "normalized_label": "oldmanlogan"
+            },
+            {
+                "normalized_label": "omega"
+            },
+            {
+                "normalized_label": "omegaflight"
+            },
+            {
+                "normalized_label": "omegared"
+            },
+            {
+                "normalized_label": "omegasentinel"
+            },
+            {
+                "normalized_label": "omegatheunknown"
+            },
+            {
+                "normalized_label": "onslaught"
+            },
+            {
+                "normalized_label": "oracle"
+            },
+            {
+                "normalized_label": "ord"
+            },
+            {
+                "normalized_label": "orphan"
+            },
+            {
+                "normalized_label": "orphan-maker"
+            },
+            {
+                "normalized_label": "orsonrandall"
+            },
+            {
+                "normalized_label": "oswaldpsilkworth"
+            },
+            {
+                "normalized_label": "ottooctavius"
+            },
+            {
+                "normalized_label": "outlaw"
+            },
+            {
+                "normalized_label": "outlawkid"
+            },
+            {
+                "normalized_label": "overlord"
+            },
+            {
+                "normalized_label": "owl"
+            },
+            {
+                "normalized_label": "ozymandias"
+            },
+            {
+                "normalized_label": "pacomontoya"
+            },
+            {
+                "normalized_label": "paibok"
+            },
+            {
+                "normalized_label": "paladin"
+            },
+            {
+                "normalized_label": "pandemic"
+            },
+            {
+                "normalized_label": "paperdoll"
+            },
+            {
+                "normalized_label": "parnelljacobs"
+            },
+            {
+                "normalized_label": "patch"
+            },
+            {
+                "normalized_label": "patriot"
+            },
+            {
+                "normalized_label": "patsywalker"
+            },
+            {
+                "normalized_label": "paulnorbertebersol"
+            },
+            {
+                "normalized_label": "payback"
+            },
+            {
+                "normalized_label": "peggycarter"
+            },
+            {
+                "normalized_label": "penance"
+            },
+            {
+                "normalized_label": "pepperpotts"
+            },
+            {
+                "normalized_label": "pestilence"
+            },
+            {
+                "normalized_label": "petavengers"
+            },
+            {
+                "normalized_label": "peterhunter"
+            },
+            {
+                "normalized_label": "peterparker"
+            },
+            {
+                "normalized_label": "peterquill"
+            },
+            {
+                "normalized_label": "petervanzante"
+            },
+            {
+                "normalized_label": "petewisdom"
+            },
+            {
+                "normalized_label": "phalanx"
+            },
+            {
+                "normalized_label": "phantomreporter"
+            },
+            {
+                "normalized_label": "phastos"
+            },
+            {
+                "normalized_label": "philcoulson"
+            },
+            {
+                "normalized_label": "philsheldon"
+            },
+            {
+                "normalized_label": "phoebusapollo"
+            },
+            {
+                "normalized_label": "phoenix"
+            },
+            {
+                "normalized_label": "phoenixforce"
+            },
+            {
+                "normalized_label": "photon"
+            },
+            {
+                "normalized_label": "phyla-vell"
+            },
+            {
+                "normalized_label": "pietromaximoff"
+            },
+            {
+                "normalized_label": "piledriver"
+            },
+            {
+                "normalized_label": "pip"
+            },
+            {
+                "normalized_label": "pixie"
+            },
+            {
+                "normalized_label": "plazm"
+            },
+            {
+                "normalized_label": "polaris"
+            },
+            {
+                "normalized_label": "post"
+            },
+            {
+                "normalized_label": "powerman"
+            },
+            {
+                "normalized_label": "powerpack"
+            },
+            {
+                "normalized_label": "praxagora"
+            },
+            {
+                "normalized_label": "preak"
+            },
+            {
+                "normalized_label": "prettyboy"
+            },
+            {
+                "normalized_label": "pride"
+            },
+            {
+                "normalized_label": "prima"
+            },
+            {
+                "normalized_label": "princeoforphans"
+            },
+            {
+                "normalized_label": "princesspowerful"
+            },
+            {
+                "normalized_label": "prism"
+            },
+            {
+                "normalized_label": "prodigy"
+            },
+            {
+                "normalized_label": "proemialgods"
+            },
+            {
+                "normalized_label": "professormonster"
+            },
+            {
+                "normalized_label": "professororsonkasloff"
+            },
+            {
+                "normalized_label": "professorx"
+            },
+            {
+                "normalized_label": "proteus"
+            },
+            {
+                "normalized_label": "proudstar"
+            },
+            {
+                "normalized_label": "prowler"
+            },
+            {
+                "normalized_label": "proximamidnight"
+            },
+            {
+                "normalized_label": "psycho-man"
+            },
+            {
+                "normalized_label": "psylocke"
+            },
+            {
+                "normalized_label": "psynapse"
+            },
+            {
+                "normalized_label": "puck"
+            },
+            {
+                "normalized_label": "puffadder"
+            },
+            {
+                "normalized_label": "pug"
+            },
+            {
+                "normalized_label": "puma"
+            },
+            {
+                "normalized_label": "punisher"
+            },
+            {
+                "normalized_label": "puppetmaster"
+            },
+            {
+                "normalized_label": "purifiers"
+            },
+            {
+                "normalized_label": "purpleman"
+            },
+            {
+                "normalized_label": "pyro"
+            },
+            {
+                "normalized_label": "qnax"
+            },
+            {
+                "normalized_label": "quake"
+            },
+            {
+                "normalized_label": "quanyaozu"
+            },
+            {
+                "normalized_label": "quasar"
+            },
+            {
+                "normalized_label": "quasimodo"
+            },
+            {
+                "normalized_label": "queennoir"
+            },
+            {
+                "normalized_label": "quentinquire"
+            },
+            {
+                "normalized_label": "quicksilver"
+            },
+            {
+                "normalized_label": "rachelgrey"
+            },
+            {
+                "normalized_label": "rachelleighton"
+            },
+            {
+                "normalized_label": "radioactiveman"
+            },
+            {
+                "normalized_label": "rafaelvega"
+            },
+            {
+                "normalized_label": "rage"
+            },
+            {
+                "normalized_label": "raider"
+            },
+            {
+                "normalized_label": "ranaphilips"
+            },
+            {
+                "normalized_label": "randall"
+            },
+            {
+                "normalized_label": "randallflagg"
+            },
+            {
+                "normalized_label": "random"
+            },
+            {
+                "normalized_label": "rattler"
+            },
+            {
+                "normalized_label": "ravendarkholme"
+            },
+            {
+                "normalized_label": "ravenous"
+            },
+            {
+                "normalized_label": "ravonnarenslayer"
+            },
+            {
+                "normalized_label": "rawhidekid"
+            },
+            {
+                "normalized_label": "raza"
+            },
+            {
+                "normalized_label": "reaper"
+            },
+            {
+                "normalized_label": "reavers"
+            },
+            {
+                "normalized_label": "red9"
+            },
+            {
+                "normalized_label": "redghost"
+            },
+            {
+                "normalized_label": "redguardian"
+            },
+            {
+                "normalized_label": "redhulk"
+            },
+            {
+                "normalized_label": "redshe-hulk"
+            },
+            {
+                "normalized_label": "redshift"
+            },
+            {
+                "normalized_label": "redskull"
+            },
+            {
+                "normalized_label": "redwing"
+            },
+            {
+                "normalized_label": "redwolf"
+            },
+            {
+                "normalized_label": "reedrichards"
+            },
+            {
+                "normalized_label": "reptil"
+            },
+            {
+                "normalized_label": "retrogirl"
+            },
+            {
+                "normalized_label": "revanche"
+            },
+            {
+                "normalized_label": "rhino"
+            },
+            {
+                "normalized_label": "rhodey"
+            },
+            {
+                "normalized_label": "richarddeacon"
+            },
+            {
+                "normalized_label": "richardfisk"
+            },
+            {
+                "normalized_label": "rickjones"
+            },
+            {
+                "normalized_label": "ricklawson"
+            },
+            {
+                "normalized_label": "ricochet"
+            },
+            {
+                "normalized_label": "rictor"
+            },
+            {
+                "normalized_label": "rikkibarnes"
+            },
+            {
+                "normalized_label": "riptide"
+            },
+            {
+                "normalized_label": "ririwilliams"
+            },
+            {
+                "normalized_label": "risque"
+            },
+            {
+                "normalized_label": "ritademara"
+            },
+            {
+                "normalized_label": "ritawayword"
+            },
+            {
+                "normalized_label": "robbiereyes"
+            },
+            {
+                "normalized_label": "robbierobertson"
+            },
+            {
+                "normalized_label": "robertbaldwin"
+            },
+            {
+                "normalized_label": "robertreynolds"
+            },
+            {
+                "normalized_label": "robinborne"
+            },
+            {
+                "normalized_label": "robinchapel"
+            },
+            {
+                "normalized_label": "rocket"
+            },
+            {
+                "normalized_label": "rocketraccoon"
+            },
+            {
+                "normalized_label": "rocketracer"
+            },
+            {
+                "normalized_label": "rockslide"
+            },
+            {
+                "normalized_label": "roderickkingsley"
+            },
+            {
+                "normalized_label": "roderickrorycampbell"
+            },
+            {
+                "normalized_label": "rogue"
+            },
+            {
+                "normalized_label": "rolanddeschain"
+            },
+            {
+                "normalized_label": "romulus"
+            },
+            {
+                "normalized_label": "ronaldenglish"
+            },
+            {
+                "normalized_label": "ronan"
+            },
+            {
+                "normalized_label": "ronin"
+            },
+            {
+                "normalized_label": "roughhouse"
+            },
+            {
+                "normalized_label": "roulette"
+            },
+            {
+                "normalized_label": "roxannesimpson"
+            },
+            {
+                "normalized_label": "rumikofujikawa"
+            },
+            {
+                "normalized_label": "runaways"
+            },
+            {
+                "normalized_label": "russian"
+            },
+            {
+                "normalized_label": "sabra"
+            },
+            {
+                "normalized_label": "sabretooth"
+            },
+            {
+                "normalized_label": "sage"
+            },
+            {
+                "normalized_label": "salemsseven"
+            },
+            {
+                "normalized_label": "sallyfloyd"
+            },
+            {
+                "normalized_label": "salo"
+            },
+            {
+                "normalized_label": "samalexander"
+            },
+            {
+                "normalized_label": "samanthaparrington"
+            },
+            {
+                "normalized_label": "samwilson"
+            },
+            {
+                "normalized_label": "sandman"
+            },
+            {
+                "normalized_label": "santaclaus"
+            },
+            {
+                "normalized_label": "saracen"
+            },
+            {
+                "normalized_label": "sasquatch"
+            },
+            {
+                "normalized_label": "satana"
+            },
+            {
+                "normalized_label": "sauron"
+            },
+            {
+                "normalized_label": "savagelandmutate"
+            },
+            {
+                "normalized_label": "scalphunter"
+            },
+            {
+                "normalized_label": "scarecrow"
+            },
+            {
+                "normalized_label": "scarletspider"
+            },
+            {
+                "normalized_label": "scarletwitch"
+            },
+            {
+                "normalized_label": "scorpion"
+            },
+            {
+                "normalized_label": "scottlang"
+            },
+            {
+                "normalized_label": "scottsummers"
+            },
+            {
+                "normalized_label": "scourge"
+            },
+            {
+                "normalized_label": "scrambler"
+            },
+            {
+                "normalized_label": "scream"
+            },
+            {
+                "normalized_label": "screwball"
+            },
+            {
+                "normalized_label": "seancassidy"
+            },
+            {
+                "normalized_label": "sebastianshaw"
+            },
+            {
+                "normalized_label": "secretwarriors"
+            },
+            {
+                "normalized_label": "selene"
+            },
+            {
+                "normalized_label": "senatorkelly"
+            },
+            {
+                "normalized_label": "sentinel"
+            },
+            {
+                "normalized_label": "sentinels"
+            },
+            {
+                "normalized_label": "sentry"
+            },
+            {
+                "normalized_label": "serduncan"
+            },
+            {
+                "normalized_label": "serpentsociety"
+            },
+            {
+                "normalized_label": "sersi"
+            },
+            {
+                "normalized_label": "shadowcat"
+            },
+            {
+                "normalized_label": "shadowking"
+            },
+            {
+                "normalized_label": "shadutheshady"
+            },
+            {
+                "normalized_label": "shalla-bal"
+            },
+            {
+                "normalized_label": "shaman"
+            },
+            {
+                "normalized_label": "shaneyamada-jones"
+            },
+            {
+                "normalized_label": "shang-chi"
+            },
+            {
+                "normalized_label": "shannatheshe-devil"
+            },
+            {
+                "normalized_label": "shape"
+            },
+            {
+                "normalized_label": "shard"
+            },
+            {
+                "normalized_label": "sharoncarter"
+            },
+            {
+                "normalized_label": "sharonventura"
+            },
+            {
+                "normalized_label": "shatterstar"
+            },
+            {
+                "normalized_label": "she-hulk"
+            },
+            {
+                "normalized_label": "shen"
+            },
+            {
+                "normalized_label": "shevacallister"
+            },
+            {
+                "normalized_label": "shiar"
+            },
+            {
+                "normalized_label": "shield"
+            },
+            {
+                "normalized_label": "shinkoyamashiro"
+            },
+            {
+                "normalized_label": "shinobishaw"
+            },
+            {
+                "normalized_label": "shiva"
+            },
+            {
+                "normalized_label": "shiverman"
+            },
+            {
+                "normalized_label": "shocker"
+            },
+            {
+                "normalized_label": "shockwave"
+            },
+            {
+                "normalized_label": "shootingstar"
+            },
+            {
+                "normalized_label": "shotgun"
+            },
+            {
+                "normalized_label": "shriek"
+            },
+            {
+                "normalized_label": "shuri"
+            },
+            {
+                "normalized_label": "sif"
+            },
+            {
+                "normalized_label": "silhouette"
+            },
+            {
+                "normalized_label": "silk"
+            },
+            {
+                "normalized_label": "silkfever"
+            },
+            {
+                "normalized_label": "silvercenturion"
+            },
+            {
+                "normalized_label": "silverclaw"
+            },
+            {
+                "normalized_label": "silverfox"
+            },
+            {
+                "normalized_label": "silvermane"
+            },
+            {
+                "normalized_label": "silversable"
+            },
+            {
+                "normalized_label": "silversamurai"
+            },
+            {
+                "normalized_label": "silversurfer"
+            },
+            {
+                "normalized_label": "simongarth"
+            },
+            {
+                "normalized_label": "sin"
+            },
+            {
+                "normalized_label": "sinistersix"
+            },
+            {
+                "normalized_label": "siren"
+            },
+            {
+                "normalized_label": "sirpercyofscandia"
+            },
+            {
+                "normalized_label": "sirram"
+            },
+            {
+                "normalized_label": "sistergrimm"
+            },
+            {
+                "normalized_label": "skaar"
+            },
+            {
+                "normalized_label": "skin"
+            },
+            {
+                "normalized_label": "skreet"
+            },
+            {
+                "normalized_label": "skrulls"
+            },
+            {
+                "normalized_label": "skullbuster"
+            },
+            {
+                "normalized_label": "skurge"
+            },
+            {
+                "normalized_label": "slapstick"
+            },
+            {
+                "normalized_label": "slayback"
+            },
+            {
+                "normalized_label": "sleeper"
+            },
+            {
+                "normalized_label": "sleepwalker"
+            },
+            {
+                "normalized_label": "slipstream"
+            },
+            {
+                "normalized_label": "slyde"
+            },
+            {
+                "normalized_label": "smasher"
+            },
+            {
+                "normalized_label": "smilingtiger"
+            },
+            {
+                "normalized_label": "snowbird"
+            },
+            {
+                "normalized_label": "solo"
+            },
+            {
+                "normalized_label": "songbird"
+            },
+            {
+                "normalized_label": "sonsofthetiger"
+            },
+            {
+                "normalized_label": "sorcerersupreme"
+            },
+            {
+                "normalized_label": "spackerdave"
+            },
+            {
+                "normalized_label": "spectrum"
+            },
+            {
+                "normalized_label": "speed"
+            },
+            {
+                "normalized_label": "speedball"
+            },
+            {
+                "normalized_label": "speeddemon"
+            },
+            {
+                "normalized_label": "spencersmythe"
+            },
+            {
+                "normalized_label": "sphinx"
+            },
+            {
+                "normalized_label": "spider-dok"
+            },
+            {
+                "normalized_label": "spider-girl"
+            },
+            {
+                "normalized_label": "spider-gwen"
+            },
+            {
+                "normalized_label": "spider-ham"
+            },
+            {
+                "normalized_label": "spider-man"
+            },
+            {
+                "normalized_label": "spider-mannoir"
+            },
+            {
+                "normalized_label": "spider-noir"
+            },
+            {
+                "normalized_label": "spider-woman"
+            },
+            {
+                "normalized_label": "spiral"
+            },
+            {
+                "normalized_label": "spirit"
+            },
+            {
+                "normalized_label": "spitfire"
+            },
+            {
+                "normalized_label": "spot"
+            },
+            {
+                "normalized_label": "sprite"
+            },
+            {
+                "normalized_label": "spyke"
+            },
+            {
+                "normalized_label": "squad"
+            },
+            {
+                "normalized_label": "squadronsinister"
+            },
+            {
+                "normalized_label": "squadronsupreme"
+            },
+            {
+                "normalized_label": "squirrelgirl"
+            },
+            {
+                "normalized_label": "stacyx"
+            },
+            {
+                "normalized_label": "stakarogord"
+            },
+            {
+                "normalized_label": "stanleystewart"
+            },
+            {
+                "normalized_label": "star-lord"
+            },
+            {
+                "normalized_label": "starbolt"
+            },
+            {
+                "normalized_label": "starbrand"
+            },
+            {
+                "normalized_label": "stardust"
+            },
+            {
+                "normalized_label": "starfox"
+            },
+            {
+                "normalized_label": "starhawk"
+            },
+            {
+                "normalized_label": "starjammers"
+            },
+            {
+                "normalized_label": "starkindustries"
+            },
+            {
+                "normalized_label": "stature"
+            },
+            {
+                "normalized_label": "steelserpent"
+            },
+            {
+                "normalized_label": "stegron"
+            },
+            {
+                "normalized_label": "stellaris"
+            },
+            {
+                "normalized_label": "stepfordcuckoos"
+            },
+            {
+                "normalized_label": "stephaniedelaspiroza"
+            },
+            {
+                "normalized_label": "stephenstrange"
+            },
+            {
+                "normalized_label": "steverand"
+            },
+            {
+                "normalized_label": "steverogers"
+            },
+            {
+                "normalized_label": "stick"
+            },
+            {
+                "normalized_label": "stilt-man"
+            },
+            {
+                "normalized_label": "stingray"
+            },
+            {
+                "normalized_label": "stonemen"
+            },
+            {
+                "normalized_label": "storm"
+            },
+            {
+                "normalized_label": "stranger"
+            },
+            {
+                "normalized_label": "strongguy"
+            },
+            {
+                "normalized_label": "stryfe"
+            },
+            {
+                "normalized_label": "sub-mariner"
+            },
+            {
+                "normalized_label": "suestorm"
+            },
+            {
+                "normalized_label": "sugarman"
+            },
+            {
+                "normalized_label": "sumo"
+            },
+            {
+                "normalized_label": "sunfire"
+            },
+            {
+                "normalized_label": "sunsetbain"
+            },
+            {
+                "normalized_label": "sunspot"
+            },
+            {
+                "normalized_label": "super-adaptoid"
+            },
+            {
+                "normalized_label": "super-skrull"
+            },
+            {
+                "normalized_label": "superherosquad"
+            },
+            {
+                "normalized_label": "supernaut"
+            },
+            {
+                "normalized_label": "supremeintelligence"
+            },
+            {
+                "normalized_label": "surge"
+            },
+            {
+                "normalized_label": "surtur"
+            },
+            {
+                "normalized_label": "susandelgado"
+            },
+            {
+                "normalized_label": "susanstorm"
+            },
+            {
+                "normalized_label": "swarm"
+            },
+            {
+                "normalized_label": "sway"
+            },
+            {
+                "normalized_label": "switch"
+            },
+            {
+                "normalized_label": "swordmaster"
+            },
+            {
+                "normalized_label": "swordsman"
+            },
+            {
+                "normalized_label": "sylvielaufeydottir"
+            },
+            {
+                "normalized_label": "sylvielushton"
+            },
+            {
+                "normalized_label": "sym"
+            },
+            {
+                "normalized_label": "synch"
+            },
+            {
+                "normalized_label": "tag"
+            },
+            {
+                "normalized_label": "takuyayamashiro"
+            },
+            {
+                "normalized_label": "talisman"
+            },
+            {
+                "normalized_label": "talkback"
+            },
+            {
+                "normalized_label": "talon"
+            },
+            {
+                "normalized_label": "talos"
+            },
+            {
+                "normalized_label": "tananile"
+            },
+            {
+                "normalized_label": "taneleertivan"
+            },
+            {
+                "normalized_label": "tarantula"
+            },
+            {
+                "normalized_label": "tarot"
+            },
+            {
+                "normalized_label": "taskmaster"
+            },
+            {
+                "normalized_label": "tattoo"
+            },
+            {
+                "normalized_label": "taurus"
+            },
+            {
+                "normalized_label": "tchalla"
+            },
+            {
+                "normalized_label": "technarch"
+            },
+            {
+                "normalized_label": "technarchy"
+            },
+            {
+                "normalized_label": "tedforrester"
+            },
+            {
+                "normalized_label": "telfordporter"
+            },
+            {
+                "normalized_label": "tempest"
+            },
+            {
+                "normalized_label": "tenebrous"
+            },
+            {
+                "normalized_label": "terrax"
+            },
+            {
+                "normalized_label": "terror"
+            },
+            {
+                "normalized_label": "texastwister"
+            },
+            {
+                "normalized_label": "thaddeusross"
+            },
+            {
+                "normalized_label": "thanos"
+            },
+            {
+                "normalized_label": "the198"
+            },
+            {
+                "normalized_label": "theamazingspider-man"
+            },
+            {
+                "normalized_label": "theanarchist"
+            },
+            {
+                "normalized_label": "thecall"
+            },
+            {
+                "normalized_label": "thecaptain"
+            },
+            {
+                "normalized_label": "thecollector"
+            },
+            {
+                "normalized_label": "theenforcers"
+            },
+            {
+                "normalized_label": "theexecutioner"
+            },
+            {
+                "normalized_label": "thefallen"
+            },
+            {
+                "normalized_label": "thefury"
+            },
+            {
+                "normalized_label": "thegoats"
+            },
+            {
+                "normalized_label": "thehand"
+            },
+            {
+                "normalized_label": "thehood"
+            },
+            {
+                "normalized_label": "thehowlingcommandos"
+            },
+            {
+                "normalized_label": "thehunter"
+            },
+            {
+                "normalized_label": "theinitiative"
+            },
+            {
+                "normalized_label": "theleader"
+            },
+            {
+                "normalized_label": "theliberteens"
+            },
+            {
+                "normalized_label": "thelibertylegion"
+            },
+            {
+                "normalized_label": "themightythor"
+            },
+            {
+                "normalized_label": "thena"
+            },
+            {
+                "normalized_label": "theorder"
+            },
+            {
+                "normalized_label": "thephantom"
+            },
+            {
+                "normalized_label": "theprofessor"
+            },
+            {
+                "normalized_label": "therenegades"
+            },
+            {
+                "normalized_label": "theresarourke"
+            },
+            {
+                "normalized_label": "thesanterians"
+            },
+            {
+                "normalized_label": "theshiverman"
+            },
+            {
+                "normalized_label": "thespike"
+            },
+            {
+                "normalized_label": "thestranger"
+            },
+            {
+                "normalized_label": "thetwelve"
+            },
+            {
+                "normalized_label": "thewatchers"
+            },
+            {
+                "normalized_label": "thing"
+            },
+            {
+                "normalized_label": "thomashalloway"
+            },
+            {
+                "normalized_label": "thomasjones"
+            },
+            {
+                "normalized_label": "thomasraymond"
+            },
+            {
+                "normalized_label": "thor"
+            },
+            {
+                "normalized_label": "thorgirl"
+            },
+            {
+                "normalized_label": "thunderball"
+            },
+            {
+                "normalized_label": "thunderbird"
+            },
+            {
+                "normalized_label": "thunderboltross"
+            },
+            {
+                "normalized_label": "thunderbolts"
+            },
+            {
+                "normalized_label": "thundra"
+            },
+            {
+                "normalized_label": "tigersbeautifuldaughter"
+            },
+            {
+                "normalized_label": "tigershark"
+            },
+            {
+                "normalized_label": "tigra"
+            },
+            {
+                "normalized_label": "tikealicar"
+            },
+            {
+                "normalized_label": "timeslip"
+            },
+            {
+                "normalized_label": "tinkerer"
+            },
+            {
+                "normalized_label": "tippytoe"
+            },
+            {
+                "normalized_label": "titania"
+            },
+            {
+                "normalized_label": "titaniumman"
+            },
+            {
+                "normalized_label": "titomendez"
+            },
+            {
+                "normalized_label": "toad"
+            },
+            {
+                "normalized_label": "toadmen"
+            },
+            {
+                "normalized_label": "tomas"
+            },
+            {
+                "normalized_label": "tombstone"
+            },
+            {
+                "normalized_label": "tommymaximoff"
+            },
+            {
+                "normalized_label": "tomorrowman"
+            },
+            {
+                "normalized_label": "tonymasterson"
+            },
+            {
+                "normalized_label": "tonystark"
+            },
+            {
+                "normalized_label": "toothgnasher"
+            },
+            {
+                "normalized_label": "toothgrinder"
+            },
+            {
+                "normalized_label": "topolov"
+            },
+            {
+                "normalized_label": "toro"
+            },
+            {
+                "normalized_label": "toxin"
+            },
+            {
+                "normalized_label": "trauma"
+            },
+            {
+                "normalized_label": "trevorfitzroy"
+            },
+            {
+                "normalized_label": "treyrollins"
+            },
+            {
+                "normalized_label": "triathlon"
+            },
+            {
+                "normalized_label": "trishtilby"
+            },
+            {
+                "normalized_label": "triton"
+            },
+            {
+                "normalized_label": "truebelievers"
+            },
+            {
+                "normalized_label": "turbo"
+            },
+            {
+                "normalized_label": "tusk"
+            },
+            {
+                "normalized_label": "two-gunkid"
+            },
+            {
+                "normalized_label": "twoyoungmen"
+            },
+            {
+                "normalized_label": "tygertiger"
+            },
+            {
+                "normalized_label": "typhoidmary"
+            },
+            {
+                "normalized_label": "tyrannus"
+            },
+            {
+                "normalized_label": "u-foes"
+            },
+            {
+                "normalized_label": "u-gogirl"
+            },
+            {
+                "normalized_label": "uatuthewatcher"
+            },
+            {
+                "normalized_label": "ulik"
+            },
+            {
+                "normalized_label": "ultimate"
+            },
+            {
+                "normalized_label": "ultimates"
+            },
+            {
+                "normalized_label": "ultimatespider-man"
+            },
+            {
+                "normalized_label": "ultimatum"
+            },
+            {
+                "normalized_label": "ultimo"
+            },
+            {
+                "normalized_label": "ultra-adaptoid"
+            },
+            {
+                "normalized_label": "ultragirl"
+            },
+            {
+                "normalized_label": "ultron"
+            },
+            {
+                "normalized_label": "umar"
+            },
+            {
+                "normalized_label": "underer"
+            },
+            {
+                "normalized_label": "unicorn"
+            },
+            {
+                "normalized_label": "unionjack"
+            },
+            {
+                "normalized_label": "unus"
+            },
+            {
+                "normalized_label": "usagent"
+            },
+            {
+                "normalized_label": "valeriarichards"
+            },
+            {
+                "normalized_label": "valkyrie"
+            },
+            {
+                "normalized_label": "vampiro"
+            },
+            {
+                "normalized_label": "vanceastro"
+            },
+            {
+                "normalized_label": "vanisher"
+            },
+            {
+                "normalized_label": "vapor"
+            },
+            {
+                "normalized_label": "vargas"
+            },
+            {
+                "normalized_label": "vector"
+            },
+            {
+                "normalized_label": "veda"
+            },
+            {
+                "normalized_label": "vengeance"
+            },
+            {
+                "normalized_label": "venom"
+            },
+            {
+                "normalized_label": "venus"
+            },
+            {
+                "normalized_label": "venusdeemilo"
+            },
+            {
+                "normalized_label": "veravidal"
+            },
+            {
+                "normalized_label": "vermin"
+            },
+            {
+                "normalized_label": "vertigo"
+            },
+            {
+                "normalized_label": "victorborkowski"
+            },
+            {
+                "normalized_label": "victoriamurdock"
+            },
+            {
+                "normalized_label": "victormancha"
+            },
+            {
+                "normalized_label": "victorvondoom"
+            },
+            {
+                "normalized_label": "vindicator"
+            },
+            {
+                "normalized_label": "vingonzales"
+            },
+            {
+                "normalized_label": "violations"
+            },
+            {
+                "normalized_label": "viper"
+            },
+            {
+                "normalized_label": "virginiadare"
+            },
+            {
+                "normalized_label": "vision"
+            },
+            {
+                "normalized_label": "vivisector"
+            },
+            {
+                "normalized_label": "vrilrokk"
+            },
+            {
+                "normalized_label": "vulcan"
+            },
+            {
+                "normalized_label": "vulture"
+            },
+            {
+                "normalized_label": "wallflower"
+            },
+            {
+                "normalized_label": "wallop"
+            },
+            {
+                "normalized_label": "wallow"
+            },
+            {
+                "normalized_label": "walterlangkowski"
+            },
+            {
+                "normalized_label": "walternewell"
+            },
+            {
+                "normalized_label": "wandamaximoff"
+            },
+            {
+                "normalized_label": "war"
+            },
+            {
+                "normalized_label": "warbird"
+            },
+            {
+                "normalized_label": "warbound"
+            },
+            {
+                "normalized_label": "warhawk"
+            },
+            {
+                "normalized_label": "warlock"
+            },
+            {
+                "normalized_label": "warmachine"
+            },
+            {
+                "normalized_label": "warpath"
+            },
+            {
+                "normalized_label": "warrenworthingtoniii"
+            },
+            {
+                "normalized_label": "warstar"
+            },
+            {
+                "normalized_label": "wasp"
+            },
+            {
+                "normalized_label": "wave"
+            },
+            {
+                "normalized_label": "weaponomega"
+            },
+            {
+                "normalized_label": "weaponx"
+            },
+            {
+                "normalized_label": "wendellrand"
+            },
+            {
+                "normalized_label": "wendellvaughn"
+            },
+            {
+                "normalized_label": "wendigo"
+            },
+            {
+                "normalized_label": "wenwu"
+            },
+            {
+                "normalized_label": "werewolfbynight"
+            },
+            {
+                "normalized_label": "werner"
+            },
+            {
+                "normalized_label": "whiplash"
+            },
+            {
+                "normalized_label": "whirlwind"
+            },
+            {
+                "normalized_label": "whistler"
+            },
+            {
+                "normalized_label": "whitequeen"
+            },
+            {
+                "normalized_label": "whitetiger"
+            },
+            {
+                "normalized_label": "whizzer"
+            },
+            {
+                "normalized_label": "wiburday"
+            },
+            {
+                "normalized_label": "wiccan"
+            },
+            {
+                "normalized_label": "wildchild"
+            },
+            {
+                "normalized_label": "wildpack"
+            },
+            {
+                "normalized_label": "wildside"
+            },
+            {
+                "normalized_label": "williamstryker"
+            },
+            {
+                "normalized_label": "wilsonfisk"
+            },
+            {
+                "normalized_label": "winddancer"
+            },
+            {
+                "normalized_label": "wintersoldier"
+            },
+            {
+                "normalized_label": "wither"
+            },
+            {
+                "normalized_label": "wolfcub"
+            },
+            {
+                "normalized_label": "wolfpack"
+            },
+            {
+                "normalized_label": "wolfsbane"
+            },
+            {
+                "normalized_label": "wolver-dok"
+            },
+            {
+                "normalized_label": "wolverine"
+            },
+            {
+                "normalized_label": "wonderman"
+            },
+            {
+                "normalized_label": "wong"
+            },
+            {
+                "normalized_label": "wraith"
+            },
+            {
+                "normalized_label": "wrecker"
+            },
+            {
+                "normalized_label": "wreckingcrew"
+            },
+            {
+                "normalized_label": "wuao-shi"
+            },
+            {
+                "normalized_label": "wundarr"
+            },
+            {
+                "normalized_label": "x-23"
+            },
+            {
+                "normalized_label": "x-51"
+            },
+            {
+                "normalized_label": "x-babies"
+            },
+            {
+                "normalized_label": "x-cutioner"
+            },
+            {
+                "normalized_label": "x-factor"
+            },
+            {
+                "normalized_label": "x-factorinvestigations"
+            },
+            {
+                "normalized_label": "x-force"
+            },
+            {
+                "normalized_label": "x-man"
+            },
+            {
+                "normalized_label": "x-men"
+            },
+            {
+                "normalized_label": "x-ray"
+            },
+            {
+                "normalized_label": "x-statix"
+            },
+            {
+                "normalized_label": "xavin"
+            },
+            {
+                "normalized_label": "xialing"
+            },
+            {
+                "normalized_label": "xorn"
+            },
+            {
+                "normalized_label": "yelena"
+            },
+            {
+                "normalized_label": "yellowclaw"
+            },
+            {
+                "normalized_label": "yellowjacket"
+            },
+            {
+                "normalized_label": "yingnan"
+            },
+            {
+                "normalized_label": "yon-rogg"
+            },
+            {
+                "normalized_label": "yondu"
+            },
+            {
+                "normalized_label": "youngavengers"
+            },
+            {
+                "normalized_label": "youngx-men"
+            },
+            {
+                "normalized_label": "yuritopolov"
+            },
+            {
+                "normalized_label": "zaladane"
+            },
+            {
+                "normalized_label": "zaran"
+            },
+            {
+                "normalized_label": "zarda"
+            },
+            {
+                "normalized_label": "zarek"
+            },
+            {
+                "normalized_label": "zeigeist"
+            },
+            {
+                "normalized_label": "zemo"
+            },
+            {
+                "normalized_label": "zeus"
+            },
+            {
+                "normalized_label": "zodiac"
+            },
+            {
+                "normalized_label": "zodiak"
+            },
+            {
+                "normalized_label": "zombie"
+            },
+            {
+                "normalized_label": "zuras"
+            },
+            {
+                "normalized_label": "zuzhayu"
+            },
+            {
+                "normalized_label": "zzzax"
+            },
+            {
+                "normalized_label": "gwenpool"
+            }
+        ]
+    }
+}

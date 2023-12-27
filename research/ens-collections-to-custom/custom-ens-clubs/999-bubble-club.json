@@ -1,0 +1,3017 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "999-bubble-club",
+        "collection_name": "999 Bubble Club",
+        "collection_description": "000-999 Bubble Digits!",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "⓿⓿⓿"
+            },
+            {
+                "normalized_label": "⓿⓿❶"
+            },
+            {
+                "normalized_label": "⓿⓿❷"
+            },
+            {
+                "normalized_label": "⓿⓿❸"
+            },
+            {
+                "normalized_label": "⓿⓿❹"
+            },
+            {
+                "normalized_label": "⓿⓿❺"
+            },
+            {
+                "normalized_label": "⓿⓿❻"
+            },
+            {
+                "normalized_label": "⓿⓿❼"
+            },
+            {
+                "normalized_label": "⓿⓿❽"
+            },
+            {
+                "normalized_label": "⓿⓿❾"
+            },
+            {
+                "normalized_label": "⓿❶⓿"
+            },
+            {
+                "normalized_label": "⓿❶❶"
+            },
+            {
+                "normalized_label": "⓿❶❷"
+            },
+            {
+                "normalized_label": "⓿❶❸"
+            },
+            {
+                "normalized_label": "⓿❶❹"
+            },
+            {
+                "normalized_label": "⓿❶❺"
+            },
+            {
+                "normalized_label": "⓿❶❻"
+            },
+            {
+                "normalized_label": "⓿❶❼"
+            },
+            {
+                "normalized_label": "⓿❶❽"
+            },
+            {
+                "normalized_label": "⓿❶❾"
+            },
+            {
+                "normalized_label": "⓿❷⓿"
+            },
+            {
+                "normalized_label": "⓿❷❶"
+            },
+            {
+                "normalized_label": "⓿❷❷"
+            },
+            {
+                "normalized_label": "⓿❷❸"
+            },
+            {
+                "normalized_label": "⓿❷❹"
+            },
+            {
+                "normalized_label": "⓿❷❺"
+            },
+            {
+                "normalized_label": "⓿❷❻"
+            },
+            {
+                "normalized_label": "⓿❷❼"
+            },
+            {
+                "normalized_label": "⓿❷❽"
+            },
+            {
+                "normalized_label": "⓿❷❾"
+            },
+            {
+                "normalized_label": "⓿❸⓿"
+            },
+            {
+                "normalized_label": "⓿❸❶"
+            },
+            {
+                "normalized_label": "⓿❸❷"
+            },
+            {
+                "normalized_label": "⓿❸❸"
+            },
+            {
+                "normalized_label": "⓿❸❹"
+            },
+            {
+                "normalized_label": "⓿❸❺"
+            },
+            {
+                "normalized_label": "⓿❸❻"
+            },
+            {
+                "normalized_label": "⓿❸❼"
+            },
+            {
+                "normalized_label": "⓿❸❽"
+            },
+            {
+                "normalized_label": "⓿❸❾"
+            },
+            {
+                "normalized_label": "⓿❹⓿"
+            },
+            {
+                "normalized_label": "⓿❹❶"
+            },
+            {
+                "normalized_label": "⓿❹❷"
+            },
+            {
+                "normalized_label": "⓿❹❸"
+            },
+            {
+                "normalized_label": "⓿❹❹"
+            },
+            {
+                "normalized_label": "⓿❹❺"
+            },
+            {
+                "normalized_label": "⓿❹❻"
+            },
+            {
+                "normalized_label": "⓿❹❼"
+            },
+            {
+                "normalized_label": "⓿❹❽"
+            },
+            {
+                "normalized_label": "⓿❹❾"
+            },
+            {
+                "normalized_label": "⓿❺⓿"
+            },
+            {
+                "normalized_label": "⓿❺❶"
+            },
+            {
+                "normalized_label": "⓿❺❷"
+            },
+            {
+                "normalized_label": "⓿❺❸"
+            },
+            {
+                "normalized_label": "⓿❺❹"
+            },
+            {
+                "normalized_label": "⓿❺❺"
+            },
+            {
+                "normalized_label": "⓿❺❻"
+            },
+            {
+                "normalized_label": "⓿❺❼"
+            },
+            {
+                "normalized_label": "⓿❺❽"
+            },
+            {
+                "normalized_label": "⓿❺❾"
+            },
+            {
+                "normalized_label": "⓿❻⓿"
+            },
+            {
+                "normalized_label": "⓿❻❶"
+            },
+            {
+                "normalized_label": "⓿❻❷"
+            },
+            {
+                "normalized_label": "⓿❻❸"
+            },
+            {
+                "normalized_label": "⓿❻❹"
+            },
+            {
+                "normalized_label": "⓿❻❺"
+            },
+            {
+                "normalized_label": "⓿❻❻"
+            },
+            {
+                "normalized_label": "⓿❻❼"
+            },
+            {
+                "normalized_label": "⓿❻❽"
+            },
+            {
+                "normalized_label": "⓿❻❾"
+            },
+            {
+                "normalized_label": "⓿❼⓿"
+            },
+            {
+                "normalized_label": "⓿❼❶"
+            },
+            {
+                "normalized_label": "⓿❼❷"
+            },
+            {
+                "normalized_label": "⓿❼❸"
+            },
+            {
+                "normalized_label": "⓿❼❹"
+            },
+            {
+                "normalized_label": "⓿❼❺"
+            },
+            {
+                "normalized_label": "⓿❼❻"
+            },
+            {
+                "normalized_label": "⓿❼❼"
+            },
+            {
+                "normalized_label": "⓿❼❽"
+            },
+            {
+                "normalized_label": "⓿❼❾"
+            },
+            {
+                "normalized_label": "⓿❽⓿"
+            },
+            {
+                "normalized_label": "⓿❽❶"
+            },
+            {
+                "normalized_label": "⓿❽❷"
+            },
+            {
+                "normalized_label": "⓿❽❸"
+            },
+            {
+                "normalized_label": "⓿❽❹"
+            },
+            {
+                "normalized_label": "⓿❽❺"
+            },
+            {
+                "normalized_label": "⓿❽❻"
+            },
+            {
+                "normalized_label": "⓿❽❼"
+            },
+            {
+                "normalized_label": "⓿❽❽"
+            },
+            {
+                "normalized_label": "⓿❽❾"
+            },
+            {
+                "normalized_label": "⓿❾⓿"
+            },
+            {
+                "normalized_label": "⓿❾❶"
+            },
+            {
+                "normalized_label": "⓿❾❷"
+            },
+            {
+                "normalized_label": "⓿❾❸"
+            },
+            {
+                "normalized_label": "⓿❾❹"
+            },
+            {
+                "normalized_label": "⓿❾❺"
+            },
+            {
+                "normalized_label": "⓿❾❻"
+            },
+            {
+                "normalized_label": "⓿❾❼"
+            },
+            {
+                "normalized_label": "⓿❾❽"
+            },
+            {
+                "normalized_label": "⓿❾❾"
+            },
+            {
+                "normalized_label": "❶⓿⓿"
+            },
+            {
+                "normalized_label": "❶⓿❶"
+            },
+            {
+                "normalized_label": "❶⓿❷"
+            },
+            {
+                "normalized_label": "❶⓿❸"
+            },
+            {
+                "normalized_label": "❶⓿❹"
+            },
+            {
+                "normalized_label": "❶⓿❺"
+            },
+            {
+                "normalized_label": "❶⓿❻"
+            },
+            {
+                "normalized_label": "❶⓿❼"
+            },
+            {
+                "normalized_label": "❶⓿❽"
+            },
+            {
+                "normalized_label": "❶⓿❾"
+            },
+            {
+                "normalized_label": "❶❶⓿"
+            },
+            {
+                "normalized_label": "❶❶❶"
+            },
+            {
+                "normalized_label": "❶❶❷"
+            },
+            {
+                "normalized_label": "❶❶❸"
+            },
+            {
+                "normalized_label": "❶❶❹"
+            },
+            {
+                "normalized_label": "❶❶❺"
+            },
+            {
+                "normalized_label": "❶❶❻"
+            },
+            {
+                "normalized_label": "❶❶❼"
+            },
+            {
+                "normalized_label": "❶❶❽"
+            },
+            {
+                "normalized_label": "❶❶❾"
+            },
+            {
+                "normalized_label": "❶❷⓿"
+            },
+            {
+                "normalized_label": "❶❷❶"
+            },
+            {
+                "normalized_label": "❶❷❷"
+            },
+            {
+                "normalized_label": "❶❷❸"
+            },
+            {
+                "normalized_label": "❶❷❹"
+            },
+            {
+                "normalized_label": "❶❷❺"
+            },
+            {
+                "normalized_label": "❶❷❻"
+            },
+            {
+                "normalized_label": "❶❷❼"
+            },
+            {
+                "normalized_label": "❶❷❽"
+            },
+            {
+                "normalized_label": "❶❷❾"
+            },
+            {
+                "normalized_label": "❶❸⓿"
+            },
+            {
+                "normalized_label": "❶❸❶"
+            },
+            {
+                "normalized_label": "❶❸❷"
+            },
+            {
+                "normalized_label": "❶❸❸"
+            },
+            {
+                "normalized_label": "❶❸❹"
+            },
+            {
+                "normalized_label": "❶❸❺"
+            },
+            {
+                "normalized_label": "❶❸❻"
+            },
+            {
+                "normalized_label": "❶❸❼"
+            },
+            {
+                "normalized_label": "❶❸❽"
+            },
+            {
+                "normalized_label": "❶❸❾"
+            },
+            {
+                "normalized_label": "❶❹⓿"
+            },
+            {
+                "normalized_label": "❶❹❶"
+            },
+            {
+                "normalized_label": "❶❹❷"
+            },
+            {
+                "normalized_label": "❶❹❸"
+            },
+            {
+                "normalized_label": "❶❹❹"
+            },
+            {
+                "normalized_label": "❶❹❺"
+            },
+            {
+                "normalized_label": "❶❹❻"
+            },
+            {
+                "normalized_label": "❶❹❼"
+            },
+            {
+                "normalized_label": "❶❹❽"
+            },
+            {
+                "normalized_label": "❶❹❾"
+            },
+            {
+                "normalized_label": "❶❺⓿"
+            },
+            {
+                "normalized_label": "❶❺❶"
+            },
+            {
+                "normalized_label": "❶❺❷"
+            },
+            {
+                "normalized_label": "❶❺❸"
+            },
+            {
+                "normalized_label": "❶❺❹"
+            },
+            {
+                "normalized_label": "❶❺❺"
+            },
+            {
+                "normalized_label": "❶❺❻"
+            },
+            {
+                "normalized_label": "❶❺❼"
+            },
+            {
+                "normalized_label": "❶❺❽"
+            },
+            {
+                "normalized_label": "❶❺❾"
+            },
+            {
+                "normalized_label": "❶❻⓿"
+            },
+            {
+                "normalized_label": "❶❻❶"
+            },
+            {
+                "normalized_label": "❶❻❷"
+            },
+            {
+                "normalized_label": "❶❻❸"
+            },
+            {
+                "normalized_label": "❶❻❹"
+            },
+            {
+                "normalized_label": "❶❻❺"
+            },
+            {
+                "normalized_label": "❶❻❻"
+            },
+            {
+                "normalized_label": "❶❻❼"
+            },
+            {
+                "normalized_label": "❶❻❽"
+            },
+            {
+                "normalized_label": "❶❻❾"
+            },
+            {
+                "normalized_label": "❶❼⓿"
+            },
+            {
+                "normalized_label": "❶❼❶"
+            },
+            {
+                "normalized_label": "❶❼❷"
+            },
+            {
+                "normalized_label": "❶❼❸"
+            },
+            {
+                "normalized_label": "❶❼❹"
+            },
+            {
+                "normalized_label": "❶❼❺"
+            },
+            {
+                "normalized_label": "❶❼❻"
+            },
+            {
+                "normalized_label": "❶❼❼"
+            },
+            {
+                "normalized_label": "❶❼❽"
+            },
+            {
+                "normalized_label": "❶❼❾"
+            },
+            {
+                "normalized_label": "❶❽⓿"
+            },
+            {
+                "normalized_label": "❶❽❶"
+            },
+            {
+                "normalized_label": "❶❽❷"
+            },
+            {
+                "normalized_label": "❶❽❸"
+            },
+            {
+                "normalized_label": "❶❽❹"
+            },
+            {
+                "normalized_label": "❶❽❺"
+            },
+            {
+                "normalized_label": "❶❽❻"
+            },
+            {
+                "normalized_label": "❶❽❼"
+            },
+            {
+                "normalized_label": "❶❽❽"
+            },
+            {
+                "normalized_label": "❶❽❾"
+            },
+            {
+                "normalized_label": "❶❾⓿"
+            },
+            {
+                "normalized_label": "❶❾❶"
+            },
+            {
+                "normalized_label": "❶❾❷"
+            },
+            {
+                "normalized_label": "❶❾❸"
+            },
+            {
+                "normalized_label": "❶❾❹"
+            },
+            {
+                "normalized_label": "❶❾❺"
+            },
+            {
+                "normalized_label": "❶❾❻"
+            },
+            {
+                "normalized_label": "❶❾❼"
+            },
+            {
+                "normalized_label": "❶❾❽"
+            },
+            {
+                "normalized_label": "❶❾❾"
+            },
+            {
+                "normalized_label": "❷⓿⓿"
+            },
+            {
+                "normalized_label": "❷⓿❶"
+            },
+            {
+                "normalized_label": "❷⓿❷"
+            },
+            {
+                "normalized_label": "❷⓿❸"
+            },
+            {
+                "normalized_label": "❷⓿❹"
+            },
+            {
+                "normalized_label": "❷⓿❺"
+            },
+            {
+                "normalized_label": "❷⓿❻"
+            },
+            {
+                "normalized_label": "❷⓿❼"
+            },
+            {
+                "normalized_label": "❷⓿❽"
+            },
+            {
+                "normalized_label": "❷⓿❾"
+            },
+            {
+                "normalized_label": "❷❶⓿"
+            },
+            {
+                "normalized_label": "❷❶❶"
+            },
+            {
+                "normalized_label": "❷❶❷"
+            },
+            {
+                "normalized_label": "❷❶❸"
+            },
+            {
+                "normalized_label": "❷❶❹"
+            },
+            {
+                "normalized_label": "❷❶❺"
+            },
+            {
+                "normalized_label": "❷❶❻"
+            },
+            {
+                "normalized_label": "❷❶❼"
+            },
+            {
+                "normalized_label": "❷❶❽"
+            },
+            {
+                "normalized_label": "❷❶❾"
+            },
+            {
+                "normalized_label": "❷❷⓿"
+            },
+            {
+                "normalized_label": "❷❷❶"
+            },
+            {
+                "normalized_label": "❷❷❷"
+            },
+            {
+                "normalized_label": "❷❷❸"
+            },
+            {
+                "normalized_label": "❷❷❹"
+            },
+            {
+                "normalized_label": "❷❷❺"
+            },
+            {
+                "normalized_label": "❷❷❻"
+            },
+            {
+                "normalized_label": "❷❷❼"
+            },
+            {
+                "normalized_label": "❷❷❽"
+            },
+            {
+                "normalized_label": "❷❷❾"
+            },
+            {
+                "normalized_label": "❷❸⓿"
+            },
+            {
+                "normalized_label": "❷❸❶"
+            },
+            {
+                "normalized_label": "❷❸❷"
+            },
+            {
+                "normalized_label": "❷❸❸"
+            },
+            {
+                "normalized_label": "❷❸❹"
+            },
+            {
+                "normalized_label": "❷❸❺"
+            },
+            {
+                "normalized_label": "❷❸❻"
+            },
+            {
+                "normalized_label": "❷❸❼"
+            },
+            {
+                "normalized_label": "❷❸❽"
+            },
+            {
+                "normalized_label": "❷❸❾"
+            },
+            {
+                "normalized_label": "❷❹⓿"
+            },
+            {
+                "normalized_label": "❷❹❶"
+            },
+            {
+                "normalized_label": "❷❹❷"
+            },
+            {
+                "normalized_label": "❷❹❸"
+            },
+            {
+                "normalized_label": "❷❹❹"
+            },
+            {
+                "normalized_label": "❷❹❺"
+            },
+            {
+                "normalized_label": "❷❹❻"
+            },
+            {
+                "normalized_label": "❷❹❼"
+            },
+            {
+                "normalized_label": "❷❹❽"
+            },
+            {
+                "normalized_label": "❷❹❾"
+            },
+            {
+                "normalized_label": "❷❺⓿"
+            },
+            {
+                "normalized_label": "❷❺❶"
+            },
+            {
+                "normalized_label": "❷❺❷"
+            },
+            {
+                "normalized_label": "❷❺❸"
+            },
+            {
+                "normalized_label": "❷❺❹"
+            },
+            {
+                "normalized_label": "❷❺❺"
+            },
+            {
+                "normalized_label": "❷❺❻"
+            },
+            {
+                "normalized_label": "❷❺❼"
+            },
+            {
+                "normalized_label": "❷❺❽"
+            },
+            {
+                "normalized_label": "❷❺❾"
+            },
+            {
+                "normalized_label": "❷❻⓿"
+            },
+            {
+                "normalized_label": "❷❻❶"
+            },
+            {
+                "normalized_label": "❷❻❷"
+            },
+            {
+                "normalized_label": "❷❻❸"
+            },
+            {
+                "normalized_label": "❷❻❹"
+            },
+            {
+                "normalized_label": "❷❻❺"
+            },
+            {
+                "normalized_label": "❷❻❻"
+            },
+            {
+                "normalized_label": "❷❻❼"
+            },
+            {
+                "normalized_label": "❷❻❽"
+            },
+            {
+                "normalized_label": "❷❻❾"
+            },
+            {
+                "normalized_label": "❷❼⓿"
+            },
+            {
+                "normalized_label": "❷❼❶"
+            },
+            {
+                "normalized_label": "❷❼❷"
+            },
+            {
+                "normalized_label": "❷❼❸"
+            },
+            {
+                "normalized_label": "❷❼❹"
+            },
+            {
+                "normalized_label": "❷❼❺"
+            },
+            {
+                "normalized_label": "❷❼❻"
+            },
+            {
+                "normalized_label": "❷❼❼"
+            },
+            {
+                "normalized_label": "❷❼❽"
+            },
+            {
+                "normalized_label": "❷❼❾"
+            },
+            {
+                "normalized_label": "❷❽⓿"
+            },
+            {
+                "normalized_label": "❷❽❶"
+            },
+            {
+                "normalized_label": "❷❽❷"
+            },
+            {
+                "normalized_label": "❷❽❸"
+            },
+            {
+                "normalized_label": "❷❽❹"
+            },
+            {
+                "normalized_label": "❷❽❺"
+            },
+            {
+                "normalized_label": "❷❽❻"
+            },
+            {
+                "normalized_label": "❷❽❼"
+            },
+            {
+                "normalized_label": "❷❽❽"
+            },
+            {
+                "normalized_label": "❷❽❾"
+            },
+            {
+                "normalized_label": "❷❾⓿"
+            },
+            {
+                "normalized_label": "❷❾❶"
+            },
+            {
+                "normalized_label": "❷❾❷"
+            },
+            {
+                "normalized_label": "❷❾❸"
+            },
+            {
+                "normalized_label": "❷❾❹"
+            },
+            {
+                "normalized_label": "❷❾❺"
+            },
+            {
+                "normalized_label": "❷❾❻"
+            },
+            {
+                "normalized_label": "❷❾❼"
+            },
+            {
+                "normalized_label": "❷❾❽"
+            },
+            {
+                "normalized_label": "❷❾❾"
+            },
+            {
+                "normalized_label": "❸⓿⓿"
+            },
+            {
+                "normalized_label": "❸⓿❶"
+            },
+            {
+                "normalized_label": "❸⓿❷"
+            },
+            {
+                "normalized_label": "❸⓿❸"
+            },
+            {
+                "normalized_label": "❸⓿❹"
+            },
+            {
+                "normalized_label": "❸⓿❺"
+            },
+            {
+                "normalized_label": "❸⓿❻"
+            },
+            {
+                "normalized_label": "❸⓿❼"
+            },
+            {
+                "normalized_label": "❸⓿❽"
+            },
+            {
+                "normalized_label": "❸⓿❾"
+            },
+            {
+                "normalized_label": "❸❶⓿"
+            },
+            {
+                "normalized_label": "❸❶❶"
+            },
+            {
+                "normalized_label": "❸❶❷"
+            },
+            {
+                "normalized_label": "❸❶❸"
+            },
+            {
+                "normalized_label": "❸❶❹"
+            },
+            {
+                "normalized_label": "❸❶❺"
+            },
+            {
+                "normalized_label": "❸❶❻"
+            },
+            {
+                "normalized_label": "❸❶❼"
+            },
+            {
+                "normalized_label": "❸❶❽"
+            },
+            {
+                "normalized_label": "❸❶❾"
+            },
+            {
+                "normalized_label": "❸❷⓿"
+            },
+            {
+                "normalized_label": "❸❷❶"
+            },
+            {
+                "normalized_label": "❸❷❷"
+            },
+            {
+                "normalized_label": "❸❷❸"
+            },
+            {
+                "normalized_label": "❸❷❹"
+            },
+            {
+                "normalized_label": "❸❷❺"
+            },
+            {
+                "normalized_label": "❸❷❻"
+            },
+            {
+                "normalized_label": "❸❷❼"
+            },
+            {
+                "normalized_label": "❸❷❽"
+            },
+            {
+                "normalized_label": "❸❷❾"
+            },
+            {
+                "normalized_label": "❸❸⓿"
+            },
+            {
+                "normalized_label": "❸❸❶"
+            },
+            {
+                "normalized_label": "❸❸❷"
+            },
+            {
+                "normalized_label": "❸❸❸"
+            },
+            {
+                "normalized_label": "❸❸❹"
+            },
+            {
+                "normalized_label": "❸❸❺"
+            },
+            {
+                "normalized_label": "❸❸❻"
+            },
+            {
+                "normalized_label": "❸❸❼"
+            },
+            {
+                "normalized_label": "❸❸❽"
+            },
+            {
+                "normalized_label": "❸❸❾"
+            },
+            {
+                "normalized_label": "❸❹⓿"
+            },
+            {
+                "normalized_label": "❸❹❶"
+            },
+            {
+                "normalized_label": "❸❹❷"
+            },
+            {
+                "normalized_label": "❸❹❸"
+            },
+            {
+                "normalized_label": "❸❹❹"
+            },
+            {
+                "normalized_label": "❸❹❺"
+            },
+            {
+                "normalized_label": "❸❹❻"
+            },
+            {
+                "normalized_label": "❸❹❼"
+            },
+            {
+                "normalized_label": "❸❹❽"
+            },
+            {
+                "normalized_label": "❸❹❾"
+            },
+            {
+                "normalized_label": "❸❺⓿"
+            },
+            {
+                "normalized_label": "❸❺❶"
+            },
+            {
+                "normalized_label": "❸❺❷"
+            },
+            {
+                "normalized_label": "❸❺❸"
+            },
+            {
+                "normalized_label": "❸❺❹"
+            },
+            {
+                "normalized_label": "❸❺❺"
+            },
+            {
+                "normalized_label": "❸❺❻"
+            },
+            {
+                "normalized_label": "❸❺❼"
+            },
+            {
+                "normalized_label": "❸❺❽"
+            },
+            {
+                "normalized_label": "❸❺❾"
+            },
+            {
+                "normalized_label": "❸❻⓿"
+            },
+            {
+                "normalized_label": "❸❻❶"
+            },
+            {
+                "normalized_label": "❸❻❷"
+            },
+            {
+                "normalized_label": "❸❻❸"
+            },
+            {
+                "normalized_label": "❸❻❹"
+            },
+            {
+                "normalized_label": "❸❻❺"
+            },
+            {
+                "normalized_label": "❸❻❻"
+            },
+            {
+                "normalized_label": "❸❻❼"
+            },
+            {
+                "normalized_label": "❸❻❽"
+            },
+            {
+                "normalized_label": "❸❻❾"
+            },
+            {
+                "normalized_label": "❸❼⓿"
+            },
+            {
+                "normalized_label": "❸❼❶"
+            },
+            {
+                "normalized_label": "❸❼❷"
+            },
+            {
+                "normalized_label": "❸❼❸"
+            },
+            {
+                "normalized_label": "❸❼❹"
+            },
+            {
+                "normalized_label": "❸❼❺"
+            },
+            {
+                "normalized_label": "❸❼❻"
+            },
+            {
+                "normalized_label": "❸❼❼"
+            },
+            {
+                "normalized_label": "❸❼❽"
+            },
+            {
+                "normalized_label": "❸❼❾"
+            },
+            {
+                "normalized_label": "❸❽⓿"
+            },
+            {
+                "normalized_label": "❸❽❶"
+            },
+            {
+                "normalized_label": "❸❽❷"
+            },
+            {
+                "normalized_label": "❸❽❸"
+            },
+            {
+                "normalized_label": "❸❽❹"
+            },
+            {
+                "normalized_label": "❸❽❺"
+            },
+            {
+                "normalized_label": "❸❽❻"
+            },
+            {
+                "normalized_label": "❸❽❼"
+            },
+            {
+                "normalized_label": "❸❽❽"
+            },
+            {
+                "normalized_label": "❸❽❾"
+            },
+            {
+                "normalized_label": "❸❾⓿"
+            },
+            {
+                "normalized_label": "❸❾❶"
+            },
+            {
+                "normalized_label": "❸❾❷"
+            },
+            {
+                "normalized_label": "❸❾❸"
+            },
+            {
+                "normalized_label": "❸❾❹"
+            },
+            {
+                "normalized_label": "❸❾❺"
+            },
+            {
+                "normalized_label": "❸❾❻"
+            },
+            {
+                "normalized_label": "❸❾❼"
+            },
+            {
+                "normalized_label": "❸❾❽"
+            },
+            {
+                "normalized_label": "❸❾❾"
+            },
+            {
+                "normalized_label": "❹⓿⓿"
+            },
+            {
+                "normalized_label": "❹⓿❶"
+            },
+            {
+                "normalized_label": "❹⓿❷"
+            },
+            {
+                "normalized_label": "❹⓿❸"
+            },
+            {
+                "normalized_label": "❹⓿❹"
+            },
+            {
+                "normalized_label": "❹⓿❺"
+            },
+            {
+                "normalized_label": "❹⓿❻"
+            },
+            {
+                "normalized_label": "❹⓿❼"
+            },
+            {
+                "normalized_label": "❹⓿❽"
+            },
+            {
+                "normalized_label": "❹⓿❾"
+            },
+            {
+                "normalized_label": "❹❶⓿"
+            },
+            {
+                "normalized_label": "❹❶❶"
+            },
+            {
+                "normalized_label": "❹❶❷"
+            },
+            {
+                "normalized_label": "❹❶❸"
+            },
+            {
+                "normalized_label": "❹❶❹"
+            },
+            {
+                "normalized_label": "❹❶❺"
+            },
+            {
+                "normalized_label": "❹❶❻"
+            },
+            {
+                "normalized_label": "❹❶❼"
+            },
+            {
+                "normalized_label": "❹❶❽"
+            },
+            {
+                "normalized_label": "❹❶❾"
+            },
+            {
+                "normalized_label": "❹❷⓿"
+            },
+            {
+                "normalized_label": "❹❷❶"
+            },
+            {
+                "normalized_label": "❹❷❷"
+            },
+            {
+                "normalized_label": "❹❷❸"
+            },
+            {
+                "normalized_label": "❹❷❹"
+            },
+            {
+                "normalized_label": "❹❷❺"
+            },
+            {
+                "normalized_label": "❹❷❻"
+            },
+            {
+                "normalized_label": "❹❷❼"
+            },
+            {
+                "normalized_label": "❹❷❽"
+            },
+            {
+                "normalized_label": "❹❷❾"
+            },
+            {
+                "normalized_label": "❹❸⓿"
+            },
+            {
+                "normalized_label": "❹❸❶"
+            },
+            {
+                "normalized_label": "❹❸❷"
+            },
+            {
+                "normalized_label": "❹❸❸"
+            },
+            {
+                "normalized_label": "❹❸❹"
+            },
+            {
+                "normalized_label": "❹❸❺"
+            },
+            {
+                "normalized_label": "❹❸❻"
+            },
+            {
+                "normalized_label": "❹❸❼"
+            },
+            {
+                "normalized_label": "❹❸❽"
+            },
+            {
+                "normalized_label": "❹❸❾"
+            },
+            {
+                "normalized_label": "❹❹⓿"
+            },
+            {
+                "normalized_label": "❹❹❶"
+            },
+            {
+                "normalized_label": "❹❹❷"
+            },
+            {
+                "normalized_label": "❹❹❸"
+            },
+            {
+                "normalized_label": "❹❹❹"
+            },
+            {
+                "normalized_label": "❹❹❺"
+            },
+            {
+                "normalized_label": "❹❹❻"
+            },
+            {
+                "normalized_label": "❹❹❼"
+            },
+            {
+                "normalized_label": "❹❹❽"
+            },
+            {
+                "normalized_label": "❹❹❾"
+            },
+            {
+                "normalized_label": "❹❺⓿"
+            },
+            {
+                "normalized_label": "❹❺❶"
+            },
+            {
+                "normalized_label": "❹❺❷"
+            },
+            {
+                "normalized_label": "❹❺❸"
+            },
+            {
+                "normalized_label": "❹❺❹"
+            },
+            {
+                "normalized_label": "❹❺❺"
+            },
+            {
+                "normalized_label": "❹❺❻"
+            },
+            {
+                "normalized_label": "❹❺❼"
+            },
+            {
+                "normalized_label": "❹❺❽"
+            },
+            {
+                "normalized_label": "❹❺❾"
+            },
+            {
+                "normalized_label": "❹❻⓿"
+            },
+            {
+                "normalized_label": "❹❻❶"
+            },
+            {
+                "normalized_label": "❹❻❷"
+            },
+            {
+                "normalized_label": "❹❻❸"
+            },
+            {
+                "normalized_label": "❹❻❹"
+            },
+            {
+                "normalized_label": "❹❻❺"
+            },
+            {
+                "normalized_label": "❹❻❻"
+            },
+            {
+                "normalized_label": "❹❻❼"
+            },
+            {
+                "normalized_label": "❹❻❽"
+            },
+            {
+                "normalized_label": "❹❻❾"
+            },
+            {
+                "normalized_label": "❹❼⓿"
+            },
+            {
+                "normalized_label": "❹❼❶"
+            },
+            {
+                "normalized_label": "❹❼❷"
+            },
+            {
+                "normalized_label": "❹❼❸"
+            },
+            {
+                "normalized_label": "❹❼❹"
+            },
+            {
+                "normalized_label": "❹❼❺"
+            },
+            {
+                "normalized_label": "❹❼❻"
+            },
+            {
+                "normalized_label": "❹❼❼"
+            },
+            {
+                "normalized_label": "❹❼❽"
+            },
+            {
+                "normalized_label": "❹❼❾"
+            },
+            {
+                "normalized_label": "❹❽⓿"
+            },
+            {
+                "normalized_label": "❹❽❶"
+            },
+            {
+                "normalized_label": "❹❽❷"
+            },
+            {
+                "normalized_label": "❹❽❸"
+            },
+            {
+                "normalized_label": "❹❽❹"
+            },
+            {
+                "normalized_label": "❹❽❺"
+            },
+            {
+                "normalized_label": "❹❽❻"
+            },
+            {
+                "normalized_label": "❹❽❼"
+            },
+            {
+                "normalized_label": "❹❽❽"
+            },
+            {
+                "normalized_label": "❹❽❾"
+            },
+            {
+                "normalized_label": "❹❾⓿"
+            },
+            {
+                "normalized_label": "❹❾❶"
+            },
+            {
+                "normalized_label": "❹❾❷"
+            },
+            {
+                "normalized_label": "❹❾❸"
+            },
+            {
+                "normalized_label": "❹❾❹"
+            },
+            {
+                "normalized_label": "❹❾❺"
+            },
+            {
+                "normalized_label": "❹❾❻"
+            },
+            {
+                "normalized_label": "❹❾❼"
+            },
+            {
+                "normalized_label": "❹❾❽"
+            },
+            {
+                "normalized_label": "❹❾❾"
+            },
+            {
+                "normalized_label": "❺⓿⓿"
+            },
+            {
+                "normalized_label": "❺⓿❶"
+            },
+            {
+                "normalized_label": "❺⓿❷"
+            },
+            {
+                "normalized_label": "❺⓿❸"
+            },
+            {
+                "normalized_label": "❺⓿❹"
+            },
+            {
+                "normalized_label": "❺⓿❺"
+            },
+            {
+                "normalized_label": "❺⓿❻"
+            },
+            {
+                "normalized_label": "❺⓿❼"
+            },
+            {
+                "normalized_label": "❺⓿❽"
+            },
+            {
+                "normalized_label": "❺⓿❾"
+            },
+            {
+                "normalized_label": "❺❶⓿"
+            },
+            {
+                "normalized_label": "❺❶❶"
+            },
+            {
+                "normalized_label": "❺❶❷"
+            },
+            {
+                "normalized_label": "❺❶❸"
+            },
+            {
+                "normalized_label": "❺❶❹"
+            },
+            {
+                "normalized_label": "❺❶❺"
+            },
+            {
+                "normalized_label": "❺❶❻"
+            },
+            {
+                "normalized_label": "❺❶❼"
+            },
+            {
+                "normalized_label": "❺❶❽"
+            },
+            {
+                "normalized_label": "❺❶❾"
+            },
+            {
+                "normalized_label": "❺❷⓿"
+            },
+            {
+                "normalized_label": "❺❷❶"
+            },
+            {
+                "normalized_label": "❺❷❷"
+            },
+            {
+                "normalized_label": "❺❷❸"
+            },
+            {
+                "normalized_label": "❺❷❹"
+            },
+            {
+                "normalized_label": "❺❷❺"
+            },
+            {
+                "normalized_label": "❺❷❻"
+            },
+            {
+                "normalized_label": "❺❷❼"
+            },
+            {
+                "normalized_label": "❺❷❽"
+            },
+            {
+                "normalized_label": "❺❷❾"
+            },
+            {
+                "normalized_label": "❺❸⓿"
+            },
+            {
+                "normalized_label": "❺❸❶"
+            },
+            {
+                "normalized_label": "❺❸❷"
+            },
+            {
+                "normalized_label": "❺❸❸"
+            },
+            {
+                "normalized_label": "❺❸❹"
+            },
+            {
+                "normalized_label": "❺❸❺"
+            },
+            {
+                "normalized_label": "❺❸❻"
+            },
+            {
+                "normalized_label": "❺❸❼"
+            },
+            {
+                "normalized_label": "❺❸❽"
+            },
+            {
+                "normalized_label": "❺❸❾"
+            },
+            {
+                "normalized_label": "❺❹⓿"
+            },
+            {
+                "normalized_label": "❺❹❶"
+            },
+            {
+                "normalized_label": "❺❹❷"
+            },
+            {
+                "normalized_label": "❺❹❸"
+            },
+            {
+                "normalized_label": "❺❹❹"
+            },
+            {
+                "normalized_label": "❺❹❺"
+            },
+            {
+                "normalized_label": "❺❹❻"
+            },
+            {
+                "normalized_label": "❺❹❼"
+            },
+            {
+                "normalized_label": "❺❹❽"
+            },
+            {
+                "normalized_label": "❺❹❾"
+            },
+            {
+                "normalized_label": "❺❺⓿"
+            },
+            {
+                "normalized_label": "❺❺❶"
+            },
+            {
+                "normalized_label": "❺❺❷"
+            },
+            {
+                "normalized_label": "❺❺❸"
+            },
+            {
+                "normalized_label": "❺❺❹"
+            },
+            {
+                "normalized_label": "❺❺❺"
+            },
+            {
+                "normalized_label": "❺❺❻"
+            },
+            {
+                "normalized_label": "❺❺❼"
+            },
+            {
+                "normalized_label": "❺❺❽"
+            },
+            {
+                "normalized_label": "❺❺❾"
+            },
+            {
+                "normalized_label": "❺❻⓿"
+            },
+            {
+                "normalized_label": "❺❻❶"
+            },
+            {
+                "normalized_label": "❺❻❷"
+            },
+            {
+                "normalized_label": "❺❻❸"
+            },
+            {
+                "normalized_label": "❺❻❹"
+            },
+            {
+                "normalized_label": "❺❻❺"
+            },
+            {
+                "normalized_label": "❺❻❻"
+            },
+            {
+                "normalized_label": "❺❻❼"
+            },
+            {
+                "normalized_label": "❺❻❽"
+            },
+            {
+                "normalized_label": "❺❻❾"
+            },
+            {
+                "normalized_label": "❺❼⓿"
+            },
+            {
+                "normalized_label": "❺❼❶"
+            },
+            {
+                "normalized_label": "❺❼❷"
+            },
+            {
+                "normalized_label": "❺❼❸"
+            },
+            {
+                "normalized_label": "❺❼❹"
+            },
+            {
+                "normalized_label": "❺❼❺"
+            },
+            {
+                "normalized_label": "❺❼❻"
+            },
+            {
+                "normalized_label": "❺❼❼"
+            },
+            {
+                "normalized_label": "❺❼❽"
+            },
+            {
+                "normalized_label": "❺❼❾"
+            },
+            {
+                "normalized_label": "❺❽⓿"
+            },
+            {
+                "normalized_label": "❺❽❶"
+            },
+            {
+                "normalized_label": "❺❽❷"
+            },
+            {
+                "normalized_label": "❺❽❸"
+            },
+            {
+                "normalized_label": "❺❽❹"
+            },
+            {
+                "normalized_label": "❺❽❺"
+            },
+            {
+                "normalized_label": "❺❽❻"
+            },
+            {
+                "normalized_label": "❺❽❼"
+            },
+            {
+                "normalized_label": "❺❽❽"
+            },
+            {
+                "normalized_label": "❺❽❾"
+            },
+            {
+                "normalized_label": "❺❾⓿"
+            },
+            {
+                "normalized_label": "❺❾❶"
+            },
+            {
+                "normalized_label": "❺❾❷"
+            },
+            {
+                "normalized_label": "❺❾❸"
+            },
+            {
+                "normalized_label": "❺❾❹"
+            },
+            {
+                "normalized_label": "❺❾❺"
+            },
+            {
+                "normalized_label": "❺❾❻"
+            },
+            {
+                "normalized_label": "❺❾❼"
+            },
+            {
+                "normalized_label": "❺❾❽"
+            },
+            {
+                "normalized_label": "❺❾❾"
+            },
+            {
+                "normalized_label": "❻⓿⓿"
+            },
+            {
+                "normalized_label": "❻⓿❶"
+            },
+            {
+                "normalized_label": "❻⓿❷"
+            },
+            {
+                "normalized_label": "❻⓿❸"
+            },
+            {
+                "normalized_label": "❻⓿❹"
+            },
+            {
+                "normalized_label": "❻⓿❺"
+            },
+            {
+                "normalized_label": "❻⓿❻"
+            },
+            {
+                "normalized_label": "❻⓿❼"
+            },
+            {
+                "normalized_label": "❻⓿❽"
+            },
+            {
+                "normalized_label": "❻⓿❾"
+            },
+            {
+                "normalized_label": "❻❶⓿"
+            },
+            {
+                "normalized_label": "❻❶❶"
+            },
+            {
+                "normalized_label": "❻❶❷"
+            },
+            {
+                "normalized_label": "❻❶❸"
+            },
+            {
+                "normalized_label": "❻❶❹"
+            },
+            {
+                "normalized_label": "❻❶❺"
+            },
+            {
+                "normalized_label": "❻❶❻"
+            },
+            {
+                "normalized_label": "❻❶❼"
+            },
+            {
+                "normalized_label": "❻❶❽"
+            },
+            {
+                "normalized_label": "❻❶❾"
+            },
+            {
+                "normalized_label": "❻❷⓿"
+            },
+            {
+                "normalized_label": "❻❷❶"
+            },
+            {
+                "normalized_label": "❻❷❷"
+            },
+            {
+                "normalized_label": "❻❷❸"
+            },
+            {
+                "normalized_label": "❻❷❹"
+            },
+            {
+                "normalized_label": "❻❷❺"
+            },
+            {
+                "normalized_label": "❻❷❻"
+            },
+            {
+                "normalized_label": "❻❷❼"
+            },
+            {
+                "normalized_label": "❻❷❽"
+            },
+            {
+                "normalized_label": "❻❷❾"
+            },
+            {
+                "normalized_label": "❻❸⓿"
+            },
+            {
+                "normalized_label": "❻❸❶"
+            },
+            {
+                "normalized_label": "❻❸❷"
+            },
+            {
+                "normalized_label": "❻❸❸"
+            },
+            {
+                "normalized_label": "❻❸❹"
+            },
+            {
+                "normalized_label": "❻❸❺"
+            },
+            {
+                "normalized_label": "❻❸❻"
+            },
+            {
+                "normalized_label": "❻❸❼"
+            },
+            {
+                "normalized_label": "❻❸❽"
+            },
+            {
+                "normalized_label": "❻❸❾"
+            },
+            {
+                "normalized_label": "❻❹⓿"
+            },
+            {
+                "normalized_label": "❻❹❶"
+            },
+            {
+                "normalized_label": "❻❹❷"
+            },
+            {
+                "normalized_label": "❻❹❸"
+            },
+            {
+                "normalized_label": "❻❹❹"
+            },
+            {
+                "normalized_label": "❻❹❺"
+            },
+            {
+                "normalized_label": "❻❹❻"
+            },
+            {
+                "normalized_label": "❻❹❼"
+            },
+            {
+                "normalized_label": "❻❹❽"
+            },
+            {
+                "normalized_label": "❻❹❾"
+            },
+            {
+                "normalized_label": "❻❺⓿"
+            },
+            {
+                "normalized_label": "❻❺❶"
+            },
+            {
+                "normalized_label": "❻❺❷"
+            },
+            {
+                "normalized_label": "❻❺❸"
+            },
+            {
+                "normalized_label": "❻❺❹"
+            },
+            {
+                "normalized_label": "❻❺❺"
+            },
+            {
+                "normalized_label": "❻❺❻"
+            },
+            {
+                "normalized_label": "❻❺❼"
+            },
+            {
+                "normalized_label": "❻❺❽"
+            },
+            {
+                "normalized_label": "❻❺❾"
+            },
+            {
+                "normalized_label": "❻❻⓿"
+            },
+            {
+                "normalized_label": "❻❻❶"
+            },
+            {
+                "normalized_label": "❻❻❷"
+            },
+            {
+                "normalized_label": "❻❻❸"
+            },
+            {
+                "normalized_label": "❻❻❹"
+            },
+            {
+                "normalized_label": "❻❻❺"
+            },
+            {
+                "normalized_label": "❻❻❻"
+            },
+            {
+                "normalized_label": "❻❻❼"
+            },
+            {
+                "normalized_label": "❻❻❽"
+            },
+            {
+                "normalized_label": "❻❻❾"
+            },
+            {
+                "normalized_label": "❻❼⓿"
+            },
+            {
+                "normalized_label": "❻❼❶"
+            },
+            {
+                "normalized_label": "❻❼❷"
+            },
+            {
+                "normalized_label": "❻❼❸"
+            },
+            {
+                "normalized_label": "❻❼❹"
+            },
+            {
+                "normalized_label": "❻❼❺"
+            },
+            {
+                "normalized_label": "❻❼❻"
+            },
+            {
+                "normalized_label": "❻❼❼"
+            },
+            {
+                "normalized_label": "❻❼❽"
+            },
+            {
+                "normalized_label": "❻❼❾"
+            },
+            {
+                "normalized_label": "❻❽⓿"
+            },
+            {
+                "normalized_label": "❻❽❶"
+            },
+            {
+                "normalized_label": "❻❽❷"
+            },
+            {
+                "normalized_label": "❻❽❸"
+            },
+            {
+                "normalized_label": "❻❽❹"
+            },
+            {
+                "normalized_label": "❻❽❺"
+            },
+            {
+                "normalized_label": "❻❽❻"
+            },
+            {
+                "normalized_label": "❻❽❼"
+            },
+            {
+                "normalized_label": "❻❽❽"
+            },
+            {
+                "normalized_label": "❻❽❾"
+            },
+            {
+                "normalized_label": "❻❾⓿"
+            },
+            {
+                "normalized_label": "❻❾❶"
+            },
+            {
+                "normalized_label": "❻❾❷"
+            },
+            {
+                "normalized_label": "❻❾❸"
+            },
+            {
+                "normalized_label": "❻❾❹"
+            },
+            {
+                "normalized_label": "❻❾❺"
+            },
+            {
+                "normalized_label": "❻❾❻"
+            },
+            {
+                "normalized_label": "❻❾❼"
+            },
+            {
+                "normalized_label": "❻❾❽"
+            },
+            {
+                "normalized_label": "❻❾❾"
+            },
+            {
+                "normalized_label": "❼⓿⓿"
+            },
+            {
+                "normalized_label": "❼⓿❶"
+            },
+            {
+                "normalized_label": "❼⓿❷"
+            },
+            {
+                "normalized_label": "❼⓿❸"
+            },
+            {
+                "normalized_label": "❼⓿❹"
+            },
+            {
+                "normalized_label": "❼⓿❺"
+            },
+            {
+                "normalized_label": "❼⓿❻"
+            },
+            {
+                "normalized_label": "❼⓿❼"
+            },
+            {
+                "normalized_label": "❼⓿❽"
+            },
+            {
+                "normalized_label": "❼⓿❾"
+            },
+            {
+                "normalized_label": "❼❶⓿"
+            },
+            {
+                "normalized_label": "❼❶❶"
+            },
+            {
+                "normalized_label": "❼❶❷"
+            },
+            {
+                "normalized_label": "❼❶❸"
+            },
+            {
+                "normalized_label": "❼❶❹"
+            },
+            {
+                "normalized_label": "❼❶❺"
+            },
+            {
+                "normalized_label": "❼❶❻"
+            },
+            {
+                "normalized_label": "❼❶❼"
+            },
+            {
+                "normalized_label": "❼❶❽"
+            },
+            {
+                "normalized_label": "❼❶❾"
+            },
+            {
+                "normalized_label": "❼❷⓿"
+            },
+            {
+                "normalized_label": "❼❷❶"
+            },
+            {
+                "normalized_label": "❼❷❷"
+            },
+            {
+                "normalized_label": "❼❷❸"
+            },
+            {
+                "normalized_label": "❼❷❹"
+            },
+            {
+                "normalized_label": "❼❷❺"
+            },
+            {
+                "normalized_label": "❼❷❻"
+            },
+            {
+                "normalized_label": "❼❷❼"
+            },
+            {
+                "normalized_label": "❼❷❽"
+            },
+            {
+                "normalized_label": "❼❷❾"
+            },
+            {
+                "normalized_label": "❼❸⓿"
+            },
+            {
+                "normalized_label": "❼❸❶"
+            },
+            {
+                "normalized_label": "❼❸❷"
+            },
+            {
+                "normalized_label": "❼❸❸"
+            },
+            {
+                "normalized_label": "❼❸❹"
+            },
+            {
+                "normalized_label": "❼❸❺"
+            },
+            {
+                "normalized_label": "❼❸❻"
+            },
+            {
+                "normalized_label": "❼❸❼"
+            },
+            {
+                "normalized_label": "❼❸❽"
+            },
+            {
+                "normalized_label": "❼❸❾"
+            },
+            {
+                "normalized_label": "❼❹⓿"
+            },
+            {
+                "normalized_label": "❼❹❶"
+            },
+            {
+                "normalized_label": "❼❹❷"
+            },
+            {
+                "normalized_label": "❼❹❸"
+            },
+            {
+                "normalized_label": "❼❹❹"
+            },
+            {
+                "normalized_label": "❼❹❺"
+            },
+            {
+                "normalized_label": "❼❹❻"
+            },
+            {
+                "normalized_label": "❼❹❼"
+            },
+            {
+                "normalized_label": "❼❹❽"
+            },
+            {
+                "normalized_label": "❼❹❾"
+            },
+            {
+                "normalized_label": "❼❺⓿"
+            },
+            {
+                "normalized_label": "❼❺❶"
+            },
+            {
+                "normalized_label": "❼❺❷"
+            },
+            {
+                "normalized_label": "❼❺❸"
+            },
+            {
+                "normalized_label": "❼❺❹"
+            },
+            {
+                "normalized_label": "❼❺❺"
+            },
+            {
+                "normalized_label": "❼❺❻"
+            },
+            {
+                "normalized_label": "❼❺❼"
+            },
+            {
+                "normalized_label": "❼❺❽"
+            },
+            {
+                "normalized_label": "❼❺❾"
+            },
+            {
+                "normalized_label": "❼❻⓿"
+            },
+            {
+                "normalized_label": "❼❻❶"
+            },
+            {
+                "normalized_label": "❼❻❷"
+            },
+            {
+                "normalized_label": "❼❻❸"
+            },
+            {
+                "normalized_label": "❼❻❹"
+            },
+            {
+                "normalized_label": "❼❻❺"
+            },
+            {
+                "normalized_label": "❼❻❻"
+            },
+            {
+                "normalized_label": "❼❻❼"
+            },
+            {
+                "normalized_label": "❼❻❽"
+            },
+            {
+                "normalized_label": "❼❻❾"
+            },
+            {
+                "normalized_label": "❼❼⓿"
+            },
+            {
+                "normalized_label": "❼❼❶"
+            },
+            {
+                "normalized_label": "❼❼❷"
+            },
+            {
+                "normalized_label": "❼❼❸"
+            },
+            {
+                "normalized_label": "❼❼❹"
+            },
+            {
+                "normalized_label": "❼❼❺"
+            },
+            {
+                "normalized_label": "❼❼❻"
+            },
+            {
+                "normalized_label": "❼❼❼"
+            },
+            {
+                "normalized_label": "❼❼❽"
+            },
+            {
+                "normalized_label": "❼❼❾"
+            },
+            {
+                "normalized_label": "❼❽⓿"
+            },
+            {
+                "normalized_label": "❼❽❶"
+            },
+            {
+                "normalized_label": "❼❽❷"
+            },
+            {
+                "normalized_label": "❼❽❸"
+            },
+            {
+                "normalized_label": "❼❽❹"
+            },
+            {
+                "normalized_label": "❼❽❺"
+            },
+            {
+                "normalized_label": "❼❽❻"
+            },
+            {
+                "normalized_label": "❼❽❼"
+            },
+            {
+                "normalized_label": "❼❽❽"
+            },
+            {
+                "normalized_label": "❼❽❾"
+            },
+            {
+                "normalized_label": "❼❾⓿"
+            },
+            {
+                "normalized_label": "❼❾❶"
+            },
+            {
+                "normalized_label": "❼❾❷"
+            },
+            {
+                "normalized_label": "❼❾❸"
+            },
+            {
+                "normalized_label": "❼❾❹"
+            },
+            {
+                "normalized_label": "❼❾❺"
+            },
+            {
+                "normalized_label": "❼❾❻"
+            },
+            {
+                "normalized_label": "❼❾❼"
+            },
+            {
+                "normalized_label": "❼❾❽"
+            },
+            {
+                "normalized_label": "❼❾❾"
+            },
+            {
+                "normalized_label": "❽⓿⓿"
+            },
+            {
+                "normalized_label": "❽⓿❶"
+            },
+            {
+                "normalized_label": "❽⓿❷"
+            },
+            {
+                "normalized_label": "❽⓿❸"
+            },
+            {
+                "normalized_label": "❽⓿❹"
+            },
+            {
+                "normalized_label": "❽⓿❺"
+            },
+            {
+                "normalized_label": "❽⓿❻"
+            },
+            {
+                "normalized_label": "❽⓿❼"
+            },
+            {
+                "normalized_label": "❽⓿❽"
+            },
+            {
+                "normalized_label": "❽⓿❾"
+            },
+            {
+                "normalized_label": "❽❶⓿"
+            },
+            {
+                "normalized_label": "❽❶❶"
+            },
+            {
+                "normalized_label": "❽❶❷"
+            },
+            {
+                "normalized_label": "❽❶❸"
+            },
+            {
+                "normalized_label": "❽❶❹"
+            },
+            {
+                "normalized_label": "❽❶❺"
+            },
+            {
+                "normalized_label": "❽❶❻"
+            },
+            {
+                "normalized_label": "❽❶❼"
+            },
+            {
+                "normalized_label": "❽❶❽"
+            },
+            {
+                "normalized_label": "❽❶❾"
+            },
+            {
+                "normalized_label": "❽❷⓿"
+            },
+            {
+                "normalized_label": "❽❷❶"
+            },
+            {
+                "normalized_label": "❽❷❷"
+            },
+            {
+                "normalized_label": "❽❷❸"
+            },
+            {
+                "normalized_label": "❽❷❹"
+            },
+            {
+                "normalized_label": "❽❷❺"
+            },
+            {
+                "normalized_label": "❽❷❻"
+            },
+            {
+                "normalized_label": "❽❷❼"
+            },
+            {
+                "normalized_label": "❽❷❽"
+            },
+            {
+                "normalized_label": "❽❷❾"
+            },
+            {
+                "normalized_label": "❽❸⓿"
+            },
+            {
+                "normalized_label": "❽❸❶"
+            },
+            {
+                "normalized_label": "❽❸❷"
+            },
+            {
+                "normalized_label": "❽❸❸"
+            },
+            {
+                "normalized_label": "❽❸❹"
+            },
+            {
+                "normalized_label": "❽❸❺"
+            },
+            {
+                "normalized_label": "❽❸❻"
+            },
+            {
+                "normalized_label": "❽❸❼"
+            },
+            {
+                "normalized_label": "❽❸❽"
+            },
+            {
+                "normalized_label": "❽❸❾"
+            },
+            {
+                "normalized_label": "❽❹⓿"
+            },
+            {
+                "normalized_label": "❽❹❶"
+            },
+            {
+                "normalized_label": "❽❹❷"
+            },
+            {
+                "normalized_label": "❽❹❸"
+            },
+            {
+                "normalized_label": "❽❹❹"
+            },
+            {
+                "normalized_label": "❽❹❺"
+            },
+            {
+                "normalized_label": "❽❹❻"
+            },
+            {
+                "normalized_label": "❽❹❼"
+            },
+            {
+                "normalized_label": "❽❹❽"
+            },
+            {
+                "normalized_label": "❽❹❾"
+            },
+            {
+                "normalized_label": "❽❺⓿"
+            },
+            {
+                "normalized_label": "❽❺❶"
+            },
+            {
+                "normalized_label": "❽❺❷"
+            },
+            {
+                "normalized_label": "❽❺❸"
+            },
+            {
+                "normalized_label": "❽❺❹"
+            },
+            {
+                "normalized_label": "❽❺❺"
+            },
+            {
+                "normalized_label": "❽❺❻"
+            },
+            {
+                "normalized_label": "❽❺❼"
+            },
+            {
+                "normalized_label": "❽❺❽"
+            },
+            {
+                "normalized_label": "❽❺❾"
+            },
+            {
+                "normalized_label": "❽❻⓿"
+            },
+            {
+                "normalized_label": "❽❻❶"
+            },
+            {
+                "normalized_label": "❽❻❷"
+            },
+            {
+                "normalized_label": "❽❻❸"
+            },
+            {
+                "normalized_label": "❽❻❹"
+            },
+            {
+                "normalized_label": "❽❻❺"
+            },
+            {
+                "normalized_label": "❽❻❻"
+            },
+            {
+                "normalized_label": "❽❻❼"
+            },
+            {
+                "normalized_label": "❽❻❽"
+            },
+            {
+                "normalized_label": "❽❻❾"
+            },
+            {
+                "normalized_label": "❽❼⓿"
+            },
+            {
+                "normalized_label": "❽❼❶"
+            },
+            {
+                "normalized_label": "❽❼❷"
+            },
+            {
+                "normalized_label": "❽❼❸"
+            },
+            {
+                "normalized_label": "❽❼❹"
+            },
+            {
+                "normalized_label": "❽❼❺"
+            },
+            {
+                "normalized_label": "❽❼❻"
+            },
+            {
+                "normalized_label": "❽❼❼"
+            },
+            {
+                "normalized_label": "❽❼❽"
+            },
+            {
+                "normalized_label": "❽❼❾"
+            },
+            {
+                "normalized_label": "❽❽⓿"
+            },
+            {
+                "normalized_label": "❽❽❶"
+            },
+            {
+                "normalized_label": "❽❽❷"
+            },
+            {
+                "normalized_label": "❽❽❸"
+            },
+            {
+                "normalized_label": "❽❽❹"
+            },
+            {
+                "normalized_label": "❽❽❺"
+            },
+            {
+                "normalized_label": "❽❽❻"
+            },
+            {
+                "normalized_label": "❽❽❼"
+            },
+            {
+                "normalized_label": "❽❽❽"
+            },
+            {
+                "normalized_label": "❽❽❾"
+            },
+            {
+                "normalized_label": "❽❾⓿"
+            },
+            {
+                "normalized_label": "❽❾❶"
+            },
+            {
+                "normalized_label": "❽❾❷"
+            },
+            {
+                "normalized_label": "❽❾❸"
+            },
+            {
+                "normalized_label": "❽❾❹"
+            },
+            {
+                "normalized_label": "❽❾❺"
+            },
+            {
+                "normalized_label": "❽❾❻"
+            },
+            {
+                "normalized_label": "❽❾❼"
+            },
+            {
+                "normalized_label": "❽❾❽"
+            },
+            {
+                "normalized_label": "❽❾❾"
+            },
+            {
+                "normalized_label": "❾⓿⓿"
+            },
+            {
+                "normalized_label": "❾⓿❶"
+            },
+            {
+                "normalized_label": "❾⓿❷"
+            },
+            {
+                "normalized_label": "❾⓿❸"
+            },
+            {
+                "normalized_label": "❾⓿❹"
+            },
+            {
+                "normalized_label": "❾⓿❺"
+            },
+            {
+                "normalized_label": "❾⓿❻"
+            },
+            {
+                "normalized_label": "❾⓿❼"
+            },
+            {
+                "normalized_label": "❾⓿❽"
+            },
+            {
+                "normalized_label": "❾⓿❾"
+            },
+            {
+                "normalized_label": "❾❶⓿"
+            },
+            {
+                "normalized_label": "❾❶❶"
+            },
+            {
+                "normalized_label": "❾❶❷"
+            },
+            {
+                "normalized_label": "❾❶❸"
+            },
+            {
+                "normalized_label": "❾❶❹"
+            },
+            {
+                "normalized_label": "❾❶❺"
+            },
+            {
+                "normalized_label": "❾❶❻"
+            },
+            {
+                "normalized_label": "❾❶❼"
+            },
+            {
+                "normalized_label": "❾❶❽"
+            },
+            {
+                "normalized_label": "❾❶❾"
+            },
+            {
+                "normalized_label": "❾❷⓿"
+            },
+            {
+                "normalized_label": "❾❷❶"
+            },
+            {
+                "normalized_label": "❾❷❷"
+            },
+            {
+                "normalized_label": "❾❷❸"
+            },
+            {
+                "normalized_label": "❾❷❹"
+            },
+            {
+                "normalized_label": "❾❷❺"
+            },
+            {
+                "normalized_label": "❾❷❻"
+            },
+            {
+                "normalized_label": "❾❷❼"
+            },
+            {
+                "normalized_label": "❾❷❽"
+            },
+            {
+                "normalized_label": "❾❷❾"
+            },
+            {
+                "normalized_label": "❾❸⓿"
+            },
+            {
+                "normalized_label": "❾❸❶"
+            },
+            {
+                "normalized_label": "❾❸❷"
+            },
+            {
+                "normalized_label": "❾❸❸"
+            },
+            {
+                "normalized_label": "❾❸❹"
+            },
+            {
+                "normalized_label": "❾❸❺"
+            },
+            {
+                "normalized_label": "❾❸❻"
+            },
+            {
+                "normalized_label": "❾❸❼"
+            },
+            {
+                "normalized_label": "❾❸❽"
+            },
+            {
+                "normalized_label": "❾❸❾"
+            },
+            {
+                "normalized_label": "❾❹⓿"
+            },
+            {
+                "normalized_label": "❾❹❶"
+            },
+            {
+                "normalized_label": "❾❹❷"
+            },
+            {
+                "normalized_label": "❾❹❸"
+            },
+            {
+                "normalized_label": "❾❹❹"
+            },
+            {
+                "normalized_label": "❾❹❺"
+            },
+            {
+                "normalized_label": "❾❹❻"
+            },
+            {
+                "normalized_label": "❾❹❼"
+            },
+            {
+                "normalized_label": "❾❹❽"
+            },
+            {
+                "normalized_label": "❾❹❾"
+            },
+            {
+                "normalized_label": "❾❺⓿"
+            },
+            {
+                "normalized_label": "❾❺❶"
+            },
+            {
+                "normalized_label": "❾❺❷"
+            },
+            {
+                "normalized_label": "❾❺❸"
+            },
+            {
+                "normalized_label": "❾❺❹"
+            },
+            {
+                "normalized_label": "❾❺❺"
+            },
+            {
+                "normalized_label": "❾❺❻"
+            },
+            {
+                "normalized_label": "❾❺❼"
+            },
+            {
+                "normalized_label": "❾❺❽"
+            },
+            {
+                "normalized_label": "❾❺❾"
+            },
+            {
+                "normalized_label": "❾❻⓿"
+            },
+            {
+                "normalized_label": "❾❻❶"
+            },
+            {
+                "normalized_label": "❾❻❷"
+            },
+            {
+                "normalized_label": "❾❻❸"
+            },
+            {
+                "normalized_label": "❾❻❹"
+            },
+            {
+                "normalized_label": "❾❻❺"
+            },
+            {
+                "normalized_label": "❾❻❻"
+            },
+            {
+                "normalized_label": "❾❻❼"
+            },
+            {
+                "normalized_label": "❾❻❽"
+            },
+            {
+                "normalized_label": "❾❻❾"
+            },
+            {
+                "normalized_label": "❾❼⓿"
+            },
+            {
+                "normalized_label": "❾❼❶"
+            },
+            {
+                "normalized_label": "❾❼❷"
+            },
+            {
+                "normalized_label": "❾❼❸"
+            },
+            {
+                "normalized_label": "❾❼❹"
+            },
+            {
+                "normalized_label": "❾❼❺"
+            },
+            {
+                "normalized_label": "❾❼❻"
+            },
+            {
+                "normalized_label": "❾❼❼"
+            },
+            {
+                "normalized_label": "❾❼❽"
+            },
+            {
+                "normalized_label": "❾❼❾"
+            },
+            {
+                "normalized_label": "❾❽⓿"
+            },
+            {
+                "normalized_label": "❾❽❶"
+            },
+            {
+                "normalized_label": "❾❽❷"
+            },
+            {
+                "normalized_label": "❾❽❸"
+            },
+            {
+                "normalized_label": "❾❽❹"
+            },
+            {
+                "normalized_label": "❾❽❺"
+            },
+            {
+                "normalized_label": "❾❽❻"
+            },
+            {
+                "normalized_label": "❾❽❼"
+            },
+            {
+                "normalized_label": "❾❽❽"
+            },
+            {
+                "normalized_label": "❾❽❾"
+            },
+            {
+                "normalized_label": "❾❾⓿"
+            },
+            {
+                "normalized_label": "❾❾❶"
+            },
+            {
+                "normalized_label": "❾❾❷"
+            },
+            {
+                "normalized_label": "❾❾❸"
+            },
+            {
+                "normalized_label": "❾❾❹"
+            },
+            {
+                "normalized_label": "❾❾❺"
+            },
+            {
+                "normalized_label": "❾❾❻"
+            },
+            {
+                "normalized_label": "❾❾❼"
+            },
+            {
+                "normalized_label": "❾❾❽"
+            },
+            {
+                "normalized_label": "❾❾❾"
+            }
+        ]
+    }
+}

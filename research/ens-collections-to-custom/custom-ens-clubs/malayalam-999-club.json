@@ -1,0 +1,3017 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "malayalam-999-club",
+        "collection_name": "Malayalam 999 Club",
+        "collection_description": "Names with 3 digits, 000-999 in Malayalam characters.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "൦൦൦"
+            },
+            {
+                "normalized_label": "൦൦൧"
+            },
+            {
+                "normalized_label": "൦൦൨"
+            },
+            {
+                "normalized_label": "൦൦൩"
+            },
+            {
+                "normalized_label": "൦൦൪"
+            },
+            {
+                "normalized_label": "൦൦൫"
+            },
+            {
+                "normalized_label": "൦൦൬"
+            },
+            {
+                "normalized_label": "൦൦൭"
+            },
+            {
+                "normalized_label": "൦൦൮"
+            },
+            {
+                "normalized_label": "൦൦൯"
+            },
+            {
+                "normalized_label": "൦൧൦"
+            },
+            {
+                "normalized_label": "൦൧൧"
+            },
+            {
+                "normalized_label": "൦൧൨"
+            },
+            {
+                "normalized_label": "൦൧൩"
+            },
+            {
+                "normalized_label": "൦൧൪"
+            },
+            {
+                "normalized_label": "൦൧൫"
+            },
+            {
+                "normalized_label": "൦൧൬"
+            },
+            {
+                "normalized_label": "൦൧൭"
+            },
+            {
+                "normalized_label": "൦൧൮"
+            },
+            {
+                "normalized_label": "൦൧൯"
+            },
+            {
+                "normalized_label": "൦൨൦"
+            },
+            {
+                "normalized_label": "൦൨൧"
+            },
+            {
+                "normalized_label": "൦൨൨"
+            },
+            {
+                "normalized_label": "൦൨൩"
+            },
+            {
+                "normalized_label": "൦൨൪"
+            },
+            {
+                "normalized_label": "൦൨൫"
+            },
+            {
+                "normalized_label": "൦൨൬"
+            },
+            {
+                "normalized_label": "൦൨൭"
+            },
+            {
+                "normalized_label": "൦൨൮"
+            },
+            {
+                "normalized_label": "൦൨൯"
+            },
+            {
+                "normalized_label": "൦൩൦"
+            },
+            {
+                "normalized_label": "൦൩൧"
+            },
+            {
+                "normalized_label": "൦൩൨"
+            },
+            {
+                "normalized_label": "൦൩൩"
+            },
+            {
+                "normalized_label": "൦൩൪"
+            },
+            {
+                "normalized_label": "൦൩൫"
+            },
+            {
+                "normalized_label": "൦൩൬"
+            },
+            {
+                "normalized_label": "൦൩൭"
+            },
+            {
+                "normalized_label": "൦൩൮"
+            },
+            {
+                "normalized_label": "൦൩൯"
+            },
+            {
+                "normalized_label": "൦൪൦"
+            },
+            {
+                "normalized_label": "൦൪൧"
+            },
+            {
+                "normalized_label": "൦൪൨"
+            },
+            {
+                "normalized_label": "൦൪൩"
+            },
+            {
+                "normalized_label": "൦൪൪"
+            },
+            {
+                "normalized_label": "൦൪൫"
+            },
+            {
+                "normalized_label": "൦൪൬"
+            },
+            {
+                "normalized_label": "൦൪൭"
+            },
+            {
+                "normalized_label": "൦൪൮"
+            },
+            {
+                "normalized_label": "൦൪൯"
+            },
+            {
+                "normalized_label": "൦൫൦"
+            },
+            {
+                "normalized_label": "൦൫൧"
+            },
+            {
+                "normalized_label": "൦൫൨"
+            },
+            {
+                "normalized_label": "൦൫൩"
+            },
+            {
+                "normalized_label": "൦൫൪"
+            },
+            {
+                "normalized_label": "൦൫൫"
+            },
+            {
+                "normalized_label": "൦൫൬"
+            },
+            {
+                "normalized_label": "൦൫൭"
+            },
+            {
+                "normalized_label": "൦൫൮"
+            },
+            {
+                "normalized_label": "൦൫൯"
+            },
+            {
+                "normalized_label": "൦൬൦"
+            },
+            {
+                "normalized_label": "൦൬൧"
+            },
+            {
+                "normalized_label": "൦൬൨"
+            },
+            {
+                "normalized_label": "൦൬൩"
+            },
+            {
+                "normalized_label": "൦൬൪"
+            },
+            {
+                "normalized_label": "൦൬൫"
+            },
+            {
+                "normalized_label": "൦൬൬"
+            },
+            {
+                "normalized_label": "൦൬൭"
+            },
+            {
+                "normalized_label": "൦൬൮"
+            },
+            {
+                "normalized_label": "൦൬൯"
+            },
+            {
+                "normalized_label": "൦൭൦"
+            },
+            {
+                "normalized_label": "൦൭൧"
+            },
+            {
+                "normalized_label": "൦൭൨"
+            },
+            {
+                "normalized_label": "൦൭൩"
+            },
+            {
+                "normalized_label": "൦൭൪"
+            },
+            {
+                "normalized_label": "൦൭൫"
+            },
+            {
+                "normalized_label": "൦൭൬"
+            },
+            {
+                "normalized_label": "൦൭൭"
+            },
+            {
+                "normalized_label": "൦൭൮"
+            },
+            {
+                "normalized_label": "൦൭൯"
+            },
+            {
+                "normalized_label": "൦൮൦"
+            },
+            {
+                "normalized_label": "൦൮൧"
+            },
+            {
+                "normalized_label": "൦൮൨"
+            },
+            {
+                "normalized_label": "൦൮൩"
+            },
+            {
+                "normalized_label": "൦൮൪"
+            },
+            {
+                "normalized_label": "൦൮൫"
+            },
+            {
+                "normalized_label": "൦൮൬"
+            },
+            {
+                "normalized_label": "൦൮൭"
+            },
+            {
+                "normalized_label": "൦൮൮"
+            },
+            {
+                "normalized_label": "൦൮൯"
+            },
+            {
+                "normalized_label": "൦൯൦"
+            },
+            {
+                "normalized_label": "൦൯൧"
+            },
+            {
+                "normalized_label": "൦൯൨"
+            },
+            {
+                "normalized_label": "൦൯൩"
+            },
+            {
+                "normalized_label": "൦൯൪"
+            },
+            {
+                "normalized_label": "൦൯൫"
+            },
+            {
+                "normalized_label": "൦൯൬"
+            },
+            {
+                "normalized_label": "൦൯൭"
+            },
+            {
+                "normalized_label": "൦൯൮"
+            },
+            {
+                "normalized_label": "൦൯൯"
+            },
+            {
+                "normalized_label": "൧൦൦"
+            },
+            {
+                "normalized_label": "൧൦൧"
+            },
+            {
+                "normalized_label": "൧൦൨"
+            },
+            {
+                "normalized_label": "൧൦൩"
+            },
+            {
+                "normalized_label": "൧൦൪"
+            },
+            {
+                "normalized_label": "൧൦൫"
+            },
+            {
+                "normalized_label": "൧൦൬"
+            },
+            {
+                "normalized_label": "൧൦൭"
+            },
+            {
+                "normalized_label": "൧൦൮"
+            },
+            {
+                "normalized_label": "൧൦൯"
+            },
+            {
+                "normalized_label": "൧൧൦"
+            },
+            {
+                "normalized_label": "൧൧൧"
+            },
+            {
+                "normalized_label": "൧൧൨"
+            },
+            {
+                "normalized_label": "൧൧൩"
+            },
+            {
+                "normalized_label": "൧൧൪"
+            },
+            {
+                "normalized_label": "൧൧൫"
+            },
+            {
+                "normalized_label": "൧൧൬"
+            },
+            {
+                "normalized_label": "൧൧൭"
+            },
+            {
+                "normalized_label": "൧൧൮"
+            },
+            {
+                "normalized_label": "൧൧൯"
+            },
+            {
+                "normalized_label": "൧൨൦"
+            },
+            {
+                "normalized_label": "൧൨൧"
+            },
+            {
+                "normalized_label": "൧൨൨"
+            },
+            {
+                "normalized_label": "൧൨൩"
+            },
+            {
+                "normalized_label": "൧൨൪"
+            },
+            {
+                "normalized_label": "൧൨൫"
+            },
+            {
+                "normalized_label": "൧൨൬"
+            },
+            {
+                "normalized_label": "൧൨൭"
+            },
+            {
+                "normalized_label": "൧൨൮"
+            },
+            {
+                "normalized_label": "൧൨൯"
+            },
+            {
+                "normalized_label": "൧൩൦"
+            },
+            {
+                "normalized_label": "൧൩൧"
+            },
+            {
+                "normalized_label": "൧൩൨"
+            },
+            {
+                "normalized_label": "൧൩൩"
+            },
+            {
+                "normalized_label": "൧൩൪"
+            },
+            {
+                "normalized_label": "൧൩൫"
+            },
+            {
+                "normalized_label": "൧൩൬"
+            },
+            {
+                "normalized_label": "൧൩൭"
+            },
+            {
+                "normalized_label": "൧൩൮"
+            },
+            {
+                "normalized_label": "൧൩൯"
+            },
+            {
+                "normalized_label": "൧൪൦"
+            },
+            {
+                "normalized_label": "൧൪൧"
+            },
+            {
+                "normalized_label": "൧൪൨"
+            },
+            {
+                "normalized_label": "൧൪൩"
+            },
+            {
+                "normalized_label": "൧൪൪"
+            },
+            {
+                "normalized_label": "൧൪൫"
+            },
+            {
+                "normalized_label": "൧൪൬"
+            },
+            {
+                "normalized_label": "൧൪൭"
+            },
+            {
+                "normalized_label": "൧൪൮"
+            },
+            {
+                "normalized_label": "൧൪൯"
+            },
+            {
+                "normalized_label": "൧൫൦"
+            },
+            {
+                "normalized_label": "൧൫൧"
+            },
+            {
+                "normalized_label": "൧൫൨"
+            },
+            {
+                "normalized_label": "൧൫൩"
+            },
+            {
+                "normalized_label": "൧൫൪"
+            },
+            {
+                "normalized_label": "൧൫൫"
+            },
+            {
+                "normalized_label": "൧൫൬"
+            },
+            {
+                "normalized_label": "൧൫൭"
+            },
+            {
+                "normalized_label": "൧൫൮"
+            },
+            {
+                "normalized_label": "൧൫൯"
+            },
+            {
+                "normalized_label": "൧൬൦"
+            },
+            {
+                "normalized_label": "൧൬൧"
+            },
+            {
+                "normalized_label": "൧൬൨"
+            },
+            {
+                "normalized_label": "൧൬൩"
+            },
+            {
+                "normalized_label": "൧൬൪"
+            },
+            {
+                "normalized_label": "൧൬൫"
+            },
+            {
+                "normalized_label": "൧൬൬"
+            },
+            {
+                "normalized_label": "൧൬൭"
+            },
+            {
+                "normalized_label": "൧൬൮"
+            },
+            {
+                "normalized_label": "൧൬൯"
+            },
+            {
+                "normalized_label": "൧൭൦"
+            },
+            {
+                "normalized_label": "൧൭൧"
+            },
+            {
+                "normalized_label": "൧൭൨"
+            },
+            {
+                "normalized_label": "൧൭൩"
+            },
+            {
+                "normalized_label": "൧൭൪"
+            },
+            {
+                "normalized_label": "൧൭൫"
+            },
+            {
+                "normalized_label": "൧൭൬"
+            },
+            {
+                "normalized_label": "൧൭൭"
+            },
+            {
+                "normalized_label": "൧൭൮"
+            },
+            {
+                "normalized_label": "൧൭൯"
+            },
+            {
+                "normalized_label": "൧൮൦"
+            },
+            {
+                "normalized_label": "൧൮൧"
+            },
+            {
+                "normalized_label": "൧൮൨"
+            },
+            {
+                "normalized_label": "൧൮൩"
+            },
+            {
+                "normalized_label": "൧൮൪"
+            },
+            {
+                "normalized_label": "൧൮൫"
+            },
+            {
+                "normalized_label": "൧൮൬"
+            },
+            {
+                "normalized_label": "൧൮൭"
+            },
+            {
+                "normalized_label": "൧൮൮"
+            },
+            {
+                "normalized_label": "൧൮൯"
+            },
+            {
+                "normalized_label": "൧൯൦"
+            },
+            {
+                "normalized_label": "൧൯൧"
+            },
+            {
+                "normalized_label": "൧൯൨"
+            },
+            {
+                "normalized_label": "൧൯൩"
+            },
+            {
+                "normalized_label": "൧൯൪"
+            },
+            {
+                "normalized_label": "൧൯൫"
+            },
+            {
+                "normalized_label": "൧൯൬"
+            },
+            {
+                "normalized_label": "൧൯൭"
+            },
+            {
+                "normalized_label": "൧൯൮"
+            },
+            {
+                "normalized_label": "൧൯൯"
+            },
+            {
+                "normalized_label": "൨൦൦"
+            },
+            {
+                "normalized_label": "൨൦൧"
+            },
+            {
+                "normalized_label": "൨൦൨"
+            },
+            {
+                "normalized_label": "൨൦൩"
+            },
+            {
+                "normalized_label": "൨൦൪"
+            },
+            {
+                "normalized_label": "൨൦൫"
+            },
+            {
+                "normalized_label": "൨൦൬"
+            },
+            {
+                "normalized_label": "൨൦൭"
+            },
+            {
+                "normalized_label": "൨൦൮"
+            },
+            {
+                "normalized_label": "൨൦൯"
+            },
+            {
+                "normalized_label": "൨൧൦"
+            },
+            {
+                "normalized_label": "൨൧൧"
+            },
+            {
+                "normalized_label": "൨൧൨"
+            },
+            {
+                "normalized_label": "൨൧൩"
+            },
+            {
+                "normalized_label": "൨൧൪"
+            },
+            {
+                "normalized_label": "൨൧൫"
+            },
+            {
+                "normalized_label": "൨൧൬"
+            },
+            {
+                "normalized_label": "൨൧൭"
+            },
+            {
+                "normalized_label": "൨൧൮"
+            },
+            {
+                "normalized_label": "൨൧൯"
+            },
+            {
+                "normalized_label": "൨൨൦"
+            },
+            {
+                "normalized_label": "൨൨൧"
+            },
+            {
+                "normalized_label": "൨൨൨"
+            },
+            {
+                "normalized_label": "൨൨൩"
+            },
+            {
+                "normalized_label": "൨൨൪"
+            },
+            {
+                "normalized_label": "൨൨൫"
+            },
+            {
+                "normalized_label": "൨൨൬"
+            },
+            {
+                "normalized_label": "൨൨൭"
+            },
+            {
+                "normalized_label": "൨൨൮"
+            },
+            {
+                "normalized_label": "൨൨൯"
+            },
+            {
+                "normalized_label": "൨൩൦"
+            },
+            {
+                "normalized_label": "൨൩൧"
+            },
+            {
+                "normalized_label": "൨൩൨"
+            },
+            {
+                "normalized_label": "൨൩൩"
+            },
+            {
+                "normalized_label": "൨൩൪"
+            },
+            {
+                "normalized_label": "൨൩൫"
+            },
+            {
+                "normalized_label": "൨൩൬"
+            },
+            {
+                "normalized_label": "൨൩൭"
+            },
+            {
+                "normalized_label": "൨൩൮"
+            },
+            {
+                "normalized_label": "൨൩൯"
+            },
+            {
+                "normalized_label": "൨൪൦"
+            },
+            {
+                "normalized_label": "൨൪൧"
+            },
+            {
+                "normalized_label": "൨൪൨"
+            },
+            {
+                "normalized_label": "൨൪൩"
+            },
+            {
+                "normalized_label": "൨൪൪"
+            },
+            {
+                "normalized_label": "൨൪൫"
+            },
+            {
+                "normalized_label": "൨൪൬"
+            },
+            {
+                "normalized_label": "൨൪൭"
+            },
+            {
+                "normalized_label": "൨൪൮"
+            },
+            {
+                "normalized_label": "൨൪൯"
+            },
+            {
+                "normalized_label": "൨൫൦"
+            },
+            {
+                "normalized_label": "൨൫൧"
+            },
+            {
+                "normalized_label": "൨൫൨"
+            },
+            {
+                "normalized_label": "൨൫൩"
+            },
+            {
+                "normalized_label": "൨൫൪"
+            },
+            {
+                "normalized_label": "൨൫൫"
+            },
+            {
+                "normalized_label": "൨൫൬"
+            },
+            {
+                "normalized_label": "൨൫൭"
+            },
+            {
+                "normalized_label": "൨൫൮"
+            },
+            {
+                "normalized_label": "൨൫൯"
+            },
+            {
+                "normalized_label": "൨൬൦"
+            },
+            {
+                "normalized_label": "൨൬൧"
+            },
+            {
+                "normalized_label": "൨൬൨"
+            },
+            {
+                "normalized_label": "൨൬൩"
+            },
+            {
+                "normalized_label": "൨൬൪"
+            },
+            {
+                "normalized_label": "൨൬൫"
+            },
+            {
+                "normalized_label": "൨൬൬"
+            },
+            {
+                "normalized_label": "൨൬൭"
+            },
+            {
+                "normalized_label": "൨൬൮"
+            },
+            {
+                "normalized_label": "൨൬൯"
+            },
+            {
+                "normalized_label": "൨൭൦"
+            },
+            {
+                "normalized_label": "൨൭൧"
+            },
+            {
+                "normalized_label": "൨൭൨"
+            },
+            {
+                "normalized_label": "൨൭൩"
+            },
+            {
+                "normalized_label": "൨൭൪"
+            },
+            {
+                "normalized_label": "൨൭൫"
+            },
+            {
+                "normalized_label": "൨൭൬"
+            },
+            {
+                "normalized_label": "൨൭൭"
+            },
+            {
+                "normalized_label": "൨൭൮"
+            },
+            {
+                "normalized_label": "൨൭൯"
+            },
+            {
+                "normalized_label": "൨൮൦"
+            },
+            {
+                "normalized_label": "൨൮൧"
+            },
+            {
+                "normalized_label": "൨൮൨"
+            },
+            {
+                "normalized_label": "൨൮൩"
+            },
+            {
+                "normalized_label": "൨൮൪"
+            },
+            {
+                "normalized_label": "൨൮൫"
+            },
+            {
+                "normalized_label": "൨൮൬"
+            },
+            {
+                "normalized_label": "൨൮൭"
+            },
+            {
+                "normalized_label": "൨൮൮"
+            },
+            {
+                "normalized_label": "൨൮൯"
+            },
+            {
+                "normalized_label": "൨൯൦"
+            },
+            {
+                "normalized_label": "൨൯൧"
+            },
+            {
+                "normalized_label": "൨൯൨"
+            },
+            {
+                "normalized_label": "൨൯൩"
+            },
+            {
+                "normalized_label": "൨൯൪"
+            },
+            {
+                "normalized_label": "൨൯൫"
+            },
+            {
+                "normalized_label": "൨൯൬"
+            },
+            {
+                "normalized_label": "൨൯൭"
+            },
+            {
+                "normalized_label": "൨൯൮"
+            },
+            {
+                "normalized_label": "൨൯൯"
+            },
+            {
+                "normalized_label": "൩൦൦"
+            },
+            {
+                "normalized_label": "൩൦൧"
+            },
+            {
+                "normalized_label": "൩൦൨"
+            },
+            {
+                "normalized_label": "൩൦൩"
+            },
+            {
+                "normalized_label": "൩൦൪"
+            },
+            {
+                "normalized_label": "൩൦൫"
+            },
+            {
+                "normalized_label": "൩൦൬"
+            },
+            {
+                "normalized_label": "൩൦൭"
+            },
+            {
+                "normalized_label": "൩൦൮"
+            },
+            {
+                "normalized_label": "൩൦൯"
+            },
+            {
+                "normalized_label": "൩൧൦"
+            },
+            {
+                "normalized_label": "൩൧൧"
+            },
+            {
+                "normalized_label": "൩൧൨"
+            },
+            {
+                "normalized_label": "൩൧൩"
+            },
+            {
+                "normalized_label": "൩൧൪"
+            },
+            {
+                "normalized_label": "൩൧൫"
+            },
+            {
+                "normalized_label": "൩൧൬"
+            },
+            {
+                "normalized_label": "൩൧൭"
+            },
+            {
+                "normalized_label": "൩൧൮"
+            },
+            {
+                "normalized_label": "൩൧൯"
+            },
+            {
+                "normalized_label": "൩൨൦"
+            },
+            {
+                "normalized_label": "൩൨൧"
+            },
+            {
+                "normalized_label": "൩൨൨"
+            },
+            {
+                "normalized_label": "൩൨൩"
+            },
+            {
+                "normalized_label": "൩൨൪"
+            },
+            {
+                "normalized_label": "൩൨൫"
+            },
+            {
+                "normalized_label": "൩൨൬"
+            },
+            {
+                "normalized_label": "൩൨൭"
+            },
+            {
+                "normalized_label": "൩൨൮"
+            },
+            {
+                "normalized_label": "൩൨൯"
+            },
+            {
+                "normalized_label": "൩൩൦"
+            },
+            {
+                "normalized_label": "൩൩൧"
+            },
+            {
+                "normalized_label": "൩൩൨"
+            },
+            {
+                "normalized_label": "൩൩൩"
+            },
+            {
+                "normalized_label": "൩൩൪"
+            },
+            {
+                "normalized_label": "൩൩൫"
+            },
+            {
+                "normalized_label": "൩൩൬"
+            },
+            {
+                "normalized_label": "൩൩൭"
+            },
+            {
+                "normalized_label": "൩൩൮"
+            },
+            {
+                "normalized_label": "൩൩൯"
+            },
+            {
+                "normalized_label": "൩൪൦"
+            },
+            {
+                "normalized_label": "൩൪൧"
+            },
+            {
+                "normalized_label": "൩൪൨"
+            },
+            {
+                "normalized_label": "൩൪൩"
+            },
+            {
+                "normalized_label": "൩൪൪"
+            },
+            {
+                "normalized_label": "൩൪൫"
+            },
+            {
+                "normalized_label": "൩൪൬"
+            },
+            {
+                "normalized_label": "൩൪൭"
+            },
+            {
+                "normalized_label": "൩൪൮"
+            },
+            {
+                "normalized_label": "൩൪൯"
+            },
+            {
+                "normalized_label": "൩൫൦"
+            },
+            {
+                "normalized_label": "൩൫൧"
+            },
+            {
+                "normalized_label": "൩൫൨"
+            },
+            {
+                "normalized_label": "൩൫൩"
+            },
+            {
+                "normalized_label": "൩൫൪"
+            },
+            {
+                "normalized_label": "൩൫൫"
+            },
+            {
+                "normalized_label": "൩൫൬"
+            },
+            {
+                "normalized_label": "൩൫൭"
+            },
+            {
+                "normalized_label": "൩൫൮"
+            },
+            {
+                "normalized_label": "൩൫൯"
+            },
+            {
+                "normalized_label": "൩൬൦"
+            },
+            {
+                "normalized_label": "൩൬൧"
+            },
+            {
+                "normalized_label": "൩൬൨"
+            },
+            {
+                "normalized_label": "൩൬൩"
+            },
+            {
+                "normalized_label": "൩൬൪"
+            },
+            {
+                "normalized_label": "൩൬൫"
+            },
+            {
+                "normalized_label": "൩൬൬"
+            },
+            {
+                "normalized_label": "൩൬൭"
+            },
+            {
+                "normalized_label": "൩൬൮"
+            },
+            {
+                "normalized_label": "൩൬൯"
+            },
+            {
+                "normalized_label": "൩൭൦"
+            },
+            {
+                "normalized_label": "൩൭൧"
+            },
+            {
+                "normalized_label": "൩൭൨"
+            },
+            {
+                "normalized_label": "൩൭൩"
+            },
+            {
+                "normalized_label": "൩൭൪"
+            },
+            {
+                "normalized_label": "൩൭൫"
+            },
+            {
+                "normalized_label": "൩൭൬"
+            },
+            {
+                "normalized_label": "൩൭൭"
+            },
+            {
+                "normalized_label": "൩൭൮"
+            },
+            {
+                "normalized_label": "൩൭൯"
+            },
+            {
+                "normalized_label": "൩൮൦"
+            },
+            {
+                "normalized_label": "൩൮൧"
+            },
+            {
+                "normalized_label": "൩൮൨"
+            },
+            {
+                "normalized_label": "൩൮൩"
+            },
+            {
+                "normalized_label": "൩൮൪"
+            },
+            {
+                "normalized_label": "൩൮൫"
+            },
+            {
+                "normalized_label": "൩൮൬"
+            },
+            {
+                "normalized_label": "൩൮൭"
+            },
+            {
+                "normalized_label": "൩൮൮"
+            },
+            {
+                "normalized_label": "൩൮൯"
+            },
+            {
+                "normalized_label": "൩൯൦"
+            },
+            {
+                "normalized_label": "൩൯൧"
+            },
+            {
+                "normalized_label": "൩൯൨"
+            },
+            {
+                "normalized_label": "൩൯൩"
+            },
+            {
+                "normalized_label": "൩൯൪"
+            },
+            {
+                "normalized_label": "൩൯൫"
+            },
+            {
+                "normalized_label": "൩൯൬"
+            },
+            {
+                "normalized_label": "൩൯൭"
+            },
+            {
+                "normalized_label": "൩൯൮"
+            },
+            {
+                "normalized_label": "൩൯൯"
+            },
+            {
+                "normalized_label": "൪൦൦"
+            },
+            {
+                "normalized_label": "൪൦൧"
+            },
+            {
+                "normalized_label": "൪൦൨"
+            },
+            {
+                "normalized_label": "൪൦൩"
+            },
+            {
+                "normalized_label": "൪൦൪"
+            },
+            {
+                "normalized_label": "൪൦൫"
+            },
+            {
+                "normalized_label": "൪൦൬"
+            },
+            {
+                "normalized_label": "൪൦൭"
+            },
+            {
+                "normalized_label": "൪൦൮"
+            },
+            {
+                "normalized_label": "൪൦൯"
+            },
+            {
+                "normalized_label": "൪൧൦"
+            },
+            {
+                "normalized_label": "൪൧൧"
+            },
+            {
+                "normalized_label": "൪൧൨"
+            },
+            {
+                "normalized_label": "൪൧൩"
+            },
+            {
+                "normalized_label": "൪൧൪"
+            },
+            {
+                "normalized_label": "൪൧൫"
+            },
+            {
+                "normalized_label": "൪൧൬"
+            },
+            {
+                "normalized_label": "൪൧൭"
+            },
+            {
+                "normalized_label": "൪൧൮"
+            },
+            {
+                "normalized_label": "൪൧൯"
+            },
+            {
+                "normalized_label": "൪൨൦"
+            },
+            {
+                "normalized_label": "൪൨൧"
+            },
+            {
+                "normalized_label": "൪൨൨"
+            },
+            {
+                "normalized_label": "൪൨൩"
+            },
+            {
+                "normalized_label": "൪൨൪"
+            },
+            {
+                "normalized_label": "൪൨൫"
+            },
+            {
+                "normalized_label": "൪൨൬"
+            },
+            {
+                "normalized_label": "൪൨൭"
+            },
+            {
+                "normalized_label": "൪൨൮"
+            },
+            {
+                "normalized_label": "൪൨൯"
+            },
+            {
+                "normalized_label": "൪൩൦"
+            },
+            {
+                "normalized_label": "൪൩൧"
+            },
+            {
+                "normalized_label": "൪൩൨"
+            },
+            {
+                "normalized_label": "൪൩൩"
+            },
+            {
+                "normalized_label": "൪൩൪"
+            },
+            {
+                "normalized_label": "൪൩൫"
+            },
+            {
+                "normalized_label": "൪൩൬"
+            },
+            {
+                "normalized_label": "൪൩൭"
+            },
+            {
+                "normalized_label": "൪൩൮"
+            },
+            {
+                "normalized_label": "൪൩൯"
+            },
+            {
+                "normalized_label": "൪൪൦"
+            },
+            {
+                "normalized_label": "൪൪൧"
+            },
+            {
+                "normalized_label": "൪൪൨"
+            },
+            {
+                "normalized_label": "൪൪൩"
+            },
+            {
+                "normalized_label": "൪൪൪"
+            },
+            {
+                "normalized_label": "൪൪൫"
+            },
+            {
+                "normalized_label": "൪൪൬"
+            },
+            {
+                "normalized_label": "൪൪൭"
+            },
+            {
+                "normalized_label": "൪൪൮"
+            },
+            {
+                "normalized_label": "൪൪൯"
+            },
+            {
+                "normalized_label": "൪൫൦"
+            },
+            {
+                "normalized_label": "൪൫൧"
+            },
+            {
+                "normalized_label": "൪൫൨"
+            },
+            {
+                "normalized_label": "൪൫൩"
+            },
+            {
+                "normalized_label": "൪൫൪"
+            },
+            {
+                "normalized_label": "൪൫൫"
+            },
+            {
+                "normalized_label": "൪൫൬"
+            },
+            {
+                "normalized_label": "൪൫൭"
+            },
+            {
+                "normalized_label": "൪൫൮"
+            },
+            {
+                "normalized_label": "൪൫൯"
+            },
+            {
+                "normalized_label": "൪൬൦"
+            },
+            {
+                "normalized_label": "൪൬൧"
+            },
+            {
+                "normalized_label": "൪൬൨"
+            },
+            {
+                "normalized_label": "൪൬൩"
+            },
+            {
+                "normalized_label": "൪൬൪"
+            },
+            {
+                "normalized_label": "൪൬൫"
+            },
+            {
+                "normalized_label": "൪൬൬"
+            },
+            {
+                "normalized_label": "൪൬൭"
+            },
+            {
+                "normalized_label": "൪൬൮"
+            },
+            {
+                "normalized_label": "൪൬൯"
+            },
+            {
+                "normalized_label": "൪൭൦"
+            },
+            {
+                "normalized_label": "൪൭൧"
+            },
+            {
+                "normalized_label": "൪൭൨"
+            },
+            {
+                "normalized_label": "൪൭൩"
+            },
+            {
+                "normalized_label": "൪൭൪"
+            },
+            {
+                "normalized_label": "൪൭൫"
+            },
+            {
+                "normalized_label": "൪൭൬"
+            },
+            {
+                "normalized_label": "൪൭൭"
+            },
+            {
+                "normalized_label": "൪൭൮"
+            },
+            {
+                "normalized_label": "൪൭൯"
+            },
+            {
+                "normalized_label": "൪൮൦"
+            },
+            {
+                "normalized_label": "൪൮൧"
+            },
+            {
+                "normalized_label": "൪൮൨"
+            },
+            {
+                "normalized_label": "൪൮൩"
+            },
+            {
+                "normalized_label": "൪൮൪"
+            },
+            {
+                "normalized_label": "൪൮൫"
+            },
+            {
+                "normalized_label": "൪൮൬"
+            },
+            {
+                "normalized_label": "൪൮൭"
+            },
+            {
+                "normalized_label": "൪൮൮"
+            },
+            {
+                "normalized_label": "൪൮൯"
+            },
+            {
+                "normalized_label": "൪൯൦"
+            },
+            {
+                "normalized_label": "൪൯൧"
+            },
+            {
+                "normalized_label": "൪൯൨"
+            },
+            {
+                "normalized_label": "൪൯൩"
+            },
+            {
+                "normalized_label": "൪൯൪"
+            },
+            {
+                "normalized_label": "൪൯൫"
+            },
+            {
+                "normalized_label": "൪൯൬"
+            },
+            {
+                "normalized_label": "൪൯൭"
+            },
+            {
+                "normalized_label": "൪൯൮"
+            },
+            {
+                "normalized_label": "൪൯൯"
+            },
+            {
+                "normalized_label": "൫൦൦"
+            },
+            {
+                "normalized_label": "൫൦൧"
+            },
+            {
+                "normalized_label": "൫൦൨"
+            },
+            {
+                "normalized_label": "൫൦൩"
+            },
+            {
+                "normalized_label": "൫൦൪"
+            },
+            {
+                "normalized_label": "൫൦൫"
+            },
+            {
+                "normalized_label": "൫൦൬"
+            },
+            {
+                "normalized_label": "൫൦൭"
+            },
+            {
+                "normalized_label": "൫൦൮"
+            },
+            {
+                "normalized_label": "൫൦൯"
+            },
+            {
+                "normalized_label": "൫൧൦"
+            },
+            {
+                "normalized_label": "൫൧൧"
+            },
+            {
+                "normalized_label": "൫൧൨"
+            },
+            {
+                "normalized_label": "൫൧൩"
+            },
+            {
+                "normalized_label": "൫൧൪"
+            },
+            {
+                "normalized_label": "൫൧൫"
+            },
+            {
+                "normalized_label": "൫൧൬"
+            },
+            {
+                "normalized_label": "൫൧൭"
+            },
+            {
+                "normalized_label": "൫൧൮"
+            },
+            {
+                "normalized_label": "൫൧൯"
+            },
+            {
+                "normalized_label": "൫൨൦"
+            },
+            {
+                "normalized_label": "൫൨൧"
+            },
+            {
+                "normalized_label": "൫൨൨"
+            },
+            {
+                "normalized_label": "൫൨൩"
+            },
+            {
+                "normalized_label": "൫൨൪"
+            },
+            {
+                "normalized_label": "൫൨൫"
+            },
+            {
+                "normalized_label": "൫൨൬"
+            },
+            {
+                "normalized_label": "൫൨൭"
+            },
+            {
+                "normalized_label": "൫൨൮"
+            },
+            {
+                "normalized_label": "൫൨൯"
+            },
+            {
+                "normalized_label": "൫൩൦"
+            },
+            {
+                "normalized_label": "൫൩൧"
+            },
+            {
+                "normalized_label": "൫൩൨"
+            },
+            {
+                "normalized_label": "൫൩൩"
+            },
+            {
+                "normalized_label": "൫൩൪"
+            },
+            {
+                "normalized_label": "൫൩൫"
+            },
+            {
+                "normalized_label": "൫൩൬"
+            },
+            {
+                "normalized_label": "൫൩൭"
+            },
+            {
+                "normalized_label": "൫൩൮"
+            },
+            {
+                "normalized_label": "൫൩൯"
+            },
+            {
+                "normalized_label": "൫൪൦"
+            },
+            {
+                "normalized_label": "൫൪൧"
+            },
+            {
+                "normalized_label": "൫൪൨"
+            },
+            {
+                "normalized_label": "൫൪൩"
+            },
+            {
+                "normalized_label": "൫൪൪"
+            },
+            {
+                "normalized_label": "൫൪൫"
+            },
+            {
+                "normalized_label": "൫൪൬"
+            },
+            {
+                "normalized_label": "൫൪൭"
+            },
+            {
+                "normalized_label": "൫൪൮"
+            },
+            {
+                "normalized_label": "൫൪൯"
+            },
+            {
+                "normalized_label": "൫൫൦"
+            },
+            {
+                "normalized_label": "൫൫൧"
+            },
+            {
+                "normalized_label": "൫൫൨"
+            },
+            {
+                "normalized_label": "൫൫൩"
+            },
+            {
+                "normalized_label": "൫൫൪"
+            },
+            {
+                "normalized_label": "൫൫൫"
+            },
+            {
+                "normalized_label": "൫൫൬"
+            },
+            {
+                "normalized_label": "൫൫൭"
+            },
+            {
+                "normalized_label": "൫൫൮"
+            },
+            {
+                "normalized_label": "൫൫൯"
+            },
+            {
+                "normalized_label": "൫൬൦"
+            },
+            {
+                "normalized_label": "൫൬൧"
+            },
+            {
+                "normalized_label": "൫൬൨"
+            },
+            {
+                "normalized_label": "൫൬൩"
+            },
+            {
+                "normalized_label": "൫൬൪"
+            },
+            {
+                "normalized_label": "൫൬൫"
+            },
+            {
+                "normalized_label": "൫൬൬"
+            },
+            {
+                "normalized_label": "൫൬൭"
+            },
+            {
+                "normalized_label": "൫൬൮"
+            },
+            {
+                "normalized_label": "൫൬൯"
+            },
+            {
+                "normalized_label": "൫൭൦"
+            },
+            {
+                "normalized_label": "൫൭൧"
+            },
+            {
+                "normalized_label": "൫൭൨"
+            },
+            {
+                "normalized_label": "൫൭൩"
+            },
+            {
+                "normalized_label": "൫൭൪"
+            },
+            {
+                "normalized_label": "൫൭൫"
+            },
+            {
+                "normalized_label": "൫൭൬"
+            },
+            {
+                "normalized_label": "൫൭൭"
+            },
+            {
+                "normalized_label": "൫൭൮"
+            },
+            {
+                "normalized_label": "൫൭൯"
+            },
+            {
+                "normalized_label": "൫൮൦"
+            },
+            {
+                "normalized_label": "൫൮൧"
+            },
+            {
+                "normalized_label": "൫൮൨"
+            },
+            {
+                "normalized_label": "൫൮൩"
+            },
+            {
+                "normalized_label": "൫൮൪"
+            },
+            {
+                "normalized_label": "൫൮൫"
+            },
+            {
+                "normalized_label": "൫൮൬"
+            },
+            {
+                "normalized_label": "൫൮൭"
+            },
+            {
+                "normalized_label": "൫൮൮"
+            },
+            {
+                "normalized_label": "൫൮൯"
+            },
+            {
+                "normalized_label": "൫൯൦"
+            },
+            {
+                "normalized_label": "൫൯൧"
+            },
+            {
+                "normalized_label": "൫൯൨"
+            },
+            {
+                "normalized_label": "൫൯൩"
+            },
+            {
+                "normalized_label": "൫൯൪"
+            },
+            {
+                "normalized_label": "൫൯൫"
+            },
+            {
+                "normalized_label": "൫൯൬"
+            },
+            {
+                "normalized_label": "൫൯൭"
+            },
+            {
+                "normalized_label": "൫൯൮"
+            },
+            {
+                "normalized_label": "൫൯൯"
+            },
+            {
+                "normalized_label": "൬൦൦"
+            },
+            {
+                "normalized_label": "൬൦൧"
+            },
+            {
+                "normalized_label": "൬൦൨"
+            },
+            {
+                "normalized_label": "൬൦൩"
+            },
+            {
+                "normalized_label": "൬൦൪"
+            },
+            {
+                "normalized_label": "൬൦൫"
+            },
+            {
+                "normalized_label": "൬൦൬"
+            },
+            {
+                "normalized_label": "൬൦൭"
+            },
+            {
+                "normalized_label": "൬൦൮"
+            },
+            {
+                "normalized_label": "൬൦൯"
+            },
+            {
+                "normalized_label": "൬൧൦"
+            },
+            {
+                "normalized_label": "൬൧൧"
+            },
+            {
+                "normalized_label": "൬൧൨"
+            },
+            {
+                "normalized_label": "൬൧൩"
+            },
+            {
+                "normalized_label": "൬൧൪"
+            },
+            {
+                "normalized_label": "൬൧൫"
+            },
+            {
+                "normalized_label": "൬൧൬"
+            },
+            {
+                "normalized_label": "൬൧൭"
+            },
+            {
+                "normalized_label": "൬൧൮"
+            },
+            {
+                "normalized_label": "൬൧൯"
+            },
+            {
+                "normalized_label": "൬൨൦"
+            },
+            {
+                "normalized_label": "൬൨൧"
+            },
+            {
+                "normalized_label": "൬൨൨"
+            },
+            {
+                "normalized_label": "൬൨൩"
+            },
+            {
+                "normalized_label": "൬൨൪"
+            },
+            {
+                "normalized_label": "൬൨൫"
+            },
+            {
+                "normalized_label": "൬൨൬"
+            },
+            {
+                "normalized_label": "൬൨൭"
+            },
+            {
+                "normalized_label": "൬൨൮"
+            },
+            {
+                "normalized_label": "൬൨൯"
+            },
+            {
+                "normalized_label": "൬൩൦"
+            },
+            {
+                "normalized_label": "൬൩൧"
+            },
+            {
+                "normalized_label": "൬൩൨"
+            },
+            {
+                "normalized_label": "൬൩൩"
+            },
+            {
+                "normalized_label": "൬൩൪"
+            },
+            {
+                "normalized_label": "൬൩൫"
+            },
+            {
+                "normalized_label": "൬൩൬"
+            },
+            {
+                "normalized_label": "൬൩൭"
+            },
+            {
+                "normalized_label": "൬൩൮"
+            },
+            {
+                "normalized_label": "൬൩൯"
+            },
+            {
+                "normalized_label": "൬൪൦"
+            },
+            {
+                "normalized_label": "൬൪൧"
+            },
+            {
+                "normalized_label": "൬൪൨"
+            },
+            {
+                "normalized_label": "൬൪൩"
+            },
+            {
+                "normalized_label": "൬൪൪"
+            },
+            {
+                "normalized_label": "൬൪൫"
+            },
+            {
+                "normalized_label": "൬൪൬"
+            },
+            {
+                "normalized_label": "൬൪൭"
+            },
+            {
+                "normalized_label": "൬൪൮"
+            },
+            {
+                "normalized_label": "൬൪൯"
+            },
+            {
+                "normalized_label": "൬൫൦"
+            },
+            {
+                "normalized_label": "൬൫൧"
+            },
+            {
+                "normalized_label": "൬൫൨"
+            },
+            {
+                "normalized_label": "൬൫൩"
+            },
+            {
+                "normalized_label": "൬൫൪"
+            },
+            {
+                "normalized_label": "൬൫൫"
+            },
+            {
+                "normalized_label": "൬൫൬"
+            },
+            {
+                "normalized_label": "൬൫൭"
+            },
+            {
+                "normalized_label": "൬൫൮"
+            },
+            {
+                "normalized_label": "൬൫൯"
+            },
+            {
+                "normalized_label": "൬൬൦"
+            },
+            {
+                "normalized_label": "൬൬൧"
+            },
+            {
+                "normalized_label": "൬൬൨"
+            },
+            {
+                "normalized_label": "൬൬൩"
+            },
+            {
+                "normalized_label": "൬൬൪"
+            },
+            {
+                "normalized_label": "൬൬൫"
+            },
+            {
+                "normalized_label": "൬൬൬"
+            },
+            {
+                "normalized_label": "൬൬൭"
+            },
+            {
+                "normalized_label": "൬൬൮"
+            },
+            {
+                "normalized_label": "൬൬൯"
+            },
+            {
+                "normalized_label": "൬൭൦"
+            },
+            {
+                "normalized_label": "൬൭൧"
+            },
+            {
+                "normalized_label": "൬൭൨"
+            },
+            {
+                "normalized_label": "൬൭൩"
+            },
+            {
+                "normalized_label": "൬൭൪"
+            },
+            {
+                "normalized_label": "൬൭൫"
+            },
+            {
+                "normalized_label": "൬൭൬"
+            },
+            {
+                "normalized_label": "൬൭൭"
+            },
+            {
+                "normalized_label": "൬൭൮"
+            },
+            {
+                "normalized_label": "൬൭൯"
+            },
+            {
+                "normalized_label": "൬൮൦"
+            },
+            {
+                "normalized_label": "൬൮൧"
+            },
+            {
+                "normalized_label": "൬൮൨"
+            },
+            {
+                "normalized_label": "൬൮൩"
+            },
+            {
+                "normalized_label": "൬൮൪"
+            },
+            {
+                "normalized_label": "൬൮൫"
+            },
+            {
+                "normalized_label": "൬൮൬"
+            },
+            {
+                "normalized_label": "൬൮൭"
+            },
+            {
+                "normalized_label": "൬൮൮"
+            },
+            {
+                "normalized_label": "൬൮൯"
+            },
+            {
+                "normalized_label": "൬൯൦"
+            },
+            {
+                "normalized_label": "൬൯൧"
+            },
+            {
+                "normalized_label": "൬൯൨"
+            },
+            {
+                "normalized_label": "൬൯൩"
+            },
+            {
+                "normalized_label": "൬൯൪"
+            },
+            {
+                "normalized_label": "൬൯൫"
+            },
+            {
+                "normalized_label": "൬൯൬"
+            },
+            {
+                "normalized_label": "൬൯൭"
+            },
+            {
+                "normalized_label": "൬൯൮"
+            },
+            {
+                "normalized_label": "൬൯൯"
+            },
+            {
+                "normalized_label": "൭൦൦"
+            },
+            {
+                "normalized_label": "൭൦൧"
+            },
+            {
+                "normalized_label": "൭൦൨"
+            },
+            {
+                "normalized_label": "൭൦൩"
+            },
+            {
+                "normalized_label": "൭൦൪"
+            },
+            {
+                "normalized_label": "൭൦൫"
+            },
+            {
+                "normalized_label": "൭൦൬"
+            },
+            {
+                "normalized_label": "൭൦൭"
+            },
+            {
+                "normalized_label": "൭൦൮"
+            },
+            {
+                "normalized_label": "൭൦൯"
+            },
+            {
+                "normalized_label": "൭൧൦"
+            },
+            {
+                "normalized_label": "൭൧൧"
+            },
+            {
+                "normalized_label": "൭൧൨"
+            },
+            {
+                "normalized_label": "൭൧൩"
+            },
+            {
+                "normalized_label": "൭൧൪"
+            },
+            {
+                "normalized_label": "൭൧൫"
+            },
+            {
+                "normalized_label": "൭൧൬"
+            },
+            {
+                "normalized_label": "൭൧൭"
+            },
+            {
+                "normalized_label": "൭൧൮"
+            },
+            {
+                "normalized_label": "൭൧൯"
+            },
+            {
+                "normalized_label": "൭൨൦"
+            },
+            {
+                "normalized_label": "൭൨൧"
+            },
+            {
+                "normalized_label": "൭൨൨"
+            },
+            {
+                "normalized_label": "൭൨൩"
+            },
+            {
+                "normalized_label": "൭൨൪"
+            },
+            {
+                "normalized_label": "൭൨൫"
+            },
+            {
+                "normalized_label": "൭൨൬"
+            },
+            {
+                "normalized_label": "൭൨൭"
+            },
+            {
+                "normalized_label": "൭൨൮"
+            },
+            {
+                "normalized_label": "൭൨൯"
+            },
+            {
+                "normalized_label": "൭൩൦"
+            },
+            {
+                "normalized_label": "൭൩൧"
+            },
+            {
+                "normalized_label": "൭൩൨"
+            },
+            {
+                "normalized_label": "൭൩൩"
+            },
+            {
+                "normalized_label": "൭൩൪"
+            },
+            {
+                "normalized_label": "൭൩൫"
+            },
+            {
+                "normalized_label": "൭൩൬"
+            },
+            {
+                "normalized_label": "൭൩൭"
+            },
+            {
+                "normalized_label": "൭൩൮"
+            },
+            {
+                "normalized_label": "൭൩൯"
+            },
+            {
+                "normalized_label": "൭൪൦"
+            },
+            {
+                "normalized_label": "൭൪൧"
+            },
+            {
+                "normalized_label": "൭൪൨"
+            },
+            {
+                "normalized_label": "൭൪൩"
+            },
+            {
+                "normalized_label": "൭൪൪"
+            },
+            {
+                "normalized_label": "൭൪൫"
+            },
+            {
+                "normalized_label": "൭൪൬"
+            },
+            {
+                "normalized_label": "൭൪൭"
+            },
+            {
+                "normalized_label": "൭൪൮"
+            },
+            {
+                "normalized_label": "൭൪൯"
+            },
+            {
+                "normalized_label": "൭൫൦"
+            },
+            {
+                "normalized_label": "൭൫൧"
+            },
+            {
+                "normalized_label": "൭൫൨"
+            },
+            {
+                "normalized_label": "൭൫൩"
+            },
+            {
+                "normalized_label": "൭൫൪"
+            },
+            {
+                "normalized_label": "൭൫൫"
+            },
+            {
+                "normalized_label": "൭൫൬"
+            },
+            {
+                "normalized_label": "൭൫൭"
+            },
+            {
+                "normalized_label": "൭൫൮"
+            },
+            {
+                "normalized_label": "൭൫൯"
+            },
+            {
+                "normalized_label": "൭൬൦"
+            },
+            {
+                "normalized_label": "൭൬൧"
+            },
+            {
+                "normalized_label": "൭൬൨"
+            },
+            {
+                "normalized_label": "൭൬൩"
+            },
+            {
+                "normalized_label": "൭൬൪"
+            },
+            {
+                "normalized_label": "൭൬൫"
+            },
+            {
+                "normalized_label": "൭൬൬"
+            },
+            {
+                "normalized_label": "൭൬൭"
+            },
+            {
+                "normalized_label": "൭൬൮"
+            },
+            {
+                "normalized_label": "൭൬൯"
+            },
+            {
+                "normalized_label": "൭൭൦"
+            },
+            {
+                "normalized_label": "൭൭൧"
+            },
+            {
+                "normalized_label": "൭൭൨"
+            },
+            {
+                "normalized_label": "൭൭൩"
+            },
+            {
+                "normalized_label": "൭൭൪"
+            },
+            {
+                "normalized_label": "൭൭൫"
+            },
+            {
+                "normalized_label": "൭൭൬"
+            },
+            {
+                "normalized_label": "൭൭൭"
+            },
+            {
+                "normalized_label": "൭൭൮"
+            },
+            {
+                "normalized_label": "൭൭൯"
+            },
+            {
+                "normalized_label": "൭൮൦"
+            },
+            {
+                "normalized_label": "൭൮൧"
+            },
+            {
+                "normalized_label": "൭൮൨"
+            },
+            {
+                "normalized_label": "൭൮൩"
+            },
+            {
+                "normalized_label": "൭൮൪"
+            },
+            {
+                "normalized_label": "൭൮൫"
+            },
+            {
+                "normalized_label": "൭൮൬"
+            },
+            {
+                "normalized_label": "൭൮൭"
+            },
+            {
+                "normalized_label": "൭൮൮"
+            },
+            {
+                "normalized_label": "൭൮൯"
+            },
+            {
+                "normalized_label": "൭൯൦"
+            },
+            {
+                "normalized_label": "൭൯൧"
+            },
+            {
+                "normalized_label": "൭൯൨"
+            },
+            {
+                "normalized_label": "൭൯൩"
+            },
+            {
+                "normalized_label": "൭൯൪"
+            },
+            {
+                "normalized_label": "൭൯൫"
+            },
+            {
+                "normalized_label": "൭൯൬"
+            },
+            {
+                "normalized_label": "൭൯൭"
+            },
+            {
+                "normalized_label": "൭൯൮"
+            },
+            {
+                "normalized_label": "൭൯൯"
+            },
+            {
+                "normalized_label": "൮൦൦"
+            },
+            {
+                "normalized_label": "൮൦൧"
+            },
+            {
+                "normalized_label": "൮൦൨"
+            },
+            {
+                "normalized_label": "൮൦൩"
+            },
+            {
+                "normalized_label": "൮൦൪"
+            },
+            {
+                "normalized_label": "൮൦൫"
+            },
+            {
+                "normalized_label": "൮൦൬"
+            },
+            {
+                "normalized_label": "൮൦൭"
+            },
+            {
+                "normalized_label": "൮൦൮"
+            },
+            {
+                "normalized_label": "൮൦൯"
+            },
+            {
+                "normalized_label": "൮൧൦"
+            },
+            {
+                "normalized_label": "൮൧൧"
+            },
+            {
+                "normalized_label": "൮൧൨"
+            },
+            {
+                "normalized_label": "൮൧൩"
+            },
+            {
+                "normalized_label": "൮൧൪"
+            },
+            {
+                "normalized_label": "൮൧൫"
+            },
+            {
+                "normalized_label": "൮൧൬"
+            },
+            {
+                "normalized_label": "൮൧൭"
+            },
+            {
+                "normalized_label": "൮൧൮"
+            },
+            {
+                "normalized_label": "൮൧൯"
+            },
+            {
+                "normalized_label": "൮൨൦"
+            },
+            {
+                "normalized_label": "൮൨൧"
+            },
+            {
+                "normalized_label": "൮൨൨"
+            },
+            {
+                "normalized_label": "൮൨൩"
+            },
+            {
+                "normalized_label": "൮൨൪"
+            },
+            {
+                "normalized_label": "൮൨൫"
+            },
+            {
+                "normalized_label": "൮൨൬"
+            },
+            {
+                "normalized_label": "൮൨൭"
+            },
+            {
+                "normalized_label": "൮൨൮"
+            },
+            {
+                "normalized_label": "൮൨൯"
+            },
+            {
+                "normalized_label": "൮൩൦"
+            },
+            {
+                "normalized_label": "൮൩൧"
+            },
+            {
+                "normalized_label": "൮൩൨"
+            },
+            {
+                "normalized_label": "൮൩൩"
+            },
+            {
+                "normalized_label": "൮൩൪"
+            },
+            {
+                "normalized_label": "൮൩൫"
+            },
+            {
+                "normalized_label": "൮൩൬"
+            },
+            {
+                "normalized_label": "൮൩൭"
+            },
+            {
+                "normalized_label": "൮൩൮"
+            },
+            {
+                "normalized_label": "൮൩൯"
+            },
+            {
+                "normalized_label": "൮൪൦"
+            },
+            {
+                "normalized_label": "൮൪൧"
+            },
+            {
+                "normalized_label": "൮൪൨"
+            },
+            {
+                "normalized_label": "൮൪൩"
+            },
+            {
+                "normalized_label": "൮൪൪"
+            },
+            {
+                "normalized_label": "൮൪൫"
+            },
+            {
+                "normalized_label": "൮൪൬"
+            },
+            {
+                "normalized_label": "൮൪൭"
+            },
+            {
+                "normalized_label": "൮൪൮"
+            },
+            {
+                "normalized_label": "൮൪൯"
+            },
+            {
+                "normalized_label": "൮൫൦"
+            },
+            {
+                "normalized_label": "൮൫൧"
+            },
+            {
+                "normalized_label": "൮൫൨"
+            },
+            {
+                "normalized_label": "൮൫൩"
+            },
+            {
+                "normalized_label": "൮൫൪"
+            },
+            {
+                "normalized_label": "൮൫൫"
+            },
+            {
+                "normalized_label": "൮൫൬"
+            },
+            {
+                "normalized_label": "൮൫൭"
+            },
+            {
+                "normalized_label": "൮൫൮"
+            },
+            {
+                "normalized_label": "൮൫൯"
+            },
+            {
+                "normalized_label": "൮൬൦"
+            },
+            {
+                "normalized_label": "൮൬൧"
+            },
+            {
+                "normalized_label": "൮൬൨"
+            },
+            {
+                "normalized_label": "൮൬൩"
+            },
+            {
+                "normalized_label": "൮൬൪"
+            },
+            {
+                "normalized_label": "൮൬൫"
+            },
+            {
+                "normalized_label": "൮൬൬"
+            },
+            {
+                "normalized_label": "൮൬൭"
+            },
+            {
+                "normalized_label": "൮൬൮"
+            },
+            {
+                "normalized_label": "൮൬൯"
+            },
+            {
+                "normalized_label": "൮൭൦"
+            },
+            {
+                "normalized_label": "൮൭൧"
+            },
+            {
+                "normalized_label": "൮൭൨"
+            },
+            {
+                "normalized_label": "൮൭൩"
+            },
+            {
+                "normalized_label": "൮൭൪"
+            },
+            {
+                "normalized_label": "൮൭൫"
+            },
+            {
+                "normalized_label": "൮൭൬"
+            },
+            {
+                "normalized_label": "൮൭൭"
+            },
+            {
+                "normalized_label": "൮൭൮"
+            },
+            {
+                "normalized_label": "൮൭൯"
+            },
+            {
+                "normalized_label": "൮൮൦"
+            },
+            {
+                "normalized_label": "൮൮൧"
+            },
+            {
+                "normalized_label": "൮൮൨"
+            },
+            {
+                "normalized_label": "൮൮൩"
+            },
+            {
+                "normalized_label": "൮൮൪"
+            },
+            {
+                "normalized_label": "൮൮൫"
+            },
+            {
+                "normalized_label": "൮൮൬"
+            },
+            {
+                "normalized_label": "൮൮൭"
+            },
+            {
+                "normalized_label": "൮൮൮"
+            },
+            {
+                "normalized_label": "൮൮൯"
+            },
+            {
+                "normalized_label": "൮൯൦"
+            },
+            {
+                "normalized_label": "൮൯൧"
+            },
+            {
+                "normalized_label": "൮൯൨"
+            },
+            {
+                "normalized_label": "൮൯൩"
+            },
+            {
+                "normalized_label": "൮൯൪"
+            },
+            {
+                "normalized_label": "൮൯൫"
+            },
+            {
+                "normalized_label": "൮൯൬"
+            },
+            {
+                "normalized_label": "൮൯൭"
+            },
+            {
+                "normalized_label": "൮൯൮"
+            },
+            {
+                "normalized_label": "൮൯൯"
+            },
+            {
+                "normalized_label": "൯൦൦"
+            },
+            {
+                "normalized_label": "൯൦൧"
+            },
+            {
+                "normalized_label": "൯൦൨"
+            },
+            {
+                "normalized_label": "൯൦൩"
+            },
+            {
+                "normalized_label": "൯൦൪"
+            },
+            {
+                "normalized_label": "൯൦൫"
+            },
+            {
+                "normalized_label": "൯൦൬"
+            },
+            {
+                "normalized_label": "൯൦൭"
+            },
+            {
+                "normalized_label": "൯൦൮"
+            },
+            {
+                "normalized_label": "൯൦൯"
+            },
+            {
+                "normalized_label": "൯൧൦"
+            },
+            {
+                "normalized_label": "൯൧൧"
+            },
+            {
+                "normalized_label": "൯൧൨"
+            },
+            {
+                "normalized_label": "൯൧൩"
+            },
+            {
+                "normalized_label": "൯൧൪"
+            },
+            {
+                "normalized_label": "൯൧൫"
+            },
+            {
+                "normalized_label": "൯൧൬"
+            },
+            {
+                "normalized_label": "൯൧൭"
+            },
+            {
+                "normalized_label": "൯൧൮"
+            },
+            {
+                "normalized_label": "൯൧൯"
+            },
+            {
+                "normalized_label": "൯൨൦"
+            },
+            {
+                "normalized_label": "൯൨൧"
+            },
+            {
+                "normalized_label": "൯൨൨"
+            },
+            {
+                "normalized_label": "൯൨൩"
+            },
+            {
+                "normalized_label": "൯൨൪"
+            },
+            {
+                "normalized_label": "൯൨൫"
+            },
+            {
+                "normalized_label": "൯൨൬"
+            },
+            {
+                "normalized_label": "൯൨൭"
+            },
+            {
+                "normalized_label": "൯൨൮"
+            },
+            {
+                "normalized_label": "൯൨൯"
+            },
+            {
+                "normalized_label": "൯൩൦"
+            },
+            {
+                "normalized_label": "൯൩൧"
+            },
+            {
+                "normalized_label": "൯൩൨"
+            },
+            {
+                "normalized_label": "൯൩൩"
+            },
+            {
+                "normalized_label": "൯൩൪"
+            },
+            {
+                "normalized_label": "൯൩൫"
+            },
+            {
+                "normalized_label": "൯൩൬"
+            },
+            {
+                "normalized_label": "൯൩൭"
+            },
+            {
+                "normalized_label": "൯൩൮"
+            },
+            {
+                "normalized_label": "൯൩൯"
+            },
+            {
+                "normalized_label": "൯൪൦"
+            },
+            {
+                "normalized_label": "൯൪൧"
+            },
+            {
+                "normalized_label": "൯൪൨"
+            },
+            {
+                "normalized_label": "൯൪൩"
+            },
+            {
+                "normalized_label": "൯൪൪"
+            },
+            {
+                "normalized_label": "൯൪൫"
+            },
+            {
+                "normalized_label": "൯൪൬"
+            },
+            {
+                "normalized_label": "൯൪൭"
+            },
+            {
+                "normalized_label": "൯൪൮"
+            },
+            {
+                "normalized_label": "൯൪൯"
+            },
+            {
+                "normalized_label": "൯൫൦"
+            },
+            {
+                "normalized_label": "൯൫൧"
+            },
+            {
+                "normalized_label": "൯൫൨"
+            },
+            {
+                "normalized_label": "൯൫൩"
+            },
+            {
+                "normalized_label": "൯൫൪"
+            },
+            {
+                "normalized_label": "൯൫൫"
+            },
+            {
+                "normalized_label": "൯൫൬"
+            },
+            {
+                "normalized_label": "൯൫൭"
+            },
+            {
+                "normalized_label": "൯൫൮"
+            },
+            {
+                "normalized_label": "൯൫൯"
+            },
+            {
+                "normalized_label": "൯൬൦"
+            },
+            {
+                "normalized_label": "൯൬൧"
+            },
+            {
+                "normalized_label": "൯൬൨"
+            },
+            {
+                "normalized_label": "൯൬൩"
+            },
+            {
+                "normalized_label": "൯൬൪"
+            },
+            {
+                "normalized_label": "൯൬൫"
+            },
+            {
+                "normalized_label": "൯൬൬"
+            },
+            {
+                "normalized_label": "൯൬൭"
+            },
+            {
+                "normalized_label": "൯൬൮"
+            },
+            {
+                "normalized_label": "൯൬൯"
+            },
+            {
+                "normalized_label": "൯൭൦"
+            },
+            {
+                "normalized_label": "൯൭൧"
+            },
+            {
+                "normalized_label": "൯൭൨"
+            },
+            {
+                "normalized_label": "൯൭൩"
+            },
+            {
+                "normalized_label": "൯൭൪"
+            },
+            {
+                "normalized_label": "൯൭൫"
+            },
+            {
+                "normalized_label": "൯൭൬"
+            },
+            {
+                "normalized_label": "൯൭൭"
+            },
+            {
+                "normalized_label": "൯൭൮"
+            },
+            {
+                "normalized_label": "൯൭൯"
+            },
+            {
+                "normalized_label": "൯൮൦"
+            },
+            {
+                "normalized_label": "൯൮൧"
+            },
+            {
+                "normalized_label": "൯൮൨"
+            },
+            {
+                "normalized_label": "൯൮൩"
+            },
+            {
+                "normalized_label": "൯൮൪"
+            },
+            {
+                "normalized_label": "൯൮൫"
+            },
+            {
+                "normalized_label": "൯൮൬"
+            },
+            {
+                "normalized_label": "൯൮൭"
+            },
+            {
+                "normalized_label": "൯൮൮"
+            },
+            {
+                "normalized_label": "൯൮൯"
+            },
+            {
+                "normalized_label": "൯൯൦"
+            },
+            {
+                "normalized_label": "൯൯൧"
+            },
+            {
+                "normalized_label": "൯൯൨"
+            },
+            {
+                "normalized_label": "൯൯൩"
+            },
+            {
+                "normalized_label": "൯൯൪"
+            },
+            {
+                "normalized_label": "൯൯൫"
+            },
+            {
+                "normalized_label": "൯൯൬"
+            },
+            {
+                "normalized_label": "൯൯൭"
+            },
+            {
+                "normalized_label": "൯൯൮"
+            },
+            {
+                "normalized_label": "൯൯൯"
+            }
+        ]
+    }
+}

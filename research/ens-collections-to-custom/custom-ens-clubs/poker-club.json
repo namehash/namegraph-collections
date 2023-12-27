@@ -1,0 +1,617 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "poker-club",
+        "collection_name": "Poker Club",
+        "collection_description": "poker names",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "10♠9♠"
+            },
+            {
+                "normalized_label": "10♠9♠8♠"
+            },
+            {
+                "normalized_label": "10♠j♠"
+            },
+            {
+                "normalized_label": "10♠j♠q♠"
+            },
+            {
+                "normalized_label": "10♣9♣"
+            },
+            {
+                "normalized_label": "10♣9♣8♣"
+            },
+            {
+                "normalized_label": "10♣j♣"
+            },
+            {
+                "normalized_label": "10♣j♣q♣"
+            },
+            {
+                "normalized_label": "10♥9♥"
+            },
+            {
+                "normalized_label": "10♥9♥8♥"
+            },
+            {
+                "normalized_label": "10♥j♥"
+            },
+            {
+                "normalized_label": "10♥j♥q♥"
+            },
+            {
+                "normalized_label": "10♦9♦"
+            },
+            {
+                "normalized_label": "10♦9♦8♦"
+            },
+            {
+                "normalized_label": "10♦j♦"
+            },
+            {
+                "normalized_label": "10♦j♦q♦"
+            },
+            {
+                "normalized_label": "2♠3♠"
+            },
+            {
+                "normalized_label": "2♠3♠4♠"
+            },
+            {
+                "normalized_label": "2♠a♠"
+            },
+            {
+                "normalized_label": "2♣3♣"
+            },
+            {
+                "normalized_label": "2♣3♣4♣"
+            },
+            {
+                "normalized_label": "2♣a♣"
+            },
+            {
+                "normalized_label": "2♥3♥"
+            },
+            {
+                "normalized_label": "2♥3♥4♥"
+            },
+            {
+                "normalized_label": "2♥a♥"
+            },
+            {
+                "normalized_label": "2♦3♦"
+            },
+            {
+                "normalized_label": "2♦3♦4♦"
+            },
+            {
+                "normalized_label": "2♦a♦"
+            },
+            {
+                "normalized_label": "3♠2♠"
+            },
+            {
+                "normalized_label": "3♠2♠a♠"
+            },
+            {
+                "normalized_label": "3♠4♠"
+            },
+            {
+                "normalized_label": "3♠4♠5♠"
+            },
+            {
+                "normalized_label": "3♣2♣"
+            },
+            {
+                "normalized_label": "3♣2♣a♣"
+            },
+            {
+                "normalized_label": "3♣4♣"
+            },
+            {
+                "normalized_label": "3♣4♣5♣"
+            },
+            {
+                "normalized_label": "3♥2♥"
+            },
+            {
+                "normalized_label": "3♥2♥a♥"
+            },
+            {
+                "normalized_label": "3♥4♥"
+            },
+            {
+                "normalized_label": "3♥4♥5♥"
+            },
+            {
+                "normalized_label": "3♦2♦"
+            },
+            {
+                "normalized_label": "3♦2♦a♦"
+            },
+            {
+                "normalized_label": "3♦4♦"
+            },
+            {
+                "normalized_label": "3♦4♦5♦"
+            },
+            {
+                "normalized_label": "4♠3♠"
+            },
+            {
+                "normalized_label": "4♠3♠2♠"
+            },
+            {
+                "normalized_label": "4♠5♠"
+            },
+            {
+                "normalized_label": "4♠5♠6♠"
+            },
+            {
+                "normalized_label": "4♣3♣"
+            },
+            {
+                "normalized_label": "4♣3♣2♣"
+            },
+            {
+                "normalized_label": "4♣5♣"
+            },
+            {
+                "normalized_label": "4♣5♣6♣"
+            },
+            {
+                "normalized_label": "4♥3♥"
+            },
+            {
+                "normalized_label": "4♥3♥2♥"
+            },
+            {
+                "normalized_label": "4♥5♥"
+            },
+            {
+                "normalized_label": "4♥5♥6♥"
+            },
+            {
+                "normalized_label": "4♦3♦"
+            },
+            {
+                "normalized_label": "4♦3♦2♦"
+            },
+            {
+                "normalized_label": "4♦5♦"
+            },
+            {
+                "normalized_label": "4♦5♦6♦"
+            },
+            {
+                "normalized_label": "5♠4♠"
+            },
+            {
+                "normalized_label": "5♠4♠3♠"
+            },
+            {
+                "normalized_label": "5♠6♠"
+            },
+            {
+                "normalized_label": "5♠6♠7♠"
+            },
+            {
+                "normalized_label": "5♣4♣"
+            },
+            {
+                "normalized_label": "5♣4♣3♣"
+            },
+            {
+                "normalized_label": "5♣6♣"
+            },
+            {
+                "normalized_label": "5♣6♣7♣"
+            },
+            {
+                "normalized_label": "5♥4♥"
+            },
+            {
+                "normalized_label": "5♥4♥3♥"
+            },
+            {
+                "normalized_label": "5♥6♥"
+            },
+            {
+                "normalized_label": "5♥6♥7♥"
+            },
+            {
+                "normalized_label": "5♦4♦"
+            },
+            {
+                "normalized_label": "5♦4♦3♦"
+            },
+            {
+                "normalized_label": "5♦6♦"
+            },
+            {
+                "normalized_label": "5♦6♦7♦"
+            },
+            {
+                "normalized_label": "6♠5♠"
+            },
+            {
+                "normalized_label": "6♠5♠4♠"
+            },
+            {
+                "normalized_label": "6♠7♠"
+            },
+            {
+                "normalized_label": "6♠7♠8♠"
+            },
+            {
+                "normalized_label": "6♣5♣"
+            },
+            {
+                "normalized_label": "6♣5♣4♣"
+            },
+            {
+                "normalized_label": "6♣7♣"
+            },
+            {
+                "normalized_label": "6♣7♣8♣"
+            },
+            {
+                "normalized_label": "6♥5♥"
+            },
+            {
+                "normalized_label": "6♥5♥4♥"
+            },
+            {
+                "normalized_label": "6♥7♥"
+            },
+            {
+                "normalized_label": "6♥7♥8♥"
+            },
+            {
+                "normalized_label": "6♦5♦"
+            },
+            {
+                "normalized_label": "6♦5♦4♦"
+            },
+            {
+                "normalized_label": "6♦7♦"
+            },
+            {
+                "normalized_label": "6♦7♦8♦"
+            },
+            {
+                "normalized_label": "7♠6♠"
+            },
+            {
+                "normalized_label": "7♠6♠5♠"
+            },
+            {
+                "normalized_label": "7♠8♠"
+            },
+            {
+                "normalized_label": "7♠8♠9♠"
+            },
+            {
+                "normalized_label": "7♣6♣"
+            },
+            {
+                "normalized_label": "7♣6♣5♣"
+            },
+            {
+                "normalized_label": "7♣8♣"
+            },
+            {
+                "normalized_label": "7♣8♣9♣"
+            },
+            {
+                "normalized_label": "7♥6♥"
+            },
+            {
+                "normalized_label": "7♥6♥5♥"
+            },
+            {
+                "normalized_label": "7♥8♥"
+            },
+            {
+                "normalized_label": "7♥8♥9♥"
+            },
+            {
+                "normalized_label": "7♦6♦"
+            },
+            {
+                "normalized_label": "7♦6♦5♦"
+            },
+            {
+                "normalized_label": "7♦8♦"
+            },
+            {
+                "normalized_label": "7♦8♦9♦"
+            },
+            {
+                "normalized_label": "8♠7♠"
+            },
+            {
+                "normalized_label": "8♠7♠6♠"
+            },
+            {
+                "normalized_label": "8♠9♠"
+            },
+            {
+                "normalized_label": "8♠9♠10♠"
+            },
+            {
+                "normalized_label": "8♣7♣"
+            },
+            {
+                "normalized_label": "8♣7♣6♣"
+            },
+            {
+                "normalized_label": "8♣9♣"
+            },
+            {
+                "normalized_label": "8♣9♣10♣"
+            },
+            {
+                "normalized_label": "8♥7♥"
+            },
+            {
+                "normalized_label": "8♥7♥6♥"
+            },
+            {
+                "normalized_label": "8♥9♥"
+            },
+            {
+                "normalized_label": "8♥9♥10♥"
+            },
+            {
+                "normalized_label": "8♦7♦"
+            },
+            {
+                "normalized_label": "8♦7♦6♦"
+            },
+            {
+                "normalized_label": "8♦9♦"
+            },
+            {
+                "normalized_label": "8♦9♦10♦"
+            },
+            {
+                "normalized_label": "9♠10♠"
+            },
+            {
+                "normalized_label": "9♠10♠j♠"
+            },
+            {
+                "normalized_label": "9♠8♠"
+            },
+            {
+                "normalized_label": "9♠8♠7♠"
+            },
+            {
+                "normalized_label": "9♣10♣"
+            },
+            {
+                "normalized_label": "9♣10♣j♣"
+            },
+            {
+                "normalized_label": "9♣8♣"
+            },
+            {
+                "normalized_label": "9♣8♣7♣"
+            },
+            {
+                "normalized_label": "9♥10♥"
+            },
+            {
+                "normalized_label": "9♥10♥j♥"
+            },
+            {
+                "normalized_label": "9♥8♥"
+            },
+            {
+                "normalized_label": "9♥8♥7♥"
+            },
+            {
+                "normalized_label": "9♦10♦"
+            },
+            {
+                "normalized_label": "9♦10♦j♦"
+            },
+            {
+                "normalized_label": "9♦8♦"
+            },
+            {
+                "normalized_label": "9♦8♦7♦"
+            },
+            {
+                "normalized_label": "a♠2♠"
+            },
+            {
+                "normalized_label": "a♠2♠3♠"
+            },
+            {
+                "normalized_label": "a♠k♠"
+            },
+            {
+                "normalized_label": "a♠k♠q♠"
+            },
+            {
+                "normalized_label": "a♣2♣"
+            },
+            {
+                "normalized_label": "a♣2♣3♣"
+            },
+            {
+                "normalized_label": "a♣k♣"
+            },
+            {
+                "normalized_label": "a♣k♣q♣"
+            },
+            {
+                "normalized_label": "a♥2♥"
+            },
+            {
+                "normalized_label": "a♥2♥3♥"
+            },
+            {
+                "normalized_label": "a♥k♥"
+            },
+            {
+                "normalized_label": "a♥k♥q♥"
+            },
+            {
+                "normalized_label": "a♦2♦"
+            },
+            {
+                "normalized_label": "a♦2♦3♦"
+            },
+            {
+                "normalized_label": "a♦k♦"
+            },
+            {
+                "normalized_label": "a♦k♦q♦"
+            },
+            {
+                "normalized_label": "j♠10♠"
+            },
+            {
+                "normalized_label": "j♠10♠9♠"
+            },
+            {
+                "normalized_label": "j♠q♠"
+            },
+            {
+                "normalized_label": "j♠q♠k♠"
+            },
+            {
+                "normalized_label": "j♣10♣"
+            },
+            {
+                "normalized_label": "j♣10♣9♣"
+            },
+            {
+                "normalized_label": "j♣q♣"
+            },
+            {
+                "normalized_label": "j♣q♣k♣"
+            },
+            {
+                "normalized_label": "j♥10♥"
+            },
+            {
+                "normalized_label": "j♥10♥9♥"
+            },
+            {
+                "normalized_label": "j♥q♥"
+            },
+            {
+                "normalized_label": "j♥q♥k♥"
+            },
+            {
+                "normalized_label": "j♦10♦"
+            },
+            {
+                "normalized_label": "j♦10♦9♦"
+            },
+            {
+                "normalized_label": "j♦q♦"
+            },
+            {
+                "normalized_label": "j♦q♦k♦"
+            },
+            {
+                "normalized_label": "k♠a♠"
+            },
+            {
+                "normalized_label": "k♠q♠"
+            },
+            {
+                "normalized_label": "k♠q♠j♠"
+            },
+            {
+                "normalized_label": "k♣a♣"
+            },
+            {
+                "normalized_label": "k♣q♣"
+            },
+            {
+                "normalized_label": "k♣q♣j♣"
+            },
+            {
+                "normalized_label": "k♥a♥"
+            },
+            {
+                "normalized_label": "k♥q♥"
+            },
+            {
+                "normalized_label": "k♥q♥j♥"
+            },
+            {
+                "normalized_label": "k♦a♦"
+            },
+            {
+                "normalized_label": "k♦q♦"
+            },
+            {
+                "normalized_label": "k♦q♦j♦"
+            },
+            {
+                "normalized_label": "q♠j♠"
+            },
+            {
+                "normalized_label": "q♠j♠10♠"
+            },
+            {
+                "normalized_label": "q♠k♠"
+            },
+            {
+                "normalized_label": "q♠k♠a♠"
+            },
+            {
+                "normalized_label": "q♣j♣"
+            },
+            {
+                "normalized_label": "q♣j♣10♣"
+            },
+            {
+                "normalized_label": "q♣k♣"
+            },
+            {
+                "normalized_label": "q♣k♣a♣"
+            },
+            {
+                "normalized_label": "q♥j♥"
+            },
+            {
+                "normalized_label": "q♥j♥10♥"
+            },
+            {
+                "normalized_label": "q♥k♥"
+            },
+            {
+                "normalized_label": "q♥k♥a♥"
+            },
+            {
+                "normalized_label": "q♦j♦"
+            },
+            {
+                "normalized_label": "q♦j♦10♦"
+            },
+            {
+                "normalized_label": "q♦k♦"
+            },
+            {
+                "normalized_label": "q♦k♦a♦"
+            }
+        ]
+    }
+}

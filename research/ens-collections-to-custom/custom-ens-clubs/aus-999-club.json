@@ -1,0 +1,3347 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "aus-999-club",
+        "collection_name": "AUS 999 Club",
+        "collection_description": "AUS Flags with digits, 0-999.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "🇦🇺0"
+            },
+            {
+                "normalized_label": "🇦🇺1"
+            },
+            {
+                "normalized_label": "🇦🇺2"
+            },
+            {
+                "normalized_label": "🇦🇺3"
+            },
+            {
+                "normalized_label": "🇦🇺4"
+            },
+            {
+                "normalized_label": "🇦🇺5"
+            },
+            {
+                "normalized_label": "🇦🇺6"
+            },
+            {
+                "normalized_label": "🇦🇺7"
+            },
+            {
+                "normalized_label": "🇦🇺8"
+            },
+            {
+                "normalized_label": "🇦🇺9"
+            },
+            {
+                "normalized_label": "🇦🇺00"
+            },
+            {
+                "normalized_label": "🇦🇺01"
+            },
+            {
+                "normalized_label": "🇦🇺02"
+            },
+            {
+                "normalized_label": "🇦🇺03"
+            },
+            {
+                "normalized_label": "🇦🇺04"
+            },
+            {
+                "normalized_label": "🇦🇺05"
+            },
+            {
+                "normalized_label": "🇦🇺06"
+            },
+            {
+                "normalized_label": "🇦🇺07"
+            },
+            {
+                "normalized_label": "🇦🇺08"
+            },
+            {
+                "normalized_label": "🇦🇺09"
+            },
+            {
+                "normalized_label": "🇦🇺10"
+            },
+            {
+                "normalized_label": "🇦🇺11"
+            },
+            {
+                "normalized_label": "🇦🇺12"
+            },
+            {
+                "normalized_label": "🇦🇺13"
+            },
+            {
+                "normalized_label": "🇦🇺14"
+            },
+            {
+                "normalized_label": "🇦🇺15"
+            },
+            {
+                "normalized_label": "🇦🇺16"
+            },
+            {
+                "normalized_label": "🇦🇺17"
+            },
+            {
+                "normalized_label": "🇦🇺18"
+            },
+            {
+                "normalized_label": "🇦🇺19"
+            },
+            {
+                "normalized_label": "🇦🇺20"
+            },
+            {
+                "normalized_label": "🇦🇺21"
+            },
+            {
+                "normalized_label": "🇦🇺22"
+            },
+            {
+                "normalized_label": "🇦🇺23"
+            },
+            {
+                "normalized_label": "🇦🇺24"
+            },
+            {
+                "normalized_label": "🇦🇺25"
+            },
+            {
+                "normalized_label": "🇦🇺26"
+            },
+            {
+                "normalized_label": "🇦🇺27"
+            },
+            {
+                "normalized_label": "🇦🇺28"
+            },
+            {
+                "normalized_label": "🇦🇺29"
+            },
+            {
+                "normalized_label": "🇦🇺30"
+            },
+            {
+                "normalized_label": "🇦🇺31"
+            },
+            {
+                "normalized_label": "🇦🇺32"
+            },
+            {
+                "normalized_label": "🇦🇺33"
+            },
+            {
+                "normalized_label": "🇦🇺34"
+            },
+            {
+                "normalized_label": "🇦🇺35"
+            },
+            {
+                "normalized_label": "🇦🇺36"
+            },
+            {
+                "normalized_label": "🇦🇺37"
+            },
+            {
+                "normalized_label": "🇦🇺38"
+            },
+            {
+                "normalized_label": "🇦🇺39"
+            },
+            {
+                "normalized_label": "🇦🇺40"
+            },
+            {
+                "normalized_label": "🇦🇺41"
+            },
+            {
+                "normalized_label": "🇦🇺42"
+            },
+            {
+                "normalized_label": "🇦🇺43"
+            },
+            {
+                "normalized_label": "🇦🇺44"
+            },
+            {
+                "normalized_label": "🇦🇺45"
+            },
+            {
+                "normalized_label": "🇦🇺46"
+            },
+            {
+                "normalized_label": "🇦🇺47"
+            },
+            {
+                "normalized_label": "🇦🇺48"
+            },
+            {
+                "normalized_label": "🇦🇺49"
+            },
+            {
+                "normalized_label": "🇦🇺50"
+            },
+            {
+                "normalized_label": "🇦🇺51"
+            },
+            {
+                "normalized_label": "🇦🇺52"
+            },
+            {
+                "normalized_label": "🇦🇺53"
+            },
+            {
+                "normalized_label": "🇦🇺54"
+            },
+            {
+                "normalized_label": "🇦🇺55"
+            },
+            {
+                "normalized_label": "🇦🇺56"
+            },
+            {
+                "normalized_label": "🇦🇺57"
+            },
+            {
+                "normalized_label": "🇦🇺58"
+            },
+            {
+                "normalized_label": "🇦🇺59"
+            },
+            {
+                "normalized_label": "🇦🇺60"
+            },
+            {
+                "normalized_label": "🇦🇺61"
+            },
+            {
+                "normalized_label": "🇦🇺62"
+            },
+            {
+                "normalized_label": "🇦🇺63"
+            },
+            {
+                "normalized_label": "🇦🇺64"
+            },
+            {
+                "normalized_label": "🇦🇺65"
+            },
+            {
+                "normalized_label": "🇦🇺66"
+            },
+            {
+                "normalized_label": "🇦🇺67"
+            },
+            {
+                "normalized_label": "🇦🇺68"
+            },
+            {
+                "normalized_label": "🇦🇺69"
+            },
+            {
+                "normalized_label": "🇦🇺70"
+            },
+            {
+                "normalized_label": "🇦🇺71"
+            },
+            {
+                "normalized_label": "🇦🇺72"
+            },
+            {
+                "normalized_label": "🇦🇺73"
+            },
+            {
+                "normalized_label": "🇦🇺74"
+            },
+            {
+                "normalized_label": "🇦🇺75"
+            },
+            {
+                "normalized_label": "🇦🇺76"
+            },
+            {
+                "normalized_label": "🇦🇺77"
+            },
+            {
+                "normalized_label": "🇦🇺78"
+            },
+            {
+                "normalized_label": "🇦🇺79"
+            },
+            {
+                "normalized_label": "🇦🇺80"
+            },
+            {
+                "normalized_label": "🇦🇺81"
+            },
+            {
+                "normalized_label": "🇦🇺82"
+            },
+            {
+                "normalized_label": "🇦🇺83"
+            },
+            {
+                "normalized_label": "🇦🇺84"
+            },
+            {
+                "normalized_label": "🇦🇺85"
+            },
+            {
+                "normalized_label": "🇦🇺86"
+            },
+            {
+                "normalized_label": "🇦🇺87"
+            },
+            {
+                "normalized_label": "🇦🇺88"
+            },
+            {
+                "normalized_label": "🇦🇺89"
+            },
+            {
+                "normalized_label": "🇦🇺90"
+            },
+            {
+                "normalized_label": "🇦🇺91"
+            },
+            {
+                "normalized_label": "🇦🇺92"
+            },
+            {
+                "normalized_label": "🇦🇺93"
+            },
+            {
+                "normalized_label": "🇦🇺94"
+            },
+            {
+                "normalized_label": "🇦🇺95"
+            },
+            {
+                "normalized_label": "🇦🇺96"
+            },
+            {
+                "normalized_label": "🇦🇺97"
+            },
+            {
+                "normalized_label": "🇦🇺98"
+            },
+            {
+                "normalized_label": "🇦🇺99"
+            },
+            {
+                "normalized_label": "🇦🇺000"
+            },
+            {
+                "normalized_label": "🇦🇺001"
+            },
+            {
+                "normalized_label": "🇦🇺002"
+            },
+            {
+                "normalized_label": "🇦🇺003"
+            },
+            {
+                "normalized_label": "🇦🇺004"
+            },
+            {
+                "normalized_label": "🇦🇺005"
+            },
+            {
+                "normalized_label": "🇦🇺006"
+            },
+            {
+                "normalized_label": "🇦🇺007"
+            },
+            {
+                "normalized_label": "🇦🇺008"
+            },
+            {
+                "normalized_label": "🇦🇺009"
+            },
+            {
+                "normalized_label": "🇦🇺010"
+            },
+            {
+                "normalized_label": "🇦🇺011"
+            },
+            {
+                "normalized_label": "🇦🇺012"
+            },
+            {
+                "normalized_label": "🇦🇺013"
+            },
+            {
+                "normalized_label": "🇦🇺014"
+            },
+            {
+                "normalized_label": "🇦🇺015"
+            },
+            {
+                "normalized_label": "🇦🇺016"
+            },
+            {
+                "normalized_label": "🇦🇺017"
+            },
+            {
+                "normalized_label": "🇦🇺018"
+            },
+            {
+                "normalized_label": "🇦🇺019"
+            },
+            {
+                "normalized_label": "🇦🇺020"
+            },
+            {
+                "normalized_label": "🇦🇺021"
+            },
+            {
+                "normalized_label": "🇦🇺022"
+            },
+            {
+                "normalized_label": "🇦🇺023"
+            },
+            {
+                "normalized_label": "🇦🇺024"
+            },
+            {
+                "normalized_label": "🇦🇺025"
+            },
+            {
+                "normalized_label": "🇦🇺026"
+            },
+            {
+                "normalized_label": "🇦🇺027"
+            },
+            {
+                "normalized_label": "🇦🇺028"
+            },
+            {
+                "normalized_label": "🇦🇺029"
+            },
+            {
+                "normalized_label": "🇦🇺030"
+            },
+            {
+                "normalized_label": "🇦🇺031"
+            },
+            {
+                "normalized_label": "🇦🇺032"
+            },
+            {
+                "normalized_label": "🇦🇺033"
+            },
+            {
+                "normalized_label": "🇦🇺034"
+            },
+            {
+                "normalized_label": "🇦🇺035"
+            },
+            {
+                "normalized_label": "🇦🇺036"
+            },
+            {
+                "normalized_label": "🇦🇺037"
+            },
+            {
+                "normalized_label": "🇦🇺038"
+            },
+            {
+                "normalized_label": "🇦🇺039"
+            },
+            {
+                "normalized_label": "🇦🇺040"
+            },
+            {
+                "normalized_label": "🇦🇺041"
+            },
+            {
+                "normalized_label": "🇦🇺042"
+            },
+            {
+                "normalized_label": "🇦🇺043"
+            },
+            {
+                "normalized_label": "🇦🇺044"
+            },
+            {
+                "normalized_label": "🇦🇺045"
+            },
+            {
+                "normalized_label": "🇦🇺046"
+            },
+            {
+                "normalized_label": "🇦🇺047"
+            },
+            {
+                "normalized_label": "🇦🇺048"
+            },
+            {
+                "normalized_label": "🇦🇺049"
+            },
+            {
+                "normalized_label": "🇦🇺050"
+            },
+            {
+                "normalized_label": "🇦🇺051"
+            },
+            {
+                "normalized_label": "🇦🇺052"
+            },
+            {
+                "normalized_label": "🇦🇺053"
+            },
+            {
+                "normalized_label": "🇦🇺054"
+            },
+            {
+                "normalized_label": "🇦🇺055"
+            },
+            {
+                "normalized_label": "🇦🇺056"
+            },
+            {
+                "normalized_label": "🇦🇺057"
+            },
+            {
+                "normalized_label": "🇦🇺058"
+            },
+            {
+                "normalized_label": "🇦🇺059"
+            },
+            {
+                "normalized_label": "🇦🇺060"
+            },
+            {
+                "normalized_label": "🇦🇺061"
+            },
+            {
+                "normalized_label": "🇦🇺062"
+            },
+            {
+                "normalized_label": "🇦🇺063"
+            },
+            {
+                "normalized_label": "🇦🇺064"
+            },
+            {
+                "normalized_label": "🇦🇺065"
+            },
+            {
+                "normalized_label": "🇦🇺066"
+            },
+            {
+                "normalized_label": "🇦🇺067"
+            },
+            {
+                "normalized_label": "🇦🇺068"
+            },
+            {
+                "normalized_label": "🇦🇺069"
+            },
+            {
+                "normalized_label": "🇦🇺070"
+            },
+            {
+                "normalized_label": "🇦🇺071"
+            },
+            {
+                "normalized_label": "🇦🇺072"
+            },
+            {
+                "normalized_label": "🇦🇺073"
+            },
+            {
+                "normalized_label": "🇦🇺074"
+            },
+            {
+                "normalized_label": "🇦🇺075"
+            },
+            {
+                "normalized_label": "🇦🇺076"
+            },
+            {
+                "normalized_label": "🇦🇺077"
+            },
+            {
+                "normalized_label": "🇦🇺078"
+            },
+            {
+                "normalized_label": "🇦🇺079"
+            },
+            {
+                "normalized_label": "🇦🇺080"
+            },
+            {
+                "normalized_label": "🇦🇺081"
+            },
+            {
+                "normalized_label": "🇦🇺082"
+            },
+            {
+                "normalized_label": "🇦🇺083"
+            },
+            {
+                "normalized_label": "🇦🇺084"
+            },
+            {
+                "normalized_label": "🇦🇺085"
+            },
+            {
+                "normalized_label": "🇦🇺086"
+            },
+            {
+                "normalized_label": "🇦🇺087"
+            },
+            {
+                "normalized_label": "🇦🇺088"
+            },
+            {
+                "normalized_label": "🇦🇺089"
+            },
+            {
+                "normalized_label": "🇦🇺090"
+            },
+            {
+                "normalized_label": "🇦🇺091"
+            },
+            {
+                "normalized_label": "🇦🇺092"
+            },
+            {
+                "normalized_label": "🇦🇺093"
+            },
+            {
+                "normalized_label": "🇦🇺094"
+            },
+            {
+                "normalized_label": "🇦🇺095"
+            },
+            {
+                "normalized_label": "🇦🇺096"
+            },
+            {
+                "normalized_label": "🇦🇺097"
+            },
+            {
+                "normalized_label": "🇦🇺098"
+            },
+            {
+                "normalized_label": "🇦🇺099"
+            },
+            {
+                "normalized_label": "🇦🇺100"
+            },
+            {
+                "normalized_label": "🇦🇺101"
+            },
+            {
+                "normalized_label": "🇦🇺102"
+            },
+            {
+                "normalized_label": "🇦🇺103"
+            },
+            {
+                "normalized_label": "🇦🇺104"
+            },
+            {
+                "normalized_label": "🇦🇺105"
+            },
+            {
+                "normalized_label": "🇦🇺106"
+            },
+            {
+                "normalized_label": "🇦🇺107"
+            },
+            {
+                "normalized_label": "🇦🇺108"
+            },
+            {
+                "normalized_label": "🇦🇺109"
+            },
+            {
+                "normalized_label": "🇦🇺110"
+            },
+            {
+                "normalized_label": "🇦🇺111"
+            },
+            {
+                "normalized_label": "🇦🇺112"
+            },
+            {
+                "normalized_label": "🇦🇺113"
+            },
+            {
+                "normalized_label": "🇦🇺114"
+            },
+            {
+                "normalized_label": "🇦🇺115"
+            },
+            {
+                "normalized_label": "🇦🇺116"
+            },
+            {
+                "normalized_label": "🇦🇺117"
+            },
+            {
+                "normalized_label": "🇦🇺118"
+            },
+            {
+                "normalized_label": "🇦🇺119"
+            },
+            {
+                "normalized_label": "🇦🇺120"
+            },
+            {
+                "normalized_label": "🇦🇺121"
+            },
+            {
+                "normalized_label": "🇦🇺122"
+            },
+            {
+                "normalized_label": "🇦🇺123"
+            },
+            {
+                "normalized_label": "🇦🇺124"
+            },
+            {
+                "normalized_label": "🇦🇺125"
+            },
+            {
+                "normalized_label": "🇦🇺126"
+            },
+            {
+                "normalized_label": "🇦🇺127"
+            },
+            {
+                "normalized_label": "🇦🇺128"
+            },
+            {
+                "normalized_label": "🇦🇺129"
+            },
+            {
+                "normalized_label": "🇦🇺130"
+            },
+            {
+                "normalized_label": "🇦🇺131"
+            },
+            {
+                "normalized_label": "🇦🇺132"
+            },
+            {
+                "normalized_label": "🇦🇺133"
+            },
+            {
+                "normalized_label": "🇦🇺134"
+            },
+            {
+                "normalized_label": "🇦🇺135"
+            },
+            {
+                "normalized_label": "🇦🇺136"
+            },
+            {
+                "normalized_label": "🇦🇺137"
+            },
+            {
+                "normalized_label": "🇦🇺138"
+            },
+            {
+                "normalized_label": "🇦🇺139"
+            },
+            {
+                "normalized_label": "🇦🇺140"
+            },
+            {
+                "normalized_label": "🇦🇺141"
+            },
+            {
+                "normalized_label": "🇦🇺142"
+            },
+            {
+                "normalized_label": "🇦🇺143"
+            },
+            {
+                "normalized_label": "🇦🇺144"
+            },
+            {
+                "normalized_label": "🇦🇺145"
+            },
+            {
+                "normalized_label": "🇦🇺146"
+            },
+            {
+                "normalized_label": "🇦🇺147"
+            },
+            {
+                "normalized_label": "🇦🇺148"
+            },
+            {
+                "normalized_label": "🇦🇺149"
+            },
+            {
+                "normalized_label": "🇦🇺150"
+            },
+            {
+                "normalized_label": "🇦🇺151"
+            },
+            {
+                "normalized_label": "🇦🇺152"
+            },
+            {
+                "normalized_label": "🇦🇺153"
+            },
+            {
+                "normalized_label": "🇦🇺154"
+            },
+            {
+                "normalized_label": "🇦🇺155"
+            },
+            {
+                "normalized_label": "🇦🇺156"
+            },
+            {
+                "normalized_label": "🇦🇺157"
+            },
+            {
+                "normalized_label": "🇦🇺158"
+            },
+            {
+                "normalized_label": "🇦🇺159"
+            },
+            {
+                "normalized_label": "🇦🇺160"
+            },
+            {
+                "normalized_label": "🇦🇺161"
+            },
+            {
+                "normalized_label": "🇦🇺162"
+            },
+            {
+                "normalized_label": "🇦🇺163"
+            },
+            {
+                "normalized_label": "🇦🇺164"
+            },
+            {
+                "normalized_label": "🇦🇺165"
+            },
+            {
+                "normalized_label": "🇦🇺166"
+            },
+            {
+                "normalized_label": "🇦🇺167"
+            },
+            {
+                "normalized_label": "🇦🇺168"
+            },
+            {
+                "normalized_label": "🇦🇺169"
+            },
+            {
+                "normalized_label": "🇦🇺170"
+            },
+            {
+                "normalized_label": "🇦🇺171"
+            },
+            {
+                "normalized_label": "🇦🇺172"
+            },
+            {
+                "normalized_label": "🇦🇺173"
+            },
+            {
+                "normalized_label": "🇦🇺174"
+            },
+            {
+                "normalized_label": "🇦🇺175"
+            },
+            {
+                "normalized_label": "🇦🇺176"
+            },
+            {
+                "normalized_label": "🇦🇺177"
+            },
+            {
+                "normalized_label": "🇦🇺178"
+            },
+            {
+                "normalized_label": "🇦🇺179"
+            },
+            {
+                "normalized_label": "🇦🇺180"
+            },
+            {
+                "normalized_label": "🇦🇺181"
+            },
+            {
+                "normalized_label": "🇦🇺182"
+            },
+            {
+                "normalized_label": "🇦🇺183"
+            },
+            {
+                "normalized_label": "🇦🇺184"
+            },
+            {
+                "normalized_label": "🇦🇺185"
+            },
+            {
+                "normalized_label": "🇦🇺186"
+            },
+            {
+                "normalized_label": "🇦🇺187"
+            },
+            {
+                "normalized_label": "🇦🇺188"
+            },
+            {
+                "normalized_label": "🇦🇺189"
+            },
+            {
+                "normalized_label": "🇦🇺190"
+            },
+            {
+                "normalized_label": "🇦🇺191"
+            },
+            {
+                "normalized_label": "🇦🇺192"
+            },
+            {
+                "normalized_label": "🇦🇺193"
+            },
+            {
+                "normalized_label": "🇦🇺194"
+            },
+            {
+                "normalized_label": "🇦🇺195"
+            },
+            {
+                "normalized_label": "🇦🇺196"
+            },
+            {
+                "normalized_label": "🇦🇺197"
+            },
+            {
+                "normalized_label": "🇦🇺198"
+            },
+            {
+                "normalized_label": "🇦🇺199"
+            },
+            {
+                "normalized_label": "🇦🇺200"
+            },
+            {
+                "normalized_label": "🇦🇺201"
+            },
+            {
+                "normalized_label": "🇦🇺202"
+            },
+            {
+                "normalized_label": "🇦🇺203"
+            },
+            {
+                "normalized_label": "🇦🇺204"
+            },
+            {
+                "normalized_label": "🇦🇺205"
+            },
+            {
+                "normalized_label": "🇦🇺206"
+            },
+            {
+                "normalized_label": "🇦🇺207"
+            },
+            {
+                "normalized_label": "🇦🇺208"
+            },
+            {
+                "normalized_label": "🇦🇺209"
+            },
+            {
+                "normalized_label": "🇦🇺210"
+            },
+            {
+                "normalized_label": "🇦🇺211"
+            },
+            {
+                "normalized_label": "🇦🇺212"
+            },
+            {
+                "normalized_label": "🇦🇺213"
+            },
+            {
+                "normalized_label": "🇦🇺214"
+            },
+            {
+                "normalized_label": "🇦🇺215"
+            },
+            {
+                "normalized_label": "🇦🇺216"
+            },
+            {
+                "normalized_label": "🇦🇺217"
+            },
+            {
+                "normalized_label": "🇦🇺218"
+            },
+            {
+                "normalized_label": "🇦🇺219"
+            },
+            {
+                "normalized_label": "🇦🇺220"
+            },
+            {
+                "normalized_label": "🇦🇺221"
+            },
+            {
+                "normalized_label": "🇦🇺222"
+            },
+            {
+                "normalized_label": "🇦🇺223"
+            },
+            {
+                "normalized_label": "🇦🇺224"
+            },
+            {
+                "normalized_label": "🇦🇺225"
+            },
+            {
+                "normalized_label": "🇦🇺226"
+            },
+            {
+                "normalized_label": "🇦🇺227"
+            },
+            {
+                "normalized_label": "🇦🇺228"
+            },
+            {
+                "normalized_label": "🇦🇺229"
+            },
+            {
+                "normalized_label": "🇦🇺230"
+            },
+            {
+                "normalized_label": "🇦🇺231"
+            },
+            {
+                "normalized_label": "🇦🇺232"
+            },
+            {
+                "normalized_label": "🇦🇺233"
+            },
+            {
+                "normalized_label": "🇦🇺234"
+            },
+            {
+                "normalized_label": "🇦🇺235"
+            },
+            {
+                "normalized_label": "🇦🇺236"
+            },
+            {
+                "normalized_label": "🇦🇺237"
+            },
+            {
+                "normalized_label": "🇦🇺238"
+            },
+            {
+                "normalized_label": "🇦🇺239"
+            },
+            {
+                "normalized_label": "🇦🇺240"
+            },
+            {
+                "normalized_label": "🇦🇺241"
+            },
+            {
+                "normalized_label": "🇦🇺242"
+            },
+            {
+                "normalized_label": "🇦🇺243"
+            },
+            {
+                "normalized_label": "🇦🇺244"
+            },
+            {
+                "normalized_label": "🇦🇺245"
+            },
+            {
+                "normalized_label": "🇦🇺246"
+            },
+            {
+                "normalized_label": "🇦🇺247"
+            },
+            {
+                "normalized_label": "🇦🇺248"
+            },
+            {
+                "normalized_label": "🇦🇺249"
+            },
+            {
+                "normalized_label": "🇦🇺250"
+            },
+            {
+                "normalized_label": "🇦🇺251"
+            },
+            {
+                "normalized_label": "🇦🇺252"
+            },
+            {
+                "normalized_label": "🇦🇺253"
+            },
+            {
+                "normalized_label": "🇦🇺254"
+            },
+            {
+                "normalized_label": "🇦🇺255"
+            },
+            {
+                "normalized_label": "🇦🇺256"
+            },
+            {
+                "normalized_label": "🇦🇺257"
+            },
+            {
+                "normalized_label": "🇦🇺258"
+            },
+            {
+                "normalized_label": "🇦🇺259"
+            },
+            {
+                "normalized_label": "🇦🇺260"
+            },
+            {
+                "normalized_label": "🇦🇺261"
+            },
+            {
+                "normalized_label": "🇦🇺262"
+            },
+            {
+                "normalized_label": "🇦🇺263"
+            },
+            {
+                "normalized_label": "🇦🇺264"
+            },
+            {
+                "normalized_label": "🇦🇺265"
+            },
+            {
+                "normalized_label": "🇦🇺266"
+            },
+            {
+                "normalized_label": "🇦🇺267"
+            },
+            {
+                "normalized_label": "🇦🇺268"
+            },
+            {
+                "normalized_label": "🇦🇺269"
+            },
+            {
+                "normalized_label": "🇦🇺270"
+            },
+            {
+                "normalized_label": "🇦🇺271"
+            },
+            {
+                "normalized_label": "🇦🇺272"
+            },
+            {
+                "normalized_label": "🇦🇺273"
+            },
+            {
+                "normalized_label": "🇦🇺274"
+            },
+            {
+                "normalized_label": "🇦🇺275"
+            },
+            {
+                "normalized_label": "🇦🇺276"
+            },
+            {
+                "normalized_label": "🇦🇺277"
+            },
+            {
+                "normalized_label": "🇦🇺278"
+            },
+            {
+                "normalized_label": "🇦🇺279"
+            },
+            {
+                "normalized_label": "🇦🇺280"
+            },
+            {
+                "normalized_label": "🇦🇺281"
+            },
+            {
+                "normalized_label": "🇦🇺282"
+            },
+            {
+                "normalized_label": "🇦🇺283"
+            },
+            {
+                "normalized_label": "🇦🇺284"
+            },
+            {
+                "normalized_label": "🇦🇺285"
+            },
+            {
+                "normalized_label": "🇦🇺286"
+            },
+            {
+                "normalized_label": "🇦🇺287"
+            },
+            {
+                "normalized_label": "🇦🇺288"
+            },
+            {
+                "normalized_label": "🇦🇺289"
+            },
+            {
+                "normalized_label": "🇦🇺290"
+            },
+            {
+                "normalized_label": "🇦🇺291"
+            },
+            {
+                "normalized_label": "🇦🇺292"
+            },
+            {
+                "normalized_label": "🇦🇺293"
+            },
+            {
+                "normalized_label": "🇦🇺294"
+            },
+            {
+                "normalized_label": "🇦🇺295"
+            },
+            {
+                "normalized_label": "🇦🇺296"
+            },
+            {
+                "normalized_label": "🇦🇺297"
+            },
+            {
+                "normalized_label": "🇦🇺298"
+            },
+            {
+                "normalized_label": "🇦🇺299"
+            },
+            {
+                "normalized_label": "🇦🇺300"
+            },
+            {
+                "normalized_label": "🇦🇺301"
+            },
+            {
+                "normalized_label": "🇦🇺302"
+            },
+            {
+                "normalized_label": "🇦🇺303"
+            },
+            {
+                "normalized_label": "🇦🇺304"
+            },
+            {
+                "normalized_label": "🇦🇺305"
+            },
+            {
+                "normalized_label": "🇦🇺306"
+            },
+            {
+                "normalized_label": "🇦🇺307"
+            },
+            {
+                "normalized_label": "🇦🇺308"
+            },
+            {
+                "normalized_label": "🇦🇺309"
+            },
+            {
+                "normalized_label": "🇦🇺310"
+            },
+            {
+                "normalized_label": "🇦🇺311"
+            },
+            {
+                "normalized_label": "🇦🇺312"
+            },
+            {
+                "normalized_label": "🇦🇺313"
+            },
+            {
+                "normalized_label": "🇦🇺314"
+            },
+            {
+                "normalized_label": "🇦🇺315"
+            },
+            {
+                "normalized_label": "🇦🇺316"
+            },
+            {
+                "normalized_label": "🇦🇺317"
+            },
+            {
+                "normalized_label": "🇦🇺318"
+            },
+            {
+                "normalized_label": "🇦🇺319"
+            },
+            {
+                "normalized_label": "🇦🇺320"
+            },
+            {
+                "normalized_label": "🇦🇺321"
+            },
+            {
+                "normalized_label": "🇦🇺322"
+            },
+            {
+                "normalized_label": "🇦🇺323"
+            },
+            {
+                "normalized_label": "🇦🇺324"
+            },
+            {
+                "normalized_label": "🇦🇺325"
+            },
+            {
+                "normalized_label": "🇦🇺326"
+            },
+            {
+                "normalized_label": "🇦🇺327"
+            },
+            {
+                "normalized_label": "🇦🇺328"
+            },
+            {
+                "normalized_label": "🇦🇺329"
+            },
+            {
+                "normalized_label": "🇦🇺330"
+            },
+            {
+                "normalized_label": "🇦🇺331"
+            },
+            {
+                "normalized_label": "🇦🇺332"
+            },
+            {
+                "normalized_label": "🇦🇺333"
+            },
+            {
+                "normalized_label": "🇦🇺334"
+            },
+            {
+                "normalized_label": "🇦🇺335"
+            },
+            {
+                "normalized_label": "🇦🇺336"
+            },
+            {
+                "normalized_label": "🇦🇺337"
+            },
+            {
+                "normalized_label": "🇦🇺338"
+            },
+            {
+                "normalized_label": "🇦🇺339"
+            },
+            {
+                "normalized_label": "🇦🇺340"
+            },
+            {
+                "normalized_label": "🇦🇺341"
+            },
+            {
+                "normalized_label": "🇦🇺342"
+            },
+            {
+                "normalized_label": "🇦🇺343"
+            },
+            {
+                "normalized_label": "🇦🇺344"
+            },
+            {
+                "normalized_label": "🇦🇺345"
+            },
+            {
+                "normalized_label": "🇦🇺346"
+            },
+            {
+                "normalized_label": "🇦🇺347"
+            },
+            {
+                "normalized_label": "🇦🇺348"
+            },
+            {
+                "normalized_label": "🇦🇺349"
+            },
+            {
+                "normalized_label": "🇦🇺350"
+            },
+            {
+                "normalized_label": "🇦🇺351"
+            },
+            {
+                "normalized_label": "🇦🇺352"
+            },
+            {
+                "normalized_label": "🇦🇺353"
+            },
+            {
+                "normalized_label": "🇦🇺354"
+            },
+            {
+                "normalized_label": "🇦🇺355"
+            },
+            {
+                "normalized_label": "🇦🇺356"
+            },
+            {
+                "normalized_label": "🇦🇺357"
+            },
+            {
+                "normalized_label": "🇦🇺358"
+            },
+            {
+                "normalized_label": "🇦🇺359"
+            },
+            {
+                "normalized_label": "🇦🇺360"
+            },
+            {
+                "normalized_label": "🇦🇺361"
+            },
+            {
+                "normalized_label": "🇦🇺362"
+            },
+            {
+                "normalized_label": "🇦🇺363"
+            },
+            {
+                "normalized_label": "🇦🇺364"
+            },
+            {
+                "normalized_label": "🇦🇺365"
+            },
+            {
+                "normalized_label": "🇦🇺366"
+            },
+            {
+                "normalized_label": "🇦🇺367"
+            },
+            {
+                "normalized_label": "🇦🇺368"
+            },
+            {
+                "normalized_label": "🇦🇺369"
+            },
+            {
+                "normalized_label": "🇦🇺370"
+            },
+            {
+                "normalized_label": "🇦🇺371"
+            },
+            {
+                "normalized_label": "🇦🇺372"
+            },
+            {
+                "normalized_label": "🇦🇺373"
+            },
+            {
+                "normalized_label": "🇦🇺374"
+            },
+            {
+                "normalized_label": "🇦🇺375"
+            },
+            {
+                "normalized_label": "🇦🇺376"
+            },
+            {
+                "normalized_label": "🇦🇺377"
+            },
+            {
+                "normalized_label": "🇦🇺378"
+            },
+            {
+                "normalized_label": "🇦🇺379"
+            },
+            {
+                "normalized_label": "🇦🇺380"
+            },
+            {
+                "normalized_label": "🇦🇺381"
+            },
+            {
+                "normalized_label": "🇦🇺382"
+            },
+            {
+                "normalized_label": "🇦🇺383"
+            },
+            {
+                "normalized_label": "🇦🇺384"
+            },
+            {
+                "normalized_label": "🇦🇺385"
+            },
+            {
+                "normalized_label": "🇦🇺386"
+            },
+            {
+                "normalized_label": "🇦🇺387"
+            },
+            {
+                "normalized_label": "🇦🇺388"
+            },
+            {
+                "normalized_label": "🇦🇺389"
+            },
+            {
+                "normalized_label": "🇦🇺390"
+            },
+            {
+                "normalized_label": "🇦🇺391"
+            },
+            {
+                "normalized_label": "🇦🇺392"
+            },
+            {
+                "normalized_label": "🇦🇺393"
+            },
+            {
+                "normalized_label": "🇦🇺394"
+            },
+            {
+                "normalized_label": "🇦🇺395"
+            },
+            {
+                "normalized_label": "🇦🇺396"
+            },
+            {
+                "normalized_label": "🇦🇺397"
+            },
+            {
+                "normalized_label": "🇦🇺398"
+            },
+            {
+                "normalized_label": "🇦🇺399"
+            },
+            {
+                "normalized_label": "🇦🇺400"
+            },
+            {
+                "normalized_label": "🇦🇺401"
+            },
+            {
+                "normalized_label": "🇦🇺402"
+            },
+            {
+                "normalized_label": "🇦🇺403"
+            },
+            {
+                "normalized_label": "🇦🇺404"
+            },
+            {
+                "normalized_label": "🇦🇺405"
+            },
+            {
+                "normalized_label": "🇦🇺406"
+            },
+            {
+                "normalized_label": "🇦🇺407"
+            },
+            {
+                "normalized_label": "🇦🇺408"
+            },
+            {
+                "normalized_label": "🇦🇺409"
+            },
+            {
+                "normalized_label": "🇦🇺410"
+            },
+            {
+                "normalized_label": "🇦🇺411"
+            },
+            {
+                "normalized_label": "🇦🇺412"
+            },
+            {
+                "normalized_label": "🇦🇺413"
+            },
+            {
+                "normalized_label": "🇦🇺414"
+            },
+            {
+                "normalized_label": "🇦🇺415"
+            },
+            {
+                "normalized_label": "🇦🇺416"
+            },
+            {
+                "normalized_label": "🇦🇺417"
+            },
+            {
+                "normalized_label": "🇦🇺418"
+            },
+            {
+                "normalized_label": "🇦🇺419"
+            },
+            {
+                "normalized_label": "🇦🇺420"
+            },
+            {
+                "normalized_label": "🇦🇺421"
+            },
+            {
+                "normalized_label": "🇦🇺422"
+            },
+            {
+                "normalized_label": "🇦🇺423"
+            },
+            {
+                "normalized_label": "🇦🇺424"
+            },
+            {
+                "normalized_label": "🇦🇺425"
+            },
+            {
+                "normalized_label": "🇦🇺426"
+            },
+            {
+                "normalized_label": "🇦🇺427"
+            },
+            {
+                "normalized_label": "🇦🇺428"
+            },
+            {
+                "normalized_label": "🇦🇺429"
+            },
+            {
+                "normalized_label": "🇦🇺430"
+            },
+            {
+                "normalized_label": "🇦🇺431"
+            },
+            {
+                "normalized_label": "🇦🇺432"
+            },
+            {
+                "normalized_label": "🇦🇺433"
+            },
+            {
+                "normalized_label": "🇦🇺434"
+            },
+            {
+                "normalized_label": "🇦🇺435"
+            },
+            {
+                "normalized_label": "🇦🇺436"
+            },
+            {
+                "normalized_label": "🇦🇺437"
+            },
+            {
+                "normalized_label": "🇦🇺438"
+            },
+            {
+                "normalized_label": "🇦🇺439"
+            },
+            {
+                "normalized_label": "🇦🇺440"
+            },
+            {
+                "normalized_label": "🇦🇺441"
+            },
+            {
+                "normalized_label": "🇦🇺442"
+            },
+            {
+                "normalized_label": "🇦🇺443"
+            },
+            {
+                "normalized_label": "🇦🇺444"
+            },
+            {
+                "normalized_label": "🇦🇺445"
+            },
+            {
+                "normalized_label": "🇦🇺446"
+            },
+            {
+                "normalized_label": "🇦🇺447"
+            },
+            {
+                "normalized_label": "🇦🇺448"
+            },
+            {
+                "normalized_label": "🇦🇺449"
+            },
+            {
+                "normalized_label": "🇦🇺450"
+            },
+            {
+                "normalized_label": "🇦🇺451"
+            },
+            {
+                "normalized_label": "🇦🇺452"
+            },
+            {
+                "normalized_label": "🇦🇺453"
+            },
+            {
+                "normalized_label": "🇦🇺454"
+            },
+            {
+                "normalized_label": "🇦🇺455"
+            },
+            {
+                "normalized_label": "🇦🇺456"
+            },
+            {
+                "normalized_label": "🇦🇺457"
+            },
+            {
+                "normalized_label": "🇦🇺458"
+            },
+            {
+                "normalized_label": "🇦🇺459"
+            },
+            {
+                "normalized_label": "🇦🇺460"
+            },
+            {
+                "normalized_label": "🇦🇺461"
+            },
+            {
+                "normalized_label": "🇦🇺462"
+            },
+            {
+                "normalized_label": "🇦🇺463"
+            },
+            {
+                "normalized_label": "🇦🇺464"
+            },
+            {
+                "normalized_label": "🇦🇺465"
+            },
+            {
+                "normalized_label": "🇦🇺466"
+            },
+            {
+                "normalized_label": "🇦🇺467"
+            },
+            {
+                "normalized_label": "🇦🇺468"
+            },
+            {
+                "normalized_label": "🇦🇺469"
+            },
+            {
+                "normalized_label": "🇦🇺470"
+            },
+            {
+                "normalized_label": "🇦🇺471"
+            },
+            {
+                "normalized_label": "🇦🇺472"
+            },
+            {
+                "normalized_label": "🇦🇺473"
+            },
+            {
+                "normalized_label": "🇦🇺474"
+            },
+            {
+                "normalized_label": "🇦🇺475"
+            },
+            {
+                "normalized_label": "🇦🇺476"
+            },
+            {
+                "normalized_label": "🇦🇺477"
+            },
+            {
+                "normalized_label": "🇦🇺478"
+            },
+            {
+                "normalized_label": "🇦🇺479"
+            },
+            {
+                "normalized_label": "🇦🇺480"
+            },
+            {
+                "normalized_label": "🇦🇺481"
+            },
+            {
+                "normalized_label": "🇦🇺482"
+            },
+            {
+                "normalized_label": "🇦🇺483"
+            },
+            {
+                "normalized_label": "🇦🇺484"
+            },
+            {
+                "normalized_label": "🇦🇺485"
+            },
+            {
+                "normalized_label": "🇦🇺486"
+            },
+            {
+                "normalized_label": "🇦🇺487"
+            },
+            {
+                "normalized_label": "🇦🇺488"
+            },
+            {
+                "normalized_label": "🇦🇺489"
+            },
+            {
+                "normalized_label": "🇦🇺490"
+            },
+            {
+                "normalized_label": "🇦🇺491"
+            },
+            {
+                "normalized_label": "🇦🇺492"
+            },
+            {
+                "normalized_label": "🇦🇺493"
+            },
+            {
+                "normalized_label": "🇦🇺494"
+            },
+            {
+                "normalized_label": "🇦🇺495"
+            },
+            {
+                "normalized_label": "🇦🇺496"
+            },
+            {
+                "normalized_label": "🇦🇺497"
+            },
+            {
+                "normalized_label": "🇦🇺498"
+            },
+            {
+                "normalized_label": "🇦🇺499"
+            },
+            {
+                "normalized_label": "🇦🇺500"
+            },
+            {
+                "normalized_label": "🇦🇺501"
+            },
+            {
+                "normalized_label": "🇦🇺502"
+            },
+            {
+                "normalized_label": "🇦🇺503"
+            },
+            {
+                "normalized_label": "🇦🇺504"
+            },
+            {
+                "normalized_label": "🇦🇺505"
+            },
+            {
+                "normalized_label": "🇦🇺506"
+            },
+            {
+                "normalized_label": "🇦🇺507"
+            },
+            {
+                "normalized_label": "🇦🇺508"
+            },
+            {
+                "normalized_label": "🇦🇺509"
+            },
+            {
+                "normalized_label": "🇦🇺510"
+            },
+            {
+                "normalized_label": "🇦🇺511"
+            },
+            {
+                "normalized_label": "🇦🇺512"
+            },
+            {
+                "normalized_label": "🇦🇺513"
+            },
+            {
+                "normalized_label": "🇦🇺514"
+            },
+            {
+                "normalized_label": "🇦🇺515"
+            },
+            {
+                "normalized_label": "🇦🇺516"
+            },
+            {
+                "normalized_label": "🇦🇺517"
+            },
+            {
+                "normalized_label": "🇦🇺518"
+            },
+            {
+                "normalized_label": "🇦🇺519"
+            },
+            {
+                "normalized_label": "🇦🇺520"
+            },
+            {
+                "normalized_label": "🇦🇺521"
+            },
+            {
+                "normalized_label": "🇦🇺522"
+            },
+            {
+                "normalized_label": "🇦🇺523"
+            },
+            {
+                "normalized_label": "🇦🇺524"
+            },
+            {
+                "normalized_label": "🇦🇺525"
+            },
+            {
+                "normalized_label": "🇦🇺526"
+            },
+            {
+                "normalized_label": "🇦🇺527"
+            },
+            {
+                "normalized_label": "🇦🇺528"
+            },
+            {
+                "normalized_label": "🇦🇺529"
+            },
+            {
+                "normalized_label": "🇦🇺530"
+            },
+            {
+                "normalized_label": "🇦🇺531"
+            },
+            {
+                "normalized_label": "🇦🇺532"
+            },
+            {
+                "normalized_label": "🇦🇺533"
+            },
+            {
+                "normalized_label": "🇦🇺534"
+            },
+            {
+                "normalized_label": "🇦🇺535"
+            },
+            {
+                "normalized_label": "🇦🇺536"
+            },
+            {
+                "normalized_label": "🇦🇺537"
+            },
+            {
+                "normalized_label": "🇦🇺538"
+            },
+            {
+                "normalized_label": "🇦🇺539"
+            },
+            {
+                "normalized_label": "🇦🇺540"
+            },
+            {
+                "normalized_label": "🇦🇺541"
+            },
+            {
+                "normalized_label": "🇦🇺542"
+            },
+            {
+                "normalized_label": "🇦🇺543"
+            },
+            {
+                "normalized_label": "🇦🇺544"
+            },
+            {
+                "normalized_label": "🇦🇺545"
+            },
+            {
+                "normalized_label": "🇦🇺546"
+            },
+            {
+                "normalized_label": "🇦🇺547"
+            },
+            {
+                "normalized_label": "🇦🇺548"
+            },
+            {
+                "normalized_label": "🇦🇺549"
+            },
+            {
+                "normalized_label": "🇦🇺550"
+            },
+            {
+                "normalized_label": "🇦🇺551"
+            },
+            {
+                "normalized_label": "🇦🇺552"
+            },
+            {
+                "normalized_label": "🇦🇺553"
+            },
+            {
+                "normalized_label": "🇦🇺554"
+            },
+            {
+                "normalized_label": "🇦🇺555"
+            },
+            {
+                "normalized_label": "🇦🇺556"
+            },
+            {
+                "normalized_label": "🇦🇺557"
+            },
+            {
+                "normalized_label": "🇦🇺558"
+            },
+            {
+                "normalized_label": "🇦🇺559"
+            },
+            {
+                "normalized_label": "🇦🇺560"
+            },
+            {
+                "normalized_label": "🇦🇺561"
+            },
+            {
+                "normalized_label": "🇦🇺562"
+            },
+            {
+                "normalized_label": "🇦🇺563"
+            },
+            {
+                "normalized_label": "🇦🇺564"
+            },
+            {
+                "normalized_label": "🇦🇺565"
+            },
+            {
+                "normalized_label": "🇦🇺566"
+            },
+            {
+                "normalized_label": "🇦🇺567"
+            },
+            {
+                "normalized_label": "🇦🇺568"
+            },
+            {
+                "normalized_label": "🇦🇺569"
+            },
+            {
+                "normalized_label": "🇦🇺570"
+            },
+            {
+                "normalized_label": "🇦🇺571"
+            },
+            {
+                "normalized_label": "🇦🇺572"
+            },
+            {
+                "normalized_label": "🇦🇺573"
+            },
+            {
+                "normalized_label": "🇦🇺574"
+            },
+            {
+                "normalized_label": "🇦🇺575"
+            },
+            {
+                "normalized_label": "🇦🇺576"
+            },
+            {
+                "normalized_label": "🇦🇺577"
+            },
+            {
+                "normalized_label": "🇦🇺578"
+            },
+            {
+                "normalized_label": "🇦🇺579"
+            },
+            {
+                "normalized_label": "🇦🇺580"
+            },
+            {
+                "normalized_label": "🇦🇺581"
+            },
+            {
+                "normalized_label": "🇦🇺582"
+            },
+            {
+                "normalized_label": "🇦🇺583"
+            },
+            {
+                "normalized_label": "🇦🇺584"
+            },
+            {
+                "normalized_label": "🇦🇺585"
+            },
+            {
+                "normalized_label": "🇦🇺586"
+            },
+            {
+                "normalized_label": "🇦🇺587"
+            },
+            {
+                "normalized_label": "🇦🇺588"
+            },
+            {
+                "normalized_label": "🇦🇺589"
+            },
+            {
+                "normalized_label": "🇦🇺590"
+            },
+            {
+                "normalized_label": "🇦🇺591"
+            },
+            {
+                "normalized_label": "🇦🇺592"
+            },
+            {
+                "normalized_label": "🇦🇺593"
+            },
+            {
+                "normalized_label": "🇦🇺594"
+            },
+            {
+                "normalized_label": "🇦🇺595"
+            },
+            {
+                "normalized_label": "🇦🇺596"
+            },
+            {
+                "normalized_label": "🇦🇺597"
+            },
+            {
+                "normalized_label": "🇦🇺598"
+            },
+            {
+                "normalized_label": "🇦🇺599"
+            },
+            {
+                "normalized_label": "🇦🇺600"
+            },
+            {
+                "normalized_label": "🇦🇺601"
+            },
+            {
+                "normalized_label": "🇦🇺602"
+            },
+            {
+                "normalized_label": "🇦🇺603"
+            },
+            {
+                "normalized_label": "🇦🇺604"
+            },
+            {
+                "normalized_label": "🇦🇺605"
+            },
+            {
+                "normalized_label": "🇦🇺606"
+            },
+            {
+                "normalized_label": "🇦🇺607"
+            },
+            {
+                "normalized_label": "🇦🇺608"
+            },
+            {
+                "normalized_label": "🇦🇺609"
+            },
+            {
+                "normalized_label": "🇦🇺610"
+            },
+            {
+                "normalized_label": "🇦🇺611"
+            },
+            {
+                "normalized_label": "🇦🇺612"
+            },
+            {
+                "normalized_label": "🇦🇺613"
+            },
+            {
+                "normalized_label": "🇦🇺614"
+            },
+            {
+                "normalized_label": "🇦🇺615"
+            },
+            {
+                "normalized_label": "🇦🇺616"
+            },
+            {
+                "normalized_label": "🇦🇺617"
+            },
+            {
+                "normalized_label": "🇦🇺618"
+            },
+            {
+                "normalized_label": "🇦🇺619"
+            },
+            {
+                "normalized_label": "🇦🇺620"
+            },
+            {
+                "normalized_label": "🇦🇺621"
+            },
+            {
+                "normalized_label": "🇦🇺622"
+            },
+            {
+                "normalized_label": "🇦🇺623"
+            },
+            {
+                "normalized_label": "🇦🇺624"
+            },
+            {
+                "normalized_label": "🇦🇺625"
+            },
+            {
+                "normalized_label": "🇦🇺626"
+            },
+            {
+                "normalized_label": "🇦🇺627"
+            },
+            {
+                "normalized_label": "🇦🇺628"
+            },
+            {
+                "normalized_label": "🇦🇺629"
+            },
+            {
+                "normalized_label": "🇦🇺630"
+            },
+            {
+                "normalized_label": "🇦🇺631"
+            },
+            {
+                "normalized_label": "🇦🇺632"
+            },
+            {
+                "normalized_label": "🇦🇺633"
+            },
+            {
+                "normalized_label": "🇦🇺634"
+            },
+            {
+                "normalized_label": "🇦🇺635"
+            },
+            {
+                "normalized_label": "🇦🇺636"
+            },
+            {
+                "normalized_label": "🇦🇺637"
+            },
+            {
+                "normalized_label": "🇦🇺638"
+            },
+            {
+                "normalized_label": "🇦🇺639"
+            },
+            {
+                "normalized_label": "🇦🇺640"
+            },
+            {
+                "normalized_label": "🇦🇺641"
+            },
+            {
+                "normalized_label": "🇦🇺642"
+            },
+            {
+                "normalized_label": "🇦🇺643"
+            },
+            {
+                "normalized_label": "🇦🇺644"
+            },
+            {
+                "normalized_label": "🇦🇺645"
+            },
+            {
+                "normalized_label": "🇦🇺646"
+            },
+            {
+                "normalized_label": "🇦🇺647"
+            },
+            {
+                "normalized_label": "🇦🇺648"
+            },
+            {
+                "normalized_label": "🇦🇺649"
+            },
+            {
+                "normalized_label": "🇦🇺650"
+            },
+            {
+                "normalized_label": "🇦🇺651"
+            },
+            {
+                "normalized_label": "🇦🇺652"
+            },
+            {
+                "normalized_label": "🇦🇺653"
+            },
+            {
+                "normalized_label": "🇦🇺654"
+            },
+            {
+                "normalized_label": "🇦🇺655"
+            },
+            {
+                "normalized_label": "🇦🇺656"
+            },
+            {
+                "normalized_label": "🇦🇺657"
+            },
+            {
+                "normalized_label": "🇦🇺658"
+            },
+            {
+                "normalized_label": "🇦🇺659"
+            },
+            {
+                "normalized_label": "🇦🇺660"
+            },
+            {
+                "normalized_label": "🇦🇺661"
+            },
+            {
+                "normalized_label": "🇦🇺662"
+            },
+            {
+                "normalized_label": "🇦🇺663"
+            },
+            {
+                "normalized_label": "🇦🇺664"
+            },
+            {
+                "normalized_label": "🇦🇺665"
+            },
+            {
+                "normalized_label": "🇦🇺666"
+            },
+            {
+                "normalized_label": "🇦🇺667"
+            },
+            {
+                "normalized_label": "🇦🇺668"
+            },
+            {
+                "normalized_label": "🇦🇺669"
+            },
+            {
+                "normalized_label": "🇦🇺670"
+            },
+            {
+                "normalized_label": "🇦🇺671"
+            },
+            {
+                "normalized_label": "🇦🇺672"
+            },
+            {
+                "normalized_label": "🇦🇺673"
+            },
+            {
+                "normalized_label": "🇦🇺674"
+            },
+            {
+                "normalized_label": "🇦🇺675"
+            },
+            {
+                "normalized_label": "🇦🇺676"
+            },
+            {
+                "normalized_label": "🇦🇺677"
+            },
+            {
+                "normalized_label": "🇦🇺678"
+            },
+            {
+                "normalized_label": "🇦🇺679"
+            },
+            {
+                "normalized_label": "🇦🇺680"
+            },
+            {
+                "normalized_label": "🇦🇺681"
+            },
+            {
+                "normalized_label": "🇦🇺682"
+            },
+            {
+                "normalized_label": "🇦🇺683"
+            },
+            {
+                "normalized_label": "🇦🇺684"
+            },
+            {
+                "normalized_label": "🇦🇺685"
+            },
+            {
+                "normalized_label": "🇦🇺686"
+            },
+            {
+                "normalized_label": "🇦🇺687"
+            },
+            {
+                "normalized_label": "🇦🇺688"
+            },
+            {
+                "normalized_label": "🇦🇺689"
+            },
+            {
+                "normalized_label": "🇦🇺690"
+            },
+            {
+                "normalized_label": "🇦🇺691"
+            },
+            {
+                "normalized_label": "🇦🇺692"
+            },
+            {
+                "normalized_label": "🇦🇺693"
+            },
+            {
+                "normalized_label": "🇦🇺694"
+            },
+            {
+                "normalized_label": "🇦🇺695"
+            },
+            {
+                "normalized_label": "🇦🇺696"
+            },
+            {
+                "normalized_label": "🇦🇺697"
+            },
+            {
+                "normalized_label": "🇦🇺698"
+            },
+            {
+                "normalized_label": "🇦🇺699"
+            },
+            {
+                "normalized_label": "🇦🇺700"
+            },
+            {
+                "normalized_label": "🇦🇺701"
+            },
+            {
+                "normalized_label": "🇦🇺702"
+            },
+            {
+                "normalized_label": "🇦🇺703"
+            },
+            {
+                "normalized_label": "🇦🇺704"
+            },
+            {
+                "normalized_label": "🇦🇺705"
+            },
+            {
+                "normalized_label": "🇦🇺706"
+            },
+            {
+                "normalized_label": "🇦🇺707"
+            },
+            {
+                "normalized_label": "🇦🇺708"
+            },
+            {
+                "normalized_label": "🇦🇺709"
+            },
+            {
+                "normalized_label": "🇦🇺710"
+            },
+            {
+                "normalized_label": "🇦🇺711"
+            },
+            {
+                "normalized_label": "🇦🇺712"
+            },
+            {
+                "normalized_label": "🇦🇺713"
+            },
+            {
+                "normalized_label": "🇦🇺714"
+            },
+            {
+                "normalized_label": "🇦🇺715"
+            },
+            {
+                "normalized_label": "🇦🇺716"
+            },
+            {
+                "normalized_label": "🇦🇺717"
+            },
+            {
+                "normalized_label": "🇦🇺718"
+            },
+            {
+                "normalized_label": "🇦🇺719"
+            },
+            {
+                "normalized_label": "🇦🇺720"
+            },
+            {
+                "normalized_label": "🇦🇺721"
+            },
+            {
+                "normalized_label": "🇦🇺722"
+            },
+            {
+                "normalized_label": "🇦🇺723"
+            },
+            {
+                "normalized_label": "🇦🇺724"
+            },
+            {
+                "normalized_label": "🇦🇺725"
+            },
+            {
+                "normalized_label": "🇦🇺726"
+            },
+            {
+                "normalized_label": "🇦🇺727"
+            },
+            {
+                "normalized_label": "🇦🇺728"
+            },
+            {
+                "normalized_label": "🇦🇺729"
+            },
+            {
+                "normalized_label": "🇦🇺730"
+            },
+            {
+                "normalized_label": "🇦🇺731"
+            },
+            {
+                "normalized_label": "🇦🇺732"
+            },
+            {
+                "normalized_label": "🇦🇺733"
+            },
+            {
+                "normalized_label": "🇦🇺734"
+            },
+            {
+                "normalized_label": "🇦🇺735"
+            },
+            {
+                "normalized_label": "🇦🇺736"
+            },
+            {
+                "normalized_label": "🇦🇺737"
+            },
+            {
+                "normalized_label": "🇦🇺738"
+            },
+            {
+                "normalized_label": "🇦🇺739"
+            },
+            {
+                "normalized_label": "🇦🇺740"
+            },
+            {
+                "normalized_label": "🇦🇺741"
+            },
+            {
+                "normalized_label": "🇦🇺742"
+            },
+            {
+                "normalized_label": "🇦🇺743"
+            },
+            {
+                "normalized_label": "🇦🇺744"
+            },
+            {
+                "normalized_label": "🇦🇺745"
+            },
+            {
+                "normalized_label": "🇦🇺746"
+            },
+            {
+                "normalized_label": "🇦🇺747"
+            },
+            {
+                "normalized_label": "🇦🇺748"
+            },
+            {
+                "normalized_label": "🇦🇺749"
+            },
+            {
+                "normalized_label": "🇦🇺750"
+            },
+            {
+                "normalized_label": "🇦🇺751"
+            },
+            {
+                "normalized_label": "🇦🇺752"
+            },
+            {
+                "normalized_label": "🇦🇺753"
+            },
+            {
+                "normalized_label": "🇦🇺754"
+            },
+            {
+                "normalized_label": "🇦🇺755"
+            },
+            {
+                "normalized_label": "🇦🇺756"
+            },
+            {
+                "normalized_label": "🇦🇺757"
+            },
+            {
+                "normalized_label": "🇦🇺758"
+            },
+            {
+                "normalized_label": "🇦🇺759"
+            },
+            {
+                "normalized_label": "🇦🇺760"
+            },
+            {
+                "normalized_label": "🇦🇺761"
+            },
+            {
+                "normalized_label": "🇦🇺762"
+            },
+            {
+                "normalized_label": "🇦🇺763"
+            },
+            {
+                "normalized_label": "🇦🇺764"
+            },
+            {
+                "normalized_label": "🇦🇺765"
+            },
+            {
+                "normalized_label": "🇦🇺766"
+            },
+            {
+                "normalized_label": "🇦🇺767"
+            },
+            {
+                "normalized_label": "🇦🇺768"
+            },
+            {
+                "normalized_label": "🇦🇺769"
+            },
+            {
+                "normalized_label": "🇦🇺770"
+            },
+            {
+                "normalized_label": "🇦🇺771"
+            },
+            {
+                "normalized_label": "🇦🇺772"
+            },
+            {
+                "normalized_label": "🇦🇺773"
+            },
+            {
+                "normalized_label": "🇦🇺774"
+            },
+            {
+                "normalized_label": "🇦🇺775"
+            },
+            {
+                "normalized_label": "🇦🇺776"
+            },
+            {
+                "normalized_label": "🇦🇺777"
+            },
+            {
+                "normalized_label": "🇦🇺778"
+            },
+            {
+                "normalized_label": "🇦🇺779"
+            },
+            {
+                "normalized_label": "🇦🇺780"
+            },
+            {
+                "normalized_label": "🇦🇺781"
+            },
+            {
+                "normalized_label": "🇦🇺782"
+            },
+            {
+                "normalized_label": "🇦🇺783"
+            },
+            {
+                "normalized_label": "🇦🇺784"
+            },
+            {
+                "normalized_label": "🇦🇺785"
+            },
+            {
+                "normalized_label": "🇦🇺786"
+            },
+            {
+                "normalized_label": "🇦🇺787"
+            },
+            {
+                "normalized_label": "🇦🇺788"
+            },
+            {
+                "normalized_label": "🇦🇺789"
+            },
+            {
+                "normalized_label": "🇦🇺790"
+            },
+            {
+                "normalized_label": "🇦🇺791"
+            },
+            {
+                "normalized_label": "🇦🇺792"
+            },
+            {
+                "normalized_label": "🇦🇺793"
+            },
+            {
+                "normalized_label": "🇦🇺794"
+            },
+            {
+                "normalized_label": "🇦🇺795"
+            },
+            {
+                "normalized_label": "🇦🇺796"
+            },
+            {
+                "normalized_label": "🇦🇺797"
+            },
+            {
+                "normalized_label": "🇦🇺798"
+            },
+            {
+                "normalized_label": "🇦🇺799"
+            },
+            {
+                "normalized_label": "🇦🇺800"
+            },
+            {
+                "normalized_label": "🇦🇺801"
+            },
+            {
+                "normalized_label": "🇦🇺802"
+            },
+            {
+                "normalized_label": "🇦🇺803"
+            },
+            {
+                "normalized_label": "🇦🇺804"
+            },
+            {
+                "normalized_label": "🇦🇺805"
+            },
+            {
+                "normalized_label": "🇦🇺806"
+            },
+            {
+                "normalized_label": "🇦🇺807"
+            },
+            {
+                "normalized_label": "🇦🇺808"
+            },
+            {
+                "normalized_label": "🇦🇺809"
+            },
+            {
+                "normalized_label": "🇦🇺810"
+            },
+            {
+                "normalized_label": "🇦🇺811"
+            },
+            {
+                "normalized_label": "🇦🇺812"
+            },
+            {
+                "normalized_label": "🇦🇺813"
+            },
+            {
+                "normalized_label": "🇦🇺814"
+            },
+            {
+                "normalized_label": "🇦🇺815"
+            },
+            {
+                "normalized_label": "🇦🇺816"
+            },
+            {
+                "normalized_label": "🇦🇺817"
+            },
+            {
+                "normalized_label": "🇦🇺818"
+            },
+            {
+                "normalized_label": "🇦🇺819"
+            },
+            {
+                "normalized_label": "🇦🇺820"
+            },
+            {
+                "normalized_label": "🇦🇺821"
+            },
+            {
+                "normalized_label": "🇦🇺822"
+            },
+            {
+                "normalized_label": "🇦🇺823"
+            },
+            {
+                "normalized_label": "🇦🇺824"
+            },
+            {
+                "normalized_label": "🇦🇺825"
+            },
+            {
+                "normalized_label": "🇦🇺826"
+            },
+            {
+                "normalized_label": "🇦🇺827"
+            },
+            {
+                "normalized_label": "🇦🇺828"
+            },
+            {
+                "normalized_label": "🇦🇺829"
+            },
+            {
+                "normalized_label": "🇦🇺830"
+            },
+            {
+                "normalized_label": "🇦🇺831"
+            },
+            {
+                "normalized_label": "🇦🇺832"
+            },
+            {
+                "normalized_label": "🇦🇺833"
+            },
+            {
+                "normalized_label": "🇦🇺834"
+            },
+            {
+                "normalized_label": "🇦🇺835"
+            },
+            {
+                "normalized_label": "🇦🇺836"
+            },
+            {
+                "normalized_label": "🇦🇺837"
+            },
+            {
+                "normalized_label": "🇦🇺838"
+            },
+            {
+                "normalized_label": "🇦🇺839"
+            },
+            {
+                "normalized_label": "🇦🇺840"
+            },
+            {
+                "normalized_label": "🇦🇺841"
+            },
+            {
+                "normalized_label": "🇦🇺842"
+            },
+            {
+                "normalized_label": "🇦🇺843"
+            },
+            {
+                "normalized_label": "🇦🇺844"
+            },
+            {
+                "normalized_label": "🇦🇺845"
+            },
+            {
+                "normalized_label": "🇦🇺846"
+            },
+            {
+                "normalized_label": "🇦🇺847"
+            },
+            {
+                "normalized_label": "🇦🇺848"
+            },
+            {
+                "normalized_label": "🇦🇺849"
+            },
+            {
+                "normalized_label": "🇦🇺850"
+            },
+            {
+                "normalized_label": "🇦🇺851"
+            },
+            {
+                "normalized_label": "🇦🇺852"
+            },
+            {
+                "normalized_label": "🇦🇺853"
+            },
+            {
+                "normalized_label": "🇦🇺854"
+            },
+            {
+                "normalized_label": "🇦🇺855"
+            },
+            {
+                "normalized_label": "🇦🇺856"
+            },
+            {
+                "normalized_label": "🇦🇺857"
+            },
+            {
+                "normalized_label": "🇦🇺858"
+            },
+            {
+                "normalized_label": "🇦🇺859"
+            },
+            {
+                "normalized_label": "🇦🇺860"
+            },
+            {
+                "normalized_label": "🇦🇺861"
+            },
+            {
+                "normalized_label": "🇦🇺862"
+            },
+            {
+                "normalized_label": "🇦🇺863"
+            },
+            {
+                "normalized_label": "🇦🇺864"
+            },
+            {
+                "normalized_label": "🇦🇺865"
+            },
+            {
+                "normalized_label": "🇦🇺866"
+            },
+            {
+                "normalized_label": "🇦🇺867"
+            },
+            {
+                "normalized_label": "🇦🇺868"
+            },
+            {
+                "normalized_label": "🇦🇺869"
+            },
+            {
+                "normalized_label": "🇦🇺870"
+            },
+            {
+                "normalized_label": "🇦🇺871"
+            },
+            {
+                "normalized_label": "🇦🇺872"
+            },
+            {
+                "normalized_label": "🇦🇺873"
+            },
+            {
+                "normalized_label": "🇦🇺874"
+            },
+            {
+                "normalized_label": "🇦🇺875"
+            },
+            {
+                "normalized_label": "🇦🇺876"
+            },
+            {
+                "normalized_label": "🇦🇺877"
+            },
+            {
+                "normalized_label": "🇦🇺878"
+            },
+            {
+                "normalized_label": "🇦🇺879"
+            },
+            {
+                "normalized_label": "🇦🇺880"
+            },
+            {
+                "normalized_label": "🇦🇺881"
+            },
+            {
+                "normalized_label": "🇦🇺882"
+            },
+            {
+                "normalized_label": "🇦🇺883"
+            },
+            {
+                "normalized_label": "🇦🇺884"
+            },
+            {
+                "normalized_label": "🇦🇺885"
+            },
+            {
+                "normalized_label": "🇦🇺886"
+            },
+            {
+                "normalized_label": "🇦🇺887"
+            },
+            {
+                "normalized_label": "🇦🇺888"
+            },
+            {
+                "normalized_label": "🇦🇺889"
+            },
+            {
+                "normalized_label": "🇦🇺890"
+            },
+            {
+                "normalized_label": "🇦🇺891"
+            },
+            {
+                "normalized_label": "🇦🇺892"
+            },
+            {
+                "normalized_label": "🇦🇺893"
+            },
+            {
+                "normalized_label": "🇦🇺894"
+            },
+            {
+                "normalized_label": "🇦🇺895"
+            },
+            {
+                "normalized_label": "🇦🇺896"
+            },
+            {
+                "normalized_label": "🇦🇺897"
+            },
+            {
+                "normalized_label": "🇦🇺898"
+            },
+            {
+                "normalized_label": "🇦🇺899"
+            },
+            {
+                "normalized_label": "🇦🇺900"
+            },
+            {
+                "normalized_label": "🇦🇺901"
+            },
+            {
+                "normalized_label": "🇦🇺902"
+            },
+            {
+                "normalized_label": "🇦🇺903"
+            },
+            {
+                "normalized_label": "🇦🇺904"
+            },
+            {
+                "normalized_label": "🇦🇺905"
+            },
+            {
+                "normalized_label": "🇦🇺906"
+            },
+            {
+                "normalized_label": "🇦🇺907"
+            },
+            {
+                "normalized_label": "🇦🇺908"
+            },
+            {
+                "normalized_label": "🇦🇺909"
+            },
+            {
+                "normalized_label": "🇦🇺910"
+            },
+            {
+                "normalized_label": "🇦🇺911"
+            },
+            {
+                "normalized_label": "🇦🇺912"
+            },
+            {
+                "normalized_label": "🇦🇺913"
+            },
+            {
+                "normalized_label": "🇦🇺914"
+            },
+            {
+                "normalized_label": "🇦🇺915"
+            },
+            {
+                "normalized_label": "🇦🇺916"
+            },
+            {
+                "normalized_label": "🇦🇺917"
+            },
+            {
+                "normalized_label": "🇦🇺918"
+            },
+            {
+                "normalized_label": "🇦🇺919"
+            },
+            {
+                "normalized_label": "🇦🇺920"
+            },
+            {
+                "normalized_label": "🇦🇺921"
+            },
+            {
+                "normalized_label": "🇦🇺922"
+            },
+            {
+                "normalized_label": "🇦🇺923"
+            },
+            {
+                "normalized_label": "🇦🇺924"
+            },
+            {
+                "normalized_label": "🇦🇺925"
+            },
+            {
+                "normalized_label": "🇦🇺926"
+            },
+            {
+                "normalized_label": "🇦🇺927"
+            },
+            {
+                "normalized_label": "🇦🇺928"
+            },
+            {
+                "normalized_label": "🇦🇺929"
+            },
+            {
+                "normalized_label": "🇦🇺930"
+            },
+            {
+                "normalized_label": "🇦🇺931"
+            },
+            {
+                "normalized_label": "🇦🇺932"
+            },
+            {
+                "normalized_label": "🇦🇺933"
+            },
+            {
+                "normalized_label": "🇦🇺934"
+            },
+            {
+                "normalized_label": "🇦🇺935"
+            },
+            {
+                "normalized_label": "🇦🇺936"
+            },
+            {
+                "normalized_label": "🇦🇺937"
+            },
+            {
+                "normalized_label": "🇦🇺938"
+            },
+            {
+                "normalized_label": "🇦🇺939"
+            },
+            {
+                "normalized_label": "🇦🇺940"
+            },
+            {
+                "normalized_label": "🇦🇺941"
+            },
+            {
+                "normalized_label": "🇦🇺942"
+            },
+            {
+                "normalized_label": "🇦🇺943"
+            },
+            {
+                "normalized_label": "🇦🇺944"
+            },
+            {
+                "normalized_label": "🇦🇺945"
+            },
+            {
+                "normalized_label": "🇦🇺946"
+            },
+            {
+                "normalized_label": "🇦🇺947"
+            },
+            {
+                "normalized_label": "🇦🇺948"
+            },
+            {
+                "normalized_label": "🇦🇺949"
+            },
+            {
+                "normalized_label": "🇦🇺950"
+            },
+            {
+                "normalized_label": "🇦🇺951"
+            },
+            {
+                "normalized_label": "🇦🇺952"
+            },
+            {
+                "normalized_label": "🇦🇺953"
+            },
+            {
+                "normalized_label": "🇦🇺954"
+            },
+            {
+                "normalized_label": "🇦🇺955"
+            },
+            {
+                "normalized_label": "🇦🇺956"
+            },
+            {
+                "normalized_label": "🇦🇺957"
+            },
+            {
+                "normalized_label": "🇦🇺958"
+            },
+            {
+                "normalized_label": "🇦🇺959"
+            },
+            {
+                "normalized_label": "🇦🇺960"
+            },
+            {
+                "normalized_label": "🇦🇺961"
+            },
+            {
+                "normalized_label": "🇦🇺962"
+            },
+            {
+                "normalized_label": "🇦🇺963"
+            },
+            {
+                "normalized_label": "🇦🇺964"
+            },
+            {
+                "normalized_label": "🇦🇺965"
+            },
+            {
+                "normalized_label": "🇦🇺966"
+            },
+            {
+                "normalized_label": "🇦🇺967"
+            },
+            {
+                "normalized_label": "🇦🇺968"
+            },
+            {
+                "normalized_label": "🇦🇺969"
+            },
+            {
+                "normalized_label": "🇦🇺970"
+            },
+            {
+                "normalized_label": "🇦🇺971"
+            },
+            {
+                "normalized_label": "🇦🇺972"
+            },
+            {
+                "normalized_label": "🇦🇺973"
+            },
+            {
+                "normalized_label": "🇦🇺974"
+            },
+            {
+                "normalized_label": "🇦🇺975"
+            },
+            {
+                "normalized_label": "🇦🇺976"
+            },
+            {
+                "normalized_label": "🇦🇺977"
+            },
+            {
+                "normalized_label": "🇦🇺978"
+            },
+            {
+                "normalized_label": "🇦🇺979"
+            },
+            {
+                "normalized_label": "🇦🇺980"
+            },
+            {
+                "normalized_label": "🇦🇺981"
+            },
+            {
+                "normalized_label": "🇦🇺982"
+            },
+            {
+                "normalized_label": "🇦🇺983"
+            },
+            {
+                "normalized_label": "🇦🇺984"
+            },
+            {
+                "normalized_label": "🇦🇺985"
+            },
+            {
+                "normalized_label": "🇦🇺986"
+            },
+            {
+                "normalized_label": "🇦🇺987"
+            },
+            {
+                "normalized_label": "🇦🇺988"
+            },
+            {
+                "normalized_label": "🇦🇺989"
+            },
+            {
+                "normalized_label": "🇦🇺990"
+            },
+            {
+                "normalized_label": "🇦🇺991"
+            },
+            {
+                "normalized_label": "🇦🇺992"
+            },
+            {
+                "normalized_label": "🇦🇺993"
+            },
+            {
+                "normalized_label": "🇦🇺994"
+            },
+            {
+                "normalized_label": "🇦🇺995"
+            },
+            {
+                "normalized_label": "🇦🇺996"
+            },
+            {
+                "normalized_label": "🇦🇺997"
+            },
+            {
+                "normalized_label": "🇦🇺998"
+            },
+            {
+                "normalized_label": "🇦🇺999"
+            }
+        ]
+    }
+}

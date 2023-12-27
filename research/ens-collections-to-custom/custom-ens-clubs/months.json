@@ -1,0 +1,53 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "months",
+        "collection_name": "Months",
+        "collection_description": "Months in the Gregorian calendar",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "april"
+            },
+            {
+                "normalized_label": "august"
+            },
+            {
+                "normalized_label": "december"
+            },
+            {
+                "normalized_label": "february"
+            },
+            {
+                "normalized_label": "january"
+            },
+            {
+                "normalized_label": "july"
+            },
+            {
+                "normalized_label": "june"
+            },
+            {
+                "normalized_label": "march"
+            },
+            {
+                "normalized_label": "may"
+            },
+            {
+                "normalized_label": "november"
+            },
+            {
+                "normalized_label": "october"
+            },
+            {
+                "normalized_label": "september"
+            }
+        ]
+    }
+}

@@ -1,0 +1,3041 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "pokemon-trainer-dao",
+        "collection_name": "Pokemon Trainer DAO",
+        "collection_description": "Pokemon ENS.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "mew"
+            },
+            {
+                "normalized_label": "muk"
+            },
+            {
+                "normalized_label": "growlithe"
+            },
+            {
+                "normalized_label": "haunter"
+            },
+            {
+                "normalized_label": "rattata"
+            },
+            {
+                "normalized_label": "treecko"
+            },
+            {
+                "normalized_label": "bisharp"
+            },
+            {
+                "normalized_label": "victini"
+            },
+            {
+                "normalized_label": "moltres"
+            },
+            {
+                "normalized_label": "luvdisc"
+            },
+            {
+                "normalized_label": "sylveon"
+            },
+            {
+                "normalized_label": "jirachi"
+            },
+            {
+                "normalized_label": "ivysaur"
+            },
+            {
+                "normalized_label": "sneasel"
+            },
+            {
+                "normalized_label": "flabébé"
+            },
+            {
+                "normalized_label": "pancham"
+            },
+            {
+                "normalized_label": "chansey"
+            },
+            {
+                "normalized_label": "shaymin"
+            },
+            {
+                "normalized_label": "geodude"
+            },
+            {
+                "normalized_label": "groudon"
+            },
+            {
+                "normalized_label": "gallade"
+            },
+            {
+                "normalized_label": "electrike"
+            },
+            {
+                "normalized_label": "caterpie"
+            },
+            {
+                "normalized_label": "clefable"
+            },
+            {
+                "normalized_label": "alakazam"
+            },
+            {
+                "normalized_label": "vileplume"
+            },
+            {
+                "normalized_label": "slowbro"
+            },
+            {
+                "normalized_label": "electrode"
+            },
+            {
+                "normalized_label": "jigglypuff"
+            },
+            {
+                "normalized_label": "bulbasaur"
+            },
+            {
+                "normalized_label": "poliwag"
+            },
+            {
+                "normalized_label": "breloom"
+            },
+            {
+                "normalized_label": "whismur"
+            },
+            {
+                "normalized_label": "wailord"
+            },
+            {
+                "normalized_label": "wingull"
+            },
+            {
+                "normalized_label": "chespin"
+            },
+            {
+                "normalized_label": "darkrai"
+            },
+            {
+                "normalized_label": "dratini"
+            },
+            {
+                "normalized_label": "magikarp"
+            },
+            {
+                "normalized_label": "snorlax"
+            },
+            {
+                "normalized_label": "slowpoke"
+            },
+            {
+                "normalized_label": "venusaur"
+            },
+            {
+                "normalized_label": "voltorb"
+            },
+            {
+                "normalized_label": "pidgeotto"
+            },
+            {
+                "normalized_label": "nidorino"
+            },
+            {
+                "normalized_label": "pidgeot"
+            },
+            {
+                "normalized_label": "raticate"
+            },
+            {
+                "normalized_label": "sandshrew"
+            },
+            {
+                "normalized_label": "ninetales"
+            },
+            {
+                "normalized_label": "primeape"
+            },
+            {
+                "normalized_label": "poliwhirl"
+            },
+            {
+                "normalized_label": "machoke"
+            },
+            {
+                "normalized_label": "victreebel"
+            },
+            {
+                "normalized_label": "tentacruel"
+            },
+            {
+                "normalized_label": "graveler"
+            },
+            {
+                "normalized_label": "magnemite"
+            },
+            {
+                "normalized_label": "magneton"
+            },
+            {
+                "normalized_label": "kingler"
+            },
+            {
+                "normalized_label": "exeggcute"
+            },
+            {
+                "normalized_label": "lickitung"
+            },
+            {
+                "normalized_label": "rhyhorn"
+            },
+            {
+                "normalized_label": "omastar"
+            },
+            {
+                "normalized_label": "kabutops"
+            },
+            {
+                "normalized_label": "aerodactyl"
+            },
+            {
+                "normalized_label": "metapod"
+            },
+            {
+                "normalized_label": "beedrill"
+            },
+            {
+                "normalized_label": "gyarados"
+            },
+            {
+                "normalized_label": "charizard"
+            },
+            {
+                "normalized_label": "butterfree"
+            },
+            {
+                "normalized_label": "starmie"
+            },
+            {
+                "normalized_label": "persian"
+            },
+            {
+                "normalized_label": "nidoking"
+            },
+            {
+                "normalized_label": "venonat"
+            },
+            {
+                "normalized_label": "diglett"
+            },
+            {
+                "normalized_label": "hitmonlee"
+            },
+            {
+                "normalized_label": "exeggutor"
+            },
+            {
+                "normalized_label": "hitmonchan"
+            },
+            {
+                "normalized_label": "farfetch’d"
+            },
+            {
+                "normalized_label": "kangaskhan"
+            },
+            {
+                "normalized_label": "flareon"
+            },
+            {
+                "normalized_label": "pikachu"
+            },
+            {
+                "normalized_label": "dewgong"
+            },
+            {
+                "normalized_label": "weepinbell"
+            },
+            {
+                "normalized_label": "venomoth"
+            },
+            {
+                "normalized_label": "machamp"
+            },
+            {
+                "normalized_label": "omanyte"
+            },
+            {
+                "normalized_label": "cyndaquil"
+            },
+            {
+                "normalized_label": "torchic"
+            },
+            {
+                "normalized_label": "wobbuffet"
+            },
+            {
+                "normalized_label": "blastoise"
+            },
+            {
+                "normalized_label": "squirtle"
+            },
+            {
+                "normalized_label": "slowking"
+            },
+            {
+                "normalized_label": "lucario"
+            },
+            {
+                "normalized_label": "dugtrio"
+            },
+            {
+                "normalized_label": "tangela"
+            },
+            {
+                "normalized_label": "marowak"
+            },
+            {
+                "normalized_label": "dragonair"
+            },
+            {
+                "normalized_label": "seaking"
+            },
+            {
+                "normalized_label": "tentacool"
+            },
+            {
+                "normalized_label": "shellder"
+            },
+            {
+                "normalized_label": "scyther"
+            },
+            {
+                "normalized_label": "bellsprout"
+            },
+            {
+                "normalized_label": "totodile"
+            },
+            {
+                "normalized_label": "psyduck"
+            },
+            {
+                "normalized_label": "charmander"
+            },
+            {
+                "normalized_label": "dragonite"
+            },
+            {
+                "normalized_label": "charmeleon"
+            },
+            {
+                "normalized_label": "wartortle"
+            },
+            {
+                "normalized_label": "weedle"
+            },
+            {
+                "normalized_label": "kakuna"
+            },
+            {
+                "normalized_label": "pidgey"
+            },
+            {
+                "normalized_label": "spearow"
+            },
+            {
+                "normalized_label": "fearow"
+            },
+            {
+                "normalized_label": "ekans"
+            },
+            {
+                "normalized_label": "arbok"
+            },
+            {
+                "normalized_label": "raichu"
+            },
+            {
+                "normalized_label": "sandslash"
+            },
+            {
+                "normalized_label": "nidoran♀"
+            },
+            {
+                "normalized_label": "nidorina"
+            },
+            {
+                "normalized_label": "nidoqueen"
+            },
+            {
+                "normalized_label": "nidoran♂"
+            },
+            {
+                "normalized_label": "clefairy"
+            },
+            {
+                "normalized_label": "vulpix"
+            },
+            {
+                "normalized_label": "wigglytuff"
+            },
+            {
+                "normalized_label": "zubat"
+            },
+            {
+                "normalized_label": "golbat"
+            },
+            {
+                "normalized_label": "oddish"
+            },
+            {
+                "normalized_label": "gloom"
+            },
+            {
+                "normalized_label": "paras"
+            },
+            {
+                "normalized_label": "parasect"
+            },
+            {
+                "normalized_label": "meowth"
+            },
+            {
+                "normalized_label": "golduck"
+            },
+            {
+                "normalized_label": "mankey"
+            },
+            {
+                "normalized_label": "arcanine"
+            },
+            {
+                "normalized_label": "poliwrath"
+            },
+            {
+                "normalized_label": "abra"
+            },
+            {
+                "normalized_label": "kadabra"
+            },
+            {
+                "normalized_label": "machop"
+            },
+            {
+                "normalized_label": "golem"
+            },
+            {
+                "normalized_label": "ponyta"
+            },
+            {
+                "normalized_label": "rapidash"
+            },
+            {
+                "normalized_label": "doduo"
+            },
+            {
+                "normalized_label": "dodrio"
+            },
+            {
+                "normalized_label": "seel"
+            },
+            {
+                "normalized_label": "grimer"
+            },
+            {
+                "normalized_label": "cloyster"
+            },
+            {
+                "normalized_label": "gastly"
+            },
+            {
+                "normalized_label": "gengar"
+            },
+            {
+                "normalized_label": "onix"
+            },
+            {
+                "normalized_label": "drowzee"
+            },
+            {
+                "normalized_label": "hypno"
+            },
+            {
+                "normalized_label": "krabby"
+            },
+            {
+                "normalized_label": "cubone"
+            },
+            {
+                "normalized_label": "koffing"
+            },
+            {
+                "normalized_label": "weezing"
+            },
+            {
+                "normalized_label": "rhydon"
+            },
+            {
+                "normalized_label": "horsea"
+            },
+            {
+                "normalized_label": "seadra"
+            },
+            {
+                "normalized_label": "goldeen"
+            },
+            {
+                "normalized_label": "staryu"
+            },
+            {
+                "normalized_label": "mrmime"
+            },
+            {
+                "normalized_label": "jynx"
+            },
+            {
+                "normalized_label": "electabuzz"
+            },
+            {
+                "normalized_label": "magmar"
+            },
+            {
+                "normalized_label": "pinsir"
+            },
+            {
+                "normalized_label": "tauros"
+            },
+            {
+                "normalized_label": "lapras"
+            },
+            {
+                "normalized_label": "ditto"
+            },
+            {
+                "normalized_label": "eevee"
+            },
+            {
+                "normalized_label": "vaporeon"
+            },
+            {
+                "normalized_label": "jolteon"
+            },
+            {
+                "normalized_label": "porygon"
+            },
+            {
+                "normalized_label": "kabuto"
+            },
+            {
+                "normalized_label": "articuno"
+            },
+            {
+                "normalized_label": "zapdos"
+            },
+            {
+                "normalized_label": "mewtwo"
+            },
+            {
+                "normalized_label": "chikorita"
+            },
+            {
+                "normalized_label": "bayleef"
+            },
+            {
+                "normalized_label": "meganium"
+            },
+            {
+                "normalized_label": "quilava"
+            },
+            {
+                "normalized_label": "typhlosion"
+            },
+            {
+                "normalized_label": "croconaw"
+            },
+            {
+                "normalized_label": "feraligatr"
+            },
+            {
+                "normalized_label": "sentret"
+            },
+            {
+                "normalized_label": "furret"
+            },
+            {
+                "normalized_label": "hoothoot"
+            },
+            {
+                "normalized_label": "noctowl"
+            },
+            {
+                "normalized_label": "ledyba"
+            },
+            {
+                "normalized_label": "ledian"
+            },
+            {
+                "normalized_label": "spinarak"
+            },
+            {
+                "normalized_label": "ariados"
+            },
+            {
+                "normalized_label": "crobat"
+            },
+            {
+                "normalized_label": "chinchou"
+            },
+            {
+                "normalized_label": "lanturn"
+            },
+            {
+                "normalized_label": "pichu"
+            },
+            {
+                "normalized_label": "cleffa"
+            },
+            {
+                "normalized_label": "igglybuff"
+            },
+            {
+                "normalized_label": "togepi"
+            },
+            {
+                "normalized_label": "togetic"
+            },
+            {
+                "normalized_label": "natu"
+            },
+            {
+                "normalized_label": "xatu"
+            },
+            {
+                "normalized_label": "mareep"
+            },
+            {
+                "normalized_label": "flaaffy"
+            },
+            {
+                "normalized_label": "ampharos"
+            },
+            {
+                "normalized_label": "bellossom"
+            },
+            {
+                "normalized_label": "marill"
+            },
+            {
+                "normalized_label": "sudowoodo"
+            },
+            {
+                "normalized_label": "azumarill"
+            },
+            {
+                "normalized_label": "politoed"
+            },
+            {
+                "normalized_label": "hoppip"
+            },
+            {
+                "normalized_label": "skiploom"
+            },
+            {
+                "normalized_label": "jumpluff"
+            },
+            {
+                "normalized_label": "aipom"
+            },
+            {
+                "normalized_label": "sunkern"
+            },
+            {
+                "normalized_label": "sunflora"
+            },
+            {
+                "normalized_label": "yanma"
+            },
+            {
+                "normalized_label": "wooper"
+            },
+            {
+                "normalized_label": "quagsire"
+            },
+            {
+                "normalized_label": "espeon"
+            },
+            {
+                "normalized_label": "umbreon"
+            },
+            {
+                "normalized_label": "murkrow"
+            },
+            {
+                "normalized_label": "misdreavus"
+            },
+            {
+                "normalized_label": "unown"
+            },
+            {
+                "normalized_label": "pineco"
+            },
+            {
+                "normalized_label": "girafarig"
+            },
+            {
+                "normalized_label": "forretress"
+            },
+            {
+                "normalized_label": "dunsparce"
+            },
+            {
+                "normalized_label": "gligar"
+            },
+            {
+                "normalized_label": "steelix"
+            },
+            {
+                "normalized_label": "snubbull"
+            },
+            {
+                "normalized_label": "granbull"
+            },
+            {
+                "normalized_label": "qwilfish"
+            },
+            {
+                "normalized_label": "scizor"
+            },
+            {
+                "normalized_label": "shuckle"
+            },
+            {
+                "normalized_label": "heracross"
+            },
+            {
+                "normalized_label": "teddiursa"
+            },
+            {
+                "normalized_label": "ursaring"
+            },
+            {
+                "normalized_label": "slugma"
+            },
+            {
+                "normalized_label": "magcargo"
+            },
+            {
+                "normalized_label": "swinub"
+            },
+            {
+                "normalized_label": "piloswine"
+            },
+            {
+                "normalized_label": "corsola"
+            },
+            {
+                "normalized_label": "remoraid"
+            },
+            {
+                "normalized_label": "octillery"
+            },
+            {
+                "normalized_label": "delibird"
+            },
+            {
+                "normalized_label": "mantine"
+            },
+            {
+                "normalized_label": "skarmory"
+            },
+            {
+                "normalized_label": "houndour"
+            },
+            {
+                "normalized_label": "houndoom"
+            },
+            {
+                "normalized_label": "kingdra"
+            },
+            {
+                "normalized_label": "phanpy"
+            },
+            {
+                "normalized_label": "donphan"
+            },
+            {
+                "normalized_label": "porygon2"
+            },
+            {
+                "normalized_label": "stantler"
+            },
+            {
+                "normalized_label": "smeargle"
+            },
+            {
+                "normalized_label": "tyrogue"
+            },
+            {
+                "normalized_label": "hitmontop"
+            },
+            {
+                "normalized_label": "smoochum"
+            },
+            {
+                "normalized_label": "elekid"
+            },
+            {
+                "normalized_label": "magby"
+            },
+            {
+                "normalized_label": "miltank"
+            },
+            {
+                "normalized_label": "blissey"
+            },
+            {
+                "normalized_label": "raikou"
+            },
+            {
+                "normalized_label": "entei"
+            },
+            {
+                "normalized_label": "suicune"
+            },
+            {
+                "normalized_label": "larvitar"
+            },
+            {
+                "normalized_label": "pupitar"
+            },
+            {
+                "normalized_label": "tyranitar"
+            },
+            {
+                "normalized_label": "lugia"
+            },
+            {
+                "normalized_label": "ho-oh"
+            },
+            {
+                "normalized_label": "celebi"
+            },
+            {
+                "normalized_label": "grovyle"
+            },
+            {
+                "normalized_label": "sceptile"
+            },
+            {
+                "normalized_label": "combusken"
+            },
+            {
+                "normalized_label": "blaziken"
+            },
+            {
+                "normalized_label": "mudkip"
+            },
+            {
+                "normalized_label": "marshtomp"
+            },
+            {
+                "normalized_label": "swampert"
+            },
+            {
+                "normalized_label": "poochyena"
+            },
+            {
+                "normalized_label": "mightyena"
+            },
+            {
+                "normalized_label": "zigzagoon"
+            },
+            {
+                "normalized_label": "linoone"
+            },
+            {
+                "normalized_label": "wurmple"
+            },
+            {
+                "normalized_label": "silcoon"
+            },
+            {
+                "normalized_label": "beautifly"
+            },
+            {
+                "normalized_label": "cascoon"
+            },
+            {
+                "normalized_label": "dustox"
+            },
+            {
+                "normalized_label": "lotad"
+            },
+            {
+                "normalized_label": "lombre"
+            },
+            {
+                "normalized_label": "ludicolo"
+            },
+            {
+                "normalized_label": "seedot"
+            },
+            {
+                "normalized_label": "nuzleaf"
+            },
+            {
+                "normalized_label": "shiftry"
+            },
+            {
+                "normalized_label": "taillow"
+            },
+            {
+                "normalized_label": "swellow"
+            },
+            {
+                "normalized_label": "pelipper"
+            },
+            {
+                "normalized_label": "ralts"
+            },
+            {
+                "normalized_label": "kirlia"
+            },
+            {
+                "normalized_label": "gardevoir"
+            },
+            {
+                "normalized_label": "surskit"
+            },
+            {
+                "normalized_label": "masquerain"
+            },
+            {
+                "normalized_label": "shroomish"
+            },
+            {
+                "normalized_label": "vigoroth"
+            },
+            {
+                "normalized_label": "slaking"
+            },
+            {
+                "normalized_label": "nincada"
+            },
+            {
+                "normalized_label": "ninjask"
+            },
+            {
+                "normalized_label": "shedinja"
+            },
+            {
+                "normalized_label": "loudred"
+            },
+            {
+                "normalized_label": "exploud"
+            },
+            {
+                "normalized_label": "makuhita"
+            },
+            {
+                "normalized_label": "slakoth"
+            },
+            {
+                "normalized_label": "hariyama"
+            },
+            {
+                "normalized_label": "azurill"
+            },
+            {
+                "normalized_label": "nosepass"
+            },
+            {
+                "normalized_label": "skitty"
+            },
+            {
+                "normalized_label": "delcatty"
+            },
+            {
+                "normalized_label": "sableye"
+            },
+            {
+                "normalized_label": "mawile"
+            },
+            {
+                "normalized_label": "aron"
+            },
+            {
+                "normalized_label": "lairon"
+            },
+            {
+                "normalized_label": "aggron"
+            },
+            {
+                "normalized_label": "meditite"
+            },
+            {
+                "normalized_label": "medicham"
+            },
+            {
+                "normalized_label": "manectric"
+            },
+            {
+                "normalized_label": "plusle"
+            },
+            {
+                "normalized_label": "minun"
+            },
+            {
+                "normalized_label": "volbeat"
+            },
+            {
+                "normalized_label": "illumise"
+            },
+            {
+                "normalized_label": "roselia"
+            },
+            {
+                "normalized_label": "gulpin"
+            },
+            {
+                "normalized_label": "swalot"
+            },
+            {
+                "normalized_label": "carvanha"
+            },
+            {
+                "normalized_label": "sharpedo"
+            },
+            {
+                "normalized_label": "wailmer"
+            },
+            {
+                "normalized_label": "numel"
+            },
+            {
+                "normalized_label": "camerupt"
+            },
+            {
+                "normalized_label": "torkoal"
+            },
+            {
+                "normalized_label": "spoink"
+            },
+            {
+                "normalized_label": "grumpig"
+            },
+            {
+                "normalized_label": "spinda"
+            },
+            {
+                "normalized_label": "trapinch"
+            },
+            {
+                "normalized_label": "vibrava"
+            },
+            {
+                "normalized_label": "flygon"
+            },
+            {
+                "normalized_label": "cacnea"
+            },
+            {
+                "normalized_label": "cacturne"
+            },
+            {
+                "normalized_label": "swablu"
+            },
+            {
+                "normalized_label": "altaria"
+            },
+            {
+                "normalized_label": "zangoose"
+            },
+            {
+                "normalized_label": "seviper"
+            },
+            {
+                "normalized_label": "lunatone"
+            },
+            {
+                "normalized_label": "solrock"
+            },
+            {
+                "normalized_label": "barboach"
+            },
+            {
+                "normalized_label": "whiscash"
+            },
+            {
+                "normalized_label": "corphish"
+            },
+            {
+                "normalized_label": "baltoy"
+            },
+            {
+                "normalized_label": "claydol"
+            },
+            {
+                "normalized_label": "crawdaunt"
+            },
+            {
+                "normalized_label": "lileep"
+            },
+            {
+                "normalized_label": "cradily"
+            },
+            {
+                "normalized_label": "anorith"
+            },
+            {
+                "normalized_label": "armaldo"
+            },
+            {
+                "normalized_label": "feebas"
+            },
+            {
+                "normalized_label": "milotic"
+            },
+            {
+                "normalized_label": "castform"
+            },
+            {
+                "normalized_label": "kecleon"
+            },
+            {
+                "normalized_label": "shuppet"
+            },
+            {
+                "normalized_label": "banette"
+            },
+            {
+                "normalized_label": "duskull"
+            },
+            {
+                "normalized_label": "dusclops"
+            },
+            {
+                "normalized_label": "tropius"
+            },
+            {
+                "normalized_label": "chimecho"
+            },
+            {
+                "normalized_label": "absol"
+            },
+            {
+                "normalized_label": "wynaut"
+            },
+            {
+                "normalized_label": "snorunt"
+            },
+            {
+                "normalized_label": "glalie"
+            },
+            {
+                "normalized_label": "spheal"
+            },
+            {
+                "normalized_label": "sealeo"
+            },
+            {
+                "normalized_label": "walrein"
+            },
+            {
+                "normalized_label": "clamperl"
+            },
+            {
+                "normalized_label": "huntail"
+            },
+            {
+                "normalized_label": "gorebyss"
+            },
+            {
+                "normalized_label": "relicanth"
+            },
+            {
+                "normalized_label": "bagon"
+            },
+            {
+                "normalized_label": "shelgon"
+            },
+            {
+                "normalized_label": "salamence"
+            },
+            {
+                "normalized_label": "beldum"
+            },
+            {
+                "normalized_label": "metang"
+            },
+            {
+                "normalized_label": "metagross"
+            },
+            {
+                "normalized_label": "regirock"
+            },
+            {
+                "normalized_label": "regice"
+            },
+            {
+                "normalized_label": "registeel"
+            },
+            {
+                "normalized_label": "latias"
+            },
+            {
+                "normalized_label": "latios"
+            },
+            {
+                "normalized_label": "kyogre"
+            },
+            {
+                "normalized_label": "rayquaza"
+            },
+            {
+                "normalized_label": "deoxys"
+            },
+            {
+                "normalized_label": "turtwig"
+            },
+            {
+                "normalized_label": "grotle"
+            },
+            {
+                "normalized_label": "torterra"
+            },
+            {
+                "normalized_label": "chimchar"
+            },
+            {
+                "normalized_label": "monferno"
+            },
+            {
+                "normalized_label": "infernape"
+            },
+            {
+                "normalized_label": "piplup"
+            },
+            {
+                "normalized_label": "prinplup"
+            },
+            {
+                "normalized_label": "empoleon"
+            },
+            {
+                "normalized_label": "starly"
+            },
+            {
+                "normalized_label": "staravia"
+            },
+            {
+                "normalized_label": "staraptor"
+            },
+            {
+                "normalized_label": "bidoof"
+            },
+            {
+                "normalized_label": "bibarel"
+            },
+            {
+                "normalized_label": "kricketot"
+            },
+            {
+                "normalized_label": "kricketune"
+            },
+            {
+                "normalized_label": "shinx"
+            },
+            {
+                "normalized_label": "luxio"
+            },
+            {
+                "normalized_label": "luxray"
+            },
+            {
+                "normalized_label": "budew"
+            },
+            {
+                "normalized_label": "roserade"
+            },
+            {
+                "normalized_label": "cranidos"
+            },
+            {
+                "normalized_label": "rampardos"
+            },
+            {
+                "normalized_label": "shieldon"
+            },
+            {
+                "normalized_label": "bastiodon"
+            },
+            {
+                "normalized_label": "burmy"
+            },
+            {
+                "normalized_label": "wormadam"
+            },
+            {
+                "normalized_label": "mothim"
+            },
+            {
+                "normalized_label": "combee"
+            },
+            {
+                "normalized_label": "vespiquen"
+            },
+            {
+                "normalized_label": "pachirisu"
+            },
+            {
+                "normalized_label": "buizel"
+            },
+            {
+                "normalized_label": "floatzel"
+            },
+            {
+                "normalized_label": "cherubi"
+            },
+            {
+                "normalized_label": "cherrim"
+            },
+            {
+                "normalized_label": "shellos"
+            },
+            {
+                "normalized_label": "gastrodon"
+            },
+            {
+                "normalized_label": "ambipom"
+            },
+            {
+                "normalized_label": "drifloon"
+            },
+            {
+                "normalized_label": "drifblim"
+            },
+            {
+                "normalized_label": "buneary"
+            },
+            {
+                "normalized_label": "mismagius"
+            },
+            {
+                "normalized_label": "honchkrow"
+            },
+            {
+                "normalized_label": "lopunny"
+            },
+            {
+                "normalized_label": "glameow"
+            },
+            {
+                "normalized_label": "purugly"
+            },
+            {
+                "normalized_label": "chingling"
+            },
+            {
+                "normalized_label": "stunky"
+            },
+            {
+                "normalized_label": "skuntank"
+            },
+            {
+                "normalized_label": "bronzor"
+            },
+            {
+                "normalized_label": "bronzong"
+            },
+            {
+                "normalized_label": "bonsly"
+            },
+            {
+                "normalized_label": "mimejr"
+            },
+            {
+                "normalized_label": "happiny"
+            },
+            {
+                "normalized_label": "chatot"
+            },
+            {
+                "normalized_label": "gible"
+            },
+            {
+                "normalized_label": "spiritomb"
+            },
+            {
+                "normalized_label": "gabite"
+            },
+            {
+                "normalized_label": "garchomp"
+            },
+            {
+                "normalized_label": "munchlax"
+            },
+            {
+                "normalized_label": "riolu"
+            },
+            {
+                "normalized_label": "hippopotas"
+            },
+            {
+                "normalized_label": "hippowdon"
+            },
+            {
+                "normalized_label": "skorupi"
+            },
+            {
+                "normalized_label": "drapion"
+            },
+            {
+                "normalized_label": "croagunk"
+            },
+            {
+                "normalized_label": "toxicroak"
+            },
+            {
+                "normalized_label": "carnivine"
+            },
+            {
+                "normalized_label": "finneon"
+            },
+            {
+                "normalized_label": "lumineon"
+            },
+            {
+                "normalized_label": "mantyke"
+            },
+            {
+                "normalized_label": "snover"
+            },
+            {
+                "normalized_label": "abomasnow"
+            },
+            {
+                "normalized_label": "weavile"
+            },
+            {
+                "normalized_label": "magnezone"
+            },
+            {
+                "normalized_label": "lickilicky"
+            },
+            {
+                "normalized_label": "rhyperior"
+            },
+            {
+                "normalized_label": "tangrowth"
+            },
+            {
+                "normalized_label": "electivire"
+            },
+            {
+                "normalized_label": "magmortar"
+            },
+            {
+                "normalized_label": "togekiss"
+            },
+            {
+                "normalized_label": "yanmega"
+            },
+            {
+                "normalized_label": "leafeon"
+            },
+            {
+                "normalized_label": "glaceon"
+            },
+            {
+                "normalized_label": "gliscor"
+            },
+            {
+                "normalized_label": "mamoswine"
+            },
+            {
+                "normalized_label": "porygon-z"
+            },
+            {
+                "normalized_label": "probopass"
+            },
+            {
+                "normalized_label": "dusknoir"
+            },
+            {
+                "normalized_label": "froslass"
+            },
+            {
+                "normalized_label": "rotom"
+            },
+            {
+                "normalized_label": "uxie"
+            },
+            {
+                "normalized_label": "mesprit"
+            },
+            {
+                "normalized_label": "azelf"
+            },
+            {
+                "normalized_label": "dialga"
+            },
+            {
+                "normalized_label": "palkia"
+            },
+            {
+                "normalized_label": "heatran"
+            },
+            {
+                "normalized_label": "regigigas"
+            },
+            {
+                "normalized_label": "giratina"
+            },
+            {
+                "normalized_label": "cresselia"
+            },
+            {
+                "normalized_label": "phione"
+            },
+            {
+                "normalized_label": "manaphy"
+            },
+            {
+                "normalized_label": "arceus"
+            },
+            {
+                "normalized_label": "snivy"
+            },
+            {
+                "normalized_label": "servine"
+            },
+            {
+                "normalized_label": "serperior"
+            },
+            {
+                "normalized_label": "tepig"
+            },
+            {
+                "normalized_label": "pignite"
+            },
+            {
+                "normalized_label": "emboar"
+            },
+            {
+                "normalized_label": "oshawott"
+            },
+            {
+                "normalized_label": "dewott"
+            },
+            {
+                "normalized_label": "samurott"
+            },
+            {
+                "normalized_label": "patrat"
+            },
+            {
+                "normalized_label": "watchog"
+            },
+            {
+                "normalized_label": "lillipup"
+            },
+            {
+                "normalized_label": "herdier"
+            },
+            {
+                "normalized_label": "stoutland"
+            },
+            {
+                "normalized_label": "purrloin"
+            },
+            {
+                "normalized_label": "liepard"
+            },
+            {
+                "normalized_label": "pansage"
+            },
+            {
+                "normalized_label": "simisage"
+            },
+            {
+                "normalized_label": "pansear"
+            },
+            {
+                "normalized_label": "simisear"
+            },
+            {
+                "normalized_label": "panpour"
+            },
+            {
+                "normalized_label": "simipour"
+            },
+            {
+                "normalized_label": "munna"
+            },
+            {
+                "normalized_label": "musharna"
+            },
+            {
+                "normalized_label": "pidove"
+            },
+            {
+                "normalized_label": "tranquill"
+            },
+            {
+                "normalized_label": "unfezant"
+            },
+            {
+                "normalized_label": "blitzle"
+            },
+            {
+                "normalized_label": "zebstrika"
+            },
+            {
+                "normalized_label": "roggenrola"
+            },
+            {
+                "normalized_label": "boldore"
+            },
+            {
+                "normalized_label": "gigalith"
+            },
+            {
+                "normalized_label": "woobat"
+            },
+            {
+                "normalized_label": "swoobat"
+            },
+            {
+                "normalized_label": "drilbur"
+            },
+            {
+                "normalized_label": "excadrill"
+            },
+            {
+                "normalized_label": "audino"
+            },
+            {
+                "normalized_label": "timburr"
+            },
+            {
+                "normalized_label": "gurdurr"
+            },
+            {
+                "normalized_label": "conkeldurr"
+            },
+            {
+                "normalized_label": "tympole"
+            },
+            {
+                "normalized_label": "palpitoad"
+            },
+            {
+                "normalized_label": "seismitoad"
+            },
+            {
+                "normalized_label": "throh"
+            },
+            {
+                "normalized_label": "sawk"
+            },
+            {
+                "normalized_label": "sewaddle"
+            },
+            {
+                "normalized_label": "swadloon"
+            },
+            {
+                "normalized_label": "leavanny"
+            },
+            {
+                "normalized_label": "venipede"
+            },
+            {
+                "normalized_label": "whirlipede"
+            },
+            {
+                "normalized_label": "scolipede"
+            },
+            {
+                "normalized_label": "cottonee"
+            },
+            {
+                "normalized_label": "whimsicott"
+            },
+            {
+                "normalized_label": "petilil"
+            },
+            {
+                "normalized_label": "lilligant"
+            },
+            {
+                "normalized_label": "basculin"
+            },
+            {
+                "normalized_label": "sandile"
+            },
+            {
+                "normalized_label": "krokorok"
+            },
+            {
+                "normalized_label": "krookodile"
+            },
+            {
+                "normalized_label": "darumaka"
+            },
+            {
+                "normalized_label": "darmanitan"
+            },
+            {
+                "normalized_label": "maractus"
+            },
+            {
+                "normalized_label": "dwebble"
+            },
+            {
+                "normalized_label": "crustle"
+            },
+            {
+                "normalized_label": "scraggy"
+            },
+            {
+                "normalized_label": "scrafty"
+            },
+            {
+                "normalized_label": "sigilyph"
+            },
+            {
+                "normalized_label": "cofagrigus"
+            },
+            {
+                "normalized_label": "yamask"
+            },
+            {
+                "normalized_label": "tirtouga"
+            },
+            {
+                "normalized_label": "carracosta"
+            },
+            {
+                "normalized_label": "archen"
+            },
+            {
+                "normalized_label": "trubbish"
+            },
+            {
+                "normalized_label": "archeops"
+            },
+            {
+                "normalized_label": "zoroark"
+            },
+            {
+                "normalized_label": "garbodor"
+            },
+            {
+                "normalized_label": "minccino"
+            },
+            {
+                "normalized_label": "zorua"
+            },
+            {
+                "normalized_label": "cinccino"
+            },
+            {
+                "normalized_label": "gothita"
+            },
+            {
+                "normalized_label": "gothorita"
+            },
+            {
+                "normalized_label": "gothitelle"
+            },
+            {
+                "normalized_label": "solosis"
+            },
+            {
+                "normalized_label": "duosion"
+            },
+            {
+                "normalized_label": "reuniclus"
+            },
+            {
+                "normalized_label": "ducklett"
+            },
+            {
+                "normalized_label": "swanna"
+            },
+            {
+                "normalized_label": "vanillite"
+            },
+            {
+                "normalized_label": "vanillish"
+            },
+            {
+                "normalized_label": "vanilluxe"
+            },
+            {
+                "normalized_label": "deerling"
+            },
+            {
+                "normalized_label": "sawsbuck"
+            },
+            {
+                "normalized_label": "emolga"
+            },
+            {
+                "normalized_label": "karrablast"
+            },
+            {
+                "normalized_label": "escavalier"
+            },
+            {
+                "normalized_label": "foongus"
+            },
+            {
+                "normalized_label": "amoonguss"
+            },
+            {
+                "normalized_label": "frillish"
+            },
+            {
+                "normalized_label": "jellicent"
+            },
+            {
+                "normalized_label": "alomomola"
+            },
+            {
+                "normalized_label": "joltik"
+            },
+            {
+                "normalized_label": "galvantula"
+            },
+            {
+                "normalized_label": "ferroseed"
+            },
+            {
+                "normalized_label": "ferrothorn"
+            },
+            {
+                "normalized_label": "klink"
+            },
+            {
+                "normalized_label": "klang"
+            },
+            {
+                "normalized_label": "klinklang"
+            },
+            {
+                "normalized_label": "tynamo"
+            },
+            {
+                "normalized_label": "eelektrik"
+            },
+            {
+                "normalized_label": "eelektross"
+            },
+            {
+                "normalized_label": "elgyem"
+            },
+            {
+                "normalized_label": "beheeyem"
+            },
+            {
+                "normalized_label": "litwick"
+            },
+            {
+                "normalized_label": "lampent"
+            },
+            {
+                "normalized_label": "chandelure"
+            },
+            {
+                "normalized_label": "axew"
+            },
+            {
+                "normalized_label": "fraxure"
+            },
+            {
+                "normalized_label": "haxorus"
+            },
+            {
+                "normalized_label": "cubchoo"
+            },
+            {
+                "normalized_label": "beartic"
+            },
+            {
+                "normalized_label": "cryogonal"
+            },
+            {
+                "normalized_label": "shelmet"
+            },
+            {
+                "normalized_label": "accelgor"
+            },
+            {
+                "normalized_label": "stunfisk"
+            },
+            {
+                "normalized_label": "mienfoo"
+            },
+            {
+                "normalized_label": "mienshao"
+            },
+            {
+                "normalized_label": "druddigon"
+            },
+            {
+                "normalized_label": "golett"
+            },
+            {
+                "normalized_label": "golurk"
+            },
+            {
+                "normalized_label": "pawniard"
+            },
+            {
+                "normalized_label": "bouffalant"
+            },
+            {
+                "normalized_label": "rufflet"
+            },
+            {
+                "normalized_label": "braviary"
+            },
+            {
+                "normalized_label": "vullaby"
+            },
+            {
+                "normalized_label": "mandibuzz"
+            },
+            {
+                "normalized_label": "heatmor"
+            },
+            {
+                "normalized_label": "durant"
+            },
+            {
+                "normalized_label": "deino"
+            },
+            {
+                "normalized_label": "zweilous"
+            },
+            {
+                "normalized_label": "hydreigon"
+            },
+            {
+                "normalized_label": "larvesta"
+            },
+            {
+                "normalized_label": "volcarona"
+            },
+            {
+                "normalized_label": "cobalion"
+            },
+            {
+                "normalized_label": "terrakion"
+            },
+            {
+                "normalized_label": "virizion"
+            },
+            {
+                "normalized_label": "tornadus"
+            },
+            {
+                "normalized_label": "thundurus"
+            },
+            {
+                "normalized_label": "reshiram"
+            },
+            {
+                "normalized_label": "zekrom"
+            },
+            {
+                "normalized_label": "landorus"
+            },
+            {
+                "normalized_label": "kyurem"
+            },
+            {
+                "normalized_label": "keldeo"
+            },
+            {
+                "normalized_label": "meloetta"
+            },
+            {
+                "normalized_label": "genesect"
+            },
+            {
+                "normalized_label": "quilladin"
+            },
+            {
+                "normalized_label": "chesnaught"
+            },
+            {
+                "normalized_label": "fennekin"
+            },
+            {
+                "normalized_label": "braixen"
+            },
+            {
+                "normalized_label": "delphox"
+            },
+            {
+                "normalized_label": "froakie"
+            },
+            {
+                "normalized_label": "frogadier"
+            },
+            {
+                "normalized_label": "greninja"
+            },
+            {
+                "normalized_label": "bunnelby"
+            },
+            {
+                "normalized_label": "diggersby"
+            },
+            {
+                "normalized_label": "fletchling"
+            },
+            {
+                "normalized_label": "fletchinder"
+            },
+            {
+                "normalized_label": "talonflame"
+            },
+            {
+                "normalized_label": "scatterbug"
+            },
+            {
+                "normalized_label": "spewpa"
+            },
+            {
+                "normalized_label": "vivillon"
+            },
+            {
+                "normalized_label": "litleo"
+            },
+            {
+                "normalized_label": "pyroar"
+            },
+            {
+                "normalized_label": "floette"
+            },
+            {
+                "normalized_label": "florges"
+            },
+            {
+                "normalized_label": "skiddo"
+            },
+            {
+                "normalized_label": "gogoat"
+            },
+            {
+                "normalized_label": "pangoro"
+            },
+            {
+                "normalized_label": "furfrou"
+            },
+            {
+                "normalized_label": "espurr"
+            },
+            {
+                "normalized_label": "meowstic"
+            },
+            {
+                "normalized_label": "honedge"
+            },
+            {
+                "normalized_label": "doublade"
+            },
+            {
+                "normalized_label": "aegislash"
+            },
+            {
+                "normalized_label": "spritzee"
+            },
+            {
+                "normalized_label": "aromatisse"
+            },
+            {
+                "normalized_label": "swirlix"
+            },
+            {
+                "normalized_label": "slurpuff"
+            },
+            {
+                "normalized_label": "inkay"
+            },
+            {
+                "normalized_label": "malamar"
+            },
+            {
+                "normalized_label": "binacle"
+            },
+            {
+                "normalized_label": "barbaracle"
+            },
+            {
+                "normalized_label": "skrelp"
+            },
+            {
+                "normalized_label": "dragalge"
+            },
+            {
+                "normalized_label": "clauncher"
+            },
+            {
+                "normalized_label": "clawitzer"
+            },
+            {
+                "normalized_label": "helioptile"
+            },
+            {
+                "normalized_label": "heliolisk"
+            },
+            {
+                "normalized_label": "tyrunt"
+            },
+            {
+                "normalized_label": "tyrantrum"
+            },
+            {
+                "normalized_label": "amaura"
+            },
+            {
+                "normalized_label": "aurorus"
+            },
+            {
+                "normalized_label": "hawlucha"
+            },
+            {
+                "normalized_label": "dedenne"
+            },
+            {
+                "normalized_label": "carbink"
+            },
+            {
+                "normalized_label": "sliggoo"
+            },
+            {
+                "normalized_label": "goomy"
+            },
+            {
+                "normalized_label": "goodra"
+            },
+            {
+                "normalized_label": "klefki"
+            },
+            {
+                "normalized_label": "phantump"
+            },
+            {
+                "normalized_label": "trevenant"
+            },
+            {
+                "normalized_label": "pumpkaboo"
+            },
+            {
+                "normalized_label": "gourgeist"
+            },
+            {
+                "normalized_label": "bergmite"
+            },
+            {
+                "normalized_label": "avalugg"
+            },
+            {
+                "normalized_label": "noibat"
+            },
+            {
+                "normalized_label": "noivern"
+            },
+            {
+                "normalized_label": "xerneas"
+            },
+            {
+                "normalized_label": "yveltal"
+            },
+            {
+                "normalized_label": "zygarde"
+            },
+            {
+                "normalized_label": "diancie"
+            },
+            {
+                "normalized_label": "hoopa"
+            },
+            {
+                "normalized_label": "volcanion"
+            },
+            {
+                "normalized_label": "rowlet"
+            },
+            {
+                "normalized_label": "decidueye"
+            },
+            {
+                "normalized_label": "litten"
+            },
+            {
+                "normalized_label": "dartrix"
+            },
+            {
+                "normalized_label": "torracat"
+            },
+            {
+                "normalized_label": "incineroar"
+            },
+            {
+                "normalized_label": "popplio"
+            },
+            {
+                "normalized_label": "brionne"
+            },
+            {
+                "normalized_label": "primarina"
+            },
+            {
+                "normalized_label": "pikipek"
+            },
+            {
+                "normalized_label": "trumbeak"
+            },
+            {
+                "normalized_label": "toucannon"
+            },
+            {
+                "normalized_label": "yungoos"
+            },
+            {
+                "normalized_label": "gumshoos"
+            },
+            {
+                "normalized_label": "grubbin"
+            },
+            {
+                "normalized_label": "charjabug"
+            },
+            {
+                "normalized_label": "vikavolt"
+            },
+            {
+                "normalized_label": "crabrawler"
+            },
+            {
+                "normalized_label": "crabominable"
+            },
+            {
+                "normalized_label": "oricorio"
+            },
+            {
+                "normalized_label": "cutiefly"
+            },
+            {
+                "normalized_label": "ribombee"
+            },
+            {
+                "normalized_label": "lycanroc"
+            },
+            {
+                "normalized_label": "wishiwashi"
+            },
+            {
+                "normalized_label": "mareanie"
+            },
+            {
+                "normalized_label": "toxapex"
+            },
+            {
+                "normalized_label": "mudbray"
+            },
+            {
+                "normalized_label": "rockruff"
+            },
+            {
+                "normalized_label": "mudsdale"
+            },
+            {
+                "normalized_label": "dewpider"
+            },
+            {
+                "normalized_label": "araquanid"
+            },
+            {
+                "normalized_label": "fomantis"
+            },
+            {
+                "normalized_label": "lurantis"
+            },
+            {
+                "normalized_label": "morelull"
+            },
+            {
+                "normalized_label": "shiinotic"
+            },
+            {
+                "normalized_label": "salandit"
+            },
+            {
+                "normalized_label": "salazzle"
+            },
+            {
+                "normalized_label": "stufful"
+            },
+            {
+                "normalized_label": "bewear"
+            },
+            {
+                "normalized_label": "bounsweet"
+            },
+            {
+                "normalized_label": "steenee"
+            },
+            {
+                "normalized_label": "tsareena"
+            },
+            {
+                "normalized_label": "comfey"
+            },
+            {
+                "normalized_label": "oranguru"
+            },
+            {
+                "normalized_label": "passimian"
+            },
+            {
+                "normalized_label": "wimpod"
+            },
+            {
+                "normalized_label": "golisopod"
+            },
+            {
+                "normalized_label": "sandygast"
+            },
+            {
+                "normalized_label": "palossand"
+            },
+            {
+                "normalized_label": "pyukumuku"
+            },
+            {
+                "normalized_label": "typenull"
+            },
+            {
+                "normalized_label": "silvally"
+            },
+            {
+                "normalized_label": "minior"
+            },
+            {
+                "normalized_label": "komala"
+            },
+            {
+                "normalized_label": "turtonator"
+            },
+            {
+                "normalized_label": "togedemaru"
+            },
+            {
+                "normalized_label": "mimikyu"
+            },
+            {
+                "normalized_label": "bruxish"
+            },
+            {
+                "normalized_label": "drampa"
+            },
+            {
+                "normalized_label": "dhelmise"
+            },
+            {
+                "normalized_label": "jangmo-o"
+            },
+            {
+                "normalized_label": "hakamo-o"
+            },
+            {
+                "normalized_label": "kommo-o"
+            },
+            {
+                "normalized_label": "tapukoko"
+            },
+            {
+                "normalized_label": "tapulele"
+            },
+            {
+                "normalized_label": "tapubulu"
+            },
+            {
+                "normalized_label": "tapufini"
+            },
+            {
+                "normalized_label": "cosmog"
+            },
+            {
+                "normalized_label": "cosmoem"
+            },
+            {
+                "normalized_label": "solgaleo"
+            },
+            {
+                "normalized_label": "lunala"
+            },
+            {
+                "normalized_label": "nihilego"
+            },
+            {
+                "normalized_label": "buzzwole"
+            },
+            {
+                "normalized_label": "pheromosa"
+            },
+            {
+                "normalized_label": "xurkitree"
+            },
+            {
+                "normalized_label": "celesteela"
+            },
+            {
+                "normalized_label": "kartana"
+            },
+            {
+                "normalized_label": "guzzlord"
+            },
+            {
+                "normalized_label": "necrozma"
+            },
+            {
+                "normalized_label": "magearna"
+            },
+            {
+                "normalized_label": "marshadow"
+            },
+            {
+                "normalized_label": "poipole"
+            },
+            {
+                "normalized_label": "naganadel"
+            },
+            {
+                "normalized_label": "stakataka"
+            },
+            {
+                "normalized_label": "blacephalon"
+            },
+            {
+                "normalized_label": "zeraora"
+            },
+            {
+                "normalized_label": "meltan"
+            },
+            {
+                "normalized_label": "melmetal"
+            },
+            {
+                "normalized_label": "grookey"
+            },
+            {
+                "normalized_label": "thwackey"
+            },
+            {
+                "normalized_label": "rillaboom"
+            },
+            {
+                "normalized_label": "scorbunny"
+            },
+            {
+                "normalized_label": "raboot"
+            },
+            {
+                "normalized_label": "cinderace"
+            },
+            {
+                "normalized_label": "sobble"
+            },
+            {
+                "normalized_label": "drizzile"
+            },
+            {
+                "normalized_label": "inteleon"
+            },
+            {
+                "normalized_label": "skwovet"
+            },
+            {
+                "normalized_label": "greedent"
+            },
+            {
+                "normalized_label": "rookidee"
+            },
+            {
+                "normalized_label": "corvisquire"
+            },
+            {
+                "normalized_label": "corviknight"
+            },
+            {
+                "normalized_label": "blipbug"
+            },
+            {
+                "normalized_label": "dottler"
+            },
+            {
+                "normalized_label": "orbeetle"
+            },
+            {
+                "normalized_label": "nickit"
+            },
+            {
+                "normalized_label": "thievul"
+            },
+            {
+                "normalized_label": "gossifleur"
+            },
+            {
+                "normalized_label": "eldegoss"
+            },
+            {
+                "normalized_label": "wooloo"
+            },
+            {
+                "normalized_label": "dubwool"
+            },
+            {
+                "normalized_label": "chewtle"
+            },
+            {
+                "normalized_label": "drednaw"
+            },
+            {
+                "normalized_label": "yamper"
+            },
+            {
+                "normalized_label": "boltund"
+            },
+            {
+                "normalized_label": "rolycoly"
+            },
+            {
+                "normalized_label": "carkol"
+            },
+            {
+                "normalized_label": "coalossal"
+            },
+            {
+                "normalized_label": "applin"
+            },
+            {
+                "normalized_label": "flapple"
+            },
+            {
+                "normalized_label": "appletun"
+            },
+            {
+                "normalized_label": "silicobra"
+            },
+            {
+                "normalized_label": "sandaconda"
+            },
+            {
+                "normalized_label": "arrokuda"
+            },
+            {
+                "normalized_label": "cramorant"
+            },
+            {
+                "normalized_label": "barraskewda"
+            },
+            {
+                "normalized_label": "toxel"
+            },
+            {
+                "normalized_label": "toxtricity"
+            },
+            {
+                "normalized_label": "sizzlipede"
+            },
+            {
+                "normalized_label": "centiskorch"
+            },
+            {
+                "normalized_label": "clobbopus"
+            },
+            {
+                "normalized_label": "grapploct"
+            },
+            {
+                "normalized_label": "sinistea"
+            },
+            {
+                "normalized_label": "polteageist"
+            },
+            {
+                "normalized_label": "hatenna"
+            },
+            {
+                "normalized_label": "hattrem"
+            },
+            {
+                "normalized_label": "hatterene"
+            },
+            {
+                "normalized_label": "impidimp"
+            },
+            {
+                "normalized_label": "morgrem"
+            },
+            {
+                "normalized_label": "grimmsnarl"
+            },
+            {
+                "normalized_label": "obstagoon"
+            },
+            {
+                "normalized_label": "perrserker"
+            },
+            {
+                "normalized_label": "cursola"
+            },
+            {
+                "normalized_label": "sirfetch’d"
+            },
+            {
+                "normalized_label": "mrrime"
+            },
+            {
+                "normalized_label": "runerigus"
+            },
+            {
+                "normalized_label": "milcery"
+            },
+            {
+                "normalized_label": "alcremie"
+            },
+            {
+                "normalized_label": "falinks"
+            },
+            {
+                "normalized_label": "pincurchin"
+            },
+            {
+                "normalized_label": "snom"
+            },
+            {
+                "normalized_label": "frosmoth"
+            },
+            {
+                "normalized_label": "stonjourner"
+            },
+            {
+                "normalized_label": "eiscue"
+            },
+            {
+                "normalized_label": "indeedee"
+            },
+            {
+                "normalized_label": "morpeko"
+            },
+            {
+                "normalized_label": "cufant"
+            },
+            {
+                "normalized_label": "copperajah"
+            },
+            {
+                "normalized_label": "dracozolt"
+            },
+            {
+                "normalized_label": "arctozolt"
+            },
+            {
+                "normalized_label": "dracovish"
+            },
+            {
+                "normalized_label": "arctovish"
+            },
+            {
+                "normalized_label": "duraludon"
+            },
+            {
+                "normalized_label": "dreepy"
+            },
+            {
+                "normalized_label": "drakloak"
+            },
+            {
+                "normalized_label": "dragapult"
+            },
+            {
+                "normalized_label": "zacian"
+            },
+            {
+                "normalized_label": "zamazenta"
+            },
+            {
+                "normalized_label": "eternatus"
+            },
+            {
+                "normalized_label": "kubfu"
+            },
+            {
+                "normalized_label": "urshifu"
+            },
+            {
+                "normalized_label": "zarude"
+            },
+            {
+                "normalized_label": "regieleki"
+            },
+            {
+                "normalized_label": "regidrago"
+            },
+            {
+                "normalized_label": "glastrier"
+            },
+            {
+                "normalized_label": "spectrier"
+            },
+            {
+                "normalized_label": "calyrex"
+            },
+            {
+                "normalized_label": "wyrdeer"
+            },
+            {
+                "normalized_label": "kleavor"
+            },
+            {
+                "normalized_label": "ursaluna"
+            },
+            {
+                "normalized_label": "sneasler"
+            },
+            {
+                "normalized_label": "basculegion"
+            },
+            {
+                "normalized_label": "overqwil"
+            },
+            {
+                "normalized_label": "enamorus"
+            },
+            {
+                "normalized_label": "annihilape"
+            },
+            {
+                "normalized_label": "arboliva"
+            },
+            {
+                "normalized_label": "arctibax"
+            },
+            {
+                "normalized_label": "armarouge"
+            },
+            {
+                "normalized_label": "baxcalibur"
+            },
+            {
+                "normalized_label": "bellibolt"
+            },
+            {
+                "normalized_label": "bombirdier"
+            },
+            {
+                "normalized_label": "brambleghast"
+            },
+            {
+                "normalized_label": "bramblin"
+            },
+            {
+                "normalized_label": "brutebonnet"
+            },
+            {
+                "normalized_label": "capsakid"
+            },
+            {
+                "normalized_label": "ceruledge"
+            },
+            {
+                "normalized_label": "cetitan"
+            },
+            {
+                "normalized_label": "cetoddle"
+            },
+            {
+                "normalized_label": "charcadet"
+            },
+            {
+                "normalized_label": "chi-yu"
+            },
+            {
+                "normalized_label": "chien-pao"
+            },
+            {
+                "normalized_label": "clodsire"
+            },
+            {
+                "normalized_label": "crocalor"
+            },
+            {
+                "normalized_label": "cyclizar"
+            },
+            {
+                "normalized_label": "dachsbun"
+            },
+            {
+                "normalized_label": "dolliv"
+            },
+            {
+                "normalized_label": "dondozo"
+            },
+            {
+                "normalized_label": "dudunsparce"
+            },
+            {
+                "normalized_label": "espathra"
+            },
+            {
+                "normalized_label": "farigiraf"
+            },
+            {
+                "normalized_label": "fidough"
+            },
+            {
+                "normalized_label": "finizen"
+            },
+            {
+                "normalized_label": "flamigo"
+            },
+            {
+                "normalized_label": "flittle"
+            },
+            {
+                "normalized_label": "floragato"
+            },
+            {
+                "normalized_label": "fluttermane"
+            },
+            {
+                "normalized_label": "frigibax"
+            },
+            {
+                "normalized_label": "fuecoco"
+            },
+            {
+                "normalized_label": "garganacl"
+            },
+            {
+                "normalized_label": "gholdengo"
+            },
+            {
+                "normalized_label": "gimmighoul"
+            },
+            {
+                "normalized_label": "glimmet"
+            },
+            {
+                "normalized_label": "glimmora"
+            },
+            {
+                "normalized_label": "grafaiai"
+            },
+            {
+                "normalized_label": "greattusk"
+            },
+            {
+                "normalized_label": "greavard"
+            },
+            {
+                "normalized_label": "houndstone"
+            },
+            {
+                "normalized_label": "ironbundle"
+            },
+            {
+                "normalized_label": "ironhands"
+            },
+            {
+                "normalized_label": "ironjugulis"
+            },
+            {
+                "normalized_label": "ironmoth"
+            },
+            {
+                "normalized_label": "ironthorns"
+            },
+            {
+                "normalized_label": "irontreads"
+            },
+            {
+                "normalized_label": "ironvaliant"
+            },
+            {
+                "normalized_label": "kilowattrel"
+            },
+            {
+                "normalized_label": "kingambit"
+            },
+            {
+                "normalized_label": "klawf"
+            },
+            {
+                "normalized_label": "koraidon"
+            },
+            {
+                "normalized_label": "lechonk"
+            },
+            {
+                "normalized_label": "lokix"
+            },
+            {
+                "normalized_label": "mabosstiff"
+            },
+            {
+                "normalized_label": "maschiff"
+            },
+            {
+                "normalized_label": "maushold"
+            },
+            {
+                "normalized_label": "meowscarada"
+            },
+            {
+                "normalized_label": "miraidon"
+            },
+            {
+                "normalized_label": "nacli"
+            },
+            {
+                "normalized_label": "naclstack"
+            },
+            {
+                "normalized_label": "nymble"
+            },
+            {
+                "normalized_label": "oinkologne"
+            },
+            {
+                "normalized_label": "orthworm"
+            },
+            {
+                "normalized_label": "palafin"
+            },
+            {
+                "normalized_label": "pawmi"
+            },
+            {
+                "normalized_label": "pawmo"
+            },
+            {
+                "normalized_label": "pawmot"
+            },
+            {
+                "normalized_label": "quaquaval"
+            },
+            {
+                "normalized_label": "quaxly"
+            },
+            {
+                "normalized_label": "quaxwell"
+            },
+            {
+                "normalized_label": "rabsca"
+            },
+            {
+                "normalized_label": "rellor"
+            },
+            {
+                "normalized_label": "revavroom"
+            },
+            {
+                "normalized_label": "roaringmoon"
+            },
+            {
+                "normalized_label": "sandyshocks"
+            },
+            {
+                "normalized_label": "scovillain"
+            },
+            {
+                "normalized_label": "screamtail"
+            },
+            {
+                "normalized_label": "shroodle"
+            },
+            {
+                "normalized_label": "skeledirge"
+            },
+            {
+                "normalized_label": "slitherwing"
+            },
+            {
+                "normalized_label": "smoliv"
+            },
+            {
+                "normalized_label": "spidops"
+            },
+            {
+                "normalized_label": "sprigatito"
+            },
+            {
+                "normalized_label": "squawkabilly"
+            },
+            {
+                "normalized_label": "tadbulb"
+            },
+            {
+                "normalized_label": "tandemaus"
+            },
+            {
+                "normalized_label": "tarountula"
+            },
+            {
+                "normalized_label": "tatsugiri"
+            },
+            {
+                "normalized_label": "ting-lu"
+            },
+            {
+                "normalized_label": "tinkatink"
+            },
+            {
+                "normalized_label": "tinkaton"
+            },
+            {
+                "normalized_label": "tinkatuff"
+            },
+            {
+                "normalized_label": "toedscool"
+            },
+            {
+                "normalized_label": "toedscruel"
+            },
+            {
+                "normalized_label": "varoom"
+            },
+            {
+                "normalized_label": "veluza"
+            },
+            {
+                "normalized_label": "wattrel"
+            },
+            {
+                "normalized_label": "wiglett"
+            },
+            {
+                "normalized_label": "wo-chien"
+            },
+            {
+                "normalized_label": "wugtrio"
+            }
+        ]
+    }
+}

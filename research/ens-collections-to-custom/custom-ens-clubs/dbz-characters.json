@@ -1,0 +1,647 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "dbz-characters",
+        "collection_name": "DBZ-Characters",
+        "collection_description": "Characters appearing in Dragon Ball Z.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "abo"
+            },
+            {
+                "normalized_label": "abra"
+            },
+            {
+                "normalized_label": "ace"
+            },
+            {
+                "normalized_label": "ackman"
+            },
+            {
+                "normalized_label": "adolf"
+            },
+            {
+                "normalized_label": "akane"
+            },
+            {
+                "normalized_label": "alien"
+            },
+            {
+                "normalized_label": "android"
+            },
+            {
+                "normalized_label": "announcer"
+            },
+            {
+                "normalized_label": "aoi"
+            },
+            {
+                "normalized_label": "assistant"
+            },
+            {
+                "normalized_label": "baba"
+            },
+            {
+                "normalized_label": "babidi"
+            },
+            {
+                "normalized_label": "bacterian"
+            },
+            {
+                "normalized_label": "bardock"
+            },
+            {
+                "normalized_label": "basaku"
+            },
+            {
+                "normalized_label": "beat"
+            },
+            {
+                "normalized_label": "beelzebub"
+            },
+            {
+                "normalized_label": "beerus"
+            },
+            {
+                "normalized_label": "black"
+            },
+            {
+                "normalized_label": "blue"
+            },
+            {
+                "normalized_label": "botamo"
+            },
+            {
+                "normalized_label": "briefs"
+            },
+            {
+                "normalized_label": "bulma"
+            },
+            {
+                "normalized_label": "burter"
+            },
+            {
+                "normalized_label": "buu"
+            },
+            {
+                "normalized_label": "buyon"
+            },
+            {
+                "normalized_label": "cabba"
+            },
+            {
+                "normalized_label": "captain"
+            },
+            {
+                "normalized_label": "caulifla"
+            },
+            {
+                "normalized_label": "cell"
+            },
+            {
+                "normalized_label": "champa"
+            },
+            {
+                "normalized_label": "chao-zu"
+            },
+            {
+                "normalized_label": "chi"
+            },
+            {
+                "normalized_label": "chilled"
+            },
+            {
+                "normalized_label": "city"
+            },
+            {
+                "normalized_label": "cold"
+            },
+            {
+                "normalized_label": "colonel"
+            },
+            {
+                "normalized_label": "commander"
+            },
+            {
+                "normalized_label": "conton"
+            },
+            {
+                "normalized_label": "cooler"
+            },
+            {
+                "normalized_label": "cui"
+            },
+            {
+                "normalized_label": "dabura"
+            },
+            {
+                "normalized_label": "demigra"
+            },
+            {
+                "normalized_label": "dende"
+            },
+            {
+                "normalized_label": "dodoria"
+            },
+            {
+                "normalized_label": "doore"
+            },
+            {
+                "normalized_label": "dyspo"
+            },
+            {
+                "normalized_label": "east"
+            },
+            {
+                "normalized_label": "erito"
+            },
+            {
+                "normalized_label": "fasha"
+            },
+            {
+                "normalized_label": "fen"
+            },
+            {
+                "normalized_label": "fighter"
+            },
+            {
+                "normalized_label": "fish"
+            },
+            {
+                "normalized_label": "forte"
+            },
+            {
+                "normalized_label": "fortuneteller"
+            },
+            {
+                "normalized_label": "frieza"
+            },
+            {
+                "normalized_label": "frost"
+            },
+            {
+                "normalized_label": "froze"
+            },
+            {
+                "normalized_label": "future"
+            },
+            {
+                "normalized_label": "fuwa"
+            },
+            {
+                "normalized_label": "galactic"
+            },
+            {
+                "normalized_label": "garlic"
+            },
+            {
+                "normalized_label": "gatchan"
+            },
+            {
+                "normalized_label": "general"
+            },
+            {
+                "normalized_label": "genome"
+            },
+            {
+                "normalized_label": "gibachi"
+            },
+            {
+                "normalized_label": "ginger"
+            },
+            {
+                "normalized_label": "ginyu"
+            },
+            {
+                "normalized_label": "giran"
+            },
+            {
+                "normalized_label": "gohan"
+            },
+            {
+                "normalized_label": "goku"
+            },
+            {
+                "normalized_label": "goten"
+            },
+            {
+                "normalized_label": "gowasu"
+            },
+            {
+                "normalized_label": "grand"
+            },
+            {
+                "normalized_label": "grandpa"
+            },
+            {
+                "normalized_label": "gravy"
+            },
+            {
+                "normalized_label": "guldo"
+            },
+            {
+                "normalized_label": "haya"
+            },
+            {
+                "normalized_label": "hell"
+            },
+            {
+                "normalized_label": "hercule"
+            },
+            {
+                "normalized_label": "hero"
+            },
+            {
+                "normalized_label": "hit"
+            },
+            {
+                "normalized_label": "hitler"
+            },
+            {
+                "normalized_label": "isaza"
+            },
+            {
+                "normalized_label": "jaco"
+            },
+            {
+                "normalized_label": "jajan"
+            },
+            {
+                "normalized_label": "jeice"
+            },
+            {
+                "normalized_label": "jiren"
+            },
+            {
+                "normalized_label": "kabra"
+            },
+            {
+                "normalized_label": "kado"
+            },
+            {
+                "normalized_label": "kagyu"
+            },
+            {
+                "normalized_label": "kahseral"
+            },
+            {
+                "normalized_label": "kai"
+            },
+            {
+                "normalized_label": "kajika"
+            },
+            {
+                "normalized_label": "kale"
+            },
+            {
+                "normalized_label": "kami"
+            },
+            {
+                "normalized_label": "kibito"
+            },
+            {
+                "normalized_label": "kimidori"
+            },
+            {
+                "normalized_label": "king"
+            },
+            {
+                "normalized_label": "korin"
+            },
+            {
+                "normalized_label": "krillin"
+            },
+            {
+                "normalized_label": "kunshi"
+            },
+            {
+                "normalized_label": "kurikinton"
+            },
+            {
+                "normalized_label": "kuriza"
+            },
+            {
+                "normalized_label": "launch"
+            },
+            {
+                "normalized_label": "magetta"
+            },
+            {
+                "normalized_label": "mai"
+            },
+            {
+                "normalized_label": "majin"
+            },
+            {
+                "normalized_label": "mashirito"
+            },
+            {
+                "normalized_label": "master"
+            },
+            {
+                "normalized_label": "mechikabura"
+            },
+            {
+                "normalized_label": "metallic"
+            },
+            {
+                "normalized_label": "midori"
+            },
+            {
+                "normalized_label": "mira"
+            },
+            {
+                "normalized_label": "monaka"
+            },
+            {
+                "normalized_label": "mrs"
+            },
+            {
+                "normalized_label": "murasaki"
+            },
+            {
+                "normalized_label": "nam"
+            },
+            {
+                "normalized_label": "nappa"
+            },
+            {
+                "normalized_label": "neiz"
+            },
+            {
+                "normalized_label": "neko"
+            },
+            {
+                "normalized_label": "nicky"
+            },
+            {
+                "normalized_label": "nico"
+            },
+            {
+                "normalized_label": "nikochan"
+            },
+            {
+                "normalized_label": "nimu"
+            },
+            {
+                "normalized_label": "ninja"
+            },
+            {
+                "normalized_label": "norimaki"
+            },
+            {
+                "normalized_label": "northern"
+            },
+            {
+                "normalized_label": "note"
+            },
+            {
+                "normalized_label": "obotchaman"
+            },
+            {
+                "normalized_label": "octopapa"
+            },
+            {
+                "normalized_label": "omni-king"
+            },
+            {
+                "normalized_label": "onio"
+            },
+            {
+                "normalized_label": "oolong"
+            },
+            {
+                "normalized_label": "oracle"
+            },
+            {
+                "normalized_label": "pan"
+            },
+            {
+                "normalized_label": "parzan"
+            },
+            {
+                "normalized_label": "peasuke"
+            },
+            {
+                "normalized_label": "piccolo"
+            },
+            {
+                "normalized_label": "pilaf"
+            },
+            {
+                "normalized_label": "pinich"
+            },
+            {
+                "normalized_label": "pirate"
+            },
+            {
+                "normalized_label": "popo"
+            },
+            {
+                "normalized_label": "porunga"
+            },
+            {
+                "normalized_label": "priest"
+            },
+            {
+                "normalized_label": "puar"
+            },
+            {
+                "normalized_label": "pui"
+            },
+            {
+                "normalized_label": "putine"
+            },
+            {
+                "normalized_label": "raditz"
+            },
+            {
+                "normalized_label": "ranfan"
+            },
+            {
+                "normalized_label": "recoome"
+            },
+            {
+                "normalized_label": "red"
+            },
+            {
+                "normalized_label": "robot"
+            },
+            {
+                "normalized_label": "roshi"
+            },
+            {
+                "normalized_label": "salaga"
+            },
+            {
+                "normalized_label": "salza"
+            },
+            {
+                "normalized_label": "sansho"
+            },
+            {
+                "normalized_label": "senbei"
+            },
+            {
+                "normalized_label": "sergeant"
+            },
+            {
+                "normalized_label": "shenlong"
+            },
+            {
+                "normalized_label": "shenron"
+            },
+            {
+                "normalized_label": "shisami"
+            },
+            {
+                "normalized_label": "shuu"
+            },
+            {
+                "normalized_label": "silver"
+            },
+            {
+                "normalized_label": "soramame"
+            },
+            {
+                "normalized_label": "sorbet"
+            },
+            {
+                "normalized_label": "south"
+            },
+            {
+                "normalized_label": "southern"
+            },
+            {
+                "normalized_label": "spopovich"
+            },
+            {
+                "normalized_label": "super"
+            },
+            {
+                "normalized_label": "supreme"
+            },
+            {
+                "normalized_label": "tagoma"
+            },
+            {
+                "normalized_label": "tao"
+            },
+            {
+                "normalized_label": "taro"
+            },
+            {
+                "normalized_label": "tekka"
+            },
+            {
+                "normalized_label": "tien"
+            },
+            {
+                "normalized_label": "time"
+            },
+            {
+                "normalized_label": "toppo"
+            },
+            {
+                "normalized_label": "tori-bot"
+            },
+            {
+                "normalized_label": "towa"
+            },
+            {
+                "normalized_label": "trunks"
+            },
+            {
+                "normalized_label": "tsumuri"
+            },
+            {
+                "normalized_label": "tsuru-sennin"
+            },
+            {
+                "normalized_label": "tupper"
+            },
+            {
+                "normalized_label": "turbo"
+            },
+            {
+                "normalized_label": "turles"
+            },
+            {
+                "normalized_label": "turtle"
+            },
+            {
+                "normalized_label": "uub"
+            },
+            {
+                "normalized_label": "vados"
+            },
+            {
+                "normalized_label": "vegeks"
+            },
+            {
+                "normalized_label": "vegeta"
+            },
+            {
+                "normalized_label": "videl"
+            },
+            {
+                "normalized_label": "viola"
+            },
+            {
+                "normalized_label": "vuon"
+            },
+            {
+                "normalized_label": "wairu"
+            },
+            {
+                "normalized_label": "west"
+            },
+            {
+                "normalized_label": "western"
+            },
+            {
+                "normalized_label": "whis"
+            },
+            {
+                "normalized_label": "white"
+            },
+            {
+                "normalized_label": "yajirobe"
+            },
+            {
+                "normalized_label": "yakon"
+            },
+            {
+                "normalized_label": "yamcha"
+            },
+            {
+                "normalized_label": "yamu"
+            },
+            {
+                "normalized_label": "yellow"
+            },
+            {
+                "normalized_label": "zamasu"
+            },
+            {
+                "normalized_label": "zarbon"
+            },
+            {
+                "normalized_label": "zen"
+            },
+            {
+                "normalized_label": "zoiray"
+            },
+            {
+                "normalized_label": "zuno"
+            }
+        ]
+    }
+}

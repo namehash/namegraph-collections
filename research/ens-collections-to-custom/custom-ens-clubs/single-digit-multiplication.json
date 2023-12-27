@@ -1,0 +1,287 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "single-digit-multiplication",
+        "collection_name": "Single Digit Multiplication",
+        "collection_description": "Single Digit Multiplication 0x0 to 9x9",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "1x0"
+            },
+            {
+                "normalized_label": "1x1"
+            },
+            {
+                "normalized_label": "1x2"
+            },
+            {
+                "normalized_label": "1x3"
+            },
+            {
+                "normalized_label": "1x4"
+            },
+            {
+                "normalized_label": "1x5"
+            },
+            {
+                "normalized_label": "1x6"
+            },
+            {
+                "normalized_label": "1x7"
+            },
+            {
+                "normalized_label": "1x8"
+            },
+            {
+                "normalized_label": "1x9"
+            },
+            {
+                "normalized_label": "2x0"
+            },
+            {
+                "normalized_label": "2x1"
+            },
+            {
+                "normalized_label": "2x2"
+            },
+            {
+                "normalized_label": "2x3"
+            },
+            {
+                "normalized_label": "2x4"
+            },
+            {
+                "normalized_label": "2x5"
+            },
+            {
+                "normalized_label": "2x6"
+            },
+            {
+                "normalized_label": "2x7"
+            },
+            {
+                "normalized_label": "2x8"
+            },
+            {
+                "normalized_label": "2x9"
+            },
+            {
+                "normalized_label": "3x0"
+            },
+            {
+                "normalized_label": "3x1"
+            },
+            {
+                "normalized_label": "3x2"
+            },
+            {
+                "normalized_label": "3x3"
+            },
+            {
+                "normalized_label": "3x4"
+            },
+            {
+                "normalized_label": "3x5"
+            },
+            {
+                "normalized_label": "3x6"
+            },
+            {
+                "normalized_label": "3x7"
+            },
+            {
+                "normalized_label": "3x8"
+            },
+            {
+                "normalized_label": "3x9"
+            },
+            {
+                "normalized_label": "4x0"
+            },
+            {
+                "normalized_label": "4x1"
+            },
+            {
+                "normalized_label": "4x2"
+            },
+            {
+                "normalized_label": "4x3"
+            },
+            {
+                "normalized_label": "4x4"
+            },
+            {
+                "normalized_label": "4x5"
+            },
+            {
+                "normalized_label": "4x6"
+            },
+            {
+                "normalized_label": "4x7"
+            },
+            {
+                "normalized_label": "4x8"
+            },
+            {
+                "normalized_label": "4x9"
+            },
+            {
+                "normalized_label": "5x0"
+            },
+            {
+                "normalized_label": "5x1"
+            },
+            {
+                "normalized_label": "5x2"
+            },
+            {
+                "normalized_label": "5x3"
+            },
+            {
+                "normalized_label": "5x4"
+            },
+            {
+                "normalized_label": "5x5"
+            },
+            {
+                "normalized_label": "5x6"
+            },
+            {
+                "normalized_label": "5x7"
+            },
+            {
+                "normalized_label": "5x8"
+            },
+            {
+                "normalized_label": "5x9"
+            },
+            {
+                "normalized_label": "6x0"
+            },
+            {
+                "normalized_label": "6x1"
+            },
+            {
+                "normalized_label": "6x2"
+            },
+            {
+                "normalized_label": "6x3"
+            },
+            {
+                "normalized_label": "6x4"
+            },
+            {
+                "normalized_label": "6x5"
+            },
+            {
+                "normalized_label": "6x6"
+            },
+            {
+                "normalized_label": "6x7"
+            },
+            {
+                "normalized_label": "6x8"
+            },
+            {
+                "normalized_label": "6x9"
+            },
+            {
+                "normalized_label": "7x0"
+            },
+            {
+                "normalized_label": "7x1"
+            },
+            {
+                "normalized_label": "7x2"
+            },
+            {
+                "normalized_label": "7x3"
+            },
+            {
+                "normalized_label": "7x4"
+            },
+            {
+                "normalized_label": "7x5"
+            },
+            {
+                "normalized_label": "7x6"
+            },
+            {
+                "normalized_label": "7x7"
+            },
+            {
+                "normalized_label": "7x8"
+            },
+            {
+                "normalized_label": "7x9"
+            },
+            {
+                "normalized_label": "8x0"
+            },
+            {
+                "normalized_label": "8x1"
+            },
+            {
+                "normalized_label": "8x2"
+            },
+            {
+                "normalized_label": "8x3"
+            },
+            {
+                "normalized_label": "8x4"
+            },
+            {
+                "normalized_label": "8x5"
+            },
+            {
+                "normalized_label": "8x6"
+            },
+            {
+                "normalized_label": "8x7"
+            },
+            {
+                "normalized_label": "8x8"
+            },
+            {
+                "normalized_label": "8x9"
+            },
+            {
+                "normalized_label": "9x0"
+            },
+            {
+                "normalized_label": "9x1"
+            },
+            {
+                "normalized_label": "9x2"
+            },
+            {
+                "normalized_label": "9x3"
+            },
+            {
+                "normalized_label": "9x4"
+            },
+            {
+                "normalized_label": "9x5"
+            },
+            {
+                "normalized_label": "9x6"
+            },
+            {
+                "normalized_label": "9x7"
+            },
+            {
+                "normalized_label": "9x8"
+            },
+            {
+                "normalized_label": "9x9"
+            }
+        ]
+    }
+}

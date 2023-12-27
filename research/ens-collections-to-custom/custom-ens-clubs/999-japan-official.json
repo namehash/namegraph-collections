@@ -1,0 +1,3017 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "999-japan-official",
+        "collection_name": "999 Japan Official",
+        "collection_description": "Japanese Daiji Numbers 零零零-玖玖玖",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "零零零"
+            },
+            {
+                "normalized_label": "零零壱"
+            },
+            {
+                "normalized_label": "零零弐"
+            },
+            {
+                "normalized_label": "零零参"
+            },
+            {
+                "normalized_label": "零零肆"
+            },
+            {
+                "normalized_label": "零零伍"
+            },
+            {
+                "normalized_label": "零零陸"
+            },
+            {
+                "normalized_label": "零零漆"
+            },
+            {
+                "normalized_label": "零零捌"
+            },
+            {
+                "normalized_label": "零零玖"
+            },
+            {
+                "normalized_label": "零壱零"
+            },
+            {
+                "normalized_label": "零壱壱"
+            },
+            {
+                "normalized_label": "零壱弐"
+            },
+            {
+                "normalized_label": "零壱参"
+            },
+            {
+                "normalized_label": "零壱肆"
+            },
+            {
+                "normalized_label": "零壱伍"
+            },
+            {
+                "normalized_label": "零壱陸"
+            },
+            {
+                "normalized_label": "零壱漆"
+            },
+            {
+                "normalized_label": "零壱捌"
+            },
+            {
+                "normalized_label": "零壱玖"
+            },
+            {
+                "normalized_label": "零弐零"
+            },
+            {
+                "normalized_label": "零弐壱"
+            },
+            {
+                "normalized_label": "零弐弐"
+            },
+            {
+                "normalized_label": "零弐参"
+            },
+            {
+                "normalized_label": "零弐肆"
+            },
+            {
+                "normalized_label": "零弐伍"
+            },
+            {
+                "normalized_label": "零弐陸"
+            },
+            {
+                "normalized_label": "零弐漆"
+            },
+            {
+                "normalized_label": "零弐捌"
+            },
+            {
+                "normalized_label": "零弐玖"
+            },
+            {
+                "normalized_label": "零参零"
+            },
+            {
+                "normalized_label": "零参壱"
+            },
+            {
+                "normalized_label": "零参弐"
+            },
+            {
+                "normalized_label": "零参参"
+            },
+            {
+                "normalized_label": "零参肆"
+            },
+            {
+                "normalized_label": "零参伍"
+            },
+            {
+                "normalized_label": "零参陸"
+            },
+            {
+                "normalized_label": "零参漆"
+            },
+            {
+                "normalized_label": "零参捌"
+            },
+            {
+                "normalized_label": "零参玖"
+            },
+            {
+                "normalized_label": "零肆零"
+            },
+            {
+                "normalized_label": "零肆壱"
+            },
+            {
+                "normalized_label": "零肆弐"
+            },
+            {
+                "normalized_label": "零肆参"
+            },
+            {
+                "normalized_label": "零肆肆"
+            },
+            {
+                "normalized_label": "零肆伍"
+            },
+            {
+                "normalized_label": "零肆陸"
+            },
+            {
+                "normalized_label": "零肆漆"
+            },
+            {
+                "normalized_label": "零肆捌"
+            },
+            {
+                "normalized_label": "零肆玖"
+            },
+            {
+                "normalized_label": "零伍零"
+            },
+            {
+                "normalized_label": "零伍壱"
+            },
+            {
+                "normalized_label": "零伍弐"
+            },
+            {
+                "normalized_label": "零伍参"
+            },
+            {
+                "normalized_label": "零伍肆"
+            },
+            {
+                "normalized_label": "零伍伍"
+            },
+            {
+                "normalized_label": "零伍陸"
+            },
+            {
+                "normalized_label": "零伍漆"
+            },
+            {
+                "normalized_label": "零伍捌"
+            },
+            {
+                "normalized_label": "零伍玖"
+            },
+            {
+                "normalized_label": "零陸零"
+            },
+            {
+                "normalized_label": "零陸壱"
+            },
+            {
+                "normalized_label": "零陸弐"
+            },
+            {
+                "normalized_label": "零陸参"
+            },
+            {
+                "normalized_label": "零陸肆"
+            },
+            {
+                "normalized_label": "零陸伍"
+            },
+            {
+                "normalized_label": "零陸陸"
+            },
+            {
+                "normalized_label": "零陸漆"
+            },
+            {
+                "normalized_label": "零陸捌"
+            },
+            {
+                "normalized_label": "零陸玖"
+            },
+            {
+                "normalized_label": "零漆零"
+            },
+            {
+                "normalized_label": "零漆壱"
+            },
+            {
+                "normalized_label": "零漆弐"
+            },
+            {
+                "normalized_label": "零漆参"
+            },
+            {
+                "normalized_label": "零漆肆"
+            },
+            {
+                "normalized_label": "零漆伍"
+            },
+            {
+                "normalized_label": "零漆陸"
+            },
+            {
+                "normalized_label": "零漆漆"
+            },
+            {
+                "normalized_label": "零漆捌"
+            },
+            {
+                "normalized_label": "零漆玖"
+            },
+            {
+                "normalized_label": "零捌零"
+            },
+            {
+                "normalized_label": "零捌壱"
+            },
+            {
+                "normalized_label": "零捌弐"
+            },
+            {
+                "normalized_label": "零捌参"
+            },
+            {
+                "normalized_label": "零捌肆"
+            },
+            {
+                "normalized_label": "零捌伍"
+            },
+            {
+                "normalized_label": "零捌陸"
+            },
+            {
+                "normalized_label": "零捌漆"
+            },
+            {
+                "normalized_label": "零捌捌"
+            },
+            {
+                "normalized_label": "零捌玖"
+            },
+            {
+                "normalized_label": "零玖零"
+            },
+            {
+                "normalized_label": "零玖壱"
+            },
+            {
+                "normalized_label": "零玖弐"
+            },
+            {
+                "normalized_label": "零玖参"
+            },
+            {
+                "normalized_label": "零玖肆"
+            },
+            {
+                "normalized_label": "零玖伍"
+            },
+            {
+                "normalized_label": "零玖陸"
+            },
+            {
+                "normalized_label": "零玖漆"
+            },
+            {
+                "normalized_label": "零玖捌"
+            },
+            {
+                "normalized_label": "零玖玖"
+            },
+            {
+                "normalized_label": "壱零零"
+            },
+            {
+                "normalized_label": "壱零壱"
+            },
+            {
+                "normalized_label": "壱零弐"
+            },
+            {
+                "normalized_label": "壱零参"
+            },
+            {
+                "normalized_label": "壱零肆"
+            },
+            {
+                "normalized_label": "壱零伍"
+            },
+            {
+                "normalized_label": "壱零陸"
+            },
+            {
+                "normalized_label": "壱零漆"
+            },
+            {
+                "normalized_label": "壱零捌"
+            },
+            {
+                "normalized_label": "壱零玖"
+            },
+            {
+                "normalized_label": "壱壱零"
+            },
+            {
+                "normalized_label": "壱壱壱"
+            },
+            {
+                "normalized_label": "壱壱弐"
+            },
+            {
+                "normalized_label": "壱壱参"
+            },
+            {
+                "normalized_label": "壱壱肆"
+            },
+            {
+                "normalized_label": "壱壱伍"
+            },
+            {
+                "normalized_label": "壱壱陸"
+            },
+            {
+                "normalized_label": "壱壱漆"
+            },
+            {
+                "normalized_label": "壱壱捌"
+            },
+            {
+                "normalized_label": "壱壱玖"
+            },
+            {
+                "normalized_label": "壱弐零"
+            },
+            {
+                "normalized_label": "壱弐壱"
+            },
+            {
+                "normalized_label": "壱弐弐"
+            },
+            {
+                "normalized_label": "壱弐参"
+            },
+            {
+                "normalized_label": "壱弐肆"
+            },
+            {
+                "normalized_label": "壱弐伍"
+            },
+            {
+                "normalized_label": "壱弐陸"
+            },
+            {
+                "normalized_label": "壱弐漆"
+            },
+            {
+                "normalized_label": "壱弐捌"
+            },
+            {
+                "normalized_label": "壱弐玖"
+            },
+            {
+                "normalized_label": "壱参零"
+            },
+            {
+                "normalized_label": "壱参壱"
+            },
+            {
+                "normalized_label": "壱参弐"
+            },
+            {
+                "normalized_label": "壱参参"
+            },
+            {
+                "normalized_label": "壱参肆"
+            },
+            {
+                "normalized_label": "壱参伍"
+            },
+            {
+                "normalized_label": "壱参陸"
+            },
+            {
+                "normalized_label": "壱参漆"
+            },
+            {
+                "normalized_label": "壱参捌"
+            },
+            {
+                "normalized_label": "壱参玖"
+            },
+            {
+                "normalized_label": "壱肆零"
+            },
+            {
+                "normalized_label": "壱肆壱"
+            },
+            {
+                "normalized_label": "壱肆弐"
+            },
+            {
+                "normalized_label": "壱肆参"
+            },
+            {
+                "normalized_label": "壱肆肆"
+            },
+            {
+                "normalized_label": "壱肆伍"
+            },
+            {
+                "normalized_label": "壱肆陸"
+            },
+            {
+                "normalized_label": "壱肆漆"
+            },
+            {
+                "normalized_label": "壱肆捌"
+            },
+            {
+                "normalized_label": "壱肆玖"
+            },
+            {
+                "normalized_label": "壱伍零"
+            },
+            {
+                "normalized_label": "壱伍壱"
+            },
+            {
+                "normalized_label": "壱伍弐"
+            },
+            {
+                "normalized_label": "壱伍参"
+            },
+            {
+                "normalized_label": "壱伍肆"
+            },
+            {
+                "normalized_label": "壱伍伍"
+            },
+            {
+                "normalized_label": "壱伍陸"
+            },
+            {
+                "normalized_label": "壱伍漆"
+            },
+            {
+                "normalized_label": "壱伍捌"
+            },
+            {
+                "normalized_label": "壱伍玖"
+            },
+            {
+                "normalized_label": "壱陸零"
+            },
+            {
+                "normalized_label": "壱陸壱"
+            },
+            {
+                "normalized_label": "壱陸弐"
+            },
+            {
+                "normalized_label": "壱陸参"
+            },
+            {
+                "normalized_label": "壱陸肆"
+            },
+            {
+                "normalized_label": "壱陸伍"
+            },
+            {
+                "normalized_label": "壱陸陸"
+            },
+            {
+                "normalized_label": "壱陸漆"
+            },
+            {
+                "normalized_label": "壱陸捌"
+            },
+            {
+                "normalized_label": "壱陸玖"
+            },
+            {
+                "normalized_label": "壱漆零"
+            },
+            {
+                "normalized_label": "壱漆壱"
+            },
+            {
+                "normalized_label": "壱漆弐"
+            },
+            {
+                "normalized_label": "壱漆参"
+            },
+            {
+                "normalized_label": "壱漆肆"
+            },
+            {
+                "normalized_label": "壱漆伍"
+            },
+            {
+                "normalized_label": "壱漆陸"
+            },
+            {
+                "normalized_label": "壱漆漆"
+            },
+            {
+                "normalized_label": "壱漆捌"
+            },
+            {
+                "normalized_label": "壱漆玖"
+            },
+            {
+                "normalized_label": "壱捌零"
+            },
+            {
+                "normalized_label": "壱捌壱"
+            },
+            {
+                "normalized_label": "壱捌弐"
+            },
+            {
+                "normalized_label": "壱捌参"
+            },
+            {
+                "normalized_label": "壱捌肆"
+            },
+            {
+                "normalized_label": "壱捌伍"
+            },
+            {
+                "normalized_label": "壱捌陸"
+            },
+            {
+                "normalized_label": "壱捌漆"
+            },
+            {
+                "normalized_label": "壱捌捌"
+            },
+            {
+                "normalized_label": "壱捌玖"
+            },
+            {
+                "normalized_label": "壱玖零"
+            },
+            {
+                "normalized_label": "壱玖壱"
+            },
+            {
+                "normalized_label": "壱玖弐"
+            },
+            {
+                "normalized_label": "壱玖参"
+            },
+            {
+                "normalized_label": "壱玖肆"
+            },
+            {
+                "normalized_label": "壱玖伍"
+            },
+            {
+                "normalized_label": "壱玖陸"
+            },
+            {
+                "normalized_label": "壱玖漆"
+            },
+            {
+                "normalized_label": "壱玖捌"
+            },
+            {
+                "normalized_label": "壱玖玖"
+            },
+            {
+                "normalized_label": "弐零零"
+            },
+            {
+                "normalized_label": "弐零壱"
+            },
+            {
+                "normalized_label": "弐零弐"
+            },
+            {
+                "normalized_label": "弐零参"
+            },
+            {
+                "normalized_label": "弐零肆"
+            },
+            {
+                "normalized_label": "弐零伍"
+            },
+            {
+                "normalized_label": "弐零陸"
+            },
+            {
+                "normalized_label": "弐零漆"
+            },
+            {
+                "normalized_label": "弐零捌"
+            },
+            {
+                "normalized_label": "弐零玖"
+            },
+            {
+                "normalized_label": "弐壱零"
+            },
+            {
+                "normalized_label": "弐壱壱"
+            },
+            {
+                "normalized_label": "弐壱弐"
+            },
+            {
+                "normalized_label": "弐壱参"
+            },
+            {
+                "normalized_label": "弐壱肆"
+            },
+            {
+                "normalized_label": "弐壱伍"
+            },
+            {
+                "normalized_label": "弐壱陸"
+            },
+            {
+                "normalized_label": "弐壱漆"
+            },
+            {
+                "normalized_label": "弐壱捌"
+            },
+            {
+                "normalized_label": "弐壱玖"
+            },
+            {
+                "normalized_label": "弐弐零"
+            },
+            {
+                "normalized_label": "弐弐壱"
+            },
+            {
+                "normalized_label": "弐弐弐"
+            },
+            {
+                "normalized_label": "弐弐参"
+            },
+            {
+                "normalized_label": "弐弐肆"
+            },
+            {
+                "normalized_label": "弐弐伍"
+            },
+            {
+                "normalized_label": "弐弐陸"
+            },
+            {
+                "normalized_label": "弐弐漆"
+            },
+            {
+                "normalized_label": "弐弐捌"
+            },
+            {
+                "normalized_label": "弐弐玖"
+            },
+            {
+                "normalized_label": "弐参零"
+            },
+            {
+                "normalized_label": "弐参壱"
+            },
+            {
+                "normalized_label": "弐参弐"
+            },
+            {
+                "normalized_label": "弐参参"
+            },
+            {
+                "normalized_label": "弐参肆"
+            },
+            {
+                "normalized_label": "弐参伍"
+            },
+            {
+                "normalized_label": "弐参陸"
+            },
+            {
+                "normalized_label": "弐参漆"
+            },
+            {
+                "normalized_label": "弐参捌"
+            },
+            {
+                "normalized_label": "弐参玖"
+            },
+            {
+                "normalized_label": "弐肆零"
+            },
+            {
+                "normalized_label": "弐肆壱"
+            },
+            {
+                "normalized_label": "弐肆弐"
+            },
+            {
+                "normalized_label": "弐肆参"
+            },
+            {
+                "normalized_label": "弐肆肆"
+            },
+            {
+                "normalized_label": "弐肆伍"
+            },
+            {
+                "normalized_label": "弐肆陸"
+            },
+            {
+                "normalized_label": "弐肆漆"
+            },
+            {
+                "normalized_label": "弐肆捌"
+            },
+            {
+                "normalized_label": "弐肆玖"
+            },
+            {
+                "normalized_label": "弐伍零"
+            },
+            {
+                "normalized_label": "弐伍壱"
+            },
+            {
+                "normalized_label": "弐伍弐"
+            },
+            {
+                "normalized_label": "弐伍参"
+            },
+            {
+                "normalized_label": "弐伍肆"
+            },
+            {
+                "normalized_label": "弐伍伍"
+            },
+            {
+                "normalized_label": "弐伍陸"
+            },
+            {
+                "normalized_label": "弐伍漆"
+            },
+            {
+                "normalized_label": "弐伍捌"
+            },
+            {
+                "normalized_label": "弐伍玖"
+            },
+            {
+                "normalized_label": "弐陸零"
+            },
+            {
+                "normalized_label": "弐陸壱"
+            },
+            {
+                "normalized_label": "弐陸弐"
+            },
+            {
+                "normalized_label": "弐陸参"
+            },
+            {
+                "normalized_label": "弐陸肆"
+            },
+            {
+                "normalized_label": "弐陸伍"
+            },
+            {
+                "normalized_label": "弐陸陸"
+            },
+            {
+                "normalized_label": "弐陸漆"
+            },
+            {
+                "normalized_label": "弐陸捌"
+            },
+            {
+                "normalized_label": "弐陸玖"
+            },
+            {
+                "normalized_label": "弐漆零"
+            },
+            {
+                "normalized_label": "弐漆壱"
+            },
+            {
+                "normalized_label": "弐漆弐"
+            },
+            {
+                "normalized_label": "弐漆参"
+            },
+            {
+                "normalized_label": "弐漆肆"
+            },
+            {
+                "normalized_label": "弐漆伍"
+            },
+            {
+                "normalized_label": "弐漆陸"
+            },
+            {
+                "normalized_label": "弐漆漆"
+            },
+            {
+                "normalized_label": "弐漆捌"
+            },
+            {
+                "normalized_label": "弐漆玖"
+            },
+            {
+                "normalized_label": "弐捌零"
+            },
+            {
+                "normalized_label": "弐捌壱"
+            },
+            {
+                "normalized_label": "弐捌弐"
+            },
+            {
+                "normalized_label": "弐捌参"
+            },
+            {
+                "normalized_label": "弐捌肆"
+            },
+            {
+                "normalized_label": "弐捌伍"
+            },
+            {
+                "normalized_label": "弐捌陸"
+            },
+            {
+                "normalized_label": "弐捌漆"
+            },
+            {
+                "normalized_label": "弐捌捌"
+            },
+            {
+                "normalized_label": "弐捌玖"
+            },
+            {
+                "normalized_label": "弐玖零"
+            },
+            {
+                "normalized_label": "弐玖壱"
+            },
+            {
+                "normalized_label": "弐玖弐"
+            },
+            {
+                "normalized_label": "弐玖参"
+            },
+            {
+                "normalized_label": "弐玖肆"
+            },
+            {
+                "normalized_label": "弐玖伍"
+            },
+            {
+                "normalized_label": "弐玖陸"
+            },
+            {
+                "normalized_label": "弐玖漆"
+            },
+            {
+                "normalized_label": "弐玖捌"
+            },
+            {
+                "normalized_label": "弐玖玖"
+            },
+            {
+                "normalized_label": "参零零"
+            },
+            {
+                "normalized_label": "参零壱"
+            },
+            {
+                "normalized_label": "参零弐"
+            },
+            {
+                "normalized_label": "参零参"
+            },
+            {
+                "normalized_label": "参零肆"
+            },
+            {
+                "normalized_label": "参零伍"
+            },
+            {
+                "normalized_label": "参零陸"
+            },
+            {
+                "normalized_label": "参零漆"
+            },
+            {
+                "normalized_label": "参零捌"
+            },
+            {
+                "normalized_label": "参零玖"
+            },
+            {
+                "normalized_label": "参壱零"
+            },
+            {
+                "normalized_label": "参壱壱"
+            },
+            {
+                "normalized_label": "参壱弐"
+            },
+            {
+                "normalized_label": "参壱参"
+            },
+            {
+                "normalized_label": "参壱肆"
+            },
+            {
+                "normalized_label": "参壱伍"
+            },
+            {
+                "normalized_label": "参壱陸"
+            },
+            {
+                "normalized_label": "参壱漆"
+            },
+            {
+                "normalized_label": "参壱捌"
+            },
+            {
+                "normalized_label": "参壱玖"
+            },
+            {
+                "normalized_label": "参弐零"
+            },
+            {
+                "normalized_label": "参弐壱"
+            },
+            {
+                "normalized_label": "参弐弐"
+            },
+            {
+                "normalized_label": "参弐参"
+            },
+            {
+                "normalized_label": "参弐肆"
+            },
+            {
+                "normalized_label": "参弐伍"
+            },
+            {
+                "normalized_label": "参弐陸"
+            },
+            {
+                "normalized_label": "参弐漆"
+            },
+            {
+                "normalized_label": "参弐捌"
+            },
+            {
+                "normalized_label": "参弐玖"
+            },
+            {
+                "normalized_label": "参参零"
+            },
+            {
+                "normalized_label": "参参壱"
+            },
+            {
+                "normalized_label": "参参弐"
+            },
+            {
+                "normalized_label": "参参参"
+            },
+            {
+                "normalized_label": "参参肆"
+            },
+            {
+                "normalized_label": "参参伍"
+            },
+            {
+                "normalized_label": "参参陸"
+            },
+            {
+                "normalized_label": "参参漆"
+            },
+            {
+                "normalized_label": "参参捌"
+            },
+            {
+                "normalized_label": "参参玖"
+            },
+            {
+                "normalized_label": "参肆零"
+            },
+            {
+                "normalized_label": "参肆壱"
+            },
+            {
+                "normalized_label": "参肆弐"
+            },
+            {
+                "normalized_label": "参肆参"
+            },
+            {
+                "normalized_label": "参肆肆"
+            },
+            {
+                "normalized_label": "参肆伍"
+            },
+            {
+                "normalized_label": "参肆陸"
+            },
+            {
+                "normalized_label": "参肆漆"
+            },
+            {
+                "normalized_label": "参肆捌"
+            },
+            {
+                "normalized_label": "参肆玖"
+            },
+            {
+                "normalized_label": "参伍零"
+            },
+            {
+                "normalized_label": "参伍壱"
+            },
+            {
+                "normalized_label": "参伍弐"
+            },
+            {
+                "normalized_label": "参伍参"
+            },
+            {
+                "normalized_label": "参伍肆"
+            },
+            {
+                "normalized_label": "参伍伍"
+            },
+            {
+                "normalized_label": "参伍陸"
+            },
+            {
+                "normalized_label": "参伍漆"
+            },
+            {
+                "normalized_label": "参伍捌"
+            },
+            {
+                "normalized_label": "参伍玖"
+            },
+            {
+                "normalized_label": "参陸零"
+            },
+            {
+                "normalized_label": "参陸壱"
+            },
+            {
+                "normalized_label": "参陸弐"
+            },
+            {
+                "normalized_label": "参陸参"
+            },
+            {
+                "normalized_label": "参陸肆"
+            },
+            {
+                "normalized_label": "参陸伍"
+            },
+            {
+                "normalized_label": "参陸陸"
+            },
+            {
+                "normalized_label": "参陸漆"
+            },
+            {
+                "normalized_label": "参陸捌"
+            },
+            {
+                "normalized_label": "参陸玖"
+            },
+            {
+                "normalized_label": "参漆零"
+            },
+            {
+                "normalized_label": "参漆壱"
+            },
+            {
+                "normalized_label": "参漆弐"
+            },
+            {
+                "normalized_label": "参漆参"
+            },
+            {
+                "normalized_label": "参漆肆"
+            },
+            {
+                "normalized_label": "参漆伍"
+            },
+            {
+                "normalized_label": "参漆陸"
+            },
+            {
+                "normalized_label": "参漆漆"
+            },
+            {
+                "normalized_label": "参漆捌"
+            },
+            {
+                "normalized_label": "参漆玖"
+            },
+            {
+                "normalized_label": "参捌零"
+            },
+            {
+                "normalized_label": "参捌壱"
+            },
+            {
+                "normalized_label": "参捌弐"
+            },
+            {
+                "normalized_label": "参捌参"
+            },
+            {
+                "normalized_label": "参捌肆"
+            },
+            {
+                "normalized_label": "参捌伍"
+            },
+            {
+                "normalized_label": "参捌陸"
+            },
+            {
+                "normalized_label": "参捌漆"
+            },
+            {
+                "normalized_label": "参捌捌"
+            },
+            {
+                "normalized_label": "参捌玖"
+            },
+            {
+                "normalized_label": "参玖零"
+            },
+            {
+                "normalized_label": "参玖壱"
+            },
+            {
+                "normalized_label": "参玖弐"
+            },
+            {
+                "normalized_label": "参玖参"
+            },
+            {
+                "normalized_label": "参玖肆"
+            },
+            {
+                "normalized_label": "参玖伍"
+            },
+            {
+                "normalized_label": "参玖陸"
+            },
+            {
+                "normalized_label": "参玖漆"
+            },
+            {
+                "normalized_label": "参玖捌"
+            },
+            {
+                "normalized_label": "参玖玖"
+            },
+            {
+                "normalized_label": "肆零零"
+            },
+            {
+                "normalized_label": "肆零壱"
+            },
+            {
+                "normalized_label": "肆零弐"
+            },
+            {
+                "normalized_label": "肆零参"
+            },
+            {
+                "normalized_label": "肆零肆"
+            },
+            {
+                "normalized_label": "肆零伍"
+            },
+            {
+                "normalized_label": "肆零陸"
+            },
+            {
+                "normalized_label": "肆零漆"
+            },
+            {
+                "normalized_label": "肆零捌"
+            },
+            {
+                "normalized_label": "肆零玖"
+            },
+            {
+                "normalized_label": "肆壱零"
+            },
+            {
+                "normalized_label": "肆壱壱"
+            },
+            {
+                "normalized_label": "肆壱弐"
+            },
+            {
+                "normalized_label": "肆壱参"
+            },
+            {
+                "normalized_label": "肆壱肆"
+            },
+            {
+                "normalized_label": "肆壱伍"
+            },
+            {
+                "normalized_label": "肆壱陸"
+            },
+            {
+                "normalized_label": "肆壱漆"
+            },
+            {
+                "normalized_label": "肆壱捌"
+            },
+            {
+                "normalized_label": "肆壱玖"
+            },
+            {
+                "normalized_label": "肆弐零"
+            },
+            {
+                "normalized_label": "肆弐壱"
+            },
+            {
+                "normalized_label": "肆弐弐"
+            },
+            {
+                "normalized_label": "肆弐参"
+            },
+            {
+                "normalized_label": "肆弐肆"
+            },
+            {
+                "normalized_label": "肆弐伍"
+            },
+            {
+                "normalized_label": "肆弐陸"
+            },
+            {
+                "normalized_label": "肆弐漆"
+            },
+            {
+                "normalized_label": "肆弐捌"
+            },
+            {
+                "normalized_label": "肆弐玖"
+            },
+            {
+                "normalized_label": "肆参零"
+            },
+            {
+                "normalized_label": "肆参壱"
+            },
+            {
+                "normalized_label": "肆参弐"
+            },
+            {
+                "normalized_label": "肆参参"
+            },
+            {
+                "normalized_label": "肆参肆"
+            },
+            {
+                "normalized_label": "肆参伍"
+            },
+            {
+                "normalized_label": "肆参陸"
+            },
+            {
+                "normalized_label": "肆参漆"
+            },
+            {
+                "normalized_label": "肆参捌"
+            },
+            {
+                "normalized_label": "肆参玖"
+            },
+            {
+                "normalized_label": "肆肆零"
+            },
+            {
+                "normalized_label": "肆肆壱"
+            },
+            {
+                "normalized_label": "肆肆弐"
+            },
+            {
+                "normalized_label": "肆肆参"
+            },
+            {
+                "normalized_label": "肆肆肆"
+            },
+            {
+                "normalized_label": "肆肆伍"
+            },
+            {
+                "normalized_label": "肆肆陸"
+            },
+            {
+                "normalized_label": "肆肆漆"
+            },
+            {
+                "normalized_label": "肆肆捌"
+            },
+            {
+                "normalized_label": "肆肆玖"
+            },
+            {
+                "normalized_label": "肆伍零"
+            },
+            {
+                "normalized_label": "肆伍壱"
+            },
+            {
+                "normalized_label": "肆伍弐"
+            },
+            {
+                "normalized_label": "肆伍参"
+            },
+            {
+                "normalized_label": "肆伍肆"
+            },
+            {
+                "normalized_label": "肆伍伍"
+            },
+            {
+                "normalized_label": "肆伍陸"
+            },
+            {
+                "normalized_label": "肆伍漆"
+            },
+            {
+                "normalized_label": "肆伍捌"
+            },
+            {
+                "normalized_label": "肆伍玖"
+            },
+            {
+                "normalized_label": "肆陸零"
+            },
+            {
+                "normalized_label": "肆陸壱"
+            },
+            {
+                "normalized_label": "肆陸弐"
+            },
+            {
+                "normalized_label": "肆陸参"
+            },
+            {
+                "normalized_label": "肆陸肆"
+            },
+            {
+                "normalized_label": "肆陸伍"
+            },
+            {
+                "normalized_label": "肆陸陸"
+            },
+            {
+                "normalized_label": "肆陸漆"
+            },
+            {
+                "normalized_label": "肆陸捌"
+            },
+            {
+                "normalized_label": "肆陸玖"
+            },
+            {
+                "normalized_label": "肆漆零"
+            },
+            {
+                "normalized_label": "肆漆壱"
+            },
+            {
+                "normalized_label": "肆漆弐"
+            },
+            {
+                "normalized_label": "肆漆参"
+            },
+            {
+                "normalized_label": "肆漆肆"
+            },
+            {
+                "normalized_label": "肆漆伍"
+            },
+            {
+                "normalized_label": "肆漆陸"
+            },
+            {
+                "normalized_label": "肆漆漆"
+            },
+            {
+                "normalized_label": "肆漆捌"
+            },
+            {
+                "normalized_label": "肆漆玖"
+            },
+            {
+                "normalized_label": "肆捌零"
+            },
+            {
+                "normalized_label": "肆捌壱"
+            },
+            {
+                "normalized_label": "肆捌弐"
+            },
+            {
+                "normalized_label": "肆捌参"
+            },
+            {
+                "normalized_label": "肆捌肆"
+            },
+            {
+                "normalized_label": "肆捌伍"
+            },
+            {
+                "normalized_label": "肆捌陸"
+            },
+            {
+                "normalized_label": "肆捌漆"
+            },
+            {
+                "normalized_label": "肆捌捌"
+            },
+            {
+                "normalized_label": "肆捌玖"
+            },
+            {
+                "normalized_label": "肆玖零"
+            },
+            {
+                "normalized_label": "肆玖壱"
+            },
+            {
+                "normalized_label": "肆玖弐"
+            },
+            {
+                "normalized_label": "肆玖参"
+            },
+            {
+                "normalized_label": "肆玖肆"
+            },
+            {
+                "normalized_label": "肆玖伍"
+            },
+            {
+                "normalized_label": "肆玖陸"
+            },
+            {
+                "normalized_label": "肆玖漆"
+            },
+            {
+                "normalized_label": "肆玖捌"
+            },
+            {
+                "normalized_label": "肆玖玖"
+            },
+            {
+                "normalized_label": "伍零零"
+            },
+            {
+                "normalized_label": "伍零壱"
+            },
+            {
+                "normalized_label": "伍零弐"
+            },
+            {
+                "normalized_label": "伍零参"
+            },
+            {
+                "normalized_label": "伍零肆"
+            },
+            {
+                "normalized_label": "伍零伍"
+            },
+            {
+                "normalized_label": "伍零陸"
+            },
+            {
+                "normalized_label": "伍零漆"
+            },
+            {
+                "normalized_label": "伍零捌"
+            },
+            {
+                "normalized_label": "伍零玖"
+            },
+            {
+                "normalized_label": "伍壱零"
+            },
+            {
+                "normalized_label": "伍壱壱"
+            },
+            {
+                "normalized_label": "伍壱弐"
+            },
+            {
+                "normalized_label": "伍壱参"
+            },
+            {
+                "normalized_label": "伍壱肆"
+            },
+            {
+                "normalized_label": "伍壱伍"
+            },
+            {
+                "normalized_label": "伍壱陸"
+            },
+            {
+                "normalized_label": "伍壱漆"
+            },
+            {
+                "normalized_label": "伍壱捌"
+            },
+            {
+                "normalized_label": "伍壱玖"
+            },
+            {
+                "normalized_label": "伍弐零"
+            },
+            {
+                "normalized_label": "伍弐壱"
+            },
+            {
+                "normalized_label": "伍弐弐"
+            },
+            {
+                "normalized_label": "伍弐参"
+            },
+            {
+                "normalized_label": "伍弐肆"
+            },
+            {
+                "normalized_label": "伍弐伍"
+            },
+            {
+                "normalized_label": "伍弐陸"
+            },
+            {
+                "normalized_label": "伍弐漆"
+            },
+            {
+                "normalized_label": "伍弐捌"
+            },
+            {
+                "normalized_label": "伍弐玖"
+            },
+            {
+                "normalized_label": "伍参零"
+            },
+            {
+                "normalized_label": "伍参壱"
+            },
+            {
+                "normalized_label": "伍参弐"
+            },
+            {
+                "normalized_label": "伍参参"
+            },
+            {
+                "normalized_label": "伍参肆"
+            },
+            {
+                "normalized_label": "伍参伍"
+            },
+            {
+                "normalized_label": "伍参陸"
+            },
+            {
+                "normalized_label": "伍参漆"
+            },
+            {
+                "normalized_label": "伍参捌"
+            },
+            {
+                "normalized_label": "伍参玖"
+            },
+            {
+                "normalized_label": "伍肆零"
+            },
+            {
+                "normalized_label": "伍肆壱"
+            },
+            {
+                "normalized_label": "伍肆弐"
+            },
+            {
+                "normalized_label": "伍肆参"
+            },
+            {
+                "normalized_label": "伍肆肆"
+            },
+            {
+                "normalized_label": "伍肆伍"
+            },
+            {
+                "normalized_label": "伍肆陸"
+            },
+            {
+                "normalized_label": "伍肆漆"
+            },
+            {
+                "normalized_label": "伍肆捌"
+            },
+            {
+                "normalized_label": "伍肆玖"
+            },
+            {
+                "normalized_label": "伍伍零"
+            },
+            {
+                "normalized_label": "伍伍壱"
+            },
+            {
+                "normalized_label": "伍伍弐"
+            },
+            {
+                "normalized_label": "伍伍参"
+            },
+            {
+                "normalized_label": "伍伍肆"
+            },
+            {
+                "normalized_label": "伍伍伍"
+            },
+            {
+                "normalized_label": "伍伍陸"
+            },
+            {
+                "normalized_label": "伍伍漆"
+            },
+            {
+                "normalized_label": "伍伍捌"
+            },
+            {
+                "normalized_label": "伍伍玖"
+            },
+            {
+                "normalized_label": "伍陸零"
+            },
+            {
+                "normalized_label": "伍陸壱"
+            },
+            {
+                "normalized_label": "伍陸弐"
+            },
+            {
+                "normalized_label": "伍陸参"
+            },
+            {
+                "normalized_label": "伍陸肆"
+            },
+            {
+                "normalized_label": "伍陸伍"
+            },
+            {
+                "normalized_label": "伍陸陸"
+            },
+            {
+                "normalized_label": "伍陸漆"
+            },
+            {
+                "normalized_label": "伍陸捌"
+            },
+            {
+                "normalized_label": "伍陸玖"
+            },
+            {
+                "normalized_label": "伍漆零"
+            },
+            {
+                "normalized_label": "伍漆壱"
+            },
+            {
+                "normalized_label": "伍漆弐"
+            },
+            {
+                "normalized_label": "伍漆参"
+            },
+            {
+                "normalized_label": "伍漆肆"
+            },
+            {
+                "normalized_label": "伍漆伍"
+            },
+            {
+                "normalized_label": "伍漆陸"
+            },
+            {
+                "normalized_label": "伍漆漆"
+            },
+            {
+                "normalized_label": "伍漆捌"
+            },
+            {
+                "normalized_label": "伍漆玖"
+            },
+            {
+                "normalized_label": "伍捌零"
+            },
+            {
+                "normalized_label": "伍捌壱"
+            },
+            {
+                "normalized_label": "伍捌弐"
+            },
+            {
+                "normalized_label": "伍捌参"
+            },
+            {
+                "normalized_label": "伍捌肆"
+            },
+            {
+                "normalized_label": "伍捌伍"
+            },
+            {
+                "normalized_label": "伍捌陸"
+            },
+            {
+                "normalized_label": "伍捌漆"
+            },
+            {
+                "normalized_label": "伍捌捌"
+            },
+            {
+                "normalized_label": "伍捌玖"
+            },
+            {
+                "normalized_label": "伍玖零"
+            },
+            {
+                "normalized_label": "伍玖壱"
+            },
+            {
+                "normalized_label": "伍玖弐"
+            },
+            {
+                "normalized_label": "伍玖参"
+            },
+            {
+                "normalized_label": "伍玖肆"
+            },
+            {
+                "normalized_label": "伍玖伍"
+            },
+            {
+                "normalized_label": "伍玖陸"
+            },
+            {
+                "normalized_label": "伍玖漆"
+            },
+            {
+                "normalized_label": "伍玖捌"
+            },
+            {
+                "normalized_label": "伍玖玖"
+            },
+            {
+                "normalized_label": "陸零零"
+            },
+            {
+                "normalized_label": "陸零壱"
+            },
+            {
+                "normalized_label": "陸零弐"
+            },
+            {
+                "normalized_label": "陸零参"
+            },
+            {
+                "normalized_label": "陸零肆"
+            },
+            {
+                "normalized_label": "陸零伍"
+            },
+            {
+                "normalized_label": "陸零陸"
+            },
+            {
+                "normalized_label": "陸零漆"
+            },
+            {
+                "normalized_label": "陸零捌"
+            },
+            {
+                "normalized_label": "陸零玖"
+            },
+            {
+                "normalized_label": "陸壱零"
+            },
+            {
+                "normalized_label": "陸壱壱"
+            },
+            {
+                "normalized_label": "陸壱弐"
+            },
+            {
+                "normalized_label": "陸壱参"
+            },
+            {
+                "normalized_label": "陸壱肆"
+            },
+            {
+                "normalized_label": "陸壱伍"
+            },
+            {
+                "normalized_label": "陸壱陸"
+            },
+            {
+                "normalized_label": "陸壱漆"
+            },
+            {
+                "normalized_label": "陸壱捌"
+            },
+            {
+                "normalized_label": "陸壱玖"
+            },
+            {
+                "normalized_label": "陸弐零"
+            },
+            {
+                "normalized_label": "陸弐壱"
+            },
+            {
+                "normalized_label": "陸弐弐"
+            },
+            {
+                "normalized_label": "陸弐参"
+            },
+            {
+                "normalized_label": "陸弐肆"
+            },
+            {
+                "normalized_label": "陸弐伍"
+            },
+            {
+                "normalized_label": "陸弐陸"
+            },
+            {
+                "normalized_label": "陸弐漆"
+            },
+            {
+                "normalized_label": "陸弐捌"
+            },
+            {
+                "normalized_label": "陸弐玖"
+            },
+            {
+                "normalized_label": "陸参零"
+            },
+            {
+                "normalized_label": "陸参壱"
+            },
+            {
+                "normalized_label": "陸参弐"
+            },
+            {
+                "normalized_label": "陸参参"
+            },
+            {
+                "normalized_label": "陸参肆"
+            },
+            {
+                "normalized_label": "陸参伍"
+            },
+            {
+                "normalized_label": "陸参陸"
+            },
+            {
+                "normalized_label": "陸参漆"
+            },
+            {
+                "normalized_label": "陸参捌"
+            },
+            {
+                "normalized_label": "陸参玖"
+            },
+            {
+                "normalized_label": "陸肆零"
+            },
+            {
+                "normalized_label": "陸肆壱"
+            },
+            {
+                "normalized_label": "陸肆弐"
+            },
+            {
+                "normalized_label": "陸肆参"
+            },
+            {
+                "normalized_label": "陸肆肆"
+            },
+            {
+                "normalized_label": "陸肆伍"
+            },
+            {
+                "normalized_label": "陸肆陸"
+            },
+            {
+                "normalized_label": "陸肆漆"
+            },
+            {
+                "normalized_label": "陸肆捌"
+            },
+            {
+                "normalized_label": "陸肆玖"
+            },
+            {
+                "normalized_label": "陸伍零"
+            },
+            {
+                "normalized_label": "陸伍壱"
+            },
+            {
+                "normalized_label": "陸伍弐"
+            },
+            {
+                "normalized_label": "陸伍参"
+            },
+            {
+                "normalized_label": "陸伍肆"
+            },
+            {
+                "normalized_label": "陸伍伍"
+            },
+            {
+                "normalized_label": "陸伍陸"
+            },
+            {
+                "normalized_label": "陸伍漆"
+            },
+            {
+                "normalized_label": "陸伍捌"
+            },
+            {
+                "normalized_label": "陸伍玖"
+            },
+            {
+                "normalized_label": "陸陸零"
+            },
+            {
+                "normalized_label": "陸陸壱"
+            },
+            {
+                "normalized_label": "陸陸弐"
+            },
+            {
+                "normalized_label": "陸陸参"
+            },
+            {
+                "normalized_label": "陸陸肆"
+            },
+            {
+                "normalized_label": "陸陸伍"
+            },
+            {
+                "normalized_label": "陸陸陸"
+            },
+            {
+                "normalized_label": "陸陸漆"
+            },
+            {
+                "normalized_label": "陸陸捌"
+            },
+            {
+                "normalized_label": "陸陸玖"
+            },
+            {
+                "normalized_label": "陸漆零"
+            },
+            {
+                "normalized_label": "陸漆壱"
+            },
+            {
+                "normalized_label": "陸漆弐"
+            },
+            {
+                "normalized_label": "陸漆参"
+            },
+            {
+                "normalized_label": "陸漆肆"
+            },
+            {
+                "normalized_label": "陸漆伍"
+            },
+            {
+                "normalized_label": "陸漆陸"
+            },
+            {
+                "normalized_label": "陸漆漆"
+            },
+            {
+                "normalized_label": "陸漆捌"
+            },
+            {
+                "normalized_label": "陸漆玖"
+            },
+            {
+                "normalized_label": "陸捌零"
+            },
+            {
+                "normalized_label": "陸捌壱"
+            },
+            {
+                "normalized_label": "陸捌弐"
+            },
+            {
+                "normalized_label": "陸捌参"
+            },
+            {
+                "normalized_label": "陸捌肆"
+            },
+            {
+                "normalized_label": "陸捌伍"
+            },
+            {
+                "normalized_label": "陸捌陸"
+            },
+            {
+                "normalized_label": "陸捌漆"
+            },
+            {
+                "normalized_label": "陸捌捌"
+            },
+            {
+                "normalized_label": "陸捌玖"
+            },
+            {
+                "normalized_label": "陸玖零"
+            },
+            {
+                "normalized_label": "陸玖壱"
+            },
+            {
+                "normalized_label": "陸玖弐"
+            },
+            {
+                "normalized_label": "陸玖参"
+            },
+            {
+                "normalized_label": "陸玖肆"
+            },
+            {
+                "normalized_label": "陸玖伍"
+            },
+            {
+                "normalized_label": "陸玖陸"
+            },
+            {
+                "normalized_label": "陸玖漆"
+            },
+            {
+                "normalized_label": "陸玖捌"
+            },
+            {
+                "normalized_label": "陸玖玖"
+            },
+            {
+                "normalized_label": "漆零零"
+            },
+            {
+                "normalized_label": "漆零壱"
+            },
+            {
+                "normalized_label": "漆零弐"
+            },
+            {
+                "normalized_label": "漆零参"
+            },
+            {
+                "normalized_label": "漆零肆"
+            },
+            {
+                "normalized_label": "漆零伍"
+            },
+            {
+                "normalized_label": "漆零陸"
+            },
+            {
+                "normalized_label": "漆零漆"
+            },
+            {
+                "normalized_label": "漆零捌"
+            },
+            {
+                "normalized_label": "漆零玖"
+            },
+            {
+                "normalized_label": "漆壱零"
+            },
+            {
+                "normalized_label": "漆壱壱"
+            },
+            {
+                "normalized_label": "漆壱弐"
+            },
+            {
+                "normalized_label": "漆壱参"
+            },
+            {
+                "normalized_label": "漆壱肆"
+            },
+            {
+                "normalized_label": "漆壱伍"
+            },
+            {
+                "normalized_label": "漆壱陸"
+            },
+            {
+                "normalized_label": "漆壱漆"
+            },
+            {
+                "normalized_label": "漆壱捌"
+            },
+            {
+                "normalized_label": "漆壱玖"
+            },
+            {
+                "normalized_label": "漆弐零"
+            },
+            {
+                "normalized_label": "漆弐壱"
+            },
+            {
+                "normalized_label": "漆弐弐"
+            },
+            {
+                "normalized_label": "漆弐参"
+            },
+            {
+                "normalized_label": "漆弐肆"
+            },
+            {
+                "normalized_label": "漆弐伍"
+            },
+            {
+                "normalized_label": "漆弐陸"
+            },
+            {
+                "normalized_label": "漆弐漆"
+            },
+            {
+                "normalized_label": "漆弐捌"
+            },
+            {
+                "normalized_label": "漆弐玖"
+            },
+            {
+                "normalized_label": "漆参零"
+            },
+            {
+                "normalized_label": "漆参壱"
+            },
+            {
+                "normalized_label": "漆参弐"
+            },
+            {
+                "normalized_label": "漆参参"
+            },
+            {
+                "normalized_label": "漆参肆"
+            },
+            {
+                "normalized_label": "漆参伍"
+            },
+            {
+                "normalized_label": "漆参陸"
+            },
+            {
+                "normalized_label": "漆参漆"
+            },
+            {
+                "normalized_label": "漆参捌"
+            },
+            {
+                "normalized_label": "漆参玖"
+            },
+            {
+                "normalized_label": "漆肆零"
+            },
+            {
+                "normalized_label": "漆肆壱"
+            },
+            {
+                "normalized_label": "漆肆弐"
+            },
+            {
+                "normalized_label": "漆肆参"
+            },
+            {
+                "normalized_label": "漆肆肆"
+            },
+            {
+                "normalized_label": "漆肆伍"
+            },
+            {
+                "normalized_label": "漆肆陸"
+            },
+            {
+                "normalized_label": "漆肆漆"
+            },
+            {
+                "normalized_label": "漆肆捌"
+            },
+            {
+                "normalized_label": "漆肆玖"
+            },
+            {
+                "normalized_label": "漆伍零"
+            },
+            {
+                "normalized_label": "漆伍壱"
+            },
+            {
+                "normalized_label": "漆伍弐"
+            },
+            {
+                "normalized_label": "漆伍参"
+            },
+            {
+                "normalized_label": "漆伍肆"
+            },
+            {
+                "normalized_label": "漆伍伍"
+            },
+            {
+                "normalized_label": "漆伍陸"
+            },
+            {
+                "normalized_label": "漆伍漆"
+            },
+            {
+                "normalized_label": "漆伍捌"
+            },
+            {
+                "normalized_label": "漆伍玖"
+            },
+            {
+                "normalized_label": "漆陸零"
+            },
+            {
+                "normalized_label": "漆陸壱"
+            },
+            {
+                "normalized_label": "漆陸弐"
+            },
+            {
+                "normalized_label": "漆陸参"
+            },
+            {
+                "normalized_label": "漆陸肆"
+            },
+            {
+                "normalized_label": "漆陸伍"
+            },
+            {
+                "normalized_label": "漆陸陸"
+            },
+            {
+                "normalized_label": "漆陸漆"
+            },
+            {
+                "normalized_label": "漆陸捌"
+            },
+            {
+                "normalized_label": "漆陸玖"
+            },
+            {
+                "normalized_label": "漆漆零"
+            },
+            {
+                "normalized_label": "漆漆壱"
+            },
+            {
+                "normalized_label": "漆漆弐"
+            },
+            {
+                "normalized_label": "漆漆参"
+            },
+            {
+                "normalized_label": "漆漆肆"
+            },
+            {
+                "normalized_label": "漆漆伍"
+            },
+            {
+                "normalized_label": "漆漆陸"
+            },
+            {
+                "normalized_label": "漆漆漆"
+            },
+            {
+                "normalized_label": "漆漆捌"
+            },
+            {
+                "normalized_label": "漆漆玖"
+            },
+            {
+                "normalized_label": "漆捌零"
+            },
+            {
+                "normalized_label": "漆捌壱"
+            },
+            {
+                "normalized_label": "漆捌弐"
+            },
+            {
+                "normalized_label": "漆捌参"
+            },
+            {
+                "normalized_label": "漆捌肆"
+            },
+            {
+                "normalized_label": "漆捌伍"
+            },
+            {
+                "normalized_label": "漆捌陸"
+            },
+            {
+                "normalized_label": "漆捌漆"
+            },
+            {
+                "normalized_label": "漆捌捌"
+            },
+            {
+                "normalized_label": "漆捌玖"
+            },
+            {
+                "normalized_label": "漆玖零"
+            },
+            {
+                "normalized_label": "漆玖壱"
+            },
+            {
+                "normalized_label": "漆玖弐"
+            },
+            {
+                "normalized_label": "漆玖参"
+            },
+            {
+                "normalized_label": "漆玖肆"
+            },
+            {
+                "normalized_label": "漆玖伍"
+            },
+            {
+                "normalized_label": "漆玖陸"
+            },
+            {
+                "normalized_label": "漆玖漆"
+            },
+            {
+                "normalized_label": "漆玖捌"
+            },
+            {
+                "normalized_label": "漆玖玖"
+            },
+            {
+                "normalized_label": "捌零零"
+            },
+            {
+                "normalized_label": "捌零壱"
+            },
+            {
+                "normalized_label": "捌零弐"
+            },
+            {
+                "normalized_label": "捌零参"
+            },
+            {
+                "normalized_label": "捌零肆"
+            },
+            {
+                "normalized_label": "捌零伍"
+            },
+            {
+                "normalized_label": "捌零陸"
+            },
+            {
+                "normalized_label": "捌零漆"
+            },
+            {
+                "normalized_label": "捌零捌"
+            },
+            {
+                "normalized_label": "捌零玖"
+            },
+            {
+                "normalized_label": "捌壱零"
+            },
+            {
+                "normalized_label": "捌壱壱"
+            },
+            {
+                "normalized_label": "捌壱弐"
+            },
+            {
+                "normalized_label": "捌壱参"
+            },
+            {
+                "normalized_label": "捌壱肆"
+            },
+            {
+                "normalized_label": "捌壱伍"
+            },
+            {
+                "normalized_label": "捌壱陸"
+            },
+            {
+                "normalized_label": "捌壱漆"
+            },
+            {
+                "normalized_label": "捌壱捌"
+            },
+            {
+                "normalized_label": "捌壱玖"
+            },
+            {
+                "normalized_label": "捌弐零"
+            },
+            {
+                "normalized_label": "捌弐壱"
+            },
+            {
+                "normalized_label": "捌弐弐"
+            },
+            {
+                "normalized_label": "捌弐参"
+            },
+            {
+                "normalized_label": "捌弐肆"
+            },
+            {
+                "normalized_label": "捌弐伍"
+            },
+            {
+                "normalized_label": "捌弐陸"
+            },
+            {
+                "normalized_label": "捌弐漆"
+            },
+            {
+                "normalized_label": "捌弐捌"
+            },
+            {
+                "normalized_label": "捌弐玖"
+            },
+            {
+                "normalized_label": "捌参零"
+            },
+            {
+                "normalized_label": "捌参壱"
+            },
+            {
+                "normalized_label": "捌参弐"
+            },
+            {
+                "normalized_label": "捌参参"
+            },
+            {
+                "normalized_label": "捌参肆"
+            },
+            {
+                "normalized_label": "捌参伍"
+            },
+            {
+                "normalized_label": "捌参陸"
+            },
+            {
+                "normalized_label": "捌参漆"
+            },
+            {
+                "normalized_label": "捌参捌"
+            },
+            {
+                "normalized_label": "捌参玖"
+            },
+            {
+                "normalized_label": "捌肆零"
+            },
+            {
+                "normalized_label": "捌肆壱"
+            },
+            {
+                "normalized_label": "捌肆弐"
+            },
+            {
+                "normalized_label": "捌肆参"
+            },
+            {
+                "normalized_label": "捌肆肆"
+            },
+            {
+                "normalized_label": "捌肆伍"
+            },
+            {
+                "normalized_label": "捌肆陸"
+            },
+            {
+                "normalized_label": "捌肆漆"
+            },
+            {
+                "normalized_label": "捌肆捌"
+            },
+            {
+                "normalized_label": "捌肆玖"
+            },
+            {
+                "normalized_label": "捌伍零"
+            },
+            {
+                "normalized_label": "捌伍壱"
+            },
+            {
+                "normalized_label": "捌伍弐"
+            },
+            {
+                "normalized_label": "捌伍参"
+            },
+            {
+                "normalized_label": "捌伍肆"
+            },
+            {
+                "normalized_label": "捌伍伍"
+            },
+            {
+                "normalized_label": "捌伍陸"
+            },
+            {
+                "normalized_label": "捌伍漆"
+            },
+            {
+                "normalized_label": "捌伍捌"
+            },
+            {
+                "normalized_label": "捌伍玖"
+            },
+            {
+                "normalized_label": "捌陸零"
+            },
+            {
+                "normalized_label": "捌陸壱"
+            },
+            {
+                "normalized_label": "捌陸弐"
+            },
+            {
+                "normalized_label": "捌陸参"
+            },
+            {
+                "normalized_label": "捌陸肆"
+            },
+            {
+                "normalized_label": "捌陸伍"
+            },
+            {
+                "normalized_label": "捌陸陸"
+            },
+            {
+                "normalized_label": "捌陸漆"
+            },
+            {
+                "normalized_label": "捌陸捌"
+            },
+            {
+                "normalized_label": "捌陸玖"
+            },
+            {
+                "normalized_label": "捌漆零"
+            },
+            {
+                "normalized_label": "捌漆壱"
+            },
+            {
+                "normalized_label": "捌漆弐"
+            },
+            {
+                "normalized_label": "捌漆参"
+            },
+            {
+                "normalized_label": "捌漆肆"
+            },
+            {
+                "normalized_label": "捌漆伍"
+            },
+            {
+                "normalized_label": "捌漆陸"
+            },
+            {
+                "normalized_label": "捌漆漆"
+            },
+            {
+                "normalized_label": "捌漆捌"
+            },
+            {
+                "normalized_label": "捌漆玖"
+            },
+            {
+                "normalized_label": "捌捌零"
+            },
+            {
+                "normalized_label": "捌捌壱"
+            },
+            {
+                "normalized_label": "捌捌弐"
+            },
+            {
+                "normalized_label": "捌捌参"
+            },
+            {
+                "normalized_label": "捌捌肆"
+            },
+            {
+                "normalized_label": "捌捌伍"
+            },
+            {
+                "normalized_label": "捌捌陸"
+            },
+            {
+                "normalized_label": "捌捌漆"
+            },
+            {
+                "normalized_label": "捌捌捌"
+            },
+            {
+                "normalized_label": "捌捌玖"
+            },
+            {
+                "normalized_label": "捌玖零"
+            },
+            {
+                "normalized_label": "捌玖壱"
+            },
+            {
+                "normalized_label": "捌玖弐"
+            },
+            {
+                "normalized_label": "捌玖参"
+            },
+            {
+                "normalized_label": "捌玖肆"
+            },
+            {
+                "normalized_label": "捌玖伍"
+            },
+            {
+                "normalized_label": "捌玖陸"
+            },
+            {
+                "normalized_label": "捌玖漆"
+            },
+            {
+                "normalized_label": "捌玖捌"
+            },
+            {
+                "normalized_label": "捌玖玖"
+            },
+            {
+                "normalized_label": "玖零零"
+            },
+            {
+                "normalized_label": "玖零壱"
+            },
+            {
+                "normalized_label": "玖零弐"
+            },
+            {
+                "normalized_label": "玖零参"
+            },
+            {
+                "normalized_label": "玖零肆"
+            },
+            {
+                "normalized_label": "玖零伍"
+            },
+            {
+                "normalized_label": "玖零陸"
+            },
+            {
+                "normalized_label": "玖零漆"
+            },
+            {
+                "normalized_label": "玖零捌"
+            },
+            {
+                "normalized_label": "玖零玖"
+            },
+            {
+                "normalized_label": "玖壱零"
+            },
+            {
+                "normalized_label": "玖壱壱"
+            },
+            {
+                "normalized_label": "玖壱弐"
+            },
+            {
+                "normalized_label": "玖壱参"
+            },
+            {
+                "normalized_label": "玖壱肆"
+            },
+            {
+                "normalized_label": "玖壱伍"
+            },
+            {
+                "normalized_label": "玖壱陸"
+            },
+            {
+                "normalized_label": "玖壱漆"
+            },
+            {
+                "normalized_label": "玖壱捌"
+            },
+            {
+                "normalized_label": "玖壱玖"
+            },
+            {
+                "normalized_label": "玖弐零"
+            },
+            {
+                "normalized_label": "玖弐壱"
+            },
+            {
+                "normalized_label": "玖弐弐"
+            },
+            {
+                "normalized_label": "玖弐参"
+            },
+            {
+                "normalized_label": "玖弐肆"
+            },
+            {
+                "normalized_label": "玖弐伍"
+            },
+            {
+                "normalized_label": "玖弐陸"
+            },
+            {
+                "normalized_label": "玖弐漆"
+            },
+            {
+                "normalized_label": "玖弐捌"
+            },
+            {
+                "normalized_label": "玖弐玖"
+            },
+            {
+                "normalized_label": "玖参零"
+            },
+            {
+                "normalized_label": "玖参壱"
+            },
+            {
+                "normalized_label": "玖参弐"
+            },
+            {
+                "normalized_label": "玖参参"
+            },
+            {
+                "normalized_label": "玖参肆"
+            },
+            {
+                "normalized_label": "玖参伍"
+            },
+            {
+                "normalized_label": "玖参陸"
+            },
+            {
+                "normalized_label": "玖参漆"
+            },
+            {
+                "normalized_label": "玖参捌"
+            },
+            {
+                "normalized_label": "玖参玖"
+            },
+            {
+                "normalized_label": "玖肆零"
+            },
+            {
+                "normalized_label": "玖肆壱"
+            },
+            {
+                "normalized_label": "玖肆弐"
+            },
+            {
+                "normalized_label": "玖肆参"
+            },
+            {
+                "normalized_label": "玖肆肆"
+            },
+            {
+                "normalized_label": "玖肆伍"
+            },
+            {
+                "normalized_label": "玖肆陸"
+            },
+            {
+                "normalized_label": "玖肆漆"
+            },
+            {
+                "normalized_label": "玖肆捌"
+            },
+            {
+                "normalized_label": "玖肆玖"
+            },
+            {
+                "normalized_label": "玖伍零"
+            },
+            {
+                "normalized_label": "玖伍壱"
+            },
+            {
+                "normalized_label": "玖伍弐"
+            },
+            {
+                "normalized_label": "玖伍参"
+            },
+            {
+                "normalized_label": "玖伍肆"
+            },
+            {
+                "normalized_label": "玖伍伍"
+            },
+            {
+                "normalized_label": "玖伍陸"
+            },
+            {
+                "normalized_label": "玖伍漆"
+            },
+            {
+                "normalized_label": "玖伍捌"
+            },
+            {
+                "normalized_label": "玖伍玖"
+            },
+            {
+                "normalized_label": "玖陸零"
+            },
+            {
+                "normalized_label": "玖陸壱"
+            },
+            {
+                "normalized_label": "玖陸弐"
+            },
+            {
+                "normalized_label": "玖陸参"
+            },
+            {
+                "normalized_label": "玖陸肆"
+            },
+            {
+                "normalized_label": "玖陸伍"
+            },
+            {
+                "normalized_label": "玖陸陸"
+            },
+            {
+                "normalized_label": "玖陸漆"
+            },
+            {
+                "normalized_label": "玖陸捌"
+            },
+            {
+                "normalized_label": "玖陸玖"
+            },
+            {
+                "normalized_label": "玖漆零"
+            },
+            {
+                "normalized_label": "玖漆壱"
+            },
+            {
+                "normalized_label": "玖漆弐"
+            },
+            {
+                "normalized_label": "玖漆参"
+            },
+            {
+                "normalized_label": "玖漆肆"
+            },
+            {
+                "normalized_label": "玖漆伍"
+            },
+            {
+                "normalized_label": "玖漆陸"
+            },
+            {
+                "normalized_label": "玖漆漆"
+            },
+            {
+                "normalized_label": "玖漆捌"
+            },
+            {
+                "normalized_label": "玖漆玖"
+            },
+            {
+                "normalized_label": "玖捌零"
+            },
+            {
+                "normalized_label": "玖捌壱"
+            },
+            {
+                "normalized_label": "玖捌弐"
+            },
+            {
+                "normalized_label": "玖捌参"
+            },
+            {
+                "normalized_label": "玖捌肆"
+            },
+            {
+                "normalized_label": "玖捌伍"
+            },
+            {
+                "normalized_label": "玖捌陸"
+            },
+            {
+                "normalized_label": "玖捌漆"
+            },
+            {
+                "normalized_label": "玖捌捌"
+            },
+            {
+                "normalized_label": "玖捌玖"
+            },
+            {
+                "normalized_label": "玖玖零"
+            },
+            {
+                "normalized_label": "玖玖壱"
+            },
+            {
+                "normalized_label": "玖玖弐"
+            },
+            {
+                "normalized_label": "玖玖参"
+            },
+            {
+                "normalized_label": "玖玖肆"
+            },
+            {
+                "normalized_label": "玖玖伍"
+            },
+            {
+                "normalized_label": "玖玖陸"
+            },
+            {
+                "normalized_label": "玖玖漆"
+            },
+            {
+                "normalized_label": "玖玖捌"
+            },
+            {
+                "normalized_label": "玖玖玖"
+            }
+        ]
+    }
+}

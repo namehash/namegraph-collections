@@ -1,0 +1,728 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "substances-club",
+        "collection_name": "Substances Club",
+        "collection_description": "Medicines, recreational drugs, pill imprints, and more.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "2c-b"
+            },
+            {
+                "normalized_label": "2c-b-fly"
+            },
+            {
+                "normalized_label": "2c-c"
+            },
+            {
+                "normalized_label": "2c-d"
+            },
+            {
+                "normalized_label": "2c-e"
+            },
+            {
+                "normalized_label": "2c-h"
+            },
+            {
+                "normalized_label": "2c-i"
+            },
+            {
+                "normalized_label": "2c-p"
+            },
+            {
+                "normalized_label": "4-aco-dmt"
+            },
+            {
+                "normalized_label": "4-mmc"
+            },
+            {
+                "normalized_label": "acid"
+            },
+            {
+                "normalized_label": "adderall"
+            },
+            {
+                "normalized_label": "adderallxr"
+            },
+            {
+                "normalized_label": "methadone"
+            },
+            {
+                "normalized_label": "alprazolam"
+            },
+            {
+                "normalized_label": "ambien"
+            },
+            {
+                "normalized_label": "ambiencr"
+            },
+            {
+                "normalized_label": "amphetamine"
+            },
+            {
+                "normalized_label": "methaqualone"
+            },
+            {
+                "normalized_label": "ativan"
+            },
+            {
+                "normalized_label": "atomoxetine"
+            },
+            {
+                "normalized_label": "promethazine"
+            },
+            {
+                "normalized_label": "benzo"
+            },
+            {
+                "normalized_label": "benzodiazepine"
+            },
+            {
+                "normalized_label": "benzodiazepines"
+            },
+            {
+                "normalized_label": "benzos"
+            },
+            {
+                "normalized_label": "blow"
+            },
+            {
+                "normalized_label": "bluedream"
+            },
+            {
+                "normalized_label": "bromazepam"
+            },
+            {
+                "normalized_label": "brotizolam"
+            },
+            {
+                "normalized_label": "buprenorphine"
+            },
+            {
+                "normalized_label": "bupropion"
+            },
+            {
+                "normalized_label": "cannabidiol"
+            },
+            {
+                "normalized_label": "cannabis"
+            },
+            {
+                "normalized_label": "cbd"
+            },
+            {
+                "normalized_label": "chlordiazepoxide"
+            },
+            {
+                "normalized_label": "clonazepam"
+            },
+            {
+                "normalized_label": "cocaine"
+            },
+            {
+                "normalized_label": "codeine"
+            },
+            {
+                "normalized_label": "codeinelinctus"
+            },
+            {
+                "normalized_label": "codeinesyrup"
+            },
+            {
+                "normalized_label": "coke"
+            },
+            {
+                "normalized_label": "cokedup"
+            },
+            {
+                "normalized_label": "concerta"
+            },
+            {
+                "normalized_label": "dexamphetamine"
+            },
+            {
+                "normalized_label": "dexedrine"
+            },
+            {
+                "normalized_label": "dexedrinexr"
+            },
+            {
+                "normalized_label": "dextroamphetamine"
+            },
+            {
+                "normalized_label": "df118"
+            },
+            {
+                "normalized_label": "dhc"
+            },
+            {
+                "normalized_label": "dhccontinus"
+            },
+            {
+                "normalized_label": "diacetylmorphine"
+            },
+            {
+                "normalized_label": "diamorphine"
+            },
+            {
+                "normalized_label": "diazepam"
+            },
+            {
+                "normalized_label": "dihydrocodeine"
+            },
+            {
+                "normalized_label": "dilaudid"
+            },
+            {
+                "normalized_label": "dirtysprite"
+            },
+            {
+                "normalized_label": "dmt"
+            },
+            {
+                "normalized_label": "doublecup"
+            },
+            {
+                "normalized_label": "doublecups"
+            },
+            {
+                "normalized_label": "downer"
+            },
+            {
+                "normalized_label": "downers"
+            },
+            {
+                "normalized_label": "elvanse"
+            },
+            {
+                "normalized_label": "esketamine"
+            },
+            {
+                "normalized_label": "estazolam"
+            },
+            {
+                "normalized_label": "etizest"
+            },
+            {
+                "normalized_label": "etizolam"
+            },
+            {
+                "normalized_label": "fatline"
+            },
+            {
+                "normalized_label": "fentanyl"
+            },
+            {
+                "normalized_label": "flualprazolam"
+            },
+            {
+                "normalized_label": "flunitrazepam"
+            },
+            {
+                "normalized_label": "fluoxetine"
+            },
+            {
+                "normalized_label": "g3722"
+            },
+            {
+                "normalized_label": "gabapentin"
+            },
+            {
+                "normalized_label": "gg249"
+            },
+            {
+                "normalized_label": "girlscoutcookies"
+            },
+            {
+                "normalized_label": "gsc"
+            },
+            {
+                "normalized_label": "gurn"
+            },
+            {
+                "normalized_label": "gurner"
+            },
+            {
+                "normalized_label": "gurners"
+            },
+            {
+                "normalized_label": "gurning"
+            },
+            {
+                "normalized_label": "halcion"
+            },
+            {
+                "normalized_label": "heroin"
+            },
+            {
+                "normalized_label": "holygrailkush"
+            },
+            {
+                "normalized_label": "hydrocodone"
+            },
+            {
+                "normalized_label": "hydromorphone"
+            },
+            {
+                "normalized_label": "ip110"
+            },
+            {
+                "normalized_label": "joint"
+            },
+            {
+                "normalized_label": "joints"
+            },
+            {
+                "normalized_label": "ketamine"
+            },
+            {
+                "normalized_label": "keybump"
+            },
+            {
+                "normalized_label": "klonopin"
+            },
+            {
+                "normalized_label": "kush"
+            },
+            {
+                "normalized_label": "lean"
+            },
+            {
+                "normalized_label": "libertycaps"
+            },
+            {
+                "normalized_label": "librium"
+            },
+            {
+                "normalized_label": "longtec"
+            },
+            {
+                "normalized_label": "loprazolam"
+            },
+            {
+                "normalized_label": "lorazepam"
+            },
+            {
+                "normalized_label": "lortab"
+            },
+            {
+                "normalized_label": "lsd"
+            },
+            {
+                "normalized_label": "ludes"
+            },
+            {
+                "normalized_label": "lunesta"
+            },
+            {
+                "normalized_label": "lyrica"
+            },
+            {
+                "normalized_label": "lysergic"
+            },
+            {
+                "normalized_label": "lysergicacid"
+            },
+            {
+                "normalized_label": "lysergicaciddiethylamide"
+            },
+            {
+                "normalized_label": "m30"
+            },
+            {
+                "normalized_label": "m357"
+            },
+            {
+                "normalized_label": "m366"
+            },
+            {
+                "normalized_label": "m367"
+            },
+            {
+                "normalized_label": "m532"
+            },
+            {
+                "normalized_label": "mac1"
+            },
+            {
+                "normalized_label": "mandy"
+            },
+            {
+                "normalized_label": "marijuana"
+            },
+            {
+                "normalized_label": "mdma"
+            },
+            {
+                "normalized_label": "mephedrone"
+            },
+            {
+                "normalized_label": "mescaline"
+            },
+            {
+                "normalized_label": "midazolam"
+            },
+            {
+                "normalized_label": "mogadon"
+            },
+            {
+                "normalized_label": "molly"
+            },
+            {
+                "normalized_label": "morphine"
+            },
+            {
+                "normalized_label": "mscontin"
+            },
+            {
+                "normalized_label": "mstcontinus"
+            },
+            {
+                "normalized_label": "naloxone"
+            },
+            {
+                "normalized_label": "nitrazepam"
+            },
+            {
+                "normalized_label": "nodding"
+            },
+            {
+                "normalized_label": "o-dsmt"
+            },
+            {
+                "normalized_label": "oc10"
+            },
+            {
+                "normalized_label": "oc120"
+            },
+            {
+                "normalized_label": "oc160"
+            },
+            {
+                "normalized_label": "oc20"
+            },
+            {
+                "normalized_label": "oc40"
+            },
+            {
+                "normalized_label": "oc80"
+            },
+            {
+                "normalized_label": "ogkush"
+            },
+            {
+                "normalized_label": "olanzapine"
+            },
+            {
+                "normalized_label": "onr10"
+            },
+            {
+                "normalized_label": "onr20"
+            },
+            {
+                "normalized_label": "onr5"
+            },
+            {
+                "normalized_label": "opana"
+            },
+            {
+                "normalized_label": "opiate"
+            },
+            {
+                "normalized_label": "opiates"
+            },
+            {
+                "normalized_label": "opioid"
+            },
+            {
+                "normalized_label": "opioids"
+            },
+            {
+                "normalized_label": "opium"
+            },
+            {
+                "normalized_label": "oramorph"
+            },
+            {
+                "normalized_label": "oxy"
+            },
+            {
+                "normalized_label": "oxycodone"
+            },
+            {
+                "normalized_label": "oxycontin"
+            },
+            {
+                "normalized_label": "oxymorphone"
+            },
+            {
+                "normalized_label": "oxynorm"
+            },
+            {
+                "normalized_label": "oxys"
+            },
+            {
+                "normalized_label": "paroxetine"
+            },
+            {
+                "normalized_label": "paxil"
+            },
+            {
+                "normalized_label": "perc"
+            },
+            {
+                "normalized_label": "percocet"
+            },
+            {
+                "normalized_label": "percs"
+            },
+            {
+                "normalized_label": "peyote"
+            },
+            {
+                "normalized_label": "phenazepam"
+            },
+            {
+                "normalized_label": "phenergan"
+            },
+            {
+                "normalized_label": "phenibut"
+            },
+            {
+                "normalized_label": "pinger"
+            },
+            {
+                "normalized_label": "pingers"
+            },
+            {
+                "normalized_label": "pregabalin"
+            },
+            {
+                "normalized_label": "pregabs"
+            },
+            {
+                "normalized_label": "prozac"
+            },
+            {
+                "normalized_label": "psilocybin"
+            },
+            {
+                "normalized_label": "psychedelic"
+            },
+            {
+                "normalized_label": "psychedelics"
+            },
+            {
+                "normalized_label": "purpleactavis"
+            },
+            {
+                "normalized_label": "purpledrank"
+            },
+            {
+                "normalized_label": "purpledrink"
+            },
+            {
+                "normalized_label": "purplepills"
+            },
+            {
+                "normalized_label": "purplestuff"
+            },
+            {
+                "normalized_label": "quaalude"
+            },
+            {
+                "normalized_label": "quaaludes"
+            },
+            {
+                "normalized_label": "quetiapine"
+            },
+            {
+                "normalized_label": "r039"
+            },
+            {
+                "normalized_label": "restoril"
+            },
+            {
+                "normalized_label": "ritalin"
+            },
+            {
+                "normalized_label": "rivotril"
+            },
+            {
+                "normalized_label": "rohypnol"
+            },
+            {
+                "normalized_label": "roxicet"
+            },
+            {
+                "normalized_label": "roxicodone"
+            },
+            {
+                "normalized_label": "s903"
+            },
+            {
+                "normalized_label": "seroquel"
+            },
+            {
+                "normalized_label": "sertraline"
+            },
+            {
+                "normalized_label": "shortec"
+            },
+            {
+                "normalized_label": "shrooms"
+            },
+            {
+                "normalized_label": "sipsyrup"
+            },
+            {
+                "normalized_label": "snri"
+            },
+            {
+                "normalized_label": "sourdiesel"
+            },
+            {
+                "normalized_label": "speed"
+            },
+            {
+                "normalized_label": "spliff"
+            },
+            {
+                "normalized_label": "spliffs"
+            },
+            {
+                "normalized_label": "ssri"
+            },
+            {
+                "normalized_label": "stilnoct"
+            },
+            {
+                "normalized_label": "stims"
+            },
+            {
+                "normalized_label": "stimulants"
+            },
+            {
+                "normalized_label": "stoned"
+            },
+            {
+                "normalized_label": "stoner"
+            },
+            {
+                "normalized_label": "strattera"
+            },
+            {
+                "normalized_label": "suboxone"
+            },
+            {
+                "normalized_label": "subutex"
+            },
+            {
+                "normalized_label": "syrup"
+            },
+            {
+                "normalized_label": "tapentadol"
+            },
+            {
+                "normalized_label": "temazepam"
+            },
+            {
+                "normalized_label": "tetrahydrocannabinol"
+            },
+            {
+                "normalized_label": "thc"
+            },
+            {
+                "normalized_label": "tianeptine"
+            },
+            {
+                "normalized_label": "tramadol"
+            },
+            {
+                "normalized_label": "triazolam"
+            },
+            {
+                "normalized_label": "tripping"
+            },
+            {
+                "normalized_label": "trippy"
+            },
+            {
+                "normalized_label": "u94"
+            },
+            {
+                "normalized_label": "upper"
+            },
+            {
+                "normalized_label": "uppers"
+            },
+            {
+                "normalized_label": "v3601"
+            },
+            {
+                "normalized_label": "v3605"
+            },
+            {
+                "normalized_label": "valium"
+            },
+            {
+                "normalized_label": "vicodin"
+            },
+            {
+                "normalized_label": "vyvanse"
+            },
+            {
+                "normalized_label": "weed"
+            },
+            {
+                "normalized_label": "wellbutrin"
+            },
+            {
+                "normalized_label": "xan"
+            },
+            {
+                "normalized_label": "xanax"
+            },
+            {
+                "normalized_label": "xanaxbars"
+            },
+            {
+                "normalized_label": "xanny"
+            },
+            {
+                "normalized_label": "xannybars"
+            },
+            {
+                "normalized_label": "xans"
+            },
+            {
+                "normalized_label": "yayo"
+            },
+            {
+                "normalized_label": "methylenedioxymethamphetamine"
+            },
+            {
+                "normalized_label": "methylphenidate"
+            },
+            {
+                "normalized_label": "zolpidem"
+            },
+            {
+                "normalized_label": "zomorph"
+            },
+            {
+                "normalized_label": "zopiclone"
+            },
+            {
+                "normalized_label": "zyprexa"
+            }
+        ]
+    }
+}

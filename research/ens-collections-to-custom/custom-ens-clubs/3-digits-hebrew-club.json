@@ -1,0 +1,2204 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "3-digits-hebrew-club",
+        "collection_name": "3 Digits Hebrew Club",
+        "collection_description": "729 Juxtaposed Numbers Written in Hebrew.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "אאא"
+            },
+            {
+                "normalized_label": "אאב"
+            },
+            {
+                "normalized_label": "אאג"
+            },
+            {
+                "normalized_label": "אאד"
+            },
+            {
+                "normalized_label": "אאה"
+            },
+            {
+                "normalized_label": "אאו"
+            },
+            {
+                "normalized_label": "אאז"
+            },
+            {
+                "normalized_label": "אאח"
+            },
+            {
+                "normalized_label": "אאט"
+            },
+            {
+                "normalized_label": "אבא"
+            },
+            {
+                "normalized_label": "אבב"
+            },
+            {
+                "normalized_label": "אבג"
+            },
+            {
+                "normalized_label": "אבד"
+            },
+            {
+                "normalized_label": "אבה"
+            },
+            {
+                "normalized_label": "אבו"
+            },
+            {
+                "normalized_label": "אבז"
+            },
+            {
+                "normalized_label": "אבח"
+            },
+            {
+                "normalized_label": "אבט"
+            },
+            {
+                "normalized_label": "אגא"
+            },
+            {
+                "normalized_label": "אגב"
+            },
+            {
+                "normalized_label": "אגג"
+            },
+            {
+                "normalized_label": "אגד"
+            },
+            {
+                "normalized_label": "אגה"
+            },
+            {
+                "normalized_label": "אגו"
+            },
+            {
+                "normalized_label": "אגז"
+            },
+            {
+                "normalized_label": "אגח"
+            },
+            {
+                "normalized_label": "אגט"
+            },
+            {
+                "normalized_label": "אדא"
+            },
+            {
+                "normalized_label": "אדב"
+            },
+            {
+                "normalized_label": "אדג"
+            },
+            {
+                "normalized_label": "אדד"
+            },
+            {
+                "normalized_label": "אדה"
+            },
+            {
+                "normalized_label": "אדו"
+            },
+            {
+                "normalized_label": "אדז"
+            },
+            {
+                "normalized_label": "אדח"
+            },
+            {
+                "normalized_label": "אדט"
+            },
+            {
+                "normalized_label": "אהא"
+            },
+            {
+                "normalized_label": "אהב"
+            },
+            {
+                "normalized_label": "אהג"
+            },
+            {
+                "normalized_label": "אהד"
+            },
+            {
+                "normalized_label": "אהה"
+            },
+            {
+                "normalized_label": "אהו"
+            },
+            {
+                "normalized_label": "אהז"
+            },
+            {
+                "normalized_label": "אהח"
+            },
+            {
+                "normalized_label": "אהט"
+            },
+            {
+                "normalized_label": "אוא"
+            },
+            {
+                "normalized_label": "אוב"
+            },
+            {
+                "normalized_label": "אוג"
+            },
+            {
+                "normalized_label": "אוד"
+            },
+            {
+                "normalized_label": "אוה"
+            },
+            {
+                "normalized_label": "אוו"
+            },
+            {
+                "normalized_label": "אוז"
+            },
+            {
+                "normalized_label": "אוח"
+            },
+            {
+                "normalized_label": "אוט"
+            },
+            {
+                "normalized_label": "אזא"
+            },
+            {
+                "normalized_label": "אזב"
+            },
+            {
+                "normalized_label": "אזג"
+            },
+            {
+                "normalized_label": "אזד"
+            },
+            {
+                "normalized_label": "אזה"
+            },
+            {
+                "normalized_label": "אזו"
+            },
+            {
+                "normalized_label": "אזז"
+            },
+            {
+                "normalized_label": "אזח"
+            },
+            {
+                "normalized_label": "אזט"
+            },
+            {
+                "normalized_label": "אחא"
+            },
+            {
+                "normalized_label": "אחב"
+            },
+            {
+                "normalized_label": "אחג"
+            },
+            {
+                "normalized_label": "אחד"
+            },
+            {
+                "normalized_label": "אחה"
+            },
+            {
+                "normalized_label": "אחו"
+            },
+            {
+                "normalized_label": "אחז"
+            },
+            {
+                "normalized_label": "אחח"
+            },
+            {
+                "normalized_label": "אחט"
+            },
+            {
+                "normalized_label": "אטא"
+            },
+            {
+                "normalized_label": "אטב"
+            },
+            {
+                "normalized_label": "אטג"
+            },
+            {
+                "normalized_label": "אטד"
+            },
+            {
+                "normalized_label": "אטה"
+            },
+            {
+                "normalized_label": "אטו"
+            },
+            {
+                "normalized_label": "אטז"
+            },
+            {
+                "normalized_label": "אטח"
+            },
+            {
+                "normalized_label": "אטט"
+            },
+            {
+                "normalized_label": "באא"
+            },
+            {
+                "normalized_label": "באב"
+            },
+            {
+                "normalized_label": "באג"
+            },
+            {
+                "normalized_label": "באד"
+            },
+            {
+                "normalized_label": "באה"
+            },
+            {
+                "normalized_label": "באו"
+            },
+            {
+                "normalized_label": "באז"
+            },
+            {
+                "normalized_label": "באח"
+            },
+            {
+                "normalized_label": "באט"
+            },
+            {
+                "normalized_label": "בבא"
+            },
+            {
+                "normalized_label": "בבב"
+            },
+            {
+                "normalized_label": "בבג"
+            },
+            {
+                "normalized_label": "בבד"
+            },
+            {
+                "normalized_label": "בבה"
+            },
+            {
+                "normalized_label": "בבו"
+            },
+            {
+                "normalized_label": "בבז"
+            },
+            {
+                "normalized_label": "בבח"
+            },
+            {
+                "normalized_label": "בבט"
+            },
+            {
+                "normalized_label": "בגא"
+            },
+            {
+                "normalized_label": "בגב"
+            },
+            {
+                "normalized_label": "בגג"
+            },
+            {
+                "normalized_label": "בגד"
+            },
+            {
+                "normalized_label": "בגה"
+            },
+            {
+                "normalized_label": "בגו"
+            },
+            {
+                "normalized_label": "בגז"
+            },
+            {
+                "normalized_label": "בגח"
+            },
+            {
+                "normalized_label": "בגט"
+            },
+            {
+                "normalized_label": "בדא"
+            },
+            {
+                "normalized_label": "בדב"
+            },
+            {
+                "normalized_label": "בדג"
+            },
+            {
+                "normalized_label": "בדד"
+            },
+            {
+                "normalized_label": "בדה"
+            },
+            {
+                "normalized_label": "בדו"
+            },
+            {
+                "normalized_label": "בדז"
+            },
+            {
+                "normalized_label": "בדח"
+            },
+            {
+                "normalized_label": "בדט"
+            },
+            {
+                "normalized_label": "בהא"
+            },
+            {
+                "normalized_label": "בהב"
+            },
+            {
+                "normalized_label": "בהג"
+            },
+            {
+                "normalized_label": "בהד"
+            },
+            {
+                "normalized_label": "בהה"
+            },
+            {
+                "normalized_label": "בהו"
+            },
+            {
+                "normalized_label": "בהז"
+            },
+            {
+                "normalized_label": "בהח"
+            },
+            {
+                "normalized_label": "בהט"
+            },
+            {
+                "normalized_label": "בוא"
+            },
+            {
+                "normalized_label": "בוב"
+            },
+            {
+                "normalized_label": "בוג"
+            },
+            {
+                "normalized_label": "בוד"
+            },
+            {
+                "normalized_label": "בוה"
+            },
+            {
+                "normalized_label": "בוו"
+            },
+            {
+                "normalized_label": "בוז"
+            },
+            {
+                "normalized_label": "בוח"
+            },
+            {
+                "normalized_label": "בוט"
+            },
+            {
+                "normalized_label": "בזא"
+            },
+            {
+                "normalized_label": "בזב"
+            },
+            {
+                "normalized_label": "בזג"
+            },
+            {
+                "normalized_label": "בזד"
+            },
+            {
+                "normalized_label": "בזה"
+            },
+            {
+                "normalized_label": "בזו"
+            },
+            {
+                "normalized_label": "בזז"
+            },
+            {
+                "normalized_label": "בזח"
+            },
+            {
+                "normalized_label": "בזט"
+            },
+            {
+                "normalized_label": "בחא"
+            },
+            {
+                "normalized_label": "בחב"
+            },
+            {
+                "normalized_label": "בחג"
+            },
+            {
+                "normalized_label": "בחד"
+            },
+            {
+                "normalized_label": "בחה"
+            },
+            {
+                "normalized_label": "בחו"
+            },
+            {
+                "normalized_label": "בחז"
+            },
+            {
+                "normalized_label": "בחח"
+            },
+            {
+                "normalized_label": "בחט"
+            },
+            {
+                "normalized_label": "בטא"
+            },
+            {
+                "normalized_label": "בטב"
+            },
+            {
+                "normalized_label": "בטג"
+            },
+            {
+                "normalized_label": "בטד"
+            },
+            {
+                "normalized_label": "בטה"
+            },
+            {
+                "normalized_label": "בטו"
+            },
+            {
+                "normalized_label": "בטז"
+            },
+            {
+                "normalized_label": "בטח"
+            },
+            {
+                "normalized_label": "בטט"
+            },
+            {
+                "normalized_label": "גאא"
+            },
+            {
+                "normalized_label": "גאב"
+            },
+            {
+                "normalized_label": "גאג"
+            },
+            {
+                "normalized_label": "גאד"
+            },
+            {
+                "normalized_label": "גאה"
+            },
+            {
+                "normalized_label": "גאו"
+            },
+            {
+                "normalized_label": "גאז"
+            },
+            {
+                "normalized_label": "גאח"
+            },
+            {
+                "normalized_label": "גאט"
+            },
+            {
+                "normalized_label": "גבא"
+            },
+            {
+                "normalized_label": "גבב"
+            },
+            {
+                "normalized_label": "גבג"
+            },
+            {
+                "normalized_label": "גבד"
+            },
+            {
+                "normalized_label": "גבה"
+            },
+            {
+                "normalized_label": "גבו"
+            },
+            {
+                "normalized_label": "גבז"
+            },
+            {
+                "normalized_label": "גבח"
+            },
+            {
+                "normalized_label": "גבט"
+            },
+            {
+                "normalized_label": "גגא"
+            },
+            {
+                "normalized_label": "גגב"
+            },
+            {
+                "normalized_label": "גגג"
+            },
+            {
+                "normalized_label": "גגד"
+            },
+            {
+                "normalized_label": "גגה"
+            },
+            {
+                "normalized_label": "גגו"
+            },
+            {
+                "normalized_label": "גגז"
+            },
+            {
+                "normalized_label": "גגח"
+            },
+            {
+                "normalized_label": "גגט"
+            },
+            {
+                "normalized_label": "גדא"
+            },
+            {
+                "normalized_label": "גדב"
+            },
+            {
+                "normalized_label": "גדג"
+            },
+            {
+                "normalized_label": "גדד"
+            },
+            {
+                "normalized_label": "גדה"
+            },
+            {
+                "normalized_label": "גדו"
+            },
+            {
+                "normalized_label": "גדז"
+            },
+            {
+                "normalized_label": "גדח"
+            },
+            {
+                "normalized_label": "גדט"
+            },
+            {
+                "normalized_label": "גהא"
+            },
+            {
+                "normalized_label": "גהב"
+            },
+            {
+                "normalized_label": "גהג"
+            },
+            {
+                "normalized_label": "גהד"
+            },
+            {
+                "normalized_label": "גהה"
+            },
+            {
+                "normalized_label": "גהו"
+            },
+            {
+                "normalized_label": "גהז"
+            },
+            {
+                "normalized_label": "גהח"
+            },
+            {
+                "normalized_label": "גהט"
+            },
+            {
+                "normalized_label": "גוא"
+            },
+            {
+                "normalized_label": "גוב"
+            },
+            {
+                "normalized_label": "גוג"
+            },
+            {
+                "normalized_label": "גוד"
+            },
+            {
+                "normalized_label": "גוה"
+            },
+            {
+                "normalized_label": "גוו"
+            },
+            {
+                "normalized_label": "גוז"
+            },
+            {
+                "normalized_label": "גוח"
+            },
+            {
+                "normalized_label": "גוט"
+            },
+            {
+                "normalized_label": "גזא"
+            },
+            {
+                "normalized_label": "גזב"
+            },
+            {
+                "normalized_label": "גזג"
+            },
+            {
+                "normalized_label": "גזד"
+            },
+            {
+                "normalized_label": "גזה"
+            },
+            {
+                "normalized_label": "גזו"
+            },
+            {
+                "normalized_label": "גזז"
+            },
+            {
+                "normalized_label": "גזח"
+            },
+            {
+                "normalized_label": "גזט"
+            },
+            {
+                "normalized_label": "גחא"
+            },
+            {
+                "normalized_label": "גחב"
+            },
+            {
+                "normalized_label": "גחג"
+            },
+            {
+                "normalized_label": "גחד"
+            },
+            {
+                "normalized_label": "גחה"
+            },
+            {
+                "normalized_label": "גחו"
+            },
+            {
+                "normalized_label": "גחז"
+            },
+            {
+                "normalized_label": "גחח"
+            },
+            {
+                "normalized_label": "גחט"
+            },
+            {
+                "normalized_label": "גטא"
+            },
+            {
+                "normalized_label": "גטב"
+            },
+            {
+                "normalized_label": "גטג"
+            },
+            {
+                "normalized_label": "גטד"
+            },
+            {
+                "normalized_label": "גטה"
+            },
+            {
+                "normalized_label": "גטו"
+            },
+            {
+                "normalized_label": "גטז"
+            },
+            {
+                "normalized_label": "גטח"
+            },
+            {
+                "normalized_label": "גטט"
+            },
+            {
+                "normalized_label": "דאא"
+            },
+            {
+                "normalized_label": "דאב"
+            },
+            {
+                "normalized_label": "דאג"
+            },
+            {
+                "normalized_label": "דאד"
+            },
+            {
+                "normalized_label": "דאה"
+            },
+            {
+                "normalized_label": "דאו"
+            },
+            {
+                "normalized_label": "דאז"
+            },
+            {
+                "normalized_label": "דאח"
+            },
+            {
+                "normalized_label": "דאט"
+            },
+            {
+                "normalized_label": "דבא"
+            },
+            {
+                "normalized_label": "דבב"
+            },
+            {
+                "normalized_label": "דבג"
+            },
+            {
+                "normalized_label": "דבד"
+            },
+            {
+                "normalized_label": "דבה"
+            },
+            {
+                "normalized_label": "דבו"
+            },
+            {
+                "normalized_label": "דבז"
+            },
+            {
+                "normalized_label": "דבח"
+            },
+            {
+                "normalized_label": "דבט"
+            },
+            {
+                "normalized_label": "דגא"
+            },
+            {
+                "normalized_label": "דגב"
+            },
+            {
+                "normalized_label": "דגג"
+            },
+            {
+                "normalized_label": "דגד"
+            },
+            {
+                "normalized_label": "דגה"
+            },
+            {
+                "normalized_label": "דגו"
+            },
+            {
+                "normalized_label": "דגז"
+            },
+            {
+                "normalized_label": "דגח"
+            },
+            {
+                "normalized_label": "דגט"
+            },
+            {
+                "normalized_label": "דדא"
+            },
+            {
+                "normalized_label": "דדב"
+            },
+            {
+                "normalized_label": "דדג"
+            },
+            {
+                "normalized_label": "דדד"
+            },
+            {
+                "normalized_label": "דדה"
+            },
+            {
+                "normalized_label": "דדו"
+            },
+            {
+                "normalized_label": "דדז"
+            },
+            {
+                "normalized_label": "דדח"
+            },
+            {
+                "normalized_label": "דדט"
+            },
+            {
+                "normalized_label": "דהא"
+            },
+            {
+                "normalized_label": "דהב"
+            },
+            {
+                "normalized_label": "דהג"
+            },
+            {
+                "normalized_label": "דהד"
+            },
+            {
+                "normalized_label": "דהה"
+            },
+            {
+                "normalized_label": "דהו"
+            },
+            {
+                "normalized_label": "דהז"
+            },
+            {
+                "normalized_label": "דהח"
+            },
+            {
+                "normalized_label": "דהט"
+            },
+            {
+                "normalized_label": "דוא"
+            },
+            {
+                "normalized_label": "דוב"
+            },
+            {
+                "normalized_label": "דוג"
+            },
+            {
+                "normalized_label": "דוד"
+            },
+            {
+                "normalized_label": "דוה"
+            },
+            {
+                "normalized_label": "דוו"
+            },
+            {
+                "normalized_label": "דוז"
+            },
+            {
+                "normalized_label": "דוח"
+            },
+            {
+                "normalized_label": "דוט"
+            },
+            {
+                "normalized_label": "דזא"
+            },
+            {
+                "normalized_label": "דזב"
+            },
+            {
+                "normalized_label": "דזג"
+            },
+            {
+                "normalized_label": "דזד"
+            },
+            {
+                "normalized_label": "דזה"
+            },
+            {
+                "normalized_label": "דזו"
+            },
+            {
+                "normalized_label": "דזז"
+            },
+            {
+                "normalized_label": "דזח"
+            },
+            {
+                "normalized_label": "דזט"
+            },
+            {
+                "normalized_label": "דחא"
+            },
+            {
+                "normalized_label": "דחב"
+            },
+            {
+                "normalized_label": "דחג"
+            },
+            {
+                "normalized_label": "דחד"
+            },
+            {
+                "normalized_label": "דחה"
+            },
+            {
+                "normalized_label": "דחו"
+            },
+            {
+                "normalized_label": "דחז"
+            },
+            {
+                "normalized_label": "דחח"
+            },
+            {
+                "normalized_label": "דחט"
+            },
+            {
+                "normalized_label": "דטא"
+            },
+            {
+                "normalized_label": "דטב"
+            },
+            {
+                "normalized_label": "דטג"
+            },
+            {
+                "normalized_label": "דטד"
+            },
+            {
+                "normalized_label": "דטה"
+            },
+            {
+                "normalized_label": "דטו"
+            },
+            {
+                "normalized_label": "דטז"
+            },
+            {
+                "normalized_label": "דטח"
+            },
+            {
+                "normalized_label": "דטט"
+            },
+            {
+                "normalized_label": "האא"
+            },
+            {
+                "normalized_label": "האב"
+            },
+            {
+                "normalized_label": "האג"
+            },
+            {
+                "normalized_label": "האד"
+            },
+            {
+                "normalized_label": "האה"
+            },
+            {
+                "normalized_label": "האו"
+            },
+            {
+                "normalized_label": "האז"
+            },
+            {
+                "normalized_label": "האח"
+            },
+            {
+                "normalized_label": "האט"
+            },
+            {
+                "normalized_label": "הבא"
+            },
+            {
+                "normalized_label": "הבב"
+            },
+            {
+                "normalized_label": "הבג"
+            },
+            {
+                "normalized_label": "הבד"
+            },
+            {
+                "normalized_label": "הבה"
+            },
+            {
+                "normalized_label": "הבו"
+            },
+            {
+                "normalized_label": "הבז"
+            },
+            {
+                "normalized_label": "הבח"
+            },
+            {
+                "normalized_label": "הבט"
+            },
+            {
+                "normalized_label": "הגא"
+            },
+            {
+                "normalized_label": "הגב"
+            },
+            {
+                "normalized_label": "הגג"
+            },
+            {
+                "normalized_label": "הגד"
+            },
+            {
+                "normalized_label": "הגה"
+            },
+            {
+                "normalized_label": "הגו"
+            },
+            {
+                "normalized_label": "הגז"
+            },
+            {
+                "normalized_label": "הגח"
+            },
+            {
+                "normalized_label": "הגט"
+            },
+            {
+                "normalized_label": "הדא"
+            },
+            {
+                "normalized_label": "הדב"
+            },
+            {
+                "normalized_label": "הדג"
+            },
+            {
+                "normalized_label": "הדד"
+            },
+            {
+                "normalized_label": "הדה"
+            },
+            {
+                "normalized_label": "הדו"
+            },
+            {
+                "normalized_label": "הדז"
+            },
+            {
+                "normalized_label": "הדח"
+            },
+            {
+                "normalized_label": "הדט"
+            },
+            {
+                "normalized_label": "ההא"
+            },
+            {
+                "normalized_label": "ההב"
+            },
+            {
+                "normalized_label": "ההג"
+            },
+            {
+                "normalized_label": "ההד"
+            },
+            {
+                "normalized_label": "ההה"
+            },
+            {
+                "normalized_label": "ההו"
+            },
+            {
+                "normalized_label": "ההז"
+            },
+            {
+                "normalized_label": "ההח"
+            },
+            {
+                "normalized_label": "ההט"
+            },
+            {
+                "normalized_label": "הוא"
+            },
+            {
+                "normalized_label": "הוב"
+            },
+            {
+                "normalized_label": "הוג"
+            },
+            {
+                "normalized_label": "הוד"
+            },
+            {
+                "normalized_label": "הוה"
+            },
+            {
+                "normalized_label": "הוו"
+            },
+            {
+                "normalized_label": "הוז"
+            },
+            {
+                "normalized_label": "הוח"
+            },
+            {
+                "normalized_label": "הוט"
+            },
+            {
+                "normalized_label": "הזא"
+            },
+            {
+                "normalized_label": "הזב"
+            },
+            {
+                "normalized_label": "הזג"
+            },
+            {
+                "normalized_label": "הזד"
+            },
+            {
+                "normalized_label": "הזה"
+            },
+            {
+                "normalized_label": "הזו"
+            },
+            {
+                "normalized_label": "הזז"
+            },
+            {
+                "normalized_label": "הזח"
+            },
+            {
+                "normalized_label": "הזט"
+            },
+            {
+                "normalized_label": "החא"
+            },
+            {
+                "normalized_label": "החב"
+            },
+            {
+                "normalized_label": "החג"
+            },
+            {
+                "normalized_label": "החד"
+            },
+            {
+                "normalized_label": "החה"
+            },
+            {
+                "normalized_label": "החו"
+            },
+            {
+                "normalized_label": "החז"
+            },
+            {
+                "normalized_label": "החח"
+            },
+            {
+                "normalized_label": "החט"
+            },
+            {
+                "normalized_label": "הטא"
+            },
+            {
+                "normalized_label": "הטב"
+            },
+            {
+                "normalized_label": "הטג"
+            },
+            {
+                "normalized_label": "הטד"
+            },
+            {
+                "normalized_label": "הטה"
+            },
+            {
+                "normalized_label": "הטו"
+            },
+            {
+                "normalized_label": "הטז"
+            },
+            {
+                "normalized_label": "הטח"
+            },
+            {
+                "normalized_label": "הטט"
+            },
+            {
+                "normalized_label": "ואא"
+            },
+            {
+                "normalized_label": "ואב"
+            },
+            {
+                "normalized_label": "ואג"
+            },
+            {
+                "normalized_label": "ואד"
+            },
+            {
+                "normalized_label": "ואה"
+            },
+            {
+                "normalized_label": "ואו"
+            },
+            {
+                "normalized_label": "ואז"
+            },
+            {
+                "normalized_label": "ואח"
+            },
+            {
+                "normalized_label": "ואט"
+            },
+            {
+                "normalized_label": "ובא"
+            },
+            {
+                "normalized_label": "ובב"
+            },
+            {
+                "normalized_label": "ובג"
+            },
+            {
+                "normalized_label": "ובד"
+            },
+            {
+                "normalized_label": "ובה"
+            },
+            {
+                "normalized_label": "ובו"
+            },
+            {
+                "normalized_label": "ובז"
+            },
+            {
+                "normalized_label": "ובח"
+            },
+            {
+                "normalized_label": "ובט"
+            },
+            {
+                "normalized_label": "וגא"
+            },
+            {
+                "normalized_label": "וגב"
+            },
+            {
+                "normalized_label": "וגג"
+            },
+            {
+                "normalized_label": "וגד"
+            },
+            {
+                "normalized_label": "וגה"
+            },
+            {
+                "normalized_label": "וגו"
+            },
+            {
+                "normalized_label": "וגז"
+            },
+            {
+                "normalized_label": "וגח"
+            },
+            {
+                "normalized_label": "וגט"
+            },
+            {
+                "normalized_label": "ודא"
+            },
+            {
+                "normalized_label": "ודב"
+            },
+            {
+                "normalized_label": "ודג"
+            },
+            {
+                "normalized_label": "ודד"
+            },
+            {
+                "normalized_label": "ודה"
+            },
+            {
+                "normalized_label": "ודו"
+            },
+            {
+                "normalized_label": "ודז"
+            },
+            {
+                "normalized_label": "ודח"
+            },
+            {
+                "normalized_label": "ודט"
+            },
+            {
+                "normalized_label": "והא"
+            },
+            {
+                "normalized_label": "והב"
+            },
+            {
+                "normalized_label": "והג"
+            },
+            {
+                "normalized_label": "והד"
+            },
+            {
+                "normalized_label": "והה"
+            },
+            {
+                "normalized_label": "והו"
+            },
+            {
+                "normalized_label": "והז"
+            },
+            {
+                "normalized_label": "והח"
+            },
+            {
+                "normalized_label": "והט"
+            },
+            {
+                "normalized_label": "ווא"
+            },
+            {
+                "normalized_label": "ווב"
+            },
+            {
+                "normalized_label": "ווג"
+            },
+            {
+                "normalized_label": "ווד"
+            },
+            {
+                "normalized_label": "ווה"
+            },
+            {
+                "normalized_label": "ווו"
+            },
+            {
+                "normalized_label": "ווז"
+            },
+            {
+                "normalized_label": "ווח"
+            },
+            {
+                "normalized_label": "ווט"
+            },
+            {
+                "normalized_label": "וזא"
+            },
+            {
+                "normalized_label": "וזב"
+            },
+            {
+                "normalized_label": "וזג"
+            },
+            {
+                "normalized_label": "וזד"
+            },
+            {
+                "normalized_label": "וזה"
+            },
+            {
+                "normalized_label": "וזו"
+            },
+            {
+                "normalized_label": "וזז"
+            },
+            {
+                "normalized_label": "וזח"
+            },
+            {
+                "normalized_label": "וזט"
+            },
+            {
+                "normalized_label": "וחא"
+            },
+            {
+                "normalized_label": "וחב"
+            },
+            {
+                "normalized_label": "וחג"
+            },
+            {
+                "normalized_label": "וחד"
+            },
+            {
+                "normalized_label": "וחה"
+            },
+            {
+                "normalized_label": "וחו"
+            },
+            {
+                "normalized_label": "וחז"
+            },
+            {
+                "normalized_label": "וחח"
+            },
+            {
+                "normalized_label": "וחט"
+            },
+            {
+                "normalized_label": "וטא"
+            },
+            {
+                "normalized_label": "וטב"
+            },
+            {
+                "normalized_label": "וטג"
+            },
+            {
+                "normalized_label": "וטד"
+            },
+            {
+                "normalized_label": "וטה"
+            },
+            {
+                "normalized_label": "וטו"
+            },
+            {
+                "normalized_label": "וטז"
+            },
+            {
+                "normalized_label": "וטח"
+            },
+            {
+                "normalized_label": "וטט"
+            },
+            {
+                "normalized_label": "זאא"
+            },
+            {
+                "normalized_label": "זאב"
+            },
+            {
+                "normalized_label": "זאג"
+            },
+            {
+                "normalized_label": "זאד"
+            },
+            {
+                "normalized_label": "זאה"
+            },
+            {
+                "normalized_label": "זאו"
+            },
+            {
+                "normalized_label": "זאז"
+            },
+            {
+                "normalized_label": "זאח"
+            },
+            {
+                "normalized_label": "זאט"
+            },
+            {
+                "normalized_label": "זבא"
+            },
+            {
+                "normalized_label": "זבב"
+            },
+            {
+                "normalized_label": "זבג"
+            },
+            {
+                "normalized_label": "זבד"
+            },
+            {
+                "normalized_label": "זבה"
+            },
+            {
+                "normalized_label": "זבו"
+            },
+            {
+                "normalized_label": "זבז"
+            },
+            {
+                "normalized_label": "זבח"
+            },
+            {
+                "normalized_label": "זבט"
+            },
+            {
+                "normalized_label": "זגא"
+            },
+            {
+                "normalized_label": "זגב"
+            },
+            {
+                "normalized_label": "זגג"
+            },
+            {
+                "normalized_label": "זגד"
+            },
+            {
+                "normalized_label": "זגה"
+            },
+            {
+                "normalized_label": "זגו"
+            },
+            {
+                "normalized_label": "זגז"
+            },
+            {
+                "normalized_label": "זגח"
+            },
+            {
+                "normalized_label": "זגט"
+            },
+            {
+                "normalized_label": "זדא"
+            },
+            {
+                "normalized_label": "זדב"
+            },
+            {
+                "normalized_label": "זדג"
+            },
+            {
+                "normalized_label": "זדד"
+            },
+            {
+                "normalized_label": "זדה"
+            },
+            {
+                "normalized_label": "זדו"
+            },
+            {
+                "normalized_label": "זדז"
+            },
+            {
+                "normalized_label": "זדח"
+            },
+            {
+                "normalized_label": "זדט"
+            },
+            {
+                "normalized_label": "זהא"
+            },
+            {
+                "normalized_label": "זהב"
+            },
+            {
+                "normalized_label": "זהג"
+            },
+            {
+                "normalized_label": "זהד"
+            },
+            {
+                "normalized_label": "זהה"
+            },
+            {
+                "normalized_label": "זהו"
+            },
+            {
+                "normalized_label": "זהז"
+            },
+            {
+                "normalized_label": "זהח"
+            },
+            {
+                "normalized_label": "זהט"
+            },
+            {
+                "normalized_label": "זוא"
+            },
+            {
+                "normalized_label": "זוב"
+            },
+            {
+                "normalized_label": "זוג"
+            },
+            {
+                "normalized_label": "זוד"
+            },
+            {
+                "normalized_label": "זוה"
+            },
+            {
+                "normalized_label": "זוו"
+            },
+            {
+                "normalized_label": "זוז"
+            },
+            {
+                "normalized_label": "זוח"
+            },
+            {
+                "normalized_label": "זוט"
+            },
+            {
+                "normalized_label": "זזא"
+            },
+            {
+                "normalized_label": "זזב"
+            },
+            {
+                "normalized_label": "זזג"
+            },
+            {
+                "normalized_label": "זזד"
+            },
+            {
+                "normalized_label": "זזה"
+            },
+            {
+                "normalized_label": "זזו"
+            },
+            {
+                "normalized_label": "זזז"
+            },
+            {
+                "normalized_label": "זזח"
+            },
+            {
+                "normalized_label": "זזט"
+            },
+            {
+                "normalized_label": "זחא"
+            },
+            {
+                "normalized_label": "זחב"
+            },
+            {
+                "normalized_label": "זחג"
+            },
+            {
+                "normalized_label": "זחד"
+            },
+            {
+                "normalized_label": "זחה"
+            },
+            {
+                "normalized_label": "זחו"
+            },
+            {
+                "normalized_label": "זחז"
+            },
+            {
+                "normalized_label": "זחח"
+            },
+            {
+                "normalized_label": "זחט"
+            },
+            {
+                "normalized_label": "זטא"
+            },
+            {
+                "normalized_label": "זטב"
+            },
+            {
+                "normalized_label": "זטג"
+            },
+            {
+                "normalized_label": "זטד"
+            },
+            {
+                "normalized_label": "זטה"
+            },
+            {
+                "normalized_label": "זטו"
+            },
+            {
+                "normalized_label": "זטז"
+            },
+            {
+                "normalized_label": "זטח"
+            },
+            {
+                "normalized_label": "זטט"
+            },
+            {
+                "normalized_label": "חאא"
+            },
+            {
+                "normalized_label": "חאב"
+            },
+            {
+                "normalized_label": "חאג"
+            },
+            {
+                "normalized_label": "חאד"
+            },
+            {
+                "normalized_label": "חאה"
+            },
+            {
+                "normalized_label": "חאו"
+            },
+            {
+                "normalized_label": "חאז"
+            },
+            {
+                "normalized_label": "חאח"
+            },
+            {
+                "normalized_label": "חאט"
+            },
+            {
+                "normalized_label": "חבא"
+            },
+            {
+                "normalized_label": "חבב"
+            },
+            {
+                "normalized_label": "חבג"
+            },
+            {
+                "normalized_label": "חבד"
+            },
+            {
+                "normalized_label": "חבה"
+            },
+            {
+                "normalized_label": "חבו"
+            },
+            {
+                "normalized_label": "חבז"
+            },
+            {
+                "normalized_label": "חבח"
+            },
+            {
+                "normalized_label": "חבט"
+            },
+            {
+                "normalized_label": "חגא"
+            },
+            {
+                "normalized_label": "חגב"
+            },
+            {
+                "normalized_label": "חגג"
+            },
+            {
+                "normalized_label": "חגד"
+            },
+            {
+                "normalized_label": "חגה"
+            },
+            {
+                "normalized_label": "חגו"
+            },
+            {
+                "normalized_label": "חגז"
+            },
+            {
+                "normalized_label": "חגח"
+            },
+            {
+                "normalized_label": "חגט"
+            },
+            {
+                "normalized_label": "חדא"
+            },
+            {
+                "normalized_label": "חדב"
+            },
+            {
+                "normalized_label": "חדג"
+            },
+            {
+                "normalized_label": "חדד"
+            },
+            {
+                "normalized_label": "חדה"
+            },
+            {
+                "normalized_label": "חדו"
+            },
+            {
+                "normalized_label": "חדז"
+            },
+            {
+                "normalized_label": "חדח"
+            },
+            {
+                "normalized_label": "חדט"
+            },
+            {
+                "normalized_label": "חהא"
+            },
+            {
+                "normalized_label": "חהב"
+            },
+            {
+                "normalized_label": "חהג"
+            },
+            {
+                "normalized_label": "חהד"
+            },
+            {
+                "normalized_label": "חהה"
+            },
+            {
+                "normalized_label": "חהו"
+            },
+            {
+                "normalized_label": "חהז"
+            },
+            {
+                "normalized_label": "חהח"
+            },
+            {
+                "normalized_label": "חהט"
+            },
+            {
+                "normalized_label": "חוא"
+            },
+            {
+                "normalized_label": "חוב"
+            },
+            {
+                "normalized_label": "חוג"
+            },
+            {
+                "normalized_label": "חוד"
+            },
+            {
+                "normalized_label": "חוה"
+            },
+            {
+                "normalized_label": "חוו"
+            },
+            {
+                "normalized_label": "חוז"
+            },
+            {
+                "normalized_label": "חוח"
+            },
+            {
+                "normalized_label": "חוט"
+            },
+            {
+                "normalized_label": "חזא"
+            },
+            {
+                "normalized_label": "חזב"
+            },
+            {
+                "normalized_label": "חזג"
+            },
+            {
+                "normalized_label": "חזד"
+            },
+            {
+                "normalized_label": "חזה"
+            },
+            {
+                "normalized_label": "חזו"
+            },
+            {
+                "normalized_label": "חזז"
+            },
+            {
+                "normalized_label": "חזח"
+            },
+            {
+                "normalized_label": "חזט"
+            },
+            {
+                "normalized_label": "חחא"
+            },
+            {
+                "normalized_label": "חחב"
+            },
+            {
+                "normalized_label": "חחג"
+            },
+            {
+                "normalized_label": "חחד"
+            },
+            {
+                "normalized_label": "חחה"
+            },
+            {
+                "normalized_label": "חחו"
+            },
+            {
+                "normalized_label": "חחז"
+            },
+            {
+                "normalized_label": "חחח"
+            },
+            {
+                "normalized_label": "חחט"
+            },
+            {
+                "normalized_label": "חטא"
+            },
+            {
+                "normalized_label": "חטב"
+            },
+            {
+                "normalized_label": "חטג"
+            },
+            {
+                "normalized_label": "חטד"
+            },
+            {
+                "normalized_label": "חטה"
+            },
+            {
+                "normalized_label": "חטו"
+            },
+            {
+                "normalized_label": "חטז"
+            },
+            {
+                "normalized_label": "חטח"
+            },
+            {
+                "normalized_label": "חטט"
+            },
+            {
+                "normalized_label": "טאא"
+            },
+            {
+                "normalized_label": "טאב"
+            },
+            {
+                "normalized_label": "טאג"
+            },
+            {
+                "normalized_label": "טאד"
+            },
+            {
+                "normalized_label": "טאה"
+            },
+            {
+                "normalized_label": "טאו"
+            },
+            {
+                "normalized_label": "טאז"
+            },
+            {
+                "normalized_label": "טאח"
+            },
+            {
+                "normalized_label": "טאט"
+            },
+            {
+                "normalized_label": "טבא"
+            },
+            {
+                "normalized_label": "טבב"
+            },
+            {
+                "normalized_label": "טבג"
+            },
+            {
+                "normalized_label": "טבד"
+            },
+            {
+                "normalized_label": "טבה"
+            },
+            {
+                "normalized_label": "טבו"
+            },
+            {
+                "normalized_label": "טבז"
+            },
+            {
+                "normalized_label": "טבח"
+            },
+            {
+                "normalized_label": "טבט"
+            },
+            {
+                "normalized_label": "טגא"
+            },
+            {
+                "normalized_label": "טגב"
+            },
+            {
+                "normalized_label": "טגג"
+            },
+            {
+                "normalized_label": "טגד"
+            },
+            {
+                "normalized_label": "טגה"
+            },
+            {
+                "normalized_label": "טגו"
+            },
+            {
+                "normalized_label": "טגז"
+            },
+            {
+                "normalized_label": "טגח"
+            },
+            {
+                "normalized_label": "טגט"
+            },
+            {
+                "normalized_label": "טדא"
+            },
+            {
+                "normalized_label": "טדב"
+            },
+            {
+                "normalized_label": "טדג"
+            },
+            {
+                "normalized_label": "טדד"
+            },
+            {
+                "normalized_label": "טדה"
+            },
+            {
+                "normalized_label": "טדו"
+            },
+            {
+                "normalized_label": "טדז"
+            },
+            {
+                "normalized_label": "טדח"
+            },
+            {
+                "normalized_label": "טדט"
+            },
+            {
+                "normalized_label": "טהא"
+            },
+            {
+                "normalized_label": "טהב"
+            },
+            {
+                "normalized_label": "טהג"
+            },
+            {
+                "normalized_label": "טהד"
+            },
+            {
+                "normalized_label": "טהה"
+            },
+            {
+                "normalized_label": "טהו"
+            },
+            {
+                "normalized_label": "טהז"
+            },
+            {
+                "normalized_label": "טהח"
+            },
+            {
+                "normalized_label": "טהט"
+            },
+            {
+                "normalized_label": "טוא"
+            },
+            {
+                "normalized_label": "טוב"
+            },
+            {
+                "normalized_label": "טוג"
+            },
+            {
+                "normalized_label": "טוד"
+            },
+            {
+                "normalized_label": "טוה"
+            },
+            {
+                "normalized_label": "טוו"
+            },
+            {
+                "normalized_label": "טוז"
+            },
+            {
+                "normalized_label": "טוח"
+            },
+            {
+                "normalized_label": "טוט"
+            },
+            {
+                "normalized_label": "טזא"
+            },
+            {
+                "normalized_label": "טזב"
+            },
+            {
+                "normalized_label": "טזג"
+            },
+            {
+                "normalized_label": "טזד"
+            },
+            {
+                "normalized_label": "טזה"
+            },
+            {
+                "normalized_label": "טזו"
+            },
+            {
+                "normalized_label": "טזז"
+            },
+            {
+                "normalized_label": "טזח"
+            },
+            {
+                "normalized_label": "טזט"
+            },
+            {
+                "normalized_label": "טחא"
+            },
+            {
+                "normalized_label": "טחב"
+            },
+            {
+                "normalized_label": "טחג"
+            },
+            {
+                "normalized_label": "טחד"
+            },
+            {
+                "normalized_label": "טחה"
+            },
+            {
+                "normalized_label": "טחו"
+            },
+            {
+                "normalized_label": "טחז"
+            },
+            {
+                "normalized_label": "טחח"
+            },
+            {
+                "normalized_label": "טחט"
+            },
+            {
+                "normalized_label": "טטא"
+            },
+            {
+                "normalized_label": "טטב"
+            },
+            {
+                "normalized_label": "טטג"
+            },
+            {
+                "normalized_label": "טטד"
+            },
+            {
+                "normalized_label": "טטה"
+            },
+            {
+                "normalized_label": "טטו"
+            },
+            {
+                "normalized_label": "טטז"
+            },
+            {
+                "normalized_label": "טטח"
+            },
+            {
+                "normalized_label": "טטט"
+            }
+        ]
+    }
+}

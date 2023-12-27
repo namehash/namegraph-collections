@@ -1,0 +1,59 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "playstation-console-series",
+        "collection_name": "Official Playstation Console Series",
+        "collection_description": "The Official Playstation Console Releases.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "playstation5"
+            },
+            {
+                "normalized_label": "playstationclassic"
+            },
+            {
+                "normalized_label": "playstation4pro"
+            },
+            {
+                "normalized_label": "playstation4slim"
+            },
+            {
+                "normalized_label": "playstation4"
+            },
+            {
+                "normalized_label": "playstation3superslim"
+            },
+            {
+                "normalized_label": "playstation3slim"
+            },
+            {
+                "normalized_label": "playstation3"
+            },
+            {
+                "normalized_label": "playstationvita"
+            },
+            {
+                "normalized_label": "playstationportable"
+            },
+            {
+                "normalized_label": "playstation2slim"
+            },
+            {
+                "normalized_label": "playstation2"
+            },
+            {
+                "normalized_label": "psone"
+            },
+            {
+                "normalized_label": "playstation"
+            }
+        ]
+    }
+}

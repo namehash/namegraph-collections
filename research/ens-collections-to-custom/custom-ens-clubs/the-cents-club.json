@@ -1,0 +1,317 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "the-cents-club",
+        "collection_name": "The Cents Club",
+        "collection_description": "Ens domains for 1cent to 100cents",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "100cents"
+            },
+            {
+                "normalized_label": "10cents"
+            },
+            {
+                "normalized_label": "11cents"
+            },
+            {
+                "normalized_label": "12cents"
+            },
+            {
+                "normalized_label": "13cents"
+            },
+            {
+                "normalized_label": "14cents"
+            },
+            {
+                "normalized_label": "15cents"
+            },
+            {
+                "normalized_label": "16cents"
+            },
+            {
+                "normalized_label": "17cents"
+            },
+            {
+                "normalized_label": "18cents"
+            },
+            {
+                "normalized_label": "19cents"
+            },
+            {
+                "normalized_label": "1cent"
+            },
+            {
+                "normalized_label": "20cents"
+            },
+            {
+                "normalized_label": "21cents"
+            },
+            {
+                "normalized_label": "22cents"
+            },
+            {
+                "normalized_label": "23cents"
+            },
+            {
+                "normalized_label": "24cents"
+            },
+            {
+                "normalized_label": "25cents"
+            },
+            {
+                "normalized_label": "26cents"
+            },
+            {
+                "normalized_label": "27cents"
+            },
+            {
+                "normalized_label": "28cents"
+            },
+            {
+                "normalized_label": "29cents"
+            },
+            {
+                "normalized_label": "2cents"
+            },
+            {
+                "normalized_label": "30cents"
+            },
+            {
+                "normalized_label": "31cents"
+            },
+            {
+                "normalized_label": "32cents"
+            },
+            {
+                "normalized_label": "33cents"
+            },
+            {
+                "normalized_label": "34cents"
+            },
+            {
+                "normalized_label": "35cents"
+            },
+            {
+                "normalized_label": "36cents"
+            },
+            {
+                "normalized_label": "37cents"
+            },
+            {
+                "normalized_label": "38cents"
+            },
+            {
+                "normalized_label": "39cents"
+            },
+            {
+                "normalized_label": "3cents"
+            },
+            {
+                "normalized_label": "40cents"
+            },
+            {
+                "normalized_label": "41cents"
+            },
+            {
+                "normalized_label": "42cents"
+            },
+            {
+                "normalized_label": "43cents"
+            },
+            {
+                "normalized_label": "44cents"
+            },
+            {
+                "normalized_label": "45cents"
+            },
+            {
+                "normalized_label": "46cents"
+            },
+            {
+                "normalized_label": "47cents"
+            },
+            {
+                "normalized_label": "48cents"
+            },
+            {
+                "normalized_label": "49cents"
+            },
+            {
+                "normalized_label": "4cents"
+            },
+            {
+                "normalized_label": "50cents"
+            },
+            {
+                "normalized_label": "51cents"
+            },
+            {
+                "normalized_label": "52cents"
+            },
+            {
+                "normalized_label": "53cents"
+            },
+            {
+                "normalized_label": "54cents"
+            },
+            {
+                "normalized_label": "55cents"
+            },
+            {
+                "normalized_label": "56cents"
+            },
+            {
+                "normalized_label": "57cents"
+            },
+            {
+                "normalized_label": "58cents"
+            },
+            {
+                "normalized_label": "59cents"
+            },
+            {
+                "normalized_label": "5cents"
+            },
+            {
+                "normalized_label": "60cents"
+            },
+            {
+                "normalized_label": "61cents"
+            },
+            {
+                "normalized_label": "62cents"
+            },
+            {
+                "normalized_label": "63cents"
+            },
+            {
+                "normalized_label": "64cents"
+            },
+            {
+                "normalized_label": "65cents"
+            },
+            {
+                "normalized_label": "66cents"
+            },
+            {
+                "normalized_label": "67cents"
+            },
+            {
+                "normalized_label": "68cents"
+            },
+            {
+                "normalized_label": "69cents"
+            },
+            {
+                "normalized_label": "6cents"
+            },
+            {
+                "normalized_label": "70cents"
+            },
+            {
+                "normalized_label": "71cents"
+            },
+            {
+                "normalized_label": "72cents"
+            },
+            {
+                "normalized_label": "73cents"
+            },
+            {
+                "normalized_label": "74cents"
+            },
+            {
+                "normalized_label": "75cents"
+            },
+            {
+                "normalized_label": "76cents"
+            },
+            {
+                "normalized_label": "77cents"
+            },
+            {
+                "normalized_label": "78cents"
+            },
+            {
+                "normalized_label": "79cents"
+            },
+            {
+                "normalized_label": "7cents"
+            },
+            {
+                "normalized_label": "80cents"
+            },
+            {
+                "normalized_label": "81cents"
+            },
+            {
+                "normalized_label": "82cents"
+            },
+            {
+                "normalized_label": "83cents"
+            },
+            {
+                "normalized_label": "84cents"
+            },
+            {
+                "normalized_label": "85cents"
+            },
+            {
+                "normalized_label": "86cents"
+            },
+            {
+                "normalized_label": "87cents"
+            },
+            {
+                "normalized_label": "88cents"
+            },
+            {
+                "normalized_label": "89cents"
+            },
+            {
+                "normalized_label": "8cents"
+            },
+            {
+                "normalized_label": "90cents"
+            },
+            {
+                "normalized_label": "91cents"
+            },
+            {
+                "normalized_label": "92cents"
+            },
+            {
+                "normalized_label": "93cents"
+            },
+            {
+                "normalized_label": "94cents"
+            },
+            {
+                "normalized_label": "95cents"
+            },
+            {
+                "normalized_label": "96cents"
+            },
+            {
+                "normalized_label": "97cents"
+            },
+            {
+                "normalized_label": "98cents"
+            },
+            {
+                "normalized_label": "99cents"
+            },
+            {
+                "normalized_label": "9cents"
+            }
+        ]
+    }
+}

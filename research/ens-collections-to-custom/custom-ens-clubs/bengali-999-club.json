@@ -1,0 +1,3017 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "bengali-999-club",
+        "collection_name": "Bengali 999 Club",
+        "collection_description": "3 digit numerals for the 6th most popular language in the world; Bengali numerals from 000-999.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "০০০"
+            },
+            {
+                "normalized_label": "০০১"
+            },
+            {
+                "normalized_label": "০০২"
+            },
+            {
+                "normalized_label": "০০৩"
+            },
+            {
+                "normalized_label": "০০৪"
+            },
+            {
+                "normalized_label": "০০৫"
+            },
+            {
+                "normalized_label": "০০৬"
+            },
+            {
+                "normalized_label": "০০৭"
+            },
+            {
+                "normalized_label": "০০৮"
+            },
+            {
+                "normalized_label": "০০৯"
+            },
+            {
+                "normalized_label": "০১০"
+            },
+            {
+                "normalized_label": "০১১"
+            },
+            {
+                "normalized_label": "০১২"
+            },
+            {
+                "normalized_label": "০১৩"
+            },
+            {
+                "normalized_label": "০১৪"
+            },
+            {
+                "normalized_label": "০১৫"
+            },
+            {
+                "normalized_label": "০১৬"
+            },
+            {
+                "normalized_label": "০১৭"
+            },
+            {
+                "normalized_label": "০১৮"
+            },
+            {
+                "normalized_label": "০১৯"
+            },
+            {
+                "normalized_label": "০২০"
+            },
+            {
+                "normalized_label": "০২১"
+            },
+            {
+                "normalized_label": "০২২"
+            },
+            {
+                "normalized_label": "০২৩"
+            },
+            {
+                "normalized_label": "০২৪"
+            },
+            {
+                "normalized_label": "০২৫"
+            },
+            {
+                "normalized_label": "০২৬"
+            },
+            {
+                "normalized_label": "০২৭"
+            },
+            {
+                "normalized_label": "০২৮"
+            },
+            {
+                "normalized_label": "০২৯"
+            },
+            {
+                "normalized_label": "০৩০"
+            },
+            {
+                "normalized_label": "০৩১"
+            },
+            {
+                "normalized_label": "০৩২"
+            },
+            {
+                "normalized_label": "০৩৩"
+            },
+            {
+                "normalized_label": "০৩৪"
+            },
+            {
+                "normalized_label": "০৩৫"
+            },
+            {
+                "normalized_label": "০৩৬"
+            },
+            {
+                "normalized_label": "০৩৭"
+            },
+            {
+                "normalized_label": "০৩৮"
+            },
+            {
+                "normalized_label": "০৩৯"
+            },
+            {
+                "normalized_label": "০৪০"
+            },
+            {
+                "normalized_label": "০৪১"
+            },
+            {
+                "normalized_label": "০৪২"
+            },
+            {
+                "normalized_label": "০৪৩"
+            },
+            {
+                "normalized_label": "০৪৪"
+            },
+            {
+                "normalized_label": "০৪৫"
+            },
+            {
+                "normalized_label": "০৪৬"
+            },
+            {
+                "normalized_label": "০৪৭"
+            },
+            {
+                "normalized_label": "০৪৮"
+            },
+            {
+                "normalized_label": "০৪৯"
+            },
+            {
+                "normalized_label": "০৫০"
+            },
+            {
+                "normalized_label": "০৫১"
+            },
+            {
+                "normalized_label": "০৫২"
+            },
+            {
+                "normalized_label": "০৫৩"
+            },
+            {
+                "normalized_label": "০৫৪"
+            },
+            {
+                "normalized_label": "০৫৫"
+            },
+            {
+                "normalized_label": "০৫৬"
+            },
+            {
+                "normalized_label": "০৫৭"
+            },
+            {
+                "normalized_label": "০৫৮"
+            },
+            {
+                "normalized_label": "০৫৯"
+            },
+            {
+                "normalized_label": "০৬০"
+            },
+            {
+                "normalized_label": "০৬১"
+            },
+            {
+                "normalized_label": "০৬২"
+            },
+            {
+                "normalized_label": "০৬৩"
+            },
+            {
+                "normalized_label": "০৬৪"
+            },
+            {
+                "normalized_label": "০৬৫"
+            },
+            {
+                "normalized_label": "০৬৬"
+            },
+            {
+                "normalized_label": "০৬৭"
+            },
+            {
+                "normalized_label": "০৬৮"
+            },
+            {
+                "normalized_label": "০৬৯"
+            },
+            {
+                "normalized_label": "০৭০"
+            },
+            {
+                "normalized_label": "০৭১"
+            },
+            {
+                "normalized_label": "০৭২"
+            },
+            {
+                "normalized_label": "০৭৩"
+            },
+            {
+                "normalized_label": "০৭৪"
+            },
+            {
+                "normalized_label": "০৭৫"
+            },
+            {
+                "normalized_label": "০৭৬"
+            },
+            {
+                "normalized_label": "০৭৭"
+            },
+            {
+                "normalized_label": "০৭৮"
+            },
+            {
+                "normalized_label": "০৭৯"
+            },
+            {
+                "normalized_label": "০৮০"
+            },
+            {
+                "normalized_label": "০৮১"
+            },
+            {
+                "normalized_label": "০৮২"
+            },
+            {
+                "normalized_label": "০৮৩"
+            },
+            {
+                "normalized_label": "০৮৪"
+            },
+            {
+                "normalized_label": "০৮৫"
+            },
+            {
+                "normalized_label": "০৮৬"
+            },
+            {
+                "normalized_label": "০৮৭"
+            },
+            {
+                "normalized_label": "০৮৮"
+            },
+            {
+                "normalized_label": "০৮৯"
+            },
+            {
+                "normalized_label": "০৯০"
+            },
+            {
+                "normalized_label": "০৯১"
+            },
+            {
+                "normalized_label": "০৯২"
+            },
+            {
+                "normalized_label": "০৯৩"
+            },
+            {
+                "normalized_label": "০৯৪"
+            },
+            {
+                "normalized_label": "০৯৫"
+            },
+            {
+                "normalized_label": "০৯৬"
+            },
+            {
+                "normalized_label": "০৯৭"
+            },
+            {
+                "normalized_label": "০৯৮"
+            },
+            {
+                "normalized_label": "০৯৯"
+            },
+            {
+                "normalized_label": "১০০"
+            },
+            {
+                "normalized_label": "১০১"
+            },
+            {
+                "normalized_label": "১০২"
+            },
+            {
+                "normalized_label": "১০৩"
+            },
+            {
+                "normalized_label": "১০৪"
+            },
+            {
+                "normalized_label": "১০৫"
+            },
+            {
+                "normalized_label": "১০৬"
+            },
+            {
+                "normalized_label": "১০৭"
+            },
+            {
+                "normalized_label": "১০৮"
+            },
+            {
+                "normalized_label": "১০৯"
+            },
+            {
+                "normalized_label": "১১০"
+            },
+            {
+                "normalized_label": "১১১"
+            },
+            {
+                "normalized_label": "১১২"
+            },
+            {
+                "normalized_label": "১১৩"
+            },
+            {
+                "normalized_label": "১১৪"
+            },
+            {
+                "normalized_label": "১১৫"
+            },
+            {
+                "normalized_label": "১১৬"
+            },
+            {
+                "normalized_label": "১১৭"
+            },
+            {
+                "normalized_label": "১১৮"
+            },
+            {
+                "normalized_label": "১১৯"
+            },
+            {
+                "normalized_label": "১২০"
+            },
+            {
+                "normalized_label": "১২১"
+            },
+            {
+                "normalized_label": "১২২"
+            },
+            {
+                "normalized_label": "১২৩"
+            },
+            {
+                "normalized_label": "১২৪"
+            },
+            {
+                "normalized_label": "১২৫"
+            },
+            {
+                "normalized_label": "১২৬"
+            },
+            {
+                "normalized_label": "১২৭"
+            },
+            {
+                "normalized_label": "১২৮"
+            },
+            {
+                "normalized_label": "১২৯"
+            },
+            {
+                "normalized_label": "১৩০"
+            },
+            {
+                "normalized_label": "১৩১"
+            },
+            {
+                "normalized_label": "১৩২"
+            },
+            {
+                "normalized_label": "১৩৩"
+            },
+            {
+                "normalized_label": "১৩৪"
+            },
+            {
+                "normalized_label": "১৩৫"
+            },
+            {
+                "normalized_label": "১৩৬"
+            },
+            {
+                "normalized_label": "১৩৭"
+            },
+            {
+                "normalized_label": "১৩৮"
+            },
+            {
+                "normalized_label": "১৩৯"
+            },
+            {
+                "normalized_label": "১৪০"
+            },
+            {
+                "normalized_label": "১৪১"
+            },
+            {
+                "normalized_label": "১৪২"
+            },
+            {
+                "normalized_label": "১৪৩"
+            },
+            {
+                "normalized_label": "১৪৪"
+            },
+            {
+                "normalized_label": "১৪৫"
+            },
+            {
+                "normalized_label": "১৪৬"
+            },
+            {
+                "normalized_label": "১৪৭"
+            },
+            {
+                "normalized_label": "১৪৮"
+            },
+            {
+                "normalized_label": "১৪৯"
+            },
+            {
+                "normalized_label": "১৫০"
+            },
+            {
+                "normalized_label": "১৫১"
+            },
+            {
+                "normalized_label": "১৫২"
+            },
+            {
+                "normalized_label": "১৫৩"
+            },
+            {
+                "normalized_label": "১৫৪"
+            },
+            {
+                "normalized_label": "১৫৫"
+            },
+            {
+                "normalized_label": "১৫৬"
+            },
+            {
+                "normalized_label": "১৫৭"
+            },
+            {
+                "normalized_label": "১৫৮"
+            },
+            {
+                "normalized_label": "১৫৯"
+            },
+            {
+                "normalized_label": "১৬০"
+            },
+            {
+                "normalized_label": "১৬১"
+            },
+            {
+                "normalized_label": "১৬২"
+            },
+            {
+                "normalized_label": "১৬৩"
+            },
+            {
+                "normalized_label": "১৬৪"
+            },
+            {
+                "normalized_label": "১৬৫"
+            },
+            {
+                "normalized_label": "১৬৬"
+            },
+            {
+                "normalized_label": "১৬৭"
+            },
+            {
+                "normalized_label": "১৬৮"
+            },
+            {
+                "normalized_label": "১৬৯"
+            },
+            {
+                "normalized_label": "১৭০"
+            },
+            {
+                "normalized_label": "১৭১"
+            },
+            {
+                "normalized_label": "১৭২"
+            },
+            {
+                "normalized_label": "১৭৩"
+            },
+            {
+                "normalized_label": "১৭৪"
+            },
+            {
+                "normalized_label": "১৭৫"
+            },
+            {
+                "normalized_label": "১৭৬"
+            },
+            {
+                "normalized_label": "১৭৭"
+            },
+            {
+                "normalized_label": "১৭৮"
+            },
+            {
+                "normalized_label": "১৭৯"
+            },
+            {
+                "normalized_label": "১৮০"
+            },
+            {
+                "normalized_label": "১৮১"
+            },
+            {
+                "normalized_label": "১৮২"
+            },
+            {
+                "normalized_label": "১৮৩"
+            },
+            {
+                "normalized_label": "১৮৪"
+            },
+            {
+                "normalized_label": "১৮৫"
+            },
+            {
+                "normalized_label": "১৮৬"
+            },
+            {
+                "normalized_label": "১৮৭"
+            },
+            {
+                "normalized_label": "১৮৮"
+            },
+            {
+                "normalized_label": "১৮৯"
+            },
+            {
+                "normalized_label": "১৯০"
+            },
+            {
+                "normalized_label": "১৯১"
+            },
+            {
+                "normalized_label": "১৯২"
+            },
+            {
+                "normalized_label": "১৯৩"
+            },
+            {
+                "normalized_label": "১৯৪"
+            },
+            {
+                "normalized_label": "১৯৫"
+            },
+            {
+                "normalized_label": "১৯৬"
+            },
+            {
+                "normalized_label": "১৯৭"
+            },
+            {
+                "normalized_label": "১৯৮"
+            },
+            {
+                "normalized_label": "১৯৯"
+            },
+            {
+                "normalized_label": "২০০"
+            },
+            {
+                "normalized_label": "২০১"
+            },
+            {
+                "normalized_label": "২০২"
+            },
+            {
+                "normalized_label": "২০৩"
+            },
+            {
+                "normalized_label": "২০৪"
+            },
+            {
+                "normalized_label": "২০৫"
+            },
+            {
+                "normalized_label": "২০৬"
+            },
+            {
+                "normalized_label": "২০৭"
+            },
+            {
+                "normalized_label": "২০৮"
+            },
+            {
+                "normalized_label": "২০৯"
+            },
+            {
+                "normalized_label": "২১০"
+            },
+            {
+                "normalized_label": "২১১"
+            },
+            {
+                "normalized_label": "২১২"
+            },
+            {
+                "normalized_label": "২১৩"
+            },
+            {
+                "normalized_label": "২১৪"
+            },
+            {
+                "normalized_label": "২১৫"
+            },
+            {
+                "normalized_label": "২১৬"
+            },
+            {
+                "normalized_label": "২১৭"
+            },
+            {
+                "normalized_label": "২১৮"
+            },
+            {
+                "normalized_label": "২১৯"
+            },
+            {
+                "normalized_label": "২২০"
+            },
+            {
+                "normalized_label": "২২১"
+            },
+            {
+                "normalized_label": "২২২"
+            },
+            {
+                "normalized_label": "২২৩"
+            },
+            {
+                "normalized_label": "২২৪"
+            },
+            {
+                "normalized_label": "২২৫"
+            },
+            {
+                "normalized_label": "২২৬"
+            },
+            {
+                "normalized_label": "২২৭"
+            },
+            {
+                "normalized_label": "২২৮"
+            },
+            {
+                "normalized_label": "২২৯"
+            },
+            {
+                "normalized_label": "২৩০"
+            },
+            {
+                "normalized_label": "২৩১"
+            },
+            {
+                "normalized_label": "২৩২"
+            },
+            {
+                "normalized_label": "২৩৩"
+            },
+            {
+                "normalized_label": "২৩৪"
+            },
+            {
+                "normalized_label": "২৩৫"
+            },
+            {
+                "normalized_label": "২৩৬"
+            },
+            {
+                "normalized_label": "২৩৭"
+            },
+            {
+                "normalized_label": "২৩৮"
+            },
+            {
+                "normalized_label": "২৩৯"
+            },
+            {
+                "normalized_label": "২৪০"
+            },
+            {
+                "normalized_label": "২৪১"
+            },
+            {
+                "normalized_label": "২৪২"
+            },
+            {
+                "normalized_label": "২৪৩"
+            },
+            {
+                "normalized_label": "২৪৪"
+            },
+            {
+                "normalized_label": "২৪৫"
+            },
+            {
+                "normalized_label": "২৪৬"
+            },
+            {
+                "normalized_label": "২৪৭"
+            },
+            {
+                "normalized_label": "২৪৮"
+            },
+            {
+                "normalized_label": "২৪৯"
+            },
+            {
+                "normalized_label": "২৫০"
+            },
+            {
+                "normalized_label": "২৫১"
+            },
+            {
+                "normalized_label": "২৫২"
+            },
+            {
+                "normalized_label": "২৫৩"
+            },
+            {
+                "normalized_label": "২৫৪"
+            },
+            {
+                "normalized_label": "২৫৫"
+            },
+            {
+                "normalized_label": "২৫৬"
+            },
+            {
+                "normalized_label": "২৫৭"
+            },
+            {
+                "normalized_label": "২৫৮"
+            },
+            {
+                "normalized_label": "২৫৯"
+            },
+            {
+                "normalized_label": "২৬০"
+            },
+            {
+                "normalized_label": "২৬১"
+            },
+            {
+                "normalized_label": "২৬২"
+            },
+            {
+                "normalized_label": "২৬৩"
+            },
+            {
+                "normalized_label": "২৬৪"
+            },
+            {
+                "normalized_label": "২৬৫"
+            },
+            {
+                "normalized_label": "২৬৬"
+            },
+            {
+                "normalized_label": "২৬৭"
+            },
+            {
+                "normalized_label": "২৬৮"
+            },
+            {
+                "normalized_label": "২৬৯"
+            },
+            {
+                "normalized_label": "২৭০"
+            },
+            {
+                "normalized_label": "২৭১"
+            },
+            {
+                "normalized_label": "২৭২"
+            },
+            {
+                "normalized_label": "২৭৩"
+            },
+            {
+                "normalized_label": "২৭৪"
+            },
+            {
+                "normalized_label": "২৭৫"
+            },
+            {
+                "normalized_label": "২৭৬"
+            },
+            {
+                "normalized_label": "২৭৭"
+            },
+            {
+                "normalized_label": "২৭৮"
+            },
+            {
+                "normalized_label": "২৭৯"
+            },
+            {
+                "normalized_label": "২৮০"
+            },
+            {
+                "normalized_label": "২৮১"
+            },
+            {
+                "normalized_label": "২৮২"
+            },
+            {
+                "normalized_label": "২৮৩"
+            },
+            {
+                "normalized_label": "২৮৪"
+            },
+            {
+                "normalized_label": "২৮৫"
+            },
+            {
+                "normalized_label": "২৮৬"
+            },
+            {
+                "normalized_label": "২৮৭"
+            },
+            {
+                "normalized_label": "২৮৮"
+            },
+            {
+                "normalized_label": "২৮৯"
+            },
+            {
+                "normalized_label": "২৯০"
+            },
+            {
+                "normalized_label": "২৯১"
+            },
+            {
+                "normalized_label": "২৯২"
+            },
+            {
+                "normalized_label": "২৯৩"
+            },
+            {
+                "normalized_label": "২৯৪"
+            },
+            {
+                "normalized_label": "২৯৫"
+            },
+            {
+                "normalized_label": "২৯৬"
+            },
+            {
+                "normalized_label": "২৯৭"
+            },
+            {
+                "normalized_label": "২৯৮"
+            },
+            {
+                "normalized_label": "২৯৯"
+            },
+            {
+                "normalized_label": "৩০০"
+            },
+            {
+                "normalized_label": "৩০১"
+            },
+            {
+                "normalized_label": "৩০২"
+            },
+            {
+                "normalized_label": "৩০৩"
+            },
+            {
+                "normalized_label": "৩০৪"
+            },
+            {
+                "normalized_label": "৩০৫"
+            },
+            {
+                "normalized_label": "৩০৬"
+            },
+            {
+                "normalized_label": "৩০৭"
+            },
+            {
+                "normalized_label": "৩০৮"
+            },
+            {
+                "normalized_label": "৩০৯"
+            },
+            {
+                "normalized_label": "৩১০"
+            },
+            {
+                "normalized_label": "৩১১"
+            },
+            {
+                "normalized_label": "৩১২"
+            },
+            {
+                "normalized_label": "৩১৩"
+            },
+            {
+                "normalized_label": "৩১৪"
+            },
+            {
+                "normalized_label": "৩১৫"
+            },
+            {
+                "normalized_label": "৩১৬"
+            },
+            {
+                "normalized_label": "৩১৭"
+            },
+            {
+                "normalized_label": "৩১৮"
+            },
+            {
+                "normalized_label": "৩১৯"
+            },
+            {
+                "normalized_label": "৩২০"
+            },
+            {
+                "normalized_label": "৩২১"
+            },
+            {
+                "normalized_label": "৩২২"
+            },
+            {
+                "normalized_label": "৩২৩"
+            },
+            {
+                "normalized_label": "৩২৪"
+            },
+            {
+                "normalized_label": "৩২৫"
+            },
+            {
+                "normalized_label": "৩২৬"
+            },
+            {
+                "normalized_label": "৩২৭"
+            },
+            {
+                "normalized_label": "৩২৮"
+            },
+            {
+                "normalized_label": "৩২৯"
+            },
+            {
+                "normalized_label": "৩৩০"
+            },
+            {
+                "normalized_label": "৩৩১"
+            },
+            {
+                "normalized_label": "৩৩২"
+            },
+            {
+                "normalized_label": "৩৩৩"
+            },
+            {
+                "normalized_label": "৩৩৪"
+            },
+            {
+                "normalized_label": "৩৩৫"
+            },
+            {
+                "normalized_label": "৩৩৬"
+            },
+            {
+                "normalized_label": "৩৩৭"
+            },
+            {
+                "normalized_label": "৩৩৮"
+            },
+            {
+                "normalized_label": "৩৩৯"
+            },
+            {
+                "normalized_label": "৩৪০"
+            },
+            {
+                "normalized_label": "৩৪১"
+            },
+            {
+                "normalized_label": "৩৪২"
+            },
+            {
+                "normalized_label": "৩৪৩"
+            },
+            {
+                "normalized_label": "৩৪৪"
+            },
+            {
+                "normalized_label": "৩৪৫"
+            },
+            {
+                "normalized_label": "৩৪৬"
+            },
+            {
+                "normalized_label": "৩৪৭"
+            },
+            {
+                "normalized_label": "৩৪৮"
+            },
+            {
+                "normalized_label": "৩৪৯"
+            },
+            {
+                "normalized_label": "৩৫০"
+            },
+            {
+                "normalized_label": "৩৫১"
+            },
+            {
+                "normalized_label": "৩৫২"
+            },
+            {
+                "normalized_label": "৩৫৩"
+            },
+            {
+                "normalized_label": "৩৫৪"
+            },
+            {
+                "normalized_label": "৩৫৫"
+            },
+            {
+                "normalized_label": "৩৫৬"
+            },
+            {
+                "normalized_label": "৩৫৭"
+            },
+            {
+                "normalized_label": "৩৫৮"
+            },
+            {
+                "normalized_label": "৩৫৯"
+            },
+            {
+                "normalized_label": "৩৬০"
+            },
+            {
+                "normalized_label": "৩৬১"
+            },
+            {
+                "normalized_label": "৩৬২"
+            },
+            {
+                "normalized_label": "৩৬৩"
+            },
+            {
+                "normalized_label": "৩৬৪"
+            },
+            {
+                "normalized_label": "৩৬৫"
+            },
+            {
+                "normalized_label": "৩৬৬"
+            },
+            {
+                "normalized_label": "৩৬৭"
+            },
+            {
+                "normalized_label": "৩৬৮"
+            },
+            {
+                "normalized_label": "৩৬৯"
+            },
+            {
+                "normalized_label": "৩৭০"
+            },
+            {
+                "normalized_label": "৩৭১"
+            },
+            {
+                "normalized_label": "৩৭২"
+            },
+            {
+                "normalized_label": "৩৭৩"
+            },
+            {
+                "normalized_label": "৩৭৪"
+            },
+            {
+                "normalized_label": "৩৭৫"
+            },
+            {
+                "normalized_label": "৩৭৬"
+            },
+            {
+                "normalized_label": "৩৭৭"
+            },
+            {
+                "normalized_label": "৩৭৮"
+            },
+            {
+                "normalized_label": "৩৭৯"
+            },
+            {
+                "normalized_label": "৩৮০"
+            },
+            {
+                "normalized_label": "৩৮১"
+            },
+            {
+                "normalized_label": "৩৮২"
+            },
+            {
+                "normalized_label": "৩৮৩"
+            },
+            {
+                "normalized_label": "৩৮৪"
+            },
+            {
+                "normalized_label": "৩৮৫"
+            },
+            {
+                "normalized_label": "৩৮৬"
+            },
+            {
+                "normalized_label": "৩৮৭"
+            },
+            {
+                "normalized_label": "৩৮৮"
+            },
+            {
+                "normalized_label": "৩৮৯"
+            },
+            {
+                "normalized_label": "৩৯০"
+            },
+            {
+                "normalized_label": "৩৯১"
+            },
+            {
+                "normalized_label": "৩৯২"
+            },
+            {
+                "normalized_label": "৩৯৩"
+            },
+            {
+                "normalized_label": "৩৯৪"
+            },
+            {
+                "normalized_label": "৩৯৫"
+            },
+            {
+                "normalized_label": "৩৯৬"
+            },
+            {
+                "normalized_label": "৩৯৭"
+            },
+            {
+                "normalized_label": "৩৯৮"
+            },
+            {
+                "normalized_label": "৩৯৯"
+            },
+            {
+                "normalized_label": "৪০০"
+            },
+            {
+                "normalized_label": "৪০১"
+            },
+            {
+                "normalized_label": "৪০২"
+            },
+            {
+                "normalized_label": "৪০৩"
+            },
+            {
+                "normalized_label": "৪০৪"
+            },
+            {
+                "normalized_label": "৪০৫"
+            },
+            {
+                "normalized_label": "৪০৬"
+            },
+            {
+                "normalized_label": "৪০৭"
+            },
+            {
+                "normalized_label": "৪০৮"
+            },
+            {
+                "normalized_label": "৪০৯"
+            },
+            {
+                "normalized_label": "৪১০"
+            },
+            {
+                "normalized_label": "৪১১"
+            },
+            {
+                "normalized_label": "৪১২"
+            },
+            {
+                "normalized_label": "৪১৩"
+            },
+            {
+                "normalized_label": "৪১৪"
+            },
+            {
+                "normalized_label": "৪১৫"
+            },
+            {
+                "normalized_label": "৪১৬"
+            },
+            {
+                "normalized_label": "৪১৭"
+            },
+            {
+                "normalized_label": "৪১৮"
+            },
+            {
+                "normalized_label": "৪১৯"
+            },
+            {
+                "normalized_label": "৪২০"
+            },
+            {
+                "normalized_label": "৪২১"
+            },
+            {
+                "normalized_label": "৪২২"
+            },
+            {
+                "normalized_label": "৪২৩"
+            },
+            {
+                "normalized_label": "৪২৪"
+            },
+            {
+                "normalized_label": "৪২৫"
+            },
+            {
+                "normalized_label": "৪২৬"
+            },
+            {
+                "normalized_label": "৪২৭"
+            },
+            {
+                "normalized_label": "৪২৮"
+            },
+            {
+                "normalized_label": "৪২৯"
+            },
+            {
+                "normalized_label": "৪৩০"
+            },
+            {
+                "normalized_label": "৪৩১"
+            },
+            {
+                "normalized_label": "৪৩২"
+            },
+            {
+                "normalized_label": "৪৩৩"
+            },
+            {
+                "normalized_label": "৪৩৪"
+            },
+            {
+                "normalized_label": "৪৩৫"
+            },
+            {
+                "normalized_label": "৪৩৬"
+            },
+            {
+                "normalized_label": "৪৩৭"
+            },
+            {
+                "normalized_label": "৪৩৮"
+            },
+            {
+                "normalized_label": "৪৩৯"
+            },
+            {
+                "normalized_label": "৪৪০"
+            },
+            {
+                "normalized_label": "৪৪১"
+            },
+            {
+                "normalized_label": "৪৪২"
+            },
+            {
+                "normalized_label": "৪৪৩"
+            },
+            {
+                "normalized_label": "৪৪৪"
+            },
+            {
+                "normalized_label": "৪৪৫"
+            },
+            {
+                "normalized_label": "৪৪৬"
+            },
+            {
+                "normalized_label": "৪৪৭"
+            },
+            {
+                "normalized_label": "৪৪৮"
+            },
+            {
+                "normalized_label": "৪৪৯"
+            },
+            {
+                "normalized_label": "৪৫০"
+            },
+            {
+                "normalized_label": "৪৫১"
+            },
+            {
+                "normalized_label": "৪৫২"
+            },
+            {
+                "normalized_label": "৪৫৩"
+            },
+            {
+                "normalized_label": "৪৫৪"
+            },
+            {
+                "normalized_label": "৪৫৫"
+            },
+            {
+                "normalized_label": "৪৫৬"
+            },
+            {
+                "normalized_label": "৪৫৭"
+            },
+            {
+                "normalized_label": "৪৫৮"
+            },
+            {
+                "normalized_label": "৪৫৯"
+            },
+            {
+                "normalized_label": "৪৬০"
+            },
+            {
+                "normalized_label": "৪৬১"
+            },
+            {
+                "normalized_label": "৪৬২"
+            },
+            {
+                "normalized_label": "৪৬৩"
+            },
+            {
+                "normalized_label": "৪৬৪"
+            },
+            {
+                "normalized_label": "৪৬৫"
+            },
+            {
+                "normalized_label": "৪৬৬"
+            },
+            {
+                "normalized_label": "৪৬৭"
+            },
+            {
+                "normalized_label": "৪৬৮"
+            },
+            {
+                "normalized_label": "৪৬৯"
+            },
+            {
+                "normalized_label": "৪৭০"
+            },
+            {
+                "normalized_label": "৪৭১"
+            },
+            {
+                "normalized_label": "৪৭২"
+            },
+            {
+                "normalized_label": "৪৭৩"
+            },
+            {
+                "normalized_label": "৪৭৪"
+            },
+            {
+                "normalized_label": "৪৭৫"
+            },
+            {
+                "normalized_label": "৪৭৬"
+            },
+            {
+                "normalized_label": "৪৭৭"
+            },
+            {
+                "normalized_label": "৪৭৮"
+            },
+            {
+                "normalized_label": "৪৭৯"
+            },
+            {
+                "normalized_label": "৪৮০"
+            },
+            {
+                "normalized_label": "৪৮১"
+            },
+            {
+                "normalized_label": "৪৮২"
+            },
+            {
+                "normalized_label": "৪৮৩"
+            },
+            {
+                "normalized_label": "৪৮৪"
+            },
+            {
+                "normalized_label": "৪৮৫"
+            },
+            {
+                "normalized_label": "৪৮৬"
+            },
+            {
+                "normalized_label": "৪৮৭"
+            },
+            {
+                "normalized_label": "৪৮৮"
+            },
+            {
+                "normalized_label": "৪৮৯"
+            },
+            {
+                "normalized_label": "৪৯০"
+            },
+            {
+                "normalized_label": "৪৯১"
+            },
+            {
+                "normalized_label": "৪৯২"
+            },
+            {
+                "normalized_label": "৪৯৩"
+            },
+            {
+                "normalized_label": "৪৯৪"
+            },
+            {
+                "normalized_label": "৪৯৫"
+            },
+            {
+                "normalized_label": "৪৯৬"
+            },
+            {
+                "normalized_label": "৪৯৭"
+            },
+            {
+                "normalized_label": "৪৯৮"
+            },
+            {
+                "normalized_label": "৪৯৯"
+            },
+            {
+                "normalized_label": "৫০০"
+            },
+            {
+                "normalized_label": "৫০১"
+            },
+            {
+                "normalized_label": "৫০২"
+            },
+            {
+                "normalized_label": "৫০৩"
+            },
+            {
+                "normalized_label": "৫০৪"
+            },
+            {
+                "normalized_label": "৫০৫"
+            },
+            {
+                "normalized_label": "৫০৬"
+            },
+            {
+                "normalized_label": "৫০৭"
+            },
+            {
+                "normalized_label": "৫০৮"
+            },
+            {
+                "normalized_label": "৫০৯"
+            },
+            {
+                "normalized_label": "৫১০"
+            },
+            {
+                "normalized_label": "৫১১"
+            },
+            {
+                "normalized_label": "৫১২"
+            },
+            {
+                "normalized_label": "৫১৩"
+            },
+            {
+                "normalized_label": "৫১৪"
+            },
+            {
+                "normalized_label": "৫১৫"
+            },
+            {
+                "normalized_label": "৫১৬"
+            },
+            {
+                "normalized_label": "৫১৭"
+            },
+            {
+                "normalized_label": "৫১৮"
+            },
+            {
+                "normalized_label": "৫১৯"
+            },
+            {
+                "normalized_label": "৫২০"
+            },
+            {
+                "normalized_label": "৫২১"
+            },
+            {
+                "normalized_label": "৫২২"
+            },
+            {
+                "normalized_label": "৫২৩"
+            },
+            {
+                "normalized_label": "৫২৪"
+            },
+            {
+                "normalized_label": "৫২৫"
+            },
+            {
+                "normalized_label": "৫২৬"
+            },
+            {
+                "normalized_label": "৫২৭"
+            },
+            {
+                "normalized_label": "৫২৮"
+            },
+            {
+                "normalized_label": "৫২৯"
+            },
+            {
+                "normalized_label": "৫৩০"
+            },
+            {
+                "normalized_label": "৫৩১"
+            },
+            {
+                "normalized_label": "৫৩২"
+            },
+            {
+                "normalized_label": "৫৩৩"
+            },
+            {
+                "normalized_label": "৫৩৪"
+            },
+            {
+                "normalized_label": "৫৩৫"
+            },
+            {
+                "normalized_label": "৫৩৬"
+            },
+            {
+                "normalized_label": "৫৩৭"
+            },
+            {
+                "normalized_label": "৫৩৮"
+            },
+            {
+                "normalized_label": "৫৩৯"
+            },
+            {
+                "normalized_label": "৫৪০"
+            },
+            {
+                "normalized_label": "৫৪১"
+            },
+            {
+                "normalized_label": "৫৪২"
+            },
+            {
+                "normalized_label": "৫৪৩"
+            },
+            {
+                "normalized_label": "৫৪৪"
+            },
+            {
+                "normalized_label": "৫৪৫"
+            },
+            {
+                "normalized_label": "৫৪৬"
+            },
+            {
+                "normalized_label": "৫৪৭"
+            },
+            {
+                "normalized_label": "৫৪৮"
+            },
+            {
+                "normalized_label": "৫৪৯"
+            },
+            {
+                "normalized_label": "৫৫০"
+            },
+            {
+                "normalized_label": "৫৫১"
+            },
+            {
+                "normalized_label": "৫৫২"
+            },
+            {
+                "normalized_label": "৫৫৩"
+            },
+            {
+                "normalized_label": "৫৫৪"
+            },
+            {
+                "normalized_label": "৫৫৫"
+            },
+            {
+                "normalized_label": "৫৫৬"
+            },
+            {
+                "normalized_label": "৫৫৭"
+            },
+            {
+                "normalized_label": "৫৫৮"
+            },
+            {
+                "normalized_label": "৫৫৯"
+            },
+            {
+                "normalized_label": "৫৬০"
+            },
+            {
+                "normalized_label": "৫৬১"
+            },
+            {
+                "normalized_label": "৫৬২"
+            },
+            {
+                "normalized_label": "৫৬৩"
+            },
+            {
+                "normalized_label": "৫৬৪"
+            },
+            {
+                "normalized_label": "৫৬৫"
+            },
+            {
+                "normalized_label": "৫৬৬"
+            },
+            {
+                "normalized_label": "৫৬৭"
+            },
+            {
+                "normalized_label": "৫৬৮"
+            },
+            {
+                "normalized_label": "৫৬৯"
+            },
+            {
+                "normalized_label": "৫৭০"
+            },
+            {
+                "normalized_label": "৫৭১"
+            },
+            {
+                "normalized_label": "৫৭২"
+            },
+            {
+                "normalized_label": "৫৭৩"
+            },
+            {
+                "normalized_label": "৫৭৪"
+            },
+            {
+                "normalized_label": "৫৭৫"
+            },
+            {
+                "normalized_label": "৫৭৬"
+            },
+            {
+                "normalized_label": "৫৭৭"
+            },
+            {
+                "normalized_label": "৫৭৮"
+            },
+            {
+                "normalized_label": "৫৭৯"
+            },
+            {
+                "normalized_label": "৫৮০"
+            },
+            {
+                "normalized_label": "৫৮১"
+            },
+            {
+                "normalized_label": "৫৮২"
+            },
+            {
+                "normalized_label": "৫৮৩"
+            },
+            {
+                "normalized_label": "৫৮৪"
+            },
+            {
+                "normalized_label": "৫৮৫"
+            },
+            {
+                "normalized_label": "৫৮৬"
+            },
+            {
+                "normalized_label": "৫৮৭"
+            },
+            {
+                "normalized_label": "৫৮৮"
+            },
+            {
+                "normalized_label": "৫৮৯"
+            },
+            {
+                "normalized_label": "৫৯০"
+            },
+            {
+                "normalized_label": "৫৯১"
+            },
+            {
+                "normalized_label": "৫৯২"
+            },
+            {
+                "normalized_label": "৫৯৩"
+            },
+            {
+                "normalized_label": "৫৯৪"
+            },
+            {
+                "normalized_label": "৫৯৫"
+            },
+            {
+                "normalized_label": "৫৯৬"
+            },
+            {
+                "normalized_label": "৫৯৭"
+            },
+            {
+                "normalized_label": "৫৯৮"
+            },
+            {
+                "normalized_label": "৫৯৯"
+            },
+            {
+                "normalized_label": "৬০০"
+            },
+            {
+                "normalized_label": "৬০১"
+            },
+            {
+                "normalized_label": "৬০২"
+            },
+            {
+                "normalized_label": "৬০৩"
+            },
+            {
+                "normalized_label": "৬০৪"
+            },
+            {
+                "normalized_label": "৬০৫"
+            },
+            {
+                "normalized_label": "৬০৬"
+            },
+            {
+                "normalized_label": "৬০৭"
+            },
+            {
+                "normalized_label": "৬০৮"
+            },
+            {
+                "normalized_label": "৬০৯"
+            },
+            {
+                "normalized_label": "৬১০"
+            },
+            {
+                "normalized_label": "৬১১"
+            },
+            {
+                "normalized_label": "৬১২"
+            },
+            {
+                "normalized_label": "৬১৩"
+            },
+            {
+                "normalized_label": "৬১৪"
+            },
+            {
+                "normalized_label": "৬১৫"
+            },
+            {
+                "normalized_label": "৬১৬"
+            },
+            {
+                "normalized_label": "৬১৭"
+            },
+            {
+                "normalized_label": "৬১৮"
+            },
+            {
+                "normalized_label": "৬১৯"
+            },
+            {
+                "normalized_label": "৬২০"
+            },
+            {
+                "normalized_label": "৬২১"
+            },
+            {
+                "normalized_label": "৬২২"
+            },
+            {
+                "normalized_label": "৬২৩"
+            },
+            {
+                "normalized_label": "৬২৪"
+            },
+            {
+                "normalized_label": "৬২৫"
+            },
+            {
+                "normalized_label": "৬২৬"
+            },
+            {
+                "normalized_label": "৬২৭"
+            },
+            {
+                "normalized_label": "৬২৮"
+            },
+            {
+                "normalized_label": "৬২৯"
+            },
+            {
+                "normalized_label": "৬৩০"
+            },
+            {
+                "normalized_label": "৬৩১"
+            },
+            {
+                "normalized_label": "৬৩২"
+            },
+            {
+                "normalized_label": "৬৩৩"
+            },
+            {
+                "normalized_label": "৬৩৪"
+            },
+            {
+                "normalized_label": "৬৩৫"
+            },
+            {
+                "normalized_label": "৬৩৬"
+            },
+            {
+                "normalized_label": "৬৩৭"
+            },
+            {
+                "normalized_label": "৬৩৮"
+            },
+            {
+                "normalized_label": "৬৩৯"
+            },
+            {
+                "normalized_label": "৬৪০"
+            },
+            {
+                "normalized_label": "৬৪১"
+            },
+            {
+                "normalized_label": "৬৪২"
+            },
+            {
+                "normalized_label": "৬৪৩"
+            },
+            {
+                "normalized_label": "৬৪৪"
+            },
+            {
+                "normalized_label": "৬৪৫"
+            },
+            {
+                "normalized_label": "৬৪৬"
+            },
+            {
+                "normalized_label": "৬৪৭"
+            },
+            {
+                "normalized_label": "৬৪৮"
+            },
+            {
+                "normalized_label": "৬৪৯"
+            },
+            {
+                "normalized_label": "৬৫০"
+            },
+            {
+                "normalized_label": "৬৫১"
+            },
+            {
+                "normalized_label": "৬৫২"
+            },
+            {
+                "normalized_label": "৬৫৩"
+            },
+            {
+                "normalized_label": "৬৫৪"
+            },
+            {
+                "normalized_label": "৬৫৫"
+            },
+            {
+                "normalized_label": "৬৫৬"
+            },
+            {
+                "normalized_label": "৬৫৭"
+            },
+            {
+                "normalized_label": "৬৫৮"
+            },
+            {
+                "normalized_label": "৬৫৯"
+            },
+            {
+                "normalized_label": "৬৬০"
+            },
+            {
+                "normalized_label": "৬৬১"
+            },
+            {
+                "normalized_label": "৬৬২"
+            },
+            {
+                "normalized_label": "৬৬৩"
+            },
+            {
+                "normalized_label": "৬৬৪"
+            },
+            {
+                "normalized_label": "৬৬৫"
+            },
+            {
+                "normalized_label": "৬৬৬"
+            },
+            {
+                "normalized_label": "৬৬৭"
+            },
+            {
+                "normalized_label": "৬৬৮"
+            },
+            {
+                "normalized_label": "৬৬৯"
+            },
+            {
+                "normalized_label": "৬৭০"
+            },
+            {
+                "normalized_label": "৬৭১"
+            },
+            {
+                "normalized_label": "৬৭২"
+            },
+            {
+                "normalized_label": "৬৭৩"
+            },
+            {
+                "normalized_label": "৬৭৪"
+            },
+            {
+                "normalized_label": "৬৭৫"
+            },
+            {
+                "normalized_label": "৬৭৬"
+            },
+            {
+                "normalized_label": "৬৭৭"
+            },
+            {
+                "normalized_label": "৬৭৮"
+            },
+            {
+                "normalized_label": "৬৭৯"
+            },
+            {
+                "normalized_label": "৬৮০"
+            },
+            {
+                "normalized_label": "৬৮১"
+            },
+            {
+                "normalized_label": "৬৮২"
+            },
+            {
+                "normalized_label": "৬৮৩"
+            },
+            {
+                "normalized_label": "৬৮৪"
+            },
+            {
+                "normalized_label": "৬৮৫"
+            },
+            {
+                "normalized_label": "৬৮৬"
+            },
+            {
+                "normalized_label": "৬৮৭"
+            },
+            {
+                "normalized_label": "৬৮৮"
+            },
+            {
+                "normalized_label": "৬৮৯"
+            },
+            {
+                "normalized_label": "৬৯০"
+            },
+            {
+                "normalized_label": "৬৯১"
+            },
+            {
+                "normalized_label": "৬৯২"
+            },
+            {
+                "normalized_label": "৬৯৩"
+            },
+            {
+                "normalized_label": "৬৯৪"
+            },
+            {
+                "normalized_label": "৬৯৫"
+            },
+            {
+                "normalized_label": "৬৯৬"
+            },
+            {
+                "normalized_label": "৬৯৭"
+            },
+            {
+                "normalized_label": "৬৯৮"
+            },
+            {
+                "normalized_label": "৬৯৯"
+            },
+            {
+                "normalized_label": "৭০০"
+            },
+            {
+                "normalized_label": "৭০১"
+            },
+            {
+                "normalized_label": "৭০২"
+            },
+            {
+                "normalized_label": "৭০৩"
+            },
+            {
+                "normalized_label": "৭০৪"
+            },
+            {
+                "normalized_label": "৭০৫"
+            },
+            {
+                "normalized_label": "৭০৬"
+            },
+            {
+                "normalized_label": "৭০৭"
+            },
+            {
+                "normalized_label": "৭০৮"
+            },
+            {
+                "normalized_label": "৭০৯"
+            },
+            {
+                "normalized_label": "৭১০"
+            },
+            {
+                "normalized_label": "৭১১"
+            },
+            {
+                "normalized_label": "৭১২"
+            },
+            {
+                "normalized_label": "৭১৩"
+            },
+            {
+                "normalized_label": "৭১৪"
+            },
+            {
+                "normalized_label": "৭১৫"
+            },
+            {
+                "normalized_label": "৭১৬"
+            },
+            {
+                "normalized_label": "৭১৭"
+            },
+            {
+                "normalized_label": "৭১৮"
+            },
+            {
+                "normalized_label": "৭১৯"
+            },
+            {
+                "normalized_label": "৭২০"
+            },
+            {
+                "normalized_label": "৭২১"
+            },
+            {
+                "normalized_label": "৭২২"
+            },
+            {
+                "normalized_label": "৭২৩"
+            },
+            {
+                "normalized_label": "৭২৪"
+            },
+            {
+                "normalized_label": "৭২৫"
+            },
+            {
+                "normalized_label": "৭২৬"
+            },
+            {
+                "normalized_label": "৭২৭"
+            },
+            {
+                "normalized_label": "৭২৮"
+            },
+            {
+                "normalized_label": "৭২৯"
+            },
+            {
+                "normalized_label": "৭৩০"
+            },
+            {
+                "normalized_label": "৭৩১"
+            },
+            {
+                "normalized_label": "৭৩২"
+            },
+            {
+                "normalized_label": "৭৩৩"
+            },
+            {
+                "normalized_label": "৭৩৪"
+            },
+            {
+                "normalized_label": "৭৩৫"
+            },
+            {
+                "normalized_label": "৭৩৬"
+            },
+            {
+                "normalized_label": "৭৩৭"
+            },
+            {
+                "normalized_label": "৭৩৮"
+            },
+            {
+                "normalized_label": "৭৩৯"
+            },
+            {
+                "normalized_label": "৭৪০"
+            },
+            {
+                "normalized_label": "৭৪১"
+            },
+            {
+                "normalized_label": "৭৪২"
+            },
+            {
+                "normalized_label": "৭৪৩"
+            },
+            {
+                "normalized_label": "৭৪৪"
+            },
+            {
+                "normalized_label": "৭৪৫"
+            },
+            {
+                "normalized_label": "৭৪৬"
+            },
+            {
+                "normalized_label": "৭৪৭"
+            },
+            {
+                "normalized_label": "৭৪৮"
+            },
+            {
+                "normalized_label": "৭৪৯"
+            },
+            {
+                "normalized_label": "৭৫০"
+            },
+            {
+                "normalized_label": "৭৫১"
+            },
+            {
+                "normalized_label": "৭৫২"
+            },
+            {
+                "normalized_label": "৭৫৩"
+            },
+            {
+                "normalized_label": "৭৫৪"
+            },
+            {
+                "normalized_label": "৭৫৫"
+            },
+            {
+                "normalized_label": "৭৫৬"
+            },
+            {
+                "normalized_label": "৭৫৭"
+            },
+            {
+                "normalized_label": "৭৫৮"
+            },
+            {
+                "normalized_label": "৭৫৯"
+            },
+            {
+                "normalized_label": "৭৬০"
+            },
+            {
+                "normalized_label": "৭৬১"
+            },
+            {
+                "normalized_label": "৭৬২"
+            },
+            {
+                "normalized_label": "৭৬৩"
+            },
+            {
+                "normalized_label": "৭৬৪"
+            },
+            {
+                "normalized_label": "৭৬৫"
+            },
+            {
+                "normalized_label": "৭৬৬"
+            },
+            {
+                "normalized_label": "৭৬৭"
+            },
+            {
+                "normalized_label": "৭৬৮"
+            },
+            {
+                "normalized_label": "৭৬৯"
+            },
+            {
+                "normalized_label": "৭৭০"
+            },
+            {
+                "normalized_label": "৭৭১"
+            },
+            {
+                "normalized_label": "৭৭২"
+            },
+            {
+                "normalized_label": "৭৭৩"
+            },
+            {
+                "normalized_label": "৭৭৪"
+            },
+            {
+                "normalized_label": "৭৭৫"
+            },
+            {
+                "normalized_label": "৭৭৬"
+            },
+            {
+                "normalized_label": "৭৭৭"
+            },
+            {
+                "normalized_label": "৭৭৮"
+            },
+            {
+                "normalized_label": "৭৭৯"
+            },
+            {
+                "normalized_label": "৭৮০"
+            },
+            {
+                "normalized_label": "৭৮১"
+            },
+            {
+                "normalized_label": "৭৮২"
+            },
+            {
+                "normalized_label": "৭৮৩"
+            },
+            {
+                "normalized_label": "৭৮৪"
+            },
+            {
+                "normalized_label": "৭৮৫"
+            },
+            {
+                "normalized_label": "৭৮৬"
+            },
+            {
+                "normalized_label": "৭৮৭"
+            },
+            {
+                "normalized_label": "৭৮৮"
+            },
+            {
+                "normalized_label": "৭৮৯"
+            },
+            {
+                "normalized_label": "৭৯০"
+            },
+            {
+                "normalized_label": "৭৯১"
+            },
+            {
+                "normalized_label": "৭৯২"
+            },
+            {
+                "normalized_label": "৭৯৩"
+            },
+            {
+                "normalized_label": "৭৯৪"
+            },
+            {
+                "normalized_label": "৭৯৫"
+            },
+            {
+                "normalized_label": "৭৯৬"
+            },
+            {
+                "normalized_label": "৭৯৭"
+            },
+            {
+                "normalized_label": "৭৯৮"
+            },
+            {
+                "normalized_label": "৭৯৯"
+            },
+            {
+                "normalized_label": "৮০০"
+            },
+            {
+                "normalized_label": "৮০১"
+            },
+            {
+                "normalized_label": "৮০২"
+            },
+            {
+                "normalized_label": "৮০৩"
+            },
+            {
+                "normalized_label": "৮০৪"
+            },
+            {
+                "normalized_label": "৮০৫"
+            },
+            {
+                "normalized_label": "৮০৬"
+            },
+            {
+                "normalized_label": "৮০৭"
+            },
+            {
+                "normalized_label": "৮০৮"
+            },
+            {
+                "normalized_label": "৮০৯"
+            },
+            {
+                "normalized_label": "৮১০"
+            },
+            {
+                "normalized_label": "৮১১"
+            },
+            {
+                "normalized_label": "৮১২"
+            },
+            {
+                "normalized_label": "৮১৩"
+            },
+            {
+                "normalized_label": "৮১৪"
+            },
+            {
+                "normalized_label": "৮১৫"
+            },
+            {
+                "normalized_label": "৮১৬"
+            },
+            {
+                "normalized_label": "৮১৭"
+            },
+            {
+                "normalized_label": "৮১৮"
+            },
+            {
+                "normalized_label": "৮১৯"
+            },
+            {
+                "normalized_label": "৮২০"
+            },
+            {
+                "normalized_label": "৮২১"
+            },
+            {
+                "normalized_label": "৮২২"
+            },
+            {
+                "normalized_label": "৮২৩"
+            },
+            {
+                "normalized_label": "৮২৪"
+            },
+            {
+                "normalized_label": "৮২৫"
+            },
+            {
+                "normalized_label": "৮২৬"
+            },
+            {
+                "normalized_label": "৮২৭"
+            },
+            {
+                "normalized_label": "৮২৮"
+            },
+            {
+                "normalized_label": "৮২৯"
+            },
+            {
+                "normalized_label": "৮৩০"
+            },
+            {
+                "normalized_label": "৮৩১"
+            },
+            {
+                "normalized_label": "৮৩২"
+            },
+            {
+                "normalized_label": "৮৩৩"
+            },
+            {
+                "normalized_label": "৮৩৪"
+            },
+            {
+                "normalized_label": "৮৩৫"
+            },
+            {
+                "normalized_label": "৮৩৬"
+            },
+            {
+                "normalized_label": "৮৩৭"
+            },
+            {
+                "normalized_label": "৮৩৮"
+            },
+            {
+                "normalized_label": "৮৩৯"
+            },
+            {
+                "normalized_label": "৮৪০"
+            },
+            {
+                "normalized_label": "৮৪১"
+            },
+            {
+                "normalized_label": "৮৪২"
+            },
+            {
+                "normalized_label": "৮৪৩"
+            },
+            {
+                "normalized_label": "৮৪৪"
+            },
+            {
+                "normalized_label": "৮৪৫"
+            },
+            {
+                "normalized_label": "৮৪৬"
+            },
+            {
+                "normalized_label": "৮৪৭"
+            },
+            {
+                "normalized_label": "৮৪৮"
+            },
+            {
+                "normalized_label": "৮৪৯"
+            },
+            {
+                "normalized_label": "৮৫০"
+            },
+            {
+                "normalized_label": "৮৫১"
+            },
+            {
+                "normalized_label": "৮৫২"
+            },
+            {
+                "normalized_label": "৮৫৩"
+            },
+            {
+                "normalized_label": "৮৫৪"
+            },
+            {
+                "normalized_label": "৮৫৫"
+            },
+            {
+                "normalized_label": "৮৫৬"
+            },
+            {
+                "normalized_label": "৮৫৭"
+            },
+            {
+                "normalized_label": "৮৫৮"
+            },
+            {
+                "normalized_label": "৮৫৯"
+            },
+            {
+                "normalized_label": "৮৬০"
+            },
+            {
+                "normalized_label": "৮৬১"
+            },
+            {
+                "normalized_label": "৮৬২"
+            },
+            {
+                "normalized_label": "৮৬৩"
+            },
+            {
+                "normalized_label": "৮৬৪"
+            },
+            {
+                "normalized_label": "৮৬৫"
+            },
+            {
+                "normalized_label": "৮৬৬"
+            },
+            {
+                "normalized_label": "৮৬৭"
+            },
+            {
+                "normalized_label": "৮৬৮"
+            },
+            {
+                "normalized_label": "৮৬৯"
+            },
+            {
+                "normalized_label": "৮৭০"
+            },
+            {
+                "normalized_label": "৮৭১"
+            },
+            {
+                "normalized_label": "৮৭২"
+            },
+            {
+                "normalized_label": "৮৭৩"
+            },
+            {
+                "normalized_label": "৮৭৪"
+            },
+            {
+                "normalized_label": "৮৭৫"
+            },
+            {
+                "normalized_label": "৮৭৬"
+            },
+            {
+                "normalized_label": "৮৭৭"
+            },
+            {
+                "normalized_label": "৮৭৮"
+            },
+            {
+                "normalized_label": "৮৭৯"
+            },
+            {
+                "normalized_label": "৮৮০"
+            },
+            {
+                "normalized_label": "৮৮১"
+            },
+            {
+                "normalized_label": "৮৮২"
+            },
+            {
+                "normalized_label": "৮৮৩"
+            },
+            {
+                "normalized_label": "৮৮৪"
+            },
+            {
+                "normalized_label": "৮৮৫"
+            },
+            {
+                "normalized_label": "৮৮৬"
+            },
+            {
+                "normalized_label": "৮৮৭"
+            },
+            {
+                "normalized_label": "৮৮৮"
+            },
+            {
+                "normalized_label": "৮৮৯"
+            },
+            {
+                "normalized_label": "৮৯০"
+            },
+            {
+                "normalized_label": "৮৯১"
+            },
+            {
+                "normalized_label": "৮৯২"
+            },
+            {
+                "normalized_label": "৮৯৩"
+            },
+            {
+                "normalized_label": "৮৯৪"
+            },
+            {
+                "normalized_label": "৮৯৫"
+            },
+            {
+                "normalized_label": "৮৯৬"
+            },
+            {
+                "normalized_label": "৮৯৭"
+            },
+            {
+                "normalized_label": "৮৯৮"
+            },
+            {
+                "normalized_label": "৮৯৯"
+            },
+            {
+                "normalized_label": "৯০০"
+            },
+            {
+                "normalized_label": "৯০১"
+            },
+            {
+                "normalized_label": "৯০২"
+            },
+            {
+                "normalized_label": "৯০৩"
+            },
+            {
+                "normalized_label": "৯০৪"
+            },
+            {
+                "normalized_label": "৯০৫"
+            },
+            {
+                "normalized_label": "৯০৬"
+            },
+            {
+                "normalized_label": "৯০৭"
+            },
+            {
+                "normalized_label": "৯০৮"
+            },
+            {
+                "normalized_label": "৯০৯"
+            },
+            {
+                "normalized_label": "৯১০"
+            },
+            {
+                "normalized_label": "৯১১"
+            },
+            {
+                "normalized_label": "৯১২"
+            },
+            {
+                "normalized_label": "৯১৩"
+            },
+            {
+                "normalized_label": "৯১৪"
+            },
+            {
+                "normalized_label": "৯১৫"
+            },
+            {
+                "normalized_label": "৯১৬"
+            },
+            {
+                "normalized_label": "৯১৭"
+            },
+            {
+                "normalized_label": "৯১৮"
+            },
+            {
+                "normalized_label": "৯১৯"
+            },
+            {
+                "normalized_label": "৯২০"
+            },
+            {
+                "normalized_label": "৯২১"
+            },
+            {
+                "normalized_label": "৯২২"
+            },
+            {
+                "normalized_label": "৯২৩"
+            },
+            {
+                "normalized_label": "৯২৪"
+            },
+            {
+                "normalized_label": "৯২৫"
+            },
+            {
+                "normalized_label": "৯২৬"
+            },
+            {
+                "normalized_label": "৯২৭"
+            },
+            {
+                "normalized_label": "৯২৮"
+            },
+            {
+                "normalized_label": "৯২৯"
+            },
+            {
+                "normalized_label": "৯৩০"
+            },
+            {
+                "normalized_label": "৯৩১"
+            },
+            {
+                "normalized_label": "৯৩২"
+            },
+            {
+                "normalized_label": "৯৩৩"
+            },
+            {
+                "normalized_label": "৯৩৪"
+            },
+            {
+                "normalized_label": "৯৩৫"
+            },
+            {
+                "normalized_label": "৯৩৬"
+            },
+            {
+                "normalized_label": "৯৩৭"
+            },
+            {
+                "normalized_label": "৯৩৮"
+            },
+            {
+                "normalized_label": "৯৩৯"
+            },
+            {
+                "normalized_label": "৯৪০"
+            },
+            {
+                "normalized_label": "৯৪১"
+            },
+            {
+                "normalized_label": "৯৪২"
+            },
+            {
+                "normalized_label": "৯৪৩"
+            },
+            {
+                "normalized_label": "৯৪৪"
+            },
+            {
+                "normalized_label": "৯৪৫"
+            },
+            {
+                "normalized_label": "৯৪৬"
+            },
+            {
+                "normalized_label": "৯৪৭"
+            },
+            {
+                "normalized_label": "৯৪৮"
+            },
+            {
+                "normalized_label": "৯৪৯"
+            },
+            {
+                "normalized_label": "৯৫০"
+            },
+            {
+                "normalized_label": "৯৫১"
+            },
+            {
+                "normalized_label": "৯৫২"
+            },
+            {
+                "normalized_label": "৯৫৩"
+            },
+            {
+                "normalized_label": "৯৫৪"
+            },
+            {
+                "normalized_label": "৯৫৫"
+            },
+            {
+                "normalized_label": "৯৫৬"
+            },
+            {
+                "normalized_label": "৯৫৭"
+            },
+            {
+                "normalized_label": "৯৫৮"
+            },
+            {
+                "normalized_label": "৯৫৯"
+            },
+            {
+                "normalized_label": "৯৬০"
+            },
+            {
+                "normalized_label": "৯৬১"
+            },
+            {
+                "normalized_label": "৯৬২"
+            },
+            {
+                "normalized_label": "৯৬৩"
+            },
+            {
+                "normalized_label": "৯৬৪"
+            },
+            {
+                "normalized_label": "৯৬৫"
+            },
+            {
+                "normalized_label": "৯৬৬"
+            },
+            {
+                "normalized_label": "৯৬৭"
+            },
+            {
+                "normalized_label": "৯৬৮"
+            },
+            {
+                "normalized_label": "৯৬৯"
+            },
+            {
+                "normalized_label": "৯৭০"
+            },
+            {
+                "normalized_label": "৯৭১"
+            },
+            {
+                "normalized_label": "৯৭২"
+            },
+            {
+                "normalized_label": "৯৭৩"
+            },
+            {
+                "normalized_label": "৯৭৪"
+            },
+            {
+                "normalized_label": "৯৭৫"
+            },
+            {
+                "normalized_label": "৯৭৬"
+            },
+            {
+                "normalized_label": "৯৭৭"
+            },
+            {
+                "normalized_label": "৯৭৮"
+            },
+            {
+                "normalized_label": "৯৭৯"
+            },
+            {
+                "normalized_label": "৯৮০"
+            },
+            {
+                "normalized_label": "৯৮১"
+            },
+            {
+                "normalized_label": "৯৮২"
+            },
+            {
+                "normalized_label": "৯৮৩"
+            },
+            {
+                "normalized_label": "৯৮৪"
+            },
+            {
+                "normalized_label": "৯৮৫"
+            },
+            {
+                "normalized_label": "৯৮৬"
+            },
+            {
+                "normalized_label": "৯৮৭"
+            },
+            {
+                "normalized_label": "৯৮৮"
+            },
+            {
+                "normalized_label": "৯৮৯"
+            },
+            {
+                "normalized_label": "৯৯০"
+            },
+            {
+                "normalized_label": "৯৯১"
+            },
+            {
+                "normalized_label": "৯৯২"
+            },
+            {
+                "normalized_label": "৯৯৩"
+            },
+            {
+                "normalized_label": "৯৯৪"
+            },
+            {
+                "normalized_label": "৯৯৫"
+            },
+            {
+                "normalized_label": "৯৯৬"
+            },
+            {
+                "normalized_label": "৯৯৭"
+            },
+            {
+                "normalized_label": "৯৯৮"
+            },
+            {
+                "normalized_label": "৯৯৯"
+            }
+        ]
+    }
+}

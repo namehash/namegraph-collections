@@ -1,0 +1,53 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "3l-months",
+        "collection_name": "3L Months",
+        "collection_description": "Months in the Gregorian calendar abbreviated to 3 letters",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "apr"
+            },
+            {
+                "normalized_label": "aug"
+            },
+            {
+                "normalized_label": "dec"
+            },
+            {
+                "normalized_label": "feb"
+            },
+            {
+                "normalized_label": "jan"
+            },
+            {
+                "normalized_label": "jul"
+            },
+            {
+                "normalized_label": "jun"
+            },
+            {
+                "normalized_label": "mar"
+            },
+            {
+                "normalized_label": "may"
+            },
+            {
+                "normalized_label": "nov"
+            },
+            {
+                "normalized_label": "oct"
+            },
+            {
+                "normalized_label": "sep"
+            }
+        ]
+    }
+}

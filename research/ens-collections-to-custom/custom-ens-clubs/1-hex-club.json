@@ -1,0 +1,65 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "1-hex-club",
+        "collection_name": "1 Hex Club",
+        "collection_description": "0x1Hex Names.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "0x0"
+            },
+            {
+                "normalized_label": "0x1"
+            },
+            {
+                "normalized_label": "0x2"
+            },
+            {
+                "normalized_label": "0x3"
+            },
+            {
+                "normalized_label": "0x4"
+            },
+            {
+                "normalized_label": "0x5"
+            },
+            {
+                "normalized_label": "0x6"
+            },
+            {
+                "normalized_label": "0x7"
+            },
+            {
+                "normalized_label": "0x8"
+            },
+            {
+                "normalized_label": "0x9"
+            },
+            {
+                "normalized_label": "0xa"
+            },
+            {
+                "normalized_label": "0xb"
+            },
+            {
+                "normalized_label": "0xc"
+            },
+            {
+                "normalized_label": "0xd"
+            },
+            {
+                "normalized_label": "0xe"
+            },
+            {
+                "normalized_label": "0xf"
+            }
+        ]
+    }
+}

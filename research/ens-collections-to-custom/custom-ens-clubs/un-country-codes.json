@@ -1,0 +1,761 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "un-country-codes",
+        "collection_name": "UN Country Codes",
+        "collection_description": "Official UN 3 Letter ISO Country Codes.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "afg"
+            },
+            {
+                "normalized_label": "ago"
+            },
+            {
+                "normalized_label": "alb"
+            },
+            {
+                "normalized_label": "and"
+            },
+            {
+                "normalized_label": "are"
+            },
+            {
+                "normalized_label": "arg"
+            },
+            {
+                "normalized_label": "arm"
+            },
+            {
+                "normalized_label": "atg"
+            },
+            {
+                "normalized_label": "aus"
+            },
+            {
+                "normalized_label": "aut"
+            },
+            {
+                "normalized_label": "aze"
+            },
+            {
+                "normalized_label": "bdi"
+            },
+            {
+                "normalized_label": "bel"
+            },
+            {
+                "normalized_label": "ben"
+            },
+            {
+                "normalized_label": "bfa"
+            },
+            {
+                "normalized_label": "bgd"
+            },
+            {
+                "normalized_label": "bgr"
+            },
+            {
+                "normalized_label": "bhr"
+            },
+            {
+                "normalized_label": "bhs"
+            },
+            {
+                "normalized_label": "bih"
+            },
+            {
+                "normalized_label": "blr"
+            },
+            {
+                "normalized_label": "blz"
+            },
+            {
+                "normalized_label": "bol"
+            },
+            {
+                "normalized_label": "bra"
+            },
+            {
+                "normalized_label": "brb"
+            },
+            {
+                "normalized_label": "brn"
+            },
+            {
+                "normalized_label": "btn"
+            },
+            {
+                "normalized_label": "bwa"
+            },
+            {
+                "normalized_label": "caf"
+            },
+            {
+                "normalized_label": "can"
+            },
+            {
+                "normalized_label": "che"
+            },
+            {
+                "normalized_label": "chl"
+            },
+            {
+                "normalized_label": "chn"
+            },
+            {
+                "normalized_label": "civ"
+            },
+            {
+                "normalized_label": "cmr"
+            },
+            {
+                "normalized_label": "cod"
+            },
+            {
+                "normalized_label": "cog"
+            },
+            {
+                "normalized_label": "col"
+            },
+            {
+                "normalized_label": "com"
+            },
+            {
+                "normalized_label": "cpv"
+            },
+            {
+                "normalized_label": "cri"
+            },
+            {
+                "normalized_label": "cub"
+            },
+            {
+                "normalized_label": "cyp"
+            },
+            {
+                "normalized_label": "cze"
+            },
+            {
+                "normalized_label": "deu"
+            },
+            {
+                "normalized_label": "dji"
+            },
+            {
+                "normalized_label": "dma"
+            },
+            {
+                "normalized_label": "dnk"
+            },
+            {
+                "normalized_label": "dom"
+            },
+            {
+                "normalized_label": "dza"
+            },
+            {
+                "normalized_label": "ecu"
+            },
+            {
+                "normalized_label": "egy"
+            },
+            {
+                "normalized_label": "eri"
+            },
+            {
+                "normalized_label": "esp"
+            },
+            {
+                "normalized_label": "est"
+            },
+            {
+                "normalized_label": "eth"
+            },
+            {
+                "normalized_label": "fin"
+            },
+            {
+                "normalized_label": "fji"
+            },
+            {
+                "normalized_label": "fra"
+            },
+            {
+                "normalized_label": "fsm"
+            },
+            {
+                "normalized_label": "gab"
+            },
+            {
+                "normalized_label": "gbr"
+            },
+            {
+                "normalized_label": "geo"
+            },
+            {
+                "normalized_label": "gha"
+            },
+            {
+                "normalized_label": "gin"
+            },
+            {
+                "normalized_label": "gmb"
+            },
+            {
+                "normalized_label": "gnb"
+            },
+            {
+                "normalized_label": "gnq"
+            },
+            {
+                "normalized_label": "grc"
+            },
+            {
+                "normalized_label": "grd"
+            },
+            {
+                "normalized_label": "gtm"
+            },
+            {
+                "normalized_label": "guy"
+            },
+            {
+                "normalized_label": "hnd"
+            },
+            {
+                "normalized_label": "hrv"
+            },
+            {
+                "normalized_label": "hti"
+            },
+            {
+                "normalized_label": "hun"
+            },
+            {
+                "normalized_label": "idn"
+            },
+            {
+                "normalized_label": "ind"
+            },
+            {
+                "normalized_label": "irl"
+            },
+            {
+                "normalized_label": "irn"
+            },
+            {
+                "normalized_label": "irq"
+            },
+            {
+                "normalized_label": "isl"
+            },
+            {
+                "normalized_label": "isr"
+            },
+            {
+                "normalized_label": "ita"
+            },
+            {
+                "normalized_label": "jam"
+            },
+            {
+                "normalized_label": "jor"
+            },
+            {
+                "normalized_label": "jpn"
+            },
+            {
+                "normalized_label": "kaz"
+            },
+            {
+                "normalized_label": "ken"
+            },
+            {
+                "normalized_label": "kgz"
+            },
+            {
+                "normalized_label": "khm"
+            },
+            {
+                "normalized_label": "kir"
+            },
+            {
+                "normalized_label": "kna"
+            },
+            {
+                "normalized_label": "kor"
+            },
+            {
+                "normalized_label": "kwt"
+            },
+            {
+                "normalized_label": "lao"
+            },
+            {
+                "normalized_label": "lbn"
+            },
+            {
+                "normalized_label": "lbr"
+            },
+            {
+                "normalized_label": "lca"
+            },
+            {
+                "normalized_label": "lie"
+            },
+            {
+                "normalized_label": "lka"
+            },
+            {
+                "normalized_label": "lso"
+            },
+            {
+                "normalized_label": "ltu"
+            },
+            {
+                "normalized_label": "lux"
+            },
+            {
+                "normalized_label": "lva"
+            },
+            {
+                "normalized_label": "mar"
+            },
+            {
+                "normalized_label": "mco"
+            },
+            {
+                "normalized_label": "mda"
+            },
+            {
+                "normalized_label": "mdg"
+            },
+            {
+                "normalized_label": "mdv"
+            },
+            {
+                "normalized_label": "mex"
+            },
+            {
+                "normalized_label": "mhl"
+            },
+            {
+                "normalized_label": "mkd"
+            },
+            {
+                "normalized_label": "mli"
+            },
+            {
+                "normalized_label": "mlt"
+            },
+            {
+                "normalized_label": "mmr"
+            },
+            {
+                "normalized_label": "mne"
+            },
+            {
+                "normalized_label": "mng"
+            },
+            {
+                "normalized_label": "moz"
+            },
+            {
+                "normalized_label": "mrt"
+            },
+            {
+                "normalized_label": "mus"
+            },
+            {
+                "normalized_label": "mwi"
+            },
+            {
+                "normalized_label": "mys"
+            },
+            {
+                "normalized_label": "nam"
+            },
+            {
+                "normalized_label": "ner"
+            },
+            {
+                "normalized_label": "nga"
+            },
+            {
+                "normalized_label": "nic"
+            },
+            {
+                "normalized_label": "nld"
+            },
+            {
+                "normalized_label": "nor"
+            },
+            {
+                "normalized_label": "npl"
+            },
+            {
+                "normalized_label": "nru"
+            },
+            {
+                "normalized_label": "nzl"
+            },
+            {
+                "normalized_label": "omn"
+            },
+            {
+                "normalized_label": "pak"
+            },
+            {
+                "normalized_label": "pan"
+            },
+            {
+                "normalized_label": "per"
+            },
+            {
+                "normalized_label": "phl"
+            },
+            {
+                "normalized_label": "plw"
+            },
+            {
+                "normalized_label": "png"
+            },
+            {
+                "normalized_label": "pol"
+            },
+            {
+                "normalized_label": "prk"
+            },
+            {
+                "normalized_label": "prt"
+            },
+            {
+                "normalized_label": "pry"
+            },
+            {
+                "normalized_label": "qat"
+            },
+            {
+                "normalized_label": "rou"
+            },
+            {
+                "normalized_label": "rus"
+            },
+            {
+                "normalized_label": "rwa"
+            },
+            {
+                "normalized_label": "sau"
+            },
+            {
+                "normalized_label": "sdn"
+            },
+            {
+                "normalized_label": "sen"
+            },
+            {
+                "normalized_label": "sgp"
+            },
+            {
+                "normalized_label": "slb"
+            },
+            {
+                "normalized_label": "sle"
+            },
+            {
+                "normalized_label": "slv"
+            },
+            {
+                "normalized_label": "smr"
+            },
+            {
+                "normalized_label": "som"
+            },
+            {
+                "normalized_label": "srb"
+            },
+            {
+                "normalized_label": "stp"
+            },
+            {
+                "normalized_label": "sur"
+            },
+            {
+                "normalized_label": "svk"
+            },
+            {
+                "normalized_label": "svn"
+            },
+            {
+                "normalized_label": "swe"
+            },
+            {
+                "normalized_label": "swz"
+            },
+            {
+                "normalized_label": "syc"
+            },
+            {
+                "normalized_label": "syr"
+            },
+            {
+                "normalized_label": "tcd"
+            },
+            {
+                "normalized_label": "tgo"
+            },
+            {
+                "normalized_label": "tha"
+            },
+            {
+                "normalized_label": "tjk"
+            },
+            {
+                "normalized_label": "tkm"
+            },
+            {
+                "normalized_label": "tls"
+            },
+            {
+                "normalized_label": "ton"
+            },
+            {
+                "normalized_label": "tto"
+            },
+            {
+                "normalized_label": "tun"
+            },
+            {
+                "normalized_label": "tur"
+            },
+            {
+                "normalized_label": "tuv"
+            },
+            {
+                "normalized_label": "tza"
+            },
+            {
+                "normalized_label": "uga"
+            },
+            {
+                "normalized_label": "ukr"
+            },
+            {
+                "normalized_label": "ury"
+            },
+            {
+                "normalized_label": "usa"
+            },
+            {
+                "normalized_label": "uzb"
+            },
+            {
+                "normalized_label": "vct"
+            },
+            {
+                "normalized_label": "ven"
+            },
+            {
+                "normalized_label": "vnm"
+            },
+            {
+                "normalized_label": "vut"
+            },
+            {
+                "normalized_label": "wsm"
+            },
+            {
+                "normalized_label": "yem"
+            },
+            {
+                "normalized_label": "zaf"
+            },
+            {
+                "normalized_label": "zmb"
+            },
+            {
+                "normalized_label": "zwe"
+            },
+            {
+                "normalized_label": "ssd"
+            },
+            {
+                "normalized_label": "abw"
+            },
+            {
+                "normalized_label": "aia"
+            },
+            {
+                "normalized_label": "ala"
+            },
+            {
+                "normalized_label": "asm"
+            },
+            {
+                "normalized_label": "ata"
+            },
+            {
+                "normalized_label": "atf"
+            },
+            {
+                "normalized_label": "bes"
+            },
+            {
+                "normalized_label": "blm"
+            },
+            {
+                "normalized_label": "bmu"
+            },
+            {
+                "normalized_label": "bvt"
+            },
+            {
+                "normalized_label": "cck"
+            },
+            {
+                "normalized_label": "cok"
+            },
+            {
+                "normalized_label": "cuw"
+            },
+            {
+                "normalized_label": "cxr"
+            },
+            {
+                "normalized_label": "cym"
+            },
+            {
+                "normalized_label": "esh"
+            },
+            {
+                "normalized_label": "flk"
+            },
+            {
+                "normalized_label": "fro"
+            },
+            {
+                "normalized_label": "ggy"
+            },
+            {
+                "normalized_label": "gib"
+            },
+            {
+                "normalized_label": "glp"
+            },
+            {
+                "normalized_label": "grl"
+            },
+            {
+                "normalized_label": "guf"
+            },
+            {
+                "normalized_label": "gum"
+            },
+            {
+                "normalized_label": "hkg"
+            },
+            {
+                "normalized_label": "hmd"
+            },
+            {
+                "normalized_label": "imn"
+            },
+            {
+                "normalized_label": "iot"
+            },
+            {
+                "normalized_label": "jey"
+            },
+            {
+                "normalized_label": "lby"
+            },
+            {
+                "normalized_label": "mac"
+            },
+            {
+                "normalized_label": "maf"
+            },
+            {
+                "normalized_label": "mnp"
+            },
+            {
+                "normalized_label": "msr"
+            },
+            {
+                "normalized_label": "mtq"
+            },
+            {
+                "normalized_label": "myt"
+            },
+            {
+                "normalized_label": "ncl"
+            },
+            {
+                "normalized_label": "nfk"
+            },
+            {
+                "normalized_label": "niu"
+            },
+            {
+                "normalized_label": "pcn"
+            },
+            {
+                "normalized_label": "pri"
+            },
+            {
+                "normalized_label": "pse"
+            },
+            {
+                "normalized_label": "pyf"
+            },
+            {
+                "normalized_label": "reu"
+            },
+            {
+                "normalized_label": "sgs"
+            },
+            {
+                "normalized_label": "shn"
+            },
+            {
+                "normalized_label": "sjm"
+            },
+            {
+                "normalized_label": "spm"
+            },
+            {
+                "normalized_label": "sxm"
+            },
+            {
+                "normalized_label": "tca"
+            },
+            {
+                "normalized_label": "tkl"
+            },
+            {
+                "normalized_label": "umi"
+            },
+            {
+                "normalized_label": "vat"
+            },
+            {
+                "normalized_label": "vgb"
+            },
+            {
+                "normalized_label": "vir"
+            },
+            {
+                "normalized_label": "wlf"
+            }
+        ]
+    }
+}

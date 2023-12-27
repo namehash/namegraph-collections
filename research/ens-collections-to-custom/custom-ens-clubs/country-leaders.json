@@ -1,0 +1,599 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "country-leaders",
+        "collection_name": "Country Leaders",
+        "collection_description": "Names of Country Leaders.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "abdelfattah-elsisi"
+            },
+            {
+                "normalized_label": "abdelfattahal-burhan"
+            },
+            {
+                "normalized_label": "abdelmadjidtebboune"
+            },
+            {
+                "normalized_label": "abdulhamid"
+            },
+            {
+                "normalized_label": "abiyahmed"
+            },
+            {
+                "normalized_label": "adamabarrow"
+            },
+            {
+                "normalized_label": "afiogatuimalealiifanovaaletoasualauvi"
+            },
+            {
+                "normalized_label": "alarkaris"
+            },
+            {
+                "normalized_label": "alassaneouattara"
+            },
+            {
+                "normalized_label": "albertii"
+            },
+            {
+                "normalized_label": "albertofernández"
+            },
+            {
+                "normalized_label": "alejandrogiammattei"
+            },
+            {
+                "normalized_label": "aleksandarvučić"
+            },
+            {
+                "normalized_label": "aleksandrlukashenko"
+            },
+            {
+                "normalized_label": "alexanderdecroo"
+            },
+            {
+                "normalized_label": "alexandervanderbellen"
+            },
+            {
+                "normalized_label": "alibongoondimba"
+            },
+            {
+                "normalized_label": "andrewholness"
+            },
+            {
+                "normalized_label": "andryrajoelina"
+            },
+            {
+                "normalized_label": "andrzejduda"
+            },
+            {
+                "normalized_label": "anthonyalbanese"
+            },
+            {
+                "normalized_label": "arielhenry"
+            },
+            {
+                "normalized_label": "arifalvi"
+            },
+            {
+                "normalized_label": "assimigoïta"
+            },
+            {
+                "normalized_label": "azaliassoumani"
+            },
+            {
+                "normalized_label": "azizakhannouch"
+            },
+            {
+                "normalized_label": "barhamsalih"
+            },
+            {
+                "normalized_label": "basharal-assad"
+            },
+            {
+                "normalized_label": "bisheral-khasawneh"
+            },
+            {
+                "normalized_label": "borisjohnson"
+            },
+            {
+                "normalized_label": "borutpahor"
+            },
+            {
+                "normalized_label": "carlosvilanova"
+            },
+            {
+                "normalized_label": "chansantokhi"
+            },
+            {
+                "normalized_label": "cyrilramaphosa"
+            },
+            {
+                "normalized_label": "danielortega"
+            },
+            {
+                "normalized_label": "danielrisch"
+            },
+            {
+                "normalized_label": "davidkabua"
+            },
+            {
+                "normalized_label": "davidpanuelo"
+            },
+            {
+                "normalized_label": "denissassounguesso"
+            },
+            {
+                "normalized_label": "ebrahimraisi"
+            },
+            {
+                "normalized_label": "eduardheger"
+            },
+            {
+                "normalized_label": "egilslevits"
+            },
+            {
+                "normalized_label": "emmanuelmacron"
+            },
+            {
+                "normalized_label": "emmersonmnangagwa"
+            },
+            {
+                "normalized_label": "emomalirahmon"
+            },
+            {
+                "normalized_label": "fauregnassingbé"
+            },
+            {
+                "normalized_label": "felixtshisekedi"
+            },
+            {
+                "normalized_label": "filipenyusi"
+            },
+            {
+                "normalized_label": "fumiokishida"
+            },
+            {
+                "normalized_label": "gabrielboric"
+            },
+            {
+                "normalized_label": "gastonbrowne"
+            },
+            {
+                "normalized_label": "georgevella"
+            },
+            {
+                "normalized_label": "georgeweah"
+            },
+            {
+                "normalized_label": "giacomosimoncini"
+            },
+            {
+                "normalized_label": "gitanasnausėda"
+            },
+            {
+                "normalized_label": "gotabayarajapaksa"
+            },
+            {
+                "normalized_label": "guillermolasso"
+            },
+            {
+                "normalized_label": "guðnithjóhannesson"
+            },
+            {
+                "normalized_label": "hagegeingob"
+            },
+            {
+                "normalized_label": "haithambintariq"
+            },
+            {
+                "normalized_label": "hakaindehichilema"
+            },
+            {
+                "normalized_label": "hassanalbolkiah"
+            },
+            {
+                "normalized_label": "hassansheikhmohamud"
+            },
+            {
+                "normalized_label": "hibatullahakhundzada"
+            },
+            {
+                "normalized_label": "hunsen"
+            },
+            {
+                "normalized_label": "ibrahimmohamedsolih"
+            },
+            {
+                "normalized_label": "ignaziocassis"
+            },
+            {
+                "normalized_label": "ilhamaliyev"
+            },
+            {
+                "normalized_label": "ilirmeta"
+            },
+            {
+                "normalized_label": "isaiasafwerki"
+            },
+            {
+                "normalized_label": "ismailoguelleh"
+            },
+            {
+                "normalized_label": "ivánduque"
+            },
+            {
+                "normalized_label": "jacindaardern"
+            },
+            {
+                "normalized_label": "jairbolsonaro"
+            },
+            {
+                "normalized_label": "jamesmarape"
+            },
+            {
+                "normalized_label": "joebiden"
+            },
+            {
+                "normalized_label": "johnnybriceño"
+            },
+            {
+                "normalized_label": "jokowidodo"
+            },
+            {
+                "normalized_label": "jonasgahrstøre"
+            },
+            {
+                "normalized_label": "josémarianeves"
+            },
+            {
+                "normalized_label": "joãolourenço"
+            },
+            {
+                "normalized_label": "juliusmaadabio"
+            },
+            {
+                "normalized_label": "justintrudeau"
+            },
+            {
+                "normalized_label": "kaissaied"
+            },
+            {
+                "normalized_label": "katalinnovák"
+            },
+            {
+                "normalized_label": "kauseanatano"
+            },
+            {
+                "normalized_label": "keithmitchell"
+            },
+            {
+                "normalized_label": "keithrowley"
+            },
+            {
+                "normalized_label": "khalidaal-sabah"
+            },
+            {
+                "normalized_label": "kimjong-un"
+            },
+            {
+                "normalized_label": "kingabdullahii"
+            },
+            {
+                "normalized_label": "kingmswati"
+            },
+            {
+                "normalized_label": "klausiohannis"
+            },
+            {
+                "normalized_label": "kyriakosmitsotakis"
+            },
+            {
+                "normalized_label": "lazaruschakwera"
+            },
+            {
+                "normalized_label": "leehsienloong"
+            },
+            {
+                "normalized_label": "lionelaingimea"
+            },
+            {
+                "normalized_label": "lotaytshering"
+            },
+            {
+                "normalized_label": "luisabinader"
+            },
+            {
+                "normalized_label": "luisarce"
+            },
+            {
+                "normalized_label": "luislacallepou"
+            },
+            {
+                "normalized_label": "lópezobrador"
+            },
+            {
+                "normalized_label": "mackysall"
+            },
+            {
+                "normalized_label": "magdalenaandersson"
+            },
+            {
+                "normalized_label": "mahamatdéby"
+            },
+            {
+                "normalized_label": "mahathirmohamad"
+            },
+            {
+                "normalized_label": "maiasandu"
+            },
+            {
+                "normalized_label": "mamadydoumbouya"
+            },
+            {
+                "normalized_label": "manassehsogavare"
+            },
+            {
+                "normalized_label": "marcelorebelodesousa"
+            },
+            {
+                "normalized_label": "marioabdobenítez"
+            },
+            {
+                "normalized_label": "mariodraghi"
+            },
+            {
+                "normalized_label": "mark"
+            },
+            {
+                "normalized_label": "mettefrederiksen"
+            },
+            {
+                "normalized_label": "miaamormottley"
+            },
+            {
+                "normalized_label": "michaelhiggins"
+            },
+            {
+                "normalized_label": "michelaoun"
+            },
+            {
+                "normalized_label": "milođukanović"
+            },
+            {
+                "normalized_label": "milošzeman"
+            },
+            {
+                "normalized_label": "moeketsimajoro"
+            },
+            {
+                "normalized_label": "mohamedal-menfi"
+            },
+            {
+                "normalized_label": "mohamedbazoum"
+            },
+            {
+                "normalized_label": "mohamedouldghazouani"
+            },
+            {
+                "normalized_label": "mohammedbinzayedalnahyan"
+            },
+            {
+                "normalized_label": "mohammedirfaanali"
+            },
+            {
+                "normalized_label": "mokgweetsimasisi"
+            },
+            {
+                "normalized_label": "muhammadubuhari"
+            },
+            {
+                "normalized_label": "myintswe"
+            },
+            {
+                "normalized_label": "naftalibennett"
+            },
+            {
+                "normalized_label": "nanaakufoaddo"
+            },
+            {
+                "normalized_label": "narendramodi"
+            },
+            {
+                "normalized_label": "nayibbukele"
+            },
+            {
+                "normalized_label": "nguyễnxuânphúc"
+            },
+            {
+                "normalized_label": "nicolásmaduro"
+            },
+            {
+                "normalized_label": "nicosanastasiades"
+            },
+            {
+                "normalized_label": "nikolpashinyan"
+            },
+            {
+                "normalized_label": "nitocortizo"
+            },
+            {
+                "normalized_label": "olafscholz"
+            },
+            {
+                "normalized_label": "patricetalon"
+            },
+            {
+                "normalized_label": "paul-henrisandaogodamiba"
+            },
+            {
+                "normalized_label": "paulbiya"
+            },
+            {
+                "normalized_label": "paulkagame"
+            },
+            {
+                "normalized_label": "pedrocastillo"
+            },
+            {
+                "normalized_label": "pedrosánchez"
+            },
+            {
+                "normalized_label": "philipdavis"
+            },
+            {
+                "normalized_label": "philippierre"
+            },
+            {
+                "normalized_label": "popefrancis"
+            },
+            {
+                "normalized_label": "pravindjugnauth"
+            },
+            {
+                "normalized_label": "prayutchan-o-cha"
+            },
+            {
+                "normalized_label": "princesalmanbinhamadalkhalifa"
+            },
+            {
+                "normalized_label": "ralphgonsalves"
+            },
+            {
+                "normalized_label": "rashadal-alim"
+            },
+            {
+                "normalized_label": "receptayyiperdoğan"
+            },
+            {
+                "normalized_label": "rodrigochavesrobles"
+            },
+            {
+                "normalized_label": "rodrigoduterte"
+            },
+            {
+                "normalized_label": "rooseveltskerrit"
+            },
+            {
+                "normalized_label": "rumenradev"
+            },
+            {
+                "normalized_label": "rutte"
+            },
+            {
+                "normalized_label": "sadyrjaparov"
+            },
+            {
+                "normalized_label": "salmanbinabdulazizalsaud"
+            },
+            {
+                "normalized_label": "salomezourabichvili"
+            },
+            {
+                "normalized_label": "salvakiirmayardit"
+            },
+            {
+                "normalized_label": "samiasuluhuhassan"
+            },
+            {
+                "normalized_label": "sauliniinistö"
+            },
+            {
+                "normalized_label": "serdarberdimuhamedow"
+            },
+            {
+                "normalized_label": "shavkatmirziyoyev"
+            },
+            {
+                "normalized_label": "sherbdeuba"
+            },
+            {
+                "normalized_label": "siaosisovaleni"
+            },
+            {
+                "normalized_label": "stevopendarovski"
+            },
+            {
+                "normalized_label": "surangelwhippsjr"
+            },
+            {
+                "normalized_label": "tallisobedmoses"
+            },
+            {
+                "normalized_label": "tamimbinhamadalthani"
+            },
+            {
+                "normalized_label": "tanetimaamau"
+            },
+            {
+                "normalized_label": "teodoroobiangnguemambasogo"
+            },
+            {
+                "normalized_label": "thonglounsisoulith"
+            },
+            {
+                "normalized_label": "timothyharris"
+            },
+            {
+                "normalized_label": "tsaiing-wen"
+            },
+            {
+                "normalized_label": "uhurukenyatta"
+            },
+            {
+                "normalized_label": "ukhnaagiinkhürelsükh"
+            },
+            {
+                "normalized_label": "umarosissocoembaló"
+            },
+            {
+                "normalized_label": "vjosaosmani"
+            },
+            {
+                "normalized_label": "vladimirputin"
+            },
+            {
+                "normalized_label": "volodymyrzelenskyy"
+            },
+            {
+                "normalized_label": "wavelramkalawan"
+            },
+            {
+                "normalized_label": "wiliamekatonivere"
+            },
+            {
+                "normalized_label": "xavierbettel"
+            },
+            {
+                "normalized_label": "xavierespotzamora"
+            },
+            {
+                "normalized_label": "xijinping"
+            },
+            {
+                "normalized_label": "xiomaracastro"
+            },
+            {
+                "normalized_label": "yoonsuk-yeol"
+            },
+            {
+                "normalized_label": "yowerimuseveni"
+            },
+            {
+                "normalized_label": "zoranmilanović"
+            },
+            {
+                "normalized_label": "évaristendayishimiye"
+            },
+            {
+                "normalized_label": "šefikdžaferović"
+            }
+        ]
+    }
+}

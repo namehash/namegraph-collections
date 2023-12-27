@@ -1,0 +1,917 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "5-digit-james-bond",
+        "collection_name": "5 Digit James Bond Club",
+        "collection_description": "Exclusive 5 digit number which contains 007",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "00007"
+            },
+            {
+                "normalized_label": "00070"
+            },
+            {
+                "normalized_label": "00071"
+            },
+            {
+                "normalized_label": "00072"
+            },
+            {
+                "normalized_label": "00073"
+            },
+            {
+                "normalized_label": "00074"
+            },
+            {
+                "normalized_label": "00075"
+            },
+            {
+                "normalized_label": "00076"
+            },
+            {
+                "normalized_label": "00077"
+            },
+            {
+                "normalized_label": "00078"
+            },
+            {
+                "normalized_label": "00079"
+            },
+            {
+                "normalized_label": "00700"
+            },
+            {
+                "normalized_label": "00701"
+            },
+            {
+                "normalized_label": "00702"
+            },
+            {
+                "normalized_label": "00703"
+            },
+            {
+                "normalized_label": "00704"
+            },
+            {
+                "normalized_label": "00705"
+            },
+            {
+                "normalized_label": "00706"
+            },
+            {
+                "normalized_label": "00707"
+            },
+            {
+                "normalized_label": "00708"
+            },
+            {
+                "normalized_label": "00709"
+            },
+            {
+                "normalized_label": "00710"
+            },
+            {
+                "normalized_label": "00711"
+            },
+            {
+                "normalized_label": "00712"
+            },
+            {
+                "normalized_label": "00713"
+            },
+            {
+                "normalized_label": "00714"
+            },
+            {
+                "normalized_label": "00715"
+            },
+            {
+                "normalized_label": "00716"
+            },
+            {
+                "normalized_label": "00717"
+            },
+            {
+                "normalized_label": "00718"
+            },
+            {
+                "normalized_label": "00719"
+            },
+            {
+                "normalized_label": "00720"
+            },
+            {
+                "normalized_label": "00721"
+            },
+            {
+                "normalized_label": "00722"
+            },
+            {
+                "normalized_label": "00723"
+            },
+            {
+                "normalized_label": "00724"
+            },
+            {
+                "normalized_label": "00725"
+            },
+            {
+                "normalized_label": "00726"
+            },
+            {
+                "normalized_label": "00727"
+            },
+            {
+                "normalized_label": "00728"
+            },
+            {
+                "normalized_label": "00729"
+            },
+            {
+                "normalized_label": "00730"
+            },
+            {
+                "normalized_label": "00731"
+            },
+            {
+                "normalized_label": "00732"
+            },
+            {
+                "normalized_label": "00733"
+            },
+            {
+                "normalized_label": "00734"
+            },
+            {
+                "normalized_label": "00735"
+            },
+            {
+                "normalized_label": "00736"
+            },
+            {
+                "normalized_label": "00737"
+            },
+            {
+                "normalized_label": "00738"
+            },
+            {
+                "normalized_label": "00739"
+            },
+            {
+                "normalized_label": "00740"
+            },
+            {
+                "normalized_label": "00741"
+            },
+            {
+                "normalized_label": "00742"
+            },
+            {
+                "normalized_label": "00743"
+            },
+            {
+                "normalized_label": "00744"
+            },
+            {
+                "normalized_label": "00745"
+            },
+            {
+                "normalized_label": "00746"
+            },
+            {
+                "normalized_label": "00747"
+            },
+            {
+                "normalized_label": "00748"
+            },
+            {
+                "normalized_label": "00749"
+            },
+            {
+                "normalized_label": "00750"
+            },
+            {
+                "normalized_label": "00751"
+            },
+            {
+                "normalized_label": "00752"
+            },
+            {
+                "normalized_label": "00753"
+            },
+            {
+                "normalized_label": "00754"
+            },
+            {
+                "normalized_label": "00755"
+            },
+            {
+                "normalized_label": "00756"
+            },
+            {
+                "normalized_label": "00757"
+            },
+            {
+                "normalized_label": "00758"
+            },
+            {
+                "normalized_label": "00759"
+            },
+            {
+                "normalized_label": "00760"
+            },
+            {
+                "normalized_label": "00761"
+            },
+            {
+                "normalized_label": "00762"
+            },
+            {
+                "normalized_label": "00763"
+            },
+            {
+                "normalized_label": "00764"
+            },
+            {
+                "normalized_label": "00765"
+            },
+            {
+                "normalized_label": "00766"
+            },
+            {
+                "normalized_label": "00767"
+            },
+            {
+                "normalized_label": "00768"
+            },
+            {
+                "normalized_label": "00769"
+            },
+            {
+                "normalized_label": "00770"
+            },
+            {
+                "normalized_label": "00771"
+            },
+            {
+                "normalized_label": "00772"
+            },
+            {
+                "normalized_label": "00773"
+            },
+            {
+                "normalized_label": "00774"
+            },
+            {
+                "normalized_label": "00775"
+            },
+            {
+                "normalized_label": "00776"
+            },
+            {
+                "normalized_label": "00777"
+            },
+            {
+                "normalized_label": "00778"
+            },
+            {
+                "normalized_label": "00779"
+            },
+            {
+                "normalized_label": "00780"
+            },
+            {
+                "normalized_label": "00781"
+            },
+            {
+                "normalized_label": "00782"
+            },
+            {
+                "normalized_label": "00783"
+            },
+            {
+                "normalized_label": "00784"
+            },
+            {
+                "normalized_label": "00785"
+            },
+            {
+                "normalized_label": "00786"
+            },
+            {
+                "normalized_label": "00787"
+            },
+            {
+                "normalized_label": "00788"
+            },
+            {
+                "normalized_label": "00789"
+            },
+            {
+                "normalized_label": "00790"
+            },
+            {
+                "normalized_label": "00791"
+            },
+            {
+                "normalized_label": "00792"
+            },
+            {
+                "normalized_label": "00793"
+            },
+            {
+                "normalized_label": "00794"
+            },
+            {
+                "normalized_label": "00795"
+            },
+            {
+                "normalized_label": "00796"
+            },
+            {
+                "normalized_label": "00797"
+            },
+            {
+                "normalized_label": "00798"
+            },
+            {
+                "normalized_label": "00799"
+            },
+            {
+                "normalized_label": "01007"
+            },
+            {
+                "normalized_label": "02007"
+            },
+            {
+                "normalized_label": "03007"
+            },
+            {
+                "normalized_label": "04007"
+            },
+            {
+                "normalized_label": "05007"
+            },
+            {
+                "normalized_label": "06007"
+            },
+            {
+                "normalized_label": "07007"
+            },
+            {
+                "normalized_label": "08007"
+            },
+            {
+                "normalized_label": "09007"
+            },
+            {
+                "normalized_label": "10007"
+            },
+            {
+                "normalized_label": "10070"
+            },
+            {
+                "normalized_label": "10071"
+            },
+            {
+                "normalized_label": "10072"
+            },
+            {
+                "normalized_label": "10073"
+            },
+            {
+                "normalized_label": "10074"
+            },
+            {
+                "normalized_label": "10075"
+            },
+            {
+                "normalized_label": "10076"
+            },
+            {
+                "normalized_label": "10077"
+            },
+            {
+                "normalized_label": "10078"
+            },
+            {
+                "normalized_label": "10079"
+            },
+            {
+                "normalized_label": "11007"
+            },
+            {
+                "normalized_label": "12007"
+            },
+            {
+                "normalized_label": "13007"
+            },
+            {
+                "normalized_label": "14007"
+            },
+            {
+                "normalized_label": "15007"
+            },
+            {
+                "normalized_label": "16007"
+            },
+            {
+                "normalized_label": "17007"
+            },
+            {
+                "normalized_label": "18007"
+            },
+            {
+                "normalized_label": "19007"
+            },
+            {
+                "normalized_label": "20007"
+            },
+            {
+                "normalized_label": "20070"
+            },
+            {
+                "normalized_label": "20071"
+            },
+            {
+                "normalized_label": "20072"
+            },
+            {
+                "normalized_label": "20073"
+            },
+            {
+                "normalized_label": "20074"
+            },
+            {
+                "normalized_label": "20075"
+            },
+            {
+                "normalized_label": "20076"
+            },
+            {
+                "normalized_label": "20077"
+            },
+            {
+                "normalized_label": "20078"
+            },
+            {
+                "normalized_label": "20079"
+            },
+            {
+                "normalized_label": "21007"
+            },
+            {
+                "normalized_label": "22007"
+            },
+            {
+                "normalized_label": "23007"
+            },
+            {
+                "normalized_label": "24007"
+            },
+            {
+                "normalized_label": "25007"
+            },
+            {
+                "normalized_label": "26007"
+            },
+            {
+                "normalized_label": "27007"
+            },
+            {
+                "normalized_label": "28007"
+            },
+            {
+                "normalized_label": "29007"
+            },
+            {
+                "normalized_label": "30007"
+            },
+            {
+                "normalized_label": "30070"
+            },
+            {
+                "normalized_label": "30071"
+            },
+            {
+                "normalized_label": "30072"
+            },
+            {
+                "normalized_label": "30073"
+            },
+            {
+                "normalized_label": "30074"
+            },
+            {
+                "normalized_label": "30075"
+            },
+            {
+                "normalized_label": "30076"
+            },
+            {
+                "normalized_label": "30077"
+            },
+            {
+                "normalized_label": "30078"
+            },
+            {
+                "normalized_label": "30079"
+            },
+            {
+                "normalized_label": "31007"
+            },
+            {
+                "normalized_label": "32007"
+            },
+            {
+                "normalized_label": "33007"
+            },
+            {
+                "normalized_label": "34007"
+            },
+            {
+                "normalized_label": "35007"
+            },
+            {
+                "normalized_label": "36007"
+            },
+            {
+                "normalized_label": "37007"
+            },
+            {
+                "normalized_label": "38007"
+            },
+            {
+                "normalized_label": "39007"
+            },
+            {
+                "normalized_label": "40007"
+            },
+            {
+                "normalized_label": "40070"
+            },
+            {
+                "normalized_label": "40071"
+            },
+            {
+                "normalized_label": "40072"
+            },
+            {
+                "normalized_label": "40073"
+            },
+            {
+                "normalized_label": "40074"
+            },
+            {
+                "normalized_label": "40075"
+            },
+            {
+                "normalized_label": "40076"
+            },
+            {
+                "normalized_label": "40077"
+            },
+            {
+                "normalized_label": "40078"
+            },
+            {
+                "normalized_label": "40079"
+            },
+            {
+                "normalized_label": "41007"
+            },
+            {
+                "normalized_label": "42007"
+            },
+            {
+                "normalized_label": "43007"
+            },
+            {
+                "normalized_label": "44007"
+            },
+            {
+                "normalized_label": "45007"
+            },
+            {
+                "normalized_label": "46007"
+            },
+            {
+                "normalized_label": "47007"
+            },
+            {
+                "normalized_label": "48007"
+            },
+            {
+                "normalized_label": "49007"
+            },
+            {
+                "normalized_label": "50007"
+            },
+            {
+                "normalized_label": "50070"
+            },
+            {
+                "normalized_label": "50071"
+            },
+            {
+                "normalized_label": "50072"
+            },
+            {
+                "normalized_label": "50073"
+            },
+            {
+                "normalized_label": "50074"
+            },
+            {
+                "normalized_label": "50075"
+            },
+            {
+                "normalized_label": "50076"
+            },
+            {
+                "normalized_label": "50077"
+            },
+            {
+                "normalized_label": "50078"
+            },
+            {
+                "normalized_label": "50079"
+            },
+            {
+                "normalized_label": "51007"
+            },
+            {
+                "normalized_label": "52007"
+            },
+            {
+                "normalized_label": "53007"
+            },
+            {
+                "normalized_label": "54007"
+            },
+            {
+                "normalized_label": "55007"
+            },
+            {
+                "normalized_label": "56007"
+            },
+            {
+                "normalized_label": "57007"
+            },
+            {
+                "normalized_label": "58007"
+            },
+            {
+                "normalized_label": "59007"
+            },
+            {
+                "normalized_label": "60007"
+            },
+            {
+                "normalized_label": "60070"
+            },
+            {
+                "normalized_label": "60071"
+            },
+            {
+                "normalized_label": "60072"
+            },
+            {
+                "normalized_label": "60073"
+            },
+            {
+                "normalized_label": "60074"
+            },
+            {
+                "normalized_label": "60075"
+            },
+            {
+                "normalized_label": "60076"
+            },
+            {
+                "normalized_label": "60077"
+            },
+            {
+                "normalized_label": "60078"
+            },
+            {
+                "normalized_label": "60079"
+            },
+            {
+                "normalized_label": "61007"
+            },
+            {
+                "normalized_label": "62007"
+            },
+            {
+                "normalized_label": "63007"
+            },
+            {
+                "normalized_label": "64007"
+            },
+            {
+                "normalized_label": "65007"
+            },
+            {
+                "normalized_label": "66007"
+            },
+            {
+                "normalized_label": "67007"
+            },
+            {
+                "normalized_label": "68007"
+            },
+            {
+                "normalized_label": "69007"
+            },
+            {
+                "normalized_label": "70007"
+            },
+            {
+                "normalized_label": "70070"
+            },
+            {
+                "normalized_label": "70071"
+            },
+            {
+                "normalized_label": "70072"
+            },
+            {
+                "normalized_label": "70073"
+            },
+            {
+                "normalized_label": "70074"
+            },
+            {
+                "normalized_label": "70075"
+            },
+            {
+                "normalized_label": "70076"
+            },
+            {
+                "normalized_label": "70077"
+            },
+            {
+                "normalized_label": "70078"
+            },
+            {
+                "normalized_label": "70079"
+            },
+            {
+                "normalized_label": "71007"
+            },
+            {
+                "normalized_label": "72007"
+            },
+            {
+                "normalized_label": "73007"
+            },
+            {
+                "normalized_label": "74007"
+            },
+            {
+                "normalized_label": "75007"
+            },
+            {
+                "normalized_label": "76007"
+            },
+            {
+                "normalized_label": "77007"
+            },
+            {
+                "normalized_label": "78007"
+            },
+            {
+                "normalized_label": "79007"
+            },
+            {
+                "normalized_label": "80007"
+            },
+            {
+                "normalized_label": "80070"
+            },
+            {
+                "normalized_label": "80071"
+            },
+            {
+                "normalized_label": "80072"
+            },
+            {
+                "normalized_label": "80073"
+            },
+            {
+                "normalized_label": "80074"
+            },
+            {
+                "normalized_label": "80075"
+            },
+            {
+                "normalized_label": "80076"
+            },
+            {
+                "normalized_label": "80077"
+            },
+            {
+                "normalized_label": "80078"
+            },
+            {
+                "normalized_label": "80079"
+            },
+            {
+                "normalized_label": "81007"
+            },
+            {
+                "normalized_label": "82007"
+            },
+            {
+                "normalized_label": "83007"
+            },
+            {
+                "normalized_label": "84007"
+            },
+            {
+                "normalized_label": "85007"
+            },
+            {
+                "normalized_label": "86007"
+            },
+            {
+                "normalized_label": "87007"
+            },
+            {
+                "normalized_label": "88007"
+            },
+            {
+                "normalized_label": "89007"
+            },
+            {
+                "normalized_label": "90007"
+            },
+            {
+                "normalized_label": "90070"
+            },
+            {
+                "normalized_label": "90071"
+            },
+            {
+                "normalized_label": "90072"
+            },
+            {
+                "normalized_label": "90073"
+            },
+            {
+                "normalized_label": "90074"
+            },
+            {
+                "normalized_label": "90075"
+            },
+            {
+                "normalized_label": "90076"
+            },
+            {
+                "normalized_label": "90077"
+            },
+            {
+                "normalized_label": "90078"
+            },
+            {
+                "normalized_label": "90079"
+            },
+            {
+                "normalized_label": "91007"
+            },
+            {
+                "normalized_label": "92007"
+            },
+            {
+                "normalized_label": "93007"
+            },
+            {
+                "normalized_label": "94007"
+            },
+            {
+                "normalized_label": "95007"
+            },
+            {
+                "normalized_label": "96007"
+            },
+            {
+                "normalized_label": "97007"
+            },
+            {
+                "normalized_label": "98007"
+            },
+            {
+                "normalized_label": "99007"
+            }
+        ]
+    }
+}

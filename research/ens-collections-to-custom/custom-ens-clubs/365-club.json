@@ -1,0 +1,1115 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "365-club",
+        "collection_name": "365 Club",
+        "collection_description": "Official 365 Club of ENS names January1st.eth - December31st.eth",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "april10th"
+            },
+            {
+                "normalized_label": "april11th"
+            },
+            {
+                "normalized_label": "april12th"
+            },
+            {
+                "normalized_label": "april13th"
+            },
+            {
+                "normalized_label": "april14th"
+            },
+            {
+                "normalized_label": "april15th"
+            },
+            {
+                "normalized_label": "april16th"
+            },
+            {
+                "normalized_label": "april17th"
+            },
+            {
+                "normalized_label": "april18th"
+            },
+            {
+                "normalized_label": "april19th"
+            },
+            {
+                "normalized_label": "april1st"
+            },
+            {
+                "normalized_label": "april20th"
+            },
+            {
+                "normalized_label": "april21st"
+            },
+            {
+                "normalized_label": "april22nd"
+            },
+            {
+                "normalized_label": "april23rd"
+            },
+            {
+                "normalized_label": "april24th"
+            },
+            {
+                "normalized_label": "april25th"
+            },
+            {
+                "normalized_label": "april26th"
+            },
+            {
+                "normalized_label": "april27th"
+            },
+            {
+                "normalized_label": "april28th"
+            },
+            {
+                "normalized_label": "april29th"
+            },
+            {
+                "normalized_label": "april2nd"
+            },
+            {
+                "normalized_label": "april30th"
+            },
+            {
+                "normalized_label": "april3rd"
+            },
+            {
+                "normalized_label": "april4th"
+            },
+            {
+                "normalized_label": "april5th"
+            },
+            {
+                "normalized_label": "april6th"
+            },
+            {
+                "normalized_label": "april7th"
+            },
+            {
+                "normalized_label": "april8th"
+            },
+            {
+                "normalized_label": "april9th"
+            },
+            {
+                "normalized_label": "august10th"
+            },
+            {
+                "normalized_label": "august11th"
+            },
+            {
+                "normalized_label": "august12th"
+            },
+            {
+                "normalized_label": "august13th"
+            },
+            {
+                "normalized_label": "august14th"
+            },
+            {
+                "normalized_label": "august15th"
+            },
+            {
+                "normalized_label": "august16th"
+            },
+            {
+                "normalized_label": "august17th"
+            },
+            {
+                "normalized_label": "august18th"
+            },
+            {
+                "normalized_label": "august19th"
+            },
+            {
+                "normalized_label": "august1st"
+            },
+            {
+                "normalized_label": "august20th"
+            },
+            {
+                "normalized_label": "august21st"
+            },
+            {
+                "normalized_label": "august22nd"
+            },
+            {
+                "normalized_label": "august23rd"
+            },
+            {
+                "normalized_label": "august24th"
+            },
+            {
+                "normalized_label": "august25th"
+            },
+            {
+                "normalized_label": "august26th"
+            },
+            {
+                "normalized_label": "august27th"
+            },
+            {
+                "normalized_label": "august28th"
+            },
+            {
+                "normalized_label": "august29th"
+            },
+            {
+                "normalized_label": "august2nd"
+            },
+            {
+                "normalized_label": "august30th"
+            },
+            {
+                "normalized_label": "august31st"
+            },
+            {
+                "normalized_label": "august3rd"
+            },
+            {
+                "normalized_label": "august4th"
+            },
+            {
+                "normalized_label": "august5th"
+            },
+            {
+                "normalized_label": "august6th"
+            },
+            {
+                "normalized_label": "august7th"
+            },
+            {
+                "normalized_label": "august8th"
+            },
+            {
+                "normalized_label": "august9th"
+            },
+            {
+                "normalized_label": "december10th"
+            },
+            {
+                "normalized_label": "december11th"
+            },
+            {
+                "normalized_label": "december12th"
+            },
+            {
+                "normalized_label": "december13th"
+            },
+            {
+                "normalized_label": "december14th"
+            },
+            {
+                "normalized_label": "december15th"
+            },
+            {
+                "normalized_label": "december16th"
+            },
+            {
+                "normalized_label": "december17th"
+            },
+            {
+                "normalized_label": "december18th"
+            },
+            {
+                "normalized_label": "december19th"
+            },
+            {
+                "normalized_label": "december1st"
+            },
+            {
+                "normalized_label": "december20th"
+            },
+            {
+                "normalized_label": "december21st"
+            },
+            {
+                "normalized_label": "december22nd"
+            },
+            {
+                "normalized_label": "december23rd"
+            },
+            {
+                "normalized_label": "december24th"
+            },
+            {
+                "normalized_label": "december25th"
+            },
+            {
+                "normalized_label": "december26th"
+            },
+            {
+                "normalized_label": "december27th"
+            },
+            {
+                "normalized_label": "december28th"
+            },
+            {
+                "normalized_label": "december29th"
+            },
+            {
+                "normalized_label": "december2nd"
+            },
+            {
+                "normalized_label": "december30th"
+            },
+            {
+                "normalized_label": "december31st"
+            },
+            {
+                "normalized_label": "december3rd"
+            },
+            {
+                "normalized_label": "december4th"
+            },
+            {
+                "normalized_label": "december5th"
+            },
+            {
+                "normalized_label": "december6th"
+            },
+            {
+                "normalized_label": "december7th"
+            },
+            {
+                "normalized_label": "december8th"
+            },
+            {
+                "normalized_label": "december9th"
+            },
+            {
+                "normalized_label": "february10th"
+            },
+            {
+                "normalized_label": "february11th"
+            },
+            {
+                "normalized_label": "february12th"
+            },
+            {
+                "normalized_label": "february13th"
+            },
+            {
+                "normalized_label": "february14th"
+            },
+            {
+                "normalized_label": "february15th"
+            },
+            {
+                "normalized_label": "february16th"
+            },
+            {
+                "normalized_label": "february17th"
+            },
+            {
+                "normalized_label": "february18th"
+            },
+            {
+                "normalized_label": "february19th"
+            },
+            {
+                "normalized_label": "february1st"
+            },
+            {
+                "normalized_label": "february20th"
+            },
+            {
+                "normalized_label": "february21st"
+            },
+            {
+                "normalized_label": "february22nd"
+            },
+            {
+                "normalized_label": "february23rd"
+            },
+            {
+                "normalized_label": "february24th"
+            },
+            {
+                "normalized_label": "february25th"
+            },
+            {
+                "normalized_label": "february26th"
+            },
+            {
+                "normalized_label": "february27th"
+            },
+            {
+                "normalized_label": "february28th"
+            },
+            {
+                "normalized_label": "february29th"
+            },
+            {
+                "normalized_label": "february2nd"
+            },
+            {
+                "normalized_label": "february3rd"
+            },
+            {
+                "normalized_label": "february4th"
+            },
+            {
+                "normalized_label": "february5th"
+            },
+            {
+                "normalized_label": "february6th"
+            },
+            {
+                "normalized_label": "february7th"
+            },
+            {
+                "normalized_label": "february8th"
+            },
+            {
+                "normalized_label": "february9th"
+            },
+            {
+                "normalized_label": "january10th"
+            },
+            {
+                "normalized_label": "january11th"
+            },
+            {
+                "normalized_label": "january12th"
+            },
+            {
+                "normalized_label": "january13th"
+            },
+            {
+                "normalized_label": "january14th"
+            },
+            {
+                "normalized_label": "january15th"
+            },
+            {
+                "normalized_label": "january16th"
+            },
+            {
+                "normalized_label": "january17th"
+            },
+            {
+                "normalized_label": "january18th"
+            },
+            {
+                "normalized_label": "january19th"
+            },
+            {
+                "normalized_label": "january1st"
+            },
+            {
+                "normalized_label": "january20th"
+            },
+            {
+                "normalized_label": "january21st"
+            },
+            {
+                "normalized_label": "january22nd"
+            },
+            {
+                "normalized_label": "january23rd"
+            },
+            {
+                "normalized_label": "january24th"
+            },
+            {
+                "normalized_label": "january25th"
+            },
+            {
+                "normalized_label": "january26th"
+            },
+            {
+                "normalized_label": "january27th"
+            },
+            {
+                "normalized_label": "january28th"
+            },
+            {
+                "normalized_label": "january29th"
+            },
+            {
+                "normalized_label": "january2nd"
+            },
+            {
+                "normalized_label": "january30th"
+            },
+            {
+                "normalized_label": "january31st"
+            },
+            {
+                "normalized_label": "january3rd"
+            },
+            {
+                "normalized_label": "january4th"
+            },
+            {
+                "normalized_label": "january5th"
+            },
+            {
+                "normalized_label": "january6th"
+            },
+            {
+                "normalized_label": "january7th"
+            },
+            {
+                "normalized_label": "january8th"
+            },
+            {
+                "normalized_label": "january9th"
+            },
+            {
+                "normalized_label": "july10th"
+            },
+            {
+                "normalized_label": "july11th"
+            },
+            {
+                "normalized_label": "july12th"
+            },
+            {
+                "normalized_label": "july13th"
+            },
+            {
+                "normalized_label": "july14th"
+            },
+            {
+                "normalized_label": "july15th"
+            },
+            {
+                "normalized_label": "july16th"
+            },
+            {
+                "normalized_label": "july17th"
+            },
+            {
+                "normalized_label": "july18th"
+            },
+            {
+                "normalized_label": "july19th"
+            },
+            {
+                "normalized_label": "july1st"
+            },
+            {
+                "normalized_label": "july20th"
+            },
+            {
+                "normalized_label": "july21st"
+            },
+            {
+                "normalized_label": "july22nd"
+            },
+            {
+                "normalized_label": "july23rd"
+            },
+            {
+                "normalized_label": "july24th"
+            },
+            {
+                "normalized_label": "july25th"
+            },
+            {
+                "normalized_label": "july26th"
+            },
+            {
+                "normalized_label": "july27th"
+            },
+            {
+                "normalized_label": "july28th"
+            },
+            {
+                "normalized_label": "july29th"
+            },
+            {
+                "normalized_label": "july2nd"
+            },
+            {
+                "normalized_label": "july30th"
+            },
+            {
+                "normalized_label": "july31st"
+            },
+            {
+                "normalized_label": "july3rd"
+            },
+            {
+                "normalized_label": "july4th"
+            },
+            {
+                "normalized_label": "july5th"
+            },
+            {
+                "normalized_label": "july6th"
+            },
+            {
+                "normalized_label": "july7th"
+            },
+            {
+                "normalized_label": "july8th"
+            },
+            {
+                "normalized_label": "july9th"
+            },
+            {
+                "normalized_label": "june10th"
+            },
+            {
+                "normalized_label": "june11th"
+            },
+            {
+                "normalized_label": "june12th"
+            },
+            {
+                "normalized_label": "june13th"
+            },
+            {
+                "normalized_label": "june14th"
+            },
+            {
+                "normalized_label": "june15th"
+            },
+            {
+                "normalized_label": "june16th"
+            },
+            {
+                "normalized_label": "june17th"
+            },
+            {
+                "normalized_label": "june18th"
+            },
+            {
+                "normalized_label": "june19th"
+            },
+            {
+                "normalized_label": "june1st"
+            },
+            {
+                "normalized_label": "june20th"
+            },
+            {
+                "normalized_label": "june21st"
+            },
+            {
+                "normalized_label": "june22nd"
+            },
+            {
+                "normalized_label": "june23rd"
+            },
+            {
+                "normalized_label": "june24th"
+            },
+            {
+                "normalized_label": "june25th"
+            },
+            {
+                "normalized_label": "june26th"
+            },
+            {
+                "normalized_label": "june27th"
+            },
+            {
+                "normalized_label": "june28th"
+            },
+            {
+                "normalized_label": "june29th"
+            },
+            {
+                "normalized_label": "june2nd"
+            },
+            {
+                "normalized_label": "june30th"
+            },
+            {
+                "normalized_label": "june3rd"
+            },
+            {
+                "normalized_label": "june4th"
+            },
+            {
+                "normalized_label": "june5th"
+            },
+            {
+                "normalized_label": "june6th"
+            },
+            {
+                "normalized_label": "june7th"
+            },
+            {
+                "normalized_label": "june8th"
+            },
+            {
+                "normalized_label": "june9th"
+            },
+            {
+                "normalized_label": "march10th"
+            },
+            {
+                "normalized_label": "march11th"
+            },
+            {
+                "normalized_label": "march12th"
+            },
+            {
+                "normalized_label": "march13th"
+            },
+            {
+                "normalized_label": "march14th"
+            },
+            {
+                "normalized_label": "march15th"
+            },
+            {
+                "normalized_label": "march16th"
+            },
+            {
+                "normalized_label": "march17th"
+            },
+            {
+                "normalized_label": "march18th"
+            },
+            {
+                "normalized_label": "march19th"
+            },
+            {
+                "normalized_label": "march1st"
+            },
+            {
+                "normalized_label": "march20th"
+            },
+            {
+                "normalized_label": "march21st"
+            },
+            {
+                "normalized_label": "march22nd"
+            },
+            {
+                "normalized_label": "march23rd"
+            },
+            {
+                "normalized_label": "march24th"
+            },
+            {
+                "normalized_label": "march25th"
+            },
+            {
+                "normalized_label": "march26th"
+            },
+            {
+                "normalized_label": "march27th"
+            },
+            {
+                "normalized_label": "march28th"
+            },
+            {
+                "normalized_label": "march29th"
+            },
+            {
+                "normalized_label": "march2nd"
+            },
+            {
+                "normalized_label": "march30th"
+            },
+            {
+                "normalized_label": "march31st"
+            },
+            {
+                "normalized_label": "march3rd"
+            },
+            {
+                "normalized_label": "march4th"
+            },
+            {
+                "normalized_label": "march5th"
+            },
+            {
+                "normalized_label": "march6th"
+            },
+            {
+                "normalized_label": "march7th"
+            },
+            {
+                "normalized_label": "march8th"
+            },
+            {
+                "normalized_label": "march9th"
+            },
+            {
+                "normalized_label": "may10th"
+            },
+            {
+                "normalized_label": "may11th"
+            },
+            {
+                "normalized_label": "may12th"
+            },
+            {
+                "normalized_label": "may13th"
+            },
+            {
+                "normalized_label": "may14th"
+            },
+            {
+                "normalized_label": "may15th"
+            },
+            {
+                "normalized_label": "may16th"
+            },
+            {
+                "normalized_label": "may17th"
+            },
+            {
+                "normalized_label": "may18th"
+            },
+            {
+                "normalized_label": "may19th"
+            },
+            {
+                "normalized_label": "may1st"
+            },
+            {
+                "normalized_label": "may20th"
+            },
+            {
+                "normalized_label": "may21st"
+            },
+            {
+                "normalized_label": "may22nd"
+            },
+            {
+                "normalized_label": "may23rd"
+            },
+            {
+                "normalized_label": "may24th"
+            },
+            {
+                "normalized_label": "may25th"
+            },
+            {
+                "normalized_label": "may26th"
+            },
+            {
+                "normalized_label": "may27th"
+            },
+            {
+                "normalized_label": "may28th"
+            },
+            {
+                "normalized_label": "may29th"
+            },
+            {
+                "normalized_label": "may2nd"
+            },
+            {
+                "normalized_label": "may30th"
+            },
+            {
+                "normalized_label": "may31st"
+            },
+            {
+                "normalized_label": "may3rd"
+            },
+            {
+                "normalized_label": "may4th"
+            },
+            {
+                "normalized_label": "may5th"
+            },
+            {
+                "normalized_label": "may6th"
+            },
+            {
+                "normalized_label": "may7th"
+            },
+            {
+                "normalized_label": "may8th"
+            },
+            {
+                "normalized_label": "may9th"
+            },
+            {
+                "normalized_label": "november10th"
+            },
+            {
+                "normalized_label": "november11th"
+            },
+            {
+                "normalized_label": "november12th"
+            },
+            {
+                "normalized_label": "november13th"
+            },
+            {
+                "normalized_label": "november14th"
+            },
+            {
+                "normalized_label": "november15th"
+            },
+            {
+                "normalized_label": "november16th"
+            },
+            {
+                "normalized_label": "november17th"
+            },
+            {
+                "normalized_label": "november18th"
+            },
+            {
+                "normalized_label": "november19th"
+            },
+            {
+                "normalized_label": "november1st"
+            },
+            {
+                "normalized_label": "november20th"
+            },
+            {
+                "normalized_label": "november21st"
+            },
+            {
+                "normalized_label": "november22nd"
+            },
+            {
+                "normalized_label": "november23rd"
+            },
+            {
+                "normalized_label": "november24th"
+            },
+            {
+                "normalized_label": "november25th"
+            },
+            {
+                "normalized_label": "november26th"
+            },
+            {
+                "normalized_label": "november27th"
+            },
+            {
+                "normalized_label": "november28th"
+            },
+            {
+                "normalized_label": "november29th"
+            },
+            {
+                "normalized_label": "november2nd"
+            },
+            {
+                "normalized_label": "november30th"
+            },
+            {
+                "normalized_label": "november3rd"
+            },
+            {
+                "normalized_label": "november4th"
+            },
+            {
+                "normalized_label": "november5th"
+            },
+            {
+                "normalized_label": "november6th"
+            },
+            {
+                "normalized_label": "november7th"
+            },
+            {
+                "normalized_label": "november8th"
+            },
+            {
+                "normalized_label": "november9th"
+            },
+            {
+                "normalized_label": "october10th"
+            },
+            {
+                "normalized_label": "october11th"
+            },
+            {
+                "normalized_label": "october12th"
+            },
+            {
+                "normalized_label": "october13th"
+            },
+            {
+                "normalized_label": "october14th"
+            },
+            {
+                "normalized_label": "october15th"
+            },
+            {
+                "normalized_label": "october16th"
+            },
+            {
+                "normalized_label": "october17th"
+            },
+            {
+                "normalized_label": "october18th"
+            },
+            {
+                "normalized_label": "october19th"
+            },
+            {
+                "normalized_label": "october1st"
+            },
+            {
+                "normalized_label": "october20th"
+            },
+            {
+                "normalized_label": "october21st"
+            },
+            {
+                "normalized_label": "october22nd"
+            },
+            {
+                "normalized_label": "october23rd"
+            },
+            {
+                "normalized_label": "october24th"
+            },
+            {
+                "normalized_label": "october25th"
+            },
+            {
+                "normalized_label": "october26th"
+            },
+            {
+                "normalized_label": "october27th"
+            },
+            {
+                "normalized_label": "october28th"
+            },
+            {
+                "normalized_label": "october29th"
+            },
+            {
+                "normalized_label": "october2nd"
+            },
+            {
+                "normalized_label": "october30th"
+            },
+            {
+                "normalized_label": "october31st"
+            },
+            {
+                "normalized_label": "october3rd"
+            },
+            {
+                "normalized_label": "october4th"
+            },
+            {
+                "normalized_label": "october5th"
+            },
+            {
+                "normalized_label": "october6th"
+            },
+            {
+                "normalized_label": "october7th"
+            },
+            {
+                "normalized_label": "october8th"
+            },
+            {
+                "normalized_label": "october9th"
+            },
+            {
+                "normalized_label": "september10th"
+            },
+            {
+                "normalized_label": "september11th"
+            },
+            {
+                "normalized_label": "september12th"
+            },
+            {
+                "normalized_label": "september13th"
+            },
+            {
+                "normalized_label": "september14th"
+            },
+            {
+                "normalized_label": "september15th"
+            },
+            {
+                "normalized_label": "september16th"
+            },
+            {
+                "normalized_label": "september17th"
+            },
+            {
+                "normalized_label": "september18th"
+            },
+            {
+                "normalized_label": "september19th"
+            },
+            {
+                "normalized_label": "september1st"
+            },
+            {
+                "normalized_label": "september20th"
+            },
+            {
+                "normalized_label": "september21st"
+            },
+            {
+                "normalized_label": "september22nd"
+            },
+            {
+                "normalized_label": "september23rd"
+            },
+            {
+                "normalized_label": "september24th"
+            },
+            {
+                "normalized_label": "september25th"
+            },
+            {
+                "normalized_label": "september26th"
+            },
+            {
+                "normalized_label": "september27th"
+            },
+            {
+                "normalized_label": "september28th"
+            },
+            {
+                "normalized_label": "september29th"
+            },
+            {
+                "normalized_label": "september2nd"
+            },
+            {
+                "normalized_label": "september30th"
+            },
+            {
+                "normalized_label": "september3rd"
+            },
+            {
+                "normalized_label": "september4th"
+            },
+            {
+                "normalized_label": "september5th"
+            },
+            {
+                "normalized_label": "september6th"
+            },
+            {
+                "normalized_label": "september7th"
+            },
+            {
+                "normalized_label": "september8th"
+            },
+            {
+                "normalized_label": "september9th"
+            }
+        ]
+    }
+}

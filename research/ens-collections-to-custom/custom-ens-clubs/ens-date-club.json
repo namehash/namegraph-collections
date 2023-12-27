@@ -1,0 +1,1115 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "ens-date-club",
+        "collection_name": "ENS Date Club",
+        "collection_description": "1Jan.eth - 31dec.eth",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "1jan"
+            },
+            {
+                "normalized_label": "2jan"
+            },
+            {
+                "normalized_label": "3jan"
+            },
+            {
+                "normalized_label": "4jan"
+            },
+            {
+                "normalized_label": "5jan"
+            },
+            {
+                "normalized_label": "6jan"
+            },
+            {
+                "normalized_label": "7jan"
+            },
+            {
+                "normalized_label": "8jan"
+            },
+            {
+                "normalized_label": "9jan"
+            },
+            {
+                "normalized_label": "10jan"
+            },
+            {
+                "normalized_label": "11jan"
+            },
+            {
+                "normalized_label": "12jan"
+            },
+            {
+                "normalized_label": "13jan"
+            },
+            {
+                "normalized_label": "14jan"
+            },
+            {
+                "normalized_label": "15jan"
+            },
+            {
+                "normalized_label": "16jan"
+            },
+            {
+                "normalized_label": "17jan"
+            },
+            {
+                "normalized_label": "18jan"
+            },
+            {
+                "normalized_label": "19jan"
+            },
+            {
+                "normalized_label": "20jan"
+            },
+            {
+                "normalized_label": "21jan"
+            },
+            {
+                "normalized_label": "22jan"
+            },
+            {
+                "normalized_label": "23jan"
+            },
+            {
+                "normalized_label": "24jan"
+            },
+            {
+                "normalized_label": "25jan"
+            },
+            {
+                "normalized_label": "26jan"
+            },
+            {
+                "normalized_label": "27jan"
+            },
+            {
+                "normalized_label": "28jan"
+            },
+            {
+                "normalized_label": "29jan"
+            },
+            {
+                "normalized_label": "30jan"
+            },
+            {
+                "normalized_label": "31jan"
+            },
+            {
+                "normalized_label": "1feb"
+            },
+            {
+                "normalized_label": "2feb"
+            },
+            {
+                "normalized_label": "3feb"
+            },
+            {
+                "normalized_label": "4feb"
+            },
+            {
+                "normalized_label": "5feb"
+            },
+            {
+                "normalized_label": "6feb"
+            },
+            {
+                "normalized_label": "7feb"
+            },
+            {
+                "normalized_label": "8feb"
+            },
+            {
+                "normalized_label": "9feb"
+            },
+            {
+                "normalized_label": "10feb"
+            },
+            {
+                "normalized_label": "11feb"
+            },
+            {
+                "normalized_label": "12feb"
+            },
+            {
+                "normalized_label": "13feb"
+            },
+            {
+                "normalized_label": "14feb"
+            },
+            {
+                "normalized_label": "15feb"
+            },
+            {
+                "normalized_label": "16feb"
+            },
+            {
+                "normalized_label": "17feb"
+            },
+            {
+                "normalized_label": "19feb"
+            },
+            {
+                "normalized_label": "18feb"
+            },
+            {
+                "normalized_label": "20feb"
+            },
+            {
+                "normalized_label": "21feb"
+            },
+            {
+                "normalized_label": "22feb"
+            },
+            {
+                "normalized_label": "23feb"
+            },
+            {
+                "normalized_label": "24feb"
+            },
+            {
+                "normalized_label": "25feb"
+            },
+            {
+                "normalized_label": "26feb"
+            },
+            {
+                "normalized_label": "27feb"
+            },
+            {
+                "normalized_label": "28feb"
+            },
+            {
+                "normalized_label": "29feb"
+            },
+            {
+                "normalized_label": "1mar"
+            },
+            {
+                "normalized_label": "2mar"
+            },
+            {
+                "normalized_label": "3mar"
+            },
+            {
+                "normalized_label": "4mar"
+            },
+            {
+                "normalized_label": "5mar"
+            },
+            {
+                "normalized_label": "6mar"
+            },
+            {
+                "normalized_label": "7mar"
+            },
+            {
+                "normalized_label": "8mar"
+            },
+            {
+                "normalized_label": "9mar"
+            },
+            {
+                "normalized_label": "10mar"
+            },
+            {
+                "normalized_label": "11mar"
+            },
+            {
+                "normalized_label": "12mar"
+            },
+            {
+                "normalized_label": "13mar"
+            },
+            {
+                "normalized_label": "14mar"
+            },
+            {
+                "normalized_label": "15mar"
+            },
+            {
+                "normalized_label": "16mar"
+            },
+            {
+                "normalized_label": "17mar"
+            },
+            {
+                "normalized_label": "18mar"
+            },
+            {
+                "normalized_label": "19mar"
+            },
+            {
+                "normalized_label": "20mar"
+            },
+            {
+                "normalized_label": "21mar"
+            },
+            {
+                "normalized_label": "22mar"
+            },
+            {
+                "normalized_label": "23mar"
+            },
+            {
+                "normalized_label": "24mar"
+            },
+            {
+                "normalized_label": "25mar"
+            },
+            {
+                "normalized_label": "26mar"
+            },
+            {
+                "normalized_label": "27mar"
+            },
+            {
+                "normalized_label": "28mar"
+            },
+            {
+                "normalized_label": "29mar"
+            },
+            {
+                "normalized_label": "30mar"
+            },
+            {
+                "normalized_label": "31mar"
+            },
+            {
+                "normalized_label": "1apr"
+            },
+            {
+                "normalized_label": "2apr"
+            },
+            {
+                "normalized_label": "3apr"
+            },
+            {
+                "normalized_label": "4apr"
+            },
+            {
+                "normalized_label": "5apr"
+            },
+            {
+                "normalized_label": "6apr"
+            },
+            {
+                "normalized_label": "7apr"
+            },
+            {
+                "normalized_label": "8apr"
+            },
+            {
+                "normalized_label": "9apr"
+            },
+            {
+                "normalized_label": "10apr"
+            },
+            {
+                "normalized_label": "11apr"
+            },
+            {
+                "normalized_label": "13apr"
+            },
+            {
+                "normalized_label": "12apr"
+            },
+            {
+                "normalized_label": "14apr"
+            },
+            {
+                "normalized_label": "15apr"
+            },
+            {
+                "normalized_label": "16apr"
+            },
+            {
+                "normalized_label": "17apr"
+            },
+            {
+                "normalized_label": "18apr"
+            },
+            {
+                "normalized_label": "19apr"
+            },
+            {
+                "normalized_label": "20apr"
+            },
+            {
+                "normalized_label": "21apr"
+            },
+            {
+                "normalized_label": "22apr"
+            },
+            {
+                "normalized_label": "23apr"
+            },
+            {
+                "normalized_label": "24apr"
+            },
+            {
+                "normalized_label": "25apr"
+            },
+            {
+                "normalized_label": "26apr"
+            },
+            {
+                "normalized_label": "27apr"
+            },
+            {
+                "normalized_label": "28apr"
+            },
+            {
+                "normalized_label": "29apr"
+            },
+            {
+                "normalized_label": "30apr"
+            },
+            {
+                "normalized_label": "1may"
+            },
+            {
+                "normalized_label": "2may"
+            },
+            {
+                "normalized_label": "3may"
+            },
+            {
+                "normalized_label": "4may"
+            },
+            {
+                "normalized_label": "5may"
+            },
+            {
+                "normalized_label": "6may"
+            },
+            {
+                "normalized_label": "8may"
+            },
+            {
+                "normalized_label": "9may"
+            },
+            {
+                "normalized_label": "10may"
+            },
+            {
+                "normalized_label": "11may"
+            },
+            {
+                "normalized_label": "7may"
+            },
+            {
+                "normalized_label": "12may"
+            },
+            {
+                "normalized_label": "13may"
+            },
+            {
+                "normalized_label": "14may"
+            },
+            {
+                "normalized_label": "15may"
+            },
+            {
+                "normalized_label": "16may"
+            },
+            {
+                "normalized_label": "17may"
+            },
+            {
+                "normalized_label": "18may"
+            },
+            {
+                "normalized_label": "19may"
+            },
+            {
+                "normalized_label": "20may"
+            },
+            {
+                "normalized_label": "22may"
+            },
+            {
+                "normalized_label": "21may"
+            },
+            {
+                "normalized_label": "23may"
+            },
+            {
+                "normalized_label": "24may"
+            },
+            {
+                "normalized_label": "25may"
+            },
+            {
+                "normalized_label": "26may"
+            },
+            {
+                "normalized_label": "27may"
+            },
+            {
+                "normalized_label": "28may"
+            },
+            {
+                "normalized_label": "29may"
+            },
+            {
+                "normalized_label": "30may"
+            },
+            {
+                "normalized_label": "31may"
+            },
+            {
+                "normalized_label": "1jun"
+            },
+            {
+                "normalized_label": "2jun"
+            },
+            {
+                "normalized_label": "3jun"
+            },
+            {
+                "normalized_label": "4jun"
+            },
+            {
+                "normalized_label": "5jun"
+            },
+            {
+                "normalized_label": "6jun"
+            },
+            {
+                "normalized_label": "7jun"
+            },
+            {
+                "normalized_label": "8jun"
+            },
+            {
+                "normalized_label": "9jun"
+            },
+            {
+                "normalized_label": "10jun"
+            },
+            {
+                "normalized_label": "11jun"
+            },
+            {
+                "normalized_label": "12jun"
+            },
+            {
+                "normalized_label": "13jun"
+            },
+            {
+                "normalized_label": "14jun"
+            },
+            {
+                "normalized_label": "15jun"
+            },
+            {
+                "normalized_label": "16jun"
+            },
+            {
+                "normalized_label": "17jun"
+            },
+            {
+                "normalized_label": "18jun"
+            },
+            {
+                "normalized_label": "19jun"
+            },
+            {
+                "normalized_label": "20jun"
+            },
+            {
+                "normalized_label": "21jun"
+            },
+            {
+                "normalized_label": "22jun"
+            },
+            {
+                "normalized_label": "23jun"
+            },
+            {
+                "normalized_label": "24jun"
+            },
+            {
+                "normalized_label": "25jun"
+            },
+            {
+                "normalized_label": "26jun"
+            },
+            {
+                "normalized_label": "27jun"
+            },
+            {
+                "normalized_label": "28jun"
+            },
+            {
+                "normalized_label": "29jun"
+            },
+            {
+                "normalized_label": "30jun"
+            },
+            {
+                "normalized_label": "1jul"
+            },
+            {
+                "normalized_label": "2jul"
+            },
+            {
+                "normalized_label": "3jul"
+            },
+            {
+                "normalized_label": "4jul"
+            },
+            {
+                "normalized_label": "5jul"
+            },
+            {
+                "normalized_label": "6jul"
+            },
+            {
+                "normalized_label": "7jul"
+            },
+            {
+                "normalized_label": "8jul"
+            },
+            {
+                "normalized_label": "9jul"
+            },
+            {
+                "normalized_label": "10jul"
+            },
+            {
+                "normalized_label": "11jul"
+            },
+            {
+                "normalized_label": "12jul"
+            },
+            {
+                "normalized_label": "13jul"
+            },
+            {
+                "normalized_label": "14jul"
+            },
+            {
+                "normalized_label": "15jul"
+            },
+            {
+                "normalized_label": "16jul"
+            },
+            {
+                "normalized_label": "17jul"
+            },
+            {
+                "normalized_label": "18jul"
+            },
+            {
+                "normalized_label": "19jul"
+            },
+            {
+                "normalized_label": "20jul"
+            },
+            {
+                "normalized_label": "21jul"
+            },
+            {
+                "normalized_label": "22jul"
+            },
+            {
+                "normalized_label": "23jul"
+            },
+            {
+                "normalized_label": "24jul"
+            },
+            {
+                "normalized_label": "25jul"
+            },
+            {
+                "normalized_label": "26jul"
+            },
+            {
+                "normalized_label": "27jul"
+            },
+            {
+                "normalized_label": "28jul"
+            },
+            {
+                "normalized_label": "29jul"
+            },
+            {
+                "normalized_label": "30jul"
+            },
+            {
+                "normalized_label": "31jul"
+            },
+            {
+                "normalized_label": "1aug"
+            },
+            {
+                "normalized_label": "2aug"
+            },
+            {
+                "normalized_label": "3aug"
+            },
+            {
+                "normalized_label": "4aug"
+            },
+            {
+                "normalized_label": "5aug"
+            },
+            {
+                "normalized_label": "6aug"
+            },
+            {
+                "normalized_label": "7aug"
+            },
+            {
+                "normalized_label": "8aug"
+            },
+            {
+                "normalized_label": "9aug"
+            },
+            {
+                "normalized_label": "10aug"
+            },
+            {
+                "normalized_label": "11aug"
+            },
+            {
+                "normalized_label": "12aug"
+            },
+            {
+                "normalized_label": "13aug"
+            },
+            {
+                "normalized_label": "14aug"
+            },
+            {
+                "normalized_label": "15aug"
+            },
+            {
+                "normalized_label": "16aug"
+            },
+            {
+                "normalized_label": "17aug"
+            },
+            {
+                "normalized_label": "18aug"
+            },
+            {
+                "normalized_label": "19aug"
+            },
+            {
+                "normalized_label": "20aug"
+            },
+            {
+                "normalized_label": "21aug"
+            },
+            {
+                "normalized_label": "22aug"
+            },
+            {
+                "normalized_label": "23aug"
+            },
+            {
+                "normalized_label": "24aug"
+            },
+            {
+                "normalized_label": "25aug"
+            },
+            {
+                "normalized_label": "26aug"
+            },
+            {
+                "normalized_label": "27aug"
+            },
+            {
+                "normalized_label": "28aug"
+            },
+            {
+                "normalized_label": "29aug"
+            },
+            {
+                "normalized_label": "30aug"
+            },
+            {
+                "normalized_label": "1sep"
+            },
+            {
+                "normalized_label": "31aug"
+            },
+            {
+                "normalized_label": "2sep"
+            },
+            {
+                "normalized_label": "3sep"
+            },
+            {
+                "normalized_label": "4sep"
+            },
+            {
+                "normalized_label": "5sep"
+            },
+            {
+                "normalized_label": "6sep"
+            },
+            {
+                "normalized_label": "7sep"
+            },
+            {
+                "normalized_label": "8sep"
+            },
+            {
+                "normalized_label": "9sep"
+            },
+            {
+                "normalized_label": "10sep"
+            },
+            {
+                "normalized_label": "11sep"
+            },
+            {
+                "normalized_label": "12sep"
+            },
+            {
+                "normalized_label": "13sep"
+            },
+            {
+                "normalized_label": "14sep"
+            },
+            {
+                "normalized_label": "15sep"
+            },
+            {
+                "normalized_label": "16sep"
+            },
+            {
+                "normalized_label": "17sep"
+            },
+            {
+                "normalized_label": "18sep"
+            },
+            {
+                "normalized_label": "19sep"
+            },
+            {
+                "normalized_label": "20sep"
+            },
+            {
+                "normalized_label": "21sep"
+            },
+            {
+                "normalized_label": "22sep"
+            },
+            {
+                "normalized_label": "23sep"
+            },
+            {
+                "normalized_label": "24sep"
+            },
+            {
+                "normalized_label": "25sep"
+            },
+            {
+                "normalized_label": "26sep"
+            },
+            {
+                "normalized_label": "27sep"
+            },
+            {
+                "normalized_label": "28sep"
+            },
+            {
+                "normalized_label": "29sep"
+            },
+            {
+                "normalized_label": "30sep"
+            },
+            {
+                "normalized_label": "1oct"
+            },
+            {
+                "normalized_label": "2oct"
+            },
+            {
+                "normalized_label": "3oct"
+            },
+            {
+                "normalized_label": "4oct"
+            },
+            {
+                "normalized_label": "5oct"
+            },
+            {
+                "normalized_label": "6oct"
+            },
+            {
+                "normalized_label": "7oct"
+            },
+            {
+                "normalized_label": "8oct"
+            },
+            {
+                "normalized_label": "9oct"
+            },
+            {
+                "normalized_label": "10oct"
+            },
+            {
+                "normalized_label": "11oct"
+            },
+            {
+                "normalized_label": "12oct"
+            },
+            {
+                "normalized_label": "13oct"
+            },
+            {
+                "normalized_label": "14oct"
+            },
+            {
+                "normalized_label": "15oct"
+            },
+            {
+                "normalized_label": "16oct"
+            },
+            {
+                "normalized_label": "17oct"
+            },
+            {
+                "normalized_label": "18oct"
+            },
+            {
+                "normalized_label": "19oct"
+            },
+            {
+                "normalized_label": "20oct"
+            },
+            {
+                "normalized_label": "21oct"
+            },
+            {
+                "normalized_label": "22oct"
+            },
+            {
+                "normalized_label": "23oct"
+            },
+            {
+                "normalized_label": "24oct"
+            },
+            {
+                "normalized_label": "25oct"
+            },
+            {
+                "normalized_label": "26oct"
+            },
+            {
+                "normalized_label": "27oct"
+            },
+            {
+                "normalized_label": "28oct"
+            },
+            {
+                "normalized_label": "29oct"
+            },
+            {
+                "normalized_label": "30oct"
+            },
+            {
+                "normalized_label": "31oct"
+            },
+            {
+                "normalized_label": "1nov"
+            },
+            {
+                "normalized_label": "2nov"
+            },
+            {
+                "normalized_label": "3nov"
+            },
+            {
+                "normalized_label": "4nov"
+            },
+            {
+                "normalized_label": "5nov"
+            },
+            {
+                "normalized_label": "6nov"
+            },
+            {
+                "normalized_label": "7nov"
+            },
+            {
+                "normalized_label": "8nov"
+            },
+            {
+                "normalized_label": "9nov"
+            },
+            {
+                "normalized_label": "10nov"
+            },
+            {
+                "normalized_label": "11nov"
+            },
+            {
+                "normalized_label": "12nov"
+            },
+            {
+                "normalized_label": "13nov"
+            },
+            {
+                "normalized_label": "14nov"
+            },
+            {
+                "normalized_label": "15nov"
+            },
+            {
+                "normalized_label": "16nov"
+            },
+            {
+                "normalized_label": "17nov"
+            },
+            {
+                "normalized_label": "18nov"
+            },
+            {
+                "normalized_label": "20nov"
+            },
+            {
+                "normalized_label": "19nov"
+            },
+            {
+                "normalized_label": "22nov"
+            },
+            {
+                "normalized_label": "21nov"
+            },
+            {
+                "normalized_label": "24nov"
+            },
+            {
+                "normalized_label": "23nov"
+            },
+            {
+                "normalized_label": "25nov"
+            },
+            {
+                "normalized_label": "26nov"
+            },
+            {
+                "normalized_label": "27nov"
+            },
+            {
+                "normalized_label": "28nov"
+            },
+            {
+                "normalized_label": "29nov"
+            },
+            {
+                "normalized_label": "30nov"
+            },
+            {
+                "normalized_label": "1dec"
+            },
+            {
+                "normalized_label": "2dec"
+            },
+            {
+                "normalized_label": "3dec"
+            },
+            {
+                "normalized_label": "4dec"
+            },
+            {
+                "normalized_label": "5dec"
+            },
+            {
+                "normalized_label": "6dec"
+            },
+            {
+                "normalized_label": "7dec"
+            },
+            {
+                "normalized_label": "8dec"
+            },
+            {
+                "normalized_label": "9dec"
+            },
+            {
+                "normalized_label": "10dec"
+            },
+            {
+                "normalized_label": "11dec"
+            },
+            {
+                "normalized_label": "12dec"
+            },
+            {
+                "normalized_label": "13dec"
+            },
+            {
+                "normalized_label": "14dec"
+            },
+            {
+                "normalized_label": "15dec"
+            },
+            {
+                "normalized_label": "16dec"
+            },
+            {
+                "normalized_label": "17dec"
+            },
+            {
+                "normalized_label": "18dec"
+            },
+            {
+                "normalized_label": "19dec"
+            },
+            {
+                "normalized_label": "20dec"
+            },
+            {
+                "normalized_label": "21dec"
+            },
+            {
+                "normalized_label": "22dec"
+            },
+            {
+                "normalized_label": "23dec"
+            },
+            {
+                "normalized_label": "24dec"
+            },
+            {
+                "normalized_label": "25dec"
+            },
+            {
+                "normalized_label": "26dec"
+            },
+            {
+                "normalized_label": "27dec"
+            },
+            {
+                "normalized_label": "28dec"
+            },
+            {
+                "normalized_label": "29dec"
+            },
+            {
+                "normalized_label": "30dec"
+            },
+            {
+                "normalized_label": "31dec"
+            }
+        ]
+    }
+}

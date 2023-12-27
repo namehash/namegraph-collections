@@ -1,0 +1,467 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "psalms-club",
+        "collection_name": "PsalmsClub",
+        "collection_description": "1st club of NFTs based on Ens domains of religious character in the world.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "psalm1"
+            },
+            {
+                "normalized_label": "psalm10"
+            },
+            {
+                "normalized_label": "psalm100"
+            },
+            {
+                "normalized_label": "psalm101"
+            },
+            {
+                "normalized_label": "psalm102"
+            },
+            {
+                "normalized_label": "psalm103"
+            },
+            {
+                "normalized_label": "psalm104"
+            },
+            {
+                "normalized_label": "psalm105"
+            },
+            {
+                "normalized_label": "psalm106"
+            },
+            {
+                "normalized_label": "psalm107"
+            },
+            {
+                "normalized_label": "psalm108"
+            },
+            {
+                "normalized_label": "psalm109"
+            },
+            {
+                "normalized_label": "psalm11"
+            },
+            {
+                "normalized_label": "psalm110"
+            },
+            {
+                "normalized_label": "psalm111"
+            },
+            {
+                "normalized_label": "psalm112"
+            },
+            {
+                "normalized_label": "psalm113"
+            },
+            {
+                "normalized_label": "psalm114"
+            },
+            {
+                "normalized_label": "psalm115"
+            },
+            {
+                "normalized_label": "psalm116"
+            },
+            {
+                "normalized_label": "psalm117"
+            },
+            {
+                "normalized_label": "psalm118"
+            },
+            {
+                "normalized_label": "psalm119"
+            },
+            {
+                "normalized_label": "psalm12"
+            },
+            {
+                "normalized_label": "psalm120"
+            },
+            {
+                "normalized_label": "psalm121"
+            },
+            {
+                "normalized_label": "psalm122"
+            },
+            {
+                "normalized_label": "psalm123"
+            },
+            {
+                "normalized_label": "psalm124"
+            },
+            {
+                "normalized_label": "psalm125"
+            },
+            {
+                "normalized_label": "psalm126"
+            },
+            {
+                "normalized_label": "psalm127"
+            },
+            {
+                "normalized_label": "psalm128"
+            },
+            {
+                "normalized_label": "psalm129"
+            },
+            {
+                "normalized_label": "psalm13"
+            },
+            {
+                "normalized_label": "psalm130"
+            },
+            {
+                "normalized_label": "psalm131"
+            },
+            {
+                "normalized_label": "psalm132"
+            },
+            {
+                "normalized_label": "psalm133"
+            },
+            {
+                "normalized_label": "psalm134"
+            },
+            {
+                "normalized_label": "psalm135"
+            },
+            {
+                "normalized_label": "psalm136"
+            },
+            {
+                "normalized_label": "psalm137"
+            },
+            {
+                "normalized_label": "psalm138"
+            },
+            {
+                "normalized_label": "psalm139"
+            },
+            {
+                "normalized_label": "psalm14"
+            },
+            {
+                "normalized_label": "psalm140"
+            },
+            {
+                "normalized_label": "psalm141"
+            },
+            {
+                "normalized_label": "psalm142"
+            },
+            {
+                "normalized_label": "psalm143"
+            },
+            {
+                "normalized_label": "psalm144"
+            },
+            {
+                "normalized_label": "psalm145"
+            },
+            {
+                "normalized_label": "psalm146"
+            },
+            {
+                "normalized_label": "psalm147"
+            },
+            {
+                "normalized_label": "psalm148"
+            },
+            {
+                "normalized_label": "psalm149"
+            },
+            {
+                "normalized_label": "psalm15"
+            },
+            {
+                "normalized_label": "psalm150"
+            },
+            {
+                "normalized_label": "psalm16"
+            },
+            {
+                "normalized_label": "psalm17"
+            },
+            {
+                "normalized_label": "psalm18"
+            },
+            {
+                "normalized_label": "psalm19"
+            },
+            {
+                "normalized_label": "psalm2"
+            },
+            {
+                "normalized_label": "psalm20"
+            },
+            {
+                "normalized_label": "psalm21"
+            },
+            {
+                "normalized_label": "psalm22"
+            },
+            {
+                "normalized_label": "psalm23"
+            },
+            {
+                "normalized_label": "psalm24"
+            },
+            {
+                "normalized_label": "psalm25"
+            },
+            {
+                "normalized_label": "psalm26"
+            },
+            {
+                "normalized_label": "psalm27"
+            },
+            {
+                "normalized_label": "psalm28"
+            },
+            {
+                "normalized_label": "psalm29"
+            },
+            {
+                "normalized_label": "psalm3"
+            },
+            {
+                "normalized_label": "psalm30"
+            },
+            {
+                "normalized_label": "psalm31"
+            },
+            {
+                "normalized_label": "psalm32"
+            },
+            {
+                "normalized_label": "psalm33"
+            },
+            {
+                "normalized_label": "psalm34"
+            },
+            {
+                "normalized_label": "psalm35"
+            },
+            {
+                "normalized_label": "psalm36"
+            },
+            {
+                "normalized_label": "psalm37"
+            },
+            {
+                "normalized_label": "psalm38"
+            },
+            {
+                "normalized_label": "psalm39"
+            },
+            {
+                "normalized_label": "psalm4"
+            },
+            {
+                "normalized_label": "psalm40"
+            },
+            {
+                "normalized_label": "psalm41"
+            },
+            {
+                "normalized_label": "psalm42"
+            },
+            {
+                "normalized_label": "psalm43"
+            },
+            {
+                "normalized_label": "psalm44"
+            },
+            {
+                "normalized_label": "psalm45"
+            },
+            {
+                "normalized_label": "psalm46"
+            },
+            {
+                "normalized_label": "psalm47"
+            },
+            {
+                "normalized_label": "psalm48"
+            },
+            {
+                "normalized_label": "psalm49"
+            },
+            {
+                "normalized_label": "psalm5"
+            },
+            {
+                "normalized_label": "psalm50"
+            },
+            {
+                "normalized_label": "psalm51"
+            },
+            {
+                "normalized_label": "psalm52"
+            },
+            {
+                "normalized_label": "psalm53"
+            },
+            {
+                "normalized_label": "psalm54"
+            },
+            {
+                "normalized_label": "psalm55"
+            },
+            {
+                "normalized_label": "psalm56"
+            },
+            {
+                "normalized_label": "psalm57"
+            },
+            {
+                "normalized_label": "psalm58"
+            },
+            {
+                "normalized_label": "psalm59"
+            },
+            {
+                "normalized_label": "psalm6"
+            },
+            {
+                "normalized_label": "psalm60"
+            },
+            {
+                "normalized_label": "psalm61"
+            },
+            {
+                "normalized_label": "psalm62"
+            },
+            {
+                "normalized_label": "psalm63"
+            },
+            {
+                "normalized_label": "psalm64"
+            },
+            {
+                "normalized_label": "psalm65"
+            },
+            {
+                "normalized_label": "psalm66"
+            },
+            {
+                "normalized_label": "psalm67"
+            },
+            {
+                "normalized_label": "psalm68"
+            },
+            {
+                "normalized_label": "psalm69"
+            },
+            {
+                "normalized_label": "psalm7"
+            },
+            {
+                "normalized_label": "psalm70"
+            },
+            {
+                "normalized_label": "psalm71"
+            },
+            {
+                "normalized_label": "psalm72"
+            },
+            {
+                "normalized_label": "psalm73"
+            },
+            {
+                "normalized_label": "psalm74"
+            },
+            {
+                "normalized_label": "psalm75"
+            },
+            {
+                "normalized_label": "psalm76"
+            },
+            {
+                "normalized_label": "psalm77"
+            },
+            {
+                "normalized_label": "psalm78"
+            },
+            {
+                "normalized_label": "psalm79"
+            },
+            {
+                "normalized_label": "psalm8"
+            },
+            {
+                "normalized_label": "psalm80"
+            },
+            {
+                "normalized_label": "psalm81"
+            },
+            {
+                "normalized_label": "psalm82"
+            },
+            {
+                "normalized_label": "psalm83"
+            },
+            {
+                "normalized_label": "psalm84"
+            },
+            {
+                "normalized_label": "psalm85"
+            },
+            {
+                "normalized_label": "psalm86"
+            },
+            {
+                "normalized_label": "psalm87"
+            },
+            {
+                "normalized_label": "psalm88"
+            },
+            {
+                "normalized_label": "psalm89"
+            },
+            {
+                "normalized_label": "psalm9"
+            },
+            {
+                "normalized_label": "psalm90"
+            },
+            {
+                "normalized_label": "psalm91"
+            },
+            {
+                "normalized_label": "psalm92"
+            },
+            {
+                "normalized_label": "psalm93"
+            },
+            {
+                "normalized_label": "psalm94"
+            },
+            {
+                "normalized_label": "psalm95"
+            },
+            {
+                "normalized_label": "psalm96"
+            },
+            {
+                "normalized_label": "psalm97"
+            },
+            {
+                "normalized_label": "psalm98"
+            },
+            {
+                "normalized_label": "psalm99"
+            }
+        ]
+    }
+}

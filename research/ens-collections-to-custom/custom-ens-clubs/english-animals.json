@@ -1,0 +1,5504 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "english-animals",
+        "collection_name": "English Animals",
+        "collection_description": "Animals in the English language.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "abadejodealaska"
+            },
+            {
+                "normalized_label": "abeja"
+            },
+            {
+                "normalized_label": "abejarucoeuropeo"
+            },
+            {
+                "normalized_label": "abejarucoverde"
+            },
+            {
+                "normalized_label": "abejorro"
+            },
+            {
+                "normalized_label": "abisinio"
+            },
+            {
+                "normalized_label": "abubilla"
+            },
+            {
+                "normalized_label": "acentorcomún"
+            },
+            {
+                "normalized_label": "acriopteramanga"
+            },
+            {
+                "normalized_label": "addax"
+            },
+            {
+                "normalized_label": "adormecido"
+            },
+            {
+                "normalized_label": "affenpinscher"
+            },
+            {
+                "normalized_label": "agrupador"
+            },
+            {
+                "normalized_label": "aguilucho"
+            },
+            {
+                "normalized_label": "aguja"
+            },
+            {
+                "normalized_label": "agujanegra"
+            },
+            {
+                "normalized_label": "aidi"
+            },
+            {
+                "normalized_label": "aino"
+            },
+            {
+                "normalized_label": "airedaleterrier"
+            },
+            {
+                "normalized_label": "ajolote"
+            },
+            {
+                "normalized_label": "akbash"
+            },
+            {
+                "normalized_label": "akita"
+            },
+            {
+                "normalized_label": "alabai"
+            },
+            {
+                "normalized_label": "alaskakleekai"
+            },
+            {
+                "normalized_label": "albatros"
+            },
+            {
+                "normalized_label": "albatroserrante"
+            },
+            {
+                "normalized_label": "alce"
+            },
+            {
+                "normalized_label": "aletadeballena"
+            },
+            {
+                "normalized_label": "aletadeproa"
+            },
+            {
+                "normalized_label": "algodóndetulear"
+            },
+            {
+                "normalized_label": "alionín"
+            },
+            {
+                "normalized_label": "almejagigante"
+            },
+            {
+                "normalized_label": "alosaurio"
+            },
+            {
+                "normalized_label": "alpaca"
+            },
+            {
+                "normalized_label": "alsacianoamericano"
+            },
+            {
+                "normalized_label": "alusky"
+            },
+            {
+                "normalized_label": "amargasaurio"
+            },
+            {
+                "normalized_label": "americanstaffordshireterrier"
+            },
+            {
+                "normalized_label": "anaconda"
+            },
+            {
+                "normalized_label": "anacondaamarilla"
+            },
+            {
+                "normalized_label": "anacondaboliviana"
+            },
+            {
+                "normalized_label": "anacondaverde"
+            },
+            {
+                "normalized_label": "anchoa"
+            },
+            {
+                "normalized_label": "anchoas"
+            },
+            {
+                "normalized_label": "angelote"
+            },
+            {
+                "normalized_label": "angoraturca"
+            },
+            {
+                "normalized_label": "anguila"
+            },
+            {
+                "normalized_label": "anguilabanana"
+            },
+            {
+                "normalized_label": "anguiladeaguadulce"
+            },
+            {
+                "normalized_label": "anguiladecinta"
+            },
+            {
+                "normalized_label": "anguiladefuego"
+            },
+            {
+                "normalized_label": "anguiladejardín"
+            },
+            {
+                "normalized_label": "anguilaelectrica"
+            },
+            {
+                "normalized_label": "anguilahuelladeneumático"
+            },
+            {
+                "normalized_label": "anguilalobo"
+            },
+            {
+                "normalized_label": "anolisverde"
+            },
+            {
+                "normalized_label": "anomalocaris"
+            },
+            {
+                "normalized_label": "antílope"
+            },
+            {
+                "normalized_label": "anémonademar"
+            },
+            {
+                "normalized_label": "arapaima"
+            },
+            {
+                "normalized_label": "araña"
+            },
+            {
+                "normalized_label": "arañacamello"
+            },
+            {
+                "normalized_label": "arañacangrejo"
+            },
+            {
+                "normalized_label": "arañacazadora"
+            },
+            {
+                "normalized_label": "arañacochinilla"
+            },
+            {
+                "normalized_label": "arañacomúndelacasa"
+            },
+            {
+                "normalized_label": "arañadeescritura"
+            },
+            {
+                "normalized_label": "arañadeespaldaroja"
+            },
+            {
+                "normalized_label": "arañadeplátano"
+            },
+            {
+                "normalized_label": "arañadesacoamarillo"
+            },
+            {
+                "normalized_label": "arañajoro"
+            },
+            {
+                "normalized_label": "arañalobo"
+            },
+            {
+                "normalized_label": "arañapavoreal"
+            },
+            {
+                "normalized_label": "arañasaltadora"
+            },
+            {
+                "normalized_label": "arañaviudafalsa"
+            },
+            {
+                "normalized_label": "arañaviudanegro"
+            },
+            {
+                "normalized_label": "arctodus"
+            },
+            {
+                "normalized_label": "arctoterio"
+            },
+            {
+                "normalized_label": "ardilla"
+            },
+            {
+                "normalized_label": "ardilladepalmaindia"
+            },
+            {
+                "normalized_label": "ardilladetierra"
+            },
+            {
+                "normalized_label": "ardillagiganteindia"
+            },
+            {
+                "normalized_label": "ardillagrisoriental"
+            },
+            {
+                "normalized_label": "ardillajaponesa"
+            },
+            {
+                "normalized_label": "ardillalistada"
+            },
+            {
+                "normalized_label": "ardillalistadaoriental"
+            },
+            {
+                "normalized_label": "ardillaroja"
+            },
+            {
+                "normalized_label": "ardillavoladora"
+            },
+            {
+                "normalized_label": "ardillazorro"
+            },
+            {
+                "normalized_label": "arenque"
+            },
+            {
+                "normalized_label": "armadillo"
+            },
+            {
+                "normalized_label": "armadillogigante"
+            },
+            {
+                "normalized_label": "armadillohadarosa"
+            },
+            {
+                "normalized_label": "armiño"
+            },
+            {
+                "normalized_label": "arowanaasiático"
+            },
+            {
+                "normalized_label": "arpía"
+            },
+            {
+                "normalized_label": "arqueoptérix"
+            },
+            {
+                "normalized_label": "arqueoterio"
+            },
+            {
+                "normalized_label": "arrendajoazul"
+            },
+            {
+                "normalized_label": "arrendajoeuroasiático"
+            },
+            {
+                "normalized_label": "ascidia"
+            },
+            {
+                "normalized_label": "asesino"
+            },
+            {
+                "normalized_label": "atigradodetennessee"
+            },
+            {
+                "normalized_label": "atún"
+            },
+            {
+                "normalized_label": "atúndealetaamarilla"
+            },
+            {
+                "normalized_label": "atúnlistado"
+            },
+            {
+                "normalized_label": "atúnrojo"
+            },
+            {
+                "normalized_label": "aussiedoodle"
+            },
+            {
+                "normalized_label": "australiano"
+            },
+            {
+                "normalized_label": "australopiteco"
+            },
+            {
+                "normalized_label": "avedelparaiso"
+            },
+            {
+                "normalized_label": "avelira"
+            },
+            {
+                "normalized_label": "avequeleadepicorojo"
+            },
+            {
+                "normalized_label": "avetropical"
+            },
+            {
+                "normalized_label": "avesdelajungla"
+            },
+            {
+                "normalized_label": "avestruz"
+            },
+            {
+                "normalized_label": "avispa"
+            },
+            {
+                "normalized_label": "avispaaraña"
+            },
+            {
+                "normalized_label": "avispanegra"
+            },
+            {
+                "normalized_label": "avispón"
+            },
+            {
+                "normalized_label": "avispóngiganteasiático"
+            },
+            {
+                "normalized_label": "avoceta"
+            },
+            {
+                "normalized_label": "avutardakori"
+            },
+            {
+                "normalized_label": "azor"
+            },
+            {
+                "normalized_label": "azulruso"
+            },
+            {
+                "normalized_label": "babirusa"
+            },
+            {
+                "normalized_label": "babosa"
+            },
+            {
+                "normalized_label": "babosademar"
+            },
+            {
+                "normalized_label": "babuino"
+            },
+            {
+                "normalized_label": "babuinodeoliva"
+            },
+            {
+                "normalized_label": "bacalao"
+            },
+            {
+                "normalized_label": "bagre"
+            },
+            {
+                "normalized_label": "bagreazul"
+            },
+            {
+                "normalized_label": "bagrebanjo"
+            },
+            {
+                "normalized_label": "bagrecabezadura"
+            },
+            {
+                "normalized_label": "bagrecaminando"
+            },
+            {
+                "normalized_label": "bagredecolaroja"
+            },
+            {
+                "normalized_label": "bagreeléctrico"
+            },
+            {
+                "normalized_label": "bagrefantasma"
+            },
+            {
+                "normalized_label": "bagregigantedelmekong"
+            },
+            {
+                "normalized_label": "bagregonch"
+            },
+            {
+                "normalized_label": "bagrewels"
+            },
+            {
+                "normalized_label": "bahía"
+            },
+            {
+                "normalized_label": "baiji"
+            },
+            {
+                "normalized_label": "bajista"
+            },
+            {
+                "normalized_label": "bajo"
+            },
+            {
+                "normalized_label": "balinés"
+            },
+            {
+                "normalized_label": "ballena"
+            },
+            {
+                "normalized_label": "ballenaasesina"
+            },
+            {
+                "normalized_label": "ballenaasesinafalsa"
+            },
+            {
+                "normalized_label": "ballenaazul"
+            },
+            {
+                "normalized_label": "ballenabarbada"
+            },
+            {
+                "normalized_label": "ballenajorobada"
+            },
+            {
+                "normalized_label": "ballenaminke"
+            },
+            {
+                "normalized_label": "ballenasei"
+            },
+            {
+                "normalized_label": "banderinesortolanos"
+            },
+            {
+                "normalized_label": "bandicutbarradodeleste"
+            },
+            {
+                "normalized_label": "bandido"
+            },
+            {
+                "normalized_label": "barbillajaponesa"
+            },
+            {
+                "normalized_label": "barbudo"
+            },
+            {
+                "normalized_label": "barracuda"
+            },
+            {
+                "normalized_label": "barrenadoreuropeodelmaíz"
+            },
+            {
+                "normalized_label": "basilisco"
+            },
+            {
+                "normalized_label": "basilosaurio"
+            },
+            {
+                "normalized_label": "bassetfauvedebretaña"
+            },
+            {
+                "normalized_label": "bassetoodle"
+            },
+            {
+                "normalized_label": "bea-tzu"
+            },
+            {
+                "normalized_label": "beabull"
+            },
+            {
+                "normalized_label": "beagle"
+            },
+            {
+                "normalized_label": "beagledebolsillo"
+            },
+            {
+                "normalized_label": "beago"
+            },
+            {
+                "normalized_label": "beaski"
+            },
+            {
+                "normalized_label": "beauceron"
+            },
+            {
+                "normalized_label": "begador"
+            },
+            {
+                "normalized_label": "behemot"
+            },
+            {
+                "normalized_label": "bergamasco"
+            },
+            {
+                "normalized_label": "bernedoodle"
+            },
+            {
+                "normalized_label": "berrendo"
+            },
+            {
+                "normalized_label": "bichir"
+            },
+            {
+                "normalized_label": "bichpoo"
+            },
+            {
+                "normalized_label": "bichónfrisé"
+            },
+            {
+                "normalized_label": "bichónhabanero"
+            },
+            {
+                "normalized_label": "bichónyorkie"
+            },
+            {
+                "normalized_label": "bilby"
+            },
+            {
+                "normalized_label": "binturong"
+            },
+            {
+                "normalized_label": "birmano"
+            },
+            {
+                "normalized_label": "bisonte"
+            },
+            {
+                "normalized_label": "bisontedemadera"
+            },
+            {
+                "normalized_label": "bleniocortacésped"
+            },
+            {
+                "normalized_label": "boaamazónica"
+            },
+            {
+                "normalized_label": "boaarcoiris"
+            },
+            {
+                "normalized_label": "boacomún"
+            },
+            {
+                "normalized_label": "boacubana"
+            },
+            {
+                "normalized_label": "boadearenadekenia"
+            },
+            {
+                "normalized_label": "boadecolaroja"
+            },
+            {
+                "normalized_label": "boadedumeril"
+            },
+            {
+                "normalized_label": "boadegoma"
+            },
+            {
+                "normalized_label": "boadelárboldemadagascar"
+            },
+            {
+                "normalized_label": "boaenana"
+            },
+            {
+                "normalized_label": "boajamaicana"
+            },
+            {
+                "normalized_label": "boarosada"
+            },
+            {
+                "normalized_label": "boas"
+            },
+            {
+                "normalized_label": "bobo"
+            },
+            {
+                "normalized_label": "boboenlace"
+            },
+            {
+                "normalized_label": "bocadealgodón"
+            },
+            {
+                "normalized_label": "boiga"
+            },
+            {
+                "normalized_label": "bombay"
+            },
+            {
+                "normalized_label": "bongó"
+            },
+            {
+                "normalized_label": "bonobo"
+            },
+            {
+                "normalized_label": "boomslang"
+            },
+            {
+                "normalized_label": "borador"
+            },
+            {
+                "normalized_label": "bordillo"
+            },
+            {
+                "normalized_label": "borracho"
+            },
+            {
+                "normalized_label": "borregocimarrón"
+            },
+            {
+                "normalized_label": "bosquenoruego"
+            },
+            {
+                "normalized_label": "bouvierdesflandres"
+            },
+            {
+                "normalized_label": "boxador"
+            },
+            {
+                "normalized_label": "boxeador"
+            },
+            {
+                "normalized_label": "boxweiler"
+            },
+            {
+                "normalized_label": "bracoalemándepelocorto"
+            },
+            {
+                "normalized_label": "braquiosaurio"
+            },
+            {
+                "normalized_label": "bretaña"
+            },
+            {
+                "normalized_label": "brontosaurio"
+            },
+            {
+                "normalized_label": "brookesiamicra"
+            },
+            {
+                "normalized_label": "brujas"
+            },
+            {
+                "normalized_label": "buey"
+            },
+            {
+                "normalized_label": "bueyalmizclero"
+            },
+            {
+                "normalized_label": "buhocarabo"
+            },
+            {
+                "normalized_label": "buhonevado"
+            },
+            {
+                "normalized_label": "buhundnoruego"
+            },
+            {
+                "normalized_label": "buitre"
+            },
+            {
+                "normalized_label": "buitredecabezaroja"
+            },
+            {
+                "normalized_label": "buitreleonado"
+            },
+            {
+                "normalized_label": "buitrenegro"
+            },
+            {
+                "normalized_label": "buitreorejudo"
+            },
+            {
+                "normalized_label": "buitrerey"
+            },
+            {
+                "normalized_label": "buldog"
+            },
+            {
+                "normalized_label": "bullterrier"
+            },
+            {
+                "normalized_label": "bullterrierminiatura"
+            },
+            {
+                "normalized_label": "bulldogamericano"
+            },
+            {
+                "normalized_label": "bulldogaustraliano"
+            },
+            {
+                "normalized_label": "bulldogfrancés"
+            },
+            {
+                "normalized_label": "bulldoginglés"
+            },
+            {
+                "normalized_label": "bullmastiff"
+            },
+            {
+                "normalized_label": "burro"
+            },
+            {
+                "normalized_label": "búfala"
+            },
+            {
+                "normalized_label": "búfalo"
+            },
+            {
+                "normalized_label": "búfalodeagua"
+            },
+            {
+                "normalized_label": "búho"
+            },
+            {
+                "normalized_label": "búhobarrado"
+            },
+            {
+                "normalized_label": "búhochico"
+            },
+            {
+                "normalized_label": "búhoenmascaradodorado"
+            },
+            {
+                "normalized_label": "búhoural"
+            },
+            {
+                "normalized_label": "caballero"
+            },
+            {
+                "normalized_label": "caballitodemar"
+            },
+            {
+                "normalized_label": "caballo"
+            },
+            {
+                "normalized_label": "caballocanadiense"
+            },
+            {
+                "normalized_label": "caballodemar"
+            },
+            {
+                "normalized_label": "caballoquecaminadetennessee"
+            },
+            {
+                "normalized_label": "cabezadecobre"
+            },
+            {
+                "normalized_label": "cabezadevenadochihuahua"
+            },
+            {
+                "normalized_label": "cabra"
+            },
+            {
+                "normalized_label": "cabraalpina"
+            },
+            {
+                "normalized_label": "cabradeangora"
+            },
+            {
+                "normalized_label": "cabradecachemira"
+            },
+            {
+                "normalized_label": "cabraespañola"
+            },
+            {
+                "normalized_label": "cabrakiko"
+            },
+            {
+                "normalized_label": "cabralamancha"
+            },
+            {
+                "normalized_label": "cabramontés"
+            },
+            {
+                "normalized_label": "cabramontéssiberiano"
+            },
+            {
+                "normalized_label": "cabramásamable"
+            },
+            {
+                "normalized_label": "cabranigeriana"
+            },
+            {
+                "normalized_label": "cabranubia"
+            },
+            {
+                "normalized_label": "cabrapigmeaamericana"
+            },
+            {
+                "normalized_label": "cabrapigora"
+            },
+            {
+                "normalized_label": "cabrasaanen"
+            },
+            {
+                "normalized_label": "cabrasabana"
+            },
+            {
+                "normalized_label": "cacatúa"
+            },
+            {
+                "normalized_label": "cachalote"
+            },
+            {
+                "normalized_label": "cachorrodebarro"
+            },
+            {
+                "normalized_label": "caimán"
+            },
+            {
+                "normalized_label": "calamar"
+            },
+            {
+                "normalized_label": "calamarcolosal"
+            },
+            {
+                "normalized_label": "calamarhumboldt"
+            },
+            {
+                "normalized_label": "calamarvampiro"
+            },
+            {
+                "normalized_label": "camaleondejackson"
+            },
+            {
+                "normalized_label": "camaleón"
+            },
+            {
+                "normalized_label": "camarón"
+            },
+            {
+                "normalized_label": "camello"
+            },
+            {
+                "normalized_label": "camellobactriano"
+            },
+            {
+                "normalized_label": "campañoldeagua"
+            },
+            {
+                "normalized_label": "cangrejo"
+            },
+            {
+                "normalized_label": "cangrejodearena"
+            },
+            {
+                "normalized_label": "cangrejodeherradura"
+            },
+            {
+                "normalized_label": "cangrejodelasnieves"
+            },
+            {
+                "normalized_label": "cangrejodepiedra"
+            },
+            {
+                "normalized_label": "cangrejoderoca"
+            },
+            {
+                "normalized_label": "cangrejoermitaño"
+            },
+            {
+                "normalized_label": "cangrejofantasma"
+            },
+            {
+                "normalized_label": "cangrejojonás"
+            },
+            {
+                "normalized_label": "cangrejoreal"
+            },
+            {
+                "normalized_label": "cangrejorojodelaisladenavidad"
+            },
+            {
+                "normalized_label": "cangrejoviolinista"
+            },
+            {
+                "normalized_label": "cangrejoyeti"
+            },
+            {
+                "normalized_label": "canguro"
+            },
+            {
+                "normalized_label": "cangurodeárbol"
+            },
+            {
+                "normalized_label": "caniche"
+            },
+            {
+                "normalized_label": "capuchinodecarablanca"
+            },
+            {
+                "normalized_label": "caracaradecrestanorte"
+            },
+            {
+                "normalized_label": "caracol"
+            },
+            {
+                "normalized_label": "caracolgiganteafricano"
+            },
+            {
+                "normalized_label": "carbonerodecabezanegra"
+            },
+            {
+                "normalized_label": "cardenaldelnorte"
+            },
+            {
+                "normalized_label": "caribú"
+            },
+            {
+                "normalized_label": "carpa"
+            },
+            {
+                "normalized_label": "carpacruciana"
+            },
+            {
+                "normalized_label": "carpincho"
+            },
+            {
+                "normalized_label": "cascabel"
+            },
+            {
+                "normalized_label": "castor"
+            },
+            {
+                "normalized_label": "castoreuroasiático"
+            },
+            {
+                "normalized_label": "casuario"
+            },
+            {
+                "normalized_label": "cavatzu"
+            },
+            {
+                "normalized_label": "cavalierkingcharlesspaniel"
+            },
+            {
+                "normalized_label": "cavapoo"
+            },
+            {
+                "normalized_label": "cazadordemosquitosgrisazulado"
+            },
+            {
+                "normalized_label": "cazar"
+            },
+            {
+                "normalized_label": "cazón"
+            },
+            {
+                "normalized_label": "cañadadeimaalterrier"
+            },
+            {
+                "normalized_label": "cebra"
+            },
+            {
+                "normalized_label": "cebú"
+            },
+            {
+                "normalized_label": "ceciliano"
+            },
+            {
+                "normalized_label": "celacanto"
+            },
+            {
+                "normalized_label": "centauro"
+            },
+            {
+                "normalized_label": "centauros"
+            },
+            {
+                "normalized_label": "ceratosaurio"
+            },
+            {
+                "normalized_label": "cerbero"
+            },
+            {
+                "normalized_label": "cerdo"
+            },
+            {
+                "normalized_label": "cerdohormiguero"
+            },
+            {
+                "normalized_label": "cernícalo"
+            },
+            {
+                "normalized_label": "ceskyfousek"
+            },
+            {
+                "normalized_label": "chacal"
+            },
+            {
+                "normalized_label": "charlatán"
+            },
+            {
+                "normalized_label": "charránelegante"
+            },
+            {
+                "normalized_label": "chartreux"
+            },
+            {
+                "normalized_label": "cheagle"
+            },
+            {
+                "normalized_label": "chihuahua"
+            },
+            {
+                "normalized_label": "chihuahuacabezademanzana"
+            },
+            {
+                "normalized_label": "chimpancé"
+            },
+            {
+                "normalized_label": "chinches"
+            },
+            {
+                "normalized_label": "chinchilla"
+            },
+            {
+                "normalized_label": "chinook"
+            },
+            {
+                "normalized_label": "chipoo"
+            },
+            {
+                "normalized_label": "chiweenie"
+            },
+            {
+                "normalized_label": "chorlito"
+            },
+            {
+                "normalized_label": "chowchow"
+            },
+            {
+                "normalized_label": "chucho"
+            },
+            {
+                "normalized_label": "chupacabra"
+            },
+            {
+                "normalized_label": "cielodecaja"
+            },
+            {
+                "normalized_label": "ciempiés"
+            },
+            {
+                "normalized_label": "ciervo"
+            },
+            {
+                "normalized_label": "ciervoclave"
+            },
+            {
+                "normalized_label": "ciervodecolablanca"
+            },
+            {
+                "normalized_label": "cigarra"
+            },
+            {
+                "normalized_label": "cigüeña"
+            },
+            {
+                "normalized_label": "cigüeñamarabú"
+            },
+            {
+                "normalized_label": "cigüeñapicozapato"
+            },
+            {
+                "normalized_label": "cisne"
+            },
+            {
+                "normalized_label": "civetaafricana"
+            },
+            {
+                "normalized_label": "civetadepalmaafricana"
+            },
+            {
+                "normalized_label": "civetadepalmaasiática"
+            },
+            {
+                "normalized_label": "civetadepalmaenmascarada"
+            },
+            {
+                "normalized_label": "civetadepalmarayada"
+            },
+            {
+                "normalized_label": "civetamalaya"
+            },
+            {
+                "normalized_label": "coala"
+            },
+            {
+                "normalized_label": "coatí"
+            },
+            {
+                "normalized_label": "cobraamarilla"
+            },
+            {
+                "normalized_label": "cobrachina"
+            },
+            {
+                "normalized_label": "cobradeaguafalsa"
+            },
+            {
+                "normalized_label": "cobradehocico"
+            },
+            {
+                "normalized_label": "cobradelbosque"
+            },
+            {
+                "normalized_label": "cobraegipcia"
+            },
+            {
+                "normalized_label": "cobraescupidora"
+            },
+            {
+                "normalized_label": "cobraescupidoradecebra"
+            },
+            {
+                "normalized_label": "cobraescupidoraecuatorial"
+            },
+            {
+                "normalized_label": "cobraescupidoraroja"
+            },
+            {
+                "normalized_label": "cobrafalsa"
+            },
+            {
+                "normalized_label": "cobrafilipina"
+            },
+            {
+                "normalized_label": "cobraindia"
+            },
+            {
+                "normalized_label": "cobramonóculo"
+            },
+            {
+                "normalized_label": "cobrareal"
+            },
+            {
+                "normalized_label": "cobraárabe"
+            },
+            {
+                "normalized_label": "cobras"
+            },
+            {
+                "normalized_label": "cochinilla"
+            },
+            {
+                "normalized_label": "cockalero"
+            },
+            {
+                "normalized_label": "cocker"
+            },
+            {
+                "normalized_label": "cockeramericano"
+            },
+            {
+                "normalized_label": "cockerspanielingles"
+            },
+            {
+                "normalized_label": "coco"
+            },
+            {
+                "normalized_label": "cocodrilo"
+            },
+            {
+                "normalized_label": "cocodrilochino"
+            },
+            {
+                "normalized_label": "cocodrilodeaguadulce"
+            },
+            {
+                "normalized_label": "cocodrilodelnilo"
+            },
+            {
+                "normalized_label": "cocodriloenano"
+            },
+            {
+                "normalized_label": "codorniz"
+            },
+            {
+                "normalized_label": "cofre"
+            },
+            {
+                "normalized_label": "colibrí"
+            },
+            {
+                "normalized_label": "colibrígargantaderubí"
+            },
+            {
+                "normalized_label": "colimbocomún"
+            },
+            {
+                "normalized_label": "collie"
+            },
+            {
+                "normalized_label": "colliebarbudo"
+            },
+            {
+                "normalized_label": "colliedelafrontera"
+            },
+            {
+                "normalized_label": "comadreja"
+            },
+            {
+                "normalized_label": "cometamisisipí"
+            },
+            {
+                "normalized_label": "cometaroja"
+            },
+            {
+                "normalized_label": "compsognato"
+            },
+            {
+                "normalized_label": "condadodegriffon"
+            },
+            {
+                "normalized_label": "conejillodeindias"
+            },
+            {
+                "normalized_label": "conejo"
+            },
+            {
+                "normalized_label": "congrio"
+            },
+            {
+                "normalized_label": "coonhound"
+            },
+            {
+                "normalized_label": "coonhoundamericano"
+            },
+            {
+                "normalized_label": "coonhoundbluetick"
+            },
+            {
+                "normalized_label": "coonhounddehuesorojo"
+            },
+            {
+                "normalized_label": "coonhoundnegroyfuego"
+            },
+            {
+                "normalized_label": "coral"
+            },
+            {
+                "normalized_label": "corcho"
+            },
+            {
+                "normalized_label": "corgigalesdepembroke"
+            },
+            {
+                "normalized_label": "corgigalés"
+            },
+            {
+                "normalized_label": "corgidor"
+            },
+            {
+                "normalized_label": "corgipoo"
+            },
+            {
+                "normalized_label": "corredorazul"
+            },
+            {
+                "normalized_label": "corredordeleste"
+            },
+            {
+                "normalized_label": "corredornegrodelsur"
+            },
+            {
+                "normalized_label": "corsodecaña"
+            },
+            {
+                "normalized_label": "corzo"
+            },
+            {
+                "normalized_label": "coyote"
+            },
+            {
+                "normalized_label": "crestadorsaltailandesa"
+            },
+            {
+                "normalized_label": "crótalo"
+            },
+            {
+                "normalized_label": "cuagga"
+            },
+            {
+                "normalized_label": "cucaburra"
+            },
+            {
+                "normalized_label": "cucaracha"
+            },
+            {
+                "normalized_label": "cucarachaahumada"
+            },
+            {
+                "normalized_label": "cucarachaalemana"
+            },
+            {
+                "normalized_label": "cucarachaamericana"
+            },
+            {
+                "normalized_label": "cucarachaasiática"
+            },
+            {
+                "normalized_label": "cucarachaaustraliana"
+            },
+            {
+                "normalized_label": "cucarachacabezademuerte"
+            },
+            {
+                "normalized_label": "cucarachacubana"
+            },
+            {
+                "normalized_label": "cucarachadebandasmarrones"
+            },
+            {
+                "normalized_label": "cucarachadelosbosquesdeflorida"
+            },
+            {
+                "normalized_label": "cucarachademaderadepensilvania"
+            },
+            {
+                "normalized_label": "cucarachademar"
+            },
+            {
+                "normalized_label": "cucarachadubia"
+            },
+            {
+                "normalized_label": "cucarachasilbantedemadagascar"
+            },
+            {
+                "normalized_label": "cuco"
+            },
+            {
+                "normalized_label": "cucú"
+            },
+            {
+                "normalized_label": "cuervo"
+            },
+            {
+                "normalized_label": "cuervocomún"
+            },
+            {
+                "normalized_label": "cuervohawaiano"
+            },
+            {
+                "normalized_label": "currucacanadá"
+            },
+            {
+                "normalized_label": "currucacoronanaranja"
+            },
+            {
+                "normalized_label": "currucadesauce"
+            },
+            {
+                "normalized_label": "currucanegra"
+            },
+            {
+                "normalized_label": "cuscús"
+            },
+            {
+                "normalized_label": "cálao"
+            },
+            {
+                "normalized_label": "cíclido"
+            },
+            {
+                "normalized_label": "cíclope"
+            },
+            {
+                "normalized_label": "cóndor"
+            },
+            {
+                "normalized_label": "dachsador"
+            },
+            {
+                "normalized_label": "dachsbrackealpino"
+            },
+            {
+                "normalized_label": "daeodon"
+            },
+            {
+                "normalized_label": "dalmadoodle"
+            },
+            {
+                "normalized_label": "dalmador"
+            },
+            {
+                "normalized_label": "danio"
+            },
+            {
+                "normalized_label": "delfín"
+            },
+            {
+                "normalized_label": "delfíndelríoamazonas"
+            },
+            {
+                "normalized_label": "delfínnarizdebotella"
+            },
+            {
+                "normalized_label": "delfínoscuro"
+            },
+            {
+                "normalized_label": "delfínrosado"
+            },
+            {
+                "normalized_label": "demoniodetasmania"
+            },
+            {
+                "normalized_label": "descascarillador"
+            },
+            {
+                "normalized_label": "deslizadordeorejasrojas"
+            },
+            {
+                "normalized_label": "devonrex"
+            },
+            {
+                "normalized_label": "dhole"
+            },
+            {
+                "normalized_label": "diabloespinoso"
+            },
+            {
+                "normalized_label": "diablosentrenadorcaballoescarabajo"
+            },
+            {
+                "normalized_label": "dientedecolmillo"
+            },
+            {
+                "normalized_label": "dik-dik"
+            },
+            {
+                "normalized_label": "dingo"
+            },
+            {
+                "normalized_label": "diplodoco"
+            },
+            {
+                "normalized_label": "disco"
+            },
+            {
+                "normalized_label": "dogoargentino"
+            },
+            {
+                "normalized_label": "dogodeburdeos"
+            },
+            {
+                "normalized_label": "doguillo"
+            },
+            {
+                "normalized_label": "doodledorado"
+            },
+            {
+                "normalized_label": "dorador"
+            },
+            {
+                "normalized_label": "dorgi"
+            },
+            {
+                "normalized_label": "douc"
+            },
+            {
+                "normalized_label": "doxdorado"
+            },
+            {
+                "normalized_label": "doxiepoo"
+            },
+            {
+                "normalized_label": "doxle"
+            },
+            {
+                "normalized_label": "dragón"
+            },
+            {
+                "normalized_label": "dragónbarbudo"
+            },
+            {
+                "normalized_label": "dragóndeagua"
+            },
+            {
+                "normalized_label": "dragóndekomodo"
+            },
+            {
+                "normalized_label": "dragónmarino"
+            },
+            {
+                "normalized_label": "drever"
+            },
+            {
+                "normalized_label": "duende"
+            },
+            {
+                "normalized_label": "duendes"
+            },
+            {
+                "normalized_label": "dugongo"
+            },
+            {
+                "normalized_label": "dálmata"
+            },
+            {
+                "normalized_label": "dóbermanpinscher"
+            },
+            {
+                "normalized_label": "dólardeplata"
+            },
+            {
+                "normalized_label": "efímera"
+            },
+            {
+                "normalized_label": "eglefino"
+            },
+            {
+                "normalized_label": "elatúnblanco"
+            },
+            {
+                "normalized_label": "elciervodeperedavid"
+            },
+            {
+                "normalized_label": "elleopardodeamur"
+            },
+            {
+                "normalized_label": "elperezosodedosdedosdelinneo"
+            },
+            {
+                "normalized_label": "elando"
+            },
+            {
+                "normalized_label": "elasmosaurio"
+            },
+            {
+                "normalized_label": "elastomio"
+            },
+            {
+                "normalized_label": "elefante"
+            },
+            {
+                "normalized_label": "elefanteafricanodesabana"
+            },
+            {
+                "normalized_label": "elefanteafricanodelbosque"
+            },
+            {
+                "normalized_label": "elefanteasiático"
+            },
+            {
+                "normalized_label": "elefantedeborneo"
+            },
+            {
+                "normalized_label": "elefantedesrilanka"
+            },
+            {
+                "normalized_label": "elefantedesumatra"
+            },
+            {
+                "normalized_label": "elefanteindio"
+            },
+            {
+                "normalized_label": "elefantemarino"
+            },
+            {
+                "normalized_label": "emú"
+            },
+            {
+                "normalized_label": "epagneulpuenteaudemer"
+            },
+            {
+                "normalized_label": "equidna"
+            },
+            {
+                "normalized_label": "erizo"
+            },
+            {
+                "normalized_label": "erizodemar"
+            },
+            {
+                "normalized_label": "escarabajo"
+            },
+            {
+                "normalized_label": "escarabajoambrosía"
+            },
+            {
+                "normalized_label": "escarabajoampolla"
+            },
+            {
+                "normalized_label": "escarabajociervo"
+            },
+            {
+                "normalized_label": "escarabajocomúndelosmuebles"
+            },
+            {
+                "normalized_label": "escarabajodecalabaza"
+            },
+            {
+                "normalized_label": "escarabajodelamuerte"
+            },
+            {
+                "normalized_label": "escarabajodelasgalletas"
+            },
+            {
+                "normalized_label": "escarabajohércules"
+            },
+            {
+                "normalized_label": "escarabajojaponés"
+            },
+            {
+                "normalized_label": "escarabajojoya"
+            },
+            {
+                "normalized_label": "escarabajopelotero"
+            },
+            {
+                "normalized_label": "escarabajotigre"
+            },
+            {
+                "normalized_label": "escila"
+            },
+            {
+                "normalized_label": "escolares"
+            },
+            {
+                "normalized_label": "escorpión"
+            },
+            {
+                "normalized_label": "escorpióndecortezadearizona"
+            },
+            {
+                "normalized_label": "esculpir"
+            },
+            {
+                "normalized_label": "esfinge"
+            },
+            {
+                "normalized_label": "español"
+            },
+            {
+                "normalized_label": "espiga"
+            },
+            {
+                "normalized_label": "espinosaurio"
+            },
+            {
+                "normalized_label": "esponja"
+            },
+            {
+                "normalized_label": "espátularosada"
+            },
+            {
+                "normalized_label": "esquipoo"
+            },
+            {
+                "normalized_label": "estrellademar"
+            },
+            {
+                "normalized_label": "esturión"
+            },
+            {
+                "normalized_label": "esturiónbeluga"
+            },
+            {
+                "normalized_label": "esturióndelago"
+            },
+            {
+                "normalized_label": "eyey"
+            },
+            {
+                "normalized_label": "faisán"
+            },
+            {
+                "normalized_label": "falcón"
+            },
+            {
+                "normalized_label": "fauno"
+            },
+            {
+                "normalized_label": "faunos"
+            },
+            {
+                "normalized_label": "festejar"
+            },
+            {
+                "normalized_label": "filabrasilero"
+            },
+            {
+                "normalized_label": "flamenco"
+            },
+            {
+                "normalized_label": "focaarpa"
+            },
+            {
+                "normalized_label": "focacangrejera"
+            },
+            {
+                "normalized_label": "focadepuerto"
+            },
+            {
+                "normalized_label": "focagris"
+            },
+            {
+                "normalized_label": "focaleopardo"
+            },
+            {
+                "normalized_label": "focamonjehawaiana"
+            },
+            {
+                "normalized_label": "fornido"
+            },
+            {
+                "normalized_label": "forusrhacos"
+            },
+            {
+                "normalized_label": "fosa"
+            },
+            {
+                "normalized_label": "foxterrierdealambre"
+            },
+            {
+                "normalized_label": "foxterrierdejuguete"
+            },
+            {
+                "normalized_label": "foxterrierliso"
+            },
+            {
+                "normalized_label": "foxhoundamericano"
+            },
+            {
+                "normalized_label": "foxterrier"
+            },
+            {
+                "normalized_label": "frailecillo"
+            },
+            {
+                "normalized_label": "frenchton"
+            },
+            {
+                "normalized_label": "frenoalemán"
+            },
+            {
+                "normalized_label": "frenético"
+            },
+            {
+                "normalized_label": "fénix"
+            },
+            {
+                "normalized_label": "gacela"
+            },
+            {
+                "normalized_label": "galgo"
+            },
+            {
+                "normalized_label": "galgoitaliano"
+            },
+            {
+                "normalized_label": "gallinadeguinea"
+            },
+            {
+                "normalized_label": "gallo"
+            },
+            {
+                "normalized_label": "gamba"
+            },
+            {
+                "normalized_label": "gamos"
+            },
+            {
+                "normalized_label": "gamuza"
+            },
+            {
+                "normalized_label": "ganadodelastierrasaltas"
+            },
+            {
+                "normalized_label": "ganso"
+            },
+            {
+                "normalized_label": "gansoegipcio"
+            },
+            {
+                "normalized_label": "gansohawaiano"
+            },
+            {
+                "normalized_label": "gansoschinos"
+            },
+            {
+                "normalized_label": "gar"
+            },
+            {
+                "normalized_label": "garcocodrilo"
+            },
+            {
+                "normalized_label": "gardeflorida"
+            },
+            {
+                "normalized_label": "garmanchado"
+            },
+            {
+                "normalized_label": "garabato"
+            },
+            {
+                "normalized_label": "garabatoaireado"
+            },
+            {
+                "normalized_label": "garabatodeovejas"
+            },
+            {
+                "normalized_label": "garabatodoble"
+            },
+            {
+                "normalized_label": "garabatohusky"
+            },
+            {
+                "normalized_label": "garabatoirlandés"
+            },
+            {
+                "normalized_label": "garrapata"
+            },
+            {
+                "normalized_label": "garrapatademadera"
+            },
+            {
+                "normalized_label": "garrapatadeperro"
+            },
+            {
+                "normalized_label": "garrapatadevenado"
+            },
+            {
+                "normalized_label": "garrapatadelperroamericano"
+            },
+            {
+                "normalized_label": "garrapataestrellasolitaria"
+            },
+            {
+                "normalized_label": "garrapatamarróndelperro"
+            },
+            {
+                "normalized_label": "garza"
+            },
+            {
+                "normalized_label": "garzagris"
+            },
+            {
+                "normalized_label": "garzanocturna"
+            },
+            {
+                "normalized_label": "garzaverde"
+            },
+            {
+                "normalized_label": "gato"
+            },
+            {
+                "normalized_label": "gatocerval"
+            },
+            {
+                "normalized_label": "gatohusky"
+            },
+            {
+                "normalized_label": "gatojaguarundi"
+            },
+            {
+                "normalized_label": "gatoleopardo"
+            },
+            {
+                "normalized_label": "gatomontés"
+            },
+            {
+                "normalized_label": "gatomontéseuropeo"
+            },
+            {
+                "normalized_label": "gatopescador"
+            },
+            {
+                "normalized_label": "gatorexdemaíz"
+            },
+            {
+                "normalized_label": "gavial"
+            },
+            {
+                "normalized_label": "gavilán"
+            },
+            {
+                "normalized_label": "gaviota"
+            },
+            {
+                "normalized_label": "gaviotadepicoanillado"
+            },
+            {
+                "normalized_label": "geckoenanodelasislasvirgenes"
+            },
+            {
+                "normalized_label": "geckogárgola"
+            },
+            {
+                "normalized_label": "geco"
+            },
+            {
+                "normalized_label": "gecoaustraliano"
+            },
+            {
+                "normalized_label": "gecocrestado"
+            },
+            {
+                "normalized_label": "gecodecoladehoja"
+            },
+            {
+                "normalized_label": "gecoleopardo"
+            },
+            {
+                "normalized_label": "gecosatánicodecoladehoja"
+            },
+            {
+                "normalized_label": "gerbo"
+            },
+            {
+                "normalized_label": "gibón"
+            },
+            {
+                "normalized_label": "gineta"
+            },
+            {
+                "normalized_label": "glechon"
+            },
+            {
+                "normalized_label": "globodeguisantes"
+            },
+            {
+                "normalized_label": "glotón"
+            },
+            {
+                "normalized_label": "goberiano"
+            },
+            {
+                "normalized_label": "goldenretrieveringléscrema"
+            },
+            {
+                "normalized_label": "golondrinadearbol"
+            },
+            {
+                "normalized_label": "gonfoterio"
+            },
+            {
+                "normalized_label": "gorgona"
+            },
+            {
+                "normalized_label": "gorila"
+            },
+            {
+                "normalized_label": "gorilademontaña"
+            },
+            {
+                "normalized_label": "goriladeríocruzado"
+            },
+            {
+                "normalized_label": "gorilaoccidental"
+            },
+            {
+                "normalized_label": "gorilaoccidentaldetierrasbajas"
+            },
+            {
+                "normalized_label": "gorilaoriental"
+            },
+            {
+                "normalized_label": "gorilaorientaldetierrasbajas"
+            },
+            {
+                "normalized_label": "gorrión"
+            },
+            {
+                "normalized_label": "gorriónastillado"
+            },
+            {
+                "normalized_label": "gorrióncantor"
+            },
+            {
+                "normalized_label": "gorriónsabana"
+            },
+            {
+                "normalized_label": "grajo"
+            },
+            {
+                "normalized_label": "grandanoodle"
+            },
+            {
+                "normalized_label": "grandanés"
+            },
+            {
+                "normalized_label": "grangarceta"
+            },
+            {
+                "normalized_label": "grangarzaazul"
+            },
+            {
+                "normalized_label": "granpapamoscascrestado"
+            },
+            {
+                "normalized_label": "granperrodemontañasuizo"
+            },
+            {
+                "normalized_label": "grantiburónblanco"
+            },
+            {
+                "normalized_label": "grantiburónmartillo"
+            },
+            {
+                "normalized_label": "grandespirineos"
+            },
+            {
+                "normalized_label": "granuja"
+            },
+            {
+                "normalized_label": "grifo"
+            },
+            {
+                "normalized_label": "grifóndebruselas"
+            },
+            {
+                "normalized_label": "grifónseñaladordepeloduro"
+            },
+            {
+                "normalized_label": "grillo"
+            },
+            {
+                "normalized_label": "grillocamello"
+            },
+            {
+                "normalized_label": "grillotopo"
+            },
+            {
+                "normalized_label": "gritar"
+            },
+            {
+                "normalized_label": "groenendael"
+            },
+            {
+                "normalized_label": "grua"
+            },
+            {
+                "normalized_label": "grullablanca"
+            },
+            {
+                "normalized_label": "guacamayaroja"
+            },
+            {
+                "normalized_label": "guacamayo"
+            },
+            {
+                "normalized_label": "guacamayodespix"
+            },
+            {
+                "normalized_label": "guiapastoraleman"
+            },
+            {
+                "normalized_label": "guiverno"
+            },
+            {
+                "normalized_label": "guppy"
+            },
+            {
+                "normalized_label": "gusano"
+            },
+            {
+                "normalized_label": "gusanocogollero"
+            },
+            {
+                "normalized_label": "gusanodeescamaantártica"
+            },
+            {
+                "normalized_label": "gusanolento"
+            },
+            {
+                "normalized_label": "gusanosdebambú"
+            },
+            {
+                "normalized_label": "hada"
+            },
+            {
+                "normalized_label": "hadas"
+            },
+            {
+                "normalized_label": "halcón"
+            },
+            {
+                "normalized_label": "halcóndecooper"
+            },
+            {
+                "normalized_label": "halcóndemiel"
+            },
+            {
+                "normalized_label": "halcónharris"
+            },
+            {
+                "normalized_label": "halcónperegrino"
+            },
+            {
+                "normalized_label": "halcónreal"
+            },
+            {
+                "normalized_label": "halcóntarántula"
+            },
+            {
+                "normalized_label": "harapiento"
+            },
+            {
+                "normalized_label": "havapoo"
+            },
+            {
+                "normalized_label": "havashire"
+            },
+            {
+                "normalized_label": "hidra"
+            },
+            {
+                "normalized_label": "hiena"
+            },
+            {
+                "normalized_label": "hienamarrón"
+            },
+            {
+                "normalized_label": "hienarayada"
+            },
+            {
+                "normalized_label": "himalaya"
+            },
+            {
+                "normalized_label": "hipogloso"
+            },
+            {
+                "normalized_label": "hipogrifo"
+            },
+            {
+                "normalized_label": "hipopótama"
+            },
+            {
+                "normalized_label": "hipopótamo"
+            },
+            {
+                "normalized_label": "hipopótamopigmeo"
+            },
+            {
+                "normalized_label": "hokkaidō"
+            },
+            {
+                "normalized_label": "hombrelobo"
+            },
+            {
+                "normalized_label": "horgi"
+            },
+            {
+                "normalized_label": "hormiga"
+            },
+            {
+                "normalized_label": "hormigacarpintera"
+            },
+            {
+                "normalized_label": "humano"
+            },
+            {
+                "normalized_label": "huronesalbinos"
+            },
+            {
+                "normalized_label": "hurón"
+            },
+            {
+                "normalized_label": "hurónblanco"
+            },
+            {
+                "normalized_label": "huróncanela"
+            },
+            {
+                "normalized_label": "huróndeangora"
+            },
+            {
+                "normalized_label": "huróndepatasnegras"
+            },
+            {
+                "normalized_label": "hurónsable"
+            },
+            {
+                "normalized_label": "huskita"
+            },
+            {
+                "normalized_label": "huskydealaska"
+            },
+            {
+                "normalized_label": "huskyminiatura"
+            },
+            {
+                "normalized_label": "huskysiberiano"
+            },
+            {
+                "normalized_label": "hyaenodon"
+            },
+            {
+                "normalized_label": "hyraxderoca"
+            },
+            {
+                "normalized_label": "hámster"
+            },
+            {
+                "normalized_label": "hámsterenano"
+            },
+            {
+                "normalized_label": "hámstersirio"
+            },
+            {
+                "normalized_label": "ibis"
+            },
+            {
+                "normalized_label": "ictiosauro"
+            },
+            {
+                "normalized_label": "iguana"
+            },
+            {
+                "normalized_label": "iguanaazul"
+            },
+            {
+                "normalized_label": "iguanamarina"
+            },
+            {
+                "normalized_label": "impala"
+            },
+            {
+                "normalized_label": "indri"
+            },
+            {
+                "normalized_label": "insecto"
+            },
+            {
+                "normalized_label": "insectoasesino"
+            },
+            {
+                "normalized_label": "insectopalo"
+            },
+            {
+                "normalized_label": "insectos"
+            },
+            {
+                "normalized_label": "jabalí"
+            },
+            {
+                "normalized_label": "jacana"
+            },
+            {
+                "normalized_label": "jackrussell"
+            },
+            {
+                "normalized_label": "jackabee"
+            },
+            {
+                "normalized_label": "jaguar"
+            },
+            {
+                "normalized_label": "jaguaresa"
+            },
+            {
+                "normalized_label": "javanés"
+            },
+            {
+                "normalized_label": "jerbo"
+            },
+            {
+                "normalized_label": "jirafa"
+            },
+            {
+                "normalized_label": "juerguista"
+            },
+            {
+                "normalized_label": "juncodeojososcuros"
+            },
+            {
+                "normalized_label": "kaiken"
+            },
+            {
+                "normalized_label": "kakapo"
+            },
+            {
+                "normalized_label": "kangal"
+            },
+            {
+                "normalized_label": "keeshond"
+            },
+            {
+                "normalized_label": "kinkajú"
+            },
+            {
+                "normalized_label": "kishu"
+            },
+            {
+                "normalized_label": "kitdezorro"
+            },
+            {
+                "normalized_label": "kiwi"
+            },
+            {
+                "normalized_label": "klipspringer"
+            },
+            {
+                "normalized_label": "kodkod"
+            },
+            {
+                "normalized_label": "kooikerhondje"
+            },
+            {
+                "normalized_label": "koolie"
+            },
+            {
+                "normalized_label": "krait"
+            },
+            {
+                "normalized_label": "kraitanillado"
+            },
+            {
+                "normalized_label": "kraitmalayo"
+            },
+            {
+                "normalized_label": "kril"
+            },
+            {
+                "normalized_label": "kudú"
+            },
+            {
+                "normalized_label": "kuvasz"
+            },
+            {
+                "normalized_label": "lacarpaherbívora"
+            },
+            {
+                "normalized_label": "laranadedarwin"
+            },
+            {
+                "normalized_label": "laserpientedecollet"
+            },
+            {
+                "normalized_label": "laserpientedekirtland"
+            },
+            {
+                "normalized_label": "labahoula"
+            },
+            {
+                "normalized_label": "laboratoriomaraner"
+            },
+            {
+                "normalized_label": "labradane"
+            },
+            {
+                "normalized_label": "labradoodle"
+            },
+            {
+                "normalized_label": "labradoodleaustraliano"
+            },
+            {
+                "normalized_label": "labradorplateado"
+            },
+            {
+                "normalized_label": "labradorretriever"
+            },
+            {
+                "normalized_label": "labraheeler"
+            },
+            {
+                "normalized_label": "lagartijadecercaoriental"
+            },
+            {
+                "normalized_label": "lagarto"
+            },
+            {
+                "normalized_label": "lagartoagama"
+            },
+            {
+                "normalized_label": "lagartoanolis"
+            },
+            {
+                "normalized_label": "lagartoarmadillo"
+            },
+            {
+                "normalized_label": "lagartobasilisco"
+            },
+            {
+                "normalized_label": "lagartocaimán"
+            },
+            {
+                "normalized_label": "lagartocaimándelnorte"
+            },
+            {
+                "normalized_label": "lagartococodrilomexicano"
+            },
+            {
+                "normalized_label": "lagartocoladelátigo"
+            },
+            {
+                "normalized_label": "lagartoconvolantes"
+            },
+            {
+                "normalized_label": "lagartocornudo"
+            },
+            {
+                "normalized_label": "lagartodearena"
+            },
+            {
+                "normalized_label": "lagartodecristal"
+            },
+            {
+                "normalized_label": "lagartodecristaloriental"
+            },
+            {
+                "normalized_label": "lagartodevientreazul"
+            },
+            {
+                "normalized_label": "lagartodracovolans"
+            },
+            {
+                "normalized_label": "lagartoeslizón"
+            },
+            {
+                "normalized_label": "lagartoespinosodetexas"
+            },
+            {
+                "normalized_label": "lagartoleopardo"
+            },
+            {
+                "normalized_label": "lagartolázaro"
+            },
+            {
+                "normalized_label": "lagartomanchadoamarillo"
+            },
+            {
+                "normalized_label": "lagartomonitor"
+            },
+            {
+                "normalized_label": "lagartotopomexicano"
+            },
+            {
+                "normalized_label": "laikayakutiana"
+            },
+            {
+                "normalized_label": "lamprea"
+            },
+            {
+                "normalized_label": "langosta"
+            },
+            {
+                "normalized_label": "langostadeldesierto"
+            },
+            {
+                "normalized_label": "lebrel"
+            },
+            {
+                "normalized_label": "lechuza"
+            },
+            {
+                "normalized_label": "lechuzademadriguera"
+            },
+            {
+                "normalized_label": "leming"
+            },
+            {
+                "normalized_label": "lemúrido"
+            },
+            {
+                "normalized_label": "lenguadodeverano"
+            },
+            {
+                "normalized_label": "lengüeta"
+            },
+            {
+                "normalized_label": "leonberger"
+            },
+            {
+                "normalized_label": "leopardo"
+            },
+            {
+                "normalized_label": "leopardocatahoula"
+            },
+            {
+                "normalized_label": "leopardodenieve"
+            },
+            {
+                "normalized_label": "leopardolongibando"
+            },
+            {
+                "normalized_label": "leviatán"
+            },
+            {
+                "normalized_label": "león"
+            },
+            {
+                "normalized_label": "leóndelascavernas"
+            },
+            {
+                "normalized_label": "leóndemontaña"
+            },
+            {
+                "normalized_label": "leóndelcabo"
+            },
+            {
+                "normalized_label": "leónmarino"
+            },
+            {
+                "normalized_label": "lhasaapso"
+            },
+            {
+                "normalized_label": "lhasapoo"
+            },
+            {
+                "normalized_label": "libélula"
+            },
+            {
+                "normalized_label": "liebre"
+            },
+            {
+                "normalized_label": "liebredepatasblancas"
+            },
+            {
+                "normalized_label": "liebreártica"
+            },
+            {
+                "normalized_label": "ligre"
+            },
+            {
+                "normalized_label": "lince"
+            },
+            {
+                "normalized_label": "lincebalcánico"
+            },
+            {
+                "normalized_label": "lincedecanadá"
+            },
+            {
+                "normalized_label": "linceeuroasiático"
+            },
+            {
+                "normalized_label": "lirón"
+            },
+            {
+                "normalized_label": "liviatán"
+            },
+            {
+                "normalized_label": "llama"
+            },
+            {
+                "normalized_label": "llamadodevibora"
+            },
+            {
+                "normalized_label": "llevar"
+            },
+            {
+                "normalized_label": "lobina"
+            },
+            {
+                "normalized_label": "lobo"
+            },
+            {
+                "normalized_label": "loboamelenado"
+            },
+            {
+                "normalized_label": "loboeuroasiático"
+            },
+            {
+                "normalized_label": "lobomackenzie"
+            },
+            {
+                "normalized_label": "lobomarinodelnorte"
+            },
+            {
+                "normalized_label": "loborojo"
+            },
+            {
+                "normalized_label": "loboterrible"
+            },
+            {
+                "normalized_label": "loboártico"
+            },
+            {
+                "normalized_label": "locha"
+            },
+            {
+                "normalized_label": "lombriz"
+            },
+            {
+                "normalized_label": "lorito"
+            },
+            {
+                "normalized_label": "loro"
+            },
+            {
+                "normalized_label": "loroamazona"
+            },
+            {
+                "normalized_label": "lorodepeset"
+            },
+            {
+                "normalized_label": "lorodrácula"
+            },
+            {
+                "normalized_label": "loroeclectus"
+            },
+            {
+                "normalized_label": "lorogrisafricano"
+            },
+            {
+                "normalized_label": "lorosenegalés"
+            },
+            {
+                "normalized_label": "lubinadealetadehoja"
+            },
+            {
+                "normalized_label": "luciérnaga"
+            },
+            {
+                "normalized_label": "lumpo"
+            },
+            {
+                "normalized_label": "lundehundnoruego"
+            },
+            {
+                "normalized_label": "lémur"
+            },
+            {
+                "normalized_label": "lémurratóngris"
+            },
+            {
+                "normalized_label": "lémurvolador"
+            },
+            {
+                "normalized_label": "macaco"
+            },
+            {
+                "normalized_label": "macacocangrejero"
+            },
+            {
+                "normalized_label": "macacojaponés"
+            },
+            {
+                "normalized_label": "maderabritánica"
+            },
+            {
+                "normalized_label": "mahimahi"
+            },
+            {
+                "normalized_label": "maiasaura"
+            },
+            {
+                "normalized_label": "mainecoon"
+            },
+            {
+                "normalized_label": "malamutedealaska"
+            },
+            {
+                "normalized_label": "malchi"
+            },
+            {
+                "normalized_label": "malteagle"
+            },
+            {
+                "normalized_label": "maltipoo"
+            },
+            {
+                "normalized_label": "maltés"
+            },
+            {
+                "normalized_label": "mambanegro"
+            },
+            {
+                "normalized_label": "mambaverde"
+            },
+            {
+                "normalized_label": "mambaverdeoccidental"
+            },
+            {
+                "normalized_label": "mambaverdeoriental"
+            },
+            {
+                "normalized_label": "mamutlanudo"
+            },
+            {
+                "normalized_label": "manatí"
+            },
+            {
+                "normalized_label": "mandril"
+            },
+            {
+                "normalized_label": "mangosta"
+            },
+            {
+                "normalized_label": "mantaraya"
+            },
+            {
+                "normalized_label": "mantarraya"
+            },
+            {
+                "normalized_label": "mantarrayadelunares"
+            },
+            {
+                "normalized_label": "mantisreligiosa"
+            },
+            {
+                "normalized_label": "manturón"
+            },
+            {
+                "normalized_label": "mapache"
+            },
+            {
+                "normalized_label": "mariposa"
+            },
+            {
+                "normalized_label": "mariposablanca"
+            },
+            {
+                "normalized_label": "mariposaemperadorpúrpura"
+            },
+            {
+                "normalized_label": "mariposamonarca"
+            },
+            {
+                "normalized_label": "mariposapavoreal"
+            },
+            {
+                "normalized_label": "mariquita"
+            },
+            {
+                "normalized_label": "marjor"
+            },
+            {
+                "normalized_label": "marmota"
+            },
+            {
+                "normalized_label": "marmotadeamérica"
+            },
+            {
+                "normalized_label": "marsopa"
+            },
+            {
+                "normalized_label": "marta"
+            },
+            {
+                "normalized_label": "martínpescador"
+            },
+            {
+                "normalized_label": "martínpescadoranillado"
+            },
+            {
+                "normalized_label": "massasauga"
+            },
+            {
+                "normalized_label": "mastador"
+            },
+            {
+                "normalized_label": "mastín"
+            },
+            {
+                "normalized_label": "mastínespañol"
+            },
+            {
+                "normalized_label": "mastínnapolitano"
+            },
+            {
+                "normalized_label": "mastíntibetano"
+            },
+            {
+                "normalized_label": "mauegipcio"
+            },
+            {
+                "normalized_label": "meagle"
+            },
+            {
+                "normalized_label": "medusa"
+            },
+            {
+                "normalized_label": "medusahombredeguerra"
+            },
+            {
+                "normalized_label": "medusainmortal"
+            },
+            {
+                "normalized_label": "medusaluna"
+            },
+            {
+                "normalized_label": "medusamelenadeleón"
+            },
+            {
+                "normalized_label": "medusasdeaguadulce"
+            },
+            {
+                "normalized_label": "megalania"
+            },
+            {
+                "normalized_label": "megalodón"
+            },
+            {
+                "normalized_label": "megaterio"
+            },
+            {
+                "normalized_label": "mejillones"
+            },
+            {
+                "normalized_label": "mejillonescebra"
+            },
+            {
+                "normalized_label": "mejillón"
+            },
+            {
+                "normalized_label": "meroneptuno"
+            },
+            {
+                "normalized_label": "mestizo"
+            },
+            {
+                "normalized_label": "microraptor"
+            },
+            {
+                "normalized_label": "mieldeabeja"
+            },
+            {
+                "normalized_label": "mielga"
+            },
+            {
+                "normalized_label": "mierdacaca"
+            },
+            {
+                "normalized_label": "miki"
+            },
+            {
+                "normalized_label": "milpiés"
+            },
+            {
+                "normalized_label": "minilabradoodle"
+            },
+            {
+                "normalized_label": "minotauro"
+            },
+            {
+                "normalized_label": "mirlo"
+            },
+            {
+                "normalized_label": "mirlodealasrojas"
+            },
+            {
+                "normalized_label": "mojar"
+            },
+            {
+                "normalized_label": "mojarra"
+            },
+            {
+                "normalized_label": "mojarraazul"
+            },
+            {
+                "normalized_label": "molamola"
+            },
+            {
+                "normalized_label": "monitordeárbolesmeralda"
+            },
+            {
+                "normalized_label": "mono"
+            },
+            {
+                "normalized_label": "monoaraña"
+            },
+            {
+                "normalized_label": "monoardilla"
+            },
+            {
+                "normalized_label": "monoaullador"
+            },
+            {
+                "normalized_label": "monodededo"
+            },
+            {
+                "normalized_label": "monolanudo"
+            },
+            {
+                "normalized_label": "mononarigudo"
+            },
+            {
+                "normalized_label": "monopatas"
+            },
+            {
+                "normalized_label": "monoverde"
+            },
+            {
+                "normalized_label": "monstruodellagoness"
+            },
+            {
+                "normalized_label": "monstruogila"
+            },
+            {
+                "normalized_label": "monteiberiaeleuth"
+            },
+            {
+                "normalized_label": "morena"
+            },
+            {
+                "normalized_label": "morkie"
+            },
+            {
+                "normalized_label": "morsa"
+            },
+            {
+                "normalized_label": "mosasaurio"
+            },
+            {
+                "normalized_label": "moscadelafruta"
+            },
+            {
+                "normalized_label": "moscadoméstica"
+            },
+            {
+                "normalized_label": "moscalinternamanchada"
+            },
+            {
+                "normalized_label": "moscatsetse"
+            },
+            {
+                "normalized_label": "mosquito"
+            },
+            {
+                "normalized_label": "mozambiquecobraescupidora"
+            },
+            {
+                "normalized_label": "muchacha"
+            },
+            {
+                "normalized_label": "mudi"
+            },
+            {
+                "normalized_label": "mujerpitón"
+            },
+            {
+                "normalized_label": "mula"
+            },
+            {
+                "normalized_label": "muntjac"
+            },
+            {
+                "normalized_label": "murciélago"
+            },
+            {
+                "normalized_label": "murciélagoblancohondureño"
+            },
+            {
+                "normalized_label": "murciélagocanoso"
+            },
+            {
+                "normalized_label": "murciélagodelafruta"
+            },
+            {
+                "normalized_label": "murciélagomexicanodecolalibre"
+            },
+            {
+                "normalized_label": "murciélagovampiro"
+            },
+            {
+                "normalized_label": "murciélagovespertino"
+            },
+            {
+                "normalized_label": "musaraña"
+            },
+            {
+                "normalized_label": "musarañaelefante"
+            },
+            {
+                "normalized_label": "muttaburrasaurio"
+            },
+            {
+                "normalized_label": "muñecadetrapo"
+            },
+            {
+                "normalized_label": "másrudo"
+            },
+            {
+                "normalized_label": "napoleón"
+            },
+            {
+                "normalized_label": "narval"
+            },
+            {
+                "normalized_label": "neanderthal"
+            },
+            {
+                "normalized_label": "nebelung"
+            },
+            {
+                "normalized_label": "nieblaaustraliana"
+            },
+            {
+                "normalized_label": "nilgai"
+            },
+            {
+                "normalized_label": "nonosvemos"
+            },
+            {
+                "normalized_label": "novatodorado"
+            },
+            {
+                "normalized_label": "nudibranquio"
+            },
+            {
+                "normalized_label": "nuevofypoo"
+            },
+            {
+                "normalized_label": "nutria"
+            },
+            {
+                "normalized_label": "nutriademar"
+            },
+            {
+                "normalized_label": "nutriaderío"
+            },
+            {
+                "normalized_label": "nyala"
+            },
+            {
+                "normalized_label": "ocelote"
+            },
+            {
+                "normalized_label": "ogro"
+            },
+            {
+                "normalized_label": "okapi"
+            },
+            {
+                "normalized_label": "olmo"
+            },
+            {
+                "normalized_label": "orangután"
+            },
+            {
+                "normalized_label": "orangutándeborneo"
+            },
+            {
+                "normalized_label": "orangutándesumatra"
+            },
+            {
+                "normalized_label": "orangutántapanuli"
+            },
+            {
+                "normalized_label": "orca"
+            },
+            {
+                "normalized_label": "ornitomimo"
+            },
+            {
+                "normalized_label": "ornitorrinco"
+            },
+            {
+                "normalized_label": "oropéndola"
+            },
+            {
+                "normalized_label": "oropéndolaencapuchada"
+            },
+            {
+                "normalized_label": "orquideaincaperuana"
+            },
+            {
+                "normalized_label": "oruga"
+            },
+            {
+                "normalized_label": "orugadelapolillahalcón"
+            },
+            {
+                "normalized_label": "osezno"
+            },
+            {
+                "normalized_label": "osocafé"
+            },
+            {
+                "normalized_label": "osocongafas"
+            },
+            {
+                "normalized_label": "osodecaracorta"
+            },
+            {
+                "normalized_label": "osodelascavernas"
+            },
+            {
+                "normalized_label": "osodepeluchehámster"
+            },
+            {
+                "normalized_label": "osodelhimalaya"
+            },
+            {
+                "normalized_label": "osodelsol"
+            },
+            {
+                "normalized_label": "osogrizzly"
+            },
+            {
+                "normalized_label": "osohimalayo"
+            },
+            {
+                "normalized_label": "osohormiguero"
+            },
+            {
+                "normalized_label": "osonegroasiático"
+            },
+            {
+                "normalized_label": "osonegronorteamericano"
+            },
+            {
+                "normalized_label": "osopandagigante"
+            },
+            {
+                "normalized_label": "osopolar"
+            },
+            {
+                "normalized_label": "ostra"
+            },
+            {
+                "normalized_label": "oveja"
+            },
+            {
+                "normalized_label": "oviraptor"
+            },
+            {
+                "normalized_label": "pademelon"
+            },
+            {
+                "normalized_label": "paloma"
+            },
+            {
+                "normalized_label": "palomadeluto"
+            },
+            {
+                "normalized_label": "palomanicobar"
+            },
+            {
+                "normalized_label": "panda"
+            },
+            {
+                "normalized_label": "pandarojo"
+            },
+            {
+                "normalized_label": "pangolín"
+            },
+            {
+                "normalized_label": "pantera"
+            },
+            {
+                "normalized_label": "panteraflorida"
+            },
+            {
+                "normalized_label": "papillón"
+            },
+            {
+                "normalized_label": "parasaurolophus"
+            },
+            {
+                "normalized_label": "paro"
+            },
+            {
+                "normalized_label": "pastorakita"
+            },
+            {
+                "normalized_label": "pastoralemannegrosable"
+            },
+            {
+                "normalized_label": "pastoralemán"
+            },
+            {
+                "normalized_label": "pastoraustraliano"
+            },
+            {
+                "normalized_label": "pastorbeagle"
+            },
+            {
+                "normalized_label": "pastorbelga"
+            },
+            {
+                "normalized_label": "pastorbernés"
+            },
+            {
+                "normalized_label": "pastorchow"
+            },
+            {
+                "normalized_label": "pastorcorman"
+            },
+            {
+                "normalized_label": "pastordealaska"
+            },
+            {
+                "normalized_label": "pastordorado"
+            },
+            {
+                "normalized_label": "pastoringles"
+            },
+            {
+                "normalized_label": "pastorlapón"
+            },
+            {
+                "normalized_label": "patagotitan"
+            },
+            {
+                "normalized_label": "patinadordeestanque"
+            },
+            {
+                "normalized_label": "pato"
+            },
+            {
+                "normalized_label": "patoreal"
+            },
+            {
+                "normalized_label": "pavoreal"
+            },
+            {
+                "normalized_label": "peagle"
+            },
+            {
+                "normalized_label": "pecarídecollar"
+            },
+            {
+                "normalized_label": "pecesswai"
+            },
+            {
+                "normalized_label": "pegaso"
+            },
+            {
+                "normalized_label": "pekinés"
+            },
+            {
+                "normalized_label": "peleademontaña"
+            },
+            {
+                "normalized_label": "pelucherooseveltterrier"
+            },
+            {
+                "normalized_label": "pelícano"
+            },
+            {
+                "normalized_label": "pequeñogarabatodorado"
+            },
+            {
+                "normalized_label": "pequeñomurciélagomarrón"
+            },
+            {
+                "normalized_label": "pequeñopinguino"
+            },
+            {
+                "normalized_label": "percadecabezaplanaaustraliana"
+            },
+            {
+                "normalized_label": "percebe"
+            },
+            {
+                "normalized_label": "pereza"
+            },
+            {
+                "normalized_label": "perezosa"
+            },
+            {
+                "normalized_label": "perico"
+            },
+            {
+                "normalized_label": "periquito"
+            },
+            {
+                "normalized_label": "periquitocarolina"
+            },
+            {
+                "normalized_label": "perritodelaspraderas"
+            },
+            {
+                "normalized_label": "perro"
+            },
+            {
+                "normalized_label": "perroappenzeller"
+            },
+            {
+                "normalized_label": "perroaustralianodelganado"
+            },
+            {
+                "normalized_label": "perrobasenji"
+            },
+            {
+                "normalized_label": "perroboloñesa"
+            },
+            {
+                "normalized_label": "perroboxeador"
+            },
+            {
+                "normalized_label": "perrocanaan"
+            },
+            {
+                "normalized_label": "perrocarolina"
+            },
+            {
+                "normalized_label": "perrocrestadochino"
+            },
+            {
+                "normalized_label": "perrodeaguas"
+            },
+            {
+                "normalized_label": "perrodeaguasamericano"
+            },
+            {
+                "normalized_label": "perrodeaguasboykin"
+            },
+            {
+                "normalized_label": "perrodeaguasdecampo"
+            },
+            {
+                "normalized_label": "perrodeaguasirlandés"
+            },
+            {
+                "normalized_label": "perrodeaguastibetano"
+            },
+            {
+                "normalized_label": "perrodeencajeazul"
+            },
+            {
+                "normalized_label": "perrodegroenlandia"
+            },
+            {
+                "normalized_label": "perrodemontaña"
+            },
+            {
+                "normalized_label": "perrodemontañadebernese"
+            },
+            {
+                "normalized_label": "perrodemontañaentlebucher"
+            },
+            {
+                "normalized_label": "perrodemontañaestrella"
+            },
+            {
+                "normalized_label": "perrodemontañaformosano"
+            },
+            {
+                "normalized_label": "perrodepomeraniaaleman"
+            },
+            {
+                "normalized_label": "perrodepomeraniafinlandés"
+            },
+            {
+                "normalized_label": "perrodepomeraniajapones"
+            },
+            {
+                "normalized_label": "perrodepresacanario"
+            },
+            {
+                "normalized_label": "perroesquimal"
+            },
+            {
+                "normalized_label": "perroesquimalamericano"
+            },
+            {
+                "normalized_label": "perroesquimalcanadiense"
+            },
+            {
+                "normalized_label": "perroguardiándemoscú"
+            },
+            {
+                "normalized_label": "perroinuitdelnorte"
+            },
+            {
+                "normalized_label": "perrokelpieaustraliano"
+            },
+            {
+                "normalized_label": "perrolobochecoslovaco"
+            },
+            {
+                "normalized_label": "perrolobodesaarloos"
+            },
+            {
+                "normalized_label": "perroloboirlandés"
+            },
+            {
+                "normalized_label": "perromapache"
+            },
+            {
+                "normalized_label": "perroosoruso"
+            },
+            {
+                "normalized_label": "perropastorcatalán"
+            },
+            {
+                "normalized_label": "perropastordeanatolia"
+            },
+            {
+                "normalized_label": "perropastorislandés"
+            },
+            {
+                "normalized_label": "perropastorpolacodelastierrasbajas"
+            },
+            {
+                "normalized_label": "perroperdigueroaustraliano"
+            },
+            {
+                "normalized_label": "perroperdiguerodebahíadechesapeake"
+            },
+            {
+                "normalized_label": "perroperdiguerodeoro"
+            },
+            {
+                "normalized_label": "perroperdiguerodepeajedelpatodenuevaescocia"
+            },
+            {
+                "normalized_label": "perroperdiguerodepeloplano"
+            },
+            {
+                "normalized_label": "perroperdiguerodepelorizado"
+            },
+            {
+                "normalized_label": "perroperdiguerosiberiano"
+            },
+            {
+                "normalized_label": "perrosalchichamoteado"
+            },
+            {
+                "normalized_label": "perrosalvajeafricano"
+            },
+            {
+                "normalized_label": "perrotejonero"
+            },
+            {
+                "normalized_label": "persa"
+            },
+            {
+                "normalized_label": "pescadilla"
+            },
+            {
+                "normalized_label": "pescadobonito"
+            },
+            {
+                "normalized_label": "pescadoderoca"
+            },
+            {
+                "normalized_label": "petirrojoamericano"
+            },
+            {
+                "normalized_label": "petirrojoeuropeo"
+            },
+            {
+                "normalized_label": "petitbassetleonadovendeano"
+            },
+            {
+                "normalized_label": "pez"
+            },
+            {
+                "normalized_label": "pezardilla"
+            },
+            {
+                "normalized_label": "pezastrónomo"
+            },
+            {
+                "normalized_label": "pezbarramundi"
+            },
+            {
+                "normalized_label": "pezbetta"
+            },
+            {
+                "normalized_label": "pezbruja"
+            },
+            {
+                "normalized_label": "pezcirujano"
+            },
+            {
+                "normalized_label": "pezcobia"
+            },
+            {
+                "normalized_label": "pezcuernodeflor"
+            },
+            {
+                "normalized_label": "pezdecolores"
+            },
+            {
+                "normalized_label": "pezdenarizlarga"
+            },
+            {
+                "normalized_label": "pezdelfín"
+            },
+            {
+                "normalized_label": "pezdragón"
+            },
+            {
+                "normalized_label": "pezescorpión"
+            },
+            {
+                "normalized_label": "pezespátula"
+            },
+            {
+                "normalized_label": "pezespátulachino"
+            },
+            {
+                "normalized_label": "pezfutbol"
+            },
+            {
+                "normalized_label": "pezglobo"
+            },
+            {
+                "normalized_label": "pezkoi"
+            },
+            {
+                "normalized_label": "pezlagarto"
+            },
+            {
+                "normalized_label": "pezlechón"
+            },
+            {
+                "normalized_label": "pezleucoma"
+            },
+            {
+                "normalized_label": "pezleón"
+            },
+            {
+                "normalized_label": "pezlobo"
+            },
+            {
+                "normalized_label": "pezloro"
+            },
+            {
+                "normalized_label": "pezluchadorsiamés"
+            },
+            {
+                "normalized_label": "pezlucio"
+            },
+            {
+                "normalized_label": "pezlunadelocéano"
+            },
+            {
+                "normalized_label": "pezmariposa"
+            },
+            {
+                "normalized_label": "pezmariposadehierroforjado"
+            },
+            {
+                "normalized_label": "pezmojarra"
+            },
+            {
+                "normalized_label": "pezmurciélago"
+            },
+            {
+                "normalized_label": "pezmurciélagodelabiosrojos"
+            },
+            {
+                "normalized_label": "pezoscar"
+            },
+            {
+                "normalized_label": "pezpayaso"
+            },
+            {
+                "normalized_label": "pezpulmonado"
+            },
+            {
+                "normalized_label": "pezraya"
+            },
+            {
+                "normalized_label": "pezróbalo"
+            },
+            {
+                "normalized_label": "pezsapo"
+            },
+            {
+                "normalized_label": "pezsapoostra"
+            },
+            {
+                "normalized_label": "pezsierra"
+            },
+            {
+                "normalized_label": "peztambor"
+            },
+            {
+                "normalized_label": "peztelescopio"
+            },
+            {
+                "normalized_label": "peztigregoliat"
+            },
+            {
+                "normalized_label": "peztrematodo"
+            },
+            {
+                "normalized_label": "pezvolador"
+            },
+            {
+                "normalized_label": "pezwahoo"
+            },
+            {
+                "normalized_label": "pezángeldementa"
+            },
+            {
+                "normalized_label": "pezángelenmascarado"
+            },
+            {
+                "normalized_label": "phoebeoriental"
+            },
+            {
+                "normalized_label": "picarddeberger"
+            },
+            {
+                "normalized_label": "picogruesoazul"
+            },
+            {
+                "normalized_label": "picogruesodepechorosa"
+            },
+            {
+                "normalized_label": "piegrande"
+            },
+            {
+                "normalized_label": "pieldefoca"
+            },
+            {
+                "normalized_label": "pieldetigre"
+            },
+            {
+                "normalized_label": "pika"
+            },
+            {
+                "normalized_label": "pinguinoadelaida"
+            },
+            {
+                "normalized_label": "pinguinobarbijo"
+            },
+            {
+                "normalized_label": "pinguinoconcresta"
+            },
+            {
+                "normalized_label": "pinguinodehumboldt"
+            },
+            {
+                "normalized_label": "pinguinodemagallanes"
+            },
+            {
+                "normalized_label": "pinguinomacarrones"
+            },
+            {
+                "normalized_label": "pinguinoreal"
+            },
+            {
+                "normalized_label": "pingüino"
+            },
+            {
+                "normalized_label": "pingüinoafricano"
+            },
+            {
+                "normalized_label": "pingüinodegalápagos"
+            },
+            {
+                "normalized_label": "pingüinodeojosamarillos"
+            },
+            {
+                "normalized_label": "pingüinoemperador"
+            },
+            {
+                "normalized_label": "pingüinopapúa"
+            },
+            {
+                "normalized_label": "pingüinopenachoamarillo"
+            },
+            {
+                "normalized_label": "pingüinoreal"
+            },
+            {
+                "normalized_label": "pinscheralemán"
+            },
+            {
+                "normalized_label": "pinscherminiatura"
+            },
+            {
+                "normalized_label": "pinzóncebra"
+            },
+            {
+                "normalized_label": "pinzóndegould"
+            },
+            {
+                "normalized_label": "pinzóndoméstico"
+            },
+            {
+                "normalized_label": "pinzónmorado"
+            },
+            {
+                "normalized_label": "pinzónrojo"
+            },
+            {
+                "normalized_label": "pirador"
+            },
+            {
+                "normalized_label": "piraña"
+            },
+            {
+                "normalized_label": "pirineodorado"
+            },
+            {
+                "normalized_label": "pirograbado"
+            },
+            {
+                "normalized_label": "pitbullterrieramericano"
+            },
+            {
+                "normalized_label": "pitador"
+            },
+            {
+                "normalized_label": "pitbull"
+            },
+            {
+                "normalized_label": "pitbulldebolsillo"
+            },
+            {
+                "normalized_label": "pitsky"
+            },
+            {
+                "normalized_label": "pitón"
+            },
+            {
+                "normalized_label": "pitónalfombra"
+            },
+            {
+                "normalized_label": "pitónalfombracostera"
+            },
+            {
+                "normalized_label": "pitónalfombradelaselva"
+            },
+            {
+                "normalized_label": "pitónamatista"
+            },
+            {
+                "normalized_label": "pitónbirmana"
+            },
+            {
+                "normalized_label": "pitónbola"
+            },
+            {
+                "normalized_label": "pitónboladearaña"
+            },
+            {
+                "normalized_label": "pitónboladeplátano"
+            },
+            {
+                "normalized_label": "pitónboladevarioscolores"
+            },
+            {
+                "normalized_label": "pitóndeboelen"
+            },
+            {
+                "normalized_label": "pitóndebredl"
+            },
+            {
+                "normalized_label": "pitóndecabezanegra"
+            },
+            {
+                "normalized_label": "pitóndediamante"
+            },
+            {
+                "normalized_label": "pitóndelosniños"
+            },
+            {
+                "normalized_label": "pitónderoca"
+            },
+            {
+                "normalized_label": "pitóndesangre"
+            },
+            {
+                "normalized_label": "pitóndetimor"
+            },
+            {
+                "normalized_label": "pitóndeárbolverde"
+            },
+            {
+                "normalized_label": "pitónmanchado"
+            },
+            {
+                "normalized_label": "pitónoenpelli"
+            },
+            {
+                "normalized_label": "pitónpigmea"
+            },
+            {
+                "normalized_label": "pitónreticulada"
+            },
+            {
+                "normalized_label": "planeadordelazúcar"
+            },
+            {
+                "normalized_label": "platija"
+            },
+            {
+                "normalized_label": "platinoarowana"
+            },
+            {
+                "normalized_label": "plecocebra"
+            },
+            {
+                "normalized_label": "plecodeojosazules"
+            },
+            {
+                "normalized_label": "polilla"
+            },
+            {
+                "normalized_label": "polillabrujanegra"
+            },
+            {
+                "normalized_label": "polillacecropia"
+            },
+            {
+                "normalized_label": "polillacometa"
+            },
+            {
+                "normalized_label": "polilladeespaldadediamante"
+            },
+            {
+                "normalized_label": "polilladelacol"
+            },
+            {
+                "normalized_label": "polilladelaharinaindia"
+            },
+            {
+                "normalized_label": "polilladelamanzana"
+            },
+            {
+                "normalized_label": "polilladelatlas"
+            },
+            {
+                "normalized_label": "polilladelboj"
+            },
+            {
+                "normalized_label": "polilladelcacto"
+            },
+            {
+                "normalized_label": "polillahércules"
+            },
+            {
+                "normalized_label": "polillaimperial"
+            },
+            {
+                "normalized_label": "polillaleopardogigante"
+            },
+            {
+                "normalized_label": "polillamoteada"
+            },
+            {
+                "normalized_label": "polillapolifemo"
+            },
+            {
+                "normalized_label": "polladeagua"
+            },
+            {
+                "normalized_label": "pollo"
+            },
+            {
+                "normalized_label": "pollosedoso"
+            },
+            {
+                "normalized_label": "pomapoo"
+            },
+            {
+                "normalized_label": "pomchi"
+            },
+            {
+                "normalized_label": "pomeagle"
+            },
+            {
+                "normalized_label": "pomeranio"
+            },
+            {
+                "normalized_label": "pomsky"
+            },
+            {
+                "normalized_label": "poodledejuguete"
+            },
+            {
+                "normalized_label": "poogle"
+            },
+            {
+                "normalized_label": "potoo"
+            },
+            {
+                "normalized_label": "potoroo"
+            },
+            {
+                "normalized_label": "procoptodón"
+            },
+            {
+                "normalized_label": "protelo"
+            },
+            {
+                "normalized_label": "psitacosauro"
+            },
+            {
+                "normalized_label": "pteranodón"
+            },
+            {
+                "normalized_label": "pterodáctilo"
+            },
+            {
+                "normalized_label": "pudelpointer"
+            },
+            {
+                "normalized_label": "puercoespín"
+            },
+            {
+                "normalized_label": "pugapoo"
+            },
+            {
+                "normalized_label": "puggle"
+            },
+            {
+                "normalized_label": "pugshire"
+            },
+            {
+                "normalized_label": "pulga"
+            },
+            {
+                "normalized_label": "pulpo"
+            },
+            {
+                "normalized_label": "pulpodeanillosazules"
+            },
+            {
+                "normalized_label": "pulpomanta"
+            },
+            {
+                "normalized_label": "puma"
+            },
+            {
+                "normalized_label": "pumi"
+            },
+            {
+                "normalized_label": "puntadelanzadorada"
+            },
+            {
+                "normalized_label": "puntero"
+            },
+            {
+                "normalized_label": "punteroinglés"
+            },
+            {
+                "normalized_label": "pájaro"
+            },
+            {
+                "normalized_label": "pájaroazuldelamontaña"
+            },
+            {
+                "normalized_label": "pájaroazuldeleste"
+            },
+            {
+                "normalized_label": "pájarocarpintero"
+            },
+            {
+                "normalized_label": "pájarocarpinterodepicodemarfil"
+            },
+            {
+                "normalized_label": "pájarodefragata"
+            },
+            {
+                "normalized_label": "pájarodelterror"
+            },
+            {
+                "normalized_label": "pájaromyna"
+            },
+            {
+                "normalized_label": "pájaroparaguas"
+            },
+            {
+                "normalized_label": "párrocorussellterrier"
+            },
+            {
+                "normalized_label": "quebrantahuesos"
+            },
+            {
+                "normalized_label": "queja"
+            },
+            {
+                "normalized_label": "quetzal"
+            },
+            {
+                "normalized_label": "quilla"
+            },
+            {
+                "normalized_label": "quimera"
+            },
+            {
+                "normalized_label": "quokka"
+            },
+            {
+                "normalized_label": "quoll"
+            },
+            {
+                "normalized_label": "rana"
+            },
+            {
+                "normalized_label": "ranaafricanacongarras"
+            },
+            {
+                "normalized_label": "ranaarborícoladeojosrojos"
+            },
+            {
+                "normalized_label": "ranacoheterayada"
+            },
+            {
+                "normalized_label": "ranacomestible"
+            },
+            {
+                "normalized_label": "ranacomún"
+            },
+            {
+                "normalized_label": "ranacornuda"
+            },
+            {
+                "normalized_label": "ranadardovenenoso"
+            },
+            {
+                "normalized_label": "ranadecristal"
+            },
+            {
+                "normalized_label": "ranadelapiscina"
+            },
+            {
+                "normalized_label": "ranadelluviadeldesierto"
+            },
+            {
+                "normalized_label": "ranademadera"
+            },
+            {
+                "normalized_label": "ranadepantano"
+            },
+            {
+                "normalized_label": "ranadeárbol"
+            },
+            {
+                "normalized_label": "ranadeárbolgris"
+            },
+            {
+                "normalized_label": "ranadeárbolverde"
+            },
+            {
+                "normalized_label": "ranaescroto"
+            },
+            {
+                "normalized_label": "ranaexcavadora"
+            },
+            {
+                "normalized_label": "ranagoliat"
+            },
+            {
+                "normalized_label": "ranaleopardo"
+            },
+            {
+                "normalized_label": "ranamantella"
+            },
+            {
+                "normalized_label": "ranamugidora"
+            },
+            {
+                "normalized_label": "ranatoroafricana"
+            },
+            {
+                "normalized_label": "ranaverde"
+            },
+            {
+                "normalized_label": "rangoscentralestaipán"
+            },
+            {
+                "normalized_label": "ranura"
+            },
+            {
+                "normalized_label": "rape"
+            },
+            {
+                "normalized_label": "raquetadenieve"
+            },
+            {
+                "normalized_label": "rata"
+            },
+            {
+                "normalized_label": "rataalmizclera"
+            },
+            {
+                "normalized_label": "ratacanguro"
+            },
+            {
+                "normalized_label": "ratadebosque"
+            },
+            {
+                "normalized_label": "ratadebosqueoriental"
+            },
+            {
+                "normalized_label": "ratatopodesnuda"
+            },
+            {
+                "normalized_label": "ratonerocomún"
+            },
+            {
+                "normalized_label": "ratón"
+            },
+            {
+                "normalized_label": "ratóndecactus"
+            },
+            {
+                "normalized_label": "ratónsaltamontes"
+            },
+            {
+                "normalized_label": "reno"
+            },
+            {
+                "normalized_label": "repenomamus"
+            },
+            {
+                "normalized_label": "rexdecornualles"
+            },
+            {
+                "normalized_label": "reypastor"
+            },
+            {
+                "normalized_label": "reyserpiente"
+            },
+            {
+                "normalized_label": "reyezuelo"
+            },
+            {
+                "normalized_label": "rinoceronte"
+            },
+            {
+                "normalized_label": "rinoceronteblanco"
+            },
+            {
+                "normalized_label": "rinocerontedejava"
+            },
+            {
+                "normalized_label": "rinocerontedesumatra"
+            },
+            {
+                "normalized_label": "rinoceronteindio"
+            },
+            {
+                "normalized_label": "rinocerontelanudo"
+            },
+            {
+                "normalized_label": "rinocerontenegro"
+            },
+            {
+                "normalized_label": "robin"
+            },
+            {
+                "normalized_label": "roedores"
+            },
+            {
+                "normalized_label": "rottsky"
+            },
+            {
+                "normalized_label": "rottweiler"
+            },
+            {
+                "normalized_label": "rottweilerdepelolargo"
+            },
+            {
+                "normalized_label": "ruiseñor"
+            },
+            {
+                "normalized_label": "sabalote"
+            },
+            {
+                "normalized_label": "sable"
+            },
+            {
+                "normalized_label": "sabueso"
+            },
+            {
+                "normalized_label": "sabuesoafgano"
+            },
+            {
+                "normalized_label": "sabuesobasset"
+            },
+            {
+                "normalized_label": "sabuesobávarodemontaña"
+            },
+            {
+                "normalized_label": "sabuesodetransilvania"
+            },
+            {
+                "normalized_label": "sabuesoibicenco"
+            },
+            {
+                "normalized_label": "sabuesoingles"
+            },
+            {
+                "normalized_label": "sabuesoleopardoamericano"
+            },
+            {
+                "normalized_label": "sabuesonoruego"
+            },
+            {
+                "normalized_label": "saiga"
+            },
+            {
+                "normalized_label": "salamandra"
+            },
+            {
+                "normalized_label": "salamandradefuego"
+            },
+            {
+                "normalized_label": "salamandragigante"
+            },
+            {
+                "normalized_label": "salamandratigre"
+            },
+            {
+                "normalized_label": "salmón"
+            },
+            {
+                "normalized_label": "salmónatlántico"
+            },
+            {
+                "normalized_label": "salmónchinook"
+            },
+            {
+                "normalized_label": "salmónketa"
+            },
+            {
+                "normalized_label": "salmónrojo"
+            },
+            {
+                "normalized_label": "salmóntruchaarcoiris"
+            },
+            {
+                "normalized_label": "saltador"
+            },
+            {
+                "normalized_label": "saltamontes"
+            },
+            {
+                "normalized_label": "salteado"
+            },
+            {
+                "normalized_label": "saluki"
+            },
+            {
+                "normalized_label": "sambar"
+            },
+            {
+                "normalized_label": "samoyedo"
+            },
+            {
+                "normalized_label": "sanberdoodle"
+            },
+            {
+                "normalized_label": "sanbernardo"
+            },
+            {
+                "normalized_label": "sanguijuela"
+            },
+            {
+                "normalized_label": "sanguijuelarojagigantedekinabalu"
+            },
+            {
+                "normalized_label": "santodorado"
+            },
+            {
+                "normalized_label": "santopastor"
+            },
+            {
+                "normalized_label": "saola"
+            },
+            {
+                "normalized_label": "sapoamericano"
+            },
+            {
+                "normalized_label": "sapocomún"
+            },
+            {
+                "normalized_label": "sapodeespuelas"
+            },
+            {
+                "normalized_label": "sapoderoble"
+            },
+            {
+                "normalized_label": "sapodewyoming"
+            },
+            {
+                "normalized_label": "sapodeárbolafricano"
+            },
+            {
+                "normalized_label": "sapomarino"
+            },
+            {
+                "normalized_label": "sapovientredefuego"
+            },
+            {
+                "normalized_label": "sardinas"
+            },
+            {
+                "normalized_label": "sauropoda"
+            },
+            {
+                "normalized_label": "schnauzerestándar"
+            },
+            {
+                "normalized_label": "schnauzergigante"
+            },
+            {
+                "normalized_label": "schneagle"
+            },
+            {
+                "normalized_label": "schnoodle"
+            },
+            {
+                "normalized_label": "schnoodlegigante"
+            },
+            {
+                "normalized_label": "sello"
+            },
+            {
+                "normalized_label": "selloencapuchado"
+            },
+            {
+                "normalized_label": "serpiente"
+            },
+            {
+                "normalized_label": "serpientearlequín"
+            },
+            {
+                "normalized_label": "serpientebushmaster"
+            },
+            {
+                "normalized_label": "serpientecebra"
+            },
+            {
+                "normalized_label": "serpienteciega"
+            },
+            {
+                "normalized_label": "serpienteciegabrahminy"
+            },
+            {
+                "normalized_label": "serpienteciegadetexas"
+            },
+            {
+                "normalized_label": "serpienteciegaoccidental"
+            },
+            {
+                "normalized_label": "serpientecomedoradehuevosrómbica"
+            },
+            {
+                "normalized_label": "serpientecorredora"
+            },
+            {
+                "normalized_label": "serpientecorredoraroja"
+            },
+            {
+                "normalized_label": "serpientedeaguaconbandas"
+            },
+            {
+                "normalized_label": "serpientedeaguadelnorte"
+            },
+            {
+                "normalized_label": "serpientedeaguamarrón"
+            },
+            {
+                "normalized_label": "serpientedearchivoarafura"
+            },
+            {
+                "normalized_label": "serpientedebarro"
+            },
+            {
+                "normalized_label": "serpientedecascabel"
+            },
+            {
+                "normalized_label": "serpientedecascabeldeespaldadediamanteoccidental"
+            },
+            {
+                "normalized_label": "serpientedecascabeldeespaldadediamanteoriental"
+            },
+            {
+                "normalized_label": "serpientedecascabeldeespaldadediamanterojo"
+            },
+            {
+                "normalized_label": "serpientedecascabeldelapradera"
+            },
+            {
+                "normalized_label": "serpientedecascabeldemadera"
+            },
+            {
+                "normalized_label": "serpientedecascabeldemojave"
+            },
+            {
+                "normalized_label": "serpientedecascabeldelcañaveral"
+            },
+            {
+                "normalized_label": "serpientedecascabeldelpacíficosur"
+            },
+            {
+                "normalized_label": "serpientedecascabeldescoloridaenana"
+            },
+            {
+                "normalized_label": "serpientedecascabelnegradearizona"
+            },
+            {
+                "normalized_label": "serpientedecascabeltigre"
+            },
+            {
+                "normalized_label": "serpientedecinta"
+            },
+            {
+                "normalized_label": "serpientedecolaafilada"
+            },
+            {
+                "normalized_label": "serpientedecoral"
+            },
+            {
+                "normalized_label": "serpientedecoraldearizona"
+            },
+            {
+                "normalized_label": "serpientedecoraldetexas"
+            },
+            {
+                "normalized_label": "serpientedecoralfalsa"
+            },
+            {
+                "normalized_label": "serpientedecoraloriental"
+            },
+            {
+                "normalized_label": "serpientedeesculapio"
+            },
+            {
+                "normalized_label": "serpientedehierba"
+            },
+            {
+                "normalized_label": "serpientedeleche"
+            },
+            {
+                "normalized_label": "serpientedeliga"
+            },
+            {
+                "normalized_label": "serpientedeligaacuadros"
+            },
+            {
+                "normalized_label": "serpientedeligadesanfrancisco"
+            },
+            {
+                "normalized_label": "serpientedeligadetexas"
+            },
+            {
+                "normalized_label": "serpientedemanglar"
+            },
+            {
+                "normalized_label": "serpientedemar"
+            },
+            {
+                "normalized_label": "serpientedemarverdeoliva"
+            },
+            {
+                "normalized_label": "serpientedemaíz"
+            },
+            {
+                "normalized_label": "serpientedeojosdegato"
+            },
+            {
+                "normalized_label": "serpientedepino"
+            },
+            {
+                "normalized_label": "serpientedepollo"
+            },
+            {
+                "normalized_label": "serpientedetierra"
+            },
+            {
+                "normalized_label": "serpientedevid"
+            },
+            {
+                "normalized_label": "serpientedevidasiática"
+            },
+            {
+                "normalized_label": "serpientedeárbol"
+            },
+            {
+                "normalized_label": "serpientedelcongo"
+            },
+            {
+                "normalized_label": "serpienteestilete"
+            },
+            {
+                "normalized_label": "serpientefer-de-lance"
+            },
+            {
+                "normalized_label": "serpienteferoz"
+            },
+            {
+                "normalized_label": "serpientegato"
+            },
+            {
+                "normalized_label": "serpientegusano"
+            },
+            {
+                "normalized_label": "serpientehabu"
+            },
+            {
+                "normalized_label": "serpientelisa"
+            },
+            {
+                "normalized_label": "serpientelobo"
+            },
+            {
+                "normalized_label": "serpienteloro"
+            },
+            {
+                "normalized_label": "serpientelátigo"
+            },
+            {
+                "normalized_label": "serpientemamushi"
+            },
+            {
+                "normalized_label": "serpientemarina"
+            },
+            {
+                "normalized_label": "serpientemarinadenarizganchuda"
+            },
+            {
+                "normalized_label": "serpientemarinadevientreamarillo"
+            },
+            {
+                "normalized_label": "serpientemarrón"
+            },
+            {
+                "normalized_label": "serpientemarrónoriental"
+            },
+            {
+                "normalized_label": "serpientemocasín"
+            },
+            {
+                "normalized_label": "serpientemulga"
+            },
+            {
+                "normalized_label": "serpientemussurana"
+            },
+            {
+                "normalized_label": "serpientenarizdecerdo"
+            },
+            {
+                "normalized_label": "serpientenarizdecerdodelasllanuras"
+            },
+            {
+                "normalized_label": "serpientenarizdecerdodelsur"
+            },
+            {
+                "normalized_label": "serpientenarizdecerdooccidental"
+            },
+            {
+                "normalized_label": "serpientenegradevientrerojo"
+            },
+            {
+                "normalized_label": "serpientenocturna"
+            },
+            {
+                "normalized_label": "serpientenocturnadetexas"
+            },
+            {
+                "normalized_label": "serpientepipa"
+            },
+            {
+                "normalized_label": "serpienteramita"
+            },
+            {
+                "normalized_label": "serpienteratadebaird"
+            },
+            {
+                "normalized_label": "serpienteratadebelleza"
+            },
+            {
+                "normalized_label": "serpienteratadelasgrandesllanuras"
+            },
+            {
+                "normalized_label": "serpienteratadetexas"
+            },
+            {
+                "normalized_label": "serpienteratajaponesa"
+            },
+            {
+                "normalized_label": "serpienteratamandarina"
+            },
+            {
+                "normalized_label": "serpienteratanegra"
+            },
+            {
+                "normalized_label": "serpienterataoccidental"
+            },
+            {
+                "normalized_label": "serpienterataoriental"
+            },
+            {
+                "normalized_label": "serpienteratarey"
+            },
+            {
+                "normalized_label": "serpienterataverde"
+            },
+            {
+                "normalized_label": "serpienterayodesol"
+            },
+            {
+                "normalized_label": "serpientereina"
+            },
+            {
+                "normalized_label": "serpientereydecalifornia"
+            },
+            {
+                "normalized_label": "serpientereydeldesierto"
+            },
+            {
+                "normalized_label": "serpientereyescarlata"
+            },
+            {
+                "normalized_label": "serpientereymoteada"
+            },
+            {
+                "normalized_label": "serpientereynegramexicana"
+            },
+            {
+                "normalized_label": "serpienterinkhals"
+            },
+            {
+                "normalized_label": "serpientetopo"
+            },
+            {
+                "normalized_label": "serpientetoro"
+            },
+            {
+                "normalized_label": "serpienteurutu"
+            },
+            {
+                "normalized_label": "serpienteverde"
+            },
+            {
+                "normalized_label": "serpienteverdesuave"
+            },
+            {
+                "normalized_label": "serpienteverdeáspera"
+            },
+            {
+                "normalized_label": "serpientevoladora"
+            },
+            {
+                "normalized_label": "serpientevoladoradelparaíso"
+            },
+            {
+                "normalized_label": "serpienteíndigo"
+            },
+            {
+                "normalized_label": "serpienteíndigodetexas"
+            },
+            {
+                "normalized_label": "serpienteíndigooriental"
+            },
+            {
+                "normalized_label": "serpientesderata"
+            },
+            {
+                "normalized_label": "serpienteszorro"
+            },
+            {
+                "normalized_label": "settergordon"
+            },
+            {
+                "normalized_label": "setteringles"
+            },
+            {
+                "normalized_label": "setterirlandés"
+            },
+            {
+                "normalized_label": "shar-peichino"
+            },
+            {
+                "normalized_label": "shepkita"
+            },
+            {
+                "normalized_label": "shepskygerberiano"
+            },
+            {
+                "normalized_label": "shepweiler"
+            },
+            {
+                "normalized_label": "shibainu"
+            },
+            {
+                "normalized_label": "shihtzumaltés"
+            },
+            {
+                "normalized_label": "shih-tzu"
+            },
+            {
+                "normalized_label": "shollie"
+            },
+            {
+                "normalized_label": "siamés"
+            },
+            {
+                "normalized_label": "siberiano"
+            },
+            {
+                "normalized_label": "siberpoo"
+            },
+            {
+                "normalized_label": "sidewinder"
+            },
+            {
+                "normalized_label": "sinosauropteryx"
+            },
+            {
+                "normalized_label": "sirena"
+            },
+            {
+                "normalized_label": "skye-terrier"
+            },
+            {
+                "normalized_label": "snorkie"
+            },
+            {
+                "normalized_label": "sobresaltarse"
+            },
+            {
+                "normalized_label": "somalí"
+            },
+            {
+                "normalized_label": "spanieldepicardíaazul"
+            },
+            {
+                "normalized_label": "spinoneitaliano"
+            },
+            {
+                "normalized_label": "springerspanielinglés"
+            },
+            {
+                "normalized_label": "stabyhoun"
+            },
+            {
+                "normalized_label": "staffordshirebullterrier"
+            },
+            {
+                "normalized_label": "sumadorcomúneuropeo"
+            },
+            {
+                "normalized_label": "sumadordeperinguey"
+            },
+            {
+                "normalized_label": "suricata"
+            },
+            {
+                "normalized_label": "sábalo"
+            },
+            {
+                "normalized_label": "tacoterrier"
+            },
+            {
+                "normalized_label": "taipaninterior"
+            },
+            {
+                "normalized_label": "taipán"
+            },
+            {
+                "normalized_label": "taipáncostero"
+            },
+            {
+                "normalized_label": "talomimus"
+            },
+            {
+                "normalized_label": "talonadordetexas"
+            },
+            {
+                "normalized_label": "talóndelancashire"
+            },
+            {
+                "normalized_label": "tamaskan"
+            },
+            {
+                "normalized_label": "tapir"
+            },
+            {
+                "normalized_label": "tarbosaurio"
+            },
+            {
+                "normalized_label": "tarsero"
+            },
+            {
+                "normalized_label": "tarántula"
+            },
+            {
+                "normalized_label": "tarántuladerodillaroja"
+            },
+            {
+                "normalized_label": "tejedordeaves"
+            },
+            {
+                "normalized_label": "tejedordeorbes"
+            },
+            {
+                "normalized_label": "tejón"
+            },
+            {
+                "normalized_label": "tejóndemiel"
+            },
+            {
+                "normalized_label": "termita"
+            },
+            {
+                "normalized_label": "terranova"
+            },
+            {
+                "normalized_label": "terrier"
+            },
+            {
+                "normalized_label": "terrieramericanosinpelo"
+            },
+            {
+                "normalized_label": "terrieraustraliano"
+            },
+            {
+                "normalized_label": "terrierazuldekerry"
+            },
+            {
+                "normalized_label": "terrierbiewer"
+            },
+            {
+                "normalized_label": "terrierboglen"
+            },
+            {
+                "normalized_label": "terrierbrasileño"
+            },
+            {
+                "normalized_label": "terriercesky"
+            },
+            {
+                "normalized_label": "terrierdebedlington"
+            },
+            {
+                "normalized_label": "terrierdeboston"
+            },
+            {
+                "normalized_label": "terrierdecampodetenter"
+            },
+            {
+                "normalized_label": "terrierdelastierrasaltasdeloeste"
+            },
+            {
+                "normalized_label": "terrierdemanchester"
+            },
+            {
+                "normalized_label": "terrierdemojón"
+            },
+            {
+                "normalized_label": "terrierdenorwich"
+            },
+            {
+                "normalized_label": "terrierderata"
+            },
+            {
+                "normalized_label": "terrierdetrigo"
+            },
+            {
+                "normalized_label": "terrierdeyorkshire"
+            },
+            {
+                "normalized_label": "terrierdellago"
+            },
+            {
+                "normalized_label": "terrierescocés"
+            },
+            {
+                "normalized_label": "terrierfronterizo"
+            },
+            {
+                "normalized_label": "terriergalés"
+            },
+            {
+                "normalized_label": "terrierirlandés"
+            },
+            {
+                "normalized_label": "terrierjaponés"
+            },
+            {
+                "normalized_label": "terriernorfolk"
+            },
+            {
+                "normalized_label": "terrierpatterdale"
+            },
+            {
+                "normalized_label": "terrierrusonegro"
+            },
+            {
+                "normalized_label": "terrierrussell"
+            },
+            {
+                "normalized_label": "terriersealyham"
+            },
+            {
+                "normalized_label": "terriersedoso"
+            },
+            {
+                "normalized_label": "terriertibetano"
+            },
+            {
+                "normalized_label": "tervurenbelga"
+            },
+            {
+                "normalized_label": "tetadecolalarga"
+            },
+            {
+                "normalized_label": "tetra"
+            },
+            {
+                "normalized_label": "tetraderayosx"
+            },
+            {
+                "normalized_label": "tetraneón"
+            },
+            {
+                "normalized_label": "tiburonarcoiris"
+            },
+            {
+                "normalized_label": "tiburoncebra"
+            },
+            {
+                "normalized_label": "tiburoncuerno"
+            },
+            {
+                "normalized_label": "tiburonduende"
+            },
+            {
+                "normalized_label": "tiburonmartillo"
+            },
+            {
+                "normalized_label": "tiburonoscuro"
+            },
+            {
+                "normalized_label": "tiburonpigmeo"
+            },
+            {
+                "normalized_label": "tiburonsedoso"
+            },
+            {
+                "normalized_label": "tiburón"
+            },
+            {
+                "normalized_label": "tiburónazotador"
+            },
+            {
+                "normalized_label": "tiburónazul"
+            },
+            {
+                "normalized_label": "tiburónballena"
+            },
+            {
+                "normalized_label": "tiburónballenerodebronce"
+            },
+            {
+                "normalized_label": "tiburónblanco"
+            },
+            {
+                "normalized_label": "tiburónbocaancha"
+            },
+            {
+                "normalized_label": "tiburóncabezadebonete"
+            },
+            {
+                "normalized_label": "tiburóncailón"
+            },
+            {
+                "normalized_label": "tiburóncometa"
+            },
+            {
+                "normalized_label": "tiburónconvolantes"
+            },
+            {
+                "normalized_label": "tiburóncortadordegalletas"
+            },
+            {
+                "normalized_label": "tiburóndearrecife"
+            },
+            {
+                "normalized_label": "tiburóndearrecifedelcaribe"
+            },
+            {
+                "normalized_label": "tiburóndegroenlandia"
+            },
+            {
+                "normalized_label": "tiburóndeseisbranquias"
+            },
+            {
+                "normalized_label": "tiburóndurmiente"
+            },
+            {
+                "normalized_label": "tiburóndurmientedelpacífico"
+            },
+            {
+                "normalized_label": "tiburóngalápagos"
+            },
+            {
+                "normalized_label": "tiburóngiratorio"
+            },
+            {
+                "normalized_label": "tiburóngrisdearrecife"
+            },
+            {
+                "normalized_label": "tiburónleopardo"
+            },
+            {
+                "normalized_label": "tiburónmakodealetalarga"
+            },
+            {
+                "normalized_label": "tiburónmarrajodientuso"
+            },
+            {
+                "normalized_label": "tiburónnariznegra"
+            },
+            {
+                "normalized_label": "tiburónnodriza"
+            },
+            {
+                "normalized_label": "tiburónoceánicodepuntasblancas"
+            },
+            {
+                "normalized_label": "tiburónperegrino"
+            },
+            {
+                "normalized_label": "tiburónpijama"
+            },
+            {
+                "normalized_label": "tiburónpuntanegra"
+            },
+            {
+                "normalized_label": "tiburónsalmón"
+            },
+            {
+                "normalized_label": "tiburóntigre"
+            },
+            {
+                "normalized_label": "tiburóntigredearena"
+            },
+            {
+                "normalized_label": "tiburóntoro"
+            },
+            {
+                "normalized_label": "tiburónvíbora"
+            },
+            {
+                "normalized_label": "tiffany"
+            },
+            {
+                "normalized_label": "tifón"
+            },
+            {
+                "normalized_label": "tigre"
+            },
+            {
+                "normalized_label": "tigreblanco"
+            },
+            {
+                "normalized_label": "tigredebengala"
+            },
+            {
+                "normalized_label": "tigredeindochina"
+            },
+            {
+                "normalized_label": "tigredesumatra"
+            },
+            {
+                "normalized_label": "tigredetasmania"
+            },
+            {
+                "normalized_label": "tigredelsurdechina"
+            },
+            {
+                "normalized_label": "tigredientesdesable"
+            },
+            {
+                "normalized_label": "tigremalayo"
+            },
+            {
+                "normalized_label": "tigresiberiano"
+            },
+            {
+                "normalized_label": "tijereta"
+            },
+            {
+                "normalized_label": "tilacoleo"
+            },
+            {
+                "normalized_label": "tipodeserpientevenenosa"
+            },
+            {
+                "normalized_label": "tiracosaurio"
+            },
+            {
+                "normalized_label": "tirano-sauriorex"
+            },
+            {
+                "normalized_label": "titanoboa"
+            },
+            {
+                "normalized_label": "tití"
+            },
+            {
+                "normalized_label": "titícabeciblanco"
+            },
+            {
+                "normalized_label": "titídegeoffroy"
+            },
+            {
+                "normalized_label": "titídevarioscolores"
+            },
+            {
+                "normalized_label": "titíemperador"
+            },
+            {
+                "normalized_label": "titíleóndorado"
+            },
+            {
+                "normalized_label": "titímanosrojas"
+            },
+            {
+                "normalized_label": "titípigmeo"
+            },
+            {
+                "normalized_label": "tomando"
+            },
+            {
+                "normalized_label": "tonto"
+            },
+            {
+                "normalized_label": "topo"
+            },
+            {
+                "normalized_label": "topodenarizestrella"
+            },
+            {
+                "normalized_label": "tordo"
+            },
+            {
+                "normalized_label": "tordocantor"
+            },
+            {
+                "normalized_label": "torkie"
+            },
+            {
+                "normalized_label": "tortuga"
+            },
+            {
+                "normalized_label": "tortugaarchelon"
+            },
+            {
+                "normalized_label": "tortugadecaja"
+            },
+            {
+                "normalized_label": "tortugademadera"
+            },
+            {
+                "normalized_label": "tortugademontañaespinosa"
+            },
+            {
+                "normalized_label": "tortugadepatasrojas"
+            },
+            {
+                "normalized_label": "tortugaderio"
+            },
+            {
+                "normalized_label": "tortugadeldesierto"
+            },
+            {
+                "normalized_label": "tortugaestrellaindia"
+            },
+            {
+                "normalized_label": "tortugagalápagos"
+            },
+            {
+                "normalized_label": "tortugagigantedealdabra"
+            },
+            {
+                "normalized_label": "tortugalaúd"
+            },
+            {
+                "normalized_label": "tortugaleopardo"
+            },
+            {
+                "normalized_label": "tortugamarina"
+            },
+            {
+                "normalized_label": "tortugamordedora"
+            },
+            {
+                "normalized_label": "tortugapintada"
+            },
+            {
+                "normalized_label": "tortugaradiada"
+            },
+            {
+                "normalized_label": "tortugarusa"
+            },
+            {
+                "normalized_label": "tortugasulcata"
+            },
+            {
+                "normalized_label": "tortugaterrestre"
+            },
+            {
+                "normalized_label": "tortugas"
+            },
+            {
+                "normalized_label": "tragodegranero"
+            },
+            {
+                "normalized_label": "trepadorazul"
+            },
+            {
+                "normalized_label": "trepadordeárboles"
+            },
+            {
+                "normalized_label": "trinquete"
+            },
+            {
+                "normalized_label": "tritón"
+            },
+            {
+                "normalized_label": "troodón"
+            },
+            {
+                "normalized_label": "trucha"
+            },
+            {
+                "normalized_label": "truchatoro"
+            },
+            {
+                "normalized_label": "tucán"
+            },
+            {
+                "normalized_label": "tucánpicodequilla"
+            },
+            {
+                "normalized_label": "turquía"
+            },
+            {
+                "normalized_label": "turón"
+            },
+            {
+                "normalized_label": "turóneuropeo"
+            },
+            {
+                "normalized_label": "tuátara"
+            },
+            {
+                "normalized_label": "tábano"
+            },
+            {
+                "normalized_label": "uakarí"
+            },
+            {
+                "normalized_label": "uguisu"
+            },
+            {
+                "normalized_label": "unaú"
+            },
+            {
+                "normalized_label": "unicornio"
+            },
+            {
+                "normalized_label": "untaterio"
+            },
+            {
+                "normalized_label": "uro"
+            },
+            {
+                "normalized_label": "urraca"
+            },
+            {
+                "normalized_label": "utonagan"
+            },
+            {
+                "normalized_label": "uómbat"
+            },
+            {
+                "normalized_label": "vaca"
+            },
+            {
+                "normalized_label": "vacamarinadesteller"
+            },
+            {
+                "normalized_label": "vallhundsueco"
+            },
+            {
+                "normalized_label": "vampiro"
+            },
+            {
+                "normalized_label": "vaquita"
+            },
+            {
+                "normalized_label": "vejestorio"
+            },
+            {
+                "normalized_label": "velociraptor"
+            },
+            {
+                "normalized_label": "venusatrapamoscas"
+            },
+            {
+                "normalized_label": "vicuña"
+            },
+            {
+                "normalized_label": "viejopastoringles"
+            },
+            {
+                "normalized_label": "vinagre"
+            },
+            {
+                "normalized_label": "visón"
+            },
+            {
+                "normalized_label": "viudanegra"
+            },
+            {
+                "normalized_label": "vizsla"
+            },
+            {
+                "normalized_label": "voladizo"
+            },
+            {
+                "normalized_label": "volar"
+            },
+            {
+                "normalized_label": "volpinoitaliano"
+            },
+            {
+                "normalized_label": "vuelvepiedrasrojizo"
+            },
+            {
+                "normalized_label": "víbora"
+            },
+            {
+                "normalized_label": "víboracornuda"
+            },
+            {
+                "normalized_label": "víboracornudadecoladearaña"
+            },
+            {
+                "normalized_label": "víboradealfombra"
+            },
+            {
+                "normalized_label": "víboradearbusto"
+            },
+            {
+                "normalized_label": "víboradearena"
+            },
+            {
+                "normalized_label": "víboradeescamasdesierra"
+            },
+            {
+                "normalized_label": "víboradegabón"
+            },
+            {
+                "normalized_label": "víboradelamuerte"
+            },
+            {
+                "normalized_label": "víboradepestañas"
+            },
+            {
+                "normalized_label": "víboraderussell"
+            },
+            {
+                "normalized_label": "víboranocturna"
+            },
+            {
+                "normalized_label": "víborarinoceronte"
+            },
+            {
+                "normalized_label": "waimanu"
+            },
+            {
+                "normalized_label": "weimaraner"
+            },
+            {
+                "normalized_label": "weimardoodle"
+            },
+            {
+                "normalized_label": "westiepoo"
+            },
+            {
+                "normalized_label": "xerus"
+            },
+            {
+                "normalized_label": "xoloitzcuintli"
+            },
+            {
+                "normalized_label": "yak"
+            },
+            {
+                "normalized_label": "yarara"
+            },
+            {
+                "normalized_label": "yoranian"
+            },
+            {
+                "normalized_label": "yorkie-poo"
+            },
+            {
+                "normalized_label": "zarapitotrinador"
+            },
+            {
+                "normalized_label": "zarigüeya"
+            },
+            {
+                "normalized_label": "zombi"
+            },
+            {
+                "normalized_label": "zonkey"
+            },
+            {
+                "normalized_label": "zorrillo"
+            },
+            {
+                "normalized_label": "zorro"
+            },
+            {
+                "normalized_label": "zorrocruzado"
+            },
+            {
+                "normalized_label": "zorrodedarwin"
+            },
+            {
+                "normalized_label": "zorrodemármol"
+            },
+            {
+                "normalized_label": "zorrofennec"
+            },
+            {
+                "normalized_label": "zorrogris"
+            },
+            {
+                "normalized_label": "zorrorojo"
+            },
+            {
+                "normalized_label": "zorrotibetano"
+            },
+            {
+                "normalized_label": "zorrovoladordecoronadorada"
+            },
+            {
+                "normalized_label": "zorroártico"
+            },
+            {
+                "normalized_label": "zuchon"
+            },
+            {
+                "normalized_label": "águila"
+            },
+            {
+                "normalized_label": "águilaarpía"
+            },
+            {
+                "normalized_label": "águilacalva"
+            },
+            {
+                "normalized_label": "águiladecolablanca"
+            },
+            {
+                "normalized_label": "águilamarina"
+            },
+            {
+                "normalized_label": "águilamexicana"
+            },
+            {
+                "normalized_label": "ñu"
+            },
+            {
+                "normalized_label": "órixdecuernosdecimitarra"
+            }
+        ]
+    }
+}

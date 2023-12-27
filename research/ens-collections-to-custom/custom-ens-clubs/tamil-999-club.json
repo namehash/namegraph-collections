@@ -1,0 +1,3017 @@
+{
+    "commands": {
+        "sort_names": "none",
+        "collection_rank": 300000,
+        "member_rank": 2000000
+    },
+    "data": {
+        "collection_id": "tamil-999-club",
+        "collection_name": "Tamil 999 Club",
+        "collection_description": "Names with 3 digits, 000-999 in Tamil characters.",
+        "collection_keywords": [
+            "ens-clubs"
+        ],
+        "labels": [
+            {
+                "normalized_label": "௦௦௦"
+            },
+            {
+                "normalized_label": "௦௦௧"
+            },
+            {
+                "normalized_label": "௦௦௨"
+            },
+            {
+                "normalized_label": "௦௦௩"
+            },
+            {
+                "normalized_label": "௦௦௪"
+            },
+            {
+                "normalized_label": "௦௦௫"
+            },
+            {
+                "normalized_label": "௦௦௬"
+            },
+            {
+                "normalized_label": "௦௦௭"
+            },
+            {
+                "normalized_label": "௦௦௮"
+            },
+            {
+                "normalized_label": "௦௦௯"
+            },
+            {
+                "normalized_label": "௦௧௦"
+            },
+            {
+                "normalized_label": "௦௧௧"
+            },
+            {
+                "normalized_label": "௦௧௨"
+            },
+            {
+                "normalized_label": "௦௧௩"
+            },
+            {
+                "normalized_label": "௦௧௪"
+            },
+            {
+                "normalized_label": "௦௧௫"
+            },
+            {
+                "normalized_label": "௦௧௬"
+            },
+            {
+                "normalized_label": "௦௧௭"
+            },
+            {
+                "normalized_label": "௦௧௮"
+            },
+            {
+                "normalized_label": "௦௧௯"
+            },
+            {
+                "normalized_label": "௦௨௦"
+            },
+            {
+                "normalized_label": "௦௨௧"
+            },
+            {
+                "normalized_label": "௦௨௨"
+            },
+            {
+                "normalized_label": "௦௨௩"
+            },
+            {
+                "normalized_label": "௦௨௪"
+            },
+            {
+                "normalized_label": "௦௨௫"
+            },
+            {
+                "normalized_label": "௦௨௬"
+            },
+            {
+                "normalized_label": "௦௨௭"
+            },
+            {
+                "normalized_label": "௦௨௮"
+            },
+            {
+                "normalized_label": "௦௨௯"
+            },
+            {
+                "normalized_label": "௦௩௦"
+            },
+            {
+                "normalized_label": "௦௩௧"
+            },
+            {
+                "normalized_label": "௦௩௨"
+            },
+            {
+                "normalized_label": "௦௩௩"
+            },
+            {
+                "normalized_label": "௦௩௪"
+            },
+            {
+                "normalized_label": "௦௩௫"
+            },
+            {
+                "normalized_label": "௦௩௬"
+            },
+            {
+                "normalized_label": "௦௩௭"
+            },
+            {
+                "normalized_label": "௦௩௮"
+            },
+            {
+                "normalized_label": "௦௩௯"
+            },
+            {
+                "normalized_label": "௦௪௦"
+            },
+            {
+                "normalized_label": "௦௪௧"
+            },
+            {
+                "normalized_label": "௦௪௨"
+            },
+            {
+                "normalized_label": "௦௪௩"
+            },
+            {
+                "normalized_label": "௦௪௪"
+            },
+            {
+                "normalized_label": "௦௪௫"
+            },
+            {
+                "normalized_label": "௦௪௬"
+            },
+            {
+                "normalized_label": "௦௪௭"
+            },
+            {
+                "normalized_label": "௦௪௮"
+            },
+            {
+                "normalized_label": "௦௪௯"
+            },
+            {
+                "normalized_label": "௦௫௦"
+            },
+            {
+                "normalized_label": "௦௫௧"
+            },
+            {
+                "normalized_label": "௦௫௨"
+            },
+            {
+                "normalized_label": "௦௫௩"
+            },
+            {
+                "normalized_label": "௦௫௪"
+            },
+            {
+                "normalized_label": "௦௫௫"
+            },
+            {
+                "normalized_label": "௦௫௬"
+            },
+            {
+                "normalized_label": "௦௫௭"
+            },
+            {
+                "normalized_label": "௦௫௮"
+            },
+            {
+                "normalized_label": "௦௫௯"
+            },
+            {
+                "normalized_label": "௦௬௦"
+            },
+            {
+                "normalized_label": "௦௬௧"
+            },
+            {
+                "normalized_label": "௦௬௨"
+            },
+            {
+                "normalized_label": "௦௬௩"
+            },
+            {
+                "normalized_label": "௦௬௪"
+            },
+            {
+                "normalized_label": "௦௬௫"
+            },
+            {
+                "normalized_label": "௦௬௬"
+            },
+            {
+                "normalized_label": "௦௬௭"
+            },
+            {
+                "normalized_label": "௦௬௮"
+            },
+            {
+                "normalized_label": "௦௬௯"
+            },
+            {
+                "normalized_label": "௦௭௦"
+            },
+            {
+                "normalized_label": "௦௭௧"
+            },
+            {
+                "normalized_label": "௦௭௨"
+            },
+            {
+                "normalized_label": "௦௭௩"
+            },
+            {
+                "normalized_label": "௦௭௪"
+            },
+            {
+                "normalized_label": "௦௭௫"
+            },
+            {
+                "normalized_label": "௦௭௬"
+            },
+            {
+                "normalized_label": "௦௭௭"
+            },
+            {
+                "normalized_label": "௦௭௮"
+            },
+            {
+                "normalized_label": "௦௭௯"
+            },
+            {
+                "normalized_label": "௦௮௦"
+            },
+            {
+                "normalized_label": "௦௮௧"
+            },
+            {
+                "normalized_label": "௦௮௨"
+            },
+            {
+                "normalized_label": "௦௮௩"
+            },
+            {
+                "normalized_label": "௦௮௪"
+            },
+            {
+                "normalized_label": "௦௮௫"
+            },
+            {
+                "normalized_label": "௦௮௬"
+            },
+            {
+                "normalized_label": "௦௮௭"
+            },
+            {
+                "normalized_label": "௦௮௮"
+            },
+            {
+                "normalized_label": "௦௮௯"
+            },
+            {
+                "normalized_label": "௦௯௦"
+            },
+            {
+                "normalized_label": "௦௯௧"
+            },
+            {
+                "normalized_label": "௦௯௨"
+            },
+            {
+                "normalized_label": "௦௯௩"
+            },
+            {
+                "normalized_label": "௦௯௪"
+            },
+            {
+                "normalized_label": "௦௯௫"
+            },
+            {
+                "normalized_label": "௦௯௬"
+            },
+            {
+                "normalized_label": "௦௯௭"
+            },
+            {
+                "normalized_label": "௦௯௮"
+            },
+            {
+                "normalized_label": "௦௯௯"
+            },
+            {
+                "normalized_label": "௧௦௦"
+            },
+            {
+                "normalized_label": "௧௦௧"
+            },
+            {
+                "normalized_label": "௧௦௨"
+            },
+            {
+                "normalized_label": "௧௦௩"
+            },
+            {
+                "normalized_label": "௧௦௪"
+            },
+            {
+                "normalized_label": "௧௦௫"
+            },
+            {
+                "normalized_label": "௧௦௬"
+            },
+            {
+                "normalized_label": "௧௦௭"
+            },
+            {
+                "normalized_label": "௧௦௮"
+            },
+            {
+                "normalized_label": "௧௦௯"
+            },
+            {
+                "normalized_label": "௧௧௦"
+            },
+            {
+                "normalized_label": "௧௧௧"
+            },
+            {
+                "normalized_label": "௧௧௨"
+            },
+            {
+                "normalized_label": "௧௧௩"
+            },
+            {
+                "normalized_label": "௧௧௪"
+            },
+            {
+                "normalized_label": "௧௧௫"
+            },
+            {
+                "normalized_label": "௧௧௬"
+            },
+            {
+                "normalized_label": "௧௧௭"
+            },
+            {
+                "normalized_label": "௧௧௮"
+            },
+            {
+                "normalized_label": "௧௧௯"
+            },
+            {
+                "normalized_label": "௧௨௦"
+            },
+            {
+                "normalized_label": "௧௨௧"
+            },
+            {
+                "normalized_label": "௧௨௨"
+            },
+            {
+                "normalized_label": "௧௨௩"
+            },
+            {
+                "normalized_label": "௧௨௪"
+            },
+            {
+                "normalized_label": "௧௨௫"
+            },
+            {
+                "normalized_label": "௧௨௬"
+            },
+            {
+                "normalized_label": "௧௨௭"
+            },
+            {
+                "normalized_label": "௧௨௮"
+            },
+            {
+                "normalized_label": "௧௨௯"
+            },
+            {
+                "normalized_label": "௧௩௦"
+            },
+            {
+                "normalized_label": "௧௩௧"
+            },
+            {
+                "normalized_label": "௧௩௨"
+            },
+            {
+                "normalized_label": "௧௩௩"
+            },
+            {
+                "normalized_label": "௧௩௪"
+            },
+            {
+                "normalized_label": "௧௩௫"
+            },
+            {
+                "normalized_label": "௧௩௬"
+            },
+            {
+                "normalized_label": "௧௩௭"
+            },
+            {
+                "normalized_label": "௧௩௮"
+            },
+            {
+                "normalized_label": "௧௩௯"
+            },
+            {
+                "normalized_label": "௧௪௦"
+            },
+            {
+                "normalized_label": "௧௪௧"
+            },
+            {
+                "normalized_label": "௧௪௨"
+            },
+            {
+                "normalized_label": "௧௪௩"
+            },
+            {
+                "normalized_label": "௧௪௪"
+            },
+            {
+                "normalized_label": "௧௪௫"
+            },
+            {
+                "normalized_label": "௧௪௬"
+            },
+            {
+                "normalized_label": "௧௪௭"
+            },
+            {
+                "normalized_label": "௧௪௮"
+            },
+            {
+                "normalized_label": "௧௪௯"
+            },
+            {
+                "normalized_label": "௧௫௦"
+            },
+            {
+                "normalized_label": "௧௫௧"
+            },
+            {
+                "normalized_label": "௧௫௨"
+            },
+            {
+                "normalized_label": "௧௫௩"
+            },
+            {
+                "normalized_label": "௧௫௪"
+            },
+            {
+                "normalized_label": "௧௫௫"
+            },
+            {
+                "normalized_label": "௧௫௬"
+            },
+            {
+                "normalized_label": "௧௫௭"
+            },
+            {
+                "normalized_label": "௧௫௮"
+            },
+            {
+                "normalized_label": "௧௫௯"
+            },
+            {
+                "normalized_label": "௧௬௦"
+            },
+            {
+                "normalized_label": "௧௬௧"
+            },
+            {
+                "normalized_label": "௧௬௨"
+            },
+            {
+                "normalized_label": "௧௬௩"
+            },
+            {
+                "normalized_label": "௧௬௪"
+            },
+            {
+                "normalized_label": "௧௬௫"
+            },
+            {
+                "normalized_label": "௧௬௬"
+            },
+            {
+                "normalized_label": "௧௬௭"
+            },
+            {
+                "normalized_label": "௧௬௮"
+            },
+            {
+                "normalized_label": "௧௬௯"
+            },
+            {
+                "normalized_label": "௧௭௦"
+            },
+            {
+                "normalized_label": "௧௭௧"
+            },
+            {
+                "normalized_label": "௧௭௨"
+            },
+            {
+                "normalized_label": "௧௭௩"
+            },
+            {
+                "normalized_label": "௧௭௪"
+            },
+            {
+                "normalized_label": "௧௭௫"
+            },
+            {
+                "normalized_label": "௧௭௬"
+            },
+            {
+                "normalized_label": "௧௭௭"
+            },
+            {
+                "normalized_label": "௧௭௮"
+            },
+            {
+                "normalized_label": "௧௭௯"
+            },
+            {
+                "normalized_label": "௧௮௦"
+            },
+            {
+                "normalized_label": "௧௮௧"
+            },
+            {
+                "normalized_label": "௧௮௨"
+            },
+            {
+                "normalized_label": "௧௮௩"
+            },
+            {
+                "normalized_label": "௧௮௪"
+            },
+            {
+                "normalized_label": "௧௮௫"
+            },
+            {
+                "normalized_label": "௧௮௬"
+            },
+            {
+                "normalized_label": "௧௮௭"
+            },
+            {
+                "normalized_label": "௧௮௮"
+            },
+            {
+                "normalized_label": "௧௮௯"
+            },
+            {
+                "normalized_label": "௧௯௦"
+            },
+            {
+                "normalized_label": "௧௯௧"
+            },
+            {
+                "normalized_label": "௧௯௨"
+            },
+            {
+                "normalized_label": "௧௯௩"
+            },
+            {
+                "normalized_label": "௧௯௪"
+            },
+            {
+                "normalized_label": "௧௯௫"
+            },
+            {
+                "normalized_label": "௧௯௬"
+            },
+            {
+                "normalized_label": "௧௯௭"
+            },
+            {
+                "normalized_label": "௧௯௮"
+            },
+            {
+                "normalized_label": "௧௯௯"
+            },
+            {
+                "normalized_label": "௨௦௦"
+            },
+            {
+                "normalized_label": "௨௦௧"
+            },
+            {
+                "normalized_label": "௨௦௨"
+            },
+            {
+                "normalized_label": "௨௦௩"
+            },
+            {
+                "normalized_label": "௨௦௪"
+            },
+            {
+                "normalized_label": "௨௦௫"
+            },
+            {
+                "normalized_label": "௨௦௬"
+            },
+            {
+                "normalized_label": "௨௦௭"
+            },
+            {
+                "normalized_label": "௨௦௮"
+            },
+            {
+                "normalized_label": "௨௦௯"
+            },
+            {
+                "normalized_label": "௨௧௦"
+            },
+            {
+                "normalized_label": "௨௧௧"
+            },
+            {
+                "normalized_label": "௨௧௨"
+            },
+            {
+                "normalized_label": "௨௧௩"
+            },
+            {
+                "normalized_label": "௨௧௪"
+            },
+            {
+                "normalized_label": "௨௧௫"
+            },
+            {
+                "normalized_label": "௨௧௬"
+            },
+            {
+                "normalized_label": "௨௧௭"
+            },
+            {
+                "normalized_label": "௨௧௮"
+            },
+            {
+                "normalized_label": "௨௧௯"
+            },
+            {
+                "normalized_label": "௨௨௦"
+            },
+            {
+                "normalized_label": "௨௨௧"
+            },
+            {
+                "normalized_label": "௨௨௨"
+            },
+            {
+                "normalized_label": "௨௨௩"
+            },
+            {
+                "normalized_label": "௨௨௪"
+            },
+            {
+                "normalized_label": "௨௨௫"
+            },
+            {
+                "normalized_label": "௨௨௬"
+            },
+            {
+                "normalized_label": "௨௨௭"
+            },
+            {
+                "normalized_label": "௨௨௮"
+            },
+            {
+                "normalized_label": "௨௨௯"
+            },
+            {
+                "normalized_label": "௨௩௦"
+            },
+            {
+                "normalized_label": "௨௩௧"
+            },
+            {
+                "normalized_label": "௨௩௨"
+            },
+            {
+                "normalized_label": "௨௩௩"
+            },
+            {
+                "normalized_label": "௨௩௪"
+            },
+            {
+                "normalized_label": "௨௩௫"
+            },
+            {
+                "normalized_label": "௨௩௬"
+            },
+            {
+                "normalized_label": "௨௩௭"
+            },
+            {
+                "normalized_label": "௨௩௮"
+            },
+            {
+                "normalized_label": "௨௩௯"
+            },
+            {
+                "normalized_label": "௨௪௦"
+            },
+            {
+                "normalized_label": "௨௪௧"
+            },
+            {
+                "normalized_label": "௨௪௨"
+            },
+            {
+                "normalized_label": "௨௪௩"
+            },
+            {
+                "normalized_label": "௨௪௪"
+            },
+            {
+                "normalized_label": "௨௪௫"
+            },
+            {
+                "normalized_label": "௨௪௬"
+            },
+            {
+                "normalized_label": "௨௪௭"
+            },
+            {
+                "normalized_label": "௨௪௮"
+            },
+            {
+                "normalized_label": "௨௪௯"
+            },
+            {
+                "normalized_label": "௨௫௦"
+            },
+            {
+                "normalized_label": "௨௫௧"
+            },
+            {
+                "normalized_label": "௨௫௨"
+            },
+            {
+                "normalized_label": "௨௫௩"
+            },
+            {
+                "normalized_label": "௨௫௪"
+            },
+            {
+                "normalized_label": "௨௫௫"
+            },
+            {
+                "normalized_label": "௨௫௬"
+            },
+            {
+                "normalized_label": "௨௫௭"
+            },
+            {
+                "normalized_label": "௨௫௮"
+            },
+            {
+                "normalized_label": "௨௫௯"
+            },
+            {
+                "normalized_label": "௨௬௦"
+            },
+            {
+                "normalized_label": "௨௬௧"
+            },
+            {
+                "normalized_label": "௨௬௨"
+            },
+            {
+                "normalized_label": "௨௬௩"
+            },
+            {
+                "normalized_label": "௨௬௪"
+            },
+            {
+                "normalized_label": "௨௬௫"
+            },
+            {
+                "normalized_label": "௨௬௬"
+            },
+            {
+                "normalized_label": "௨௬௭"
+            },
+            {
+                "normalized_label": "௨௬௮"
+            },
+            {
+                "normalized_label": "௨௬௯"
+            },
+            {
+                "normalized_label": "௨௭௦"
+            },
+            {
+                "normalized_label": "௨௭௧"
+            },
+            {
+                "normalized_label": "௨௭௨"
+            },
+            {
+                "normalized_label": "௨௭௩"
+            },
+            {
+                "normalized_label": "௨௭௪"
+            },
+            {
+                "normalized_label": "௨௭௫"
+            },
+            {
+                "normalized_label": "௨௭௬"
+            },
+            {
+                "normalized_label": "௨௭௭"
+            },
+            {
+                "normalized_label": "௨௭௮"
+            },
+            {
+                "normalized_label": "௨௭௯"
+            },
+            {
+                "normalized_label": "௨௮௦"
+            },
+            {
+                "normalized_label": "௨௮௧"
+            },
+            {
+                "normalized_label": "௨௮௨"
+            },
+            {
+                "normalized_label": "௨௮௩"
+            },
+            {
+                "normalized_label": "௨௮௪"
+            },
+            {
+                "normalized_label": "௨௮௫"
+            },
+            {
+                "normalized_label": "௨௮௬"
+            },
+            {
+                "normalized_label": "௨௮௭"
+            },
+            {
+                "normalized_label": "௨௮௮"
+            },
+            {
+                "normalized_label": "௨௮௯"
+            },
+            {
+                "normalized_label": "௨௯௦"
+            },
+            {
+                "normalized_label": "௨௯௧"
+            },
+            {
+                "normalized_label": "௨௯௨"
+            },
+            {
+                "normalized_label": "௨௯௩"
+            },
+            {
+                "normalized_label": "௨௯௪"
+            },
+            {
+                "normalized_label": "௨௯௫"
+            },
+            {
+                "normalized_label": "௨௯௬"
+            },
+            {
+                "normalized_label": "௨௯௭"
+            },
+            {
+                "normalized_label": "௨௯௮"
+            },
+            {
+                "normalized_label": "௨௯௯"
+            },
+            {
+                "normalized_label": "௩௦௦"
+            },
+            {
+                "normalized_label": "௩௦௧"
+            },
+            {
+                "normalized_label": "௩௦௨"
+            },
+            {
+                "normalized_label": "௩௦௩"
+            },
+            {
+                "normalized_label": "௩௦௪"
+            },
+            {
+                "normalized_label": "௩௦௫"
+            },
+            {
+                "normalized_label": "௩௦௬"
+            },
+            {
+                "normalized_label": "௩௦௭"
+            },
+            {
+                "normalized_label": "௩௦௮"
+            },
+            {
+                "normalized_label": "௩௦௯"
+            },
+            {
+                "normalized_label": "௩௧௦"
+            },
+            {
+                "normalized_label": "௩௧௧"
+            },
+            {
+                "normalized_label": "௩௧௨"
+            },
+            {
+                "normalized_label": "௩௧௩"
+            },
+            {
+                "normalized_label": "௩௧௪"
+            },
+            {
+                "normalized_label": "௩௧௫"
+            },
+            {
+                "normalized_label": "௩௧௬"
+            },
+            {
+                "normalized_label": "௩௧௭"
+            },
+            {
+                "normalized_label": "௩௧௮"
+            },
+            {
+                "normalized_label": "௩௧௯"
+            },
+            {
+                "normalized_label": "௩௨௦"
+            },
+            {
+                "normalized_label": "௩௨௧"
+            },
+            {
+                "normalized_label": "௩௨௨"
+            },
+            {
+                "normalized_label": "௩௨௩"
+            },
+            {
+                "normalized_label": "௩௨௪"
+            },
+            {
+                "normalized_label": "௩௨௫"
+            },
+            {
+                "normalized_label": "௩௨௬"
+            },
+            {
+                "normalized_label": "௩௨௭"
+            },
+            {
+                "normalized_label": "௩௨௮"
+            },
+            {
+                "normalized_label": "௩௨௯"
+            },
+            {
+                "normalized_label": "௩௩௦"
+            },
+            {
+                "normalized_label": "௩௩௧"
+            },
+            {
+                "normalized_label": "௩௩௨"
+            },
+            {
+                "normalized_label": "௩௩௩"
+            },
+            {
+                "normalized_label": "௩௩௪"
+            },
+            {
+                "normalized_label": "௩௩௫"
+            },
+            {
+                "normalized_label": "௩௩௬"
+            },
+            {
+                "normalized_label": "௩௩௭"
+            },
+            {
+                "normalized_label": "௩௩௮"
+            },
+            {
+                "normalized_label": "௩௩௯"
+            },
+            {
+                "normalized_label": "௩௪௦"
+            },
+            {
+                "normalized_label": "௩௪௧"
+            },
+            {
+                "normalized_label": "௩௪௨"
+            },
+            {
+                "normalized_label": "௩௪௩"
+            },
+            {
+                "normalized_label": "௩௪௪"
+            },
+            {
+                "normalized_label": "௩௪௫"
+            },
+            {
+                "normalized_label": "௩௪௬"
+            },
+            {
+                "normalized_label": "௩௪௭"
+            },
+            {
+                "normalized_label": "௩௪௮"
+            },
+            {
+                "normalized_label": "௩௪௯"
+            },
+            {
+                "normalized_label": "௩௫௦"
+            },
+            {
+                "normalized_label": "௩௫௧"
+            },
+            {
+                "normalized_label": "௩௫௨"
+            },
+            {
+                "normalized_label": "௩௫௩"
+            },
+            {
+                "normalized_label": "௩௫௪"
+            },
+            {
+                "normalized_label": "௩௫௫"
+            },
+            {
+                "normalized_label": "௩௫௬"
+            },
+            {
+                "normalized_label": "௩௫௭"
+            },
+            {
+                "normalized_label": "௩௫௮"
+            },
+            {
+                "normalized_label": "௩௫௯"
+            },
+            {
+                "normalized_label": "௩௬௦"
+            },
+            {
+                "normalized_label": "௩௬௧"
+            },
+            {
+                "normalized_label": "௩௬௨"
+            },
+            {
+                "normalized_label": "௩௬௩"
+            },
+            {
+                "normalized_label": "௩௬௪"
+            },
+            {
+                "normalized_label": "௩௬௫"
+            },
+            {
+                "normalized_label": "௩௬௬"
+            },
+            {
+                "normalized_label": "௩௬௭"
+            },
+            {
+                "normalized_label": "௩௬௮"
+            },
+            {
+                "normalized_label": "௩௬௯"
+            },
+            {
+                "normalized_label": "௩௭௦"
+            },
+            {
+                "normalized_label": "௩௭௧"
+            },
+            {
+                "normalized_label": "௩௭௨"
+            },
+            {
+                "normalized_label": "௩௭௩"
+            },
+            {
+                "normalized_label": "௩௭௪"
+            },
+            {
+                "normalized_label": "௩௭௫"
+            },
+            {
+                "normalized_label": "௩௭௬"
+            },
+            {
+                "normalized_label": "௩௭௭"
+            },
+            {
+                "normalized_label": "௩௭௮"
+            },
+            {
+                "normalized_label": "௩௭௯"
+            },
+            {
+                "normalized_label": "௩௮௦"
+            },
+            {
+                "normalized_label": "௩௮௧"
+            },
+            {
+                "normalized_label": "௩௮௨"
+            },
+            {
+                "normalized_label": "௩௮௩"
+            },
+            {
+                "normalized_label": "௩௮௪"
+            },
+            {
+                "normalized_label": "௩௮௫"
+            },
+            {
+                "normalized_label": "௩௮௬"
+            },
+            {
+                "normalized_label": "௩௮௭"
+            },
+            {
+                "normalized_label": "௩௮௮"
+            },
+            {
+                "normalized_label": "௩௮௯"
+            },
+            {
+                "normalized_label": "௩௯௦"
+            },
+            {
+                "normalized_label": "௩௯௧"
+            },
+            {
+                "normalized_label": "௩௯௨"
+            },
+            {
+                "normalized_label": "௩௯௩"
+            },
+            {
+                "normalized_label": "௩௯௪"
+            },
+            {
+                "normalized_label": "௩௯௫"
+            },
+            {
+                "normalized_label": "௩௯௬"
+            },
+            {
+                "normalized_label": "௩௯௭"
+            },
+            {
+                "normalized_label": "௩௯௮"
+            },
+            {
+                "normalized_label": "௩௯௯"
+            },
+            {
+                "normalized_label": "௪௦௦"
+            },
+            {
+                "normalized_label": "௪௦௧"
+            },
+            {
+                "normalized_label": "௪௦௨"
+            },
+            {
+                "normalized_label": "௪௦௩"
+            },
+            {
+                "normalized_label": "௪௦௪"
+            },
+            {
+                "normalized_label": "௪௦௫"
+            },
+            {
+                "normalized_label": "௪௦௬"
+            },
+            {
+                "normalized_label": "௪௦௭"
+            },
+            {
+                "normalized_label": "௪௦௮"
+            },
+            {
+                "normalized_label": "௪௦௯"
+            },
+            {
+                "normalized_label": "௪௧௦"
+            },
+            {
+                "normalized_label": "௪௧௧"
+            },
+            {
+                "normalized_label": "௪௧௨"
+            },
+            {
+                "normalized_label": "௪௧௩"
+            },
+            {
+                "normalized_label": "௪௧௪"
+            },
+            {
+                "normalized_label": "௪௧௫"
+            },
+            {
+                "normalized_label": "௪௧௬"
+            },
+            {
+                "normalized_label": "௪௧௭"
+            },
+            {
+                "normalized_label": "௪௧௮"
+            },
+            {
+                "normalized_label": "௪௧௯"
+            },
+            {
+                "normalized_label": "௪௨௦"
+            },
+            {
+                "normalized_label": "௪௨௧"
+            },
+            {
+                "normalized_label": "௪௨௨"
+            },
+            {
+                "normalized_label": "௪௨௩"
+            },
+            {
+                "normalized_label": "௪௨௪"
+            },
+            {
+                "normalized_label": "௪௨௫"
+            },
+            {
+                "normalized_label": "௪௨௬"
+            },
+            {
+                "normalized_label": "௪௨௭"
+            },
+            {
+                "normalized_label": "௪௨௮"
+            },
+            {
+                "normalized_label": "௪௨௯"
+            },
+            {
+                "normalized_label": "௪௩௦"
+            },
+            {
+                "normalized_label": "௪௩௧"
+            },
+            {
+                "normalized_label": "௪௩௨"
+            },
+            {
+                "normalized_label": "௪௩௩"
+            },
+            {
+                "normalized_label": "௪௩௪"
+            },
+            {
+                "normalized_label": "௪௩௫"
+            },
+            {
+                "normalized_label": "௪௩௬"
+            },
+            {
+                "normalized_label": "௪௩௭"
+            },
+            {
+                "normalized_label": "௪௩௮"
+            },
+            {
+                "normalized_label": "௪௩௯"
+            },
+            {
+                "normalized_label": "௪௪௦"
+            },
+            {
+                "normalized_label": "௪௪௧"
+            },
+            {
+                "normalized_label": "௪௪௨"
+            },
+            {
+                "normalized_label": "௪௪௩"
+            },
+            {
+                "normalized_label": "௪௪௪"
+            },
+            {
+                "normalized_label": "௪௪௫"
+            },
+            {
+                "normalized_label": "௪௪௬"
+            },
+            {
+                "normalized_label": "௪௪௭"
+            },
+            {
+                "normalized_label": "௪௪௮"
+            },
+            {
+                "normalized_label": "௪௪௯"
+            },
+            {
+                "normalized_label": "௪௫௦"
+            },
+            {
+                "normalized_label": "௪௫௧"
+            },
+            {
+                "normalized_label": "௪௫௨"
+            },
+            {
+                "normalized_label": "௪௫௩"
+            },
+            {
+                "normalized_label": "௪௫௪"
+            },
+            {
+                "normalized_label": "௪௫௫"
+            },
+            {
+                "normalized_label": "௪௫௬"
+            },
+            {
+                "normalized_label": "௪௫௭"
+            },
+            {
+                "normalized_label": "௪௫௮"
+            },
+            {
+                "normalized_label": "௪௫௯"
+            },
+            {
+                "normalized_label": "௪௬௦"
+            },
+            {
+                "normalized_label": "௪௬௧"
+            },
+            {
+                "normalized_label": "௪௬௨"
+            },
+            {
+                "normalized_label": "௪௬௩"
+            },
+            {
+                "normalized_label": "௪௬௪"
+            },
+            {
+                "normalized_label": "௪௬௫"
+            },
+            {
+                "normalized_label": "௪௬௬"
+            },
+            {
+                "normalized_label": "௪௬௭"
+            },
+            {
+                "normalized_label": "௪௬௮"
+            },
+            {
+                "normalized_label": "௪௬௯"
+            },
+            {
+                "normalized_label": "௪௭௦"
+            },
+            {
+                "normalized_label": "௪௭௧"
+            },
+            {
+                "normalized_label": "௪௭௨"
+            },
+            {
+                "normalized_label": "௪௭௩"
+            },
+            {
+                "normalized_label": "௪௭௪"
+            },
+            {
+                "normalized_label": "௪௭௫"
+            },
+            {
+                "normalized_label": "௪௭௬"
+            },
+            {
+                "normalized_label": "௪௭௭"
+            },
+            {
+                "normalized_label": "௪௭௮"
+            },
+            {
+                "normalized_label": "௪௭௯"
+            },
+            {
+                "normalized_label": "௪௮௦"
+            },
+            {
+                "normalized_label": "௪௮௧"
+            },
+            {
+                "normalized_label": "௪௮௨"
+            },
+            {
+                "normalized_label": "௪௮௩"
+            },
+            {
+                "normalized_label": "௪௮௪"
+            },
+            {
+                "normalized_label": "௪௮௫"
+            },
+            {
+                "normalized_label": "௪௮௬"
+            },
+            {
+                "normalized_label": "௪௮௭"
+            },
+            {
+                "normalized_label": "௪௮௮"
+            },
+            {
+                "normalized_label": "௪௮௯"
+            },
+            {
+                "normalized_label": "௪௯௦"
+            },
+            {
+                "normalized_label": "௪௯௧"
+            },
+            {
+                "normalized_label": "௪௯௨"
+            },
+            {
+                "normalized_label": "௪௯௩"
+            },
+            {
+                "normalized_label": "௪௯௪"
+            },
+            {
+                "normalized_label": "௪௯௫"
+            },
+            {
+                "normalized_label": "௪௯௬"
+            },
+            {
+                "normalized_label": "௪௯௭"
+            },
+            {
+                "normalized_label": "௪௯௮"
+            },
+            {
+                "normalized_label": "௪௯௯"
+            },
+            {
+                "normalized_label": "௫௦௦"
+            },
+            {
+                "normalized_label": "௫௦௧"
+            },
+            {
+                "normalized_label": "௫௦௨"
+            },
+            {
+                "normalized_label": "௫௦௩"
+            },
+            {
+                "normalized_label": "௫௦௪"
+            },
+            {
+                "normalized_label": "௫௦௫"
+            },
+            {
+                "normalized_label": "௫௦௬"
+            },
+            {
+                "normalized_label": "௫௦௭"
+            },
+            {
+                "normalized_label": "௫௦௮"
+            },
+            {
+                "normalized_label": "௫௦௯"
+            },
+            {
+                "normalized_label": "௫௧௦"
+            },
+            {
+                "normalized_label": "௫௧௧"
+            },
+            {
+                "normalized_label": "௫௧௨"
+            },
+            {
+                "normalized_label": "௫௧௩"
+            },
+            {
+                "normalized_label": "௫௧௪"
+            },
+            {
+                "normalized_label": "௫௧௫"
+            },
+            {
+                "normalized_label": "௫௧௬"
+            },
+            {
+                "normalized_label": "௫௧௭"
+            },
+            {
+                "normalized_label": "௫௧௮"
+            },
+            {
+                "normalized_label": "௫௧௯"
+            },
+            {
+                "normalized_label": "௫௨௦"
+            },
+            {
+                "normalized_label": "௫௨௧"
+            },
+            {
+                "normalized_label": "௫௨௨"
+            },
+            {
+                "normalized_label": "௫௨௩"
+            },
+            {
+                "normalized_label": "௫௨௪"
+            },
+            {
+                "normalized_label": "௫௨௫"
+            },
+            {
+                "normalized_label": "௫௨௬"
+            },
+            {
+                "normalized_label": "௫௨௭"
+            },
+            {
+                "normalized_label": "௫௨௮"
+            },
+            {
+                "normalized_label": "௫௨௯"
+            },
+            {
+                "normalized_label": "௫௩௦"
+            },
+            {
+                "normalized_label": "௫௩௧"
+            },
+            {
+                "normalized_label": "௫௩௨"
+            },
+            {
+                "normalized_label": "௫௩௩"
+            },
+            {
+                "normalized_label": "௫௩௪"
+            },
+            {
+                "normalized_label": "௫௩௫"
+            },
+            {
+                "normalized_label": "௫௩௬"
+            },
+            {
+                "normalized_label": "௫௩௭"
+            },
+            {
+                "normalized_label": "௫௩௮"
+            },
+            {
+                "normalized_label": "௫௩௯"
+            },
+            {
+                "normalized_label": "௫௪௦"
+            },
+            {
+                "normalized_label": "௫௪௧"
+            },
+            {
+                "normalized_label": "௫௪௨"
+            },
+            {
+                "normalized_label": "௫௪௩"
+            },
+            {
+                "normalized_label": "௫௪௪"
+            },
+            {
+                "normalized_label": "௫௪௫"
+            },
+            {
+                "normalized_label": "௫௪௬"
+            },
+            {
+                "normalized_label": "௫௪௭"
+            },
+            {
+                "normalized_label": "௫௪௮"
+            },
+            {
+                "normalized_label": "௫௪௯"
+            },
+            {
+                "normalized_label": "௫௫௦"
+            },
+            {
+                "normalized_label": "௫௫௧"
+            },
+            {
+                "normalized_label": "௫௫௨"
+            },
+            {
+                "normalized_label": "௫௫௩"
+            },
+            {
+                "normalized_label": "௫௫௪"
+            },
+            {
+                "normalized_label": "௫௫௫"
+            },
+            {
+                "normalized_label": "௫௫௬"
+            },
+            {
+                "normalized_label": "௫௫௭"
+            },
+            {
+                "normalized_label": "௫௫௮"
+            },
+            {
+                "normalized_label": "௫௫௯"
+            },
+            {
+                "normalized_label": "௫௬௦"
+            },
+            {
+                "normalized_label": "௫௬௧"
+            },
+            {
+                "normalized_label": "௫௬௨"
+            },
+            {
+                "normalized_label": "௫௬௩"
+            },
+            {
+                "normalized_label": "௫௬௪"
+            },
+            {
+                "normalized_label": "௫௬௫"
+            },
+            {
+                "normalized_label": "௫௬௬"
+            },
+            {
+                "normalized_label": "௫௬௭"
+            },
+            {
+                "normalized_label": "௫௬௮"
+            },
+            {
+                "normalized_label": "௫௬௯"
+            },
+            {
+                "normalized_label": "௫௭௦"
+            },
+            {
+                "normalized_label": "௫௭௧"
+            },
+            {
+                "normalized_label": "௫௭௨"
+            },
+            {
+                "normalized_label": "௫௭௩"
+            },
+            {
+                "normalized_label": "௫௭௪"
+            },
+            {
+                "normalized_label": "௫௭௫"
+            },
+            {
+                "normalized_label": "௫௭௬"
+            },
+            {
+                "normalized_label": "௫௭௭"
+            },
+            {
+                "normalized_label": "௫௭௮"
+            },
+            {
+                "normalized_label": "௫௭௯"
+            },
+            {
+                "normalized_label": "௫௮௦"
+            },
+            {
+                "normalized_label": "௫௮௧"
+            },
+            {
+                "normalized_label": "௫௮௨"
+            },
+            {
+                "normalized_label": "௫௮௩"
+            },
+            {
+                "normalized_label": "௫௮௪"
+            },
+            {
+                "normalized_label": "௫௮௫"
+            },
+            {
+                "normalized_label": "௫௮௬"
+            },
+            {
+                "normalized_label": "௫௮௭"
+            },
+            {
+                "normalized_label": "௫௮௮"
+            },
+            {
+                "normalized_label": "௫௮௯"
+            },
+            {
+                "normalized_label": "௫௯௦"
+            },
+            {
+                "normalized_label": "௫௯௧"
+            },
+            {
+                "normalized_label": "௫௯௨"
+            },
+            {
+                "normalized_label": "௫௯௩"
+            },
+            {
+                "normalized_label": "௫௯௪"
+            },
+            {
+                "normalized_label": "௫௯௫"
+            },
+            {
+                "normalized_label": "௫௯௬"
+            },
+            {
+                "normalized_label": "௫௯௭"
+            },
+            {
+                "normalized_label": "௫௯௮"
+            },
+            {
+                "normalized_label": "௫௯௯"
+            },
+            {
+                "normalized_label": "௬௦௦"
+            },
+            {
+                "normalized_label": "௬௦௧"
+            },
+            {
+                "normalized_label": "௬௦௨"
+            },
+            {
+                "normalized_label": "௬௦௩"
+            },
+            {
+                "normalized_label": "௬௦௪"
+            },
+            {
+                "normalized_label": "௬௦௫"
+            },
+            {
+                "normalized_label": "௬௦௬"
+            },
+            {
+                "normalized_label": "௬௦௭"
+            },
+            {
+                "normalized_label": "௬௦௮"
+            },
+            {
+                "normalized_label": "௬௦௯"
+            },
+            {
+                "normalized_label": "௬௧௦"
+            },
+            {
+                "normalized_label": "௬௧௧"
+            },
+            {
+                "normalized_label": "௬௧௨"
+            },
+            {
+                "normalized_label": "௬௧௩"
+            },
+            {
+                "normalized_label": "௬௧௪"
+            },
+            {
+                "normalized_label": "௬௧௫"
+            },
+            {
+                "normalized_label": "௬௧௬"
+            },
+            {
+                "normalized_label": "௬௧௭"
+            },
+            {
+                "normalized_label": "௬௧௮"
+            },
+            {
+                "normalized_label": "௬௧௯"
+            },
+            {
+                "normalized_label": "௬௨௦"
+            },
+            {
+                "normalized_label": "௬௨௧"
+            },
+            {
+                "normalized_label": "௬௨௨"
+            },
+            {
+                "normalized_label": "௬௨௩"
+            },
+            {
+                "normalized_label": "௬௨௪"
+            },
+            {
+                "normalized_label": "௬௨௫"
+            },
+            {
+                "normalized_label": "௬௨௬"
+            },
+            {
+                "normalized_label": "௬௨௭"
+            },
+            {
+                "normalized_label": "௬௨௮"
+            },
+            {
+                "normalized_label": "௬௨௯"
+            },
+            {
+                "normalized_label": "௬௩௦"
+            },
+            {
+                "normalized_label": "௬௩௧"
+            },
+            {
+                "normalized_label": "௬௩௨"
+            },
+            {
+                "normalized_label": "௬௩௩"
+            },
+            {
+                "normalized_label": "௬௩௪"
+            },
+            {
+                "normalized_label": "௬௩௫"
+            },
+            {
+                "normalized_label": "௬௩௬"
+            },
+            {
+                "normalized_label": "௬௩௭"
+            },
+            {
+                "normalized_label": "௬௩௮"
+            },
+            {
+                "normalized_label": "௬௩௯"
+            },
+            {
+                "normalized_label": "௬௪௦"
+            },
+            {
+                "normalized_label": "௬௪௧"
+            },
+            {
+                "normalized_label": "௬௪௨"
+            },
+            {
+                "normalized_label": "௬௪௩"
+            },
+            {
+                "normalized_label": "௬௪௪"
+            },
+            {
+                "normalized_label": "௬௪௫"
+            },
+            {
+                "normalized_label": "௬௪௬"
+            },
+            {
+                "normalized_label": "௬௪௭"
+            },
+            {
+                "normalized_label": "௬௪௮"
+            },
+            {
+                "normalized_label": "௬௪௯"
+            },
+            {
+                "normalized_label": "௬௫௦"
+            },
+            {
+                "normalized_label": "௬௫௧"
+            },
+            {
+                "normalized_label": "௬௫௨"
+            },
+            {
+                "normalized_label": "௬௫௩"
+            },
+            {
+                "normalized_label": "௬௫௪"
+            },
+            {
+                "normalized_label": "௬௫௫"
+            },
+            {
+                "normalized_label": "௬௫௬"
+            },
+            {
+                "normalized_label": "௬௫௭"
+            },
+            {
+                "normalized_label": "௬௫௮"
+            },
+            {
+                "normalized_label": "௬௫௯"
+            },
+            {
+                "normalized_label": "௬௬௦"
+            },
+            {
+                "normalized_label": "௬௬௧"
+            },
+            {
+                "normalized_label": "௬௬௨"
+            },
+            {
+                "normalized_label": "௬௬௩"
+            },
+            {
+                "normalized_label": "௬௬௪"
+            },
+            {
+                "normalized_label": "௬௬௫"
+            },
+            {
+                "normalized_label": "௬௬௬"
+            },
+            {
+                "normalized_label": "௬௬௭"
+            },
+            {
+                "normalized_label": "௬௬௮"
+            },
+            {
+                "normalized_label": "௬௬௯"
+            },
+            {
+                "normalized_label": "௬௭௦"
+            },
+            {
+                "normalized_label": "௬௭௧"
+            },
+            {
+                "normalized_label": "௬௭௨"
+            },
+            {
+                "normalized_label": "௬௭௩"
+            },
+            {
+                "normalized_label": "௬௭௪"
+            },
+            {
+                "normalized_label": "௬௭௫"
+            },
+            {
+                "normalized_label": "௬௭௬"
+            },
+            {
+                "normalized_label": "௬௭௭"
+            },
+            {
+                "normalized_label": "௬௭௮"
+            },
+            {
+                "normalized_label": "௬௭௯"
+            },
+            {
+                "normalized_label": "௬௮௦"
+            },
+            {
+                "normalized_label": "௬௮௧"
+            },
+            {
+                "normalized_label": "௬௮௨"
+            },
+            {
+                "normalized_label": "௬௮௩"
+            },
+            {
+                "normalized_label": "௬௮௪"
+            },
+            {
+                "normalized_label": "௬௮௫"
+            },
+            {
+                "normalized_label": "௬௮௬"
+            },
+            {
+                "normalized_label": "௬௮௭"
+            },
+            {
+                "normalized_label": "௬௮௮"
+            },
+            {
+                "normalized_label": "௬௮௯"
+            },
+            {
+                "normalized_label": "௬௯௦"
+            },
+            {
+                "normalized_label": "௬௯௧"
+            },
+            {
+                "normalized_label": "௬௯௨"
+            },
+            {
+                "normalized_label": "௬௯௩"
+            },
+            {
+                "normalized_label": "௬௯௪"
+            },
+            {
+                "normalized_label": "௬௯௫"
+            },
+            {
+                "normalized_label": "௬௯௬"
+            },
+            {
+                "normalized_label": "௬௯௭"
+            },
+            {
+                "normalized_label": "௬௯௮"
+            },
+            {
+                "normalized_label": "௬௯௯"
+            },
+            {
+                "normalized_label": "௭௦௦"
+            },
+            {
+                "normalized_label": "௭௦௧"
+            },
+            {
+                "normalized_label": "௭௦௨"
+            },
+            {
+                "normalized_label": "௭௦௩"
+            },
+            {
+                "normalized_label": "௭௦௪"
+            },
+            {
+                "normalized_label": "௭௦௫"
+            },
+            {
+                "normalized_label": "௭௦௬"
+            },
+            {
+                "normalized_label": "௭௦௭"
+            },
+            {
+                "normalized_label": "௭௦௮"
+            },
+            {
+                "normalized_label": "௭௦௯"
+            },
+            {
+                "normalized_label": "௭௧௦"
+            },
+            {
+                "normalized_label": "௭௧௧"
+            },
+            {
+                "normalized_label": "௭௧௨"
+            },
+            {
+                "normalized_label": "௭௧௩"
+            },
+            {
+                "normalized_label": "௭௧௪"
+            },
+            {
+                "normalized_label": "௭௧௫"
+            },
+            {
+                "normalized_label": "௭௧௬"
+            },
+            {
+                "normalized_label": "௭௧௭"
+            },
+            {
+                "normalized_label": "௭௧௮"
+            },
+            {
+                "normalized_label": "௭௧௯"
+            },
+            {
+                "normalized_label": "௭௨௦"
+            },
+            {
+                "normalized_label": "௭௨௧"
+            },
+            {
+                "normalized_label": "௭௨௨"
+            },
+            {
+                "normalized_label": "௭௨௩"
+            },
+            {
+                "normalized_label": "௭௨௪"
+            },
+            {
+                "normalized_label": "௭௨௫"
+            },
+            {
+                "normalized_label": "௭௨௬"
+            },
+            {
+                "normalized_label": "௭௨௭"
+            },
+            {
+                "normalized_label": "௭௨௮"
+            },
+            {
+                "normalized_label": "௭௨௯"
+            },
+            {
+                "normalized_label": "௭௩௦"
+            },
+            {
+                "normalized_label": "௭௩௧"
+            },
+            {
+                "normalized_label": "௭௩௨"
+            },
+            {
+                "normalized_label": "௭௩௩"
+            },
+            {
+                "normalized_label": "௭௩௪"
+            },
+            {
+                "normalized_label": "௭௩௫"
+            },
+            {
+                "normalized_label": "௭௩௬"
+            },
+            {
+                "normalized_label": "௭௩௭"
+            },
+            {
+                "normalized_label": "௭௩௮"
+            },
+            {
+                "normalized_label": "௭௩௯"
+            },
+            {
+                "normalized_label": "௭௪௦"
+            },
+            {
+                "normalized_label": "௭௪௧"
+            },
+            {
+                "normalized_label": "௭௪௨"
+            },
+            {
+                "normalized_label": "௭௪௩"
+            },
+            {
+                "normalized_label": "௭௪௪"
+            },
+            {
+                "normalized_label": "௭௪௫"
+            },
+            {
+                "normalized_label": "௭௪௬"
+            },
+            {
+                "normalized_label": "௭௪௭"
+            },
+            {
+                "normalized_label": "௭௪௮"
+            },
+            {
+                "normalized_label": "௭௪௯"
+            },
+            {
+                "normalized_label": "௭௫௦"
+            },
+            {
+                "normalized_label": "௭௫௧"
+            },
+            {
+                "normalized_label": "௭௫௨"
+            },
+            {
+                "normalized_label": "௭௫௩"
+            },
+            {
+                "normalized_label": "௭௫௪"
+            },
+            {
+                "normalized_label": "௭௫௫"
+            },
+            {
+                "normalized_label": "௭௫௬"
+            },
+            {
+                "normalized_label": "௭௫௭"
+            },
+            {
+                "normalized_label": "௭௫௮"
+            },
+            {
+                "normalized_label": "௭௫௯"
+            },
+            {
+                "normalized_label": "௭௬௦"
+            },
+            {
+                "normalized_label": "௭௬௧"
+            },
+            {
+                "normalized_label": "௭௬௨"
+            },
+            {
+                "normalized_label": "௭௬௩"
+            },
+            {
+                "normalized_label": "௭௬௪"
+            },
+            {
+                "normalized_label": "௭௬௫"
+            },
+            {
+                "normalized_label": "௭௬௬"
+            },
+            {
+                "normalized_label": "௭௬௭"
+            },
+            {
+                "normalized_label": "௭௬௮"
+            },
+            {
+                "normalized_label": "௭௬௯"
+            },
+            {
+                "normalized_label": "௭௭௦"
+            },
+            {
+                "normalized_label": "௭௭௧"
+            },
+            {
+                "normalized_label": "௭௭௨"
+            },
+            {
+                "normalized_label": "௭௭௩"
+            },
+            {
+                "normalized_label": "௭௭௪"
+            },
+            {
+                "normalized_label": "௭௭௫"
+            },
+            {
+                "normalized_label": "௭௭௬"
+            },
+            {
+                "normalized_label": "௭௭௭"
+            },
+            {
+                "normalized_label": "௭௭௮"
+            },
+            {
+                "normalized_label": "௭௭௯"
+            },
+            {
+                "normalized_label": "௭௮௦"
+            },
+            {
+                "normalized_label": "௭௮௧"
+            },
+            {
+                "normalized_label": "௭௮௨"
+            },
+            {
+                "normalized_label": "௭௮௩"
+            },
+            {
+                "normalized_label": "௭௮௪"
+            },
+            {
+                "normalized_label": "௭௮௫"
+            },
+            {
+                "normalized_label": "௭௮௬"
+            },
+            {
+                "normalized_label": "௭௮௭"
+            },
+            {
+                "normalized_label": "௭௮௮"
+            },
+            {
+                "normalized_label": "௭௮௯"
+            },
+            {
+                "normalized_label": "௭௯௦"
+            },
+            {
+                "normalized_label": "௭௯௧"
+            },
+            {
+                "normalized_label": "௭௯௨"
+            },
+            {
+                "normalized_label": "௭௯௩"
+            },
+            {
+                "normalized_label": "௭௯௪"
+            },
+            {
+                "normalized_label": "௭௯௫"
+            },
+            {
+                "normalized_label": "௭௯௬"
+            },
+            {
+                "normalized_label": "௭௯௭"
+            },
+            {
+                "normalized_label": "௭௯௮"
+            },
+            {
+                "normalized_label": "௭௯௯"
+            },
+            {
+                "normalized_label": "௮௦௦"
+            },
+            {
+                "normalized_label": "௮௦௧"
+            },
+            {
+                "normalized_label": "௮௦௨"
+            },
+            {
+                "normalized_label": "௮௦௩"
+            },
+            {
+                "normalized_label": "௮௦௪"
+            },
+            {
+                "normalized_label": "௮௦௫"
+            },
+            {
+                "normalized_label": "௮௦௬"
+            },
+            {
+                "normalized_label": "௮௦௭"
+            },
+            {
+                "normalized_label": "௮௦௮"
+            },
+            {
+                "normalized_label": "௮௦௯"
+            },
+            {
+                "normalized_label": "௮௧௦"
+            },
+            {
+                "normalized_label": "௮௧௧"
+            },
+            {
+                "normalized_label": "௮௧௨"
+            },
+            {
+                "normalized_label": "௮௧௩"
+            },
+            {
+                "normalized_label": "௮௧௪"
+            },
+            {
+                "normalized_label": "௮௧௫"
+            },
+            {
+                "normalized_label": "௮௧௬"
+            },
+            {
+                "normalized_label": "௮௧௭"
+            },
+            {
+                "normalized_label": "௮௧௮"
+            },
+            {
+                "normalized_label": "௮௧௯"
+            },
+            {
+                "normalized_label": "௮௨௦"
+            },
+            {
+                "normalized_label": "௮௨௧"
+            },
+            {
+                "normalized_label": "௮௨௨"
+            },
+            {
+                "normalized_label": "௮௨௩"
+            },
+            {
+                "normalized_label": "௮௨௪"
+            },
+            {
+                "normalized_label": "௮௨௫"
+            },
+            {
+                "normalized_label": "௮௨௬"
+            },
+            {
+                "normalized_label": "௮௨௭"
+            },
+            {
+                "normalized_label": "௮௨௮"
+            },
+            {
+                "normalized_label": "௮௨௯"
+            },
+            {
+                "normalized_label": "௮௩௦"
+            },
+            {
+                "normalized_label": "௮௩௧"
+            },
+            {
+                "normalized_label": "௮௩௨"
+            },
+            {
+                "normalized_label": "௮௩௩"
+            },
+            {
+                "normalized_label": "௮௩௪"
+            },
+            {
+                "normalized_label": "௮௩௫"
+            },
+            {
+                "normalized_label": "௮௩௬"
+            },
+            {
+                "normalized_label": "௮௩௭"
+            },
+            {
+                "normalized_label": "௮௩௮"
+            },
+            {
+                "normalized_label": "௮௩௯"
+            },
+            {
+                "normalized_label": "௮௪௦"
+            },
+            {
+                "normalized_label": "௮௪௧"
+            },
+            {
+                "normalized_label": "௮௪௨"
+            },
+            {
+                "normalized_label": "௮௪௩"
+            },
+            {
+                "normalized_label": "௮௪௪"
+            },
+            {
+                "normalized_label": "௮௪௫"
+            },
+            {
+                "normalized_label": "௮௪௬"
+            },
+            {
+                "normalized_label": "௮௪௭"
+            },
+            {
+                "normalized_label": "௮௪௮"
+            },
+            {
+                "normalized_label": "௮௪௯"
+            },
+            {
+                "normalized_label": "௮௫௦"
+            },
+            {
+                "normalized_label": "௮௫௧"
+            },
+            {
+                "normalized_label": "௮௫௨"
+            },
+            {
+                "normalized_label": "௮௫௩"
+            },
+            {
+                "normalized_label": "௮௫௪"
+            },
+            {
+                "normalized_label": "௮௫௫"
+            },
+            {
+                "normalized_label": "௮௫௬"
+            },
+            {
+                "normalized_label": "௮௫௭"
+            },
+            {
+                "normalized_label": "௮௫௮"
+            },
+            {
+                "normalized_label": "௮௫௯"
+            },
+            {
+                "normalized_label": "௮௬௦"
+            },
+            {
+                "normalized_label": "௮௬௧"
+            },
+            {
+                "normalized_label": "௮௬௨"
+            },
+            {
+                "normalized_label": "௮௬௩"
+            },
+            {
+                "normalized_label": "௮௬௪"
+            },
+            {
+                "normalized_label": "௮௬௫"
+            },
+            {
+                "normalized_label": "௮௬௬"
+            },
+            {
+                "normalized_label": "௮௬௭"
+            },
+            {
+                "normalized_label": "௮௬௮"
+            },
+            {
+                "normalized_label": "௮௬௯"
+            },
+            {
+                "normalized_label": "௮௭௦"
+            },
+            {
+                "normalized_label": "௮௭௧"
+            },
+            {
+                "normalized_label": "௮௭௨"
+            },
+            {
+                "normalized_label": "௮௭௩"
+            },
+            {
+                "normalized_label": "௮௭௪"
+            },
+            {
+                "normalized_label": "௮௭௫"
+            },
+            {
+                "normalized_label": "௮௭௬"
+            },
+            {
+                "normalized_label": "௮௭௭"
+            },
+            {
+                "normalized_label": "௮௭௮"
+            },
+            {
+                "normalized_label": "௮௭௯"
+            },
+            {
+                "normalized_label": "௮௮௦"
+            },
+            {
+                "normalized_label": "௮௮௧"
+            },
+            {
+                "normalized_label": "௮௮௨"
+            },
+            {
+                "normalized_label": "௮௮௩"
+            },
+            {
+                "normalized_label": "௮௮௪"
+            },
+            {
+                "normalized_label": "௮௮௫"
+            },
+            {
+                "normalized_label": "௮௮௬"
+            },
+            {
+                "normalized_label": "௮௮௭"
+            },
+            {
+                "normalized_label": "௮௮௮"
+            },
+            {
+                "normalized_label": "௮௮௯"
+            },
+            {
+                "normalized_label": "௮௯௦"
+            },
+            {
+                "normalized_label": "௮௯௧"
+            },
+            {
+                "normalized_label": "௮௯௨"
+            },
+            {
+                "normalized_label": "௮௯௩"
+            },
+            {
+                "normalized_label": "௮௯௪"
+            },
+            {
+                "normalized_label": "௮௯௫"
+            },
+            {
+                "normalized_label": "௮௯௬"
+            },
+            {
+                "normalized_label": "௮௯௭"
+            },
+            {
+                "normalized_label": "௮௯௮"
+            },
+            {
+                "normalized_label": "௮௯௯"
+            },
+            {
+                "normalized_label": "௯௦௦"
+            },
+            {
+                "normalized_label": "௯௦௧"
+            },
+            {
+                "normalized_label": "௯௦௨"
+            },
+            {
+                "normalized_label": "௯௦௩"
+            },
+            {
+                "normalized_label": "௯௦௪"
+            },
+            {
+                "normalized_label": "௯௦௫"
+            },
+            {
+                "normalized_label": "௯௦௬"
+            },
+            {
+                "normalized_label": "௯௦௭"
+            },
+            {
+                "normalized_label": "௯௦௮"
+            },
+            {
+                "normalized_label": "௯௦௯"
+            },
+            {
+                "normalized_label": "௯௧௦"
+            },
+            {
+                "normalized_label": "௯௧௧"
+            },
+            {
+                "normalized_label": "௯௧௨"
+            },
+            {
+                "normalized_label": "௯௧௩"
+            },
+            {
+                "normalized_label": "௯௧௪"
+            },
+            {
+                "normalized_label": "௯௧௫"
+            },
+            {
+                "normalized_label": "௯௧௬"
+            },
+            {
+                "normalized_label": "௯௧௭"
+            },
+            {
+                "normalized_label": "௯௧௮"
+            },
+            {
+                "normalized_label": "௯௧௯"
+            },
+            {
+                "normalized_label": "௯௨௦"
+            },
+            {
+                "normalized_label": "௯௨௧"
+            },
+            {
+                "normalized_label": "௯௨௨"
+            },
+            {
+                "normalized_label": "௯௨௩"
+            },
+            {
+                "normalized_label": "௯௨௪"
+            },
+            {
+                "normalized_label": "௯௨௫"
+            },
+            {
+                "normalized_label": "௯௨௬"
+            },
+            {
+                "normalized_label": "௯௨௭"
+            },
+            {
+                "normalized_label": "௯௨௮"
+            },
+            {
+                "normalized_label": "௯௨௯"
+            },
+            {
+                "normalized_label": "௯௩௦"
+            },
+            {
+                "normalized_label": "௯௩௧"
+            },
+            {
+                "normalized_label": "௯௩௨"
+            },
+            {
+                "normalized_label": "௯௩௩"
+            },
+            {
+                "normalized_label": "௯௩௪"
+            },
+            {
+                "normalized_label": "௯௩௫"
+            },
+            {
+                "normalized_label": "௯௩௬"
+            },
+            {
+                "normalized_label": "௯௩௭"
+            },
+            {
+                "normalized_label": "௯௩௮"
+            },
+            {
+                "normalized_label": "௯௩௯"
+            },
+            {
+                "normalized_label": "௯௪௦"
+            },
+            {
+                "normalized_label": "௯௪௧"
+            },
+            {
+                "normalized_label": "௯௪௨"
+            },
+            {
+                "normalized_label": "௯௪௩"
+            },
+            {
+                "normalized_label": "௯௪௪"
+            },
+            {
+                "normalized_label": "௯௪௫"
+            },
+            {
+                "normalized_label": "௯௪௬"
+            },
+            {
+                "normalized_label": "௯௪௭"
+            },
+            {
+                "normalized_label": "௯௪௮"
+            },
+            {
+                "normalized_label": "௯௪௯"
+            },
+            {
+                "normalized_label": "௯௫௦"
+            },
+            {
+                "normalized_label": "௯௫௧"
+            },
+            {
+                "normalized_label": "௯௫௨"
+            },
+            {
+                "normalized_label": "௯௫௩"
+            },
+            {
+                "normalized_label": "௯௫௪"
+            },
+            {
+                "normalized_label": "௯௫௫"
+            },
+            {
+                "normalized_label": "௯௫௬"
+            },
+            {
+                "normalized_label": "௯௫௭"
+            },
+            {
+                "normalized_label": "௯௫௮"
+            },
+            {
+                "normalized_label": "௯௫௯"
+            },
+            {
+                "normalized_label": "௯௬௦"
+            },
+            {
+                "normalized_label": "௯௬௧"
+            },
+            {
+                "normalized_label": "௯௬௨"
+            },
+            {
+                "normalized_label": "௯௬௩"
+            },
+            {
+                "normalized_label": "௯௬௪"
+            },
+            {
+                "normalized_label": "௯௬௫"
+            },
+            {
+                "normalized_label": "௯௬௬"
+            },
+            {
+                "normalized_label": "௯௬௭"
+            },
+            {
+                "normalized_label": "௯௬௮"
+            },
+            {
+                "normalized_label": "௯௬௯"
+            },
+            {
+                "normalized_label": "௯௭௦"
+            },
+            {
+                "normalized_label": "௯௭௧"
+            },
+            {
+                "normalized_label": "௯௭௨"
+            },
+            {
+                "normalized_label": "௯௭௩"
+            },
+            {
+                "normalized_label": "௯௭௪"
+            },
+            {
+                "normalized_label": "௯௭௫"
+            },
+            {
+                "normalized_label": "௯௭௬"
+            },
+            {
+                "normalized_label": "௯௭௭"
+            },
+            {
+                "normalized_label": "௯௭௮"
+            },
+            {
+                "normalized_label": "௯௭௯"
+            },
+            {
+                "normalized_label": "௯௮௦"
+            },
+            {
+                "normalized_label": "௯௮௧"
+            },
+            {
+                "normalized_label": "௯௮௨"
+            },
+            {
+                "normalized_label": "௯௮௩"
+            },
+            {
+                "normalized_label": "௯௮௪"
+            },
+            {
+                "normalized_label": "௯௮௫"
+            },
+            {
+                "normalized_label": "௯௮௬"
+            },
+            {
+                "normalized_label": "௯௮௭"
+            },
+            {
+                "normalized_label": "௯௮௮"
+            },
+            {
+                "normalized_label": "௯௮௯"
+            },
+            {
+                "normalized_label": "௯௯௦"
+            },
+            {
+                "normalized_label": "௯௯௧"
+            },
+            {
+                "normalized_label": "௯௯௨"
+            },
+            {
+                "normalized_label": "௯௯௩"
+            },
+            {
+                "normalized_label": "௯௯௪"
+            },
+            {
+                "normalized_label": "௯௯௫"
+            },
+            {
+                "normalized_label": "௯௯௬"
+            },
+            {
+                "normalized_label": "௯௯௭"
+            },
+            {
+                "normalized_label": "௯௯௮"
+            },
+            {
+                "normalized_label": "௯௯௯"
+            }
+        ]
+    }
+}
