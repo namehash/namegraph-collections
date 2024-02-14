@@ -1,12 +1,15 @@
 from typing import Optional, Any
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
+from functools import lru_cache
 from operator import itemgetter
 from textwrap import dedent
 import jsonlines
 import random
+import emoji
 import time
 import os
+import re
 
 from airflow import DAG
 from airflow.models import Variable
@@ -116,18 +119,50 @@ def download_s3_file(bucket: str, remote_file: str, local_file: str):
     s3.download_file(bucket, remote_file, local_file)
 
 
+_SPLIT_RE = re.compile("([a-zA-Z0-9']+|\d+)", re.UNICODE)
+_SIMPLE_RE = re.compile("^[a-zA-Z0-9']+$")
+
+
+def emoji_split(name: str) -> list[tuple[str, bool]]:
+    token = []
+    for c in emoji.tokenizer.tokenize(name, keep_zwj=True):
+        if isinstance(c.value, emoji.EmojiMatch):
+            if token:
+                yield ''.join(token), False
+                token = []
+            yield c.chars, True
+        else:
+            token.append(c.chars)
+    if token:
+        yield ''.join(token), False
+
+
+@lru_cache(64)
+def _tokenizer(name: str) -> list[str]:
+    tokens = []
+    for token, is_emoji in emoji_split(name):
+        if is_emoji:
+            tokens.append(token)
+        else:
+            split_name = _SPLIT_RE.split(token)
+            for token2 in split_name:
+                if not token2:
+                    continue
+                if _SIMPLE_RE.match(token2):
+                    tokens.extend(wordninja.split(token2))
+                else:
+                    tokens.append(token2)
+    return tokens
+
+
 def tokenize_name(name: str) -> list[str]:
-    # TODO substitute with our dictionary from NameGenerator
-    return wordninja.split(name)
+    return _tokenizer(name)
 
 
 @dataclass
 class Member:
+    normalized: str
     tokenized: list[str]
-
-    @property
-    def curated(self) -> str:
-        return ''.join(self.tokenized)
 
 
 @dataclass
@@ -148,24 +183,14 @@ def generate_random_banner_image():
 
 def prepare_custom_collection(
         collection_json: dict,
-        domains_path: str,
-        interesting_score_path: str,
-        force_normalize_path: str,
-        name_to_hash_path: str,
-        avatar_emoji_path: str,
+        inspector: Inspector,
+        domains: dict[str, str],
+        interesting_score_function: Any,
+        force_normalize_function: Any,
+        normal_name_to_hash_function: Any,
+        avatar_emoji: AvatarEmoji,
 ) -> dict:
 
-    GlobalHydra.instance().clear()
-    initialize_config_module(version_base=None, config_module='inspector_conf')
-    config = compose(config_name="prod_config")
-    inspector = Inspector(config)
-
-    domains = read_csv_domains(domains_path)
-    interesting_score_function = configure_interesting_score(inspector, interesting_score_path)
-    force_normalize_function = configure_force_normalize(force_normalize_path)
-    normal_name_to_hash_function = configure_nomrmal_name_to_hash(name_to_hash_path)
-
-    avatar_emoji = AvatarEmoji(avatar_emoji_path)  # FIXME how do we get type?
     current_time = time.time() * 1000
 
     collection_data = collection_json['data']
@@ -173,9 +198,17 @@ def prepare_custom_collection(
 
     members = []
     for member_json in collection_data['labels']:
+        if "normalized_label" not in member_json and "tokenized_label" not in member_json:
+            print(f"Skipping member {member_json['label']} because it has no normalized_label and no tokenized_label")
+            continue
+
+        if "normalized_label" not in member_json:
+            member_json["normalized_label"] = ''.join(member_json["tokenized_label"])
         if "tokenized_label" not in member_json:
             member_json["tokenized_label"] = tokenize_name(member_json["normalized_label"])
-        member = Member(tokenized=member_json['tokenized_label'])
+
+        member = Member(normalized=member_json['normalized_label'],
+                        tokenized=member_json['tokenized_label'])
         members.append(member)
 
     collection = Collection(
@@ -189,12 +222,12 @@ def prepare_custom_collection(
     )
 
     template_names = [{
-        'normalized_name': member.curated,
+        'normalized_name': member.normalized,
         'tokenized_name': member.tokenized,
-        'system_interesting_score': interesting_score_function(member.curated)[0],
+        'system_interesting_score': interesting_score_function(member.normalized)[0],
         'rank': commands.get('member_rank', DEFAULT_MEMBER_RANK),
-        'cached_status': domains.get(member.curated, None),
-        'namehash': normal_name_to_hash_function(member.curated + '.eth'),
+        'cached_status': domains.get(member.normalized, None),
+        'namehash': normal_name_to_hash_function(member.normalized + '.eth'),
         # 'translations_count': None,
     } for member in collection.members]
 
@@ -280,9 +313,9 @@ def prepare_custom_collection(
             'members_system_interesting_score_mean': max(np.mean(interesting_scores), MIN_VALUE),
             'members_system_interesting_score_median': max(np.median(interesting_scores), MIN_VALUE),
             'valid_members_count': len(collection.members),
-            'invalid_members_count': 1,  # rank features cannot be zero  # TODO ??
-            'valid_members_ratio': 1.0,  # TODO ??
-            'nonavailable_members_count': nonavailable_members,
+            'invalid_members_count': 1,  # rank features cannot be zero
+            'valid_members_ratio': 1.0,
+            'nonavailable_members_count': nonavailable_members + 1,  # rank features cannot be zero
             'nonavailable_members_ratio': max(nonavailable_members / len(collection.members), MIN_VALUE),
 
             'is_merged': False,
@@ -309,15 +342,28 @@ def prepare_custom_collections(
         name_to_hash_path: str,
         avatar_emoji_path: str,
 ):
+    GlobalHydra.instance().clear()
+    initialize_config_module(version_base=None, config_module='inspector_conf')
+    config = compose(config_name="prod_config")
+    inspector = Inspector(config)
+
+    domains = read_csv_domains(domains_path)
+    interesting_score_function = configure_interesting_score(inspector, interesting_score_path)
+    force_normalize_function = configure_force_normalize(force_normalize_path)
+    normal_name_to_hash_function = configure_nomrmal_name_to_hash(name_to_hash_path)
+
+    avatar_emoji = AvatarEmoji(avatar_emoji_path)  # FIXME how do we get type?
+
     with jsonlines.open(input_file, 'r') as reader, jsonlines.open(output_file, 'w') as writer:
         for collection_json in reader:
             prepared_collection = prepare_custom_collection(
                 collection_json=collection_json,
-                domains_path=domains_path,
-                interesting_score_path=interesting_score_path,
-                force_normalize_path=force_normalize_path,
-                name_to_hash_path=name_to_hash_path,
-                avatar_emoji_path=avatar_emoji_path,
+                inspector=inspector,
+                domains=domains,
+                interesting_score_function=interesting_score_function,
+                force_normalize_function=force_normalize_function,
+                normal_name_to_hash_function=normal_name_to_hash_function,
+                avatar_emoji=avatar_emoji,
             )
             writer.write(prepared_collection)
 
@@ -333,12 +379,14 @@ def produce_custom_update_operations(custom_collections_path: str, custom_update
 
             if metadata_id in ids_mapping:
                 # there are not that many custom collections, thus no need for optimization - executing a full update
-                writer.write(prepare_full_update(
+                full_update = prepare_full_update(
                     ids_mapping[metadata_id],
                     collection,
                     UPDATING_FIELDS,  # TODO this may change eventually
                     CONFIG.elasticsearch.index
-                ))
+                )
+                if full_update is not None:
+                    writer.write(full_update)
             else:
                 writer.write({
                     '_index': CONFIG.elasticsearch.index,

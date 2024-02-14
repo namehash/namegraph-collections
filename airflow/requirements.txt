@@ -14,3 +14,4 @@ kwnlp-sql-parser==0.0.2
 web3==6.6.1
 hydra-core==1.2.0
 wordninja==2.0.0
+emoji==2.8.0
