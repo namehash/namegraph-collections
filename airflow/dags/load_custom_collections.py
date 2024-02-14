@@ -173,9 +173,33 @@ def prepare_custom_collection(
 
     members = []
     for member_json in collection_data['labels']:
-        if "tokenized_label" not in member_json:
+        is_pretokenized = "tokenized_label" in member_json
+        if not is_pretokenized:
             member_json["tokenized_label"] = tokenize_name(member_json["normalized_label"])
         member = Member(tokenized=member_json['tokenized_label'])
+
+        # if the input is unnormalized, we can try to normalize the name
+        normalized_name = force_normalize_function(member.curated)
+        if normalized_name != member.curated:
+            print(f'Unnormalized name: {member.curated}, trying to normalize...')
+
+            # if the input is not pretokenized, we can normalize the name and then tokenize it
+            if not is_pretokenized:
+                member = Member(tokenized=tokenize_name(normalized_name))  # tokenizing normalized name
+                print(f'  Normalized to: {member.curated}, tokenized: {member.tokenized}')
+            # if the input is pretokenized, we then try to tokenize the tokens, and see
+            # if their concatenation is normalized, and if not, we skip the member
+            else:
+                normalized_tokens = [force_normalize_function(token) for token in member_json['tokenized_label']]
+                member = Member(tokenized=[token for token in normalized_tokens if token])
+                normalized_pretokenized_name = force_normalize_function(member.curated)
+                if normalized_pretokenized_name != member.curated:
+                    print(f'  Tried to normalize pretokenized name "{" ".join(member_json["tokenized_label"])}", '
+                          f'by tokenizing and normalizing each token, but failed')
+                    continue
+                else:
+                    print(f'  Normalized to: {member.curated}, tokenized: {member.tokenized}')
+
         members.append(member)
 
     collection = Collection(
