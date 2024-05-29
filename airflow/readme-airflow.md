@@ -2,7 +2,7 @@
 Based on 
 https://vidyats.medium.com/how-to-switch-from-airflow-default-sequential-executor-to-local-executor-ad77f2e4b57a
 
-1. git clone label-inspector (in airflow directory)
+1. git clone --branch airflow git@github.com:namehash/namerank.git (in airflow directory)
 2. docker compose up
 3. https://localhost:8080
    * login: airflow, 

@@ -20,7 +20,7 @@ from elasticsearch import Elasticsearch
 from elasticsearch.helpers import streaming_bulk, scan
 from hydra import initialize_config_module, compose
 from hydra.core.global_hydra import GlobalHydra
-from inspector.label_inspector import Inspector
+from namerank.namerank import NameRank
 import boto3
 import numpy as np
 import wordninja
@@ -183,7 +183,7 @@ def generate_random_banner_image():
 
 def prepare_custom_collection(
         collection_json: dict,
-        inspector: Inspector,
+        namerank: NameRank,
         domains: dict[str, str],
         interesting_score_function: Any,
         force_normalize_function: Any,
@@ -288,7 +288,7 @@ def prepare_custom_collection(
             'votes': [],
             'duplicated-from': '',
             'members_count': len(collection.members),
-            'collection_name_log_probability': inspector.ngrams.sequence_log_probability(
+            'collection_name_log_probability': namerank.nlp_inspector.ngrams.sequence_log_probability(
                 collection.name.lower().split(' ')
             ),
         },
@@ -345,10 +345,10 @@ def prepare_custom_collections(
     GlobalHydra.instance().clear()
     initialize_config_module(version_base=None, config_module='inspector_conf')
     config = compose(config_name="prod_config")
-    inspector = Inspector(config)
+    namerank = NameRank()
 
     domains = read_csv_domains(domains_path)
-    interesting_score_function = configure_interesting_score(inspector, interesting_score_path)
+    interesting_score_function = configure_interesting_score(namerank, interesting_score_path)
     force_normalize_function = configure_force_normalize(force_normalize_path)
     normal_name_to_hash_function = configure_nomrmal_name_to_hash(name_to_hash_path)
 
@@ -358,7 +358,7 @@ def prepare_custom_collections(
         for collection_json in reader:
             prepared_collection = prepare_custom_collection(
                 collection_json=collection_json,
-                inspector=inspector,
+                namerank=namerank,
                 domains=domains,
                 interesting_score_function=interesting_score_function,
                 force_normalize_function=force_normalize_function,
