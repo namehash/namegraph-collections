@@ -5,7 +5,6 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from collections import defaultdict
 
-from hydra import initialize_config_module, compose
 import multiprocessing
 from functools import wraps
 import jsonlines, regex, math, csv, random, time, sys, re
@@ -13,10 +12,10 @@ import numpy as np
 from tqdm import tqdm
 from rocksdict import AccessType, Rdict
 from ens_normalize import DisallowedSequence, ens_cure
-from inspector.label_inspector import Inspector
+from namerank.namerank import NameRank
 from urllib.parse import unquote
 from unidecode import unidecode
-import myunicode
+from label_inspector.common import myunicode
 from wikimapper.mapper import WikiMapper
 from ens.utils import Web3
 from ens.constants import EMPTY_SHA3_BYTES
@@ -80,13 +79,13 @@ def memoize_ram(original_function=None, path=None):
     return _decorate
 
 
-def configure_interesting_score(inspector, path):
+def configure_interesting_score(namerank: NameRank, path):
     @memoize_ram(path=path)
     def get_interesting_score(label):
-        rjson = inspector.analyse_label(label, truncate_confusables=0, truncate_graphemes=0, pos_lemma=False)
+        r = namerank.inspect_label(label)
         try:
-            interesting_score = rjson['interesting_score']
-            tokenizations = rjson['tokenizations']
+            interesting_score = r.namerank.interesting_score
+            tokenizations = r.namerank.tokenizations
             try:
                 best_tokenization = [token['token'] for token in tokenizations[0]['tokens']]
             except:
@@ -117,11 +116,8 @@ def compute_unique_members(input, output, force_normalize_path):
 
 
 def cache_interesting_score(list_members, category_members, interesting_score_path):
-    initialize_config_module(version_base=None, config_module='inspector_conf')
-    config = compose(config_name="prod_config")
-    inspector = Inspector(config)
-
-    interesting_score_function = configure_interesting_score(inspector, interesting_score_path)
+    namerank = NameRank()
+    interesting_score_function = configure_interesting_score(namerank, interesting_score_path)
 
     unique_members = set()
     with open(list_members) as f:
@@ -387,9 +383,7 @@ def curate_name(collection_article: str):
 def compute_all_info(input, output, interesting_score_path, qrank_path, domains_path, auxiliary_data_path, wikimapper_path, force_normalize_path):
     auxiliary_data_db = Rdict(auxiliary_data_path, access_type=AccessType.read_only())
 
-    initialize_config_module(version_base=None, config_module='inspector_conf')
-    config = compose(config_name="prod_config")
-    inspector = Inspector(config)
+    namerank = NameRank()
     mapper = WikiMapper(wikimapper_path)
 
     ranks = {}
@@ -400,7 +394,7 @@ def compute_all_info(input, output, interesting_score_path, qrank_path, domains_
             ranks[id] = int(rank)
 
     domains = read_csv_domains(domains_path)
-    interesting_score_function = configure_interesting_score(inspector, interesting_score_path)
+    interesting_score_function = configure_interesting_score(namerank, interesting_score_path)
     force_normalize_function = configure_force_normalize(force_normalize_path)
 
     # TODO add multiprocessing
@@ -863,9 +857,7 @@ class AvatarEmoji:
 
 
 def collection_factory(input, output, name_to_hash_path, avatar_path):
-    initialize_config_module(version_base=None, config_module='inspector_conf')
-    config = compose(config_name="prod_config")
-    inspector = Inspector(config)
+    namerank = NameRank()
     normal_name_to_hash_function = configure_nomrmal_name_to_hash(name_to_hash_path)
 
     current_time = time.time() * 1000
@@ -947,7 +939,7 @@ def collection_factory(input, output, name_to_hash_path, avatar_path):
                         'duplicated-from': '',
                         # a pointer to another collection. This field could be set whenever we create a collection from a template (reference back to origin template) or it could be set whenever a user 'duplicates' another user generated collection.
                         'members_count': len(collection.members),
-                        'collection_name_log_probability': inspector.ngrams.sequence_log_probability(
+                        'collection_name_log_probability': namerank.nlp_inspector.ngrams.sequence_log_probability(
                             collection.name.lower().split(' ')),
                     },
                     'template': {  # template generator controlled

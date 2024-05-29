@@ -42,17 +42,17 @@ USER airflow
 COPY ./requirements.txt /
 RUN pip install --no-cache-dir "apache-airflow==${AIRFLOW_VERSION}" -r /requirements.txt
 USER root
-RUN mkdir /label-inspector
-ADD ./label-inspector/ /label-inspector
+RUN mkdir /namerank
+ADD ./namerank/ /namerank
 USER airflow
-RUN pip install /label-inspector/
+RUN pip install /namerank/
 # Force cache creation, could be simplified by just in a python one-liner importing the same thing as in create_merged.py
 RUN mkdir /home/airflow/data
 USER root
 RUN chmod g+w /home/airflow/data
-RUN chmod g+w /home/airflow/.local/lib/python3.10/site-packages/namehash_common/
+RUN chmod g+w /home/airflow/.local/lib/python3.10/site-packages/label_inspector/common/cache
 USER airflow
-RUN python -m namehash_common.generate_cache
+RUN python -m label_inspector.common.generate_cache
 USER root
 COPY sql_parser.c /home/airflow
 RUN g++ -o /home/airflow/.local/bin/sql_parser /home/airflow/sql_parser.c
