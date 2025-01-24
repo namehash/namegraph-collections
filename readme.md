@@ -29,3 +29,15 @@ Wikipedia [Category of Pink Floyd Albums](https://en.wikipedia.org/wiki/Category
 - [thewall (The Wall)](https://en.wikipedia.org/wiki/The_Wall)
 - [meddle (Meddle)](https://en.wikipedia.org/wiki/Meddle)
 
+
+## NameGraph [[Github]](https://github.com/namehash/namegraph)
+
+Built upon collections templates pipeline, NameGraph empowers ENS registrar apps to build new name discovery user experiences. Surf more than 21 million name ideas across more than 400,000 name collections, or generate infinite related name suggestions.
+
+Visit NameGraph at [namegraph.dev](https://namegraph.dev) and shoot for the moon!
+
+![alt text](docs/media/namegraph-moon.png)
+
+## Documentation
+
+Take a closer look at the way collections templates pipeline works in [docs](docs/readme-internal.md).

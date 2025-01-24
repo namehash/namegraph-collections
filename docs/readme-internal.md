@@ -10,7 +10,7 @@ The system enables discovery of domain names through their real-world connection
 
 ## 🌐 Wikipedia Pipeline DAGs
 
-![Pipeline DAG](./makefile-dag.png)
+![Pipeline DAG](media/makefile-dag.png)
 
 ### [📥](airflow/dags/create_inlets.py) Filter Wikidata DAG
    - Downloads and filters Wikidata dump to include only specific predicates and English Wikipedia entities
