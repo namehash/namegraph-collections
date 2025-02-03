@@ -381,7 +381,15 @@ def curate_name(collection_article: str):
 
 
 def compute_all_info(input, output, interesting_score_path, qrank_path, domains_path, auxiliary_data_path, wikimapper_path, force_normalize_path):
-    auxiliary_data_db = Rdict(auxiliary_data_path, access_type=AccessType.read_only())
+    import os
+    print(f"Current working directory: {os.getcwd()}")
+    print(f"Attempting to open RocksDB at: {auxiliary_data_path}")
+    try:
+        auxiliary_data_db = Rdict(auxiliary_data_path, access_type=AccessType.read_only())
+    except Exception as e:
+        print(f"Failed to open RocksDB at {auxiliary_data_path}: {e}")
+        print(f"Directory contents: {os.listdir(os.path.dirname(auxiliary_data_path))}")
+        raise
 
     namerank = NameRank()
     mapper = WikiMapper(wikimapper_path)
