@@ -1,6 +1,6 @@
 # Collections Templates Pipeline
 
-A sophisticated data pipeline that creates meaningful collections of ENS domain names by analyzing Wikipedia and Wikidata knowledge graphs. The pipeline discovers relationships between domain names based on their real-world connections - whether they belong to the same category, share similar attributes, or are commonly associated together.
+A sophisticated data pipeline that creates meaningful collections of ENS domain names by analyzing Wikipedia and Wikidata knowledge graphs. The pipeline discovers relationships between names based on their conceptual connections - whether they belong to the same category, share similar attributes, or are commonly associated together.
 
 ## Overview
 
@@ -13,7 +13,7 @@ The pipeline processes Wikipedia and Wikidata dumps through multiple stages:
    - Domain registration status
    - Collection avatars and banners
 4. Computes recommendations between related collections
-5. Makes collections searchable through Elasticsearch
+5. Makes collections searchable through Elasticsearch in a schema used by [NameGraph](https://github.com/namehash/namegraph)
 
 The system also handles user-created collections, enriching them with the same metadata and making them discoverable alongside Wikipedia-derived collections.
 
@@ -32,9 +32,9 @@ Wikipedia [Category of Pink Floyd Albums](https://en.wikipedia.org/wiki/Category
 
 ## NameGraph [[Github]](https://github.com/namehash/namegraph)
 
-Built upon collections templates pipeline, NameGraph empowers ENS registrar apps to build new name discovery user experiences. Surf more than 21 million name ideas across more than 400,000 name collections, or generate infinite related name suggestions.
+Building on this collections templates pipeline, NameGraph empowers ENS registrar apps to build new name discovery user experiences. Surf more than 21 million name ideas across more than 400,000 name collections, or generate infinite related name suggestions.
 
-Visit NameGraph at [namegraph.dev](https://namegraph.dev) and shoot for the moon!
+Visit NameGraph at [namegraph.dev](https://namegraph.dev) and [shoot for the moon](https://www.namegraph.dev/collections?search=moon)!
 
 ![alt text](docs/media/namegraph-moon.png)
 

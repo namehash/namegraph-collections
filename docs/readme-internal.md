@@ -1,12 +1,12 @@
 # Collections Templates Pipeline
 
-A sophisticated Apache Airflow pipeline for creating and managing topic-based domain name collections enriched with metadata and semantic relationships.
+A sophisticated Apache Airflow pipeline for creating and managing topic-based name collections enriched with metadata and semantic relationships.
 
 ## Overview
 
-This project leverages the vast knowledge graph of Wikipedia and Wikidata to create a comprehensive network of meaningful domain name collections for the ENS ecosystem. By analyzing semantic relationships, categories, and metadata from these knowledge bases, we build thematic collections of domain names that are naturally related and contextually relevant.
+This project leverages the vast knowledge graph of Wikipedia and Wikidata to create a comprehensive network of meaningful name collections for the ENS ecosystem. By analyzing semantic relationships, categories, and metadata from these knowledge bases, we build thematic collections of names that are naturally related and contextually relevant.
 
-The system enables discovery of domain names through their real-world connections - whether they belong to the same category, share similar attributes, or are commonly associated together. This creates an intuitive way for users to explore and find meaningful domain names based on their interests and use cases.
+The system enables discovery of names through their conceptual connections - whether they belong to the same category, share similar attributes, or are commonly associated together. This creates an intuitive way for users to explore and find meaningful names based on their interests and use cases.
 
 ## 🌐 Wikipedia Pipeline DAGs
 
@@ -95,7 +95,7 @@ The system enables discovery of domain names through their real-world connection
 ---
 
 ### [🔀](airflow/dags/create_merged.py) Interesting Score Cache DAG
-   - Creates caches for normalized names and interesting scores
+   - Creates caches for normalized names and uses [NameAI](https://nameai.dev/) to calculate interesting scores
    - Processes unique list and category members
    - Uploads cache to S3 for reuse
 
@@ -126,14 +126,14 @@ The system enables discovery of domain names through their real-world connection
 
 The precompute-related-collections DAG generates and updates related collection recommendations by:
 
-1. Setting Up NameGenerator Service
-   - Clones latest NameGenerator repo from prod branch (`clone_name_generator_task`)
+1. Setting Up NameGraph Service
+   - Clones latest NameGraph repo from prod branch (`clone_name_generator_task`)
    - Launches service with required configs via Docker (`launch_name_generator_task`) 
    - Waits for service to be ready (`wait_for_name_generator_task`)
 
 2. Generating Related Collections (`generate_related_collections_task`)
    - Queries all collections from Elasticsearch
-   - For each collection, requests related recommendations from NameGenerator:
+   - For each collection, requests related recommendations from NameGraph:
      - Limits to 10 related collections per source
      - Enforces type diversity (max 2 per type) 
      - Uses name diversity ratio of 0.5
@@ -147,7 +147,7 @@ The precompute-related-collections DAG generates and updates related collection 
    - Handles failures gracefully with warnings
 
 4. Cleanup
-   - Stops NameGenerator service after processing (`stop_name_generator_task`)
+   - Stops NameGraph service after processing (`stop_name_generator_task`)
 
 The pipeline ensures collections have diverse, relevant recommendations while maintaining type variety. It runs on-demand to refresh recommendations as collections evolve.
 
@@ -155,7 +155,7 @@ The pipeline ensures collections have diverse, relevant recommendations while ma
 
 ## ✨ Custom Collections Pipeline DAG
 
-The custom collections pipeline processes user-created domain name collections, enriching them with metadata and loading them into Elasticsearch. The pipeline consists of the following steps:
+The custom collections pipeline processes user-created name collections, enriching them with metadata and loading them into Elasticsearch. The pipeline consists of the following steps:
 
 1. Download Input Data (Parallel)
    - Download custom collections JSONL from S3 (`download_custom_collections_task`)
