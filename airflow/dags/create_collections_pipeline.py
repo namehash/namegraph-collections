@@ -232,9 +232,9 @@ with DAG(
         )
     
     with TaskGroup('setup-environment') as setup_group:
-        remove_files_task = BashOperator(
+        remove_files_task = PythonOperator(
             task_id="remove-files",
-            bash_command=f"rm -rf {CONFIG.local_prefix}/*"
+            python_callable=remove_intermediate_files
         )
 
         remove_files_task.doc_md = dedent("""

@@ -7,7 +7,7 @@ from collections import defaultdict
 
 import multiprocessing
 from functools import wraps
-import jsonlines, regex, math, csv, random, time, sys, re
+import jsonlines, regex, math, csv, random, time, sys, re, os
 import numpy as np
 from tqdm import tqdm
 from rocksdict import AccessType, Rdict
@@ -381,7 +381,6 @@ def curate_name(collection_article: str):
 
 
 def compute_all_info(input, output, interesting_score_path, qrank_path, domains_path, auxiliary_data_path, wikimapper_path, force_normalize_path):
-    import os
     print(f"Current working directory: {os.getcwd()}")
     print(f"Attempting to open RocksDB at: {auxiliary_data_path}")
     try:
