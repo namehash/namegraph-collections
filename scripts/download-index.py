@@ -27,25 +27,24 @@ def export_to_jsonl():
                 'metadata.type': 'template'
             }
         },
-        'preserve_order': False
     }
     
     try:
         with jsonlines.open(filename, 'w') as writer:
             print(f"Starting export to {filename}")
             count = 0
-            
+
             # Scan through the index
             for doc in scan(es, index=os.getenv('ES_INDEX'), query=query):
                 writer.write(doc)
-                
+
                 count += 1
                 if count % 1000 == 0:
                     print(f"Exported {count} documents...")
-        
+
         print(f"Export complete. Total documents: {count}")
         print(f"File saved as: {filename}")
-        
+
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
