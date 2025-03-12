@@ -9,10 +9,10 @@ Q16917,hospital,health,985,🏥,💉,⚕,🚑,😷
 Q64578911,former hospital,health,119,🏥,💉,⚕,🚑,😷
 Q12136,disease,health,132,😷,🦟,🦠
 Q523,star,space,203,⭐,🌟,💫,✨,🔭
-Q6999,astronomical object,space,134,👽,☄,🔭,🚀,🛸,🪐,🧑‍🚀,🛰️
+Q6999,astronomical object,space,134,👽,☄,🔭,🚀,🛸,🪐,🛰️
 Q3863,asteroid,space,79,☄,🔭
-Q3305213,painting,art,1145,🧑‍🎨,🖌,🎨,🖼️
-Q17537576,creative work,art,150,🧑‍🎨,🖌
+Q3305213,painting,art,1145,🖌,🎨,🖼️
+Q17537576,creative work,art,150,🖌
 Q7725634,literary work,book,666,📖,📚
 Q571,book,book,579,📖,📚,📗,📘,📕,📙,📓,📔
 Q11032,newspaper,book,338,📰,🗞
@@ -29,14 +29,14 @@ Q2001305,television channel,film,100,📺,📡
 Q7889,video game,game,1337,🎮,👾,🕹,🦹,🦸,🏆,🏅,🥇,💯
 Q482994,album,music,29310,🎵,🎶,🎧,🔊,💿,📀,▶️
 Q1241356,record,music,108,🎵,🎶,🎧,🔊,💿,📀,▶️
-Q7366,song,music,8896,🎵,🎶,🎧,🔊,🎤,🧑‍🎤,▶️
+Q7366,song,music,8896,🎵,🎶,🎧,🔊,🎤,▶️
 Q105543609,musical work/composition,music,985,🎵,🎶,🎧,🔊,🎼,✍
 Q207628,composed musical work,music,111,🎵,🎶,🎧,🔊,🎼,✍
 Q134556,single,music,970,🎵,🎶,🎧,🔊,▶️
 Q14350,radio station,music,644,🎵,🎶,🎧,🔊,📻,📡,🎙
 Q1555508,radio program,music,99,🎵,🎶,🎧,🔊,📻,📡,🎙
-Q215380,musical group,music,499,🎵,🎶,🎧,🔊,👥,🧑‍🎤
-Q1573906,concert tour,music,408,🎵,🎶,🎧,🔊,🎟,🏟,🧑‍🎤
+Q215380,musical group,music,499,🎵,🎶,🎧,🔊,👥
+Q1573906,concert tour,music,408,🎵,🎶,🎧,🔊,🎟,🏟
 Q34379,musical instrument,music,305,🎵,🎶,🎧,🔊,🎼
 Q188451,music genre,music,181,🎵,🎶,🎧,🔊
 Q10590726,video album,music,176,🎵,🎶,🎧,🔊
@@ -76,10 +76,10 @@ Q386724,work,biz,242,📈,🏦,👔,🏢,💰,💸,🤑,💵,📊,🤝,🏬
 Q22687,bank,place - building - special,177,📈,🏦,👔,🏢,💰,💸,🤑,💵,📊,🤝,🏬
 Q43229,organization,group,623,👥,🏢,🤝,💁,🙋,🏬
 Q41710,ethnic group,group,99,👥,🌎,🌍,🌏,👪
-Q3914,school,school,579,🏫,🍎,🎓,🎒,✏,👩‍🏫,👨‍🎓
-Q3918,university,school,394,🏫,🍎,🎓,🎒,✏,👩‍🏫,👨‍🎓
-Q9826,high school,school,167,🏫,🍎,🎓,🎒,✏,👩‍🏫,👨‍🎓
-Q2385804,educational institution,school,112,🏫,🍎,🎓,🎒,✏,👩‍🏫,👨‍🎓
+Q3914,school,school,579,🏫,🍎,🎓,🎒,✏
+Q3918,university,school,394,🏫,🍎,🎓,🎒,✏
+Q9826,high school,school,167,🏫,🍎,🎓,🎒,✏
+Q2385804,educational institution,school,112,🏫,🍎,🎓,🎒,✏
 Q5,human,person,263178,🚶‍♂,🏃,👤,👥,🚹,🗣️,👋,🤚,🙂,😉,😊,💁,🙋
 Q95074,fictional character,person,2833,🚶‍♂,🏃,👤,👥,🚹,🗣️,👋,🤚,🙂,😉,😊,💁,🙋,🎭,🧙‍♂️,🥸,🦹,🕺
 Q121998,ambassador,person,129,👥,🌎,🌍,🌏,👤,🤝
@@ -113,8 +113,8 @@ Q26213387,Olympic delegation,sports,148,🏅,🌍,🏋️‍♂️,🏟️,🥇,
 Q7278,political party,politics / law,387,🌍,🌐,🏛️,🤝,🤵‍♂️,🗳
 Q213283,diplomatic mission,politics / law,355,🌍,🌐,🏛️,🤝,🤵‍♂️,🏳️
 Q14660,flag,politics / law,179,🌍,🌐,🏳️
-Q19692072,United States Supreme Court decision,politics / law,476,👨‍⚖,🏛️,⚖️,📜,🇺🇸
-Q4677783,Act of the Parliament of the United Kingdom,politics / law,127,👨‍⚖,🏛️,👑,🤴,🇬🇧
+Q19692072,United States Supreme Court decision,politics / law,476,🏛️,⚖️,📜,🇺🇸
+Q4677783,Act of the Parliament of the United Kingdom,politics / law,127,🏛️,👑,🤴,🇬🇧
 Q877358,United Nations Security Council resolution,politics / law,117,🌍,🌐,🏛️,🤝,🇺🇳
 Q858439,presidential election,politics / law,121,✅,☑,🗳
 Q43109,referendum,politics / law,114,✅,☑,🗳
@@ -140,7 +140,7 @@ Q11315,shopping center,place,108,🛒,🛍,🏪,🏬
 Q38720,windmill,place,106,🌬️,🌀
 Q811979,architectural structure,place - building,3563,📐,👷,🏗️,🧱,🔨,📏
 Q41176,building,place - building,2411,📐,👷,🏗️,🧱,🔨,📏
-Q33506,museum,place - building - special,563,🏛️,📖,🧑‍🎨,🖌,🎨,🖼️
+Q33506,museum,place - building - special,563,🏛️,📖,🖌,🎨,🖼️
 Q159719,power station,place - building - special,235,🔌,🔋,💡,🏭
 Q23413,castle,place - building - special,208,🏰,⚔️,👑,🤴,🐉
 Q515,city,place - city,1380,🌆,🌃,📍,🏠,🏢,🏬,🏘️,🏡

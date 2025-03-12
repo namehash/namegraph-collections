@@ -264,7 +264,7 @@ def force_normalize_member(member: Member, is_pretokenized: bool = False) -> Opt
 
 def prepare_custom_collection(
         collection_json: dict,
-        inspector: Inspector,
+        namerank: NameRank,
         domains: dict[str, str],
         interesting_score_function: Any,
         force_normalize_function: Any,
@@ -378,7 +378,7 @@ def prepare_custom_collection(
             'votes': [],
             'duplicated-from': '',
             'members_count': len(collection.members),
-            'collection_name_log_probability': inspector.ngrams.sequence_log_probability(
+            'collection_name_log_probability': namerank.nlp_inspector.ngrams.sequence_log_probability(
                 collection.name.lower().split(' ')
             ),
         },
@@ -435,7 +435,7 @@ def prepare_custom_collections(
     GlobalHydra.instance().clear()
     initialize_config_module(version_base=None, config_module='inspector_conf')
     config = compose(config_name="prod_config")
-    inspector = Inspector(config)
+    namerank = NameRank()
 
     domains = read_csv_domains(domains_path)
     interesting_score_function = configure_interesting_score(inspector, interesting_score_path)
@@ -447,7 +447,7 @@ def prepare_custom_collections(
         for collection_json in reader:
             prepared_collection = prepare_custom_collection(
                 collection_json=collection_json,
-                inspector=inspector,
+                namerank=namerank,
                 domains=domains,
                 interesting_score_function=interesting_score_function,
                 force_normalize_function=force_normalize,
